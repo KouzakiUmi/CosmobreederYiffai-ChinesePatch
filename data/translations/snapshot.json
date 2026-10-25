@@ -1,0 +1,23 @@
+{
+  "schema": 1,
+  "version": "alpha0.1",
+  "kind": "public-authoring-snapshot-not-build-ledger",
+  "source_baseline": "r27-story12-shaderfix-test5",
+  "counts": {
+    "units": 8973,
+    "nonempty_drafts": 8146,
+    "untranslated": 827,
+    "merged_groups": 956
+  },
+  "removed_fields": [
+    "private provenance paths",
+    "review/model handoff notes",
+    "nested original-source/context inputs",
+    "original expected text"
+  ],
+  "files": {
+    "zh-CN.jsonl": "40ab95cf68f9c49c40fd030280d5cba9ec34cb3aace46309f7abe69ad8176f4c",
+    "dialogue-joins.jsonl": "ce0e702c2a820f412e2e5712efcfb93ebc995b90dc12799d9ba78b47854d6c87",
+    "layout-short-overrides.jsonl": "1963b58d01c14a623b024272952a5f17a546335fa1af4e4264c7aa95672c452b"
+  }
+}

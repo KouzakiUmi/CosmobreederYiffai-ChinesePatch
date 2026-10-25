@@ -1,0 +1,24 @@
+Cosmobreeder Yiffai Chinese Patch — alpha0.1
+
+Unofficial Simplified Chinese fan patch. Not affiliated with or endorsed by
+the original game's creators. The original game and its code, text, artwork,
+sounds and original bitmap font components remain the property of their
+respective rightsholders. A legitimately obtained matching original game is
+required. This distribution is a source-dependent delta patch, not a game.
+
+The project's original code, documentation and tooling are provided under the
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+license (CC BY-NC-SA 4.0); see LICENSE. Non-commercial use and sharing only,
+and adaptations must be shared under the same license. That license must not
+be interpreted as relicensing the game or translation's underlying content.
+This alpha is incomplete, unsigned and provided without warranty.
+
+The native 12px Chinese font contribution is derived from Fusion Pixel Font,
+release 2026.10.16, by TakWolf and its credited upstream contributors, under
+the SIL Open Font License 1.1 and the component licenses supplied in
+licenses/fonts/. The patch does not redistribute a standalone combination
+font containing the original game's ASCII bitmap. Original bitmap components
+are reconstructed only from the user's matching original game and remain
+under their original terms.
+
+See THIRD_PARTY_NOTICES.md for sources and license scope.
