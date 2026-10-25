@@ -24,6 +24,8 @@
 | 运行要求 | 独立 EXE 无需 Python；Python 运行版需要 Python 3.12 |
 | 翻译进度 | 译文快照 8,973 条，其中 8,146 条有草稿、827 条尚未翻译 |
 
+---
+
 ## alpha0.1 更新（2026-10-25）
 
 首个公开源码与差分安装器版本。
@@ -109,8 +111,6 @@ python -m cosmobreeder_patch --licenses
 
 ---
 
----
-
 ## 🛠️ 技术细节
 
 ### 差分为什么依赖原文件
@@ -157,10 +157,12 @@ python -m cosmobreeder_patch --licenses
 
 差分封装构建需要本地持有：`backup/` 内的原版两文件、`localization/builds/r27-story12-shaderfix-test5/` 的冻结目标，以及仅在构建独立 EXE 时需要的 PyInstaller（本次 6.19.0）。输出目录必须尚不存在。
 
-```cmd
-python tools/build_alpha_release.py                       :: 仅差分 + Python 运行版 zip
-python tools/build_alpha_release.py --exe --output dist/alpha0.1   :: 追加 Windows 独立 EXE
-PYTHONPATH=src python -m unittest discover -s tests/release -v
+```sh
+# 默认输出 dist/alpha0.1；输出目录已存在时会拒绝构建，重建前先移走旧目录
+python tools/build_alpha_release.py          # 差分 + Python 运行版 zip
+python tools/build_alpha_release.py --exe    # 同上并追加 Windows 独立 EXE
+
+python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 ```
