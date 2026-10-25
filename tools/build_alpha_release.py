@@ -69,7 +69,7 @@ def main():
                         '--workpath', str(work / 'work'), '--specpath', str(work / 'spec'),
                         str(ROOT / 'src/cosmobreeder_patch/__main__.py')], check=True)
     lines = [sha(f) + '  ' + f.relative_to(a.output).as_posix() for f in sorted(a.output.rglob('*')) if f.is_file()]
-    (a.output / 'SHA256SUMS').write_text('\n'.join(lines) + '\n', 'utf-8')
+    (a.output / 'SHA256SUMS').write_text('\n'.join(lines) + '\n', 'utf-8', newline='\n')
     print(json.dumps(m, indent=2))
 
 if __name__ == '__main__':
