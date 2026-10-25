@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cosmobreeder-yiffai-chinese-patch"
+version = "0.1.0a1"
+description = "Unofficial Simplified Chinese source-dependent delta patch installer"
+readme = "README.md"
+requires-python = ">=3.12"
+license = {file = "LICENSE"}
+authors = [{name = "CosmobreederYiffai-ChinesePatch contributors"}]
+dependencies = []
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Programming Language :: Python :: 3",
+  "Operating System :: Microsoft :: Windows",
+]
+
+[project.optional-dependencies]
+build = ["pyinstaller==6.19.0"]
+
+[project.scripts]
+cosmobreeder-cn = "cosmobreeder_patch.__main__:main"
+
+[project.urls]
+Repository = "https://github.com/KouzakiUmi/CosmobreederYiffai-ChinesePatch"
+Issues = "https://github.com/KouzakiUmi/CosmobreederYiffai-ChinesePatch/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
