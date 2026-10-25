@@ -48,7 +48,7 @@ def main():
         check = a.output / (n + '.reconstruction-check')
         apply(a.source / n, payload / e['delta'], check, e)
         check.unlink()  # Only our newly created verification output.
-    (payload / 'manifest.json').write_text(json.dumps(m, indent=2) + '\n', 'utf-8')
+    (payload / 'manifest.json').write_text(json.dumps(m, indent=2) + '\n', 'utf-8', newline='\n')
     with zipfile.ZipFile(a.output / 'CosmobreederYiffai-alpha0.1-python.zip', 'w', zipfile.ZIP_DEFLATED) as z:
         for f in (ROOT / 'src/cosmobreeder_patch').glob('*.py'):
             z.write(f, 'cosmobreeder_patch/' + f.name)
