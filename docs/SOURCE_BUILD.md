@@ -19,8 +19,8 @@ alpha0.1 的公开交付目标是**自有补丁源码、经审核的翻译数据
 | [Java 测试](<../localization/layout/tests/>)、[Python 测试](<../localization/tests/>)中的测试源码 | 审核后公开；有真实游戏输入依赖的测试须明确分组，不把缺夹具跳过当通过 |
 | [旧打包源码](<../localization/packaging/>)中的 `.py`、`.spec` | 可作历史实现参考，须核对硬编码路径；不收录 payload、build、dist、二进制或生成 manifest |
 | [依赖声明](<../localization/requirements.txt>)、本说明及经过筛审的技术文档 | 可以逐文件纳入；依赖声明尚不足以复现旧完整 EXE 构建 |
-| [翻译数据目录](<../localization/translations/>) | 有条件纳入：译文贡献与原游戏原文不是同一授权范围，须先做数据级审核，不能只看扩展名 |
-| [字体许可](<../localization/runtime/LICENSE-FusionPixel-OFL.txt>)、[字体声明](<../localization/runtime/NOTICE.txt>)、[字体元数据](<../localization/runtime/font-license-metadata.json>) | 可保留上游许可与归属说明；核验元数据后纳入。不因此允许公开组合纹理或原游戏字形 |
+| `localization/translations/`（本地保留，不随仓库公开） | 有条件纳入：译文贡献与原游戏原文不是同一授权范围，须先做数据级审核，不能只看扩展名 |
+| `localization/runtime/` 下的字体许可、字体声明与字体元数据（本地保留，不随仓库公开） | 可保留上游许可与归属说明；核验元数据后纳入。不因此允许公开组合纹理或原游戏字形 |
 
 新的 [alpha 独立包源码](<../src/cosmobreeder_patch/>)、[delta builder](<../tools/build_alpha_release.py>)、发布测试及格式说明应纳入最小公开 allowlist。独立安装器消费已下载的差分负载，不依赖 catalog、runtime、历史 r21 或研究缓存。源码盘点在其并发落地之前完成，故本地清单中的 99 个历史源码候选不含这组新文件。
 
@@ -43,13 +43,13 @@ alpha0.1 的公开交付目标是**自有补丁源码、经审核的翻译数据
 
 | 文件 | 当前结构与发布风险 |
 |---|---|
-| [zh-CN.jsonl](<../localization/translations/zh-CN.jsonl>) | 8,973 条；8,146 `draft`、827 `untranslated`；8,146 条非空 draft，正式 translation 字段均为空。包含稳定 ID、原文哈希、审校状态与来源路径；草稿不代表全量精校或实机验收 |
-| [dialogue-joins.jsonl](<../localization/translations/dialogue-joins.jsonl>) | 956 组合句；包含 inputs、原资源身份、物理位置及 merged_translation；需审核嵌套输入与上下文是否携带原文 |
-| [jar-variant.jsonl](<../localization/translations/jar-variant.jsonl>) | 158 条；含 `source`、`translation`、变体、entry；不能宣称是无原文的纯译文表 |
-| [layout-short-overrides.jsonl](<../localization/translations/layout-short-overrides.jsonl>) | 1 条；含 expected_r21、replacement、来源身份；属于依赖旧基线的覆写输入 |
-| [dialogue-join-coverage.json](<../localization/translations/dialogue-join-coverage.json>) | 合句覆盖证据；作为候选数据单独审核，不能以 JSON 后缀直接放行 |
+| `zh-CN.jsonl` | 8,973 条；8,146 `draft`、827 `untranslated`；8,146 条非空 draft，正式 translation 字段均为空。包含稳定 ID、原文哈希、审校状态与来源路径；草稿不代表全量精校或实机验收 |
+| `dialogue-joins.jsonl` | 956 组合句；包含 inputs、原资源身份、物理位置及 merged_translation；需审核嵌套输入与上下文是否携带原文 |
+| `jar-variant.jsonl` | 158 条；含 `source`、`translation`、变体、entry；不能宣称是无原文的纯译文表 |
+| `layout-short-overrides.jsonl` | 1 条；含 expected_r21、replacement、来源身份；属于依赖旧基线的覆写输入 |
+| `dialogue-join-coverage.json` | 合句覆盖证据；作为候选数据单独审核，不能以 JSON 后缀直接放行 |
 
-本地 [旧项目说明](<../localization/README.md>) 的 3,884 初稿进度已不代表上述权威数据快照；其中本机绝对路径和全量资源项目说明也不应原样充当公开根 README。
+本地 `localization/README.md`（本地保留，不随仓库公开） 的 3,884 初稿进度已不代表上述权威数据快照；其中本机绝对路径和全量资源项目说明也不应原样充当公开根 README。
 
 ## 两条构建链
 

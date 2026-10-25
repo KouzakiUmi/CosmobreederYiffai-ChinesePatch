@@ -19,7 +19,7 @@
 | 游戏引擎 | Java 17 + 自带 Temurin JRE 17.0.6；libGDX 混淆于 `PRG/*`，另有 Scala 3 / FMOD / Steamworks4J |
 | 基线校验 | `cosmobreeder-multi.jar` 的 sha256 `cd37e445...`；官方补丁档另校验 `patch.pak` `2f9da7d4...`，不匹配拒绝写入 |
 | 发行基线 | `r27-story12-shaderfix-test5` |
-| 载荷 | 2 个源依赖差分：`cosmobreeder-multi.jar`（44.8MB → 45.6MB）、可选 `patch.pak`（12.5MB） |
+| 载荷 | 2 个源依赖差分：`cosmobreeder-multi.jar`（44.8MB → 45.6MB）、可选 `patch.pak`（12.5MB → 13.3MB） |
 | 当前版本 | alpha0.1（预发行 · 未签名） |
 | 运行要求 | 独立 EXE 无需 Python；Python 运行版需要 Python 3.12 |
 | 翻译进度 | 译文快照 8,973 条，其中 8,146 条有草稿、827 条尚未翻译 |
@@ -39,7 +39,7 @@
 
 ## 📥 下载与安装
 
-从 [alpha0.1 预发行页](<https://github.com/KouzakiUmi/CosmobreederYiffai-ChinesePatch/releases/tag/alpha0.1>) 下载 **Windows 独立安装器**，或下载 **Python 运行版 ZIP**。
+从 [alpha0.1 预发行页](https://github.com/KouzakiUmi/CosmobreederYiffai-ChinesePatch/releases/tag/alpha0.1) 下载 **Windows 独立安装器**，或下载 **Python 运行版 ZIP**。
 
 1. **完全退出游戏**，自行备份存档。
 2. 如果装过 r23–r27 等旧测试版，先使用对应旧安装器「卸载 / 还原」；**不要强制覆盖未知文件**。
@@ -73,7 +73,7 @@ python -m cosmobreeder_patch --licenses
 
 > 💡 兜底方案：Steam → 游戏属性 → 已安装文件 → 验证文件完整性；补丁的专属备份位于游戏根目录，可用于人工还原。
 
-差分格式细节见 [差分与恢复边界](<docs/DELTA_FORMAT.md>)。
+差分格式细节见 [差分与恢复边界](docs/DELTA_FORMAT.md)。
 
 ---
 
@@ -89,21 +89,25 @@ python -m cosmobreeder_patch --licenses
 | 道具名称 / 说明 | classic8 字体 |
 | 存档界面 | 保留原布局，不重排 |
 
+---
+
 ## 📁 目录结构
 
 | 目录 / 文件 | 内容 |
 | --- | --- |
-| [src/cosmobreeder_patch](<src/cosmobreeder_patch/>) | 自包含差分协议、安装 / 备份 / 还原、CLI 与 Tk GUI |
-| [tools](<tools/>) | alpha 发行构建（差分、EXE、清单、SHA256SUMS）与去私有溯源字段的译文快照导出 |
-| [tests/release](<tests/release/>) | 合成夹具单测及可选真实归档集成测试 |
-| [data/translations](<data/translations/>) | 去除本机路径与原文上下文的译文贡献快照，不是历史全量构建 ledger |
-| [localization/layout/src](<localization/layout/src/>) | 自有 Java 布局与字体适配器源码 |
-| [localization/layout/tools](<localization/layout/tools/>) | 历史布局补丁 / 构建源码，需额外本地输入 |
-| [localization/tools](<localization/tools/>) | 提取、来源身份、翻译与字体研究工具源码 |
-| [docs](<docs/>) | 差分格式、源码构建边界、alpha 发行说明 |
-| [licenses](<licenses/>) | 字体与安装器运行时完整许可文本 |
+| [src/cosmobreeder_patch](src/cosmobreeder_patch/) | 自包含差分协议、安装 / 备份 / 还原、CLI 与 Tk GUI |
+| [tools](tools/) | alpha 发行构建（差分、EXE、清单、SHA256SUMS）与去私有溯源字段的译文快照导出 |
+| [tests/release](tests/release/) | 合成夹具单测及可选真实归档集成测试 |
+| [data/translations](data/translations/) | 去除本机路径与原文上下文的译文贡献快照，不是历史全量构建 ledger |
+| [localization/layout/src](localization/layout/src/) | 自有 Java 布局与字体适配器源码 |
+| [localization/layout/tools](localization/layout/tools/) | 历史布局补丁 / 构建源码，需额外本地输入 |
+| [localization/tools](localization/tools/) | 提取、来源身份、翻译与字体研究工具源码 |
+| [docs](docs/) | 差分格式、源码构建边界、alpha 发行说明 |
+| [licenses](licenses/) | 字体与安装器运行时完整许可文本 |
 
 历史全量构建依赖本地 r21 中间归档、组合字体、提取语料与历史夹具；**公开源码目前不能从干净克隆一键重建完整 r27 目标**。alpha 差分封装可从维护者提供的本地原始归档与冻结目标重现；独立安装器消费已下载的差分负载，不需要研究缓存。不要把两条构建链混为一谈。
+
+---
 
 ---
 
@@ -147,9 +151,11 @@ python -m cosmobreeder_patch --licenses
 
 中文标点全角；译文以草稿为主，**草稿不等于审校批准**。
 
+---
+
 ## ⚙️ 构建与发布（维护者）
 
-差分封装构建需要本地持有：`backup/` 内的原版两文件、`localization/builds/r27-story12-shaderfix-test5/` 的冻结目标，以及 PyInstaller（本次 6.19.0）。输出目录必须尚不存在。
+差分封装构建需要本地持有：`backup/` 内的原版两文件、`localization/builds/r27-story12-shaderfix-test5/` 的冻结目标，以及仅在构建独立 EXE 时需要的 PyInstaller（本次 6.19.0）。输出目录必须尚不存在。
 
 ```cmd
 python tools/build_alpha_release.py                       :: 仅差分 + Python 运行版 zip
@@ -163,6 +169,8 @@ CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest 
 
 发布采用**新增** Release 的方式，不覆盖历史版本。版本历史见 [Releases](../../releases)。
 
+---
+
 ## ⚠️ 版权与许可
 
 - **原作者**：游戏《Cosmobreeder Yiffai》及其原版代码、美术、音频、剧情、文本与原有位图字体，权利均归原权利人所有；本项目与原游戏作者、发行方无隶属或背书关系。
@@ -170,7 +178,7 @@ CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest 
 - **非营利**：仅限非营利目的使用与分享，严禁用于商业用途；演绎作品须沿用同一许可。
 - **翻译数据**：译文贡献与原游戏原文不是同一授权范围，项目许可不得解释为对原游戏内容的再许可。
 
-**字体**：新增中文字体贡献来自 [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font) 2026.10.16 的 12px 版本，按 **SIL OFL 1.1** 分发，上游组件许可随包提供（见 [NOTICE](<NOTICE>) 与 [第三方声明](<THIRD_PARTY_NOTICES.md>)）。组合字体中仍含原游戏 ASCII 位图的部分不单独发布。
+**字体**：新增中文字体贡献来自 [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font) 2026.10.16 的 12px 版本，按 **SIL OFL 1.1** 分发，上游组件许可随包提供（见 [NOTICE](NOTICE) 与 [第三方声明](THIRD_PARTY_NOTICES.md)）。组合字体中仍含原游戏 ASCII 位图的部分不单独发布。
 
 **许可证**：[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans)（全文见 [LICENSE](LICENSE)）。
 
