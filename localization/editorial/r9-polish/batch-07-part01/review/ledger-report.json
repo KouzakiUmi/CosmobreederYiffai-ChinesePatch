@@ -1,0 +1,60 @@
+{
+ "batch": "batch-07-part01",
+ "decisions": 38,
+ "applied": 32,
+ "operations": 32,
+ "targets": 7,
+ "per_resource": [
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/161",
+   "before_resource_sha256": "063fe0b2deac860f9dc8eb4112be813b7f79e0afe349c9300cae26e781903393",
+   "after_resource_sha256": "0286b32105e3a9db9b8bfde6845853301eb5e0d00cd4de61da7c8a3a354f0415",
+   "targets_changed": 6
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/173",
+   "before_resource_sha256": "d6896169d4b581be0015543f73e76d317b4be7ab5eabe49a5a4294404149bed5",
+   "after_resource_sha256": "4b34f20cee5ea3cd1111b9d313165c2221584ac1283fb21cc2968db1e49d92f5",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/179",
+   "before_resource_sha256": "15cef84cc8d928b429cdc6a9268fddc229e7cb102483a2f0dc78b8831677fcb3",
+   "after_resource_sha256": "2eaf03af6970fbd687ec2b9185bf32e1bf2df14b68399f843257246754f42c44",
+   "targets_changed": 4
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/359",
+   "before_resource_sha256": "81bb070ad1228518fcd130a1ba3d23322f76e17b5ca1d52f92016eb2b2713a46",
+   "after_resource_sha256": "0d576e4367907de3d40dbdbd77ba31c87bc7f8f7f547c0af94e121fa17510745",
+   "targets_changed": 4
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/371",
+   "before_resource_sha256": "c07157cb6f3f12e38e9e2764886db0da5cd9a0bf020fb5b6854ccf90cb24be4e",
+   "after_resource_sha256": "e5c5149b805f14e614eacdfbe99cb048e0e88cfe0eb3f7136ffb7ddf7408c0de",
+   "targets_changed": 7
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/389",
+   "before_resource_sha256": "f3fe17d9a733b3bbb1c9b1bee34c7e731982633745b48373fdb460a7e0be9c06",
+   "after_resource_sha256": "3c19ffd0eeb18677a9e1425829d285267bd692daa1fcb01d2146952e2a7a49b5",
+   "targets_changed": 7
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/395",
+   "before_resource_sha256": "2fcd8c95ccbea14268e324ee22af5a0900d8409a8ca592b04fca8fb0e44244d9",
+   "after_resource_sha256": "5123b914dc6f9ec384967a1dad41b9ee570a681a2cdd7ddfc96ac504fb535989",
+   "targets_changed": 1
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-07-part01-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate24"
+}

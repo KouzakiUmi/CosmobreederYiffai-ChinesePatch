@@ -125,6 +125,17 @@
     "../../../editorial/r9-polish/batch-06-part03/review/build-gate.json",
     "../../../editorial/r9-polish/batch-06-part03/review/decisions.tsv"
    ]
+  },
+  {
+   "batch": "batch-07-part01",
+   "ledger": "localization/translations/editorial-r9-batch-07-part01-repairs.jsonl",
+   "gate": "localization/editorial/r9-polish/batch-07-part01/review/build-gate.json",
+   "decisions": "localization/editorial/r9-polish/batch-07-part01/review/decisions.tsv",
+   "required_data": [
+    "../../../translations/editorial-r9-batch-07-part01-repairs.jsonl",
+    "../../../editorial/r9-polish/batch-07-part01/review/build-gate.json",
+    "../../../editorial/r9-polish/batch-07-part01/review/decisions.tsv"
+   ]
   }
  ],
  "required_chars": []
