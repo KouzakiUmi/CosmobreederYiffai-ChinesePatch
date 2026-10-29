@@ -1,0 +1,16 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P06a-104	gemini	A	gameplay	SCde8682ffd4c1a8db	CAT:O48ed0e32b742e8e4575a	apply	  Tomcat: [他说这和其他能力一样，按 UP+ATTACK 就能发动。]	`UP+ATTACK` 是按键名，硬约束要求原样保留；本行把 ATTACK 译成「攻击」并给两端加双引号，而同批其它行、全库多数行都作 UP+ATTACK。只改按键这一处，句子其余部分不动。
+gemini:P06a-103	gemini	B	term	SC5e0cdd319089fe83	SFWf2ae993f4008c4fe8ec96060	apply	  Tomcat: [那是瓶奶油，不知道那只科博德为什么带着，]	KOBO 旧译「狗头人」残留。全库 99 处作「科博德」，batch-02 已把同 root 四处改为「科博德」，本行是同类残留。
+ds:P06a-S2-101	ds	B	term	SC0103ab5223453e39	SFW7681d0615a920c287412c31c	reject		与本表 gemini:P06a-103 同一行同一处（狗头人→科博德）已落地。本条另主张把「小狗狗」改「小狗崽」，但这两句是雄猫对不同道具的招呼语，全库「小狗崽」40 处、「小狗狗」14 处本就并存，不是同一词条的两种写法，改它属于风格偏好，不作术语修正。
+ds:P06a-S2-104	ds	B	term	SC5e0cdd319089fe83	SFWf2ae993f4008c4fe8ec96060	reject		与本表 gemini:P06a-103 同一行同一处（狗头人→科博德），两路同报，已按 gemini 条落地。
+ds:P06a-S2-103	ds	B	meaning	SCfd4d78fd0a3514ea	CAT:Odc34cac63219e58a3b8e	apply	  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，肯定能卖出顶级LECT价！]	原文 IT'D COMMAND TOP LECT 说的是这奶酪**能卖出**顶级价，现译「那可得花一大笔 LECT 才能买到」把卖价说成买价，方向反了。男线同句另一场（SC1ab56d6909194ab4，CAT:O6030524ddeff17e10ddb）已作「肯定能卖一大笔 LECT」，此处与之对齐。
+ds:P06a-S1-102	ds	C	format	SC60ed91a511e551d2	CAT:Od81753aa11063247cc2d	apply	  Tomcat: [就算你进 P.A.W. 子菜单看卡片数据时，也得先看到正面……]	终端设备名 `P.A.W.` 带句点；全库 126/135 带点，本批多处也带点，此行漏了。只补一个点。
+ds:P06a-S1-101	ds	C	meaning	SC60ed91a511e551d2	CAT:O889386a659b0a2ebef46	reject		主张把「卡片正面还是哪儿」改成「还是什么」。原句「是正面还是哪儿」在中文里是可读的口语选择问句，改后反而更生硬；属风格偏好，不作修正。
+ds:P06a-S2-102	ds	B	idiom	SC87a1127b4e5bcb85	SFWbab6b8f92caf8ad2e5c0460c	reject		主张把「一个白热的光点」改成「白得发烫的光点」。WHITE HOT 在此是扫描仪显示上的白炽点，「白热」是既有译法且读得通；改后把物理描述换成触觉比喻，属风格偏好。
+ds:P06a-S2-105	ds	B	format	SCc7481298bbab9c25	CAT:O67237cbed657a20797a4	apply	  Tomcat: [你捡到的那块瓜，分量可真足。]	本行是完整独立陈述而句末无标点；下一行「吃完这么大一块……」是另起一句（英文 AFTER GORGING ON THAT... 亦另起），不补会把两句黏成一句。
+ds:P06a-S2-106	ds	B	format	SCe1a779c61c9843af	CAT:O0277ff5d9be0988bd1b9	apply	  Tomcat: [你现在手里拿的，可是严重违禁品。]	「……严重违禁品」句末缺标点，直接接下一行「这是黑市生物加密货币」，读起来像一句没说完的话被掐断；补句号恢复「定罪→解释是什么」两步递进。
+ds:P06a-S2-107	ds	B	term	SCe1a779c61c9843af	CAT:O5235f0bf107f29edd815	apply	  Mauser: [放轻松，执行绝密欧米茄协议任务的特工有权动用手头的一切手段，就算这些手段……通常不合法也一样。]	同一个 OMEGA 词素在库内两种写法：词典条目名作「欧米茄」（欧米茄哥布林，词典 13 处），协议名却作「欧米伽」（仅 3 处）。全库「欧米茄」22 处对「欧米伽」3 处。按条目名与多数写法定为「欧米茄」。
+gemini:P06a-101	gemini	B	format	SCcf94f585c1e0205e	SFWfbb3a40e26235475f2eb0739	reject		主张把 PUPLOCK 音译成「帕普洛克船长」。全库仅此一处、词典无条目；PUPLOCK 是 pup（小狗）＋ Captain Harlock 的双关，音译会把 pup 那层丢掉，而那是笑点本身。已转为留置 R9M-901，与本批改动一并等待创译裁决。
+gemini:P06a-102	gemini	B	term	SC77c24f0ada1e4704	SFWc8955b6c8cb045aa7ccda44a	apply	  Tomcat: [你看见什么了，鬼，还是科博德，还——]	KOBO 旧译「狗头人」残留，同 P06a-103；本行原文 KOBOLD 与上一处 KOBO 是同一词，一并改为「科博德」。
+R9M-901	R9M	B	term	SCcf94f585c1e0205e	SFWfbb3a40e26235475f2eb0739	hold		`PUPLOCK` 全库仅此一处，词典无条目。它是 pup（小狗）＋ Captain Harlock（宇宙海盗哈洛克）的双关，Gemini 主张音译「帕普洛克船长」，但音译会把 pup 这一层丢掉，而这一层正是笑点；保留英文又违反「正文不残留英文实词」。需与 LIGHTTAZER 一并做创译裁决，本批不改动。
+R9M-902	R9M	B	gameplay	SCde8682ffd4c1a8db	CAT:O48ed0e32b742e8e4575a	hold		UP+ATTACK 被译成「UP+攻击」，全库共 5 处（含本批已改的 1 处与 batch-06-part02 已改的 1 处）。其余分布在各区 root，不在本批范围，登记待后续批次一并归位。
