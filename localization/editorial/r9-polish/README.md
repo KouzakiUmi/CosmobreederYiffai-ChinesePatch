@@ -35,6 +35,15 @@
 | batch-04 | `Mauser` | 81 | 871 | 58,922 | 已并入 candidate16 |
 | batch-05 | `BossuDex`（图鉴） | 149 | 1,253 | 83,198 | 分 3 个 part，依次并入 candidate17／19／18 |
 | batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part，依次并入 candidate20／19／23／21（最终 candidate24） |
+| batch-07 | `vsn/*` 结局与开场（结局与平行版本） | — | 705 | — | 分 2 个 part，审校中 |
+| batch-08 | `vsn/*` 剧情场景脚本 | 78 | 2,356 | 197,641 | 待拆约 5 个 part |
+| batch-09 | 区域场景与条件分支（关卡救援与分支） | 913 | 1,597 | 115,212 | 待拆约 4 个 part |
+| batch-10 | 界面与系统文本（UI 与其他） | 295 | 1,159 | 50,366 | 待拆约 3 个 part |
+| batch-11 | 其余零散条目（风格与文笔） | 109 | 505 | 24,187 | 约 1 个 part |
+
+批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。
+
+batch-07 及以后尚未全部出工单：`ORDER.md` 与 `reference-excerpt.md` 需按批手写（模板见 `batch-07-part01/orders/`），`reader.md` 与 `.json` 由 `build_batch.py` 生成。
 
 每批工单在 `batch-NN/orders/`：`ORDER.md`（规范）· `batch-NN.reader.md`（正文）· `batch-NN.json`（结构化）· `reference-excerpt.md`（本批人物与术语摘录，按批重写）。
 
