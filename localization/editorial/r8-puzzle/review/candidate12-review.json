@@ -1,0 +1,304 @@
+{
+  "schema": "cosmo-editorial-r8-candidate-review/v1",
+  "status": "PASS_STATIC_AND_CPU_NOT_REAL_MACHINE",
+  "candidate": "localization/builds/r8-puzzle-candidate12",
+  "archives_sha256": {
+    "cosmobreeder-multi.jar": "d270ccdb8ec6dae61ca5aefbadf2452b5fcd3bdf0700cbaf11fbd3dbfea5e7c9",
+    "patch.pak": "1913f38f2c30863483ec40c0225b514f9dd02f15ee65a46d45ebda88a003b20a"
+  },
+  "build_manifest_sha256": "de6ee80d79fa01d856b111f89f1a2d60a39d43753485e16d263b5716b99f7c74",
+  "tests_results_sha256": "9560e77501d9d39f82d4d834a081dbc091a0521716963bd8d5dd8838b0bc5f48",
+  "ledger_sha256": "be221e66d5ee0bfd10607a0946ee04aeb5e5e764a43f244637ee63ed0d05fb15",
+  "checks": [
+    {
+      "name": "build.status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.full_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.r8",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.pins",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "r8.applied",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "font.glyph_lin",
+      "passed": true,
+      "detail": 37051
+    },
+    {
+      "name": "font.classic_glyph_lin",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.cosmobreeder-multi.jar.entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.patch.pak.entries",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.text",
+      "passed": true,
+      "detail": [
+        [
+          "cosmobreeder-multi.jar",
+          "datav/1"
+        ],
+        [
+          "patch.pak",
+          "datav/1"
+        ]
+      ]
+    },
+    {
+      "name": "diff.font_only",
+      "passed": true,
+      "detail": [
+        [
+          "cosmobreeder-multi.jar",
+          "PRG/DialogueWrap.class"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "PRG/EndingReportLayout.class"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "PRG/StoryFont12.class"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "PRG/SubtitleLayout.class"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "bbc2.fnt"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "classic.fnt"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "dataq/6"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/bbc2.fnt"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/bbc2.png"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/classic.fnt"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/classic.png"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/manifest.json"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "r28-font/story12.fnt"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "story12.fnt"
+        ],
+        [
+          "patch.pak",
+          "bbc2.fnt"
+        ],
+        [
+          "patch.pak",
+          "classic.fnt"
+        ],
+        [
+          "patch.pak",
+          "dataq/6"
+        ],
+        [
+          "patch.pak",
+          "r28-font/bbc2.fnt"
+        ],
+        [
+          "patch.pak",
+          "r28-font/bbc2.png"
+        ],
+        [
+          "patch.pak",
+          "r28-font/classic.fnt"
+        ],
+        [
+          "patch.pak",
+          "r28-font/classic.png"
+        ],
+        [
+          "patch.pak",
+          "r28-font/manifest.json"
+        ],
+        [
+          "patch.pak",
+          "r28-font/story12.fnt"
+        ],
+        [
+          "patch.pak",
+          "story12.fnt"
+        ]
+      ]
+    },
+    {
+      "name": "tests.status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tests.steps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tests.binding",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "changed_entries": [
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/DialogueWrap.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/EndingReportLayout.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/StoryFont12.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/SubtitleLayout.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "bbc2.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "classic.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "dataq/6"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "datav/1"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/bbc2.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/bbc2.png"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/classic.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/classic.png"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/manifest.json"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/story12.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "story12.fnt"
+    ],
+    [
+      "patch.pak",
+      "bbc2.fnt"
+    ],
+    [
+      "patch.pak",
+      "classic.fnt"
+    ],
+    [
+      "patch.pak",
+      "dataq/6"
+    ],
+    [
+      "patch.pak",
+      "datav/1"
+    ],
+    [
+      "patch.pak",
+      "r28-font/bbc2.fnt"
+    ],
+    [
+      "patch.pak",
+      "r28-font/bbc2.png"
+    ],
+    [
+      "patch.pak",
+      "r28-font/classic.fnt"
+    ],
+    [
+      "patch.pak",
+      "r28-font/classic.png"
+    ],
+    [
+      "patch.pak",
+      "r28-font/manifest.json"
+    ],
+    [
+      "patch.pak",
+      "r28-font/story12.fnt"
+    ],
+    [
+      "patch.pak",
+      "story12.fnt"
+    ]
+  ],
+  "installed": false,
+  "game_started": false,
+  "user_save_accessed": false,
+  "real_clip_CRT_input_verified": false,
+  "limitations": [
+    "CPU 与静态复核；未安装、未启动游戏、未访问存档",
+    "未做真实 GPU/CRT/输入与全场景层次验收"
+  ]
+}

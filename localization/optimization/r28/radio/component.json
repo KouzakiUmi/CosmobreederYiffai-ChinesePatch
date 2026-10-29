@@ -1,0 +1,18 @@
+{
+  "name": "radio",
+  "runtime_sources": [
+    "localization/layout/src/PRG/RadioLabels.java"
+  ],
+  "tool_sources": [
+    "localization/layout/tools/java/RadioLabelsPatch.java"
+  ],
+  "patcher_class": "RadioLabelsPatch",
+  "patcher_method": "apply",
+  "target_pins": {
+    "PRG/JM": "ec45f0d0718ed0c50804c85cb127c0a51c0ebb0cbe0a515934c8a9c2355d12ae",
+    "PRG/JQ": "78f1053cd0d06b9eb3be07cd14b2405bf7ce91f8b15c7d959c73f8da2c08a9a7"
+  },
+  "required_chars": [
+    "毛鼠 雄猫 伊吠 伊吠妮 波苏 麦森 The0 季高 星杀 约戈 邦妮琳 卡尔 彗珂 艾玛 黛蕾 南布 维克斯 塞塔特尼 高鲁 猎豹 特鲁维洛 伏尔甘 亨舍尔 弗兰基 绍狞 卡宾 潘科 红牛 恩莉耶 猪哥布林 Traeh 狼犬 狼崽 Sevaw Erauqs 雅科夫"
+  ]
+}

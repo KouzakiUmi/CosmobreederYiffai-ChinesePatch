@@ -1,0 +1,982 @@
+{
+  "review_id": "pair-07-08",
+  "status": "independent_review_completed_not_approved",
+  "scope": "仅50项R2决策与实际节点稿复核；非后续系统精校",
+  "summary": {
+    "findings": 50,
+    "pass": 49,
+    "revise": 1,
+    "hold": 0,
+    "edits_checked": 66,
+    "defer_decisions_passed": 8
+  },
+  "input_sha256": {
+    "localization/editorial/r2/review-input/packet-07.md": "abd01d5ef5e27982c1fa36304aa7bf783d8a5aed5fa1f824e0a828388939d7f5",
+    "localization/editorial/r2/packets/packet-07/decisions.jsonl": "65fec447f0a6b88febed7b15688adcfb9a136eabedf8769547c6278c5b4440f3",
+    "localization/editorial/r2/packets/packet-07/edits.jsonl": "a296b3e2c533ef2e61dc68691adde7a9c9a8571c9ac0ba5acec742a2ecef30cd",
+    "localization/editorial/r2/input/packet-07.json": "6fca88c261bc33efed4bd5750f487eb477d0350440d69667af153f9f35f33105",
+    "localization/editorial/r2/review-input/packet-08.md": "80b5bda7a3dc5cb4b2c869d94d61dfcfcf96dc243c71f958fe48dec93e53f72a",
+    "localization/editorial/r2/packets/packet-08/decisions.jsonl": "13f73008887fc1fe14c04063058c0b3c0f36c5bfba3abd45e79f639dc67f0141",
+    "localization/editorial/r2/packets/packet-08/edits.jsonl": "54cc7d0c8a0a4923a3eec2cd7c4a3b9d6fdc4e28c440011431c3e4a32abb80ef",
+    "localization/editorial/r2/input/packet-08.json": "7f412d32a5bbb75c5d40b44a2a8e24e0472fb269d8e35409d6dc6e948a185550"
+  },
+  "checks": [
+    {
+      "finding_id": "P07-001",
+      "scene_id": "SC23766530c1074c47",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "招徕条件及神秘好处完整，消费空尾未恢复。",
+      "edit_ids_checked": [
+        "E07-001"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L21",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L1",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L1"
+      ]
+    },
+    {
+      "finding_id": "P07-002",
+      "scene_id": "SC5737f92fda658079",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "有劲儿保战后活力及采集双关，未单义化SPUNK。",
+      "edit_ids_checked": [
+        "E07-002",
+        "E07-003"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L72",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L2",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L2",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L3"
+      ]
+    },
+    {
+      "finding_id": "P07-003",
+      "scene_id": "SC5737f92fda658079",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "无线电收线功能准确。",
+      "edit_ids_checked": [
+        "E07-004"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L76",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L3",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L4"
+      ]
+    },
+    {
+      "finding_id": "P07-004",
+      "scene_id": "SC78ced646a25915e8",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "比较对象回到眼前炮台，反讽保留，未增故障原因。",
+      "edit_ids_checked": [
+        "E07-005",
+        "E07-006"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L103",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L4",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L5",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L6"
+      ]
+    },
+    {
+      "finding_id": "P07-005",
+      "scene_id": "SC8bbefad7d6e7d322",
+      "action_checked": "apply",
+      "verdict": "revise",
+      "reason": "E07-007保不确定状态；E07-008的“只顾着害怕”新增注意力排他及失职意味，须改回因呼叫不通与体征异常而心惊。",
+      "edit_ids_checked": [
+        "E07-007",
+        "E07-008"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L174",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L5",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L7",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L8"
+      ]
+    },
+    {
+      "finding_id": "P07-006",
+      "scene_id": "SCba33d0aea1ed874d",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "that is正确收窄任务期间，非因果，爱心保留。",
+      "edit_ids_checked": [
+        "E07-009"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L276",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L6",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L9"
+      ]
+    },
+    {
+      "finding_id": "P07-007",
+      "scene_id": "SC71bccdad94bc42b7",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "同一手电异称笑点可成立；照明电筒可再润色但不构成实质错。",
+      "edit_ids_checked": [
+        "E07-010"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L319",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L7",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L10"
+      ]
+    },
+    {
+      "finding_id": "P07-008",
+      "scene_id": "SCf8e6890f7b25c51e",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "两人截话与完整禁令分别保留，Tomcat遵用户命名，未合并说话者。",
+      "edit_ids_checked": [
+        "E07-011",
+        "E07-012",
+        "E07-013"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L370",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L8",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L11",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L12",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L13"
+      ]
+    },
+    {
+      "finding_id": "P07-009",
+      "scene_id": "SC31281e1f7d7bb273",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "造型气势习语成立，未移动后续成人幻想。",
+      "edit_ids_checked": [
+        "E07-014"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L425",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L9",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L14"
+      ]
+    },
+    {
+      "finding_id": "P07-010",
+      "scene_id": "SCc208e23b19701617",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "SFW造型习语成立，未灌入NSFW情节。",
+      "edit_ids_checked": [
+        "E07-015"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L448",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L10",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L15"
+      ]
+    },
+    {
+      "finding_id": "P07-011",
+      "scene_id": "SC546e06cb0db8f471",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "纠结打结保双关，说不定保效果猜测，未新增确定机制。",
+      "edit_ids_checked": [
+        "E07-016",
+        "E07-017"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L467",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L11",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L16",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L17"
+      ]
+    },
+    {
+      "finding_id": "P07-012",
+      "scene_id": "SCd26ac691afa4c235",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "吃得消保成人承受暗示，原口吃功能及强调爱心保留，未指定器官姿势。",
+      "edit_ids_checked": [
+        "E07-018"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L478",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L12",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L18"
+      ]
+    },
+    {
+      "finding_id": "P07-013",
+      "scene_id": "SC9a50ee5c19b72be6",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "惊叹转警觉合理，完整头中攻击对象未丢。",
+      "edit_ids_checked": [
+        "E07-019",
+        "E07-020"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L533",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L13",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L19",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L20"
+      ]
+    },
+    {
+      "finding_id": "P07-014",
+      "scene_id": "SC5c5f5477be1d2b03",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "承接灵能报告并保问句立场，未新增总部定论。",
+      "edit_ids_checked": [
+        "E07-021"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L619",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L14",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L21"
+      ]
+    },
+    {
+      "finding_id": "P07-015",
+      "scene_id": "SC82f75109d82edca1",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "out for任务解释符合关切语境；完整头保SELECT及UP+ATTACK与两项操作。",
+      "edit_ids_checked": [
+        "E07-022"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L648",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L15",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L22"
+      ]
+    },
+    {
+      "finding_id": "P07-016",
+      "scene_id": "SC290cf7270ee68e5f",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "门卡等级上限由门卡2文字交叉支持；不据此断言实测门号。",
+      "edit_ids_checked": [
+        "E07-023"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L667",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L16",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L23"
+      ]
+    },
+    {
+      "finding_id": "P07-017",
+      "scene_id": "SC635c7bb3776a92f5",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "BRED源疑点无勘误，defer有据；不猜成BREAD，非宣称旧译正确。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L699",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L17"
+      ]
+    },
+    {
+      "finding_id": "P07-018",
+      "scene_id": "SCec282ed3f0097e07",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "嵌套消费用途未核，defer符合合同；不将留置当无决策。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L721",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L18"
+      ]
+    },
+    {
+      "finding_id": "P07-019",
+      "scene_id": "SC1c6bb8c065b63e86",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "嵌套用途未核，语序问题留置有理由，未扩写成人行动。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L731",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L19"
+      ]
+    },
+    {
+      "finding_id": "P07-020",
+      "scene_id": "SC27cc2aa84f61748c",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "Top双关及嵌套用途未核，留置有理由，未追加身份。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L741",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L20"
+      ]
+    },
+    {
+      "finding_id": "P07-021",
+      "scene_id": "SCf1c781ff2a344ed4",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "broken in译穿软准确，仍可穿及管线结构保留。",
+      "edit_ids_checked": [
+        "E07-024"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L681",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L21",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L24"
+      ]
+    },
+    {
+      "finding_id": "P07-022",
+      "scene_id": "SC23fcdb3817e041e0",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "三槽保天赋、看来适合入议会及获准接触储能；不增因果或阴谋，现有专名未强定。",
+      "edit_ids_checked": [
+        "E07-025",
+        "E07-026",
+        "E07-027"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L1137",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L22",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L25",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L26",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L27"
+      ]
+    },
+    {
+      "finding_id": "P07-023",
+      "scene_id": "SC9e9ceda84c287300",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "能力军用化与身体变形事实完整，未增施事及机制，Fox前缀保留。",
+      "edit_ids_checked": [
+        "E07-028",
+        "E07-029"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L1236",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L23",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L28",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L29"
+      ]
+    },
+    {
+      "finding_id": "P07-024",
+      "scene_id": "SCa2fb98b0f0ceefb5",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "受控特工及逐个抓走、封印逐日减弱承接完整，非新增身份揭示。",
+      "edit_ids_checked": [
+        "E07-030",
+        "E07-031"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L1349",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L24",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L30",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L31"
+      ]
+    },
+    {
+      "finding_id": "P07-025",
+      "scene_id": "SC960d377d64349226",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "原提案新增自纠不宜采用；当前双关无稳妥稿而defer成立，不逼无据创译。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L1003",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L25"
+      ]
+    },
+    {
+      "finding_id": "P07-026",
+      "scene_id": "SC3c96e35204cd3dcc",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "完整合句头保双腿、眼神、尾巴、栏杆和笑声，尾行保持空白。",
+      "edit_ids_checked": [
+        "E07-032"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L1598",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L26",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L32"
+      ]
+    },
+    {
+      "finding_id": "P07-027",
+      "scene_id": "SC230a3742479654b5",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "男线炮台比较及反讽独立成立，未混女线经历。",
+      "edit_ids_checked": [
+        "E07-033",
+        "E07-034"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L560",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L27",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L33",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L34"
+      ]
+    },
+    {
+      "finding_id": "P07-028",
+      "scene_id": "SC30945afec706cce8",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "SAVE IT宾语及失真残片未明，defer正确，不猜补名字或救援对象。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L213",
+        "localization/editorial/r2/packets/packet-07/decisions.jsonl#L28"
+      ]
+    },
+    {
+      "finding_id": "P08-001",
+      "scene_id": "SCec4640a9f4d3aa25",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "道别同时保酷热与顺利祝愿，未变成单纯警告。",
+      "edit_ids_checked": [
+        "E08-001"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L13",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L1",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L1"
+      ]
+    },
+    {
+      "finding_id": "P08-002",
+      "scene_id": "SCd01d5a6a1d077677",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "单只亲近生物回指合理，持晶再抚摸与可能力量分三非空槽，might保留。",
+      "edit_ids_checked": [
+        "E08-002",
+        "E08-003",
+        "E08-004"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L32",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L2",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L2",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L3",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L4"
+      ]
+    },
+    {
+      "finding_id": "P08-003",
+      "scene_id": "SCaf4aa1fa18c98fd1",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "普通物理术语改中文，追问其他攻击方式完整。",
+      "edit_ids_checked": [
+        "E08-005"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L79",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L3",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L5"
+      ]
+    },
+    {
+      "finding_id": "P08-004",
+      "scene_id": "SCcb7d60767094d0c1",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "机器不越界与男生分寸承接笑点，未补具体骚扰事件及正式新译名。",
+      "edit_ids_checked": [
+        "E08-006",
+        "E08-007"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L122",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L4",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L6",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L7"
+      ]
+    },
+    {
+      "finding_id": "P08-005",
+      "scene_id": "SC3b0f76128c2a6465",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "恢复高潮易分神，施受为被绑的挑逗特工及其队友；中断未猜补队友行动。",
+      "edit_ids_checked": [
+        "E08-008",
+        "E08-009",
+        "E08-010"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L177",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L5",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L8",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L9",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L10"
+      ]
+    },
+    {
+      "finding_id": "P08-006",
+      "scene_id": "SC4343a658dcedb661",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "反事实换作自己备粮准确，未将外勤失败归总部；同事挖苦仍为角色说辞。",
+      "edit_ids_checked": [
+        "E08-011",
+        "E08-012"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L217",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L6",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L11",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L12"
+      ]
+    },
+    {
+      "finding_id": "P08-007",
+      "scene_id": "SC535618a487339cf5",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "SFW限定语非因果，爱心和两个槽独立，未混NSFW事件。",
+      "edit_ids_checked": [
+        "E08-013",
+        "E08-014"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L280",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L7",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L13",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L14"
+      ]
+    },
+    {
+      "finding_id": "P08-008",
+      "scene_id": "SC41f714a207c66198",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "回归实用情报的胃口习语自然，按键和下一试招节点未移动。",
+      "edit_ids_checked": [
+        "E08-015"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L371",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L8",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L15"
+      ]
+    },
+    {
+      "finding_id": "P08-009",
+      "scene_id": "SC1667be893970acf7",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "轻松辩护及再次小狗扮演保留，未增加关系或年龄设定。",
+      "edit_ids_checked": [
+        "E08-016",
+        "E08-017"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L418",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L9",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L16",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L17"
+      ]
+    },
+    {
+      "finding_id": "P08-010",
+      "scene_id": "SC959cea4cd47a5799",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "鱼肉塔可表层、暧昧误会和被打断这字保留，19XX未补年份。",
+      "edit_ids_checked": [
+        "E08-018",
+        "E08-019",
+        "E08-020",
+        "E08-021"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L453",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L10",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L18",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L19",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L20",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L21"
+      ]
+    },
+    {
+      "finding_id": "P08-011",
+      "scene_id": "SCfd3a35d14d8646de",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "koboCostume下按外观搭讪，不确认真实科博德身份；气味及来访船队保留。",
+      "edit_ids_checked": [
+        "E08-022"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L467",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L11",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L22"
+      ]
+    },
+    {
+      "finding_id": "P08-012",
+      "scene_id": "SC691b3a18b7909076",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "认真做功课承接行动笔记纠错，未一概判同事无能。",
+      "edit_ids_checked": [
+        "E08-023"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L589",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L12",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L23"
+      ]
+    },
+    {
+      "finding_id": "P08-013",
+      "scene_id": "SCb84957d4bbe46c64",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "mine整组误解链问题承认且明确defer，属于完成的留置决策；无据中文创译不强求。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L506",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L13"
+      ]
+    },
+    {
+      "finding_id": "P08-014",
+      "scene_id": "SCe3bb6029d395b6a3",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "purr-verted不再并列喵属性，完整头保衣服用途及称呼，Tomcat遵用户命名。",
+      "edit_ids_checked": [
+        "E08-024"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L688",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L14",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L24"
+      ]
+    },
+    {
+      "finding_id": "P08-015",
+      "scene_id": "SC02a295fdd4ce3288",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "等级上限与门卡2文字交叉吻合，不发明实测门号与按键。",
+      "edit_ids_checked": [
+        "E08-025"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L707",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L15",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L25"
+      ]
+    },
+    {
+      "finding_id": "P08-016",
+      "scene_id": "SC9dff794087b1ab97",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "space-proof适用环境准确，未承诺单件即可太空行走，管线保留。",
+      "edit_ids_checked": [
+        "E08-026"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L721",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L16",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L26"
+      ]
+    },
+    {
+      "finding_id": "P08-017",
+      "scene_id": "SC2a2f11f81441cfdd",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "SFW同义说明独立成立，未混内容版本，管线保留。",
+      "edit_ids_checked": [
+        "E08-027"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L735",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L17",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L27"
+      ]
+    },
+    {
+      "finding_id": "P08-018",
+      "scene_id": "SC0288b8c93129d093",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "kick tail恢复揍人习语，删除原凭空尾巴施力，不添实际动作节点。",
+      "edit_ids_checked": [
+        "E08-028"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L1095",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L18",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L28"
+      ]
+    },
+    {
+      "finding_id": "P08-019",
+      "scene_id": "SC0288b8c93129d093",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "吾汝改现代口吻，无实质事实变化；前槽只因否定条件和方括号保留。",
+      "edit_ids_checked": [
+        "E08-029"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L1099",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L19",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L29"
+      ]
+    },
+    {
+      "finding_id": "P08-020",
+      "scene_id": "SCb067f24e0154e7af",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "可靠能手的夸口结合前文服务自夸成立，未改成全知自愿判断。",
+      "edit_ids_checked": [
+        "E08-030"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L1375",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L20",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L30"
+      ]
+    },
+    {
+      "finding_id": "P08-021",
+      "scene_id": "SC9a688dbe085a347d",
+      "action_checked": "apply",
+      "verdict": "pass",
+      "reason": "Trainer与Trainee区分、同场沿既有功能名，不跨说话人合并，不加最后一击等本段未写机制。",
+      "edit_ids_checked": [
+        "E08-031",
+        "E08-032"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L632",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L21",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L31",
+        "localization/editorial/r2/packets/packet-08/edits.jsonl#L32"
+      ]
+    },
+    {
+      "finding_id": "P08-022",
+      "scene_id": "SC756e1e2f94e81d2c",
+      "action_checked": "defer",
+      "verdict": "pass",
+      "reason": "touch规则未证不收窄为相邻，嵌套谜题留置正确，非确认旧译必错。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-08.md#L745",
+        "localization/editorial/r2/packets/packet-08/decisions.jsonl#L22"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "PAIR0708-01",
+      "finding_id": "P07-005",
+      "edit_id": "E07-008",
+      "severity": "semantic_revision",
+      "reason": "THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES说接收到/落得的只有心惊；“只顾着害怕”却说当时只注意害怕，新增排他注意力及失职意味，且削弱catch接词。",
+      "suggestion": "保持完整合句头和原消费空尾，改为如“  Tomcat: [我这边只落得一阵心惊！你的生命体征乱了套，无线电又怎么也呼不通！]”；不增加自纠、口吃或施事。",
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-07.md#L114-L129",
+        "localization/editorial/r2/packets/packet-07/edits.jsonl#L8"
+      ]
+    }
+  ],
+  "actual_read_ranges": [
+    {
+      "path": "localization/editorial/r2/review-input/packet-07.md",
+      "ranges": [
+        [
+          1,
+          220
+        ],
+        [
+          221,
+          450
+        ],
+        [
+          451,
+          690
+        ],
+        [
+          691,
+          920
+        ],
+        [
+          921,
+          1150
+        ],
+        [
+          1151,
+          1380
+        ],
+        [
+          1381,
+          1602
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r2/review-input/packet-08.md",
+      "ranges": [
+        [
+          1,
+          240
+        ],
+        [
+          241,
+          480
+        ],
+        [
+          481,
+          720
+        ],
+        [
+          721,
+          950
+        ],
+        [
+          951,
+          1170
+        ],
+        [
+          1171,
+          1379
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r1/reference/characters-primary.md",
+      "ranges": [
+        [
+          1,
+          277
+        ]
+      ],
+      "complete": false
+    },
+    {
+      "path": "localization/editorial/r1/reference/characters-support.md",
+      "ranges": [
+        [
+          1,
+          128
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r1/reference/world-and-plot.md",
+      "ranges": [
+        [
+          1,
+          362
+        ]
+      ],
+      "complete": false
+    },
+    {
+      "path": "localization/editorial/r2/REPAIR_CONTRACT.md",
+      "ranges": [
+        [
+          1,
+          48
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-07.md",
+      "ranges": [
+        [
+          1800,
+          1834
+        ]
+      ],
+      "complete": false
+    },
+    {
+      "path": "localization/editorial/r2/packets/packet-07/decisions.jsonl",
+      "ranges": [
+        [
+          1,
+          28
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r2/packets/packet-07/edits.jsonl",
+      "ranges": [
+        [
+          1,
+          34
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r2/packets/packet-08/decisions.jsonl",
+      "ranges": [
+        [
+          1,
+          22
+        ]
+      ],
+      "complete": true
+    },
+    {
+      "path": "localization/editorial/r2/packets/packet-08/edits.jsonl",
+      "ranges": [
+        [
+          1,
+          32
+        ]
+      ],
+      "complete": true
+    }
+  ],
+  "mechanical_checks": {
+    "review_before_after_vs_edits": "66/66精确吻合（AFTER允许明确Tomcat转换）",
+    "edit_prefix_newline_pipe_checks": "66/66通过",
+    "all_finding_ids_unique": true,
+    "apply_edit_links": "逐项核对，全部apply有实际edit；defer无edit"
+  },
+  "limitations": [
+    "角色主参照仅实际返回1–277行、世界参照1–362行；配角参照全读，不宣称其证据表余下全文已读。",
+    "input JSON用于源row/prefix结构核对及SHA绑定，并非人工完整通读；完整语义阅读依据两份review-input及全部实际decisions/edits。",
+    "未直接重新解析归档或游戏资源、未运行游戏/音画触发/字体容器/编译器；EOL为本轮不含EOL节点串层检查，不据此声称实际资源EOL已验。",
+    "嵌套用途、BRED作者原意、SAVE IT残片、touch谜题规则仍未证；defer决策pass不等于旧稿已正确或获准发布。",
+    "未扩展alias、未重做系统精校、未修改作者稿/R1/正式库/归档/游戏。"
+  ]
+}

@@ -194,8 +194,8 @@ public final class ItemFont8Test implements Opcodes {
             StringBuilder joined = new StringBuilder();
             for (int i=0;i<draws.size();i++) {
                 Object[] d=draws.get(i); joined.append(d[0]);
-                check(d[3].equals("classic") && (Integer)d[2] == 22 - 8*i,"description classic8/original 8px line step");
-                check(((String)d[0]).length()*8<=112,"description original112px width");
+                check(d[3].equals("default") && (Integer)d[2] == 27 - 12*i,"description prefers real default10 with local slot anchor/12px step");
+                check(PRG.ItemFont8.width(body,(String)d[0])<=112,"description actual112px width");
             }
             check(joined.toString().equals("三线圈三线圈三线圈三线圈三线圈三线圈"),"no 14-char/zip loss");
             // ASCII-only selected name is exactly the old renderer call, no new
@@ -209,7 +209,7 @@ public final class ItemFont8Test implements Opcodes {
             Object english = lb.getConstructor(azy.class,azy.class,azy.class).newInstance(supplier(136,null),supplier(22,null),supplier(new amr.d("RADIO|TEST"),null));
             api.getMethod("registerDescription",lb).invoke(null,english);
             draws.clear(); lb.getMethod("b",SN.class).invoke(english,sn);
-            check(draws.size()==2 && draws.get(0)[3].equals("default") && draws.get(1)[3].equals("default"),"real original ASCII Lb chain untouched");
+            check(draws.size()==2 && draws.get(0)[3].equals("default") && draws.get(1)[3].equals("default") && (Integer)draws.get(0)[2]==27,"registered ASCII description also receives width/word layout; default role retained");
             Object foreign = lb.getConstructor(azy.class,azy.class,azy.class).newInstance(supplier(136,null),supplier(22,null),supplier(new amr.d("三线圈"),null));
             draws.clear(); lb.getMethod("b",SN.class).invoke(foreign,sn);
             check(!draws.isEmpty() && draws.get(0)[3].equals("default"),"unregistered real Lb Chinese remains default10");
@@ -219,7 +219,9 @@ public final class ItemFont8Test implements Opcodes {
             draws.clear(); boolean refused=false;
             try { lb.getMethod("b",SN.class).invoke(overflow,sn); }
             catch(InvocationTargetException expected) { refused=expected.getCause() instanceof IllegalArgumentException; }
-            check(refused && draws.isEmpty(),"overbudget Chinese refuses before partial draw, never truncates/overwrites icons");
+            check(!refused && draws.size()==3,"29 Han statically fit three classic8 rows in real122x26 slot; no runtime overflow exception");
+            StringBuilder complete=new StringBuilder();for(Object[] d:draws)complete.append(d[0]);
+            check(complete.toString().equals(huge.toString()),"third line retains final glyph");
             classic.metrics.o=0.5f; draws.clear(); refused=false;
             try { lg.getMethod("b",SN.class).invoke(name,sn); }
             catch(InvocationTargetException expected) { refused=expected.getCause() instanceof IllegalStateException; }

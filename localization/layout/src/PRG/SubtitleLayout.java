@@ -45,22 +45,11 @@ public final class SubtitleLayout {
         return out;
     }
 
-    /** Original amn computes its final reveal index with String.trim().length().
-     * A soft-wrapped page starting with a space would therefore hide its final
-     * visible character forever. Drop leading all-blank rows and move the first
-     * ink row's indentation to its trailing padding. All ink and subsequent
-     * line boundaries survive; no animation algorithm is changed. */
+    /** Compatibility hook: CorePatch fixes the terminal source index instead
+     * of moving ink or deleting the author's leading blank rows/indentation. */
     public static String animationGrid(String grid, int q) {
-        int start = 0;
-        while (start < grid.length() && grid.charAt(start) == ' ') start++;
-        if (start == 0 || start == grid.length()) return grid;
-        int blankRows = start / q, indent = start % q, firstEnd = (blankRows + 1) * q;
-        StringBuilder out = new StringBuilder(grid.length());
-        out.append(grid.substring(start, firstEnd));
-        for (int i = 0; i < indent; i++) out.append(' ');
-        out.append(grid.substring(firstEnd));
-        for (int i = 0; i < blankRows * q; i++) out.append(' ');
-        return out.toString();
+        if (q < 1 || grid.length() % q != 0) throw new IllegalArgumentException("Invalid subtitle grid");
+        return grid;
     }
 
     public static anh finish(anh result, aEO pages, amH source) {

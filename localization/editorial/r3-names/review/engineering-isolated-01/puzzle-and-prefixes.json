@@ -1,0 +1,163 @@
+{
+  "puzzle_name_changes": [
+    {
+      "id": "NAME-0298",
+      "target": [
+        "cosmobreeder-multi.jar",
+        "datav/1",
+        "json",
+        "/ui.data.f_AgentFZ3"
+      ],
+      "old": "\u585e\u74e6\u592b",
+      "new": "Sevaw",
+      "source": [
+        "SEVAW"
+      ]
+    },
+    {
+      "id": "NAME-0299",
+      "target": [
+        "cosmobreeder-multi.jar",
+        "datav/1",
+        "json",
+        "/ui.data.f_AgentFZ6"
+      ],
+      "old": "\u5384\u62c9\u4e4c\u514b\u65af",
+      "new": "Erauqs",
+      "source": [
+        "ERAUQS"
+      ]
+    },
+    {
+      "id": "NAME-0305",
+      "target": [
+        "cosmobreeder-multi.jar",
+        "datav/1",
+        "json",
+        "/ui.data.m_AgentMZ3"
+      ],
+      "old": "\u585e\u74e6\u592b",
+      "new": "Sevaw",
+      "source": [
+        "SEVAW"
+      ]
+    },
+    {
+      "id": "NAME-0306",
+      "target": [
+        "cosmobreeder-multi.jar",
+        "datav/1",
+        "json",
+        "/ui.data.m_AgentMZ6"
+      ],
+      "old": "\u5384\u62c9\u4e4c\u514b\u65af",
+      "new": "Erauqs",
+      "source": [
+        "ERAUQS"
+      ]
+    },
+    {
+      "id": "NAME-0717",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.card.CosmoCardDragon.desc.Back"
+      ],
+      "old": "\u2026\u2026\u4e0d\u8fc7\u90a3\u4e9b|\u53ea\u662f\u4f20\u8bf4\uff01|\n                |\nFenfen\u8d85\u80fd\u529b\u8005|\u585e\u74e6\u592b|\u9760\u53ec\u5524|\u4e00\u4e2a\u5e7b\u5f71\uff0c|\u62b5\u5fa1\u5468\u56f4|\u5404\u79cd\u6076\u4eba\u3002|\u5e7b\u5f71\u57fa\u4e8e|\u4ed6\u8fd8\u662f|\u5c0f\u5e7c\u5d3d\u65f6|\u542c\u6765\u7684|\u6545\u4e8b\u3002     \n",
+      "new": "\u2026\u2026\u4e0d\u8fc7\u90a3\u4e9b|\u53ea\u662f\u4f20\u8bf4\uff01|\n                |\nFenfen\u8d85\u80fd\u529b\u8005|Sevaw|\u9760\u53ec\u5524|\u4e00\u4e2a\u5e7b\u5f71\uff0c|\u62b5\u5fa1\u5468\u56f4|\u5404\u79cd\u6076\u4eba\u3002|\u5e7b\u5f71\u57fa\u4e8e|\u4ed6\u8fd8\u662f|\u5c0f\u5e7c\u5d3d\u65f6|\u542c\u6765\u7684|\u6545\u4e8b\u3002     \n",
+      "source": [
+        "...but those are| only legends!   |\n                |\nThe fenfen ESPer| Sevaw defended  | himself from the| various evil-   | doers around by | summoning up an | apparition based| on the stories  | that he heard   | while just a wee| little kit.     \n"
+      ]
+    },
+    {
+      "id": "NAME-0719",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.card.CosmoCardWerepup.desc.Back"
+      ],
+      "old": "Fenfen\u957f\u8001|\u5384\u62c9\u4e4c\u514b\u65af|\u662f\u72fc\u5d3d\u4e4b\u6bcd\u3002|\u4e0e\u4e00\u4f4d|\u975e\u8d85\u80fd\u529b\u8005\u4e08\u592b|\u4ea4\u5408\u4e4b\u540e\uff0c|\u5979\u53d1\u73b0|\u6709\u4e9b\u529b\u91cf|\u53ef\u4ee5\u5728\u6027\u4ea4\u4e2d|\u4f20\u9012\u3002|\u8fd9\u6d88\u606f|\u4f1a\u6709\u7528\u5417|\u2026\u2026\uff1f\n",
+      "new": "Fenfen\u957f\u8001|Erauqs|\u662f\u72fc\u5d3d\u4e4b\u6bcd\u3002|\u4e0e\u4e00\u4f4d|\u975e\u8d85\u80fd\u529b\u8005\u4e08\u592b|\u4ea4\u5408\u4e4b\u540e\uff0c|\u5979\u53d1\u73b0|\u6709\u4e9b\u529b\u91cf|\u53ef\u4ee5\u5728\u6027\u4ea4\u4e2d|\u4f20\u9012\u3002|\u8fd9\u6d88\u606f|\u4f1a\u6709\u7528\u5417|\u2026\u2026\uff1f\n",
+      "source": [
+        "The Fenfen Elder| Erauqs is mother| of the Werepup. | After coupling  | with a non-ESPer| husband, she    | discovered that | some powers may | be transferred  | during sexual   | intercourse.    | Will this info  | be useful...?\n"
+      ]
+    },
+    {
+      "id": "NAME-0724",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.data.f_AgentFZ3"
+      ],
+      "old": "\u585e\u74e6\u592b",
+      "new": "Sevaw",
+      "source": [
+        "SEVAW"
+      ]
+    },
+    {
+      "id": "NAME-0725",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.data.f_AgentFZ6"
+      ],
+      "old": "\u5384\u62c9\u4e4c\u514b\u65af",
+      "new": "Erauqs",
+      "source": [
+        "ERAUQS"
+      ]
+    },
+    {
+      "id": "NAME-0731",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.data.m_AgentMZ3"
+      ],
+      "old": "\u585e\u74e6\u592b",
+      "new": "Sevaw",
+      "source": [
+        "SEVAW"
+      ]
+    },
+    {
+      "id": "NAME-0732",
+      "target": [
+        "patch.pak",
+        "datav/1",
+        "json",
+        "/ui.data.m_AgentMZ6"
+      ],
+      "old": "\u5384\u62c9\u4e4c\u514b\u65af",
+      "new": "Erauqs",
+      "source": [
+        "ERAUQS"
+      ]
+    }
+  ],
+  "multiname_fields": 41,
+  "stutter_fragments": 22,
+  "prefixes": {
+    "  * ": 57,
+    "  Mauser: ": 131,
+    "  Yiffany: ": 121,
+    "  Tomcat: ": 46,
+    "  Bossu: ": 111,
+    "    Mauser: ": 20,
+    "    Tomcat: ": 2,
+    "    Yiffany: ": 2,
+    "  Anon/Fox: ": 8,
+    "    * ": 4,
+    "  Yiffai: ": 117,
+    "    Yiffai: ": 2,
+    "JSON": 69,
+    "text: ": 115,
+    "lang(Fox): ": 80
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema": "sfw-remaining-review/v1",
+  "records": [],
+  "intentional_corruption_source_preserved": [
+    {
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "prefix": "  Mauser: ",
+      "raw_source": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+      "raw_source_sha256": "49d8a2770f569b5f3cc6ac086788e82e437ee04b70e7486dd6329eb1374f6438",
+      "source_ordinal": 0,
+      "source_multiplicity": 1,
+      "kind": "ds",
+      "role": "",
+      "logical_path": "datadf/all.ds",
+      "archive_entry": "datadf/1",
+      "resource_sha256": "1e9250487db68dd838a0b3557fc0f75a71dc665602f860acbaaed039a509259a",
+      "schema": "sfw-derived-ledger/v1",
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "variant": "sfw",
+      "source_line_evidence": 2182,
+      "id": "SFW03012fac0a4548ecbc283a53",
+      "translation": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+      "status": "preserved",
+      "provenance": {
+        "method": "source-specific-agent-review",
+        "batch": "translations/ds-01.json",
+        "model": "openai/gpt-6.1-sol",
+        "human_approved": false
+      },
+      "review_notes": [
+        "intentional-corruption/source-preserved；原JAR前后演出与独立复核确认刻意广播干扰，保留Latin碎段，不猜补DEF...ING，不计完整中文。"
+      ],
+      "review_key": "ds:49d8a2770f569b5f"
+    },
+    {
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "prefix": "  Mauser: ",
+      "raw_source": "[...SAID... B...IG... ...TEN... ...END!]",
+      "raw_source_sha256": "ecc00c802c2edb72e7be791d5f07e88e8c9537e0ac1b5f1b84bcfc7a24536707",
+      "source_ordinal": 0,
+      "source_multiplicity": 1,
+      "kind": "ds",
+      "role": "",
+      "logical_path": "datadf/all.ds",
+      "archive_entry": "datadf/1",
+      "resource_sha256": "1e9250487db68dd838a0b3557fc0f75a71dc665602f860acbaaed039a509259a",
+      "schema": "sfw-derived-ledger/v1",
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "variant": "sfw",
+      "source_line_evidence": 2184,
+      "id": "SFW89828a6ab567ab16a388d671",
+      "translation": "[...SAID... B...IG... ...TEN... ...END!]",
+      "status": "preserved",
+      "provenance": {
+        "method": "source-specific-agent-review",
+        "batch": "translations/ds-01.json",
+        "model": "openai/gpt-6.1-sol",
+        "human_approved": false
+      },
+      "review_notes": [
+        "intentional-corruption/source-preserved；独立复核确认广播刻意失真，保留Latin碎段，不把TEN或END猜补成触或尽头，不计完整中文。"
+      ],
+      "review_key": "ds:ecc00c802c2edb72"
+    },
+    {
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "prefix": "  Mauser: ",
+      "raw_source": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+      "raw_source_sha256": "49d8a2770f569b5f3cc6ac086788e82e437ee04b70e7486dd6329eb1374f6438",
+      "source_ordinal": 0,
+      "source_multiplicity": 1,
+      "kind": "ds",
+      "role": "",
+      "logical_path": "datadm/all.ds",
+      "archive_entry": "datadm/1",
+      "resource_sha256": "240b2ca58b63317db93345fc961bed5356184c1978d2d83f378b0ad07c2b872a",
+      "schema": "sfw-derived-ledger/v1",
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "variant": "sfw",
+      "source_line_evidence": 2171,
+      "id": "SFW5f8a5ceb0952154ab8c78294",
+      "translation": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+      "status": "preserved",
+      "provenance": {
+        "method": "source-specific-agent-review",
+        "batch": "translations/ds-01.json",
+        "model": "openai/gpt-6.1-sol",
+        "human_approved": false
+      },
+      "review_notes": [
+        "intentional-corruption/source-preserved；原JAR前后演出与独立复核确认刻意广播干扰，保留Latin碎段，不猜补DEF...ING，不计完整中文。"
+      ],
+      "review_key": "ds:49d8a2770f569b5f"
+    },
+    {
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "prefix": "  Mauser: ",
+      "raw_source": "[...SAID... B...IG... ...TEN... ...END!]",
+      "raw_source_sha256": "ecc00c802c2edb72e7be791d5f07e88e8c9537e0ac1b5f1b84bcfc7a24536707",
+      "source_ordinal": 0,
+      "source_multiplicity": 1,
+      "kind": "ds",
+      "role": "",
+      "logical_path": "datadm/all.ds",
+      "archive_entry": "datadm/1",
+      "resource_sha256": "240b2ca58b63317db93345fc961bed5356184c1978d2d83f378b0ad07c2b872a",
+      "schema": "sfw-derived-ledger/v1",
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "variant": "sfw",
+      "source_line_evidence": 2173,
+      "id": "SFWc11c9d73ebcce89eab847772",
+      "translation": "[...SAID... B...IG... ...TEN... ...END!]",
+      "status": "preserved",
+      "provenance": {
+        "method": "source-specific-agent-review",
+        "batch": "translations/ds-01.json",
+        "model": "openai/gpt-6.1-sol",
+        "human_approved": false
+      },
+      "review_notes": [
+        "intentional-corruption/source-preserved；独立复核确认广播刻意失真，保留Latin碎段，不把TEN或END猜补成触或尽头，不计完整中文。"
+      ],
+      "review_key": "ds:ecc00c802c2edb72"
+    }
+  ],
+  "note": "No unresolved candidates. Four intentionally corrupted broadcasts remain original Latin fragments, not counted as complete Chinese. Proper names retain source spelling or existing project glossary evidence."
+}

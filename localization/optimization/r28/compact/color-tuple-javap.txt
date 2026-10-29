@@ -1,0 +1,15 @@
+Compiled from "PRG"
+public final class PRG.aBa<T1, T2, T3, T4> implements PRG.aAp<T1, T2, T3, T4>, java.io.Serializable {
+  public int i_();
+  public java.lang.Object a_(int);
+  public T1 a();
+  public T2 e();
+  public T3 f();
+  public T4 g();
+  public java.lang.String toString();
+  public java.lang.String m_();
+  public PRG.aCj<java.lang.Object> g_();
+  public int hashCode();
+  public boolean equals(java.lang.Object);
+  public PRG.aBa(T1, T2, T3, T4);
+}

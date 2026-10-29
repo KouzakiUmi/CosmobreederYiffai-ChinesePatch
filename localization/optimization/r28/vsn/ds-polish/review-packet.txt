@@ -1,0 +1,719 @@
+DH01 unit-cjk-word-hyphen
+EN Mmmn-hmm mmf! <3
+CN 唔嗯-嗯 唔姆！<3
+datadf/all.ds:1313 effective:1313 Ofc6ecb1a6f460ab50854
+1312 <AreaC_Prison2.GoodbyeNotRescued>
+1313   * 唔嗯-嗯 唔姆！<3
+1314 
+datadf/all.ds:1322 effective:1322 Odb538b72f2604293cf18
+1321 <AreaC_Prison2.GoodbyeDog>
+1322   * 唔嗯-嗯 唔姆！<3
+1323 
+
+DH02 unit-cjk-word-hyphen
+EN [N-NO, NOTHING LIKE THAT. IT'S JUST... IT SOUNDS LIKE...]
+CN [不-不是，没那种事。只是……听起来像是……]
+datadf/all.ds:2260 effective:2260 Of3d8eac24c3a65588c13
+2251 <Mauser.AreaA_map54_a noselect>
+2252   Mauser: [你感觉怎么样，特工？]
+2253   Yiffany: [我……我感觉还好，你有接收到那些吗？]
+2254   Tomcat: [你的生命体征乱了套，偏偏无线电呼叫又怎么也接不通，我唯一接收到的就只有一阵发毛！]
+2255 
+2256 
+2257   Yiffany: [我……是啊，我刚刚经历了一些……]
+2258   Yiffany: [……脑子里奇怪的耳鸣……]
+2259   Bossu: [如果你的状态已经受损，我们可以中止任务，特工。]
+2260   Yiffany: [不-不是，没那种事。只是……听起来像是……]
+2261   Yiffany: [说什么要"SELECT"波形，然后再用“UP & 攻击”发动能力，好把障碍物挪开……]
+2262 
+2263 
+2264   Yiffany: [不管那都是什么意思……呃……]
+2265   Tomcat: [好吧，你的各项体征都在趋于稳定，所以应该不会留下什么后遗症……]
+2266 
+2267   Yiffany: [我会没事的，继续执行任务。]
+2268 
+
+DH03 unit-cjk-word-hyphen
+EN [REPORTS ALSO SAID THAT A FULLY FUNC- TIONAL REST AREA]
+CN [报告还说，那儿有一个功-能完好的休息区]
+datadf/all.ds:2582 effective:2582 Of64067d7ce177b03c68c
+2575 <Bossu.AreaH_map01_a noselect>
+2576   Bossu: [欢迎来到机库，特工！]
+2577   Bossu: [我们给你飞船的自动驾驶做好了设定：你不亲自驾驶的时候，它会返回这里。]
+2578 
+2579   Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]
+2580 
+2581   Yiffany: [为了讨生活，有些人什么事都肯干，是吧？]
+2582   Bossu: [报告还说，那儿有一个功-能完好的休息区，是由之前的特工们建起来的。]
+2583 
+2584   Bossu: [当然，不保证一切还都能用，毕竟之前的那些特工都已经擅离职守了……]
+2585 
+2586   Bossu: [不过，你能用就尽量用吧。]
+2587   Yiffany: [嗯，谢了。能有个地方休息休息真好。]
+2588   
+2589 
+
+DH04 unit-cjk-word-hyphen
+EN [IT SHOULD JUST AS IMPERVIOUS TO PHY- SICAL DAMAGE]
+CN [它应该也一样对物-理伤害免疫]
+datadf/all.ds:2866 effective:2866 Od72b8bf1eaba1dc8db7a
+2864 <BossuDex.ClassicTentacle>
+2865   Bossu: [啊，那似乎是Blocker的缩小版]
+2866   Bossu: [它应该也一样对物-理伤害免疫]
+2867   Bossu: [只要确保你别撞到它们，它们就不应该构成太大的威胁。]
+2868 
+2869 
+
+DH05 unit-cjk-word-hyphen
+EN [H-HEY! I JUST DON'T KNOW MY OWN STRENGTH!]
+CN [嘿-嘿！我就是不知道自己的力气有多大！]
+datadm/all.ds:2011 effective:2011 Od00964fe255c6771c86e
+2006 <Bossu.Area0_map10_a noselect noamendfreq>
+2007   Bossu: [干得好，让那只怪物知道了厉害，伊法伊！]
+2008   Yiffai: [谢谢！这真的不算什么！]
+2009   Bossu: [出色的武力展示，但也许你下次该把重点放在数据采集上。]
+2010 
+2011   Yiffai: [嘿-嘿！我就是不知道自己的力气有多大！]
+2012   Bossu: [别被一时的热劲卷住]
+2013   Bossu: [下次遭遇时优先做数据采集。]
+2014   Yiffai: [明白，Bossu！我不会让你失望。]
+2015   Bossu: [好男孩，期待看到那份数据！]
+2016   Bossu: [如果你碰上任何新生物，尽管用频率27.850呼叫我。]
+2017 
+2018   Bossu: [哦，还有，别忘了把新装备装上。完毕！]
+2019   Yiffai: [哎呀我知道，我才不是Pup...]
+2020 
+
+DH06 unit-cjk-word-hyphen
+EN [M-MAYBE YOU SHOULD STOP STARING AT THOSE MONITORS NOW?]
+CN [也-也许你现在该别再盯着那些显示器了？]
+datadm/all.ds:2166 effective:2166 Oaba93f6fd12608bffbf9
+2148 <Mauser.Area0_map39_a>
+2149   Mauser: [你还好吗，特工？我们又跟你失去联系了。]
+2150   Yiffai: [……哦抱歉，我是特工伊法伊，现在报到。]
+2151   Mauser: [有什么事让你心烦吗？]
+2152   Yiffai: [我只是有……一点点走神，仅此而已。]
+2153   Tomcat: [什么东西把你吸引住了，小狗？]
+2154   Yiffai: [我在这个奇怪的黑暗区域里，对吧？]
+2155   Yiffai: [而我四周看到的全是显示器……]
+2156   Mauser: [……显示器？显示的是什么？]
+2157   Yiffai: [……各种各样的野狗四处乱跑，跳来跳去地吠叫。]
+2158   Mauser: [……那真是…… ……可爱……？]
+2159   Yiffai: [……也不是。不过有几只身手真是矫健。]
+2160   Tomcat: [得了吧！那可远没有任务那么重要，所以你也许该学学它们，跑一跑、跳一跳。]
+2161 
+2162   Yiffai: [嗯，也许你说得对。]
+2163   Yiffai: [……我打赌如果我也是野狗，跑跳肯定会更棒……]
+2164   Yiffai: [……仔细想想的话……]
+2165   Tomcat: [呃，好吧，行！既然你这么说，小狗！]
+2166   Mauser: [也-也许你现在该别再盯着那些显示器了？]
+2167   Mauser: [不管怎样，注意安全！]
+2168   
+2169 
+
+DH07 unit-cjk-word-hyphen
+EN [W-WHAT??]
+CN [什-什么？？]
+datadm/all.ds:2195 effective:2195 Occ1b5f3e99e5f92dfd9e
+2193 <Mauser.AreaA_map34_a noamendfreq>
+2194   Mauser: [干……得好，FU...ING TH...A...ET...AI!]
+2195   Yiffai: [什-什么？？]
+2196   Mauser: [...说... Y...MID... UMP...我的...屁股！]
+2197   Yiffai: [你-你信号断断续续的！让我先离开这儿再说。]
+2198 
+
+DH08 unit-cjk-word-hyphen
+EN [Y-YOU'RE BREAKING UP! LET ME GET OUT OF HERE FIRST.]
+CN [你-你信号断断续续的！让我先离开这儿再说。]
+datadm/all.ds:2197 effective:2197 Oabfba2b52eadb774b18f
+2193 <Mauser.AreaA_map34_a noamendfreq>
+2194   Mauser: [干……得好，FU...ING TH...A...ET...AI!]
+2195   Yiffai: [什-什么？？]
+2196   Mauser: [...说... Y...MID... UMP...我的...屁股！]
+2197   Yiffai: [你-你信号断断续续的！让我先离开这儿再说。]
+2198 
+
+DH09 unit-cjk-word-hyphen
+EN [N-NO, NOTHING LIKE THAT. IT'S JUST... IT SOUNDS LIKE...]
+CN [不-不是，没那种事。只是……听起来像是……]
+datadm/all.ds:2271 effective:2271 Oab23904eb350ff2b6c7b
+2262 <Mauser.AreaA_map54_a noselect>
+2263   Mauser: [你感觉怎么样，特工？]
+2264   Yiffai: [我……我感觉还好，你有接收到那些吗？]
+2265   Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体征又乱了套，我唯一接收到的，只有一阵发毛！]
+2266 
+2267 
+2268   Yiffai: [我……是啊，我刚刚经历了一些……]
+2269   Yiffai: [……脑子里奇怪的耳鸣……]
+2270   Bossu: [如果你的状态已经受损，我们可以中止任务，特工。]
+2271   Yiffai: [不-不是，没那种事。只是……听起来像是……]
+2272   Yiffai: [说什么要“SELECT”波形，然后再用“UP & ATTACK”发动能力，好把障碍物挪开……]
+2273 
+2274 
+2275   Yiffai: [不管那都是什么意思……呃……]
+2276   Tomcat: [好吧，你的各项体征都在趋于稳定，所以应该不会留下什么后遗症……]
+2277 
+2278   Yiffai: [我会没事的，继续执行任务。]
+2279 
+
+DH10 unit-cjk-word-hyphen
+EN [...THE KIT AND FU- LLY STOCKED SHIP I TOTALLY HAVE...]
+CN [……那套装备，还有我这艘补-给充足的船，我当然有……]
+datadm/all.ds:2369 effective:2369 Ofe0b0d238dde37a0e6db
+2362 <Mauser.AreaB_map11_a noselect>
+2363   Mauser: [那周围果然有不少泥土，不是吗？]
+2364   Yiffai: [正在研究清除泥土的方案。]
+2365   Yiffai: [第一个方案是希望自己身上有把铲子……]
+2366   Mauser: [你没有吗？每个标准COSMO套件里都有一把铲子！]
+2367   Mauser: [不止如此，右舷机翼后方的储物舱里还应该有一把备用铲子。]
+2368 
+2369   Yiffai: [……那套装备，还有我这艘补-给充足的船，我当然有……]
+2370   Tomcat: [除非你真带着我们给你打包的装备，不然也许你就该四肢着地自己挖？哈！]
+2371 
+2372   Yiffai: [那-那，既然你都这么说了……]
+2373 
+
+DH11 unit-cjk-word-hyphen
+EN [W-WELL, NOW THAT YOU MENTION IT...]
+CN [那-那，既然你都这么说了……]
+datadm/all.ds:2372 effective:2372 O25e0212f398a186ad2cc
+2362 <Mauser.AreaB_map11_a noselect>
+2363   Mauser: [那周围果然有不少泥土，不是吗？]
+2364   Yiffai: [正在研究清除泥土的方案。]
+2365   Yiffai: [第一个方案是希望自己身上有把铲子……]
+2366   Mauser: [你没有吗？每个标准COSMO套件里都有一把铲子！]
+2367   Mauser: [不止如此，右舷机翼后方的储物舱里还应该有一把备用铲子。]
+2368 
+2369   Yiffai: [……那套装备，还有我这艘补-给充足的船，我当然有……]
+2370   Tomcat: [除非你真带着我们给你打包的装备，不然也许你就该四肢着地自己挖？哈！]
+2371 
+2372   Yiffai: [那-那，既然你都这么说了……]
+2373 
+
+DH12 unit-cjk-word-hyphen
+EN [BUT REPORTS ALSO MENTION A FULLY FUN- CTIONAL REST AREA]
+CN [不过报告里也提到有一个功能完-好的休息区]
+datadm/all.ds:2603 effective:2603 O5b61f5362b6a7db11704
+2593 <Bossu.AreaH_map01_a noselect>
+2594   Bossu: [欢迎来到机库，特工！]
+2595   Bossu: [我们就是把你飞船的自动驾驶设定为：你不亲自驾驶的时候，它会返回这里。]
+2596 
+2597   Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]
+2598 
+2599   Yiffai: [哪怕是在这么偏僻的星球上，也有人站在我们这边，真是太好了！]
+2600 
+2601   Bossu: [嗯哼，是啊。别的不说，"我方"给的价钱可是很难有人比得上……]
+2602 
+2603   Bossu: [不过报告里也提到有一个功能完-好的休息区，是由之前的特工们建起来的。]
+2604 
+2605   Bossu: [当然，不保证一切还都能用，毕竟之前的那些特工都已经擅离职守了……]
+2606 
+2607   Bossu: [不过，你能用就尽量用吧。]
+2608   Yiffai: [多谢了，Bossu。不过没时间休息。]
+2609   Yiffai: [我还有活儿要干，伊法伊通话完毕！]
+2610 
+
+DH13 unit-cjk-word-hyphen
+EN [H-HOW DID YOU KNOW...]
+CN [怎-怎么知道的……]
+datadm/all.ds:2616 effective:2616 Oc175d4efdb590efef1b4
+2611 <Tomcat.AreaH_map02_a noselect>
+2612   Tomcat: [小心点，伊法伊。]
+2613   Yiffai: [什么？！]
+2614   Tomcat: [我能看见有东西开始让你在上面兴奋了]
+2615   Tomcat: [是什么？终于找到驯兽电击枪了？]
+2616   Yiffai: [怎-怎么知道的……]
+2617   Tomcat: [只有一件事，能让你这样的Pup把像/这样/的指标送到指挥中心。]
+2618 
+2619   Bossu: [没什么好羞愧的。只要记住，特工。]
+2620   Bossu: [为了就近研究当地生命，你必须在战斗中使用驯兽电击枪击败它们。]
+2621 
+2622   Bossu: [这样观察单元才能收容那些生物，好让你在机库里更近地观察它们。]
+2623 
+2624   Yiffai: [明白！标准的宇宙育种者规程！知道了！]
+2625   Tomcat: [也许给自己一分钟，好让你的"兴奋"下去，嗯，Pup？你可不想吓到当地的那些。]
+2626 
+2627   Yiffai: [我不-不知道你在说什么……]
+
+DH14 unit-cjk-word-hyphen
+EN [I D-DON'T KNOW WHAT YOU'RE TALKING ABOUT...]
+CN [我不-不知道你在说什么……]
+datadm/all.ds:2627 effective:2627 O5634e0799263319247d9
+2611 <Tomcat.AreaH_map02_a noselect>
+2612   Tomcat: [小心点，伊法伊。]
+2613   Yiffai: [什么？！]
+2614   Tomcat: [我能看见有东西开始让你在上面兴奋了]
+2615   Tomcat: [是什么？终于找到驯兽电击枪了？]
+2616   Yiffai: [怎-怎么知道的……]
+2617   Tomcat: [只有一件事，能让你这样的Pup把像/这样/的指标送到指挥中心。]
+2618 
+2619   Bossu: [没什么好羞愧的。只要记住，特工。]
+2620   Bossu: [为了就近研究当地生命，你必须在战斗中使用驯兽电击枪击败它们。]
+2621 
+2622   Bossu: [这样观察单元才能收容那些生物，好让你在机库里更近地观察它们。]
+2623 
+2624   Yiffai: [明白！标准的宇宙育种者规程！知道了！]
+2625   Tomcat: [也许给自己一分钟，好让你的"兴奋"下去，嗯，Pup？你可不想吓到当地的那些。]
+2626 
+2627   Yiffai: [我不-不知道你在说什么……]
+
+DH15 unit-cjk-word-hyphen
+EN [OKAY PUP, SPILL IT. WHAT JUST HAP- PENED OVER THERE?]
+CN [好吧小家伙，说来听听。刚才那边发-生了什么事？]
+datadm/all.ds:2640 effective:2640 Obd03668649488988240f
+2639 <Tomcat.AreaX_fenfen_rescued noselect>
+2640   Tomcat: [好吧小家伙，说来听听。刚才那边发-生了什么事？]
+2641   Yiffai: [我……我只是帮一个小家伙从监狱里逃了出来，但是当他碰到我的手，我就……]
+2642 
+2643   Tomcat: [只是碰到他的手，就让你的生命体征飙上去了？]
+2644   Tomcat: [得是相当极品的猛男才办得到这-]
+2645   Yiffai: [不！才不是那样！他们发来……]
+2646   Yiffai: [他们不知怎么就直接把图像送进了我脑子里！]
+2647   Yiffai: [感觉就像我亲身经历了他们做过的一切。]
+2648   Mauser: [是真的，汤姆猫。P.A.W. 甚至还录下了伊法伊经历的一切。]
+2649 
+2650   Tomcat: [哇，真够疯的……]
+2651   Yiffai: [我感觉只听到了他们故事的一小片段]
+2652   Yiffai: [不过，如果我发现还有别的当地人被关着……]
+2653   Bossu: [明白，特工。留意其他和他们一样的人。]
+2654   Bossu: [他们可能会对这次任务很重要。]
+2655   Yiffai: [收到，我会随时向你汇报。]
+2656 
+
+DH16 unit-cjk-word-hyphen
+EN [IT SHOULD JUST AS IMPERVIOUS TO PHY- SICAL DAMAGE]
+CN [它应该也一样对物-理伤害免疫]
+datadm/all.ds:2908 effective:2908 O66f75236f0ade5bd8183
+2906 <BossuDex.ClassicTentacle>
+2907   Bossu: [啊，那似乎是Blocker的缩小版]
+2908   Bossu: [它应该也一样对物-理伤害免疫]
+2909   Bossu: [只要确保你别撞到它们，那样它们就不应该构成太大的威胁。]
+2910 
+2911 
+
+DH17 unit-cjk-word-hyphen
+EN [ANYWAY, HAPPY HACK- I MEAN, HUNTING!]
+CN [总之，祝你黑-客快乐，啊不，狩猎快乐！]
+datadm/all.ds:3740 effective:3740 Oe31d0e581612b4958fcc
+3737 <The0.ChipReport noselect>
+3738   The0: [找到新芯片了吗？让我看看。扫描中……]
+3739   The0: [@DerekChipReport]
+3740   The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]
+3741 
+datadm/all.ds:3773 effective:3773 Oe35e41270c0fbae9489c
+3770 <The0.Kobo noselect noamendfreq>
+3771   The0: [嗨呀科博！你有点吓人，可有芯片吗？]
+3772   The0: [@DerekChipReport]
+3773   The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]
+3774 
+datadm/all.ds:3781 effective:3781 O3273e9deef4b5665f247
+3778 <The0.GenderSwapped noselect>
+3779   The0: [找到新芯片了吗？让我看看。扫描中……]
+3780   The0: [@DerekChipReport]
+3781   The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]
+3782 
+
+DH18 unit-cjk-word-hyphen
+EN [HEY PUP, I'M MONIT- ORING YOUR VITALS FROM OVER HERE]
+CN [嘿小狗，我在这边监-测你的生命体征]
+datadm/all.ds:3790 effective:3790 Of081f298ba8b6a930f0a
+3789 <Tomcat.TestA>
+3790   Tomcat: [嘿小狗，我在这边监-测你的生命体征]
+3791   Tomcat: [你捡到新东西就呼叫我，到时我再多给你讲讲它！保重！]
+3792 
+3793 
+
+DH19 unit-cjk-word-hyphen
+EN [T-TASTY?? I DON'T EVEN KNOW WHERE IT CAME FROM!]
+CN [好-好吃？？我根本不知道它从哪来的！]
+datadm/all.ds:3868 effective:3868 O744b79c1c011adbde147
+3866 <TomcatItems.VitDrumstick>
+3867   Tomcat: [哦，那看起来真好吃！一根鸡腿！]
+3868   Yiffai: [好-好吃？？我根本不知道它从哪来的！]
+3869   Tomcat: [嗯，它的基因对不上我们任何数据库里的记录。]
+3870 
+3871   Tomcat: [但它能恢复你一点活力，所以一定是好的！]
+3872   Yiffai: [呃，行-行吧……]
+3873 
+
+DH20 unit-cjk-word-hyphen
+EN [UGH, S-SURE...]
+CN [呃，行-行吧……]
+datadm/all.ds:3872 effective:3872 Oce244fa1bcbdab27de40
+3866 <TomcatItems.VitDrumstick>
+3867   Tomcat: [哦，那看起来真好吃！一根鸡腿！]
+3868   Yiffai: [好-好吃？？我根本不知道它从哪来的！]
+3869   Tomcat: [嗯，它的基因对不上我们任何数据库里的记录。]
+3870 
+3871   Tomcat: [但它能恢复你一点活力，所以一定是好的！]
+3872   Yiffai: [呃，行-行吧……]
+3873 
+
+DH21 unit-cjk-word-hyphen
+EN [T-THANKS...GRR...]
+CN [谢-谢谢...GRR...]
+datadm/all.ds:3923 effective:3923 O622401cebce8f94820b9
+3916 <TomcatItems.StatFishtaco>
+3917   Tomcat: [哦，鱼肉塔可！那些挥爪挺有品味！]
+3918   Tomcat: [你有一阵没再有过那种了吧，嗯？]
+3919   Yiffai: [哦，嗯……我想是吧……？]
+3920   Tomcat: [会让你盼着再见到你姐妹吧，嗯？]
+3921   Yiffai: [我不太确定我知道什么…… 你……等等……]
+3922   Tomcat: [呵，我不会跟任何人说你体温升高！]
+3923   Yiffai: [谢-谢谢...GRR...]
+3924 
+
+DM01 merged-ascii-hyphen
+EN With my novel algorithms - and the energy afforded by this site - I believe
+EN I can hack into the simulation that drives our very reality...
+CN 凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……
+1916 <AreaX_Upgrade.Hack>
+1917   * 我看你找那些芯片可真是费了不少劲。
+1918   * 幸好我有个办法……嗯，我觉得有！
+1919   * 凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……
+1920 
+1921   * 那样我们就有永远用不完的芯片了，而且大概没有任何坏处！
+1922   * 怎么样？想试试？！我们来黑掉这个世界吧！
+1923   
+
+DM02 merged-ascii-hyphen
+EN [THAT'S GREAT! OPEN YOUR P.A.W. TO THE COSMOCARD MENU]
+EN [AND YOU SHOULD BE ABLE TO FLIP THE CARDS OVER]
+EN [WHICH WILL GIVE YOU A HEADS UP ON HOW YOU'LL BE FU-]
+CN [太好了！打开你的 P.A.W.，进到宇宙卡菜单，你应该就能把卡片翻过来，这样就能提前知道你会怎么被干-]
+2088 <Tomcat.Area0_First_CosmoCard noselect>
+2089   Tomcat: [不错！我不知道你还在收集宇宙卡！]
+2090   Yiffany: [我才不收！不过好像有个窝囊废掉了一张。]
+2091   Yiffany: [而且碰巧长得像本地的某种动物。]
+2092   Tomcat: [太好了！打开你的 P.A.W.，进到宇宙卡菜单，你应该就能把卡片翻过来，这样就能提前知道你会怎么被干-]
+2093 
+2094 
+2095   Mauser: [哦哇，那是图托恩宇宙卡？真的吗，特工？]
+2096   Mauser: [等你回去，那些大概值不少信用点，当然也会有对你任务有用的信息！]
+2097 
+2098   Yiffany: [那还用说，小吱吱。你知道，汤姆猫也超喜欢宇宙卡。你们俩何不聊聊这个？]
+2099 
+2100   Mauser: [真的吗，汤姆猫？我不知道！我去拿我的收藏]
+2101   Mauser: [我有好几个行星系的完整套装-]
+2102   Tomcat: [啊，这个……听起来……真有意思……]
+2103   Tomcat: [谢你牵线，丫头……]
+2104   Yiffany: [随时奉陪，卡片约会愉快！嘻嘻！]
+2105 
+
+DM03 merged-ascii-hyphen
+EN [YOU SEE, FIRST I NOTED THE AREAS WITHOUT RECEPTION]
+EN [AND TRIANGULATED THOSE WITH THE ARENAS WHERE YO-]
+CN [你看，我先记下了那些没有接收信号的区域，并把它们和各竞技场做了三角定位，在你-]
+2106 <Bossu.Area0_StarkillHint noselect>
+2107   Bossu: [特工，重要消息传来。]
+2108   Tomcat: [这边这位大脑袋小吱吱有事要分享！]
+2109   Mauser: [我做到了！我取得了突破！]
+2110   Yiffany: [慢点，慢点。怎么回事？]
+2111   Mauser: [我成功计算出那个脱控特工——我是说，你的弟弟——所在的位置了！]
+2112 
+2113   Yiffany: [什么！？ 真的？ 他在哪？]
+2114   Mauser: [你看，我先记下了那些没有接收信号的区域，并把它们和各竞技场做了三角定位，在你-]
+2115 
+2116   Yiffany: [快点啊啊啊啊啊，小吱吱，有话快说！]
+2117   Mauser: [对、对！你的弟弟位于泽罗尼亚]
+2118   Mauser: [哎，就在你坠机着陆处的西边！]
+2119   Yiffany: [我一直就离得那么近…… 该死！]
+2120   Tomcat: [好啦好啦，你或许是那位有名的"破处手"，但你可不是气味猎犬。这种事总会发生。]
+2121 
+2122   Bossu: [汤姆猫说得对，伊法妮。但既然你现在知道你弟弟在哪，我想你知道该怎么做。]
+2123 
+2124   Yiffany: [是时候来一场小小的家人重聚了……]
+2125   Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]
+2126 
+2127   do { give(MapDataStarkillHint, 1) }
+2128 
+
+DM04 merged-ascii-hyphen
+EN [YES, TOMCAT. STANDARD ISSUE FLASHLIGHT, 3P-X69]
+EN [AUTOMATICALLY ILLUMINATES LOW-LIGHT AREAS.]
+CN [是的，汤姆猫。制式配发手电筒3P-X69，能自动照亮光线昏暗的区域。]
+4445 <TomcatItems.SpecialTorch>
+4446   Tomcat: [你刚拿到的还真是支手电筒啊。嘿，你是不是-]
+4447   Yiffany: [是的，汤姆猫。制式配发手电筒3P-X69，能自动照亮光线昏暗的区域。]
+4448 
+4449   Tomcat: [是啊，可你还记得在学院时那个女孩-]
+4450   Yiffany: [我记得，汤姆猫。伊法妮通话结束。]
+4451 
+
+DM05 merged-ascii-hyphen
+EN With my novel algorithms - and the energy afforded by this site - I believe
+EN I can hack into the simulation that drives our very reality...
+CN 凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……
+1927 <AreaX_Upgrade.Hack>
+1928   * 我看你找那些芯片可真是费了不少劲。
+1929   * 幸好我有个办法……嗯，我觉得有！
+1930   * 凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……
+1931 
+1932   * 那样我们就有永远用不完的芯片了，而且大概没有任何坏处！
+1933   * 怎么样？想试试？！我们来黑掉这个世界吧！
+1934 
+
+DM06 merged-ascii-hyphen
+EN [YOU SEE, FIRST I NOTED THE AREAS WITHOUT RECEPTION]
+EN [AND TRIANGULATED THOSE WITH THE ARENAS WHERE YO-]
+CN [你看，我先记下了那些没有接收信号的区域，并把它们和各竞技场做了三角定位，在你-]
+2108 <Bossu.Area0_StarkillHint noselect>
+2109   Bossu: [特工，重要消息传来。]
+2110   Tomcat: [这边这位大脑袋小吱吱有事要分享！]
+2111   Mauser: [我做到了！我取得了突破！]
+2112   Yiffai: [慢点，慢点。怎么回事？]
+2113   Mauser: [我成功计算出那个脱控特工——我是说，你的姐姐——所在的位置了！]
+2114 
+2115   Yiffai: [什么！？ 真的？ 她在哪？]
+2116   Mauser: [你看，我先记下了那些没有接收信号的区域，并把它们和各竞技场做了三角定位，在你-]
+2117 
+2118   Yiffai: [毛瑟，拜托！]
+2119   Mauser: [对、对！你姐姐位于泽罗尼亚]
+2120   Mauser: [哎，就在你坠机着陆处的西边！]
+2121   Yiffai: [就在我着陆的地方…… 我为什么没意识到……]
+2122   Tomcat: [好啦好啦，你或许是 PPP 的王牌特工，但你可不是气味猎犬。这种事总会发生。]
+2123 
+2124   Bossu: [汤姆猫说得对，伊法伊。但既然你现在知道你姐姐在哪，我想你知道该怎么做。]
+2125 
+2126   Yiffai: [是啊，是时候看看我成长了多少……]
+2127   Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]
+2128 
+2129   do { give(MapDataStarkillHint, 1) }
+2130 
+
+DM07 merged-ascii-hyphen
+EN [REPORTS ALSO SAID THAT A FULLY FUNC- TIONAL REST AREA]
+EN [WAS SET UP BY PREVIOUS AGENTS.]
+CN [报告还说，那儿有一个功-能完好的休息区，是由之前的特工们建起来的。]
+2575 <Bossu.AreaH_map01_a noselect>
+2576   Bossu: [欢迎来到机库，特工！]
+2577   Bossu: [我们给你飞船的自动驾驶做好了设定：你不亲自驾驶的时候，它会返回这里。]
+2578 
+2579   Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]
+2580 
+2581   Yiffany: [为了讨生活，有些人什么事都肯干，是吧？]
+2582   Bossu: [报告还说，那儿有一个功-能完好的休息区，是由之前的特工们建起来的。]
+2583 
+2584   Bossu: [当然，不保证一切还都能用，毕竟之前的那些特工都已经擅离职守了……]
+2585 
+2586   Bossu: [不过，你能用就尽量用吧。]
+2587   Yiffany: [嗯，谢了。能有个地方休息休息真好。]
+2588   
+2589 
+
+DM08 merged-ascii-hyphen
+EN [BUT REPORTS ALSO MENTION A FULLY FUN- CTIONAL REST AREA]
+EN [WAS SET UP BY PREVIOUS AGENTS.]
+CN [不过报告里也提到有一个功能完-好的休息区，是由之前的特工们建起来的。]
+2593 <Bossu.AreaH_map01_a noselect>
+2594   Bossu: [欢迎来到机库，特工！]
+2595   Bossu: [我们就是把你飞船的自动驾驶设定为：你不亲自驾驶的时候，它会返回这里。]
+2596 
+2597   Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]
+2598 
+2599   Yiffai: [哪怕是在这么偏僻的星球上，也有人站在我们这边，真是太好了！]
+2600 
+2601   Bossu: [嗯哼，是啊。别的不说，"我方"给的价钱可是很难有人比得上……]
+2602 
+2603   Bossu: [不过报告里也提到有一个功能完-好的休息区，是由之前的特工们建起来的。]
+2604 
+2605   Bossu: [当然，不保证一切还都能用，毕竟之前的那些特工都已经擅离职守了……]
+2606 
+2607   Bossu: [不过，你能用就尽量用吧。]
+2608   Yiffai: [多谢了，Bossu。不过没时间休息。]
+2609   Yiffai: [我还有活儿要干，伊法伊通话完毕！]
+2610 
+
+DM09 merged-ascii-hyphen
+EN [J-JUST GOTTA GIVE THEM SOME ATTENTION AND MAYBE GIFTS]
+EN [AND AFTER THEY WARM UP TO ME THEY'LL-]
+CN [只、只要多给它们点关照，也许再送点礼物，等它们跟我熟络起来，它们就会-]
+2752 <Bossu.CapturedPet>
+2753   Bossu: [干得漂亮，伊法伊，抓到了不少本地动物！]
+2754   Bossu: [先前的特工报告说，已经在为你维护飞船的机库区架好了观测装置。]
+2755 
+2756   Tomcat: [既然交上了朋友，就该去那儿转转！]
+2757   Mauser: [是啊，你越跟本地动物亲近，我们能收到的数据也越有用！]
+2758 
+2759   Tomcat: [而他说的「更亲近」，意思是得用上你的-]
+2760   Yiffai: [喂、喂！我知道这是怎么回事！我读过手册了！]
+2761   Yiffai: [只、只要多给它们点关照，也许再送点礼物，等它们跟我熟络起来，它们就会-]
+2762 
+2763   Tomcat: [哇哦，小家伙！你的心率飙得太快了！]
+2764   Bossu: [别忘了你还肩负着救援任务，特工。]
+2765   Yiffai: [对、对！我不会让你失望的！]
+2766   Tomcat: [……是啊，就让他缓一会儿吧……]
+
+DM10 merged-ascii-hyphen
+EN [THE WAY THEY JUMP AT ME MAKES THEM SEEM MORE LIKELY TO]
+EN [KNOCK ME DOWN INSTEAD OF KNOCK ME U-]
+CN [它们这样往我身上扑，倒更像是要把我撞倒，而不是把我弄上-]
+3094 <BossuDex.ClassicBarker>
+3095   Yiffai: [天啊！波苏，这些红毛野狗是怎么回事？]
+3096   Bossu: [个个都带劲儿，是吧？他们叫「吠犬」。]
+3097   Bossu: [看样子你正好赶上了它们的繁殖季，而且它们好像还看上你了！]
+3098 
+3099   Yiffai: [它们这样往我身上扑，倒更像是要把我撞倒，而不是把我弄上-]
+3100 
+3101   Bossu: [不过，对你这样的天才来说，躲开它们应该不成问题，对吧？]
+3102 
+3103   Yiffai: [没错，长官！这不过是时机问题！]
+3104   Yiffai: [事实上，我还记录过它们起跳前会低吼]
+3105   Bossu: [眼力不错，继续保持。]
+3106 
+
+DM11 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4621 <TomcatItems.MapData01>
+4622   Tomcat: [那就是你刚捡到的地图磁盘！]
+4623   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4624 
+4625   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4626 
+4627 
+
+DM12 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4635 <TomcatItems.MapDataB1>
+4636   Tomcat: [那就是你刚捡到的地图磁盘！]
+4637   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4638 
+4639   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4640 
+4641 
+
+DM13 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4649 <TomcatItems.MapDataANorth>
+4650   Tomcat: [那就是你刚捡到的地图磁盘！]
+4651   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4652 
+4653   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4654 
+4655 
+
+DM14 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4663 <TomcatItems.MapDataASouth>
+4664   Tomcat: [那就是你刚捡到的地图磁盘！]
+4665   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4666 
+4667   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4668 
+4669 
+
+DM15 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4677 <TomcatItems.MapDataCEast>
+4678   Tomcat: [那就是你刚捡到的地图磁盘！]
+4679   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4680 
+4681   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4682 
+4683 
+
+DM16 merged-ascii-hyphen
+EN [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+EN [THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]
+CN [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4691 <TomcatItems.MapDataE>
+4692   Tomcat: [那就是你刚捡到的地图磁盘！]
+4693   Tomcat: [其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]
+4694 
+4695   Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]
+4696 
+4697 
+4698 ### CosmoCards (shared)
+4699 
+
+DM17 merged-ascii-hyphen
+EN IT'S VITAL TO AVOID RUNNING
+EN INTO THAT BIGBOLD. HE HURTS
+EN MORE THAN ANY- THING ELSE THERE
+CN 关键是务必避免撞上那只大壮兽。它伤人比那里其他任何- 东西都更狠
+4786 <DefeatHints.ClassicBigboldV2.debris>
+4787   Mauser: 小心！当心你的头！
+4788   Mauser: 有好多碎石正在掉下来！
+4789   Bossu: 关键是务必避免撞上那只大壮兽。它伤人比那里其他任何- 东西都更狠 
+4790 
+4791 
+4792 
+4793 # STARKILL 3
+4794 
+
+DS01 unrecorded-skip
+EN Good thing you came along when you did! Whew!
+EN I was just about to tear a hole in that anvil...
+629 <AreaA_Prison2.TalkBeforeRescue.bopped>
+630   * 咕噜噜……！少废话，像打铁一样！狠狠！干！我！
+631   * 快给我找个男人来！
+632 
+633 <AreaA_Prison2.TalkAfterRescue.thanks>  
+634   * 幸好你及时赶到！呼——
+635   * 我都要把那铁砧凿出个窟窿了……
+
+DS02 unrecorded-skip
+EN [YOU DID NOT, THERE'S NO CHANGE IN YOUR TEMP OR TO Y-]
+EN [OH HAR HAR, FOUND SOME OF THE LOCAL EDIBLE DELIGHTS EH.]
+3871 <TomcatItems.StatNut>
+3872   Yiffany: [好消息，刚搞到个硬坚果！传感器怎么说？]
+3873   Tomcat: [才没有，你的体温没变，你的——]
+3874   Tomcat: [哦，哈哈，原来是找到当地的美味了啊。]
+3875   Tomcat: [至少先认真一会儿，听我说，那些坚果能增强你的防御能力。]
+3876 
+3877   Yiffany: [哈哈！没抢先讲出这个笑话，不爽了吧。]
+3878   Tomcat: [才、才没有。我可没为了说些蠢双关什么的，就特意研究这里的植物和动物……]
+3879 
+3880   Tomcat: [……]
+3881   Tomcat: [*背景传来纸张沙沙声*]
+3882   Tomcat: [不过找到别的东西也记得告诉我。汤姆猫通话完毕！]
+3883 
+
+DS03 unrecorded-skip
+EN Oh! You're gonna rescue me? I'm looking forward to getting a deep-
+EN I mean getting out and d-doing top agent things. F-f-fucking fauna, right!
+1381 <AreaC_Prison3.Rescue>
+1382   * 哦！你要救我？我正盼着被狠狠干——
+1383   * 我是说，出去干、干些上位特工该干的事。操、操、操当地生物，对！
+1384 
+
+DS04 unrecorded-skip
+EN [YOU BETTER NOT HAVE LAID A HAND ON THAT POOR AGE-]
+EN [...YIFFAI, IS THAT YOU?]
+2728 <Bossu.KoboPickup noselect noamendfreq>
+2729   Bossu: [什么？海盗？竟敢霸占特工的无线电！]
+2730   Bossu: [你最好没动那个可怜的特——]
+2731   Bossu: [……伊法伊，是你吗？]
+2732   Bossu: [……那是鳞片套装？汤姆猫也有的那种？]
+2733   Bossu: [……我会把这段对话从记录里删掉。]
+2734   Bossu: [……等你们胡闹完了再接吧……]
+2735 
+
+DS05 unrecorded-skip
+EN [THAT SEEMS TO BE THE BODY PORTION OF SOME SORT OF...]
+EN [...SCALE SUIT?]
+4233 <TomcatItems.KoboBody>
+4234   Tomcat: [这好像是某种……服装的衣身部分]
+4235   Tomcat: [……鳞皮套装？]
+4236   Yiffai: [感觉怪怪的。给我讲讲呗？]
+4237   Tomcat: [这个嘛，我在学院认识的一些家伙特别热衷于扮成别的种族……]
+4238 
+4239   Tomcat: [我不算特别喜欢，但以前偶尔也会玩玩，主要是他们还有些很棒的玩具可以配着——]
+4240 
+4241   Yiffai: [这套衣服绝、对、不、是干那个用的！！]
+4242   Yiffai: [……对吧？]
+4243   Mauser: [你得找个没汤姆猫那么色、那么喵的家伙，给你讲讲这套衣服的用途了，伊法伊！]
+4244 
+4245   Yiffai: [哼嗯！]
+4246 
+4247 ### Elf ###

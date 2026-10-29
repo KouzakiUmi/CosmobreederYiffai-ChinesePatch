@@ -1,0 +1,309 @@
+{
+  "packet": "packet-04",
+  "input_sha256": "12af1db299b53c6c2b57dab5fcd8fd9a716a489c436f6b80c95b44761bc61fa9",
+  "reader_sha256": "12af1db299b53c6c2b57dab5fcd8fd9a716a489c436f6b80c95b44761bc61fa9",
+  "reader_total_lines": 2591,
+  "actual_read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      200
+    ],
+    [
+      201,
+      300
+    ],
+    [
+      301,
+      400
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      501,
+      600
+    ],
+    [
+      601,
+      700
+    ],
+    [
+      701,
+      800
+    ],
+    [
+      801,
+      900
+    ],
+    [
+      901,
+      1000
+    ],
+    [
+      1001,
+      1100
+    ],
+    [
+      1101,
+      1200
+    ],
+    [
+      1201,
+      1300
+    ],
+    [
+      1301,
+      1400
+    ],
+    [
+      1401,
+      1500
+    ],
+    [
+      1501,
+      1600
+    ],
+    [
+      1601,
+      1700
+    ],
+    [
+      1701,
+      1800
+    ],
+    [
+      1801,
+      1900
+    ],
+    [
+      1901,
+      2000
+    ],
+    [
+      2001,
+      2100
+    ],
+    [
+      2101,
+      2200
+    ],
+    [
+      2201,
+      2300
+    ],
+    [
+      2301,
+      2400
+    ],
+    [
+      2401,
+      2500
+    ],
+    [
+      2501,
+      2591
+    ]
+  ],
+  "reader_output_capped": false,
+  "semantic_read_complete": true,
+  "reading_method": "read工具每次100行，1–2591实际完整返回；程序仅提取已读证据及校验覆盖，不计为阅读。",
+  "reference_reads": {
+    "LOCALIZATION_BRIEF.md": "1–65",
+    "WORK_ORDERS.md": "1–48",
+    "characters-primary.md": "1–277首次被截，278–377补读完成",
+    "characters-support.md": "1–128",
+    "world-and-plot.md": "初两次不存在；完稿前已补读1–150、151–250、251–350、351–406，实际全文返回无裁剪；按D01/D03/D04/I03/I05复核。"
+  },
+  "scene_count": 297,
+  "primary_row_count": 1328,
+  "finding_count": 32,
+  "stage": "first_pass_proposals_not_approved",
+  "not_performed": [
+    "正式应用",
+    "逐输出节点映射",
+    "实机验证",
+    "图像验证",
+    "code用途验证",
+    "独立二审"
+  ],
+  "packet_json_sha256": "32cd7e30d9eb89ae50acf59a6061ee44eb3b6e89f6412f1a0d59c6117afdfa61",
+  "input_path": "localization\\editorial\\r1\\corpus\\snapshot-01\\packets\\packet-04.reader.md",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      200
+    ],
+    [
+      201,
+      300
+    ],
+    [
+      301,
+      400
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      501,
+      600
+    ],
+    [
+      601,
+      700
+    ],
+    [
+      701,
+      800
+    ],
+    [
+      801,
+      900
+    ],
+    [
+      901,
+      1000
+    ],
+    [
+      1001,
+      1100
+    ],
+    [
+      1101,
+      1200
+    ],
+    [
+      1201,
+      1300
+    ],
+    [
+      1301,
+      1400
+    ],
+    [
+      1401,
+      1500
+    ],
+    [
+      1501,
+      1600
+    ],
+    [
+      1601,
+      1700
+    ],
+    [
+      1701,
+      1800
+    ],
+    [
+      1801,
+      1900
+    ],
+    [
+      1901,
+      2000
+    ],
+    [
+      2001,
+      2100
+    ],
+    [
+      2101,
+      2200
+    ],
+    [
+      2201,
+      2300
+    ],
+    [
+      2301,
+      2400
+    ],
+    [
+      2401,
+      2500
+    ],
+    [
+      2501,
+      2591
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    {
+      "path": "localization\\editorial\\r1\\LOCALIZATION_BRIEF.md",
+      "ranges": [
+        [
+          1,
+          65
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\WORK_ORDERS.md",
+      "ranges": [
+        [
+          1,
+          48
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\characters-primary.md",
+      "ranges": [
+        [
+          1,
+          277
+        ],
+        [
+          278,
+          377
+        ]
+      ],
+      "initial_output_capped": true
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\characters-support.md",
+      "ranges": [
+        [
+          1,
+          128
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\world-and-plot.md",
+      "ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          250
+        ],
+        [
+          251,
+          350
+        ],
+        [
+          351,
+          406
+        ]
+      ],
+      "supplemented_before_completion": true
+    }
+  ],
+  "world_reference_sha256": "7d4458d93e3b4e39e34db9ac16969fd3be293d4c007795f44132ffa706cacd49"
+}

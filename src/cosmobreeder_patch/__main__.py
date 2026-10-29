@@ -31,6 +31,7 @@ def main():
     group = p.add_mutually_exclusive_group()
     for action in ('verify-payload', 'check', 'install', 'uninstall', 'licenses'):
         group.add_argument('--' + action, action='store_true')
+    p.add_argument('--selftest', action='store_true', help='构建图形界面并校验载荷后自动退出，不安装')
     args = p.parse_args()
     if args.licenses:
         print(license_text())
@@ -49,41 +50,8 @@ def main():
         else:
             print(engine.uninstall(args.game_dir, args.payload))
         return
-    import tkinter as tk
-    from tkinter import filedialog, messagebox
-    root = tk.Tk()
-    root.title('Cosmobreeder 简中补丁 alpha0.1（预发行）')
-    selected = tk.StringVar()
-    tk.Label(root, text='请选择含 cosmobreeder-multi.jar 的目录。\n不会启动游戏，不访问存档；请先关闭游戏和Java。').pack(padx=20, pady=12)
-    tk.Entry(root, textvariable=selected, width=65).pack(padx=12)
-    def browse():
-        path = filedialog.askdirectory()
-        if path:
-            selected.set(path)
-    tk.Button(root, text='选择游戏目录', command=browse).pack(pady=5)
-    def action(name):
-        try:
-            game = Path(selected.get())
-            if not selected.get():
-                raise ValueError('请先选择游戏目录')
-            if name == 'check':
-                result = engine.detect(game, engine.verify(args.payload))
-            else:
-                result = getattr(engine, name)(game, args.payload)
-            messagebox.showinfo('结果', str(result))
-        except Exception as e:
-            messagebox.showerror('操作未完成', str(e))
-    for label, name in [('检测档位', 'check'), ('安装汉化', 'install'), ('还原 / 中断恢复', 'uninstall')]:
-        tk.Button(root, text=label, command=lambda n=name: action(n)).pack(pady=4)
-    def show_licenses():
-        window = tk.Toplevel(root)
-        window.title('第三方许可与声明')
-        text = tk.Text(window, width=90, height=30, wrap='word')
-        text.pack(fill='both', expand=True)
-        text.insert('1.0', license_text())
-        text.configure(state='disabled')
-    tk.Button(root, text='第三方许可与声明', command=show_licenses).pack(pady=4)
-    root.mainloop()
+    from cosmobreeder_patch.gui import run
+    run(args.payload, license_text, initial=args.game_dir, selftest=args.selftest)
 
 if __name__ == '__main__':
     try:

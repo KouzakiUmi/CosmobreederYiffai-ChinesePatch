@@ -1,0 +1,164 @@
+"""Write the r9 batch-02 decision table from reviewed choices."""
+from pathlib import Path
+import json
+
+ROOT = Path(__file__).resolve().parents[4]
+BASE = ROOT / 'localization/editorial/r9-polish/batch-02'
+ORDER = json.loads((BASE / 'orders/batch-02.json').read_text('utf8'))
+ROWS = {r['row_id']: (s['scene_id'], r) for s in ORDER['scenes'] for r in s['rows']}
+
+APPLY = [
+    # —— A：无线电收线误义（OUT 被译成离场）
+    ('CAT:Ob7711f8dc438e6e9ed0d', 'ds:P02-004', 'A', 'meaning',
+     '  Yiffai: 我……我很抱歉……伊、伊吠完毕！',
+     'Y-YIFFAI OUT 是无线电断线；现译「先走了」把收线写成离场动作，人并没有走。女线同位作「伊吠妮结束通话！」，统一为通讯收线。'),
+    ('CAT:Obc38d2918bf863d8853b', 'ds:P02-005', 'A', 'meaning',
+     '  Yiffai: 我……我很抱歉……伊、伊吠完毕！',
+     'GenderSwappedPickup 男线同句同改，与女线收线一致。'),
+    # —— A：合句后 4 折行超页限（240px／3 行实测）
+    ('CAT:O84f58ac1929bd4e50de4', 'ds:P02-001', 'A', 'format',
+     '  Tomcat: [腾空后按 DOWN + JUMP，就会使出俯冲踢；踢中会受伤的东西，还会把你弹起。]',
+     '三行英文合到单行后实测 4 折行，超出 240px／3 行页限（同批唯一一组）；压缩后 3 行，按键名、俯冲踢与弹起条件都不动。'),
+    ('SFW004f0ab00a8d33d90afecb9e', 'ds:P02-002', 'A', 'format',
+     '  Tomcat: [腾空后按 DOWN + JUMP，就会使出俯冲踢；踢中会受伤的东西，还会把你弹起。]',
+     '女线 SFW 同文同句，同样 4 折行；一并压到 3 行，两版措辞一致。'),
+    ('CAT:O819647f6652669d93d6f', 'ds:P02-003', 'A', 'format',
+     '  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]',
+     '本批最长行（59 字）实测 4 折行；去掉「一位」与重复的「们」后压回 3 行，同意、自愿、联结三要素与「宇宙大使」的自称都保留。'),
+    # —— 术语：KOBOLD 与 KOBO
+    ('SFW9584c616b59da73ba70de0ae', 'ds:P02-009', 'B', 'term',
+     '  Tomcat: [呃，伊吠？你穿着科博德套装？]',
+     'KOBOLD 在全库 76 处作「科博德」，「狗头人」只剩这 4 处；同一套服装在两版间成了两个名字。'),
+    ('SFW8b8f2d496d48e93c355e1388', 'ds:P02-010', 'B', 'term',
+     '  Tomcat: [呃，伊吠妮？你穿着科博德套装？]',
+     '女线同句同改，与本批其余 KOBOLD 行一致。'),
+    ('SFW73278dff7c93fd2eb47620ec', 'ds:P02-011', 'B', 'term',
+     '  Tomcat: [那姑娘真被几只科博德打败了，]',
+     'KOBOS 是 KOBOLD 的简写；现译「狗头人」与同场其余「科博德」不一。只改名词，不改成 DS 稿的「那丫头」。'),
+    ('SFWeaefbdc143306f9661173c1c', 'ds:P02-012', 'B', 'term',
+     '  Tomcat: [那小狗崽真被几只科博德打败了，]',
+     '男线同句同改。'),
+    # —— 术语：TAZER 家族
+    ('SFWd1d01a2d103b665840925cfb', 'ds:P02-006', 'B', 'term',
+     '  Tomcat: [哦，嘿！终于找到一把像样的驯兽电击刃了？]',
+     'TRAINER TAZER 在两版全都作「驯兽电击枪」或「训练电击器」，此处「训练电击器」是唯一异写；统一到「驯兽电击刃」需先定 LIGHTTAZER（见 needs_evidence），故本行只统一到本批多数口径「驯兽电击枪」。'),
+    ('SFWb4adf4535d8874b806d919b6', 'ds:P02-007', 'B', 'term',
+     '  Tomcat: [天啊，那小混蛋先是弄丢了电击枪，]',
+     '同一件武器在本批另有 92 处作「电击枪」，此处「电击器」是少数写法；只换名词。'),
+    ('SFW86d2f6dbe683e9edc53c5bd2', 'ds:P02-008', 'B', 'term',
+     '  Tomcat: [天啊，那小狗崽先是弄丢了电击枪，]',
+     '男线同句同改。'),
+    # —— 术语：键位与道具名
+    ('CAT:O6f13fb5dda1035b0372a', 'ds:P02-018', 'B', 'term',
+     '  Tomcat: [没——错，只要别选你那些超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]',
+     '同一场上一行 Yiffany 说的是 UP+ATTACK，Tomcat 复述却成了「上+攻击」；键名全库以 UP+ATTACK 为主（7 处），本行统一，读起来也不会再像两个操作。'),
+    ('SFWbb9c67ce3fb8d7c20b4b4c61', 'ds:P02-019', 'B', 'term',
+     '  Tomcat: [没——错，只要别选你那些超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]',
+     '男线同句同改；「超能力」比「奇怪的超能力」更贴 Tomcat 的随口语气，不添评价。'),
+    ('CAT:O9305500e4b283590c6ba', 'R9M-201', 'B', 'term',
+     '  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]',
+     '同场键名统一：本行现作「UP+攻击 射出钩子」，与下面 Tomcat 的复述应一致。'),
+    ('CAT:Of5e8b45825ad53b40229', 'R9M-202', 'B', 'term',
+     '  Tomcat: [就————是这样，只要没选中你那些古怪能力，按 UP+ATTACK，就能轻松荡过那段缺口。]',
+     '同场同句的键名也统一为 UP+ATTACK；拉长音与句意不动。'),
+    ('CAT:O33a4fd2b09ac4313cf49', 'ds:P02-013', 'B', 'term',
+     '  Tomcat: [我看见你捡到钩爪枪了。]',
+     'HOOKSHOT 全库有四种写法（钩索 4／钩爪枪 3／钩锁 2／钩爪 2），道具名本身作「钩爪」；本行改「钩爪枪」与同场下一句一致，只统一名词。'),
+    # —— 收线套语与否定应答
+    ('CAT:Oea01c921f0d76378f21e', 'ds:P02-028', 'B', 'term',
+     '  Yiffai: [伊吠完毕。]',
+     'OUT 在本作既有收线里以「完毕」为主；同批另有「伊吠通话结束」，两处并存等于两种收线。'),
+    ('SFW47f7c927f7a9a0aa372758ef', 'ds:P02-029', 'B', 'term',
+     '  Yiffai: [伊吠完毕。]',
+     'SFW 男线同句同改。'),
+    ('CAT:O10d160b811e4756bcaa1', 'ds:P02-030', 'B', 'term',
+     '  Yiffai: [不行，杂音太重，听不清总部。]',
+     'NEGATIVE 是对总部的应答，取「不行／不批准」一类，不写成「否定」这种术语式直译。'),
+    ('SFW8e99466b3c7c52b480efa251', 'ds:P02-031', 'B', 'term',
+     '  Yiffai: [不行，杂音太重，听不清总部。]',
+     '男线 SFW 同句同改。'),
+    # —— 口吻与小词
+    ('CAT:O333110e1aecae442eaf3', 'ds:P02-044', 'B', 'voice',
+     '  Bossu: [说明情况，特工。]',
+     'EXPLAIN 单独成句时中文不宜只写「说明」；补出宾语更自然，也不添新内容。'),
+    ('CAT:O8c45d5f526c33af4225e', 'ds:P02-045', 'B', 'continuity',
+     '  Mauser: [你会不会是认错了？]',
+     '现译「你没有可能认错？」语序生硬，且更像反问；毛鼠是在确认而不是质疑。'),
+    ('CAT:O6764cb6d939ade08d643', 'ds:P02-048', 'B', 'continuity',
+     '  Tomcat: [隔壁那间房有什么东西，让它不太正常。]',
+     'SOMETHING ABOUT THAT NEXT ROOM 是「那间房有什么地方不对」，现译「有点东西」像在说房间里有物件；补句末标点。'),
+]
+
+REJECT = [
+    ('gemini:P02-012', 'A', 'meaning', 'SCbef498a71645cdb4',
+     'CAT:O56687a3a48caf477571d',
+     'Gemini 主张把 Bossu 的 TORCH 改成「手提电筒」。R2 已裁决过 torch/flashlight 是同一件手电的英美异称（E07-010、P04-032），笑点正建立在「波苏管手电叫火把」上；改成「手提电筒」会让笑点消失。保留「火把」。'),
+    ('gemini:P02-013', 'A', 'meaning', 'SCbef498a71645cdb4',
+     'CAT:Occe73da652c2456bb49e',
+     '同上：Yiffai 反问「你刚把我的手电筒叫作火把？」正是接 Bossu 的英式用词，改「手提电筒」后这句不成立。'),
+    ('gemini:P02-001', 'B', 'term', 'SC30bbe99d4389a0bf',
+     'CAT:Oebae81baa4cc1dc47c2e',
+     'Gemini 把整批 agent 一律改「探员」。R2 已明确「不将现用特工批量改探员」；全库 471 处作「特工」，改一处只会造成新的不一致。'),
+    ('gemini:P02-007', 'B', 'term', 'SC70adcf011b42bbeb',
+     'CAT:Oc62eb4fc6f3b74b075bf',
+     'MARK IV COSMOBOOTS 现译「马克 IV 宇宙靴」在另一版已用；改成「马克"字数更少」没有依据，且「宇宙靴」与 Cosmoboots 的构词一致。'),
+    ('gemini:P02-021', 'B', 'gameplay', 'SCb09c7c6e85e32642',
+     'CAT:O6f13fb5dda1035b0372a',
+     '与 DS 的 P02-018 同位置；本表已采纳 DS 的更完整改法（含「超能力」措辞），此处作为重复提案不另立。'),
+    ('ds:P02-020', 'B', 'term', 'SC3c0ffb7f567ba00e',
+     'CAT:Oa33d35dfe8b8c30fc802',
+     'NUB 现译「小肉棒」是本作已有的荤双关处理，改「小肉突」既不更准也不更雅，且与全库同类用词不一；保留。'),
+    ('ds:P02-021', 'B', 'term', 'SC3c0ffb7f567ba00e',
+     'CAT:O7c7e7c48ce839912ab32',
+     'TAIL RAISER 现译「爱翘尾巴的」在女线可读，改「爱翘尾的」只是缩短；两版各自成立，不动。'),
+    ('ds:P02-046', 'B', 'voice', 'SCb09c7c6e85e32642',
+     'CAT:O6744a46c6a883f3ad9cb',
+     'AGGRESSIVE AGENT 现译「主动进攻的特工」；改「先动手的」把定性写得更强（原文只是描述这次相遇的攻防顺序），与后文 Bossu「把她当严重威胁」重复施压；保留。'),
+    ('ds:P02-034', 'B', 'term', 'SC70adcf011b42bbeb',
+     'CAT:Oc62eb4fc6f3b74b075bf',
+     '同 gemini:P02-007，理由相同。'),
+    ('ds:P02-036', 'B', 'term', 'SCc03069cb0055411f',
+     'CAT:O5880cf9de5c37c07d123',
+     'COMMAND CENTER 在本批同时出现「总部」「指挥中心」；改成本批统一会牵动全库口径，而「总部」在 PPP 语境已通用，本批只记录不统一。'),
+    ('ds:P02-057', 'B', 'idiom', 'SCb3df0be96568258e',
+     'CAT:O8106c0c948299a21a011',
+     'GOOP/GLOOP 在本批作「黏糊」与「咕叽」两种；batch-03 已按同一逻辑裁定（拟声词自身用「咕叽」、感叹用「黏糊」），此处保持既有分工，不单点改。'),
+]
+
+HOLD = [
+    ('ds:P02-070', 'B', 'term', 'SC29cb42777b41829b', 'CAT:O0c8211a9d37463e29f8d',
+     'LIGHTTAZER 有三种写法：术语提案与参照摘录写「光能电击刃」，全库正文 27 处作「光电击枪」，本行写「轻型电击枪」。这是全库装备命名口径问题，单改一行只会多出第四种写法，须先做一次装备术语终裁。'),
+    ('ds:P02-071', 'B', 'source_uncertainty', 'SC9e591c294ef1ac37', 'CAT:Oe0516f955ca5fbd52759',
+     '同一处失真台词在四场里被处理成三种（保留英文残片／译成可读中文／纯拟声）；这是失真字幕的全局口径问题，不在本批单点改。'),
+    ('gemini:P02-063', 'B', 'term', 'SC0cf5cb4542ec30c8', 'SFW86d2f6dbe683e9edc53c5bd2',
+     '本行同一句在 nsfw 版已由 ds:P02-008 改为「电击枪」，此处 SFW 版需同改；但 SFW 与 nsfw 的行号不共享，是否逐版展开由下一批统一处理。'),
+]
+
+
+def main():
+    lines = ['finding_id\troute\tseverity\tcategory\tscene_id\trow_id\tdecision\tfinal_zh\treason']
+    seen = set()
+    for rid, fid, sev, cat, new, reason in APPLY:
+        if rid not in ROWS:
+            raise SystemExit('unknown row ' + rid)
+        if fid in seen:
+            raise SystemExit('duplicate finding ' + fid)
+        seen.add(fid)
+        scene_id, row = ROWS[rid]
+        if not row['current'] or not new:
+            raise SystemExit('blank line target ' + rid)
+        if row['current'] == new:
+            raise SystemExit('no-op ' + rid)
+        lines.append('\t'.join((fid, fid.split(':')[0], sev, cat, scene_id, rid, 'apply', new, reason)))
+    for fid, sev, cat, scene_id, rid, reason in REJECT:
+        lines.append('\t'.join((fid, fid.split(':')[0], sev, cat, scene_id, rid, 'reject', '', reason)))
+    for fid, sev, cat, scene_id, rid, reason in HOLD:
+        lines.append('\t'.join((fid, 'main' if fid.startswith('R9M') else fid.split(':')[0], sev, cat, scene_id, rid, 'hold', '', reason)))
+    out = BASE / 'review/decisions.tsv'
+    out.write_text('\n'.join(lines) + '\n', encoding='utf8')
+    print(json.dumps({'decisions': len(lines) - 1, 'apply': len(APPLY),
+                      'reject': len(REJECT), 'hold': len(HOLD)}, ensure_ascii=False))
+
+
+if __name__ == '__main__':
+    main()

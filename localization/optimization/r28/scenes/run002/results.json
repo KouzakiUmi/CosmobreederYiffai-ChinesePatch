@@ -1,0 +1,75 @@
+{
+  "steps": [
+    {
+      "label": "compile-runtime",
+      "exit_code": 0,
+      "command": [
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\toolchains\\microsoft-jdk17\\jdk-17.0.20.1+1\\bin\\javac.exe",
+        "-J-Duser.language=en",
+        "--release",
+        "8",
+        "-encoding",
+        "UTF-8",
+        "-cp",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\builds\\r27-story12-shaderfix-test5\\cosmobreeder-multi.jar",
+        "-d",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\runtime",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\layout\\src\\PRG\\SceneText.java",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\layout\\src\\PRG\\EndingReportLayout.java"
+      ]
+    },
+    {
+      "label": "compile-tools",
+      "exit_code": 0,
+      "command": [
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\toolchains\\microsoft-jdk17\\jdk-17.0.20.1+1\\bin\\javac.exe",
+        "-J-Duser.language=en",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED",
+        "-encoding",
+        "UTF-8",
+        "-d",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\tools",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\layout\\tools\\java\\SceneTextPatch.java"
+      ]
+    },
+    {
+      "label": "patch",
+      "exit_code": 0,
+      "command": [
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\toolchains\\microsoft-jdk17\\jdk-17.0.20.1+1\\bin\\java.exe",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED",
+        "-cp",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\tools",
+        "SceneTextPatch",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\builds\\r27-story12-shaderfix-test5\\cosmobreeder-multi.jar",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\targets.jar"
+      ]
+    },
+    {
+      "label": "compile-tests",
+      "exit_code": 1,
+      "command": [
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\toolchains\\microsoft-jdk17\\jdk-17.0.20.1+1\\bin\\javac.exe",
+        "-J-Duser.language=en",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED",
+        "--add-exports",
+        "java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED",
+        "-encoding",
+        "UTF-8",
+        "-cp",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\runtime;D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\tools;D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\builds\\r27-story12-shaderfix-test5\\cosmobreeder-multi.jar",
+        "-d",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\optimization\\r28\\scenes\\run002\\tests",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\layout\\tests\\EndingReportLayoutTest.java",
+        "D:\\Software Projects\\CosmobreederYiffai-ChinesePatch\\localization\\layout\\tests\\SceneTextTest.java"
+      ]
+    }
+  ]
+}

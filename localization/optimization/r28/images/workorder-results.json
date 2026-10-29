@@ -1,0 +1,2503 @@
+{
+  "schema": 1,
+  "scope": "38 workorders / 243 runtime target rows; not a claim every row contained English",
+  "results": [
+    {
+      "workorder_id": "IMG-001",
+      "logical_group": "CardViewMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "宇宙卡查看器",
+        "按「A」翻卡"
+      ],
+      "rows": [
+        {
+          "logical_name": "CardViewMenuBG",
+          "index": 1,
+          "ordinal": 95,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CardViewMenuBG",
+          "index": 1,
+          "ordinal": 95,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-002",
+      "logical_group": "CardViewMenuBGTitle",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 1,
+      "preserved_target_rows": 1,
+      "preserved_reasons": {
+        "preserved-existing-chinese-regression": 1
+      },
+      "localized_text": [
+        "宇宙卡查看器"
+      ],
+      "rows": [
+        {
+          "logical_name": "CardViewMenuBGTitle",
+          "index": 1,
+          "ordinal": 96,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CardViewMenuBGTitle",
+          "index": 1,
+          "ordinal": 96,
+          "variant": "patch",
+          "status": "preserved-existing-chinese-regression",
+          "note": "已汉化帧原样保留，含年龄横幅显隐。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-003",
+      "logical_group": "ClassicHUDBreedMenu",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "训练终端",
+        "从上方列表选择操作",
+        "B.R.E.E.D终端"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicHUDBreedMenu",
+          "index": 1,
+          "ordinal": 2505,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicHUDBreedMenu",
+          "index": 1,
+          "ordinal": 2505,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-004",
+      "logical_group": "ClassicHUDSubBreed",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "口袋训练子菜单",
+        "向左／向右切换",
+        "口袋B.R.E.E.D.子菜单"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicHUDSubBreed",
+          "index": 1,
+          "ordinal": 2506,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicHUDSubBreed",
+          "index": 1,
+          "ordinal": 2506,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-005",
+      "logical_group": "CosmoCodecMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "通信子菜单",
+        "选择上方无线电频道",
+        "按 UP / DOWN 搜索"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoCodecMenuBG",
+          "index": 1,
+          "ordinal": 6108,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoCodecMenuBG",
+          "index": 1,
+          "ordinal": 6352,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-006",
+      "logical_group": "CosmoItemMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "P.A.W.个人档案终端"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoItemMenuBG",
+          "index": 1,
+          "ordinal": 6270,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoItemMenuBG",
+          "index": 1,
+          "ordinal": 6514,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-007",
+      "logical_group": "CosmoMissionLogMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "任务日志子菜单",
+        "选择下方主题",
+        "选择上方条目查看信息"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoMissionLogMenuBG",
+          "index": 1,
+          "ordinal": 6277,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoMissionLogMenuBG",
+          "index": 1,
+          "ordinal": 6521,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-008",
+      "logical_group": "CosmoSaveMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "P.A.W.个人档案终端",
+        "文件名",
+        "等级 尝试",
+        "位置 COM%",
+        "时间",
+        "默认按键设置：",
+        "Q+E 或 L肩键+R肩键 进入设置",
+        "P.A.W.个人档案终端 [R18]"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoSaveMenuBG",
+          "index": 1,
+          "ordinal": 6279,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoSaveMenuBG",
+          "index": 1,
+          "ordinal": 6523,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-009",
+      "logical_group": "CosmoNameEntryMenuBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "P.A.W.个人档案终端",
+        "文件名",
+        "等级 尝试",
+        "位置 COM%",
+        "时间",
+        "用上方字符输入文件名",
+        "然后选择确认",
+        "P.A.W.个人档案终端 [R18]"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoNameEntryMenuBG",
+          "index": 1,
+          "ordinal": 6278,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoNameEntryMenuBG",
+          "index": 1,
+          "ordinal": 6522,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-010",
+      "logical_group": "CosmoSubData",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "回忆子菜单",
+        "-选择下方条目查看-",
+        "图鉴子菜单"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoSubData",
+          "index": 1,
+          "ordinal": 6281,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoSubData",
+          "index": 1,
+          "ordinal": 6525,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-011",
+      "logical_group": "CosmoSubMapBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "地图子菜单",
+        "S=存档 T=TELE ?=线索 !=资料"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoSubMapBG",
+          "index": 1,
+          "ordinal": 6282,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoSubMapBG",
+          "index": 1,
+          "ordinal": 6526,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-012",
+      "logical_group": "CosmoSubMapV2BG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "导航子菜单"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoSubMapV2BG",
+          "index": 1,
+          "ordinal": 6283,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoSubMapV2BG",
+          "index": 1,
+          "ordinal": 6527,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-013",
+      "logical_group": "CosmoTitleData",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 1,
+      "preserved_target_rows": 1,
+      "preserved_reasons": {
+        "preserved-existing-chinese-regression": 1
+      },
+      "localized_text": [
+        "回忆子菜单",
+        "-选择下方条目查看-"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoTitleData",
+          "index": 1,
+          "ordinal": 6284,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoTitleData",
+          "index": 1,
+          "ordinal": 6528,
+          "variant": "patch",
+          "status": "preserved-existing-chinese-regression",
+          "note": "已汉化帧原样保留，含年龄横幅显隐。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-014",
+      "logical_group": "ClassicPretitleGamepad",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 1,
+      "preserved_target_rows": 2,
+      "preserved_reasons": {
+        "preserved-existing-chinese-regression": 2
+      },
+      "localized_text": [
+        "本游戏建议使用手柄游玩",
+        "访问游戏设置",
+        "按手柄 L+R 或按键盘 Q+E"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicPretitleGamepad",
+          "index": 1,
+          "ordinal": 3207,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicPretitleGamepad",
+          "index": 1,
+          "ordinal": 3207,
+          "variant": "patch",
+          "status": "preserved-existing-chinese-regression",
+          "note": "已汉化帧原样保留，含年龄横幅显隐。"
+        },
+        {
+          "logical_name": "ClassicPretitleGamepad",
+          "index": 2,
+          "ordinal": 3208,
+          "variant": "patch",
+          "status": "preserved-existing-chinese-regression",
+          "note": "已汉化帧原样保留，含年龄横幅显隐。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-015",
+      "logical_group": "CosmoGalleryBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "P.A.W.个人档案终端",
+        "按「A」推进场景",
+        "按「B」回退场景"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoGalleryBG",
+          "index": 1,
+          "ordinal": 6109,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoGalleryBG",
+          "index": 1,
+          "ordinal": 6353,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-016",
+      "logical_group": "CosmoGalleryViewerBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "P.A.W.个人档案终端",
+        "按「A」推进场景",
+        "按「B」回退场景"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoGalleryViewerBG",
+          "index": 1,
+          "ordinal": 6110,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoGalleryViewerBG",
+          "index": 1,
+          "ordinal": 6354,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-017",
+      "logical_group": "CosmoShopBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "购物",
+        "-商品-",
+        "-价格-"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoShopBG",
+          "index": 1,
+          "ordinal": 6280,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoShopBG",
+          "index": 1,
+          "ordinal": 6524,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-018",
+      "logical_group": "CosmoGameOverBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "?继续?"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoGameOverBG",
+          "index": 1,
+          "ordinal": 6111,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoGameOverBG",
+          "index": 1,
+          "ordinal": 6355,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-019",
+      "logical_group": "CosmoGameOverLiteBG",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "?继续?"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoGameOverLiteBG",
+          "index": 1,
+          "ordinal": 6252,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoGameOverLiteBG",
+          "index": 1,
+          "ordinal": 6496,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_group": "Observe",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 6,
+      "preserved_target_rows": 12,
+      "preserved_reasons": {
+        "preserved-empty-animation-frame": 12
+      },
+      "localized_text": [
+        "观察"
+      ],
+      "rows": [
+        {
+          "logical_name": "Observe",
+          "index": 1,
+          "ordinal": 6551,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "Observe",
+          "index": 1,
+          "ordinal": 6795,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 1,
+          "ordinal": 6552,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 1,
+          "ordinal": 6796,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 4,
+          "ordinal": 6553,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 4,
+          "ordinal": 6797,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 2,
+          "ordinal": 6554,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 2,
+          "ordinal": 6798,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 3,
+          "ordinal": 6555,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 3,
+          "ordinal": 6799,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 3,
+          "ordinal": 6562,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 3,
+          "ordinal": 6806,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 2,
+          "ordinal": 6563,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 2,
+          "ordinal": 6807,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 4,
+          "ordinal": 6572,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 4,
+          "ordinal": 6816,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 1,
+          "ordinal": 6573,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 1,
+          "ordinal": 6817,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_group": "SelectItem",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 6,
+      "preserved_target_rows": 12,
+      "preserved_reasons": {
+        "preserved-empty-animation-frame": 12
+      },
+      "localized_text": [
+        "选择物品"
+      ],
+      "rows": [
+        {
+          "logical_name": "SelectItem",
+          "index": 1,
+          "ordinal": 6797,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItem",
+          "index": 1,
+          "ordinal": 7041,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 1,
+          "ordinal": 6798,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 1,
+          "ordinal": 7042,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 4,
+          "ordinal": 6799,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 4,
+          "ordinal": 7043,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 2,
+          "ordinal": 6558,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 2,
+          "ordinal": 6802,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 3,
+          "ordinal": 6559,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 3,
+          "ordinal": 6803,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 3,
+          "ordinal": 6566,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 3,
+          "ordinal": 6810,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 2,
+          "ordinal": 6567,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 2,
+          "ordinal": 6811,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 4,
+          "ordinal": 6576,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 4,
+          "ordinal": 6820,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 1,
+          "ordinal": 6577,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 1,
+          "ordinal": 6821,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_group": "SelectProgram",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 6,
+      "preserved_target_rows": 12,
+      "preserved_reasons": {
+        "preserved-empty-animation-frame": 12
+      },
+      "localized_text": [
+        "选择程序"
+      ],
+      "rows": [
+        {
+          "logical_name": "SelectProgram",
+          "index": 1,
+          "ordinal": 6804,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgram",
+          "index": 1,
+          "ordinal": 7048,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 1,
+          "ordinal": 6805,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 1,
+          "ordinal": 7049,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 4,
+          "ordinal": 6806,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 4,
+          "ordinal": 7050,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 2,
+          "ordinal": 6560,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 2,
+          "ordinal": 6804,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 3,
+          "ordinal": 6561,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 3,
+          "ordinal": 6805,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 3,
+          "ordinal": 6570,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 3,
+          "ordinal": 6814,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 2,
+          "ordinal": 6571,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 2,
+          "ordinal": 6815,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 4,
+          "ordinal": 6580,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 4,
+          "ordinal": 6824,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 1,
+          "ordinal": 6581,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 1,
+          "ordinal": 6825,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-023",
+      "logical_group": "CosmoHUDUpdatedFlagDefault",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 2,
+      "preserved_reasons": {
+        "preserved-blink-off-frame": 2
+      },
+      "localized_text": [
+        "已更新"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 1,
+          "ordinal": 6268,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 1,
+          "ordinal": 6512,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 2,
+          "ordinal": 6269,
+          "variant": "jar",
+          "status": "preserved-blink-off-frame",
+          "note": "更新提示灭帧；保持全黑，不添加中文。"
+        },
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 2,
+          "ordinal": 6513,
+          "variant": "patch",
+          "status": "preserved-blink-off-frame",
+          "note": "更新提示灭帧；保持全黑，不添加中文。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-024",
+      "logical_group": "ClassicNameEntryBoxOKActive",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "确认"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicNameEntryBoxOKActive",
+          "index": 1,
+          "ordinal": 2908,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKActive",
+          "index": 1,
+          "ordinal": 2908,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-025",
+      "logical_group": "ClassicNameEntryBoxOKInactive",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "确认"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicNameEntryBoxOKInactive",
+          "index": 1,
+          "ordinal": 2909,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKInactive",
+          "index": 1,
+          "ordinal": 2909,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-026",
+      "logical_group": "SelectAgentClose",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 4,
+      "preserved_target_rows": 12,
+      "preserved_reasons": {
+        "preserved-empty-animation-frame": 12
+      },
+      "localized_text": [
+        "选择干员"
+      ],
+      "rows": [
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 1,
+          "ordinal": 6795,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 1,
+          "ordinal": 7039,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 4,
+          "ordinal": 6796,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 4,
+          "ordinal": 7040,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 2,
+          "ordinal": 6556,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 2,
+          "ordinal": 6800,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 3,
+          "ordinal": 6557,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 3,
+          "ordinal": 6801,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 3,
+          "ordinal": 6564,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 3,
+          "ordinal": 6808,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 2,
+          "ordinal": 6565,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 2,
+          "ordinal": 6809,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 4,
+          "ordinal": 6574,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 4,
+          "ordinal": 6818,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 1,
+          "ordinal": 6575,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 1,
+          "ordinal": 6819,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-027",
+      "logical_group": "SelectMapClose",
+      "result": "completed-redraw-with-explicit-preservations",
+      "redrawn_target_rows": 4,
+      "preserved_target_rows": 12,
+      "preserved_reasons": {
+        "preserved-empty-animation-frame": 12
+      },
+      "localized_text": [
+        "选择区域"
+      ],
+      "rows": [
+        {
+          "logical_name": "SelectMapClose",
+          "index": 1,
+          "ordinal": 6800,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 1,
+          "ordinal": 7044,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 4,
+          "ordinal": 6801,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 4,
+          "ordinal": 7045,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 3,
+          "ordinal": 6568,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 3,
+          "ordinal": 6812,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 2,
+          "ordinal": 6569,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 2,
+          "ordinal": 6813,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 4,
+          "ordinal": 6578,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 4,
+          "ordinal": 6822,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 1,
+          "ordinal": 6579,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 1,
+          "ordinal": 6823,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 2,
+          "ordinal": 6802,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 2,
+          "ordinal": 7046,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 3,
+          "ordinal": 6803,
+          "variant": "jar",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 3,
+          "ordinal": 7047,
+          "variant": "patch",
+          "status": "preserved-empty-animation-frame",
+          "note": "逐帧无英文文字；纯线、纯条和透明空帧保持精确rawRGBA。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-028",
+      "logical_group": "ClassicTitlescreenDefault",
+      "result": "preserved-brand-copyright-by-policy",
+      "redrawn_target_rows": 0,
+      "preserved_target_rows": 32,
+      "preserved_reasons": {
+        "preserved-brand-copyright-animation": 32
+      },
+      "localized_text": [],
+      "rows": [
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 1,
+          "ordinal": 4289,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 1,
+          "ordinal": 4533,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 2,
+          "ordinal": 4290,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 2,
+          "ordinal": 4534,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 3,
+          "ordinal": 4291,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 3,
+          "ordinal": 4535,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 4,
+          "ordinal": 4292,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 4,
+          "ordinal": 4536,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 5,
+          "ordinal": 4293,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 5,
+          "ordinal": 4537,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 6,
+          "ordinal": 4294,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 6,
+          "ordinal": 4538,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 7,
+          "ordinal": 4295,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 7,
+          "ordinal": 4539,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 8,
+          "ordinal": 4296,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 8,
+          "ordinal": 4540,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 9,
+          "ordinal": 4297,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 9,
+          "ordinal": 4541,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 10,
+          "ordinal": 4298,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 10,
+          "ordinal": 4542,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 11,
+          "ordinal": 4299,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 11,
+          "ordinal": 4543,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 12,
+          "ordinal": 4300,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 12,
+          "ordinal": 4544,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 13,
+          "ordinal": 4301,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 13,
+          "ordinal": 4545,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 14,
+          "ordinal": 4302,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 14,
+          "ordinal": 4546,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 15,
+          "ordinal": 4303,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 15,
+          "ordinal": 4547,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 16,
+          "ordinal": 4304,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenDefault",
+          "index": 16,
+          "ordinal": 4548,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-029",
+      "logical_group": "ClassicTitlescreenTransition",
+      "result": "preserved-brand-copyright-by-policy",
+      "redrawn_target_rows": 0,
+      "preserved_target_rows": 58,
+      "preserved_reasons": {
+        "preserved-brand-copyright-animation": 58
+      },
+      "localized_text": [],
+      "rows": [
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 1,
+          "ordinal": 4305,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 1,
+          "ordinal": 4549,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 2,
+          "ordinal": 4306,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 2,
+          "ordinal": 4550,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 3,
+          "ordinal": 4307,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 3,
+          "ordinal": 4551,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 4,
+          "ordinal": 4308,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 4,
+          "ordinal": 4552,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 5,
+          "ordinal": 4309,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 5,
+          "ordinal": 4553,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 6,
+          "ordinal": 4310,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 6,
+          "ordinal": 4554,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 7,
+          "ordinal": 4311,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 7,
+          "ordinal": 4555,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 8,
+          "ordinal": 4312,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 8,
+          "ordinal": 4556,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 9,
+          "ordinal": 4313,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 9,
+          "ordinal": 4557,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 10,
+          "ordinal": 4314,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 10,
+          "ordinal": 4558,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 11,
+          "ordinal": 4315,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 11,
+          "ordinal": 4559,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 12,
+          "ordinal": 4316,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 12,
+          "ordinal": 4560,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 13,
+          "ordinal": 4317,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 13,
+          "ordinal": 4561,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 14,
+          "ordinal": 4318,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 14,
+          "ordinal": 4562,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 15,
+          "ordinal": 4319,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 15,
+          "ordinal": 4563,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 16,
+          "ordinal": 4320,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 16,
+          "ordinal": 4564,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 17,
+          "ordinal": 4321,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 17,
+          "ordinal": 4565,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 18,
+          "ordinal": 4322,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 18,
+          "ordinal": 4566,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 19,
+          "ordinal": 4323,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 19,
+          "ordinal": 4567,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 20,
+          "ordinal": 4324,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 20,
+          "ordinal": 4568,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 22,
+          "ordinal": 4326,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 22,
+          "ordinal": 4569,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 24,
+          "ordinal": 4325,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 24,
+          "ordinal": 4570,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 21,
+          "ordinal": 4327,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 21,
+          "ordinal": 4571,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 25,
+          "ordinal": 4329,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 25,
+          "ordinal": 4572,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 23,
+          "ordinal": 4328,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 23,
+          "ordinal": 4573,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 26,
+          "ordinal": 4330,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 26,
+          "ordinal": 4574,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 27,
+          "ordinal": 4331,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 27,
+          "ordinal": 4575,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 28,
+          "ordinal": 4332,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 28,
+          "ordinal": 4576,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 29,
+          "ordinal": 4333,
+          "variant": "jar",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        },
+        {
+          "logical_name": "ClassicTitlescreenTransition",
+          "index": 29,
+          "ordinal": 4577,
+          "variant": "patch",
+          "status": "preserved-brand-copyright-animation",
+          "note": "品牌、署名、版权及全部转场帧保留；已逐不同像素帧目视。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-030",
+      "logical_group": "ClassicTileset0",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "商",
+        "店"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicTileset0",
+          "index": -1,
+          "ordinal": 4268,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicTileset0",
+          "index": -1,
+          "ordinal": 4512,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-031",
+      "logical_group": "ClassicTileset0A",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "商",
+        "店"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicTileset0A",
+          "index": -1,
+          "ordinal": 4269,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicTileset0A",
+          "index": -1,
+          "ordinal": 4513,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-032",
+      "logical_group": "ClassicTileset0B",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "商",
+        "店"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicTileset0B",
+          "index": -1,
+          "ordinal": 4270,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicTileset0B",
+          "index": -1,
+          "ordinal": 4514,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-033",
+      "logical_group": "ClassicTileset0C",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "商",
+        "店"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicTileset0C",
+          "index": -1,
+          "ordinal": 4271,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicTileset0C",
+          "index": -1,
+          "ordinal": 4515,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-034",
+      "logical_group": "ClassicTileset0F",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "商",
+        "店"
+      ],
+      "rows": [
+        {
+          "logical_name": "ClassicTileset0F",
+          "index": -1,
+          "ordinal": 4272,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "ClassicTileset0F",
+          "index": -1,
+          "ordinal": 4516,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-035",
+      "logical_group": "CollectableSpecialLabel",
+      "result": "blocked-unconfirmed-transcription-preserved",
+      "redrawn_target_rows": 0,
+      "preserved_target_rows": 4,
+      "preserved_reasons": {
+        "preserved-unconfirmed-micro-symbol": 4
+      },
+      "localized_text": [],
+      "rows": [
+        {
+          "logical_name": "CollectableSpecialLabel",
+          "index": 1,
+          "ordinal": 5949,
+          "variant": "jar",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        },
+        {
+          "logical_name": "CollectableSpecialLabel",
+          "index": 1,
+          "ordinal": 6193,
+          "variant": "patch",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        },
+        {
+          "logical_name": "CollectableSpecialLabel",
+          "index": 2,
+          "ordinal": 5950,
+          "variant": "jar",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        },
+        {
+          "logical_name": "CollectableSpecialLabel",
+          "index": 2,
+          "ordinal": 6194,
+          "variant": "patch",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-036",
+      "logical_group": "IconSpecialLabelActive",
+      "result": "blocked-unconfirmed-transcription-preserved",
+      "redrawn_target_rows": 0,
+      "preserved_target_rows": 2,
+      "preserved_reasons": {
+        "preserved-unconfirmed-micro-symbol": 2
+      },
+      "localized_text": [],
+      "rows": [
+        {
+          "logical_name": "IconSpecialLabelActive",
+          "index": 1,
+          "ordinal": 6439,
+          "variant": "jar",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        },
+        {
+          "logical_name": "IconSpecialLabelActive",
+          "index": 1,
+          "ordinal": 6683,
+          "variant": "patch",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-037",
+      "logical_group": "IconSpecialLabelInactive",
+      "result": "blocked-unconfirmed-transcription-preserved",
+      "redrawn_target_rows": 0,
+      "preserved_target_rows": 2,
+      "preserved_reasons": {
+        "preserved-unconfirmed-micro-symbol": 2
+      },
+      "localized_text": [],
+      "rows": [
+        {
+          "logical_name": "IconSpecialLabelInactive",
+          "index": 1,
+          "ordinal": 6440,
+          "variant": "jar",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        },
+        {
+          "logical_name": "IconSpecialLabelInactive",
+          "index": 1,
+          "ordinal": 6684,
+          "variant": "patch",
+          "status": "preserved-unconfirmed-micro-symbol",
+          "note": "实际放大核验为极微型符号/装饰，不能可靠逐字转录；不幻猜。"
+        }
+      ]
+    },
+    {
+      "workorder_id": "IMG-038",
+      "logical_group": "CosmoCasino2",
+      "result": "completed-redraw",
+      "redrawn_target_rows": 2,
+      "preserved_target_rows": 0,
+      "preserved_reasons": {},
+      "localized_text": [
+        "按下",
+        "停止"
+      ],
+      "rows": [
+        {
+          "logical_name": "CosmoCasino2",
+          "index": 1,
+          "ordinal": 6101,
+          "variant": "jar",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        },
+        {
+          "logical_name": "CosmoCasino2",
+          "index": 1,
+          "ordinal": 6345,
+          "variant": "patch",
+          "status": "redrawn",
+          "note": "按本轮锁定逐字候选重排；动态槽、分割、Alpha、逐帧身份保持。"
+        }
+      ]
+    }
+  ]
+}

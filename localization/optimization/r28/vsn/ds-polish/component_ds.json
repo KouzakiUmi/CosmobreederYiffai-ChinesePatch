@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "component": "r27-pak-ds-polish",
+  "archive": "patch.pak",
+  "frozen_build": "r27-story12-shaderfix-test5",
+  "resources": {
+    "datadf/all.ds": {
+      "archive": "patch.pak",
+      "archive_entry": "datadf/1",
+      "r27_plaintext_sha256": "9c4fb0739c5442f1ea30ec6a69103670743edca4442b8c2c9c89c74ab191f58b",
+      "physical_line_count": 5373
+    },
+    "datadm/all.ds": {
+      "archive": "patch.pak",
+      "archive_entry": "datadm/1",
+      "r27_plaintext_sha256": "4be12b98723cdfffc3b97d83292479431130e58d75f7c3a45780fee53250266e",
+      "physical_line_count": 5386
+    }
+  },
+  "canonical_join_ledger_sha256": "372b077c0f095a74f152e5144b19da3d23c751b35e49605c1f5083bbe9cd75b5",
+  "operations_sha256": "bf0e0dff91012bb68b2b716894d440359a7e703454ff8cb7eafd40e6a8d67af3",
+  "review_ledger_sha256": "cda379c41e79d3d726f73a472f4e11908cc267acaa59883c364065ab1be90456",
+  "required_chars": "localization/optimization/r28/vsn/ds-polish/required_chars.txt",
+  "required_chars_sha256": "ffb267bf421abd6ce0d7391ebc21a35d6ee2a37eb276ef2b686e03feea8a086b",
+  "api": {
+    "module": "localization/optimization/r28/vsn/ds-polish/ds_polish.py",
+    "function": "rewrite_ds_polish",
+    "signature": "rewrite_ds_polish(logical_path, r27_plain_bytes, archive='patch.pak') -> (new_bytes, report)",
+    "call_order": "decrypt frozen r27 PAK datadf/1 or datadm/1 -> polish -> encrypt; never apply to SFW or re-run canonical joins"
+  },
+  "tests": [
+    "/c/Windows/py.exe -3.12 -B localization/optimization/r28/vsn/ds-polish/verify.py"
+  ],
+  "summary": {
+    "review_cases": 43,
+    "cjk_word_hyphen_units": 21,
+    "revised_cjk_word_hyphen_units": 7,
+    "retained_cjk_word_hyphen_units": 14,
+    "merged_ascii_hyphen_cases": 17,
+    "revised_merged_cases": 11,
+    "retained_merged_cases": 6,
+    "derived_skip_edges": 5,
+    "distinct_text_lines_revised": 16,
+    "by_resource": {
+      "datadf/all.ds": 3,
+      "datadm/all.ds": 13
+    },
+    "removed_text_nodes": 0,
+    "control_or_timing_changes": 0
+  }
+}

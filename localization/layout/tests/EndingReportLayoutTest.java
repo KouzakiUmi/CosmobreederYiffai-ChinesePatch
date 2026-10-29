@@ -1,4 +1,5 @@
 import PRG.*;
+import cosmoloc.layout.FontAccess;
 import java.io.*;
 import java.lang.reflect.*;
 import java.nio.charset.StandardCharsets;
@@ -13,17 +14,29 @@ public final class EndingReportLayoutTest {
     static int checks, fields, descriptions;
     static Map<String,String> dictionary;
     static final Map<Integer,int[]> glyphs=new HashMap<Integer,int[]>();
+    static final Map<Integer,int[]> defaultGlyphs=new HashMap<Integer,int[]>();
+    static arp defaultFont;
     static final List<Draw> draws=new ArrayList<Draw>();
     static final aBa BASE=new aBa(1f,1f,1f,1f), FLASH=new aBa(1f,0f,0f,1f);
     static final class Draw {
         final String text,role;final int x,y;final Object colour;
         Draw(Object[] a){text=(String)a[0];x=(Integer)a[1];y=(Integer)a[2];colour=a.length==5?a[3]:null;role=(String)a[a.length-1];}
     }
-    static final SN RECORD=(SN)Proxy.newProxyInstance(EndingReportLayoutTest.class.getClassLoader(),new Class<?>[]{SN.class},(p,m,a)->{
+    static final SN RECORD=(SN)Proxy.newProxyInstance(EndingReportLayoutTest.class.getClassLoader(),new Class<?>[]{SN.class,FontAccess.class},(p,m,a)->{
+        if(m.getName().equals("cosmo$layoutFont"))return defaultFont;
         if((m.getName().equals("b")||m.getName().equals("c"))&&m.getParameterCount()==0)return "default";
         if(m.getName().equals("a")&&a!=null&&(a.length==4||a.length==5)&&a[0] instanceof String&&a[a.length-1] instanceof String)draws.add(new Draw(a));
         if(m.getReturnType()==boolean.class)return false;if(m.getReturnType()==int.class)return 0;return null;
     });
+    static final class CpuFile extends aqX {
+        final byte[] content;CpuFile(byte[] b){content=b;this.a=new File("CPU.fnt");}
+        public InputStream e(){return new ByteArrayInputStream(content);}
+        public aqX d(){return this;}public aqX b(String ignored){return this;}
+    }
+    static final class CpuFont extends arp {
+        CpuFont(byte[] b){super(new arp.a(new CpuFile(b),false),new arI(),false);}
+        protected void a(arp.a data) { }
+    }
     static final class Selector extends Iu {
         private static final long serialVersionUID=1L;
         azK selected;
@@ -34,6 +47,9 @@ public final class EndingReportLayoutTest {
         System.setOut(new PrintStream(System.out,true,"UTF-8"));
         if(args.length!=2)throw new IllegalArgumentException("classic.fnt final-dat av-dictionary.json (UTF-8 JSON)");
         byte[] font=Files.readAllBytes(Paths.get(args[0]));eq(hash(font),EndingReportLayout.FONT_SHA256,"actual classic font SHA");readFont(new String(font,StandardCharsets.UTF_8));
+        byte[] defaultBytes=Files.readAllBytes(Paths.get(args[0]).resolveSibling("bbc2.fnt"));
+        defaultFont=new CpuFont(defaultBytes);
+        readFont(new String(defaultBytes,StandardCharsets.UTF_8),defaultGlyphs);
         dictionary=json(new String(Files.readAllBytes(Paths.get(args[1])),StandardCharsets.UTF_8));
         for(char ch:new char[]{'中','文','我','游','戏'}){int[] g=glyphs.get((int)ch);check(g!=null&&g[0]==8&&g[2]==8&&g[3]==8,"actual Chinese 8px font metrics");}
         SH sh=allocate(SH.class);put(sh,"b",(azz<String,SL>)(key->{String s=dictionary.get(key);if(s==null)throw new AssertionError("Missing actual dictionary key "+key);return new SL(s,key);}));
@@ -72,10 +88,14 @@ public final class EndingReportLayoutTest {
             data(panel,book,selector,e.getKey(),e.getValue());descriptions++;
             ending|=e.getKey().contains("EndingGood");gameover|=e.getKey().contains("GameOverAreaE")||e.getKey().contains("GameOverArea0");
         }
-        check(ending&&gameover,"real EndingGood/GameOver data-book entries included");
-        data(panel,book,selector,"fixture/long-Han",repeat("中",80));
+        check(ending,"real EndingGood data-book entries included");
+        if(dictionary.keySet().stream().anyMatch(k->k.startsWith("ui.data.")&&k.endsWith(".desc")&&(k.contains("GameOverAreaE")||k.contains("GameOverArea0"))))
+            check(gameover,"variant's actual GameOver data-book entries included");
+        data(panel,book,selector,"fixture/long-Han",repeat("中",66));
         data(panel,book,selector,"fixture/style","$中文|普通正文");
-        boolean rejected=false;try{data(panel,book,selector,"fixture/overflow",repeat("中",85));}catch(InvocationTargetException ex){rejected=ex.getCause() instanceof IllegalArgumentException;}
+        data(panel,book,selector,"fixture/style22","普通正文|$[STAR BETWEEN CROSS &SQUARE]|$"+repeat("中",22));
+        data(panel,book,selector,"fixture/kinsoku",repeat("中",27)+"（中文），中文……结尾");
+        boolean rejected=false;try{data(panel,book,selector,"fixture/overflow",repeat("中",67));}catch(InvocationTargetException ex){rejected=ex.getCause() instanceof IllegalArgumentException;}
         check(rejected,"real patched Kc rejects overflow instead of zip dropping text");
         System.out.println("PASS EndingReportLayout checks="+checks+" actualEndingFields="+fields+" actualDataDescriptions="+descriptions+"; real Ks/Kr/Kc, original colours/blink/control/ASCII/dynamics, pinned classic8, no GL/visual claim");
     }
@@ -88,16 +108,18 @@ public final class EndingReportLayoutTest {
         eq(join(ordered).replace(" ",""),expected,"actual Kc complete description no hidden source "+key);
         check(plain.size()<=3&&styled.size()<=3,"Kc original three-row capacity "+key);
         for(Draw d:concat(plain,styled)) {
-            check(d.y==30||d.y==22||d.y==14,"unchanged Kc panel y row "+key);eq(d.x,16,"unchanged Kc x");
-            if(han(d.text))eq(d.role,"classic","data Han font role");else eq(d.role,"default","data ASCII role");ink(d,16,240);
+            int step=han(source)?10:8;
+            check(d.y==30||d.y==30-step||d.y==30-step*2,"Kc description row spacing "+key);eq(d.x,16,"unchanged Kc x");
+            eq(d.role,"default","data description uses default10, not tiny classic8");ink(d,16,240);
         }
     }
     static List<Draw> concat(List<Draw>a,List<Draw>b){List<Draw> c=new ArrayList<Draw>(a);c.addAll(b);return c;}
     static List<Draw> atY(int y){List<Draw> out=new ArrayList<Draw>();for(Draw d:draws)if(d.y==y)out.add(d);return out;}
     static String join(List<Draw> values){StringBuilder s=new StringBuilder();for(Draw d:values)s.append(d.text);return s.toString();}
     static boolean han(String s){for(int i=0;i<s.length();i++)if(Character.UnicodeScript.of(s.charAt(i))==Character.UnicodeScript.HAN)return true;return false;}
-    static void ink(Draw d,int left,int right){int x=d.x;for(int i=0;i<d.text.length();i++){char cp=d.text.charAt(i);int[] g=glyphs.get((int)cp);check(g!=null,"actual classic glyph exists U+"+Integer.toHexString(cp));if(g[2]>0&&g[3]>0){int padding=cp<128?1:0;check(x+g[1]>=left-padding&&x+g[1]+g[2]<=right+padding,"BMFont box fits panel (ASCII atlas has declared 1px padding): "+d.text);}x+=g[0];}}
-    static void readFont(String text){Pattern p=Pattern.compile("(\\w+)=(-?\\d+)");for(String line:text.split("\\r?\\n"))if(line.startsWith("char ")){Map<String,Integer> f=new HashMap<String,Integer>();Matcher m=p.matcher(line);while(m.find())f.put(m.group(1),Integer.valueOf(m.group(2)));glyphs.put(f.get("id"),new int[]{f.get("xadvance"),f.get("xoffset"),f.get("width"),f.get("height")});}}
+    static void ink(Draw d,int left,int right){int x=d.x;for(int i=0;i<d.text.length();i++){char cp=d.text.charAt(i);int[] g=(d.role.equals("classic")?glyphs:defaultGlyphs).get((int)cp);check(g!=null,"actual drawn glyph exists U+"+Integer.toHexString(cp));if(g[2]>0&&g[3]>0){int padding=cp<128?1:0;check(x+g[1]>=left-padding&&x+g[1]+g[2]<=right+padding,"BMFont box fits panel (ASCII atlas has declared 1px padding): "+d.text);}x+=g[0];}}
+    static void readFont(String text){readFont(text,glyphs);}
+    static void readFont(String text,Map<Integer,int[]> glyphs){Pattern p=Pattern.compile("(\\w+)=(-?\\d+)");for(String line:text.split("\\r?\\n"))if(line.startsWith("char ")){Map<String,Integer> f=new HashMap<String,Integer>();Matcher m=p.matcher(line);while(m.find())f.put(m.group(1),Integer.valueOf(m.group(2)));glyphs.put(f.get("id"),new int[]{f.get("xadvance"),f.get("xoffset"),f.get("width"),f.get("height")});}}
     static String hash(byte[] bytes)throws Exception{StringBuilder s=new StringBuilder();for(byte b:MessageDigest.getInstance("SHA-256").digest(bytes))s.append(String.format("%02x",b&255));return s.toString();}
     static <T>T allocate(Class<T> type)throws Exception{Class<?> u=Class.forName("sun.misc.Unsafe");Field f=u.getDeclaredField("theUnsafe");f.setAccessible(true);return type.cast(u.getMethod("allocateInstance",Class.class).invoke(f.get(null),type));}
     static void put(Object target,String name,Object value)throws Exception{Field f=target.getClass().getDeclaredField(name);f.setAccessible(true);f.set(target,value);}

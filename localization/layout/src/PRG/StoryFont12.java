@@ -81,8 +81,9 @@ public final class StoryFont12 {
     }
 
     /** Stack-compatible local replacement of the jo/Na Id boolean overload.
-     * Dingbats and ASCII-only WHOLE pages use the exact original role/anchor.
-     * Even an all-space current mask uses12/x8 if its full page is Chinese.
+     * Dingbats keeps its exact original role/anchor, with a render-only symbol
+     * encoding for formerly missing characters. ASCII-only WHOLE pages stay
+     * byte-identical. An all-space mask still uses12/x8 on a Chinese page.
      */
     public static void drawSubtitle(Id original, SN sn, boolean pattern, String maskedLine,
                                     int x, int y, String fullPage) {
@@ -94,7 +95,11 @@ public final class StoryFont12 {
     }
     private static void draw(Id original, SN sn, boolean pattern, String maskedLine,
                               int x, int y, String fullPage) {
-        if (pattern || !uses12(fullPage)) { original.a(sn, pattern, maskedLine, x, y); return; }
+        // Keep jo/Na's ORIGINAL language gate. Only its unreadable branch gets
+        // a render-only representation compatible with the unchanged dingbats.
+        // Never derive symbols from fullPage: that would reveal hidden letters.
+        if (pattern) { original.a(sn, true, PatternSymbols.encodeMask(maskedLine), x, y); return; }
+        if (!uses12(fullPage)) { original.a(sn, false, maskedLine, x, y); return; }
         // Grid padding is not visible ink; do not count its trailing spaces as
         // another64px after an exactly20-Han row. Interior mask spaces stay8px.
         int end = maskedLine.length(); while (end > 0 && maskedLine.charAt(end-1) == ' ') end--;

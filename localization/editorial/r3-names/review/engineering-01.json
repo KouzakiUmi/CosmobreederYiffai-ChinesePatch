@@ -1,0 +1,846 @@
+{
+  "schema": "r3.engineering-independent-review.v1",
+  "status": "PASS",
+  "phase": "candidate6_to_final01_preview_only",
+  "checks": {
+    "registry36": 1,
+    "formal_ops_exact_final01": 1,
+    "manifest_input_SHA": 5,
+    "archive_SHA": 2,
+    "archive_CRC": 2,
+    "all_inventory_plaintext_SHA": 537,
+    "op_resource_SHA": 839,
+    "op_old": 839,
+    "same_field_prefix": 770,
+    "prefix_unchanged": 770,
+    "marker_order_exact": 839,
+    "program_ID_and_The0_exact": 839,
+    "empty_join_lines_exact": 839,
+    "source_blob_SHA": 885,
+    "source_sample_alignment": 885,
+    "ordered_legal_spans": 895,
+    "span_old": 895,
+    "registry_old_form": 895,
+    "registry_target": 895,
+    "stutter_count": 895,
+    "stutter_old_sound": 895,
+    "stutter_new_sound_only": 895,
+    "all_non_name_bytes_preserved_in_field": 839,
+    "nickname_exact_scope": 3,
+    "nickname_uppercase_TOM": 3,
+    "nonoverlap_resource": 537,
+    "physical_EOL": 537,
+    "preview_before_exact": 66,
+    "independent_splice_preview_exact": 66,
+    "json_scalar_string": 69,
+    "JSON_original_raw_encoding_canonical": 69,
+    "all_JSON_keys_raw_identical": 3,
+    "all_non_target_JSON_values": 3,
+    "non_target_resource_bytes": 471,
+    "R2_baseline_exact": 778,
+    "R2_only_name_change": 778,
+    "radio_sync_current": 3,
+    "frequency_six_columns": 36,
+    "alias_mapping_exact": 37,
+    "alias37": 1,
+    "Latin_role_preserved_static": 1,
+    "The0_case_static": 1
+  },
+  "operations": 839,
+  "resources": 537,
+  "touched_resources": 66,
+  "r2_operations": 778,
+  "inputs": {
+    "localization/translations/character-names.json": "bece4c1c6f4eb31d9883b5745c0fb95b66044c47e630de806a03497bc8850e9e",
+    "localization/editorial/r3-names/NAMING_RULES.md": "67e3b9d0f19d8ac4019e5ff51327fac2231d22d90b205d1a40ff523df98280e5",
+    "localization/editorial/r3-names/tools/compile_names.py": "44c3924e6636b529ca7f9530e9ae435db6483a326a0a931356bbdb5a624682d6",
+    "localization/editorial/r3-names/engineering/inventory.py": "d4ae205f07d9536b53b14c8db1b11bd7b9f8868e76abc7fcd5ed1ba0ec05e533",
+    "localization/editorial/r3-names/engineering/test_names.py": "ccd12e1ad3a761a6053f2a26bbc7b0d87f22700de623ff6244d3789502e1b5ad",
+    "localization/editorial/r3-names/engineering/inventory.json": "a89b5b27c5d009f7fb77537972d2cb088a5eb8a4cc6f09c8f478c68a210feb55",
+    "localization/editorial/r3-names/compiled/final-01/manifest.json": "64df3a55ff4505ad055683b8830df03db0633e827607816b9c9fe2723ccbce03",
+    "localization/editorial/r3-names/compiled/final-01/operations.jsonl": "27b71d505d22c44ca612cd10f87fb842e53e8c531b993b3372d380aed1d9c398",
+    "localization/editorial/r3-names/compiled/final-01/bindings.json": "3b79a9472c064c5a5be2a83c628499c18ee3b35f8a3d3dde1c6606cbcc9bc466",
+    "localization/editorial/r3-names/review/names-01.json": "097b55e4129eb849381d32c1ab280d056be7b4f6be9bcac1c974135a3d718ae0",
+    "localization/translations/editorial-r2-repairs.jsonl": "cf297ba29f9fc9bac2e1d8ba7bf1c0e29e91a000ce4130475f5ecdc5be5b7ddd",
+    "localization/layout/src/PRG/RadioLabels.java": "eb88a539cd5edc7dc0f9116032e8801e463db77515f926afbb8bd70abde1bc15",
+    "localization/layout/tests/RadioLabelsTest.java": "62a999b5e41f89d6aedc24f130e9e67ab8922b94a5b6b6f6a124c85b234b9b53",
+    "localization/editorial/r3-names/tools/sync_radio_names.py": "984a3790bab493ff4aa2fd2868ce3a6b293a391e9380960457d925472c727070",
+    "localization/layout/tools/java/RadioLabelsPatch.java": "20313e933a55f96fa878103e3be7cfab1347a00886d6abcd65525580c2c8fedd",
+    "localization/translations/character-name-repairs.jsonl": "27b71d505d22c44ca612cd10f87fb842e53e8c531b993b3372d380aed1d9c398",
+    "localization/builds/r28-editorial-repairs-candidate6/cosmobreeder-multi.jar": "9790d9bcfd1d0720ca3caa9deb68de6b4659afafed6abfda03209d9a28bd9693",
+    "localization/builds/r28-editorial-repairs-candidate6/patch.pak": "3caaf85870b9d470db0a22345fb7d16a040fa732836a8259d3653a4c14447d5a",
+    "localization/optimization/r28/radio/component.json": "c3d727b95dcfa166a9f7dd94be388bd66a1dbdd4495a9a8de2ebb2df75b97dc1",
+    "localization/editorial/r3-names/generated/radio-names.tsv": "9466218a319c88b4486439e0585a94c473acd7c119d8a51225d2435afd0f9c10"
+  },
+  "holds": [],
+  "resource_splices": [
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datadf/1",
+      "beforeSHA": "362cd372b9f59079838291cae412d6d863801fa303ca0381376f30e896ca6a05",
+      "afterSHA": "176836c1aa770e0495509ebd6a01731818ba94c2d85db28149c8376a2d762693",
+      "operations": 143
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datadm/1",
+      "beforeSHA": "aa6a027d20319af1b907568d05230f548cda768998e5a7d525a07c92699a8a74",
+      "afterSHA": "ab458cbfdb5ef36898387835000fd15652d768e0dd09dcd4f3aa1ef97e76e6d0",
+      "operations": 143
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "beforeSHA": "30d122dea45df7131c6008a4843e0e699f86b94d6e6b73a9f8f51b513489952d",
+      "afterSHA": "246d259d1bfbd7fde21d0e3a962c5d1bd68cf52f1ed499203d270247bbb6ab50",
+      "operations": 26
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "beforeSHA": "e50abdcd49c052f3c020cfcd100bf02a0e58fbd88673373a112ed07597207d52",
+      "afterSHA": "0f6b035968de90ae5ffe49c44dd8ffaa9ce5c1f660035bf905e4cf243848b69f",
+      "operations": 16
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/101",
+      "beforeSHA": "97a955b0f4c7f900873168a0b81de68cac332df8fa46cf2cd75afc09ca54f126",
+      "afterSHA": "a7a5a01ced4cc309c73c380e6342375bff39ee2e2ceb3f0dac5d9b4681b1a3cb",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/107",
+      "beforeSHA": "c26f306481e5364648086268de098031c18b96a330d9077e09995cf59b67f664",
+      "afterSHA": "b767a97ed6fc06e29ec8c0438f9b6df0dd641ad3c4765bacb7d4d857286851c4",
+      "operations": 6
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/11",
+      "beforeSHA": "90fefb3f260cad96877eb8264b3c9044276d7a92a925bf2de36e5d5a5461b25b",
+      "afterSHA": "a7fa548c399da8a9181cd3aa50f5027adcf86bbaec2b5d2cb798644d73ae4a5d",
+      "operations": 3
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/119",
+      "beforeSHA": "0da072e0a4ccd5705d085fbb8f2ed00f8188e8cf4a6995a521a278a6167ec4e1",
+      "afterSHA": "542b65fb33e9beeffa21caee0610bb62cd7d130005a728c6a7849ba45f61db9f",
+      "operations": 4
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/125",
+      "beforeSHA": "2c302d2f505d0073b1e2f8608cafb08d3165767396779db25358b5d930098613",
+      "afterSHA": "8b80f8ac6acf4a3e97d7b1076526fa1e7df73b4a4ff9669b6f9a3ce0f2c55645",
+      "operations": 3
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/131",
+      "beforeSHA": "4d1099bacefa275189b9f1e8f1e8475b06a7708f0e357436b77a4c62d1333bb9",
+      "afterSHA": "0a17960755fb69f2d50ee3759805f36ad6ddcdd40df0f62bdbea791a1ac0063b",
+      "operations": 4
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/143",
+      "beforeSHA": "f5983449135bcc45ff125237d3075062f7933564f19cd85188e0b4a332a9308e",
+      "afterSHA": "e1b8b8d416b49af806b4255c10c4c95487c2c89d4d66bb3208b84e98ffe4f536",
+      "operations": 3
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/149",
+      "beforeSHA": "7f749466142336284bce8405fe2b07b129e9da81c9eca8465eb8cf7bc787da4e",
+      "afterSHA": "f0e9787fb75d44a05f05de7266fc16b88c719aae8c498438612fa18d4fe33f39",
+      "operations": 4
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/155",
+      "beforeSHA": "b3cb3d9cfe46f6bf7a63285cc1f7a5507c3ed4a94cb5ed1690368a7e9c305944",
+      "afterSHA": "de4e17272d41ef54658001298c9784e2c999736b1ba9faaf9985d79a790473a7",
+      "operations": 6
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/17",
+      "beforeSHA": "fbd42ca78c105958f68672526213882e7e15ef24e39df6c81acf015a6b7a51a7",
+      "afterSHA": "b4efaa15155fca46fae9205a9ff82bfdd37112d1c96ce3c0a2df04687b655b38",
+      "operations": 4
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/173",
+      "beforeSHA": "7c3e1da6a32f88a599aaadba9fa97ef5502a78a88948ade41835ba7c1bdfe055",
+      "afterSHA": "5fb4d940a822a336cf457ed9b6d752593777b5e023ae077b0480db82c4295154",
+      "operations": 1
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/179",
+      "beforeSHA": "8310e7e6999e45b83db2420e0f7f6415659766dc8094d88cd3367dfea9d6a9ec",
+      "afterSHA": "7762f470b2821d306560fcc4b2b3165604fc871c3b30bf6edaa75286e1c07fed",
+      "operations": 1
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/197",
+      "beforeSHA": "3780a23d9169da662a2799dcfa0cba208df7b2f546e893e12475d0a84927ce6b",
+      "afterSHA": "333bb2bd93df8bba1ab827c851c880061a38b2e862b0170b1b816e4489b3422c",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/209",
+      "beforeSHA": "aa5829c9b9f4067c5b22de5a8c51e712b8ea764880892053103151ebe7332457",
+      "afterSHA": "0964661ecc4fa379bdd7b7ce99f439048f51401ddaac1fef9e51dfc693ac5395",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/215",
+      "beforeSHA": "159a016a3dcad33ed4fb0b34949bf162fcbf490944e1a325539cc672122cb173",
+      "afterSHA": "6d371ace24f6b595ddaf6070a6040a5720fd608c7a943f34b550b13c819a4dc7",
+      "operations": 1
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/221",
+      "beforeSHA": "f8b9f4eafc5a59063dffc734b6472f3225543d04c5fd9d38b8fd9b5893c1afb7",
+      "afterSHA": "142863a92e8335b93bf5cb6da5533839951b81a80c540052667975861ce4aee0",
+      "operations": 6
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/233",
+      "beforeSHA": "03ff0dfdd80272726863f74d31407dac40af418e7c0fec290599e944ffb11d19",
+      "afterSHA": "fdf793f0b7d9dd2e4a0e2b7f6b63dc9f98d53f894876530455a10a9a5455976a",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/29",
+      "beforeSHA": "454b93629a7567f24e806cf525447c2698e0abc45e23c46e694ebb3d42b74776",
+      "afterSHA": "b4770f2ae41b378060c812154980837cd4be7a894c29626f85cb4524290f62da",
+      "operations": 3
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/35",
+      "beforeSHA": "ed8676784347ae240c0a4f64ff0da480f6182d076021c4b1fdbed1bf08bd4dab",
+      "afterSHA": "a47a6d53f9dd32c28c4802871238a6bc511b0d74702b74820acdcc6a555ab485",
+      "operations": 4
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/41",
+      "beforeSHA": "7ada747ec34987ee04e9f9b182988628a466f8c6c6f4fd76cbe77429ff433fab",
+      "afterSHA": "f61b759b99ad0ee26124dbac84b4720faf1c04a8a45b7b6f4e5e8b541b22a7d4",
+      "operations": 6
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/59",
+      "beforeSHA": "9af3507a965f37443274e4df885f1ec023c91f4b48255b703eed61987ea1ed63",
+      "afterSHA": "fb743ba1c91762d99d7c5c6fe5c805ed07cb14d2ab03f9788dce6e69a076901d",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/65",
+      "beforeSHA": "8e6733a294df94ae9164d09989e7c640e94ed8784ea37c41cf608f4fbb8c2383",
+      "afterSHA": "b6850c1f394e5513e6d2450cbedd02445a148be4f50e7900e6222e4ab2321ac5",
+      "operations": 2
+    },
+    {
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "vsn/83",
+      "beforeSHA": "8bdbe78f66e70db1dc0895610d4d2cbc5863b9070edbad82faca83ec176b7ddc",
+      "afterSHA": "389aa051cdabecb3a3414fe1f003b97558dc068ece9318b3ce68a8562a04b29d",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "datadf/1",
+      "beforeSHA": "750bb25dae862de8fe62903008dc17dfa4bbc23c341cb0e0bee0c72ebca4304f",
+      "afterSHA": "8f1132e5f070ab64e8f7e416c95b8e0c741b31a7ae02ab1efa6beae8f1344f17",
+      "operations": 153
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "datadm/1",
+      "beforeSHA": "f9d04330d28b4f678ed05f690e21c024f7da6b5306a8ee81501f1ace0cb6c750",
+      "afterSHA": "e1a202a8f6655cde40bc0fe12b5aefa17e15b37c6bd2c4ab0ccb58b743e16bdf",
+      "operations": 156
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "beforeSHA": "3b59d71bede3e7373f5845ea6cb63a34ef53ef9d0725b7515e3c5c47d28858f4",
+      "afterSHA": "6aa9041613c964dde299c1022f7ed41bf521b18444f0bbf93bb61473e40c6b26",
+      "operations": 27
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/101",
+      "beforeSHA": "a1a6aaa27f2cfec8503a82885b86e4a108abfb2df9da1b4b1b65a0a238af2b5a",
+      "afterSHA": "e22aff4ff47057d7e388801b61d50a26cfb73441530db571b13610fcf177f119",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/113",
+      "beforeSHA": "af6490d646df792835dbf37ad6e813f0a07db7a0e36bf63f8505aeaaf4f99a7c",
+      "afterSHA": "83871d1dbac76d2d1e7ceb7c716e7f0a5571ccd74318703c2442950d9b13061c",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/119",
+      "beforeSHA": "8e6733a294df94ae9164d09989e7c640e94ed8784ea37c41cf608f4fbb8c2383",
+      "afterSHA": "b6850c1f394e5513e6d2450cbedd02445a148be4f50e7900e6222e4ab2321ac5",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/137",
+      "beforeSHA": "8bdbe78f66e70db1dc0895610d4d2cbc5863b9070edbad82faca83ec176b7ddc",
+      "afterSHA": "389aa051cdabecb3a3414fe1f003b97558dc068ece9318b3ce68a8562a04b29d",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/143",
+      "beforeSHA": "1823ae0bc1a9ffd70dbbda05d22992ebb1969b774d39e7c3c1413b78dcf9c312",
+      "afterSHA": "5c7f341da547af3b565657595a557a8119edb4f0483c99b6d2815f73b9b7f446",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/149",
+      "beforeSHA": "4d9fbaccc5e7cd0fd2864d74acff7dbd238080c0d9267dd1fef9601b129730c6",
+      "afterSHA": "57a46a72af6a4272a1b3b78bb9c41ea14f2b4ccf9e9703afd26968bd7a52e3d8",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/155",
+      "beforeSHA": "97a955b0f4c7f900873168a0b81de68cac332df8fa46cf2cd75afc09ca54f126",
+      "afterSHA": "a7a5a01ced4cc309c73c380e6342375bff39ee2e2ceb3f0dac5d9b4681b1a3cb",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/161",
+      "beforeSHA": "fe3530c62431619201bf0a1917a0d95638f82a4fd4a0f3e06a7365f280f62822",
+      "afterSHA": "063fe0b2deac860f9dc8eb4112be813b7f79e0afe349c9300cae26e781903393",
+      "operations": 6
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/179",
+      "beforeSHA": "e43047c2ac114b1064743b2f81fbcbb3fe74815f7339a552cfcdad2bb0c05a29",
+      "afterSHA": "15cef84cc8d928b429cdc6a9268fddc229e7cb102483a2f0dc78b8831677fcb3",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/191",
+      "beforeSHA": "42dce11d4d8582765409d7867246499e9e994b459116fba9b85fbf5df2dd254b",
+      "afterSHA": "865bcbcfbdbc771a57e9f35cd8d0c8d724b774fd4a746dfc709e1efd95607977",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/197",
+      "beforeSHA": "f1473d44f7914b0ce53282d411b70447665d9c0eaa21b33caffae1b5a371be31",
+      "afterSHA": "c9be426eac2649a0e13d99bce14aed31eaa5bf11a87c07db5092c8134826aeee",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/203",
+      "beforeSHA": "132d22fbc1ac3521cbe613acd4a51f4952492d5a09bd5684f109eb2814f22bca",
+      "afterSHA": "2deddae01e193e3ddaebd3135a94eec5f4a497cffd83a0da206a37a47cfa23fc",
+      "operations": 4
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/257",
+      "beforeSHA": "4587411b0071cd5ce6510b023f9327326392a24924d16b7ab4bed486573201bd",
+      "afterSHA": "4f6dacac501d83575416186ba52445191f3ff967a52c5b13387abdfb26b660d2",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/263",
+      "beforeSHA": "983a83217db3f75fc8327e0c066353b8cf17f834372d255f13b68e1894d27d23",
+      "afterSHA": "d852ed62367b2f50cbf856f420224893c83e3a4dd2fad6539705585f2f4b570f",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/269",
+      "beforeSHA": "7eb8a2accafe14de470d9a5fdcad7f6bfc4a362d67aa949d40b63a7d3baf4925",
+      "afterSHA": "a573ede623dcaf419b82286f8c33ed025d900607ef5bb4fa97cee94fcb049bfe",
+      "operations": 4
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/281",
+      "beforeSHA": "1fd8ab0abfdae5bbf390670dc5a2b366fb3f82268b933f219513cd08442e1fd5",
+      "afterSHA": "d221d33dbd410528e2860254fbc96304761a901e12ef061290870efb9609ef14",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/287",
+      "beforeSHA": "5d212342bcb5019c7978305f445ea6695e119bafb7eb0361a1f311dc1415a988",
+      "afterSHA": "5c089427d1a042d302a357980c1eece9f863a792d597e7e76c86491af85c18e7",
+      "operations": 4
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/293",
+      "beforeSHA": "268d99d0ffd32ff52969397607bb40b9e96f868c0cc4d2ff1c34778c55f17c83",
+      "afterSHA": "61473018d607dfa1841b230d5dc6a29844894ea356c1aafec4b3e0bdc955bbd2",
+      "operations": 6
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/305",
+      "beforeSHA": "13e11855ead16172c6df5126cdf0e8c808482fba6d751ef2e99f6404a267ec88",
+      "afterSHA": "c3501670a8b9aa472c9c0254e69c0723673a9bd51a0f5339c4be3d41303ecf34",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/311",
+      "beforeSHA": "347e61c29cf049ec44ed9ce6ca1d5d1f7bfe9d1a69fa5bed68d365d318d2d042",
+      "afterSHA": "deeab790aa893cfa2b65b8da44ac17d0f04751c0a3eb1cb1f7acb0e1379fbbd0",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/317",
+      "beforeSHA": "20f3c0c9e1222f944a6d8d544ad721731030cbe4500f95463c74d43e05b71805",
+      "afterSHA": "abea3ca50a504d1b7bd02bb0e549c92334e4be868db162c4707622e734d898e3",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/335",
+      "beforeSHA": "3780a23d9169da662a2799dcfa0cba208df7b2f546e893e12475d0a84927ce6b",
+      "afterSHA": "333bb2bd93df8bba1ab827c851c880061a38b2e862b0170b1b816e4489b3422c",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/341",
+      "beforeSHA": "f085f084e3591b71d54d995a2489aa9a7f76b85d39a9674bb6d3bbc2aaa43fe1",
+      "afterSHA": "771930a6ba59634c02a0c4937203abc738a9858ece7d50c57f55032f439bcd09",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/35",
+      "beforeSHA": "d0a8a9ac76a76d8e7bc03874db941480cbb5cad686ae223f0260d3428f888990",
+      "afterSHA": "244124c1dbe346a7151d35b1c3ce59a22a6a7dc52d9cbb4c2fea93619c4ca2a3",
+      "operations": 7
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/353",
+      "beforeSHA": "159a016a3dcad33ed4fb0b34949bf162fcbf490944e1a325539cc672122cb173",
+      "afterSHA": "6d371ace24f6b595ddaf6070a6040a5720fd608c7a943f34b550b13c819a4dc7",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/359",
+      "beforeSHA": "4e27e2ac57f74b6866455678e84c019459a7d79e6488de02a95a3250eb4f6728",
+      "afterSHA": "81bb070ad1228518fcd130a1ba3d23322f76e17b5ca1d52f92016eb2b2713a46",
+      "operations": 5
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/377",
+      "beforeSHA": "8a4b706a43f049440d2e6662a82d4a7b7f4c4499c1e187b3c22119e3de5d13e6",
+      "afterSHA": "95be12f3ae058ce38544181e7ff90fb2168d85b9fe2d4c5b346086c54c39883e",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/389",
+      "beforeSHA": "68e43c5f06bcb7b0acfcb1031e0103418a80e6f2c29b1c3e9645ab8c376903da",
+      "afterSHA": "f3fe17d9a733b3bbb1c9b1bee34c7e731982633745b48373fdb460a7e0be9c06",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/395",
+      "beforeSHA": "ea81ad5c78ef7af68ae7f4f89bcf275a97d2da0a309fed58dd944e795c512e28",
+      "afterSHA": "2fcd8c95ccbea14268e324ee22af5a0900d8409a8ca592b04fca8fb0e44244d9",
+      "operations": 1
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/401",
+      "beforeSHA": "f6bd78a802d3d67756ae98dce1489dc627e2d0577fdb935b55d34b221b449850",
+      "afterSHA": "f26696f3e07f534281138ff9a08943aa10209ed9c7ba4171273798e9e5a93020",
+      "operations": 2
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/41",
+      "beforeSHA": "6c63d2c1a4a4310dc56d25173f0434c0412557e9756bfe9e74094e94bf2c4ed2",
+      "afterSHA": "1b0e6f46015a3a45b0def025d278b93c69bed5dcf2d6f066a02d36dda35e1a9c",
+      "operations": 5
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/65",
+      "beforeSHA": "e7a02d27f70d1f4a2d6eeffa4b6ab0996d4c889ee81967b6402f0af27a3b762f",
+      "afterSHA": "4ae646497309358bb5a2bea59e62e48c2d86147d9c0ba1a27d5d9c8ed1da33c3",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/71",
+      "beforeSHA": "eb007f88c3ba627fc2ef35a5422781e3dc76340ccd2ff3fffc20853ac850b1a2",
+      "afterSHA": "f03238d21ad8393c92e9ed536b09277d1d5b4292ec7a285634f65b454e8598f9",
+      "operations": 4
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/83",
+      "beforeSHA": "fa2e89f2a9c0c7d4de2e6aaeeb60d4c3c1898371b6db140c48ae98624d866f85",
+      "afterSHA": "4e0744df49c455d4812d4cb201d425798bf7b72e1141316d02f5c1870d73dcbc",
+      "operations": 3
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/89",
+      "beforeSHA": "454a38cd9b87988ad8e3a05fa610a3d3b3bc7951eb3f123c298c8f535e7f367c",
+      "afterSHA": "024b64490c651c5a2dd7380a0f16422c7ebe4ba9fcec0e215bed924c4bb8a065",
+      "operations": 4
+    },
+    {
+      "archive": "patch.pak",
+      "entry": "vsn/95",
+      "beforeSHA": "4ce45b464e35c1826ae08e251c411360e16f1db93a32e03445705c176489f086",
+      "afterSHA": "933727419a16744f64f78058101f6ab61ea79d5a9902ab1df86b0ee24b2655e2",
+      "operations": 6
+    }
+  ],
+  "limits": [
+    "No full literary proofreading or replacement of independent36-name semantic review.",
+    "Candidate7 actual packed bytes/fonts/JF/helper integration and final17 CPU remain pending; current PASS is not release approval.",
+    "537 inventoried text resources fully checked;471 untargeted text resources byte-identical. final-01 contains plaintext previews, not a new archive; arbitrary non-text archived resources cannot be asserted candidate7-identical before actual candidate7.",
+    "No game runtime, install, archive write, Git write, package install, parent candidate build, or full CPU suite.",
+    "Carrier proof is static class/consumer data-flow; no claim every future missionLog/popup is currently reachable."
+  ],
+  "writes": "only review/engineering-isolated-01 and engineering-01.json/.md",
+  "approval_scope": "candidate6 -> final-01 name-only preview and current helper/sync source; not candidate7 release approval",
+  "candidate7_and_final17_cpu": "PENDING_PARENT_NOTIFICATION_NOT_EXECUTED",
+  "initial_consumer_holds_resolved": [
+    {
+      "op_id": "NAME-0287",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/ClassicQueenHead.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0288",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV2Female.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0289",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV2Male.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0290",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV3Female.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0291",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV3Male.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0292",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datav/1",
+      "pointer": "/SpecialWhistle.desc",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0313",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/10/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0314",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/10/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0315",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/11/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0316",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/11/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0317",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/12/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0318",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/13/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0319",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/16/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0320",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/female/16/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0321",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/10/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0322",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/10/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0323",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/11/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0324",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/11/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0325",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/12/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0326",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/13/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0327",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/16/header",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0328",
+      "archive": "cosmobreeder-multi.jar",
+      "entry": "datay/1",
+      "pointer": "/missionLog/male/16/text",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0711",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/ClassicQueenHead.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0712",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV2Female.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0713",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV2Male.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0714",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV3Female.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0715",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/ClassicStarkillV3Male.popup",
+      "reason": "display consumer not yet independently established"
+    },
+    {
+      "op_id": "NAME-0716",
+      "archive": "patch.pak",
+      "entry": "datav/1",
+      "pointer": "/SpecialWhistle.desc",
+      "reason": "display consumer not yet independently established"
+    }
+  ],
+  "carrier_proof": [
+    {
+      "scope": "all53 datav/1 operations including12 non-ui.* values",
+      "verdict": "PASS",
+      "evidence": [
+        "loaders.javap.txt:1408-1470: lf maps (key,value) to (key,SL(value,key)); SH is a keyed DictionaryString map; no key rewritten",
+        "log-entry.javap.txt:950-969: SL.a() returns display string; SL.e() separate key; DictionaryString type",
+        "dictionary-model.javap.txt:13-18,35-100: SH looks up original .name/.desc keys and returns SL",
+        "consumers.javap.txt:2449-2471,2504-2511: KQ$b appends .popup to original actor ID, dictionary lookup result becomes text",
+        "consumers.javap.txt:1882-1915: zp original-ID .popup lookup result enters Ie.a(String) message queue"
+      ],
+      "restriction": "Uniform display dictionary data-flow, not mere JSON string/key-name heuristic; no assertion every popup is currently reachable."
+    },
+    {
+      "scope": "all16 datay missionLog header/text operations",
+      "verdict": "PASS",
+      "evidence": [
+        "mission-consumers.javap.txt:622-679: Ll decodes separate id,position,flag,header,text,subject,locationName,gfx",
+        "mission-consumers.javap.txt:209-231 and log-entry.javap.txt:19-47: Li.a=id, Li.g=header, Li.h=text",
+        "log-entry.javap.txt:466-555: Lj uses header and text for assembled/parser/layout text",
+        "mission-consumers.javap.txt:1753-1765,1814-1827: header becomes SL/IC display title",
+        "mission-identity.javap.txt:402-414: mission_log_seen_ uses Li.a(id), not translated header or text",
+        "mission-method-refs.json: independent all-PRG-class constant-pool census; g/h usages limited to model/codec,Lj text formatting,Lq title; no identity/flow consumer found"
+      ],
+      "restriction": "Includes stubs/future data; content-field safety approved, current runtime reachability not claimed."
+    },
+    {
+      "scope": "770 line operations",
+      "verdict": "PASS",
+      "evidence": [
+        "puzzle-and-prefixes.json: all prefixes enumerated: fixed actors including Anon/Fox, *, text:, lang(Fox):; no name:/participant:/variable assignment selected",
+        "all770 original prefix bytes unchanged; old/new exact and885 source carrier references checked against SHA-pinned original blobs"
+      ],
+      "restriction": "Ordinary name/participant strings are not approved as display by string-type; no such targeted field exists in this839-op set."
+    }
+  ],
+  "special_constraints": {
+    "nickname": "3 spans only: jar/datadf/1:4402, patch/datadf/1:4573, patch/datadm/1:3947; uppercase TOM and exact carrier guard checked",
+    "same_field_multiple_names": 41,
+    "stutter_fragments": 22,
+    "family": "Each895 span independently spliced without collapsing; repeated surname/given-name preserved; family-samples.json records concrete samples.",
+    "species": "895 changes limited to reviewed name targets and22 preexisting first-sound stutters. No species-description inference/update. Does not reapprove names semantically.",
+    "puzzle": "Only8 known Sevaw/Erauqs report titles plus2 named card-prose fields changed; explicit four title-only targets, puzzle clues and other non-name data outside spans unchanged. No direct geometric answer introduced.",
+    "The0": "No The0 rewrite; program-ID token sequence exact, source helper returns incoming name preserving numeric0/case.",
+    "JF_gate": "candidate6 JF disassembly: gitgud/static/starkill -> ??????; The0 flag gate remains. RadioLabelsPatch inserts display AFTER JF result. Source review only; candidate7 bytes pending.",
+    "radio_geometry": "36 names/37 aliases current source+TSV+component exact; each target<=6; Chinese localized switches classic, Latin retains supplied role. Existing tests cover classic8 8x8/advance8/offset0 and six-column48px/full104px; not executed against candidate7 yet."
+  },
+  "observed_issues": [
+    "No source sample discrepancy:885/885 carrier source SHA/alignment passed.",
+    "inventory.py uses broad field/string heuristics; it is not standalone carrier-usage proof. Current exact839 set additionally reviewed with consumer evidence.",
+    "Review script provisional touched_resources used defaultdict size; fixed to count nonempty groups; authoritative66 resource splice records already exact.",
+    "Initial javap PATH unavailable(exit127); project-owned existing JDK used after inspecting integration script. No installation."
+  ],
+  "evidence_sha256": {
+    "localization/editorial/r3-names/review/engineering-isolated-01/audit-result.json": "b6afc98d29c2d9e5b15305b316225540c5d2d1b69f01c05465a2fd26fda836f2",
+    "localization/editorial/r3-names/review/engineering-isolated-01/audit.py": "a6fb89858e62d18c2605164f4edfe0186f5a10c4fa27fe7d8e42b75868428f22",
+    "localization/editorial/r3-names/review/engineering-isolated-01/consumer-classes.json": "f5378fb00f418378447087cf3323cec49a09d2b2161b8ae25bb55d1db4bfafb3",
+    "localization/editorial/r3-names/review/engineering-isolated-01/consumers.javap.txt": "b91435c89f61a19a4fe5ffd926b050fb8569a57eb403ca28adf8da39146ceaa8",
+    "localization/editorial/r3-names/review/engineering-isolated-01/dictionary-model.javap.txt": "25b04001eb669b024743a49823d73b593f6b61493af1192a37199ca60acc0ba2",
+    "localization/editorial/r3-names/review/engineering-isolated-01/dictionary-references.json": "455f788c6a8ce28542505335c36a2781abc780d3f59c3dbbb63e0b5846a91d5c",
+    "localization/editorial/r3-names/review/engineering-isolated-01/family-samples.json": "7b374cfd18ef9e1c0e6be99e65ab5a1703510af08326050f205f521c18e37946",
+    "localization/editorial/r3-names/review/engineering-isolated-01/loaders.javap.txt": "cabf8093b5d4e7a390034a202269683248327aece7ec0716364e472222796cb0",
+    "localization/editorial/r3-names/review/engineering-isolated-01/log-consumer-classes.json": "81e41e50e4b768a6c55fe2c640d0af729792b1a8478834ce8489b9e9af607fb5",
+    "localization/editorial/r3-names/review/engineering-isolated-01/log-entry.javap.txt": "41d1a649c6f8fb7571888276f3512fdf4b3814082c82059a8d1c84bcc3868fa5",
+    "localization/editorial/r3-names/review/engineering-isolated-01/method-refs.log": "dbff6ebe9de800382a48f79ac16b6617d7029d7a92d357d886f267fdc95b2b29",
+    "localization/editorial/r3-names/review/engineering-isolated-01/method_refs.py": "7f40b8470e496273f17557e91a6df2192659668ae8f9e01fb0e58d35eb14ef08",
+    "localization/editorial/r3-names/review/engineering-isolated-01/mission-consumers.javap.txt": "a615c2dec13bb530c3d09d8d7b5375654ae97cb02f2c5293012e09d4b151ff3e",
+    "localization/editorial/r3-names/review/engineering-isolated-01/mission-identity.javap.txt": "025c7e573ad0b0b0a9f52be4558105f8a4d63097a0f10fe81bf0f14cd125a841",
+    "localization/editorial/r3-names/review/engineering-isolated-01/mission-method-refs.json": "527a4effba86dbccb9c2847e6ecbc61bc49f99b93ff4a6aa5cfd1b789d6f2836",
+    "localization/editorial/r3-names/review/engineering-isolated-01/puzzle-and-prefixes.json": "8026627645563a5bad59fa20cf6a1dfeb7d5599b66c0741a3517035f3bff8248",
+    "localization/editorial/r3-names/review/engineering-isolated-01/run.log": "e1cc4775855b8f4bd00e92a6b49c867d15aed8d7960f6558468508f827c45549",
+    "localization/editorial/r3-names/review/engineering-isolated-01/text-routing.javap.txt": "d5771c66d99f7567f383566320bcd152265078de970bfa6a579c4c42840f1b65",
+    "localization/translations/character-names.json": "bece4c1c6f4eb31d9883b5745c0fb95b66044c47e630de806a03497bc8850e9e",
+    "localization/editorial/r3-names/NAMING_RULES.md": "67e3b9d0f19d8ac4019e5ff51327fac2231d22d90b205d1a40ff523df98280e5",
+    "localization/editorial/r3-names/tools/compile_names.py": "44c3924e6636b529ca7f9530e9ae435db6483a326a0a931356bbdb5a624682d6",
+    "localization/editorial/r3-names/engineering/inventory.py": "d4ae205f07d9536b53b14c8db1b11bd7b9f8868e76abc7fcd5ed1ba0ec05e533",
+    "localization/editorial/r3-names/engineering/test_names.py": "ccd12e1ad3a761a6053f2a26bbc7b0d87f22700de623ff6244d3789502e1b5ad",
+    "localization/editorial/r3-names/engineering/inventory.json": "a89b5b27c5d009f7fb77537972d2cb088a5eb8a4cc6f09c8f478c68a210feb55",
+    "localization/editorial/r3-names/compiled/final-01/manifest.json": "64df3a55ff4505ad055683b8830df03db0633e827607816b9c9fe2723ccbce03",
+    "localization/editorial/r3-names/compiled/final-01/operations.jsonl": "27b71d505d22c44ca612cd10f87fb842e53e8c531b993b3372d380aed1d9c398",
+    "localization/editorial/r3-names/compiled/final-01/bindings.json": "3b79a9472c064c5a5be2a83c628499c18ee3b35f8a3d3dde1c6606cbcc9bc466",
+    "localization/editorial/r3-names/review/names-01.json": "097b55e4129eb849381d32c1ab280d056be7b4f6be9bcac1c974135a3d718ae0",
+    "localization/translations/editorial-r2-repairs.jsonl": "cf297ba29f9fc9bac2e1d8ba7bf1c0e29e91a000ce4130475f5ecdc5be5b7ddd",
+    "localization/layout/src/PRG/RadioLabels.java": "eb88a539cd5edc7dc0f9116032e8801e463db77515f926afbb8bd70abde1bc15",
+    "localization/layout/tests/RadioLabelsTest.java": "62a999b5e41f89d6aedc24f130e9e67ab8922b94a5b6b6f6a124c85b234b9b53",
+    "localization/editorial/r3-names/tools/sync_radio_names.py": "984a3790bab493ff4aa2fd2868ce3a6b293a391e9380960457d925472c727070",
+    "localization/layout/tools/java/RadioLabelsPatch.java": "20313e933a55f96fa878103e3be7cfab1347a00886d6abcd65525580c2c8fedd",
+    "localization/translations/character-name-repairs.jsonl": "27b71d505d22c44ca612cd10f87fb842e53e8c531b993b3372d380aed1d9c398",
+    "localization/builds/r28-editorial-repairs-candidate6/cosmobreeder-multi.jar": "9790d9bcfd1d0720ca3caa9deb68de6b4659afafed6abfda03209d9a28bd9693",
+    "localization/builds/r28-editorial-repairs-candidate6/patch.pak": "3caaf85870b9d470db0a22345fb7d16a040fa732836a8259d3653a4c14447d5a",
+    "localization/optimization/r28/radio/component.json": "c3d727b95dcfa166a9f7dd94be388bd66a1dbdd4495a9a8de2ebb2df75b97dc1",
+    "localization/editorial/r3-names/generated/radio-names.tsv": "9466218a319c88b4486439e0585a94c473acd7c119d8a51225d2435afd0f9c10"
+  },
+  "not_verified": [
+    "actual candidate7 archive/fonts/classes",
+    "final17 CPU results",
+    "runtime reachability and rendering"
+  ]
+}

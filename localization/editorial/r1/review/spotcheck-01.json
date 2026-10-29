@@ -1,0 +1,1426 @@
+{
+  "status": "independent_limited_spotcheck_not_approved",
+  "scope": "仅packet-01/02/04已提交粗校提案；非正式二审、非全局全量复审；不应用不部署",
+  "method": "brief及reference三本MD完整读取。三包findings与summary已通读语义字段；长JSONL行metadata工具有截断，未声称逐字符核尽未显metadata。以下所选项均实际小段read整场reader源文、当前文和控制边，不用程序遍历代读。",
+  "retention_definition": "retain_current=true指本轮暂不动当前中文且挂待判，不等于确认准确；false亦不是允许上线，只表示当前问题仍应处理。",
+  "source_reads": [
+    {
+      "path": "localization/sources/blobs/1672b5dd05ef370162fcea4e39ad4dd03c16221513c676fd90da0264dc5f4b1e.ds",
+      "ranges": [
+        [
+          2791,
+          2810
+        ],
+        [
+          4093,
+          4099
+        ],
+        [
+          4301,
+          4325
+        ],
+        [
+          4449,
+          4453
+        ],
+        [
+          2532,
+          2540
+        ]
+      ],
+      "purpose": "Bumper机器身份、Trainer功能、门卡等级、torch/flashlight直接对照、SAVE IT残片"
+    },
+    {
+      "path": "localization/sources/blobs/66d08528bbeb2090451c82758e40b7cc3805f161a38113f2722bd2ba8920ecca.ds",
+      "ranges": [
+        [
+          2464,
+          2473
+        ],
+        [
+          2334,
+          2347
+        ],
+        [
+          4521,
+          4528
+        ]
+      ],
+      "purpose": "torch地域称法、MAUSER ORDERS及SENSOR DARK源异常"
+    },
+    {
+      "path": "localization/work/dialogue-joins/sfw-original-datadf.ds",
+      "ranges": [
+        [
+          3148,
+          3160
+        ]
+      ],
+      "purpose": "SFW精灵寿命让步与世纪流逝解释，不搬NSFW繁殖原因"
+    }
+  ],
+  "findings": [
+    {
+      "finding_id": "P01-002",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        258,
+        262
+      ],
+      "reason": "同段flashlight/torch同物，火把改变装备类型；双关方向成立，不作全局荤梗显化规则。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC6714a4cc2319a591",
+      "source_quote": "Is that a flashlight in your hands, or are you just happy to see me?\nI kid! I kid! You and that torch are lifesavers.",
+      "current_quote": "  * 你手里那是手电筒，还是只是见到我就高兴？\n  * 开玩笑！开玩笑！你和那支火把可是救星。",
+      "proposal_checked": "你手里那根是手电筒，还是见到我就兴奋得翘起来了？开玩笑啦！你和那支手电筒可真是救星。",
+      "original_evidence_refs": [
+        "datadf/all.ds / AreaC_MacsenDark.Hello",
+        "datadf/all.ds#L1189 / CAT:O432aa2e5b3edbea8883e / D013d2722b724fa0cf51d",
+        "datadf/all.ds#L1190 / CAT:Ob949308ba4e397af2f13 / Df525a9c6b9dc9c1a1278"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-013",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1028,
+        1050
+      ],
+      "reason": "回船喜悦→追敌冲动受限→装大人习语→丢裤子反转→装专业造词→认可是一整组。先把裤子穿好提前字面化包袱；战、战策把STRATEGIMICAL改成无源口吃。须保留造词功能，不提前笑点。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCae78e1dc49c532a6",
+      "source_quote": "[SO THAT MEANS I CAN GO AFTER THOSE BAST-]\n[HOLD ON THERE PUP. YOUR SHIP MAY BE BARELY WORKING]\n[BUT YOU MAY ONLY FLY NAP-OF-THE- EARTH.]\n[WE CAN'T RISK YOU GETTING REDOWNED... OR WORSE.]\n[AWWW MAAAAAN! SERIOUSLY?]\n[AS OUR ONLY ACTIVE AGENT NOW, YOU CAN'T BE SO RISKY!]\n[YEAH PUP, PUT ON YOUR BIG BOY PANTS AND TAKE IT SLOWLY.]\n[...OH WAIT YOU LOST THOSE.]\n[OKAY, OKAY! I'LL TRY AND BE A BIT MORE STRATEGIMICAL.]\n[GOOD LAD. DON'T FORGET, WE'RE ALL HERE TO HELP YOU.]",
+      "current_quote": "  Yiffai: [那是不是意味着我可以去找那些 BAST——]\n  Bossu: [等一下，小子。你的飞船恐怕只能勉强运转，不过你只能贴地飞行。]\n\n  Bossu: [我们不能冒着让你被击落……甚至更糟的风险。]\n  Yiffai: [啊啊——！真的假的？]\n  Mauser: [你现在是我们唯一的现役特工，不能这么冒险！]\n  Tomcat: [就是啊小子，把你的大号短裤穿上，慢慢来。]\n  Tomcat: [……哦等等，你把那些弄丢了。]   \n  Yiffai: [好好好！我会试着更有点策略一点。]\n  Bossu: [好小子。别忘了，我们都在这儿帮你。]",
+      "proposal_checked": "伊法伊：那我就能去找那帮混——\nBossu：先等等，小狗崽。飞船虽然勉强能开，但只能贴地飞行。不能冒险让你再次被击落，甚至更糟。\n伊法伊：不是吧——！真不行？\nMauser：现在能行动的特工只有你，可不能冒这种险！\nTomcat：对啊，小狗崽，拿出点大人的样子，先把裤子穿好，稳着点来。……哦，忘了，你把裤子弄丢了。\n伊法伊：好好好！我会更讲究点战、战策的。\nBossu：这就对了。别忘了，我们都会帮你。",
+      "original_evidence_refs": [
+        "datadm/all.ds / Mauser.Area0Transportal1 noselect",
+        "datadm/all.ds#L2060 / CAT:Oa7e10c9b082ce985c76e / Dc86fc8f51fba5a7eda97",
+        "datadm/all.ds#L2061 / CAT:O4c165841dae510edd6e6 / D1690dffb23e9eaff0656",
+        "datadm/all.ds#L2062 / CAT:Obce59048bc589bdb93ee / D34dc906889adfe761ecf",
+        "datadm/all.ds#L2063 / CAT:Ode1bdc9483c5b03b82c7 / Da56b8cc9ef5d660c148c",
+        "datadm/all.ds#L2064 / CAT:Of600ec1a364a9e1aceef / D516f39a15b5d10e13289",
+        "datadm/all.ds#L2065 / CAT:O360a8c05ba82c868f275 / D1ca946786b1b32cc4f0e",
+        "datadm/all.ds#L2066 / CAT:Obfbe9a4bdd9340fca56d / D4015c859297ee713f6f8",
+        "datadm/all.ds#L2067 / CAT:O064b95f6deb1f28872ca / Dc5351388021b7d11e19f",
+        "datadm/all.ds#L2068 / CAT:Oaaeb46661c5d0f2852fc / Dcb31ebcd8ad3f1db0bed",
+        "datadm/all.ds#L2069 / CAT:Oc057f1b5f737f00fe957 / D36339f868df08cda1476"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-015",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1117,
+        1130
+      ],
+      "reason": "another agent为单数，they改对方正确；但has been turned off未定施事，提案对方已经关掉无据指定主动关机。应为看来对方的无线电已经关了/被关掉了，保留匿名和看来限定。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCed2ed7626a701a34",
+      "source_quote": "[THERE SEEMS TO BE ANOTHER AGENT IN THE AREA.]\n[AND THEY'VE BEEN MOVING ABOUT. FREELY.]\n[ANOTHER AGENT...]\n[WE'RE STILL TRYING TO HAIL THEM, BUT... WELL...]\n[NOW IT LOOKS LIKE THEIR RADIO HAS BEEN TURNED OFF.]",
+      "current_quote": "  Bossu: [这片区域里似乎还有另一名特工。]\n  Bossu: [而且他们一直在四处移动。自由地。]\n  Yiffai: [另一名特工……]\n  Mauser: [我们仍在尝试呼叫他们，但是……嗯……]\n  Mauser: [而现在看来他们的无线电已经被关掉了。]",
+      "proposal_checked": "Bossu：这片区域里似乎还有一名特工，而且一直在四处活动，没有受到限制。\n伊法伊：还有一名特工……\nMauser：我们还在试着联系对方，可是……嗯……现在看来，对方已经关掉无线电了。",
+      "original_evidence_refs": [
+        "datadm/all.ds / Mauser.AreaC_map64_a noselect",
+        "datadm/all.ds#L2423 / CAT:O9a6b393d137bda56d4a4 / D8810b4f2240012ca3307",
+        "datadm/all.ds#L2424 / CAT:Od022e755fbdf87bfa81c / D14a331e59d154982691b",
+        "datadm/all.ds#L2425 / CAT:O409fde92afe9aba095a0 / D9cbcd218aa9658ecc9bb",
+        "datadm/all.ds#L2426 / CAT:Oc7202cc60369296e25b7 / D9fa3f9b27c287cdfbdd0",
+        "datadm/all.ds#L2427 / CAT:O2139711e40d99999b631 / D1655531c1da424a6f52d"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-018",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1300,
+        1318
+      ],
+      "reason": "监控读数→调侃→Bossu规程→急辩的推进成立；未增具体生理数值，H-HOW口吃仍在。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCc03069cb0055411f",
+      "source_quote": "[I CAN SEE SOMETHING STARTED TO GET YOU EXCITED UP THERE]\n[WHAT WAS IT? FINALLY FIND A TRAINER TAZER?]\n[H-HOW DID YOU KNOW...]\n[THERE'S ONLY ONE THING THAT MAKES A PUP LIKE YOU]\n[SEND METRICS LIKE /THIS/ TO COMMAND CENTER.]",
+      "current_quote": "  Tomcat: [我能看见有东西开始让你在上面兴奋了]\n  Tomcat: [是什么？终于找到驯兽电击枪了？]\n  Yiffai: [怎-怎么知道的……]\n  Tomcat: [只有一件事，能让你这样的Pup把像/这样/的指标送到指挥中心。]\n",
+      "proposal_checked": "Tomcat：看这读数，你在那边可兴奋起来了啊。怎么，终于找到驯兽电击枪了？\n伊法伊：你、你怎么知道……\nTomcat：能让你这小狗崽把/这种/体征数据传回指挥中心的，还能有什么？",
+      "original_evidence_refs": [
+        "datadm/all.ds / Tomcat.AreaH_map02_a noselect",
+        "datadm/all.ds#L2614 / CAT:Oa77d8a04307ad0a69207 / Df645338530995083d280",
+        "datadm/all.ds#L2615 / CAT:O154d658fe941fe5ec590 / Dc4137417f6e42bbcf4c5",
+        "datadm/all.ds#L2616 / CAT:Oc175d4efdb590efef1b4 / D5d7676d416ba768262f3",
+        "datadm/all.ds#L2617 / CAT:O5880cf9de5c37c07d123 / D7f3ac822422f8b94d73e",
+        "datadm/all.ds#L2618 / CAT:Of800439497071ec955d8 / D15974ea891a0dd9c6454"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-019",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1300,
+        1318
+      ],
+      "reason": "当地对象和兴奋消退双关修正成立；但我、不知道只剩停顿，D-DONT应保留我不、不知道一类重复，不能顺掉急辩口吃。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCc03069cb0055411f",
+      "source_quote": "[MAYBE GIVE YOURSELF A MINUTE SO THAT YOUR \"EXCITEMENT\"]\n[GOES DOWN, EH PUP? DON'T WANNA SCARE THE LOCALS.]\n[I D-DON'T KNOW WHAT YOU'RE TALKING ABOUT...]",
+      "current_quote": "  Tomcat: [也许给自己一分钟，好让你的\"兴奋\"下去，嗯，Pup？你可不想吓到当地的那些。]\n\n  Yiffai: [我不-不知道你在说什么……]",
+      "proposal_checked": "Tomcat：先缓一分钟，等你的“兴奋”消下去再走吧，小狗崽。可别吓着当地那些家伙。\n伊法伊：我、不知道你在说什么……",
+      "original_evidence_refs": [
+        "datadm/all.ds / Tomcat.AreaH_map02_a noselect",
+        "datadm/all.ds#L2625 / CAT:O25cedba8d6fdd2231429 / D9d454c5cbdefb40027ad",
+        "datadm/all.ds#L2626 / CAT:O4f631a7b10e494a7a5f3 / Dd83a0821682616b347da",
+        "datadm/all.ds#L2627 / CAT:O5634e0799263319247d9 / D0e1f81673f0f76a3023e"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-020",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1319,
+        1337
+      ],
+      "reason": "单一被救者由he/one hunk支持，改对方成立。开头I... I宜我……我刚帮，提案我……刚帮减少局部重复。后段others可能复数，不能全局替换they。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC0c36a41f62a4e9af",
+      "source_quote": "[I... I JUST HELPED A LIL FELLA ESCAPE FROM A PRISON]\n[BUT WHEN HE TOUCHED MY HANDS, I...]\n[JUST THE TOUCH OF THEIR HANDS SPIKED YOUR VITALS?]\n[THEY MUST'VE BEEN ONE HECK OF A HUNK TO DO THA-]\n[NO! NOTHING LIKE THAT! THEY SENT...]\n[THEY SENT IMAGES DIRECTLY INTO MY BRAIN, SOMEHOW!]\n[IT FELT LIKE I WAS LIVING THROUGH ALL THAT THEY DID.]\n[IT'S TRUE, TOMCAT. THE P.A.W. EVEN MANAGED TO RECORD]\n[EVERYTHING THAT YIFFAI EXPERIENCED.]\n[WOAH, CRAZY...]\n[I FEEL LIKE I ONLY HEARD A SNIPPET OF THEIR STORY]\n[BUT IF I FIND OTHER LOCALS IMPRISONED...]",
+      "current_quote": "  Yiffai: [我……我只是帮一个小家伙从监狱里逃了出来，但是当他碰到我的手，我就……]\n\n  Tomcat: [只是碰到他的手，就让你的生命体征飙上去了？]\n  Tomcat: [得是相当极品的猛男才办得到这-]\n  Yiffai: [不！才不是那样！他们发来……]\n  Yiffai: [他们不知怎么就直接把图像送进了我脑子里！]\n  Yiffai: [感觉就像我亲身经历了他们做过的一切。]\n  Mauser: [是真的，汤姆猫。P.A.W. 甚至还录下了伊法伊经历的一切。]\n\n  Tomcat: [哇，真够疯的……]\n  Yiffai: [我感觉只听到了他们故事的一小片段]\n  Yiffai: [不过，如果我发现还有别的当地人被关着……]",
+      "proposal_checked": "伊法伊：我……刚帮一个小家伙逃出牢房，可他一碰我的手，我就……\nTomcat：光碰一下手就让你生命体征飙升？那得是什么极品猛男才——\n伊法伊：不是！根本不是那回事！对方把……不知道怎么就把图像直接传进了我脑子里！就像我亲身经历了对方经历过的一切。\nMauser：是真的，Tomcat。P.A.W.还录下了伊法伊经历的全过程。\nTomcat：哇，真够离奇的……\n伊法伊：我感觉自己只听到了对方故事的一小段。不过，要是再找到别的被囚禁的当地人……",
+      "original_evidence_refs": [
+        "datadm/all.ds / Tomcat.AreaX_fenfen_rescued noselect",
+        "datadm/all.ds#L2641 / CAT:O6d565003d19d6511091b / D60f8d5ac1d6b5522c9e5",
+        "datadm/all.ds#L2642 / CAT:O69be429bc0fa40670d29 / D0c816984003433e261b9",
+        "datadm/all.ds#L2643 / CAT:O86710515b445ab04825e / Db64cc5a0c7ee35536715",
+        "datadm/all.ds#L2644 / CAT:O63d5fd68e71c5151bede / Dbfd09d1ffc87e62512c3",
+        "datadm/all.ds#L2645 / CAT:O3d6489ddd13985ec7069 / D7437a8b20987d556b145",
+        "datadm/all.ds#L2646 / CAT:O292c27977d6b83fc9e20 / De028ae1c97fc4ab34042",
+        "datadm/all.ds#L2647 / CAT:O3f28595623b5c9ad9f39 / D7c932d02fe6ec93ddc1c",
+        "datadm/all.ds#L2648 / CAT:Oafac56753a469941c838 / D029bc0c4c3fb1b199e9c",
+        "datadm/all.ds#L2649 / CAT:O01624c810372335b460c / Ddaa2d4a3b8220ff08495",
+        "datadm/all.ds#L2650 / CAT:O7c4bacd080280df00472 / Dcaa2e90f0f3633814176",
+        "datadm/all.ds#L2651 / CAT:Oa2c25aa272cac82bc2af / Db8547b812a33e9f1a9db",
+        "datadm/all.ds#L2652 / CAT:Oc2d2882433649d3730c4 / D41a086b5b26f02fc067e"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-021",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1448,
+        1457
+      ],
+      "reason": "男线sis为已证姐姐，不是姐妹。回应是逐渐意识到荤暗示，不是询问自己知道什么。提案保留迟疑、谢、谢谢和恼声，不认证既往亲密关系。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC1152b760ddce4ff4",
+      "source_quote": "[OH, A FISH TACO! THOSE SWIPERS HAVE GOOD TASTE!]\n[BEEN A WHILE SINCE YOU'VE HAD ONE OF THOSE, HUH?]\n[OH, UMM... I GUESS SO...?]\n[MAKES YOU LOOK FORWARD TO SEEING Y'ER SIS AGAIN, EH?]\n[I'M NOT SURE I KNOW WHAT... YOU...WAIT...]\n[HEH, I WON'T TELL ANYONE ABOUT YOUR TEMP RISING!]\n[T-THANKS...GRR...]",
+      "current_quote": "  Tomcat: [哦，鱼肉塔可！那些挥爪挺有品味！]\n  Tomcat: [你有一阵没再有过那种了吧，嗯？]\n  Yiffai: [哦，嗯……我想是吧……？]\n  Tomcat: [会让你盼着再见到你姐妹吧，嗯？]\n  Yiffai: [我不太确定我知道什么…… 你……等等……]\n  Tomcat: [呵，我不会跟任何人说你体温升高！]\n  Yiffai: [谢-谢谢...GRR...]",
+      "proposal_checked": "Tomcat：哦，鱼肉塔可！那些挥爪挺会吃啊！你好久没尝过这种滋味了吧？\n伊法伊：哦，呃……大概吧……？\nTomcat：是不是更盼着再见到你姐姐了？\n伊法伊：我不太懂你在说什……你……等等……\nTomcat：呵，我不会告诉别人你体温升高的！\n伊法伊：谢、谢谢……哼……",
+      "original_evidence_refs": [
+        "datadm/all.ds / TomcatItems.StatFishtaco",
+        "datadm/all.ds#L3917 / CAT:O625e7d09ebbfa3e57013 / D1eb244f773da02b25c37",
+        "datadm/all.ds#L3918 / CAT:Oc35823fd7a3a588a2a85 / Da80d2865aafe58295079",
+        "datadm/all.ds#L3919 / CAT:O7b4e504c74d85cedf696 / D137624e39491d831433e",
+        "datadm/all.ds#L3920 / CAT:O761cfff2f54e3966ae0d / Dfbd4f3bae8e8eb422253",
+        "datadm/all.ds#L3921 / CAT:O65e2e6b61ccbfd63ad4d / Db00d9b15cd21fdd20b22",
+        "datadm/all.ds#L3922 / CAT:O47add33de9db91de4685 / Dc5f35a3f6fe3e5aade20",
+        "datadm/all.ds#L3923 / CAT:O622401cebce8f94820b9 / D41662ddbf23e4ce03ee8"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-022",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1486,
+        1497
+      ],
+      "reason": "Tomcat试开荤笑而Yiffai专注肉大多汁，提案恢复欢呼递进及截话，不是机械拉字；SFW回复体力段不混入。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC324634902c5c27dd",
+      "source_quote": "[YESSSSSSS]\n[OH THAT'S A REALLY HUGE CHUNK OF MEAT!]\n[SOOO BIIIIIIGGGGGG]\n[YOU REALLY LIKE BIG MEAT YOU CAN STICK IN YOUR MOUTH, HUH?]\n[HUUUUUUUUUUGE]\n[DOES IT REMIND YOU OF OTHER THINGS IN YOUR MOUTH, LI-]\n[JUIIIIIIICCEEEEEYY]\n[UHH YOU KNOW WHAT?]\n[I'M JUST GONNA LEAVE YOU TWO ALONE FOR A MINUTE...]",
+      "current_quote": "  Yiffai: [是啊啊啊啊啊啊啊]\n  Tomcat: [哦，那真是好大的一块肉！]\n  Yiffai: [好啊啊啊 大啊啊啊啊啊啊啊啊啊啊啊啊啊]\n  Tomcat: [你还真喜欢能塞进嘴里的大肉，嗯？]\n  Yiffai: [巨啊啊啊啊啊啊啊啊啊啊]\n  Tomcat: [会不会让你想起嘴里的其他东西，LI-]\n  Yiffai: [汁汁汁汁汁汁汁汁汁汁汁汁汁汁汁汁汁汁]\n  Tomcat: [呃，你知道吗？]\n  Tomcat: [我就让你们两个单独待一分钟……]",
+      "proposal_checked": "伊法伊：太——棒了！\nTomcat：嚯，好大一块肉！\n伊法伊：好——大——！\nTomcat：能往嘴里塞的大肉块，你还真喜欢啊？\n伊法伊：大得不得了——！\nTomcat：会不会让你想起嘴里的别的东西，比如——\n伊法伊：汁水真——足——！\nTomcat：呃，算了。我还是让你俩单独待一会儿吧……",
+      "original_evidence_refs": [
+        "datadm/all.ds / TomcatItems.VitMeat",
+        "datadm/all.ds#L3875 / CAT:O3498f8d0e3ea2ad7bbee / D47c5b964a35a958f7d10",
+        "datadm/all.ds#L3876 / CAT:O272377979a1c88dbc600 / D178d47b910ba5c622ee8",
+        "datadm/all.ds#L3877 / CAT:Oa98e8a8481a648309031 / De7ec1062152bc6b02165",
+        "datadm/all.ds#L3878 / CAT:O1632c04c02665541e8b8 / Da3d303e53e79837e8832",
+        "datadm/all.ds#L3879 / CAT:O65552af0cccdb8cc8c16 / D46467f5c11bab62cc98e",
+        "datadm/all.ds#L3880 / CAT:O4084b302931729683c11 / D9c19d752f116ef5ada94",
+        "datadm/all.ds#L3881 / CAT:Od8dd3cad7fdfb6e78384 / D1e8dae7cb081f642798c",
+        "datadm/all.ds#L3882 / CAT:O755db971f6aedd3e979f / Dbeee17bbb2d98c402572",
+        "datadm/all.ds#L3883 / CAT:Oa82cc88770bd27967576 / D0324ea2249b39fd437cf"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-023",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "01",
+      "reader_lines": [
+        1503,
+        1513
+      ],
+      "reason": "主角推测耐打增强而输出降低，提案保留好像及问句，不增倍率。该段不宜靠更硬抢出无证性双关。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC6b9b4091349eca10",
+      "source_quote": "[HEY, THE ORB WAS JUST FLOATING RIGHT THERE!]\n[IT SEEMS... THIS POWER MIGHT MAKE ME TOUGHER? BUT...]\n[WITH A TRADEOFF, ATTACKING THREATS... HURTS THEM LESS?]\n[STARS HELP US, BUT I THINK YOU'RE THE EXPERT HERE.]\n[JUST BE CAREFUL, KIDDO...]\n[I'LL TRY TO BE. YIFFAI OUT.]",
+      "current_quote": "  Yiffai: [嘿，那球就正好悬浮在那儿呢！]\n  Yiffai: [看来……这股力量也许会让我更硬？但是……]\n  Yiffai: [要有取舍：去攻击那些威胁……造成的伤害会更小？]\n  Tomcat: [星辰保佑我们，但我觉得你才是这里的专家。]\n  Tomcat: [小心点就是了，小家伙……]\n  Yiffai: [我会尽量小心的。伊法伊通话结束。]",
+      "proposal_checked": "伊法伊：嘿，那颗球就浮在眼前嘛！这股力量好像……能让我更耐打？不过也有代价：打起敌人来，伤害反而会变小？\nTomcat：老天保佑，这方面看来还是你懂得多。总之，小家伙，千万小心……\n伊法伊：我会尽量小心。伊法伊通话结束。",
+      "original_evidence_refs": [
+        "datadm/all.ds / TomcatItems.ZenerTriangle",
+        "datadm/all.ds#L4544 / CAT:Oab7bd0814a5c8ec11bfa / De3f2d9449b7a40b9e057",
+        "datadm/all.ds#L4545 / CAT:O7dff8dcce1fb7ef5706b / D6a123c5121b0f6ac211b",
+        "datadm/all.ds#L4546 / CAT:Ofebffd735536dad5e505 / D1983be56a3624b9efe37",
+        "datadm/all.ds#L4547 / CAT:Odfc6ec73d001f74e7a98 / D0b0ad3da8c73200f78d4",
+        "datadm/all.ds#L4548 / CAT:Od333eb79267fe7f44155 / D5968a7d044c1d69baa90",
+        "datadm/all.ds#L4549 / CAT:Oadabdf5f4c875d03e3d4 / D147dcbbb7e8e9819f9d6"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-032",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "01",
+      "reader_lines": [
+        1096,
+        1103
+      ],
+      "reason": "只足以确认BIG/TEN残片及主角复述，不能据后文恢复整句；仍缺中文碎裂字幕方案，暂留待判。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SCad11a1122fdc124a",
+      "source_quote": "[G...D JOB DEF...ING TH...A...ET...AI!]\n[...WHAT WAS THAT...?]\n[...SAID... B...IG... ...TEN... ...END!]\n[YOU'RE BREAKING UP WAY TOO MUCH, LET ME GET OUT OF HERE]\n[AND THEN YOU CAN TELL ME ABOUT THE BIG TEN...]",
+      "current_quote": "  Mauser: [G...D JOB DEF...ING TH...A...ET...AI!]\n  Yiffai: [……你说什么……？]\n  Mauser: [...SAID... B...IG... ...TEN... ...END!]\n  Yiffai: [你那边断断续续的太严重了，等我先出去，]\n  Yiffai: [然后你再跟我说说那个BIG TEN...]",
+      "proposal_checked": "待核：先确定可识别残片与BIG TEN笑点的中文呈现；不补全失真通信。",
+      "original_evidence_refs": [
+        "datadm/all.ds / Mauser.AreaA_map34_a noamendfreq",
+        "datadm/all.ds#Mauser.AreaA_map34_a noamendfreq:2171 / SFW5f8a5ceb0952154ab8c78294 / ",
+        "datadm/all.ds#Mauser.AreaA_map34_a noamendfreq:2172 / SFW905103e355dff2cbda08e0b3 / ",
+        "datadm/all.ds#Mauser.AreaA_map34_a noamendfreq:2173 / SFWc11c9d73ebcce89eab847772 / ",
+        "datadm/all.ds#Mauser.AreaA_map34_a noamendfreq:2174 / SFW3810a9f50f361a939af647e3 / ",
+        "datadm/all.ds#Mauser.AreaA_map34_a noamendfreq:2175 / SFWde31979715b94db5e616ee34 / "
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-033",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "01",
+      "reader_lines": [
+        666,
+        671
+      ],
+      "reason": "them含混。补读源Keycard1明确门数字为最低所需卡等级，高卡开低门，已补强规则；仍未核女线卡面显示与实际玩法，不能断定them指卡面。可另拟门卡等级够高即可开对应或更低等级门，交主控。",
+      "original_severity": "A",
+      "original_status": "needs_evidence",
+      "scene_id": "SCd91383674653c59a",
+      "source_quote": "[IN ORDER TO USE A KEYCARD, ALL YOU HAVE TO DO IS]\n[WALK INTO AN ENERGY DOOR WHILE HOLDING ONE.]\n[YOU CAN OPEN DOORS UP TO THE LEVEL DISPLAYED ON THEM!]",
+      "current_quote": "  Tomcat: [要用门卡的话，你只要拿着一张走进能量门就行。]\n\n  Tomcat: [你能打开等级不超过门上所标数字的门！]",
+      "proposal_checked": "待核：确认them指门卡还是能量门及实际等级规则后，再定“可开启不高于门卡所标等级的门”等表述。",
+      "original_evidence_refs": [
+        "datadf/all.ds / TomcatItems.SpecialKeycard3",
+        "datadf/all.ds#L4309 / CAT:Ob1dbfcc61e48557094e1 / Dff0d1cac41ee15adadfc",
+        "datadf/all.ds#L4310 / CAT:O41f52b1f24b277bd0ed2 / D4cd4cf848f2a3b3309b9",
+        "datadf/all.ds#L4311 / CAT:O29c5679a0cbeffae1c70 / Da3032095d96a2d715469"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-034",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "01",
+      "reader_lines": [
+        713,
+        722
+      ],
+      "reason": "原blob确为SENSOR DARK，不是reader转录错。源语法异常，不能从暗色或条目能力猜传感科技设定。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SC3eca555452e3d9dd",
+      "source_quote": "[WOAH, I JUST SAW ANOTHER SPIKE IN YOUR VITALS!]\n[LEMME GUESS: JUST TOUCHED A SENSOR DARK FLOATING ORB?]\n[YEAH. THIS POWER... I GET THE FEELING THAT IT WILL MAKE]\n[ME STRONGER, BUT ALSO MORE VULNERABLE TO ATTACK...]\n[WITH NO DATA, WE'LL HAVE TO TRUST YOUR INSTINCTS.]\n[BUT BE CAREFUL WITH THAT, GIRL.]",
+      "current_quote": "  Tomcat: [哇，我刚看到你的生命体征又出现一次飙升！]\n  Tomcat: [让我猜猜：刚碰了一颗悬浮的暗色传感球？]\n  Yiffany: [是啊。这股力量……我有种感觉，它会让我变得更强，但同时也更容易受到攻击……]\n\n  Tomcat: [没有数据，我们就只能相信你的直觉了。]\n  Tomcat: [但要小心那东西，姑娘。]",
+      "proposal_checked": "待核：核实SENSOR DARK的源文原意及物件身份后，再决定球体修饰语；暂不据条目名补写能力。",
+      "original_evidence_refs": [
+        "datadf/all.ds / TomcatItems.ZenerCross",
+        "datadf/all.ds#L4522 / CAT:Of6b6e43610df88e682ba / D77c65994cd654ec48c3c",
+        "datadf/all.ds#L4523 / CAT:O8b1a55c2b90251efb505 / D44d88714f34ef875d2b3",
+        "datadf/all.ds#L4524 / CAT:Odaf8ded0bcadc9ca2d53 / D1e21606655c845d624cf",
+        "datadf/all.ds#L4525 / CAT:O5e9106c8c7d6a52e6225 / D5e76fb521d66fb350790",
+        "datadf/all.ds#L4526 / CAT:O98afcbac73bf6fd4addb / D08f790361f28976b33c2",
+        "datadf/all.ds#L4527 / CAT:Obc07b425f26c6842c731 / D08cbecfab27f9e3d90b7"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P01-035",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "01",
+      "reader_lines": [
+        898,
+        902
+      ],
+      "reason": "两句处于宇航服/太空行走话题，MAGs未展开；弹匣未证，也不能改成尿布等另一猜测。缺库存/物件证据。",
+      "original_severity": "A",
+      "original_status": "needs_evidence",
+      "scene_id": "SCc50d167569027719",
+      "source_quote": "The worst part about all this space walking is having to wear a space suit.\nDon't worry though, there's extra MAGs in the back here if you need them!",
+      "current_quote": "  * 太空行走最糟的，就是得穿宇航服。\n  * 不过别担心，后面还有备用弹匣，需要就拿。",
+      "proposal_checked": "待核：确认MAGs在该店出售物/宇航服话题中的指称，核实后再定“弹匣”或其他物品名。",
+      "original_evidence_refs": [
+        "datadm/all.ds / AreaE_Macsen1.Talk.mags",
+        "datadm/all.ds#L1512 / CAT:O7756d6a8664d0f0f0101 / Dfa1e5919f7393f6fd4a2",
+        "datadm/all.ds#L1513 / CAT:O0f3732f0a672b2279b3e / Dd789584b98415679be29"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md"
+    },
+    {
+      "finding_id": "P02-006",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        418,
+        432
+      ],
+      "reason": "may all be...but arent all为让步，后接部分不朽的问答。保留as far有限认知。此NSFW繁殖解释不能搬到SFW世纪流逝版。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCfa5abde862c1f019",
+      "source_quote": "Bossu: [THE ELVES OF SCEAFYA MAY ALL BE FEMALE]\nBossu: [BUT THEY AREN'T ALL IMMORTAL.]\nBossu: [AS THEY CAN BREED WITH ANY MALE OF ANY SPECIES]\nBossu: [THEY'VE TAKEN ON MORE AND MORE MORTAL CHARACTERISTICS]\nYiffany: [WAIT, SO THAT MEANS SOME OF THEM *ARE* IMMORTAL?]\nBossu: [INDEED, AS FAR AS WE CAN TELL.]",
+      "current_quote": "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]\n\n  Bossu: [由于她们能与任何物种的任何雄性繁殖，她们便带上了越来越多的有朽特征。]\n\n  Yiffany: [等等，所以这意味着她们中有些*是*不朽的？]\n  Bossu: [的确，就我们所能看出的而言。]",
+      "proposal_checked": "Bossu：[斯凯菲亚的精灵虽然全是雌性，却并非全都长生不死。她们能与任何物种的雄性繁衍后代，也因此逐渐带上了越来越多凡俗生物的特征。]\nYiffany：[等等，也就是说，有些精灵真的长生不死？]\nBossu：[没错。至少据我们目前掌握的情况是这样。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/BossuDex.ClassicArcher#L3138 | D17b382128cc21c7a6308 | O25871effa77ad5bdc2c5",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3139 | Df970226f27e4334c5b7a | Oa6d3456892c3db2ba721",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3140 | D10f1b78d956f7c09844d | O7fae111e665ce1629a13",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3141 | Dd747dadfa22f6d15a113 | O790dd8e1da208cd632f2",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3142 | Db6c723d713bd52d1d190 | O4ae23ce7af2794c799f6",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3143 | D57090b05e07e238df42a | Ob1d0df02de13defb3902"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-007",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        418,
+        432
+      ],
+      "reason": "百岁仍年轻之后awe是惊叹，收心提醒承接gotta focus成立；不按人类未成年理解young。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCfa5abde862c1f019",
+      "source_quote": "Bossu: [DON'T GIVE IN TO AWE. YOU'LL NEED TO BE ON YOUR TOES]\nBossu: [IN ORDER TO REPEL THE YOUNG ELVES' ATTACKS.]\nYiffany: [RIGHT, GOTTA FOCUS.]",
+      "current_quote": "  Bossu: [别向敬畏屈服。你得保持警觉，以便击退那些年幼精灵的攻击。]\n\n  Yiffany: [对，得专注。]",
+      "proposal_checked": "Bossu：[别光顾着惊叹。要挡住那些年轻精灵的攻击，你得时刻保持警惕。]\nYiffany：[对，得集中精神。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/BossuDex.ClassicArcher#L3147 | D0e826fc1278869b08c19 | O69cbc6cd1ebefbade52c",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3148 | D256f534e5e98ad3a5fb4 | Ob1a94c803176e0827671",
+        "datadf/all.ds/BossuDex.ClassicArcher#L3149 | Dcfe1a702afa80c8a8ce5 | Of01cc9cc00d689b5074b"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-008",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        433,
+        448
+      ],
+      "reason": "前问耗材为何不尽，后讲无限自修和难拆；built with为配备系统，不是系统造材料。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC203f504ddad4428c",
+      "source_quote": "Bossu: [MUCH OF THE ROBOTIC MATERIAL IN THAT OLD SPACE STATION]\nBossu: [ARE BUILT WITH NANOMECHANICAL RECYCLING SYSTEMS.]",
+      "current_quote": "  Bossu: [那座废弃太空站里的很多机器人材料，都是用纳米机械回收系统造出来的。]\n",
+      "proposal_checked": "Bossu：[那座老太空站里的许多机械，都配有纳米机械回收系统。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/BossuDex.ClassicBugFlier#L3080 | D68658de42889ff73cd42 | O5b0a6357201513684e9a",
+        "datadf/all.ds/BossuDex.ClassicBugFlier#L3081 | De4f494c2d818db9fb740 | Of451268f917c1335a33b"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-009",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        433,
+        448
+      ],
+      "reason": "应保留故意听乱纳米机械再歪到anal的功能，但什么肛与前句音义桥仍弱；问题成立不等于建议奏效，不能为顺口删荤笑。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC203f504ddad4428c",
+      "source_quote": "Yiffany: [NA-NO-MY-WHAT ANAL?]\nBossu: [BASICALLY THEY'RE DESIGNED TO SELF REPAIR ENDLESSLY.]",
+      "current_quote": "  Yiffany: [纳—诺—迈—什么肛门？]\n  Bossu: [简单说，它们被设计成能无限自我修复。]",
+      "proposal_checked": "Yiffany：[纳米机……什么肛来着？]\nBossu：[简单说，就是它们能不停地自我修复。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/BossuDex.ClassicBugFlier#L3082 | D803a42555809cd48a7c1 | Obfa0b0ba2acf2312e6a9",
+        "datadf/all.ds/BossuDex.ClassicBugFlier#L3083 | Dfedb2e8a9d73397765f4 | O83fd9a0441b46dc75151"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-010",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        484,
+        497
+      ],
+      "reason": "前文明示机械复制品，flesh and fur为活体对举，不是血肉/毛皮两种变种；保留if/yet未知，不断言灭绝。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC3a3a119fd7820329",
+      "source_quote": "Bossu: [IF THERE ARE FLESH AND FUR VARIETIES OF THAT SPECIES STILL]\nBossu: [ON THE PLANET, NO AGENTS HAVE RUN INTO THEM YET.]\nBossu: [REPORTS OF FENFEN OUTFITS STREWN ABOUT ARE ALL WE HAVE.]\nYiffany: [HOW MYSTERIOUS! I'LL HAVE TO KEEP AN EYE OUT FOR THEM.]",
+      "current_quote": "  Bossu: [如果这颗星球上还存在那个物种的血肉与毛皮变种，也还没有任何特工撞见过它们。]\n\n  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]\n  Yiffany: [真是神秘！我得多留意它们才行。]",
+      "proposal_checked": "Bossu：[如果这颗星球上还有真正有血有肉、长着皮毛的Fenfen，目前也还没有特工遇见过。我们收到的，只有Fenfen服装散落各处的报告。]\nYiffany：[真神秘！我得多留意才行。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/BossuDex.ClassicFenfen#L3072 | Db828a225ea7205102fd4 | O06df7215b3a78f02c7d1",
+        "datadf/all.ds/BossuDex.ClassicFenfen#L3073 | D2a33544f49547b55ecac | Ob652aabd0f59c9df7e01",
+        "datadf/all.ds/BossuDex.ClassicFenfen#L3074 | Dac153dcc0589cc8672da | Ofb481ed7de5a55002a18",
+        "datadf/all.ds/BossuDex.ClassicFenfen#L3075 | D2e5c74c54d898e70c2bf | O4a779f0d302a2fb467bb"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-013",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        735,
+        740
+      ],
+      "reason": "SFW源确YIFFANY；位于/在跨框破句且deep丢失。提案恢复东北部深处，不混NSFW称名源疑点。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC6fdb8418c5faf950",
+      "source_quote": "[I'M DETECTING STRONG ENERGY SIGNATURES DEEP IN]\n[THE NORTHEAST OF THAT MOON, YIFFANY.]\n[YOU SHOULD TRY TO FIND A WAY INTO THOSE CAVERNS.]",
+      "current_quote": "  Mauser: [我探测到强烈能量特征，位于]\n  Mauser: [在那颗卫星的东北部，伊法妮。]\n  Mauser: [你该试着找条路进那些洞窟。]",
+      "proposal_checked": "Mauser：[伊法妮，我探测到那颗卫星东北部深处有很强的能量信号。你该找条路进入那片洞窟。]",
+      "original_evidence_refs": [
+        "datadf/all.ds/MauserHints_AreaE.AfterFirstEnteredAreaE#L3581 | Df11ca36051f9a1eff15a | Oba807d87d2fe06bb2d62",
+        "datadf/all.ds/MauserHints_AreaE.AfterFirstEnteredAreaE#L3582 | None | None",
+        "datadf/all.ds/MauserHints_AreaE.AfterFirstEnteredAreaE#L3583 | D13187e3cc4cbc95a10ea | O08930ec8da72de4de1ca"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-017",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        909,
+        919
+      ],
+      "reason": "didnt just scam me在扫描核货语境是担心刚上当，非担心受骗不止自己；提案修复否定范围。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCd3fafd3fc4ec71b5",
+      "source_quote": "Yiffany: [UGH, I HOPE THAT SKEEVY KOBOLD DIDN'T JUST SCAM ME...]\nYiffany: [TOMCAT, CAN I GET A SCAN ON THESE CARDS?]",
+      "current_quote": "  Yiffany: [呃，希望那个恶心的科博德不是只骗了我……]\n  Yiffany: [汤姆猫，能扫描一下这些卡吗？]",
+      "proposal_checked": "Yiffany：[啧，希望那个猥琐的科博德没把我给骗了……汤姆猫，能帮我扫描一下这些卡吗？]",
+      "original_evidence_refs": [
+        "datadf/all.ds/TomcatItems.SpecialPsycards#L4398 | D12d50a9e3e57d4f73e37 | O7c9f522b8050258a86a8",
+        "datadf/all.ds/TomcatItems.SpecialPsycards#L4399 | De6985ccf52180f20c372 | Oc01dd149b7329f57dd2a"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-022",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        1245,
+        1262
+      ],
+      "reason": "控制为C双首领败且StarkillV3未败，them回单一sister，改她成立；后续缺套装和齐装分支不能串入。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC567b9e156beb4379",
+      "source_quote": "Mauser: [YOUR NAVMAP SHOULD SHOW WHERE YOUR SISTER IS!]\nMauser: [GO AND SLAP SOME SENSE INTO THEM!]\nMauser: [...BUT NOT TOO HARD!]",
+      "current_quote": "      Mauser: [你的导航图应该标着你姐姐的位置！]\n      Mauser: [去把他们揍醒吧！]\n      Mauser: [……不过可别下手太重！]",
+      "proposal_checked": "Mauser：[导航图上应该标着你姐姐的位置！去把她揍醒吧！……不过可别下手太重！]",
+      "original_evidence_refs": [
+        "datadm/all.ds/MauserHints_Area0.Endgame#L3489 | D1a495811cae22cabd703 | O4bb1917176b03c96c3f0",
+        "datadm/all.ds/MauserHints_Area0.Endgame#L3490 | D3a48c83eaa2b65f7f5e4 | O201825a8a0a17f3f659f",
+        "datadm/all.ds/MauserHints_Area0.Endgame#L3491 | D89903e80b15c1a79aa29 | Ocf0ed5914e20a248647a"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-032",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "02",
+      "reader_lines": [
+        1354,
+        1358
+      ],
+      "reason": "SFW仅两句失真，MIS...ATE不足证明失误或完整指令，需统一残词字幕口径。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SC374f6d5688afdd2d",
+      "source_quote": "[KKZZT! TR... SSSH MIS...ATE...]\n[...KKKKK- ZZT!]",
+      "current_quote": "  Static: [咔滋滋！特……嘶嘶……失……误……]\n  Static: [...KKKKK- ZZT!]",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadm/all.ds/Static.AreaC_map56_override noselect noamendfreq#L2412 | None | None",
+        "datadm/all.ds/Static.AreaC_map56_override noselect noamendfreq#L2413 | None | None"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-033",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "02",
+      "reader_lines": [
+        697,
+        704
+      ],
+      "reason": "speaker Yiffany而源喊YIFFAI，当前沿源；不能直接当译文关系错误或擅改名。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SC0b2a2d5c9e9c6c62",
+      "source_quote": "Yiffany: [GLOOP...]\nMauser: [H-HUH? WHO'S THIS? YIFFAI?!]\nYiffany: [GLUGH]\nMauser: [UM... THIS CHANNEL IS FOR AUTHORIZED COSMOBREEDERS ONLY.]\nMauser: [I'LL HAVE TO DISCONNECT, 'MAM'. OVER.]",
+      "current_quote": "  Yiffany: [咕叽……]\n  Mauser: [啊、啊？谁在说话？伊法伊？！]\n  Yiffany: [咕噜]\n  Mauser: [呃……这个频道仅供授权的宇宙育种者使用。]\n  Mauser: [只好挂断了，“女士”。完毕。]",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadf/all.ds/Mauser.Slime noselect noamendfreq#L3343 | D331f6a71ec7cf33ff723 | O820d3707b65dfc5b4551",
+        "datadf/all.ds/Mauser.Slime noselect noamendfreq#L3344 | D977ec3e597ecb67e5909 | O139baccbe4571e62632d",
+        "datadf/all.ds/Mauser.Slime noselect noamendfreq#L3345 | Dc08beb9af455c495502f | O9bbf3a7be671102d8a38",
+        "datadf/all.ds/Mauser.Slime noselect noamendfreq#L3346 | Df913664def64bd911401 | Ode619721e1496d1af8af",
+        "datadf/all.ds/Mauser.Slime noselect noamendfreq#L3347 | D91e6eb650f9dd5131cd9 | O7ed3d1b243d0ec83fdf1"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P02-034",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "02",
+      "reader_lines": [
+        1650,
+        1653
+      ],
+      "reason": "直接源SpecialTorch明说FLASHLIGHT - OR TORCH AS BOSSU CALLS IT并自动照暗，确认同一手电，不靠词表投票；不含墙上火把。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCeed6c44091fb9d0d",
+      "source_quote": "TORCH\nLIGHTS UP THE|DARKEST ROOMS.",
+      "current_quote": "火把\n照亮|最黑暗的房间。",
+      "proposal_checked": "手电筒\n照亮|最黑暗的房间。",
+      "original_evidence_refs": [
+        "datav/dictionary.json/SpecialTorch#LNone | Uce76cf5b787faed02e22 | O72814950ad516fddcc61",
+        "datav/dictionary.json/SpecialTorch#LNone | Ud56e2de6377b3c7ad085 | O28e2c20df457736d182e"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-02.reader.md"
+    },
+    {
+      "finding_id": "P04-001",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        413,
+        428
+      ],
+      "reason": "独立SFW整场同样是配备无限自修系统，非系统造材料；不搬NSFW anal笑点。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC81615de25860505a",
+      "source_quote": "[MUCH OF THE ROBOTIC MATERIAL IN THAT OLD SPACE STATION]\n[ARE BUILT WITH NANOMECHANICAL RECYCLING SYSTEMS.]",
+      "current_quote": "  Bossu: [那座废弃太空站里的很多机器人材料，都是用纳米机械回收系统造出来的。]\n",
+      "proposal_checked": "Bossu：[那座旧太空站里的许多机械装置，都配有纳米机械回收系统。]",
+      "original_evidence_refs": [
+        "datadf/all.ds :: BossuDex.ClassicBugFlier",
+        "datadf/all.ds#BossuDex.ClassicBugFlier:3038",
+        "datadf/all.ds#BossuDex.ClassicBugFlier:3039",
+        "D68658de42889ff73cd42",
+        "De4f494c2d818db9fb740",
+        "O5b0a6357201513684e9a",
+        "Of451268f917c1335a33b"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-002",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        438,
+        452
+      ],
+      "reason": "与Archer同类may...but让步，校准A以保持同类一致；有限确认及百岁反差均留。SFW让步也成立，但凡俗化是随世纪流逝，不可搬NSFW繁殖原因。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC1ed8b1131ee2b80b",
+      "source_quote": "[THE ELVES OF SCEAFYA MAY ALL BE FEMALE]\n[BUT THEY AREN'T ALL IMMORTAL.]\n[AS THEY CAN BREED WITH ANY MALE OF ANY SPECIES]\n[THEY'VE TAKEN ON MORE AND MORE MORTAL CHARACTERISTICS]\n[WAIT, SO THAT MEANS SOME OF THEM *ARE* IMMORTAL?]\n[INDEED, AS FAR AS WE CAN TELL.]\n[ANY ELF THAT IS OUT IN THE OPEN AND ENGAGING IN COMBAT]\n[WILL NO DOUBT BE A YOUNGSTER. A HUNDRED YEARS OLD AT MOST.]\n[THAT'S... WOW...]\n[DON'T GIVE IN TO AWE. YOU'LL NEED TO BE ON YOUR TOES]\n[IN ORDER TO REPEL THE YOUNG ELVES' ATTACKS.]\n[RIGHT, GOTTA FOCUS.]",
+      "current_quote": "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]\n\n  Bossu: [由于她们能与任何物种的任何雄性繁殖，她们便带上了越来越多的有朽特征。]\n\n  Yiffany: [等等，所以这意味着她们中有些*是*不朽的？]\n  Bossu: [的确，就我们所能看出的而言。]\n  Bossu: [任何一个在开阔处并且正在交战的精灵，无疑会是个年幼者。顶多一百岁。]\n\n  Yiffany: [这……哇……]\n  Bossu: [别向敬畏屈服。你得保持警觉，以便击退那些年幼精灵的攻击。]\n\n  Yiffany: [对，得专注。]",
+      "proposal_checked": "Bossu：[斯凯菲亚的精灵虽说全是雌性，却并非个个都能长生不死。她们能与任何物种的雄性交配繁殖，因此也逐渐带上了越来越多凡俗生物的特征。]\nYiffany：[等等，也就是说，还真有精灵能长生不死？]\nBossu：[根据目前掌握的情况，是的。那些在外头露面、参与战斗的，无疑都还年轻，最多也就一百岁。]\nYiffany：[这……哇……]\nBossu：[别光顾着吃惊。想挡住这些年轻精灵的攻击，你得时刻留神。]\nYiffany：[对，得集中精神。]",
+      "original_evidence_refs": [
+        "datadf/all.ds :: BossuDex.ClassicElf",
+        "datadf/all.ds#L3194",
+        "datadf/all.ds#L3195",
+        "datadf/all.ds#L3196",
+        "datadf/all.ds#L3197",
+        "datadf/all.ds#L3198",
+        "datadf/all.ds#L3199",
+        "datadf/all.ds#L3200",
+        "datadf/all.ds#L3201",
+        "datadf/all.ds#L3202",
+        "datadf/all.ds#L3203",
+        "datadf/all.ds#L3204",
+        "datadf/all.ds#L3205",
+        "D17b382128cc21c7a6308",
+        "Df970226f27e4334c5b7a",
+        "D10f1b78d956f7c09844d",
+        "Dd747dadfa22f6d15a113",
+        "Db6c723d713bd52d1d190",
+        "D57090b05e07e238df42a",
+        "D22d81f62caaf6ffbc381",
+        "Da8aef46d9b3e5cab489c",
+        "D439dc63bc5eb0fd2d17a",
+        "D0e826fc1278869b08c19",
+        "D256f534e5e98ad3a5fb4",
+        "Dcfe1a702afa80c8a8ce5",
+        "Odcf4e4e895a30ca6a957",
+        "O710b5e9dbf60ef90fc8c",
+        "O9afb44b40a100136f64f",
+        "O7cc0f5c5a98e530b98ee",
+        "O8ab83f6ea5f117c4cdcc",
+        "O5455b8390c463ed85730",
+        "Oc990f284d7960e5895d3",
+        "Of63da20e08322e9b708b",
+        "O520aab2ad851cd1b3bb9",
+        "Od3a755c595dd0655b688",
+        "O0408ca6b741366a6dd0a",
+        "O16db7263a627ab7934a9"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-006",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        601,
+        620
+      ],
+      "reason": "原blob也保留Yiffany连续两句与MAUSER ORDERS。后文碰头/失联不足唯一判定错位或迷糊笑话；当前平整成二次呼叫未获确认，不重分speaker或代作者修源。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SCbbaaeb5b391ca914",
+      "source_quote": "[O-OW... MAUSER, COME IN.]\n[MAUSER ORDERS IN... WHAT?]\n[WHAT DID YOU NEED ASSISTANCE WITH, AGENT?]",
+      "current_quote": "  Yiffany: [哎、哎哟……毛瑟，请回话。]\n  Yiffany: [毛瑟，请回答……什么？]\n  Mauser: [你需要什么协助，特工？] ",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadf/all.ds :: Mauser.AreaB_map29_a noselect",
+        "datadf/all.ds#L2335",
+        "datadf/all.ds#L2336",
+        "datadf/all.ds#L2337",
+        "De23a095e8708093a6b41",
+        "Df20864d9bd5c9e434937",
+        "De77404fcb1debd030ce8",
+        "O2ab33638300cfb9930c2",
+        "Ob2ac12ffcf46943bf3fa",
+        "Oa9b60795eccce1cf7ac1"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-007",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        655,
+        660
+      ],
+      "reason": "女线NSFW源确YIFFAI，当前沿源；SFW YIFFANY是内容版本差异，不授权互相覆盖。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SCedea7267588eb179",
+      "source_quote": "[I'M DETECTING STRONG ENERGY SIGNATURES DEEP IN]\n[THE NORTHEAST OF THAT MOON, YIFFAI.]\n[YOU SHOULD TRY TO FIND A WAY INTO THOSE CAVERNS.]",
+      "current_quote": "  Mauser: [伊法伊，我探测到那颗卫星东北部深处有强烈能量特征。]\n\n  Mauser: [你该试着找条路进那些洞窟。]",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadf/all.ds :: MauserHints_AreaE.AfterFirstEnteredAreaE",
+        "datadf/all.ds#L3630",
+        "datadf/all.ds#L3631",
+        "datadf/all.ds#L3632",
+        "Df11ca36051f9a1eff15a",
+        "D60530fb38fce13041fa6",
+        "D13187e3cc4cbc95a10ea",
+        "Oba807d87d2fe06bb2d62",
+        "O1eb7be28c9af1ea5a413",
+        "O08930ec8da72de4de1ca"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-009",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        757,
+        768
+      ],
+      "reason": "怀旧→软食反问→结巴找报告遁走→得逞笑的推进成立，提案清掉否定套叠并留L-LOOK/R-REPORTS/B-BYE功能，不加亲属年龄。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCd2210497c5398b29",
+      "source_quote": "[WOW, SHAMELESS AREN'TYA GIRL? YOU'D NEVER CATCH ME DO-]\n[YOU'RE GONNA TELL ME YOU STILL DON'T DIP INTO SOFT FOOD]\n[EVERY NOW AND AGAIN?]\n[HEY, L-LOOK, THAT'S... THAT'S COMPLETELY...]\n[I'VE GOT R-R-REPORTS TO DO, B-BYE!!]\n[HEE!]",
+      "current_quote": "  Tomcat: [哇，不害臊是吧，姑娘？你绝对见不到我去-]\n  Yiffany: [你该不会告诉我，你现在还是不偶尔吃点软食吧？]\n\n  Tomcat: [嘿，听、听着，那是……那完全是……]\n  Tomcat: [我还有报、报告要做，再、再见！！]\n  Yiffany: [嘿！]",
+      "proposal_checked": "Tomcat：[哇，你倒真不害臊啊，姑娘。换了我可不会——]\nYiffany：[你敢说你现在就不偶尔吃点软食？]\nTomcat：[喂，听、听我说，那是……那完全是……我还有报、报告要写，再、再见！！]\nYiffany：[嘻！]",
+      "original_evidence_refs": [
+        "datadf/all.ds :: TomcatItems.DoggyBody",
+        "datadf/all.ds#TomcatItems.DoggyBody:3983",
+        "datadf/all.ds#TomcatItems.DoggyBody:3984",
+        "datadf/all.ds#TomcatItems.DoggyBody:3985",
+        "datadf/all.ds#TomcatItems.DoggyBody:3986",
+        "datadf/all.ds#TomcatItems.DoggyBody:3987",
+        "datadf/all.ds#TomcatItems.DoggyBody:3988",
+        "Dbba418006241c292a7a1",
+        "Dc14692bd0b756b78ddf4",
+        "D6efbc0c5cd09db1570d6",
+        "Df25986d17d8af2ff5cc5",
+        "D60860b58a34333accc7c",
+        "D2df78c67077c68eff514",
+        "O52efb42ea8c0ed53c593",
+        "Ob1ff940814bb4a3d032f",
+        "O9bd72fdcd7f75babf7e7",
+        "O78df07866a7683642e52",
+        "O8fc9be8992c1c799bf49",
+        "O572dd451b408ddcc2bf4"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-011",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        834,
+        847
+      ],
+      "reason": "AND NO回答有人戴过锐爪吗，不是自我更正不对；否定承接错误校准A。提案保留先否认俱乐部说法再回答的两层，不认证其性质。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC098d910f490ceae6",
+      "source_quote": "[I *SAID*, I WONDER IF-]\n[YEAH YEAH, I USED TO SUIT. WHAT ABOUT IT?!]\n[DID ANYONE IN YOUR SEX CLUB EVER WEAR CLAWS THIS SHARP?]\n[OH FOR THE UMPTEENTH TIME, IT WASN'T A SEX CLUB!]\n[...AND NO. THOSE ARE DEFINITELY A COSTUME PIECE, BUT]\n[THEY'RE SHARPENED *VERY* WELL.]\n[SHARP ENOUGH TO USE AS A WEAPON, IF NEED BE.]",
+      "current_quote": "  Yiffany: [我*说*，我在想是不是——]\n  Tomcat: [是啦是啦，我以前穿过兽装。怎么了？！]\n  Yiffany: [你那性爱俱乐部里，有人戴过这么锋利的爪子吗？]\n  Tomcat: [都说多少遍了，那不是性爱俱乐部！]\n  Tomcat: [……不对。那确实是服装配件，不过……打磨得*特别*锋利。]\n\n  Tomcat: [锋利得必要时完全能当武器。]",
+      "proposal_checked": "Yiffany：[我说，不知道有没有人——]\nTomcat：[行了行了，我以前穿过兽装。怎么了？！]\nYiffany：[你那个性爱俱乐部里，有人戴过这么锋利的爪子吗？]\nTomcat：[都说多少遍了，那不是性爱俱乐部！……而且没有。那些确实是服装配件，不过磨得特别锋利，必要时完全能当武器。]",
+      "original_evidence_refs": [
+        "datadf/all.ds :: TomcatItems.TazerKobo",
+        "datadf/all.ds#L4208",
+        "datadf/all.ds#L4209",
+        "datadf/all.ds#L4210",
+        "datadf/all.ds#L4211",
+        "datadf/all.ds#L4212",
+        "datadf/all.ds#L4213",
+        "datadf/all.ds#L4214",
+        "Db91496875071fef41215",
+        "Db8d5cc6845e27eb64770",
+        "De26d75dc6c8c1225b3f1",
+        "D172e7619e6c29b7ac639",
+        "D4361c5d92ad1236119a4",
+        "D8a416a446de9c91440e7",
+        "D6d458cb338626fd6e20f",
+        "O3d98391d7401a44edee1",
+        "Oc06042ddd32f9b5a7c9b",
+        "Od0571e84717e52468ee3",
+        "O0730f82be17935d55c63",
+        "O543bd26f432b779cb2c9",
+        "Ofb4a08c70b49d474c1ff",
+        "O5507b347af6792aa0311"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-012",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        818,
+        824
+      ],
+      "reason": "real good不保证全恢复。ALMOST的未尽肯定被好像也值了弱化；宜差一点就值了/几乎值得一类保留，不能抹平。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCd73988c79d0f4049",
+      "source_quote": "[THAT'S ONE FIERY CHILI PEPPER YOU GOT THERE]\n[AS LONG AS YOU DON'T MIND SOMETHING SPICY]\n[THAT SHOULD HEAL YOU UP REAL GOOD!]\n[...ALMOST MAKES IT WORTH FIGHTING THOSE BRUTES!]",
+      "current_quote": "  Tomcat: [你手上拿的可是一颗火辣辣椒]\n  Tomcat: [只要你别介意来点辣的，那应该能让你恢复个彻底！]\n\n  Tomcat: [……差点就值得为它跟那些野蛮人一战了！]",
+      "proposal_checked": "Tomcat：[你拿的这颗辣椒可够辣的。只要吃得了辣，应该能帮你恢复不少！……光冲着这个，跟那些蛮横家伙打一架好像也值了！]",
+      "original_evidence_refs": [
+        "datadf/all.ds :: TomcatItems.StatPepper",
+        "datadf/all.ds#L3953",
+        "datadf/all.ds#L3954",
+        "datadf/all.ds#L3955",
+        "datadf/all.ds#L3956",
+        "D90aaea46c68e59a4046d",
+        "D1958694def881299b684",
+        "D5883126c13d0bcce3795",
+        "D49b1b97f43801571ddbd",
+        "O0c0cbac291e3d0914ca1",
+        "O70ef6d8d50541f18f645",
+        "O8e09401e771bc0c5f38b",
+        "O6c291459465ce7b9ea29"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-014",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        1108,
+        1115
+      ],
+      "reason": "反讽重写方向可取，但没受损新增事实，源只说一阵不需自修；there疑似these须标源疑点，保留seem而非认定笔误。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SCef111241d8b20356",
+      "source_quote": "[BOSSU, ARE THERE CANNONS STRONGER OR AM I WEAKER?]\n[THESE CANNONS SEEM TO HAVE GONE A WHILE WITHOUT]\n[NEEDING TO BE SELF- REPAIRED.]\n[CONSEQUENTLY THEY SEEM TO BE FIRING AT HIGHER POWER.]\n[GREEAAAAAT, JUST WHAT I NEEDED TO DEAL WITH...]",
+      "current_quote": "  Yiffai: [波苏，是有更强的加农炮，还是我变弱了？]\n  Bossu: [这些加农炮似乎已经有一段时间不需要自行修复了。]\n\n  Bossu: [因此它们似乎正以更高的功率发射。]\n  Yiffai: [太——好了，正好是我需要应付的……]",
+      "proposal_checked": "Yiffai：[波苏，是这些炮变厉害了，还是我变弱了？]\nBossu：[这些炮似乎已经有一阵子没受损、不用自我修复了，因此现在能以更高功率开火。]\nYiffai：[真——棒，这麻烦来得可真是时候……]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: BossuDex.ClassicCannonWallC",
+        "datadm/all.ds#L3257",
+        "datadm/all.ds#L3258",
+        "datadm/all.ds#L3259",
+        "datadm/all.ds#L3260",
+        "datadm/all.ds#L3261",
+        "D2da0b13ef37e89272217",
+        "D92a998645b407ea935dd",
+        "D607e195df4a19a340159",
+        "Dd70e46788b27d3afc323",
+        "D8e2eba435163b9ebf0f7",
+        "O023d14ca7800dd06b9e3",
+        "Oab2d1891ac47e3115836",
+        "Oef5faa8ffc5009094227",
+        "Of7afbe66eb592dfa0cfc",
+        "O829eee7b98b31169f8ba"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-015",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        1116,
+        1127
+      ],
+      "reason": "我不闹了可改善幼儿腔，但看来它们补了THE-残片的复数主语，前文刚毁一架亦不授权补全文。宜看来——；保留O-OH迟疑。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC6c6396e08a205b23",
+      "source_quote": "[AHH GOOD GOING! SEEMS LIKE THE-]\n[IT WAS NO MATCH FOR ME! I WENT HIYAA, THEN ATAA, AN-]\n[CALM DOWN, YIFFAI.]\n[O-OH SORRY, I'LL BEHAVE...]\n[AHEM, AS I WAS SAYING...]",
+      "current_quote": "  Bossu: [啊，干得好！看样子那-]\n  Yiffai: [它根本不是我的对手！我先嗨呀，再啊哒，还-]\n  Bossu: [冷静点，伊法伊。]\n  Yiffai: [啊、啊抱歉，我会乖乖的……]\n  Bossu: [咳嗯，我刚才说到……]",
+      "proposal_checked": "Bossu：[啊，干得好！看来它们——]\nYiffai：[它根本不是我的对手！我先“嗨呀”，再“啊哒”，然后——]\nBossu：[冷静点，伊法伊。]\nYiffai：[啊、啊，抱歉，我不闹了……]\nBossu：[咳，我刚才说到……]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: BossuDex.ClassicFlyDrone",
+        "datadm/all.ds#L2814",
+        "datadm/all.ds#L2815",
+        "datadm/all.ds#L2816",
+        "datadm/all.ds#L2817",
+        "datadm/all.ds#L2818",
+        "D45c521902ccadfb8dc51",
+        "De98920ca8f91e60bb6d4",
+        "D7b20823f9a91200dbc73",
+        "Da60d87d2a625fa310c7a",
+        "Dc0883de41c798d84999e",
+        "O3d1c218d453e325fa0c6",
+        "O07b2c3b2e1eda4aaec28",
+        "O0866e30cd6dc804a6ff1",
+        "Oecc1570bb32811a4f084",
+        "O9ea156094bfc60df845f"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-016",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1380,
+        1388
+      ],
+      "reason": "无线电更准确；收音机及狗头人/科博德在此属可识别暂名和术语漂移，未单独造成身份或玩法命题错误，不能只凭词面升A。本轮可暂留后统一，不认证主角真被抢。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCc8706a14172fbaba",
+      "source_quote": "[HELLO? OH! YOU AREN'T AGENT YIFFAI!]\n[DID THAT LITTLE PUP REALLY GET BEATEN UP BY SOME KOBOS]\n[AND LOSE HIS RADIO... YET AGAIN...]\n[...?!]\n[HOPE HE FINDS IT AGAIN ONCE HE COMES AROUND, THAT PUNK!]\n[...]",
+      "current_quote": "  Tomcat: [喂？哦！你不是伊法伊特工！]\n  Tomcat: [那小狗崽真被几只狗头人打败了，]\n  Tomcat: [又把收音机弄丢了……又一次……]\n  Yiffai: [……？！]\n  Tomcat: [希望他醒过来之后能再找到它，那小混蛋！]\n  Yiffai: [……]",
+      "proposal_checked": "Tomcat：[喂？哦！你不是伊法伊探员！那小狗崽真让几只科博打败了，又把无线电弄丢了……又来一次……]\nYiffai：[……？！]\nTomcat：[但愿那个小混蛋醒过来后能找回来！]\nYiffai：[……]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: Tomcat.KoboPickup noselect noamendfreq",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3770",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3771",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3772",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3773",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3774",
+        "datadm/all.ds#Tomcat.KoboPickup noselect noamendfreq:3775",
+        "D9f96ef5b0c0cc60be0e2",
+        null,
+        null,
+        null,
+        null,
+        "D9617b9651d42661f21a9",
+        "O5cd7254a36ebe307ee10",
+        null,
+        null,
+        null,
+        null,
+        "O3f1dd2ce5dbdecc4666f"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-017",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        1434,
+        1441
+      ],
+      "reason": "as long as you want为站立时长非任意动作，A成立。提案扮可爱新增主动卖萌，源只看着可爱；S-S残断另挂Q，不批准性感或顺稿消残断。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCc4c2b7eda0f9ae23",
+      "source_quote": "[THAT SURE IS A CUTE LITTLE DRESS YOU'VE GOT THERE.]\n[IT'S... IT'S IMPORTANT FOR THE MISSION, OKAY!!]\n[UH-HUH. YOU CAN STAND ON CRUMBLING TERRAIN FOR AS LONG]\n[AS YOU WANT, AND LOOK CUTE DOING IT!]\n[LOOK S-S... WHAT?! YOU KNOW WHAT, YIFFAI OUT!]",
+      "current_quote": "  Tomcat: [你身上这条小裙子真可爱。]\n  Yiffai: [这……这对任务很重要，好吗！！]\n  Tomcat: [嗯哼。你就能站在快塌的地面上，想站]\n  Tomcat: [想怎么做就怎么做，而且看起来还很可爱！]\n  Yiffai: [看着性、性感……什么？！算了，伊法伊通话完毕！]",
+      "proposal_checked": "Tomcat：[你这条小裙子可真可爱。]\nYiffai：[这……这是任务需要，好吗！！]\nTomcat：[嗯哼。穿上它，站在会坍塌的地面上多久都行，还能顺便扮可爱！]\nYiffai：[看着……什、什么？！算了，伊法伊通话完毕！]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: TomcatItems.ElfBody",
+        "datadm/all.ds#TomcatItems.ElfBody:4134",
+        "datadm/all.ds#TomcatItems.ElfBody:4135",
+        "datadm/all.ds#TomcatItems.ElfBody:4136",
+        "datadm/all.ds#TomcatItems.ElfBody:4137",
+        "datadm/all.ds#TomcatItems.ElfBody:4138",
+        "D7f4bba5afe0ec3fc276a",
+        "D5cdd6d3c5ee644e25069",
+        "Dcd2c1c7948f2b7db06a8",
+        null,
+        "D3de01e52e819a834bab2",
+        "O04f85e4c3c32877eb526",
+        "O3328a0ad222abf8e0e7b",
+        "O5dea558d71efd4b2dcfa",
+        null,
+        "Oc82fdcb15e39e8e56ef3"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-018",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1434,
+        1441
+      ],
+      "reason": "SFW前cute后LOOK S-S仍在，只能确认冲突，不能证明想说sexy。暂留待判，不自动补性感，通顺截话也不等于还原表演。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SCc4c2b7eda0f9ae23",
+      "source_quote": "[LOOK S-S... WHAT?! YOU KNOW WHAT, YIFFAI OUT!]",
+      "current_quote": "  Yiffai: [看着性、性感……什么？！算了，伊法伊通话完毕！]",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadm/all.ds :: TomcatItems.ElfBody",
+        "datadm/all.ds#TomcatItems.ElfBody:4138",
+        "D3de01e52e819a834bab2",
+        "Oc82fdcb15e39e8e56ef3"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-019",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1423,
+        1433
+      ],
+      "reason": "comfort thing可安心亦可舒适偏好，牵绳与后续防护不足排除触觉舒适。宜用着舒服等保留含混，不把情感安全感定死，不据名称补童年事实。",
+      "original_severity": "B",
+      "original_status": "proposal",
+      "scene_id": "SC7724d8e8640a8af2",
+      "source_quote": "[AWWW, IS THAT A LEASH THAT YOU JUST PICKED UP THERE?]\n[I DIDN'T KNOW YOU STILL NEEDED ONE OF THOSE!]\n[H-HEY!! I REALLY REALLY DON'T!! IT'S JUST...]\n[...IT'S JUST A COMFORT THING, THAT'S ALL!]",
+      "current_quote": "  Tomcat: [哎哟，你刚捡到的是条牵引绳吗？]\n  Tomcat: [我不知道你还需要这个！]\n  Yiffai: [喂、喂！！我真的真的不需要！！只是……]\n  Yiffai: [……只是穿着舒服，就这样！]",
+      "proposal_checked": "Tomcat：[哎哟，你刚捡到的是牵引绳？没想到你还需要这个呢！]\nYiffai：[喂、喂！！我真的、真的不需要！！只是……有它比较安心，仅此而已！]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: TomcatItems.DoggyBody",
+        "datadm/all.ds#L4108",
+        "datadm/all.ds#L4109",
+        "datadm/all.ds#L4110",
+        "datadm/all.ds#L4111",
+        "Dab87493fdfb96b6affec",
+        "D220eda7d91dddaae3d89",
+        "Dc06d184e54b7f1c6fc32",
+        "D73b8acaec71381746f55",
+        "O3e9147907a39d730baa5",
+        "O82cd257136b88bb0f3c8",
+        "Obcf34a3f1898b61cc0ba",
+        "Of45d4531489ea33beac7"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-020",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        1701,
+        1706
+      ],
+      "reason": "四个亲密状态独立。笼子深处修复from the back of his cage破句；perks up为精神起来非身体竖起。提案不串为同次经历，分行另核。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SC05a8518f0254a8b3",
+      "source_quote": "THE SQUEAKER EYES YOU|NERVOUSLY FROM THE BACK OF|HIS CAGE.\nTHE SQUEAKER CHITTERS|HAPPILY AS YOU TEND TO HIM.|WHAT A WONDERFUL PET!\nTHE SQUEAKER PERKS UP AS|YOU ARRIVE. HE SEEMS MORE|RELAXED WITH YOU NOW.\nTHE SQUEAKER HAS COBBLED|TOGETHER AN ESCAPE DEVICE|BUT HE HASN'T USED IT...",
+      "current_quote": "吱吱怪紧张地|从后面盯着你。|他的笼子。\n吱吱怪在你照料他时|高兴地吱吱叫。|真是棒极了的宠物！\n你一到，吱吱怪|就竖起身子。他现在|跟你在一起更放松了。\n吱吱怪拼出了一个|逃脱装置，|但他还没用……",
+      "proposal_checked": "吱吱怪缩在笼子深处，紧张地望着你。\n你照料吱吱怪时，他会高兴地吱吱叫。真是只好宠物！\n你一来，吱吱怪就精神起来。现在跟你相处，他似乎放松多了。\n吱吱怪拼凑出了一个逃脱装置，却一直没用……",
+      "original_evidence_refs": [
+        "datav/dictionary.json :: ui.breeding.Squeaker.affinity",
+        "datav/dictionary.json#ui.breeding.Squeaker.affinity:None",
+        "datav/dictionary.json#ui.breeding.Squeaker.affinity:None",
+        "datav/dictionary.json#ui.breeding.Squeaker.affinity:None",
+        "datav/dictionary.json#ui.breeding.Squeaker.affinity:None",
+        "Ubfce1ecd5ab764972c7b",
+        "U35e1f52dbdfc28cbbb49",
+        "U69ddebc6a9b4b74ae926",
+        "Ufb7202cd7b1ff7394d7c",
+        "O8698586a853dbc4d581c",
+        "Of457667d4b325537b993",
+        "O34c1afa2d1033b450203",
+        "Od4283c3ccd4870977249"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-024",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1641,
+        1644
+      ],
+      "reason": "已直接补读Trainer全功能：特定怪物最后一击送机库，且不同Trainee，功能不再未知。短名训练者/驯兽电击枪未终裁，不能像人名就判错或全局换词，保留命名待定。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SC350869d0807dfeb5",
+      "source_quote": "A BREEDER'S|BEST FRIEND.\nTRAINER",
+      "current_quote": "育种者的|最好伙伴。\n训练者",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datav/dictionary.json :: TazerTrainer",
+        "datav/dictionary.json#TazerTrainer.desc",
+        "datav/dictionary.json#TazerTrainer.name",
+        "U9400c46ecc0b10a05a39",
+        "Uc299ce34442c1af93c4c",
+        "O2193fe1c37ab1baaf72f",
+        "O27a399d57b168deb52cd"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-025",
+      "conclusion": "needs_evidence",
+      "calibrated_severity": "Q",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1329,
+        1339
+      ],
+      "reason": "原blob有SAVE IT而受词不明，不能补姐姐/世界。救它可能过早固定非人对象，需保持碎裂及未相认功能，待作者/演出证据。",
+      "original_severity": "B",
+      "original_status": "needs_evidence",
+      "scene_id": "SCad1dcb4061c6601c",
+      "source_quote": "[SKSKKKKRT... ...YIFFFHSAIIII...]\n[WHO IS THIS! IDENTIFY YOURSELF AT ONCE!]\n[...ZZZZGGSAVE IT BEFOR...TOO... KRRRSHLATE...]\n[...KKKKZZSKHSKH... ...PLEASE....ZKSKT...]\n[...]\n[...]\n[THAT ALMOST SOUNDED LIKE...]\n[...BUT THERE'S NO WAY...]",
+      "current_quote": "  Starkill: [嘶咔咔……伊法……伊……]\n  Yiffai: [你是谁！立刻表明身份！]\n  Starkill: [...ZZZZGG救它，趁还没...太... KRRRSH晚...]\n  Starkill: [...KKKKZZSKHSKH... ...拜托....ZKSKT...]\n  Starkill: [……]\n  Yiffai: [……]\n  Yiffai: [刚才那声音简直像是……]\n  Yiffai: [……可是不可能啊……]",
+      "proposal_checked": null,
+      "original_evidence_refs": [
+        "datadm/all.ds :: Starkill.AreaC_map06_a noselect noamendfreq",
+        "datadm/all.ds#L2533",
+        "datadm/all.ds#L2534",
+        "datadm/all.ds#L2535",
+        "datadm/all.ds#L2536",
+        "datadm/all.ds#L2537",
+        "datadm/all.ds#L2538",
+        "datadm/all.ds#L2539",
+        "datadm/all.ds#L2540",
+        "D4832dac94c3eab4d2c8f",
+        "Da87194d26dc2b9959362",
+        "D8d593177734fa17fc433",
+        "D61505038e1ec4c8b0e43",
+        "D2e6eeda6d664e8af314d",
+        "D9617b9651d42661f21a9",
+        "D31ddad9b05d7a8c79857",
+        "D6da55dc42937a69eedcd",
+        "Ofac6ecda26268a73bd65",
+        "O607b1f944b10062ad30a",
+        "O3d8319909e1d73bcecac",
+        "O9606eb130f053ff99df2",
+        "O90e36939fcf36a295819",
+        "O83113766d58ff536fce8",
+        "O99e692e321e791a201ed",
+        "O963570fae3d6f2fb29bf"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-031",
+      "conclusion": "needs_revision",
+      "calibrated_severity": "B",
+      "retain_current": true,
+      "reader_packet": "04",
+      "reader_lines": [
+        1087,
+        1094
+      ],
+      "reason": "直接ClassicBumper/Plus明示MACHINES/PATROL DROIDS/MALFUNCTIONING，机器身份非猜名。改名更清楚，但撞击兽作为幻想专名不必然断言生物，不能只凭兽升A；按B清晰度和术语一致性改，不立正式名。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCf89ffbe39fe88fa1",
+      "source_quote": "[EVEN MORE OF THESE...]\n[THE BUMPERS IN THAT SECTION SEEM TO HAVE BETTER ARMOR]\n[THAN THE OTHER BUMPERS YOU'VE SEEN.]\n[TRY NOT TO LET THEM HIT YOU, SINCE THAT EXTRA PLATING]\n[IS SURE TO RESULT IN EXTRA DAMAGE, TOO.]",
+      "current_quote": "  Yiffai: [还有更多这种东西……]\n  Bossu: [那一区的撞击兽，装甲似乎比你见过的其他撞击兽都要好。]\n\n  Bossu: [尽量别让它们撞到你，因为那层额外装甲肯定也会带来额外伤害。]\n",
+      "proposal_checked": "Yiffai：[又是这些家伙……]\nBossu：[那一区的撞击机器人，装甲似乎比你之前见过的更厚。尽量别让它们撞到，那层额外装甲肯定也让它们撞得更疼。]",
+      "original_evidence_refs": [
+        "datadm/all.ds :: BossuDex.ClassicBumperC",
+        "datadm/all.ds#L3236",
+        "datadm/all.ds#L3237",
+        "datadm/all.ds#L3238",
+        "datadm/all.ds#L3239",
+        "datadm/all.ds#L3240",
+        "Def2c0606064a27d89d4f",
+        "D773b3d93316981860484",
+        "Ddf4eb2f6ddb66bd52093",
+        "D076043c600c1293a2a28",
+        "De768083eb82ee39649b2",
+        "O54d27b252304a018e56f",
+        "O58c6e762e802ad79942e",
+        "O24ab5b11e8bc69df64c4",
+        "O3b86bdd191c9f9f6e017",
+        "Oae614ca5116b5c4dbcfe"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    },
+    {
+      "finding_id": "P04-032",
+      "conclusion": "support_proposal",
+      "calibrated_severity": "A",
+      "retain_current": false,
+      "reader_packet": "04",
+      "reader_lines": [
+        1629,
+        1632
+      ],
+      "reason": "与P02-034独立内容版核，源明确同一手电的英美称法。建议语义支持；删除竖线仍仅段落稿，不是已验证UI回填。",
+      "original_severity": "A",
+      "original_status": "proposal",
+      "scene_id": "SCcc794b01eea2df32",
+      "source_quote": "LIGHTS UP THE|DARKEST ROOMS.\nTORCH",
+      "current_quote": "照亮|最黑暗的房间。\n火把",
+      "proposal_checked": "照亮最黑暗的房间。\n手电筒",
+      "original_evidence_refs": [
+        "datav/dictionary.json :: SpecialTorch",
+        "datav/dictionary.json#SpecialTorch.desc",
+        "datav/dictionary.json#SpecialTorch.name",
+        "Ud56e2de6377b3c7ad085",
+        "Uce76cf5b787faed02e22",
+        "O28e2c20df457736d182e",
+        "O72814950ad516fddcc61"
+      ],
+      "reader_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-04.reader.md"
+    }
+  ],
+  "not_performed": [
+    "正式译文回填",
+    "audit/catalog/他人文件修改",
+    "构建部署",
+    "Git写",
+    "再委派",
+    "实机视觉验证",
+    "未选B/C与无问题场景全审"
+  ],
+  "stats": {
+    "submitted": 102,
+    "checked": 42,
+    "original_A": 18,
+    "needs_evidence": 11,
+    "representative_B_nonQ": 15,
+    "conclusions": {
+      "support_proposal": 19,
+      "needs_revision": 12,
+      "needs_evidence": 11
+    }
+  },
+  "input_sha256": {
+    "localization/editorial/r1/audit/packet-01/findings.jsonl": "5ebdbd10f3d4c2ec4ca18c26f33a595c9e6b772868585585c00d3e8c88658868",
+    "localization/editorial/r1/audit/packet-02/findings.jsonl": "de59bfe3a6d4a149bfa501e0f887740811d82faad664d4ca3f6700ad4eeeab56",
+    "localization/editorial/r1/audit/packet-04/findings.jsonl": "2c33ea63e0c6d8a80a15ed886a98c5a9490e1285c20da36b0b5106b3a7b78e41"
+  },
+  "unchecked_finding_ids": [
+    "P01-001",
+    "P01-003",
+    "P01-004",
+    "P01-005",
+    "P01-006",
+    "P01-007",
+    "P01-008",
+    "P01-009",
+    "P01-010",
+    "P01-011",
+    "P01-012",
+    "P01-014",
+    "P01-016",
+    "P01-017",
+    "P01-024",
+    "P01-025",
+    "P01-026",
+    "P01-027",
+    "P01-028",
+    "P01-029",
+    "P01-030",
+    "P01-031",
+    "P01-036",
+    "P02-001",
+    "P02-002",
+    "P02-003",
+    "P02-004",
+    "P02-005",
+    "P02-011",
+    "P02-012",
+    "P02-014",
+    "P02-015",
+    "P02-016",
+    "P02-018",
+    "P02-019",
+    "P02-020",
+    "P02-021",
+    "P02-023",
+    "P02-024",
+    "P02-025",
+    "P02-026",
+    "P02-027",
+    "P02-028",
+    "P02-029",
+    "P02-030",
+    "P02-031",
+    "P04-003",
+    "P04-004",
+    "P04-005",
+    "P04-008",
+    "P04-010",
+    "P04-013",
+    "P04-021",
+    "P04-022",
+    "P04-023",
+    "P04-026",
+    "P04-027",
+    "P04-028",
+    "P04-029",
+    "P04-030"
+  ]
+}

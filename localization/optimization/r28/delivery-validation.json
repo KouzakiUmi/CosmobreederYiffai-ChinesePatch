@@ -1,0 +1,30 @@
+{
+  "status": "passed_delivery_cpu_and_independent_review_not_real_clip_CRT_input",
+  "archives": {
+    "cosmobreeder-multi.jar": "b8ad97ee9a5d96f38b8e3753bc3252d723c68c4686acef875e10ce69325c63c3",
+    "patch.pak": "10db525de973dc20a4c5f20b30bd989a0dcb1b0b08d80344b122bddeaa0cf245"
+  },
+  "zip_sha256": "d515065357101c051a72a34bb414c8f33d570a8d301b25fd85c15bcd02b96503",
+  "zip_bytes": 59537607,
+  "zip_members": 28,
+  "local_markdown_links_checked": 20,
+  "original_and_r27_four_archives_unchanged": true,
+  "delta_reconstruction_both_byte_equal": true,
+  "payload_verify_passed": true,
+  "installer_source_unmodified": true,
+  "acceptance_embedded_in_zip": true,
+  "compact_pixel_checks": {
+    "scenarios": 1863,
+    "vertices": 76416,
+    "ink_overlap": 0,
+    "divider_ink": 0,
+    "full16_icon_overlap": 0,
+    "later_occlusion": 0,
+    "actual_nonpanel_ink": 0,
+    "description_escapes": 0,
+    "canvas_clips": 0
+  },
+  "game_started": false,
+  "installed": false,
+  "user_save_accessed": false
+}

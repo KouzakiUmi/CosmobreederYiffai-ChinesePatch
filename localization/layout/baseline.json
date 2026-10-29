@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "baseline_revision": 2,
+  "target_expansion_reason": "Preserve exact VSN source identity through the original amn copy method without changing input/timing semantics",
+  "game_version": "1.0.5_full",
+  "baseline_build": "localization/builds/final-8146-r21-images",
+  "baseline_archives": {
+    "cosmobreeder-multi.jar": "21ef61322816287495bd34fb3f7685d5f6c48f9411cb7507167eb102ab1fd340",
+    "patch.pak": "ad091bb83759588e76c8880cb44e399e86da72414ce3896bce7b9293595c73c8"
+  },
+  "original_jar": "backup/cosmobreeder-multi.jar",
+  "original_jar_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+  "target_classes": {
+    "PRG/Yg": "dc6c7964df17ba744ab0397d9a01be3ac97c711954c876d6b72a6d606a1d3859",
+    "PRG/jo": "7d9209e5275c9333bb581c94028034beab553716e222e97cd93418d53d41fa76",
+    "PRG/jl": "a07da6c75311bf5ebc84c53f854f998dd32aade0fd06b55666acabd9b853ac08",
+    "PRG/amH": "642429e8ee6b4f4297335fcf05cfd692cc5b7e458140b6f622656c38349f872d",
+    "PRG/amn": "1e1351fac324d6f948abb1594594c751acde21b7368f04809672ea10ce56f4bc",
+    "PRG/Mf": "6741f09318fc4e807c20aca52e13b06d6815df7be5dcb7280ef180d9b0224ce4",
+    "PRG/LX": "9b327a48e9e5d5311c28d4f411c5557e3c4d656979ca67b21ef5702896db3d66",
+    "PRG/LY": "daf1134310a20f66ebbf6b409cc07829ccebe520ec51fc60ba280fe1dbc6e2de",
+    "PRG/Iu": "43b98e733862e0c137a63ec7ae59507fa7d34ef7c39e72c88e8e3d00e3f13c26",
+    "PRG/Le": "6e0a0f8d826cb42810354ac753fb609d766d3e487a423692f51c2809b103e86d",
+    "PRG/Lg": "426f0c4be7947b096e421fb62a387e5b43a9e5b8f084475dd7464cf9f50e1240",
+    "PRG/Lb": "c753a5df061b665c502f265fd3d340f33f52803c193daa787f294aa43cba4ae1"
+  },
+  "runtime_resources": {
+    "bbc2.fnt": "000c85594bb86de3402ab9c4dab3b50c0590051dbbe9b96a8d856acb7e983753",
+    "bbc2-cjk-10.png": "075a2803ee8c5e04ff8d755e76a7d7803fd45080b6a4b031be99bf1a656db306",
+    "classic.fnt": "a456bb96b944b2c443868b5ea02d2b458744eb795e161d6835a2d490a67c2510",
+    "classic-cjk.png": "64365128d82517e05a958d705a555700cd480bccf4686715e2a7c3f0143764a4",
+    "LICENSE-FusionPixel-OFL.txt": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+    "NOTICE.txt": "c4df7bbab41c71b522747bf176076dd6113408e25562db83a9307f10029dc700",
+    "font-license-metadata.json": "9167fa74f60051574556d5e0789858b8a1277f3c2509b4ddabe1e3ca997ab086"
+  },
+  "status": "frozen_inputs_not_visual_acceptance"
+}

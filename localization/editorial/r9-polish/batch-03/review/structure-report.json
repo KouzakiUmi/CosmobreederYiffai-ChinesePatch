@@ -1,0 +1,171 @@
+{
+ "batch": "batch-03",
+ "routes": {
+  "gemini": {
+   "findings": 44,
+   "coverage": 53,
+   "problems": [
+    "P03-024 width +36px on SFW179934b1d5a42a73a1099914",
+    "P03-030 width +84px on CAT:O8ed5328423c2d0e56b38"
+   ],
+   "severity": {
+    "A": 1,
+    "C": 13,
+    "B": 30
+   },
+   "categories": {
+    "meaning": 3,
+    "continuity": 5,
+    "term": 8,
+    "format": 18,
+    "voice": 9,
+    "relationship": 1
+   },
+   "status": {
+    "proposal": 44
+   },
+   "rows_proposed": 44
+  },
+  "ds": {
+   "findings": 38,
+   "coverage": 53,
+   "problems": [
+    "P03-001 cross-scene row CAT:O1d1de1873ef4c286442a",
+    "P03-004 width +72px on CAT:O8ed5328423c2d0e56b38",
+    "P03-006 cross-scene row CAT:Oa5cf4f42568296c05e07",
+    "P03-007 cross-scene row CAT:Ob1f70f52ae86474ae5c2",
+    "P03-007 cross-scene row CAT:O0c07dadcb3188edea015",
+    "P03-007 cross-scene row CAT:Occ34d2fa6f13b899dd40",
+    "P03-007 width +30px on CAT:Oe1a023ea3f4c5e26556c",
+    "P03-008 cross-scene row SFW756f2f673f7ffa4300e97c94",
+    "P03-009 cross-scene row SFW87e6ee1c64e37e3cb5269294",
+    "P03-010 cross-scene row SFW2a885f9873e302d6b290f59b",
+    "P03-013 width +36px on SFW179934b1d5a42a73a1099914",
+    "P03-014 width +36px on CAT:Ob31df43cd88f8778dff1",
+    "P03-015 cross-scene row SFW6a5d562adaa4c8f78930364c",
+    "P03-015 width +36px on CAT:O31052ad862684434c0fe",
+    "P03-016 cross-scene row SFW10d37e708bc1861e9cb97381",
+    "P03-016 cross-scene row CAT:O20555292d580fdb20496",
+    "P03-016 cross-scene row CAT:O49f48f2e63933561f891",
+    "P03-018 cross-scene row CAT:O80597cd2a53f4fa2a5cc",
+    "P03-018 cross-scene row SFWebc2b231bee88d21a5d0c117",
+    "P03-018 cross-scene row SFW8e2f3b6a1046a553190da416",
+    "P03-020 cross-scene row SFW55a838dadea473a15bc03ef3",
+    "P03-024 cross-scene row CAT:O515a967befb33dbac36c",
+    "P03-024 cross-scene row CAT:Obbab98e0426919542b97",
+    "P03-024 cross-scene row CAT:Obab3ebaa86f955410de1",
+    "P03-024 cross-scene row CAT:O5e6ecefda5125c3d1b0d",
+    "P03-024 cross-scene row CAT:O48071ad927899a84a1e7",
+    "P03-025 cross-scene row CAT:Oc9553908ae879712d51e",
+    "P03-025 cross-scene row SFW35a8324377aa9faf97f04be2",
+    "P03-025 cross-scene row CAT:O6144a9b1f8bc4b06dd88",
+    "P03-025 cross-scene row SFW9d95d939ba850233fcf8cb13",
+    "P03-026 cross-scene row CAT:Ocda83356b46fcd58e4fb",
+    "P03-030 cross-scene row SFWfc559e66b4dabf26ba221dd8",
+    "P03-035 cross-scene row CAT:O14fc544563ff2640ae12",
+    "P03-036 cross-scene row CAT:O38018ffef8b626f21cbb"
+   ],
+   "severity": {
+    "A": 5,
+    "B": 29,
+    "C": 3,
+    "needs_evidence": 1
+   },
+   "categories": {
+    "meaning": 6,
+    "relationship": 1,
+    "term": 10,
+    "format": 5,
+    "idiom": 3,
+    "continuity": 9,
+    "voice": 3,
+    "source_uncertainty": 1
+   },
+   "status": {
+    "proposal": 37,
+    "needs_evidence": 1
+   },
+   "rows_proposed": 71
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 70,
+  "rows_both_routes": 12,
+  "rows_identical_text": 2,
+  "rows_conflicting_text": 10,
+  "only_gemini": 32,
+  "only_ds": 26,
+  "conflicts": [
+   {
+    "row_id": "CAT:O633dd30d9d8ac4dd23cf",
+    "scene_id": "SC3d34d0fbc8f5e312",
+    "current": "  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把通讯器还给它的主人。]",
+    "gemini": "  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把无线电还给它的主人。]",
+    "ds": "  Bossu: [听好了，根据 PPP 法令 2348.832.01A 条，我命令你把无线电归还原主。]"
+   },
+   {
+    "row_id": "SFWc00f5f149929e58137123612",
+    "scene_id": "SC5d1f63ab15b52fb9",
+    "current": "  Bossu: [每次看到特工平安归来，总让人欣慰，这对]",
+    "gemini": "  Bossu: [每次看到特工平安归来总让人欣慰，]",
+    "ds": "  Bossu: [每次看到特工平安归来，总让人欣慰，]"
+   },
+   {
+    "row_id": "CAT:O66e4355b77d4646c9ea6",
+    "scene_id": "SC1a5d579ca870656a",
+    "current": "  Bossu: [我们刚收到 塞塔特尼 特工的消息，说你成功救出了对方。]",
+    "gemini": "  Bossu: [我们刚收到特工塞塔特尼的消息，说你成功救出了对方。]",
+    "ds": "  Bossu: [我们刚收到塞塔特尼特工的消息，说你成功救出了对方。]"
+   },
+   {
+    "row_id": "CAT:Of0aa61857047c59585d7",
+    "scene_id": "SCb19035363d3c7b1f",
+    "current": "  Yiffai: [明白了。伊吠结束通话！] ",
+    "gemini": "  Yiffai: [明白了。伊吠结束通话！]",
+    "ds": "  Yiffai: [明白了。伊吠通话完毕！] "
+   },
+   {
+    "row_id": "CAT:Oe50425a960f590eded1e",
+    "scene_id": "SCb19035363d3c7b1f",
+    "current": "  Bossu: [抱歉，我们不能冒险让你传送到实心地表里，何况你还是我们仅存的唯一希望。]",
+    "gemini": "  Bossu: [抱歉，我们不能冒险让你传进实体里，何况你还是我们仅存的唯一希望。]",
+    "ds": "  Bossu: [抱歉，我们不能冒险让你传送到实心地表里，何况你还是我们仅存的希望。]"
+   },
+   {
+    "row_id": "CAT:O6d5345f204ca314d9fa7",
+    "scene_id": "SC2b75ad4296112ea4",
+    "current": "  Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]",
+    "gemini": "  Bossu: [我们总算把维修工作外包给了当地的一名犬科，他不介意用Lect来结算报酬。]",
+    "ds": "  Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用 LECT 结算报酬。]"
+   },
+   {
+    "row_id": "CAT:Oa3ec12f202e77e320ba6",
+    "scene_id": "SC98e37924cb2ab926",
+    "current": "  Bossu: [干得好，特工，你该为自己骄傲]",
+    "gemini": "  Bossu: [干得好，特工，你该为自己骄傲。]",
+    "ds": "  Bossu: [干得好，特工，你该为自己骄傲！]"
+   },
+   {
+    "row_id": "CAT:O8ed5328423c2d0e56b38",
+    "scene_id": "SC70bc836984031e04",
+    "current": "  Bossu: [你快到你弟弟被黑暗能量控制的那间房间了。]",
+    "gemini": "  Bossu: [你快接近那间房间了，你弟弟就是在那儿被黑暗能量侵蚀的。]",
+    "ds": "  Bossu: [你快到那个房间了，你弟弟就是在那儿被黑暗能量吞噬的。]"
+   },
+   {
+    "row_id": "CAT:O24cd6378b36499ce88d2",
+    "scene_id": "SC250c73e45b18694e",
+    "current": "  Bossu: [你快要接近那间房间了，你的手足就在那里被黑暗能量吞噬了。]",
+    "gemini": "  Bossu: [你快接近那间房间了，你姐姐就是在那儿被黑暗能量吞噬的。]",
+    "ds": "  Bossu: [你快要接近那间房间了，你姐姐就是在那儿被黑暗能量吞噬的。]"
+   },
+   {
+    "row_id": "CAT:O9e8c6bc92c5b884e1cb3",
+    "scene_id": "SC98b0a44fc7ee1632",
+    "current": "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
+    "gemini": "  Yiffai: 我……我很抱歉……伊、伊吠挂了！",
+    "ds": "  Yiffai: 我……我很抱歉……伊、伊吠，通话完毕！"
+   }
+  ]
+ }
+}

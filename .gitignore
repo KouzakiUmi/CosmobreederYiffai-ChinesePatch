@@ -1,9 +1,43 @@
-# Research tree: only reviewed code extensions are eligible; local data stays ignored.
+# Research tree: reviewed code plus the textual audit trail is eligible; local data
+# and native game material stay ignored. Binaries remain excluded by the rules below.
 localization/**
 !localization/**/
 !localization/**/*.py
 !localization/**/*.java
+!localization/**/*.md
+!localization/**/*.tsv
+!localization/**/*.csv
+!localization/**/*.json
+!localization/**/*.jsonl
+!localization/**/*.txt
 !localization/requirements.txt
+
+# The audit trail is text only: work orders, decisions, repair ledgers and reports.
+# Bulky per-round evidence, generated corpora and build outputs stay local.
+localization/editorial/r1/corpus/
+localization/editorial/r1/reports/
+localization/editorial/r2/packets/
+localization/editorial/r2/compiled/
+localization/editorial/r2/input/
+localization/editorial/r2/corrections/
+localization/editorial/r3-names/compiled/
+localization/editorial/r3-names/engineering/
+localization/editorial/*/reports/
+localization/translations/zh-CN.jsonl
+localization/translations/dialogue-*.json
+localization/translations/jar-variant.jsonl
+localization/translations/layout-short-overrides.jsonl
+
+# Optimization keeps its sources and component descriptors; generated jars,
+# recordings, fixtures and candidate builds stay local.
+localization/optimization/r28/*/builds/
+localization/optimization/r28/*/run-*/
+localization/optimization/r28/*/pattern-*/
+localization/optimization/r28/*/baseline-evidence/
+localization/optimization/r28/core/
+localization/optimization/r28/integration/builds/
+localization/optimization/r28/integration/tests/
+localization/optimization/r28/*/cpu-recording*.json
 
 # Local workspace and original-game inputs: never publish.
 .local/
@@ -31,7 +65,13 @@ localization/review/
 localization/runtime/
 localization/sources/
 localization/toolchains/
-localization/translations/
+# Source-locked repair ledgers and name rulings are the auditable record of what
+# changed; the full translation tables they derive from stay local. Exclude the
+# directory's files rather than the directory itself so the allowlist can apply.
+localization/translations/*
+!localization/translations/character-names.json
+!localization/translations/character-name-repairs.jsonl
+!localization/translations/editorial-*-repairs.jsonl
 localization/work/
 docs/font-evidence/
 docs/full-layout-study-*/

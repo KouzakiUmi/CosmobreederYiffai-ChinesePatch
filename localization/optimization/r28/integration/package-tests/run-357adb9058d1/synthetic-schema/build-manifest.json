@@ -1,0 +1,50 @@
+{
+  "version": "r28-full-opt-candidate",
+  "status": "integrated_candidate_not_real_clip_CRT_input_acceptance",
+  "selected_components": [
+    "compact",
+    "core",
+    "images",
+    "pattern",
+    "scenes",
+    "sfw",
+    "vsn"
+  ],
+  "full_component_set": true,
+  "base_archives": {
+    "cosmobreeder-multi.jar": "dc6b0cedc3a3b2f6f51941a2cef449d33ec87d314ee64ea63495c3ffdebd06be",
+    "patch.pak": "d2e21deeb85d74e981770b247625ee7ceb7ed39ae566305c1833c2c3d97b54d5"
+  },
+  "game_started": false,
+  "user_save_accessed": false,
+  "installed": false,
+  "real_clip_CRT_input_verified": false,
+  "commands": [
+    {
+      "name": "compile-runtime",
+      "exit_code": 0
+    },
+    {
+      "name": "compile-tools",
+      "exit_code": 0
+    },
+    {
+      "name": "patch-targets",
+      "exit_code": 0
+    },
+    {
+      "name": "verify-final-classes",
+      "exit_code": 0
+    }
+  ],
+  "archives": {
+    "cosmobreeder-multi.jar": {
+      "sha256": "7c619fbf85b5ba813be1d20c7608aebd44198264cfbfc34726034d584f8dcfb4",
+      "bytes": 158
+    },
+    "patch.pak": {
+      "sha256": "7c619fbf85b5ba813be1d20c7608aebd44198264cfbfc34726034d584f8dcfb4",
+      "bytes": 158
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "game_version": "1.0.5_full",
+  "source_game": "C:/SteamLibrary/steamapps/common/Cosmobreeder Yiffai",
+  "language": "zh-CN",
+  "archive_priority": [
+    "jar",
+    "patch"
+  ],
+  "python_executable": "C:\\Users\\Fractal\\AppData\\Local\\Programs\\Python\\Python312\\python.exe",
+  "libraries": {
+    "Pillow": "11.3.0",
+    "openpyxl": "3.1.5"
+  },
+  "translation_route": {
+    "provider": "xai-oauth",
+    "model": "grok-4.7",
+    "reasoning_effort": "high",
+    "max_agents": 2,
+    "max_concurrent_agents": 2,
+    "allow_redelegation": false,
+    "preferred_part_units": 40
+  },
+  "original_install_write_allowed": false,
+  "runtime_files": {
+    "afH.class": "ecf4d9f526085e1797c084dccce86c068dc959226dd8ccdacd064e75bf397e2a",
+    "bbc2-cjk-10.png": "075a2803ee8c5e04ff8d755e76a7d7803fd45080b6a4b031be99bf1a656db306",
+    "bbc2-cjk-12.png": "0d874eb1946053ae5784cb417bff8a62264a379a0176455a9a64208b1febd7f9",
+    "bbc2-cjk-8.png": "82fc4a5a130012d983ec8950e267daf2f47606d59ac64d733ad04b2e202eb33f",
+    "bbc2.fnt": "000c85594bb86de3402ab9c4dab3b50c0590051dbbe9b96a8d856acb7e983753",
+    "cjkfont.png": "0d874eb1946053ae5784cb417bff8a62264a379a0176455a9a64208b1febd7f9",
+    "CjkText.class": "2869056de5c2383d6bc3196306dfc2cbdf4c77bdfe24aff74ea61ac336045bfe",
+    "classic-cjk.png": "64365128d82517e05a958d705a555700cd480bccf4686715e2a7c3f0143764a4",
+    "classic.fnt": "a456bb96b944b2c443868b5ea02d2b458744eb795e161d6835a2d490a67c2510",
+    "font-license-metadata.json": "9167fa74f60051574556d5e0789858b8a1277f3c2509b4ddabe1e3ca997ab086",
+    "LICENSE-FusionPixel-OFL.txt": "bc518cf64b8032c07690f33cc270c35c179255a6ac8efa7c165ebae7e8f76a63",
+    "NOTICE.txt": "c4df7bbab41c71b522747bf176076dd6113408e25562db83a9307f10029dc700"
+  },
+  "variant_semantics": "raw resource branch; protagonist gender not inferred from branch name",
+  "trial_translation_route": {
+    "provider": "openai-codex",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "part_units": 40,
+    "max_agents": 1,
+    "scope": "batch_044_000 only"
+  }
+}

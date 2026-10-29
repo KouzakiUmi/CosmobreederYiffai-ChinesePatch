@@ -1,0 +1,89 @@
+{
+  "remaining": [
+    {
+      "name_id": "Tomcat",
+      "locator": [
+        "cosmobreeder-multi.jar",
+        "datadf/1",
+        "line",
+        1970
+      ],
+      "old_form_remaining": "Tomcat",
+      "value": "  Tomcat: [嘿，丫头！雄猫来看看你啦！]",
+      "source": "[HEY GRRRL! THIS IS TOMCAT CHECKING UP ON YA!]"
+    },
+    {
+      "name_id": "Tomcat",
+      "locator": [
+        "cosmobreeder-multi.jar",
+        "datadm/1",
+        "line",
+        1964
+      ],
+      "old_form_remaining": "Tomcat",
+      "value": "  Tomcat: [你好呀，Y特工，雄猫前来报到！]",
+      "source": "[HELLO THERE AGENT Y, THIS IS TOMCAT REPORTING IN!]"
+    },
+    {
+      "name_id": "Tomcat",
+      "locator": [
+        "patch.pak",
+        "datadf/1",
+        "line",
+        1968
+      ],
+      "old_form_remaining": "Tomcat",
+      "value": "  Tomcat: [嘿，丫头！雄猫来看看你啦！]",
+      "source": "[HEY GRRRL! THIS IS TOMCAT CHECKING UP ON YA!]"
+    },
+    {
+      "name_id": "Tomcat",
+      "locator": [
+        "patch.pak",
+        "datadf/1",
+        "line",
+        3882
+      ],
+      "old_form_remaining": "Tomcat",
+      "value": "  Tomcat: [不过找到别的东西也记得告诉我。雄猫通话完毕！]",
+      "source": "[BUT LET ME KNOW IF YOU FIND ANYTHING ELSE. TOMCAT OUT!]"
+    },
+    {
+      "name_id": "Tomcat",
+      "locator": [
+        "patch.pak",
+        "datadm/1",
+        "line",
+        1974
+      ],
+      "old_form_remaining": "Tomcat",
+      "value": "  Tomcat: [你好呀，Y特工，雄猫前来报到！]",
+      "source": "[HELLO THERE AGENT Y, THIS IS TOMCAT REPORTING IN!]"
+    },
+    {
+      "name_id": "Bossu",
+      "locator": [
+        "cosmobreeder-multi.jar",
+        "datadm/1",
+        "line",
+        3078
+      ],
+      "old_form_remaining": "Bossu",
+      "value": "  Bossu: [波苏 在此，出什么问题了，特工？]",
+      "source": "[BOSSU HERE, WHAT'S THE PROBLEM, AGENT?]"
+    },
+    {
+      "name_id": "Bossu",
+      "locator": [
+        "patch.pak",
+        "datadm/1",
+        "line",
+        3141
+      ],
+      "old_form_remaining": "Bossu",
+      "value": "  Bossu: [波苏 在此，出什么问题了，特工？]",
+      "source": "[BOSSU HERE, WHAT'S THE PROBLEM, AGENT?]"
+    }
+  ],
+  "count": 7
+}

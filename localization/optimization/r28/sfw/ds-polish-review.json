@@ -1,0 +1,242 @@
+{
+  "schema": "sfw-ds-polish-review/v1",
+  "suggestions_sha256": "7813ad7859d6f1234907d367da86d9c07c9a4a98feae479ef9ab93bedf901ff0",
+  "counts": {
+    "applicable_exact_source_and_old_candidate": 16
+  },
+  "operations": [
+    {
+      "suggestion_id": "DSP-datadf-2582",
+      "logical_path": "datadf/all.ds",
+      "root": "Bossu.AreaH_map01_a noselect",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPe0bb3b6c07872ca684e6c740",
+      "actual_sfw_source_lines": [
+        2570,
+        2571
+      ],
+      "source_ledger_ids": [
+        "SFWb549bd6aca15e787c705ee7c",
+        "SFW137e7086cdc4c951090abbf5"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadf-2866",
+      "logical_path": "datadf/all.ds",
+      "root": "BossuDex.ClassicTentacle",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPf801615a93ed15aefeaa8344",
+      "actual_sfw_source_lines": [
+        2842
+      ],
+      "source_ledger_ids": [
+        "SFWb423b8fdae0ec8a279c21135"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-2369",
+      "logical_path": "datadm/all.ds",
+      "root": "Mauser.AreaB_map11_a noselect",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP8f0519b2d80570e0a4de3aab",
+      "actual_sfw_source_lines": [
+        2343
+      ],
+      "source_ledger_ids": [
+        "SFWde5c6761966f396f9008d17e"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-2603",
+      "logical_path": "datadm/all.ds",
+      "root": "Bossu.AreaH_map01_a noselect",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPe5d7d243d374b8ff3cc88d02",
+      "actual_sfw_source_lines": [
+        2574,
+        2575
+      ],
+      "source_ledger_ids": [
+        "SFW25a7c72e307f790e247936c7",
+        "SFW04537318403f65c48f9fa28d"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-2640",
+      "logical_path": "datadm/all.ds",
+      "root": "Tomcat.AreaX_fenfen_rescued noselect",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPf3003002ddbf50dee9101f51",
+      "actual_sfw_source_lines": [
+        2604
+      ],
+      "source_ledger_ids": [
+        "SFW4c6b0d531727d46bd3ba32dd"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-2908",
+      "logical_path": "datadm/all.ds",
+      "root": "BossuDex.ClassicTentacle",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP145a93b2298bfe4f94e5403b",
+      "actual_sfw_source_lines": [
+        2865
+      ],
+      "source_ledger_ids": [
+        "SFWfd33de63e28d569e3aaadf2c"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-3790",
+      "logical_path": "datadm/all.ds",
+      "root": "Tomcat.TestA",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPbf77eb015ca8440878cb9339",
+      "actual_sfw_source_lines": [
+        3720
+      ],
+      "source_ledger_ids": [
+        "SFW095a4ef20221f3a6837de966"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadf-1919",
+      "logical_path": "datadf/all.ds",
+      "root": "AreaX_Upgrade.Hack",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP404618abd2339502eeba86c6",
+      "actual_sfw_source_lines": [
+        1921,
+        1922
+      ],
+      "source_ledger_ids": [
+        "SFWffa67c5551baf93ba92b6786",
+        "SFW14adf67b25a65c62914ea298"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-1930",
+      "logical_path": "datadm/all.ds",
+      "root": "AreaX_Upgrade.Hack",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP1af5686b7d8dc48931d59146",
+      "actual_sfw_source_lines": [
+        1920,
+        1921
+      ],
+      "source_ledger_ids": [
+        "SFW0b661d03db8bf43843cbad4b",
+        "SFW84519289fbfa6b0213c666e0"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4623",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapData01",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPb9e80149b849e8d274a77f26",
+      "actual_sfw_source_lines": [
+        4487,
+        4488
+      ],
+      "source_ledger_ids": [
+        "SFW211c544ece8645cfbe452e1c",
+        "SFW5b187c0a23549a68938b35d5"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4637",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapDataB1",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP4e5cfae3b2de178b54ddb81c",
+      "actual_sfw_source_lines": [
+        4501,
+        4502
+      ],
+      "source_ledger_ids": [
+        "SFWf034b51fdeeb157b1c3909f6",
+        "SFW04539d7b0065d6a24bbe0796"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4651",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapDataANorth",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPad28ab368ad97789511c6ef4",
+      "actual_sfw_source_lines": [
+        4515,
+        4516
+      ],
+      "source_ledger_ids": [
+        "SFW54817fd3ef2df27ffce2696a",
+        "SFW29552efed209f42a226ea530"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4665",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapDataASouth",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP433c656f33e7c6b298d7714e",
+      "actual_sfw_source_lines": [
+        4529,
+        4530
+      ],
+      "source_ledger_ids": [
+        "SFW9ab3a02179f1e87f78e14826",
+        "SFW128a8d02264d7d609fa92ba4"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4679",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapDataCEast",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP5b40676401940b8cdde21dba",
+      "actual_sfw_source_lines": [
+        4543,
+        4544
+      ],
+      "source_ledger_ids": [
+        "SFWd80947b62dfe87878a1b81bd",
+        "SFW18dcce915921f88658c9b960"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4693",
+      "logical_path": "datadm/all.ds",
+      "root": "TomcatItems.MapDataE",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSPb48f4efb281c5ad9cda9f927",
+      "actual_sfw_source_lines": [
+        4557,
+        4558
+      ],
+      "source_ledger_ids": [
+        "SFW92a4789ee5fa1c77e9157d43",
+        "SFWa8396f9c7a4e9c5037311376"
+      ]
+    },
+    {
+      "suggestion_id": "DSP-datadm-4789",
+      "logical_path": "datadm/all.ds",
+      "root": "DefeatHints.ClassicBigboldV2.debris",
+      "status": "applicable_exact_source_and_old_candidate",
+      "operation_id": "SFWDSP0a0299574ba65bee2cba79e5",
+      "actual_sfw_source_lines": [
+        4642,
+        4643,
+        4644
+      ],
+      "source_ledger_ids": [
+        "SFW46c70ade051d6054e7ce1e80",
+        "SFWcb89c6a0be820bd0c33963ed",
+        "SFWef4aa0e7d61da0990a23e0d9"
+      ]
+    }
+  ],
+  "source_identity": "original JAR own raw source IDs and actual applied join mapping; PAK line values ignored"
+}

@@ -1,0 +1,16 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "ledger": "localization/translations/editorial-r2-repairs.jsonl",
+  "review_manifest": "localization/editorial/r2/compiled/pass-02/manifest.json",
+  "semantic_manifest": "localization/editorial/r2/compiled/pass-02/semantic-acceptance.json",
+  "required_data": [
+    "../../../translations/editorial-r2-repairs.jsonl",
+    "../../../editorial/r2/compiled/pass-02/manifest.json",
+    "../../../editorial/r2/compiled/pass-02/semantic-acceptance.json",
+    "../../../review/glossary.csv"
+  ],
+  "required_chars": ["Tomcat"]
+}

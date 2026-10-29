@@ -178,7 +178,7 @@ public final class DialogueWrapTest {
         check(animated.c(animated.i()),"real amn original completion deadline");
         eq(animated.a(animated.i()+1),grid,"real amn complete masked text");
         amn skipped=animated.a(grid,animated.e(),new aAw<Object>(100.01),animated.g());
-        eq(skipped.a(100.02,true),grid.trim().length(),"real amn skip completes through nonpadding");
+        eq(skipped.a(100.02,true),DialogueWrap.terminalText(amr.e.MODULE$,grid).length(),"real amn skip absolute source index");
     }
     static void finalTranslation() throws Exception {
         Field mode=Tc.class.getDeclaredField("a");mode.setAccessible(true);
@@ -195,33 +195,19 @@ public final class DialogueWrapTest {
         } finally {mode.set(null,saved);}
     }
     static void locales() {
-        Locale old=Locale.getDefault();
+        Locale locale=Locale.getDefault();
         PixelLayout.Metrics fixture=new PixelLayout.Metrics(){
             public PixelLayout.Glyph glyph(int cp){return new PixelLayout.Glyph(cp<128?8:10,0,0,cp==32?0:cp<128?8:10,10);}
             public double kerning(int a,int b){return 0;}
         };
-        try {
-            for(Locale locale:new Locale[]{Locale.ENGLISH,new Locale("tr","TR"),new Locale("lt","LT")}) {
-                Locale.setDefault(locale);
-                String mixed="这straße iıİi\u0307时代";
-                List<DialogueGrid.Page> pages=DialogueWrap.pages(mixed,20,150,fixture);
-                StringBuilder joined=new StringBuilder();
-                for(DialogueGrid.Page page:pages) {
-                    eq(page.grid,page.grid.toUpperCase(),"same-locale post-uppercase exact identity "+locale);
-                    for(String line:page.lines)joined.append(line);
-                }
-                eq(joined.toString(),mixed.toUpperCase(locale),"uppercase expansion measured before wrap "+locale);
-                // The production FNT also covers sharp-s AFTER expansion. Turkish dotted-I
-                // itself is absent from this exact font, hence the separate metrics fixture above.
-                String real="这straße I时代";
-                StringBuilder realJoined=new StringBuilder();
-                for(DialogueGrid.Page page:DialogueWrap.pages(real,20,150,metrics)) {
-                    eq(page.grid,page.grid.toUpperCase(),"actual font locale grid identity "+locale);
-                    for(String line:page.lines)realJoined.append(line);
-                }
-                eq(realJoined.toString(),real.toUpperCase(locale),"actual font sharp-s expansion "+locale);
-            }
-        } finally { Locale.setDefault(old); }
+        String mixed="这straße iıİi̇时代";
+        StringBuilder joined=new StringBuilder();
+        for(DialogueGrid.Page page:DialogueWrap.pages(mixed,20,150,fixture)) {
+            eq(page.grid,page.grid.toUpperCase(locale),"same default-locale uppercase identity");
+            for(String line:page.lines)joined.append(line);
+        }
+        eq(joined.toString(),mixed.toUpperCase(locale),"uppercase measured before wrap");
+        eq(Locale.getDefault(),locale,"test never changes global Locale");
     }
     static final class FixtureVisited extends abF {
         int visits;

@@ -1,0 +1,18 @@
+test_actor_and_command_segments (test_editorial_repairs.EditorialRepairsTests.test_actor_and_command_segments) ... ok
+test_all_entries_preflight (test_editorial_repairs.EditorialRepairsTests.test_all_entries_preflight) ... ok
+test_duplicate_target (test_editorial_repairs.EditorialRepairsTests.test_duplicate_target) ... ok
+test_identity_scope_old_and_reapplication (test_editorial_repairs.EditorialRepairsTests.test_identity_scope_old_and_reapplication) ... ok
+test_joined_blank_tail_and_mixed_eol_preserved (test_editorial_repairs.EditorialRepairsTests.test_joined_blank_tail_and_mixed_eol_preserved) ... ok
+test_json_duplicates_keys_and_nonstrings_protected (test_editorial_repairs.EditorialRepairsTests.test_json_duplicates_keys_and_nonstrings_protected) ... ok
+test_json_existing_newlines_exact_token_splice (test_editorial_repairs.EditorialRepairsTests.test_json_existing_newlines_exact_token_splice) ... ok
+test_json_token_splice_unicode_nested_pointer (test_editorial_repairs.EditorialRepairsTests.test_json_token_splice_unicode_nested_pointer) ... ok
+test_marker_segment_reordering_and_barrier (test_editorial_repairs.EditorialRepairsTests.test_marker_segment_reordering_and_barrier) ... ok
+test_percent_math_not_placeholder (test_editorial_repairs.EditorialRepairsTests.test_percent_math_not_placeholder) ... ok
+test_prefix_control_blank_newline (test_editorial_repairs.EditorialRepairsTests.test_prefix_control_blank_newline) ... ok
+test_preflight_late_failure (test_editorial_repairs.EditorialRepairsTests.test_preflight_late_failure) ... ok
+test_vsn_prefix (test_editorial_repairs.EditorialRepairsTests.test_vsn_prefix) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.002s
+
+OK

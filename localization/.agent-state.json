@@ -1,0 +1,2123 @@
+{
+  "goal_id": "goal-6df2748c-149c-47a9-b305-1a55378a1105",
+  "goal_reference_source": "Parent new direct user instruction: continue full compliant project; goal remains managed by main, not completed here",
+  "current_authorization": {
+    "record_only_not_runtime_permission_change": true,
+    "source": "Latest explicit user approvals relayed by main session-120d82da-1592-42eb-9d3a-f89903174d3b",
+    "execution_integrator": {
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "scope": "Project task/translation/report data, existing-tool incremental QA/merge/export; no self-translation or polishing",
+      "redelegation_allowed": false
+    },
+    "dispatch_owner": "main_only",
+    "classifiers": {
+      "route": "openai-codex/gpt-6.1-sol/medium",
+      "max_concurrent": 3,
+      "purpose": "neutral ID/label classification only; no sensitive translation or details",
+      "new_A_id": "5541d4a7-7516-4912-a1fb-85ecb9436561",
+      "A_status": "completed_2287_legal_unique",
+      "B_replacement_id": "6f239aad-c0f0-4871-b5ce-1744a77b42d7",
+      "B_exact_target_count": 333,
+      "C_replacement_id": "7c103b1f-883e-4544-b2af-5a1face36448",
+      "C_exact_target_count": 507,
+      "write_rule": "Each owns only its assigned report; source and old B/C reports readonly; no programs/network/redelegation",
+      "status": "approved_scope_complete_no_new_tasks",
+      "B_status": "completed_2348_legal_union",
+      "C_status": "completed_2245_legal_union"
+    },
+    "ordinary_translator": {
+      "route": "openai-codex/gpt-6.1-sol/medium",
+      "worker_id": "2e39e801-bb06-46a4-9336-e6356a9e0d3d",
+      "max_concurrent": 1,
+      "scope": "Message-only confirmed ordinary input, each<=40; no file/program/network/redelegation"
+    },
+    "model_ban_policy": "reports/model-dispatch-policy.json",
+    "forbidden": "MiMo Flash/Pro any effort/route; code/Steam/WoC/Git/credentials/install/deploy/publish; .dsh programs; precision passes; bypass of real refusals",
+    "system_python": "C:/Users/Fractal/AppData/Local/Programs/Python/Python312/python.exe",
+    "python_env": "PYTHONDONTWRITEBYTECODE=1; existing tools and mechanical data transforms only",
+    "status": "historical_only_see_current_recovery"
+  },
+  "dispatch_policy": "reports/model-dispatch-policy.json",
+  "initiative_page_id": "kp-845d57394ceb46f0b13e639c3efece2e",
+  "project_root": "D:/Software Projects/CosmobreederYiffai-ChinesePatch/localization",
+  "source_installation_must_remain_unchanged": true,
+  "do_not_execute_programs_under_dsh": true,
+  "system_python": "C:/Users/Fractal/AppData/Local/Programs/Python/Python312/python.exe",
+  "user_model_authorization": {
+    "status": "superseded_historical_only",
+    "history": "reports/state-history-before-resume-20261021.json",
+    "current": "current_authorization and reports/model-dispatch-policy.json"
+  },
+  "project_prepared": true,
+  "translation_units": 8973,
+  "batches": 177,
+  "agents": {
+    "A": {
+      "id": "eb62339b-9c2f-41fb-a5e4-6b288e296f28",
+      "reserved_partition": [
+        0,
+        37
+      ],
+      "current_assignment": [],
+      "state": "inactive",
+      "observed_complete_batches": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "reported_complete_batches": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "complete_parts": [
+        "batch_005_000",
+        "batch_005_040"
+      ]
+    },
+    "B": {
+      "id": "25b87365-0e23-47da-9385-f0089d96d066",
+      "reserved_partition": [
+        38,
+        74
+      ],
+      "current_assignment": [],
+      "state": "inactive",
+      "observed_complete_batches": [
+        38,
+        39,
+        40,
+        41,
+        42,
+        43
+      ],
+      "reported_complete_batches": [
+        38,
+        39,
+        40,
+        41,
+        42
+      ],
+      "complete_parts": [
+        "batch_043_000",
+        "batch_043_040",
+        "batch_043_080"
+      ]
+    },
+    "MiMo": {
+      "id": "f0c3fecd-4a8b-4908-90e8-10659a1ebbd1",
+      "state": "failed",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "approved_scope": "one 40-row text-only trial, no automatic continuation",
+      "current_assignment": [
+        "batch_044_000"
+      ],
+      "output": "drafts/parts/batch_044_000.jsonl",
+      "program_execution_allowed": false,
+      "redelegation_allowed": false,
+      "failure": "Provider finish_reason: content_filter",
+      "delivered_records": 0,
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "Sol": {
+      "id": "ce98b389-8ae9-41e3-93db-094e23a0f9f2",
+      "state": "historical_inactive_do_not_resume",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "approved_scope": "Project task/translation/report data, existing-tool incremental QA/merge/export; no self-translation or polishing",
+      "output": "reports/current-normal-ui-stage-verification.json",
+      "redelegation_allowed": false,
+      "current_assignment": [
+        "ordinary_complete_scene_candidate_pipeline",
+        "classification_aggregation_complete_not_full_semantic_review"
+      ],
+      "allowed_redelegation": {
+        "enabled": false,
+        "owner": "main_only",
+        "history": "reports/state-history-before-resume-20261021.json"
+      },
+      "program_execution_allowed": true,
+      "last_completed_wave": 11,
+      "last_completed_batch_ids": [
+        "batch_110"
+      ]
+    },
+    "R1": {
+      "id": "0fead7bd-ca9f-48ab-b21c-ec03ea0d4fef",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem or programs",
+      "group": "R1",
+      "last_completed_batch": "batch_103",
+      "output": "drafts/normal/root/batch_103.jsonl",
+      "current_assignment": [],
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "R2": {
+      "id": "55ee89e1-7249-4375-a65a-4cdfb33c6c09",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem or programs",
+      "group": "R2",
+      "last_completed_batch": "batch_095",
+      "output": "drafts/normal/root/batch_095.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "R3": {
+      "id": "9c206c18-c84f-4686-9d6c-7adcedef0126",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem or programs",
+      "group": "R3",
+      "last_completed_batch": "batch_096",
+      "output": "drafts/normal/root/batch_096.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "R4": {
+      "id": "26081ffb-6b2f-4b05-b2d2-49bb7379d271",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem or programs",
+      "group": "R4",
+      "last_completed_batch": "batch_097",
+      "output": "drafts/normal/root/batch_097.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "S1": {
+      "id": "41b8b911-473b-47c2-b51c-2a850e36103f",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem/program/network/redelegation",
+      "last_completed_batch": "batch_098",
+      "output": "drafts/normal/sol/batch_098.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "S2": {
+      "id": "b68a9944-683e-4d7b-8c87-3a9768abf597",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem/program/network/redelegation",
+      "last_completed_batch": "batch_099",
+      "output": "drafts/normal/sol/batch_099.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "S3": {
+      "id": "2e94df46-cc48-407f-a86c-2ece9a1126dc",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem/program/network/redelegation",
+      "last_completed_batch": "batch_100",
+      "output": "drafts/normal/sol/batch_100.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "S4": {
+      "id": "04254297-a264-492e-bc9c-21327c2b2086",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem/program/network/redelegation",
+      "last_completed_batch": "batch_101",
+      "output": "drafts/normal/sol/batch_101.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "S5": {
+      "id": "24348df3-49f3-4210-ac89-f93095c268dc",
+      "state": "completed_inactive",
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "role": "text-only; output by message; no filesystem/program/network/redelegation",
+      "last_completed_batch": "batch_102",
+      "output": "drafts/normal/sol/batch_102.jsonl",
+      "dispatch_allowed": false,
+      "dispatch_block_policy": "reports/model-dispatch-policy.json"
+    },
+    "GPTClassA": {
+      "id": "5541d4a7-7516-4912-a1fb-85ecb9436561",
+      "state": "completed_do_not_resume",
+      "output": "reports/gpt-neutral-classifier-A.jsonl",
+      "final_check": "reports/gpt-neutral-classifier-A-final-coverage-check.json",
+      "legal_unique": 2287,
+      "semantic_whole_review_not_claimed": true
+    },
+    "GPTClassB": {
+      "id": "6f239aad-c0f0-4871-b5ce-1744a77b42d7",
+      "state": "completed_final_legal_union_verified_do_not_resume",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "exact_targets": 333,
+      "output": "reports/gpt-neutral-classifier-B-resume.jsonl",
+      "redelegation_allowed": false
+    },
+    "GPTClassC": {
+      "id": "7c103b1f-883e-4544-b2af-5a1face36448",
+      "state": "completed_final_legal_union_verified_do_not_resume",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "exact_targets": 507,
+      "output": "reports/gpt-neutral-classifier-C-resume.jsonl",
+      "redelegation_allowed": false
+    },
+    "GPTTranslator": {
+      "id": "2e39e801-bb06-46a4-9336-e6356a9e0d3d",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "last_completed_batch": "batch_110",
+      "role": "message-only ordinary translator; main alone dispatches",
+      "state": "returned110_integrated_inactive_main_reuse_only"
+    }
+  },
+  "verification": {
+    "initial_project_tests": "8 passed, 6.083 seconds; byte-exact 70 effective text assets; all mappings; workbook guard; image pixels; source hashes",
+    "package_tests": "2 passed, 18.145 seconds; in-memory font page transforms for BOTH original archives and CP UTF8 replacement preserving bytecode",
+    "latest_workbook_occurrence_sheet_tests": "8 passed, 8.591 seconds, including full occurrence_overrides worksheet round-trip",
+    "latest_project_tests": "12 passed, 14.018 seconds after wave2; old1499 records/files unchanged",
+    "latest_package_tests": "2 passed, 16.569 seconds; both archive font pages and CP replacement",
+    "latest_wave3": "59 source/ID/hash/marker/glyph/nonempty checks, nine ready seals, merge/validate/export all exited0; canonical1591; old1532 unchanged; no full test-suite rerun because no code changed",
+    "latest_wave4": "Incremental4 identity/source/hash/marker/font/nonempty checks and prefix25 spaces passed; stamp/merge/validate/export exit0; old1591 unchanged; workbook1595 saved and reopened; no full test rerun"
+  },
+  "active_jobs_to_collect": [],
+  "next_steps": [
+    "用户重装 v1.3 验证能否启动 + 菜单是否出中文",
+    "确认后清理工作区"
+  ],
+  "completed_draft_batches": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "verified_draft_units": 8146,
+  "last_observed_grok_week_remaining_percent": 0,
+  "part_size": 40,
+  "small_batch_request": "User explicitly requested smaller batches at the 11% weekly quota checkpoint.",
+  "nested_ui_append_complete": true,
+  "goal_revision": 2,
+  "grok_state": "117_actual_success_future_capacity_unknown_prior_weekly_stop_historical",
+  "normal_wave": {
+    "units": 59,
+    "manifest": "batches/normal/manifest.json",
+    "root_worker_ids": {
+      "R1": "0fead7bd-ca9f-48ab-b21c-ec03ea0d4fef",
+      "R2": "55ee89e1-7249-4375-a65a-4cdfb33c6c09",
+      "R3": "9c206c18-c84f-4686-9d6c-7adcedef0126",
+      "R4": "26081ffb-6b2f-4b05-b2d2-49bb7379d271"
+    },
+    "sol_coordinator": "ce98b389-8ae9-41e3-93db-094e23a0f9f2",
+    "sol_group_ids": [
+      "S1",
+      "S2",
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "approved_mimo_workers": 9,
+    "semantic_check": "sample only; two precision passes later",
+    "query_quota_status": "authentication error; user states cookie expired and capacity available",
+    "WoC_reference": {
+      "root": "D:/WoC-ChinesePatch",
+      "read_docs": [
+        "docs/workflows/translation.md",
+        "docs/workflows/review.md",
+        "docs/workflows/README.md",
+        "review/full_review/README.md"
+      ],
+      "adapted_doc": "docs/翻译与两轮精校流程.md",
+      "process_only": true,
+      "style_and_terms_imported": false,
+      "external_files_modified": false
+    },
+    "status": "completed_and_machine_verified",
+    "delivered_units": 59,
+    "semantic_sampled_units": 9,
+    "full_semantic_review": false,
+    "precision_passes_completed": 0,
+    "workbook": "review/翻译校对-阶段1499.xlsx",
+    "sol_worker_ids": {
+      "S1": "41b8b911-473b-47c2-b51c-2a850e36103f",
+      "S2": "b68a9944-683e-4d7b-8c87-3a9768abf597",
+      "S3": "2e94df46-cc48-407f-a86c-2ece9a1126dc",
+      "S4": "04254297-a264-492e-bc9c-21327c2b2086",
+      "S5": "24348df3-49f3-4210-ac89-f93095c268dc"
+    }
+  },
+  "normal_wave2": {
+    "manifest": "batches/normal/wave2/manifest.json",
+    "units": 33,
+    "state": "completed_and_verified",
+    "root_jobs": {
+      "R1": "batch_085",
+      "R2": "batch_086",
+      "R3": "batch_087",
+      "R4": "batch_088"
+    },
+    "sol_jobs": {
+      "S1": "batch_089",
+      "S2": "batch_090",
+      "S3": "batch_091",
+      "S4": "batch_092",
+      "S5": "batch_093"
+    },
+    "root_outputs_by_message": true,
+    "baseline": "reports/pre-normal-wave2-existing.json",
+    "sampling_only": true,
+    "precision_passes_completed": 0,
+    "semantic_hard_errors_found": 1,
+    "semantic_hard_errors_corrected": 1,
+    "current_workbook": "review/翻译校对-阶段1532.xlsx"
+  },
+  "remaining_untranslated_or_unclassified": 827,
+  "current_workbook": "review/翻译校对-阶段8146-final.xlsx",
+  "current_stage_report": "reports/gpt-batch180-summary.json",
+  "normal_wave3": {
+    "manifest": "batches/normal/wave3/manifest.json",
+    "state": "completed_and_integrated",
+    "units": 59,
+    "delivered_units": 59,
+    "source_verified_and_ready_sealed": true,
+    "baseline": "reports/pre-normal-wave3-existing.json",
+    "old1532_records_and_draft_files_unchanged": true,
+    "total_verified_draft_units": 1591,
+    "remaining_units": 7382,
+    "semantic_samples": 9,
+    "full_semantic_review": false,
+    "precision_passes_completed": 0,
+    "workbook": "review/翻译校对-阶段1591.xlsx",
+    "summary": "reports/normal-wave3-summary.json",
+    "remaining_ui_queue": "reports/normal-wave3-remaining-ui-queue.json",
+    "mimo_quota_query": "error: 登录或凭据已失效; capacity unknown; user confirmed stale cookie and requested same-route continuation; actual five S jobs returned normally"
+  },
+  "normal_wave4": {
+    "manifest": "batches/normal/wave4/manifest.json",
+    "state": "completed_and_integrated",
+    "units": 4,
+    "delivered_units": 4,
+    "baseline": "reports/pre-normal-wave4-existing.json",
+    "prompt": "work/coord-sol/wave4-dispatch/R1.txt",
+    "input": "batches/normal/wave4/batch_103.jsonl",
+    "output": "drafts/normal/root/batch_103.jsonl",
+    "worker_id": "0fead7bd-ca9f-48ab-b21c-ec03ea0d4fef",
+    "ready_generated": true,
+    "remaining_other_ui_held": 37,
+    "inflight_packets": 0,
+    "inflight_units": 0,
+    "total_verified_draft_units": 1595,
+    "remaining_units": 7378,
+    "semantic_sample_cases": 1,
+    "semantic_sampled_units": 3,
+    "precision_passes_completed": 0,
+    "old1591_baseline_unchanged": true,
+    "workbook": "review/翻译校对-阶段1595.xlsx",
+    "summary": "reports/normal-wave4-summary.json",
+    "remaining_ui_queue": "reports/normal-wave4-remaining-ui-queue.json"
+  },
+  "normal_wave5": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_104",
+    "delivered_units": 36,
+    "model": "xiaomi-token-plan-cn/mimo-v2.6-flash/high",
+    "worker_id": "a4fc0497-5223-4703-b74c-3755390b2ca9",
+    "report": "reports/flash-first36-summary.json",
+    "workbook": "review/翻译校对-阶段1631.xlsx",
+    "old1595_preserved": true,
+    "precision_passes_started": false
+  },
+  "remaining_classification": {
+    "GPT_legal_target_count": 6880,
+    "GPT_all_target_ID_coverage_verified": true,
+    "A_legal_unique": 2287,
+    "B_legal_union": 2348,
+    "C_legal_union": 2245,
+    "B47_outside_original_quarantined": true,
+    "original_MiMo_records_readonly": 331,
+    "final_report": "reports/gpt-neutral-final-coverage-summary.json",
+    "full_source_semantic_review_claimed": false,
+    "unknown_metadata_rows_remain_unreviewed": true,
+    "classification_not_translation_count": true
+  },
+  "text_flash_next_job": {
+    "state": "prepared_not_dispatched_here",
+    "batch_id": "batch_105",
+    "count": 34,
+    "job": "batches/text-flash/batch_105.job.json",
+    "prompt": "work/triage-remaining-1595/batch_105-dispatch.txt",
+    "baseline": "reports/pre-flash-batch_105-existing.json",
+    "not_in_completed_total": true
+  },
+  "normal_wave6": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_105",
+    "units": 34,
+    "model": "openai-codex/gpt-6.1-sol/medium",
+    "worker_id": "2e39e801-bb06-46a4-9336-e6356a9e0d3d",
+    "report": "reports/gpt-batch105-summary.json",
+    "workbook": "review/翻译校对-阶段1665.xlsx",
+    "old1631_preserved": true,
+    "precision_passes_started": false
+  },
+  "model_dispatch_policy": "reports/model-dispatch-policy.json",
+  "text_next_job": {
+    "last_completed": "batch_180",
+    "state": "next_translation_or_acceptance_gate_pending",
+    "next_job": "batch_181",
+    "logical_batch_id": "batch_181",
+    "job": "batches/gpt-ordinary/batch_181.job.json",
+    "prompt": "work/gpt-neutral-handoff/batch_181-dispatch.txt",
+    "future150": "batches/gpt-ordinary/batch_150.job.json",
+    "future150_dispatch_or_formal_baseline": true,
+    "paused_sensitive_job": "batch_149",
+    "paused_sensitive_job_path": "batches/grok-sensitive/batch_149.job.json"
+  },
+  "normal_wave7": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_106",
+    "units": 40,
+    "model": "openai-codex/gpt-6.1-sol/medium",
+    "worker_id": "2e39e801-bb06-46a4-9336-e6356a9e0d3d",
+    "report": "reports/gpt-batch106-summary.json",
+    "workbook": "review/翻译校对-阶段1705.xlsx",
+    "old1665_preserved": true,
+    "precision_passes_started": false
+  },
+  "historical_authorizations": {
+    "archive": "reports/state-history-before-resume-20261021.json",
+    "old_goal_id": "goal-489e4d31-d4f3-4831-aacc-759801aed416",
+    "initial_Grok_only": {
+      "provider": "xai-oauth",
+      "model": "grok-4.7",
+      "reasoning_effort": "high",
+      "max_agents": 2,
+      "concurrency": 2,
+      "allow_redelegation": false,
+      "scope": "Effective JAR+patch.pak text first translation including provided NSFW source; preserve original wording/format, record refusals instead of hiding them. No alternate translation model."
+    },
+    "Sol_previous_redelegation": {
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-pro",
+      "reasoning_effort": "high",
+      "max_workers": 5
+    },
+    "Sol_previous_redelegation_allowed": true,
+    "status": "Historical only; not current authority"
+  },
+  "historical_workers": {
+    "GPTClassA": {
+      "id": "a7f4be1e-703e-4190-96f3-6cc201ca636f",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "state": "main_reported_running",
+      "output": "reports/gpt-neutral-classifier-A.jsonl",
+      "role": "neutral classification only; exclusive report writer; no programs/network/redelegation"
+    },
+    "GPTClassB": {
+      "id": "f2a9dcb4-b02a-4279-9a8e-96f730fbed54",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "state": "main_reported_running",
+      "output": "reports/gpt-neutral-classifier-B.jsonl",
+      "role": "neutral classification only; exclusive report writer; no programs/network/redelegation"
+    },
+    "GPTClassC": {
+      "id": "51c4b060-9b65-4b6e-88d5-78df11726415",
+      "provider": "openai-codex",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "state": "main_reported_running",
+      "output": "reports/gpt-neutral-classifier-C.jsonl",
+      "role": "neutral classification only; exclusive report writer; no programs/network/redelegation"
+    }
+  },
+  "remaining_untranslated": 827,
+  "normal_wave11": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_110",
+    "units": 34,
+    "report": "reports/gpt-batch110-summary.json",
+    "old1770_preserved": true
+  },
+  "agents_snapshot_status": "All pre-recovery agents/current_authorization fields below are historical only, not current live instances; see current_recovery",
+  "normal_wave12": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_111",
+    "units": 35,
+    "report": "reports/gpt-batch111-summary.json",
+    "workbook": "review/翻译校对-阶段1839.xlsx",
+    "old1804_preserved": true,
+    "precision_passes_started": false
+  },
+  "current_recovery": {
+    "status": "ongoing_full_goal_batch_180_integrated",
+    "parent_agent": "session-273bf856-73e7-497e-9374-e5db67df8a2c",
+    "integrator_agent": "a157cad5-f02e-4947-9e56-e95859b83568",
+    "translator_agent": "a34d005c-a660-41e4-b2f8-724bed9cfcea",
+    "route": {
+      "provider": "opencode-go",
+      "model": "deepseek-v4.1-flash",
+      "reasoning_effort": "high"
+    },
+    "translator_state": "batch_180_stopped_QA_pass_integrated",
+    "authorization": "Project processing policy in docs/模型分流规则.md; no deployment or runtime approval inferred.",
+    "handoff": "reports/recovery-batch_180-final-receipt.json",
+    "current_model_policy": "docs/模型分流规则.md",
+    "integrator_identity_note": "Latest completed job.worker_stop_receipt binds actual response source; direct parent/actual_worker fields are factual, source template origin is separate.",
+    "execution_integrator": "Sole ordinary producer after explicit handoff; exact worker drafts/notes only, no self translation or code/image approval",
+    "route_status": "actual_response_provider_model_verified_in_latest_completed_job_receipt",
+    "source_QA_worker": "9727dffa-c78c-4e57-8ea4-34ab9ee68e8e",
+    "source_review": "reports/recovery150-source-review.json",
+    "F2_code_only_independent_signature": "reports/planning/orchestration-acceptance-006/orchestrator-stage-conclusion.md",
+    "production_uses": {
+      "verify": "work/coord-sol/verify-job-production-pins-v6.py",
+      "integrate": "work/coord-sol/integrate-job-production-pins-v7.py",
+      "close": "work/coord-sol/close-job-production-pins-v7.py"
+    },
+    "prior_closed_stage": {
+      "status": "ongoing_full_goal_stage3011_drafts_closed",
+      "parent_agent": "session-273bf856-73e7-497e-9374-e5db67df8a2c",
+      "integrator_agent": "25fa17fa-cd6f-417e-94a1-9117a3885ab3",
+      "translator_agent": "e52182c1-bf55-483c-b61f-fa43701efe82",
+      "route": {
+        "provider": "xiaomi-token-plan-cn",
+        "model": "mimo-v2.6-flash",
+        "reasoning_effort": "high"
+      },
+      "translator_state": "batch_148_stopped_QA_pass_integrated",
+      "authorization": "Project processing policy in docs/模型分流规则.md; no deployment or runtime approval inferred.",
+      "handoff": "work/coord-sol/执行接力-after148.md",
+      "current_model_policy": "docs/模型分流规则.md",
+      "integrator_identity_note": "Actual production parent and worker routes in reports/production-stage2715-3011-dispatch-lineage.json",
+      "execution_integrator": "140–148 exact draft integration/full target QA complete; whole project precision/runtime still pending"
+    },
+    "actual_dispatch_parent_agent_id": "a157cad5-f02e-4947-9e56-e95859b83568"
+  },
+  "normal_wave13": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_112",
+    "units": 31,
+    "report": "reports/gpt-batch112-summary.json",
+    "workbook": "review/翻译校对-阶段1870.xlsx",
+    "old1839_preserved": true,
+    "precision_passes_started": false
+  },
+  "shared_context_only_todos": [
+    {
+      "id": "V87ea8075ce83dd7e4c09",
+      "occurrences": 15,
+      "scope": "independent future full-context confirmation; not translated/reserved by112"
+    },
+    {
+      "ids": [
+        "V10c9c7d86e3f7fd739c8",
+        "V840bcd23b370586210c8",
+        "V9164f933de92b4ce5e4d"
+      ],
+      "occurrences_each": 6,
+      "scope": "keep global unknown labels; context_only in113; not output or reserved"
+    }
+  ],
+  "current_drafts": 8146,
+  "latest_exported_workbook_count": 8146,
+  "normal_wave14": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_113",
+    "units": 16,
+    "report": "reports/gpt-batch113-summary.json",
+    "workbook": "review/翻译校对-阶段1886.xlsx",
+    "old1870_preserved": true,
+    "precision_passes_started": false
+  },
+  "workbook_checkpoint_policy": "After113, export/whole-workbook identity compare around100 incremental units or3-4 packages; always full target checks and old records/drafts protection per package; final full export required.",
+  "workbook_export_pending_units": 0,
+  "normal_wave15": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_114",
+    "units": 29,
+    "report": "reports/gpt-batch114-summary.json",
+    "old1886_preserved": true,
+    "exported_in_this_batch": false,
+    "latest_exported_workbook_count": 1886,
+    "precision_passes_started": false
+  },
+  "normal_wave16": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_115",
+    "units": 40,
+    "report": "reports/gpt-batch115-summary.json",
+    "old1915_preserved": true,
+    "exported_in_this_batch": false,
+    "latest_exported_workbook_count": 1886,
+    "precision_passes_started": false
+  },
+  "normal_wave17": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_116",
+    "units": 40,
+    "report": "reports/gpt-batch116-summary.json",
+    "old1955_preserved": true,
+    "workbook": "review/翻译校对-阶段1995.xlsx",
+    "precision_passes_started": false
+  },
+  "sensitive_wave18": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_117",
+    "units": 40,
+    "report": "reports/grok-batch117-summary.json",
+    "old1995_preserved": true,
+    "latest_exported_workbook_count": 1995,
+    "pending_export": 40,
+    "precision_passes_started": false
+  },
+  "normal_wave19": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_118",
+    "units": 35,
+    "report": "reports/gpt-batch118-summary.json",
+    "old2035_preserved": true,
+    "latest_exported_workbook_count": 1995,
+    "pending_export": 75,
+    "precision_passes_started": false
+  },
+  "normal_wave20": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_119",
+    "units": 40,
+    "report": "reports/gpt-batch119-summary.json",
+    "old2070_preserved": true,
+    "latest_exported_workbook_count": 2110,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "sensitive_wave21": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_120",
+    "units": 38,
+    "report": "reports/grok-batch120-summary.json",
+    "old2110_preserved": true,
+    "latest_exported_workbook_count": 2110,
+    "pending_export": 38,
+    "precision_passes_started": false
+  },
+  "normal_wave22": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_121",
+    "units": 14,
+    "report": "reports/gpt-batch121-summary.json",
+    "old2148_preserved": true,
+    "latest_exported_workbook_count": 2110,
+    "pending_export": 52,
+    "precision_passes_started": false
+  },
+  "normal_wave23": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_122",
+    "units": 36,
+    "report": "reports/gpt-batch122-summary.json",
+    "old2162_preserved": true,
+    "latest_exported_workbook_count": 2110,
+    "pending_export": 88,
+    "precision_passes_started": false
+  },
+  "sensitive_wave24": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_123",
+    "units": 32,
+    "report": "reports/grok-batch123-summary.json",
+    "old2198_preserved": true,
+    "latest_exported_workbook_count": 2110,
+    "pending_export": 120,
+    "precision_passes_started": false
+  },
+  "normal_wave25": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_124",
+    "units": 39,
+    "report": "reports/gpt-batch124-summary.json",
+    "old2230_preserved": true,
+    "latest_exported_workbook_count": 2269,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "stage_after124": {
+    "batch_ids": [
+      "batch_121",
+      "batch_122",
+      "batch_123",
+      "batch_124"
+    ],
+    "new_units": 121,
+    "current_drafts": 2269,
+    "remaining": 6704,
+    "latest_exported_workbook_count": 2269,
+    "pending_export_units": 0,
+    "checkpoint_comparison": "reports/checkpoint2269-workbook-comparison.json",
+    "dependency_evidence": "reports/checkpoint-after121-dependency-evidence.json",
+    "next_job": "batch_125",
+    "handoff": "work/coord-sol/执行接力-after124.md",
+    "all_stage_reports_closed": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "normal_wave26": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_125",
+    "units": 32,
+    "report": "reports/gpt-batch125-summary.json",
+    "old2269_preserved": true,
+    "latest_exported_workbook_count": 2269,
+    "pending_export": 32,
+    "precision_passes_started": false
+  },
+  "sensitive_wave27": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_126",
+    "units": 38,
+    "report": "reports/grok-batch126-summary.json",
+    "old2301_preserved": true,
+    "latest_exported_workbook_count": 2269,
+    "pending_export": 70,
+    "precision_passes_started": false
+  },
+  "normal_wave28": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_127",
+    "units": 34,
+    "report": "reports/gpt-batch127-summary.json",
+    "old2339_preserved": true,
+    "latest_exported_workbook_count": 2373,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "stage_after127": {
+    "batch_ids": [
+      "batch_125",
+      "batch_126",
+      "batch_127"
+    ],
+    "new_units": 104,
+    "current_drafts": 2373,
+    "remaining": 6600,
+    "latest_exported_workbook_count": 2373,
+    "pending_export_units": 0,
+    "checkpoint_comparison": "reports/checkpoint2373-workbook-comparison.json",
+    "dependency_evidence": "reports/checkpoint-after125-dependency-evidence.json",
+    "next_job": "batch_128",
+    "handoff": "work/coord-sol/执行接力-after127.md",
+    "all_stage_reports_closed": true,
+    "full_project_goal_status": "ongoing_not_complete",
+    "next_job_entry": "batches/gpt-ordinary/batch_128.final.job.json",
+    "next_dispatch": "work/gpt-neutral-handoff/batch_128-final-dispatch.txt",
+    "old128_preparation_artifacts_preserved": true
+  },
+  "normal_wave29": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_128",
+    "units": 37,
+    "report": "reports/gpt-batch128-summary.json",
+    "old2373_preserved": true,
+    "latest_exported_workbook_count": 2373,
+    "pending_export": 37,
+    "precision_passes_started": false
+  },
+  "sensitive_wave30": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_129",
+    "units": 34,
+    "report": "reports/grok-batch129-summary.json",
+    "old2410_preserved": true,
+    "latest_exported_workbook_count": 2373,
+    "pending_export": 71,
+    "precision_passes_started": false
+  },
+  "normal_wave31": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_130",
+    "units": 32,
+    "report": "reports/gpt-batch130-summary.json",
+    "old2444_preserved": true,
+    "latest_exported_workbook_count": 2476,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "stage_after130": {
+    "batch_ids": [
+      "batch_128",
+      "batch_129",
+      "batch_130"
+    ],
+    "new_units": 103,
+    "current_drafts": 2476,
+    "remaining": 6497,
+    "latest_exported_workbook_count": 2476,
+    "pending_export_units": 0,
+    "checkpoint_comparison": "reports/checkpoint2476-workbook-comparison.json",
+    "dependency_evidence": "reports/checkpoint-after128-dependency-evidence.json",
+    "handoff": "work/coord-sol/执行接力-after130.md",
+    "all_stage_reports_closed": true,
+    "next_job": "batch_131",
+    "next_job_entry": "batches/grok-sensitive/batch_131.job.json",
+    "future132_prepared_only": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "sensitive_wave32": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_131",
+    "units": 20,
+    "report": "reports/grok-batch131-summary.json",
+    "old2476_preserved": true,
+    "latest_exported_workbook_count": 2476,
+    "pending_export": 20,
+    "precision_passes_started": false
+  },
+  "normal_wave33": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_132",
+    "units": 33,
+    "report": "reports/gpt-batch132-summary.json",
+    "old2496_preserved": true,
+    "latest_exported_workbook_count": 2476,
+    "pending_export": 53,
+    "precision_passes_started": false
+  },
+  "independent_document_audit": {
+    "path": "docs/技术与映射说明.md",
+    "translation_task_write_allowed": false,
+    "rule": "Retain latest independent engine document; separately audit before/after SHA and diff, capture current version in next baseline; no other protection relaxed.",
+    "gate_helper": "work/coord-sol/independent_document_audit.py",
+    "preservation_checks": [
+      {
+        "baseline": "reports/pre-grok-batch_131-existing.json",
+        "independent_document_audit": {
+          "report": "reports/planning/document-audit-after132-baseline-131-944bb475e1c8-18e08862e74d.json",
+          "path": "docs/技术与映射说明.md",
+          "before_sha256": "944bb475e1c84e8273799c8888a24294cd81c4dee235b1eb1b24be8422c09509",
+          "after_sha256": "18e08862e74ddd9063938b29b215940681d3dabffbc363eaa2a2aeee4f9b1b48",
+          "changed": true,
+          "translation_task_wrote_document": false
+        }
+      },
+      {
+        "baseline": "reports/pre-gpt-batch_132-existing.json",
+        "independent_document_audit": {
+          "report": "reports/planning/document-audit-after132-baseline-132-944bb475e1c8-18e08862e74d.json",
+          "path": "docs/技术与映射说明.md",
+          "before_sha256": "944bb475e1c84e8273799c8888a24294cd81c4dee235b1eb1b24be8422c09509",
+          "after_sha256": "18e08862e74ddd9063938b29b215940681d3dabffbc363eaa2a2aeee4f9b1b48",
+          "changed": true,
+          "translation_task_wrote_document": false
+        }
+      }
+    ]
+  },
+  "stage_after132": {
+    "batch_ids": [
+      "batch_131",
+      "batch_132"
+    ],
+    "new_units": 53,
+    "current_drafts": 2529,
+    "remaining": 6444,
+    "latest_exported_workbook_count": 2476,
+    "pending_export_units": 53,
+    "workbook_not_operated_this_stage": true,
+    "checkpoint_reason": "53 new entries /2 packets since2476, below approximately100 entries or3-4 packets trigger; next checkpoint after133/134",
+    "handoff": "work/coord-sol/执行接力-after132.md",
+    "all_stage_reports_closed": true,
+    "next_job": "batch_133",
+    "next_job_entry": "batches/grok-sensitive/batch_133.job.json",
+    "future134_prepared_only": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "sensitive_wave34": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_133",
+    "units": 36,
+    "report": "reports/grok-batch133-summary.json",
+    "old2529_preserved": true,
+    "latest_exported_workbook_count": 2476,
+    "pending_export": 89,
+    "precision_passes_started": false
+  },
+  "normal_wave35": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_134",
+    "units": 33,
+    "report": "reports/gpt-batch134-summary.json",
+    "old2565_preserved": true,
+    "latest_exported_workbook_count": 2598,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "stage_after134": {
+    "batch_ids": [
+      "batch_133",
+      "batch_134"
+    ],
+    "new_units": 69,
+    "since2476_checkpoint_batches": [
+      "batch_131",
+      "batch_132",
+      "batch_133",
+      "batch_134"
+    ],
+    "since2476_new_units": 122,
+    "current_drafts": 2598,
+    "remaining": 6375,
+    "latest_exported_workbook_count": 2598,
+    "pending_export_units": 0,
+    "pre_export_latest": 2476,
+    "pre_export_pending": 122,
+    "checkpoint_comparison": "reports/checkpoint2598-workbook-comparison.json",
+    "dependency_evidence": "reports/checkpoint-after134-dependency-evidence.json",
+    "handoff": "work/coord-sol/执行接力-after134.md",
+    "all_stage_reports_closed": true,
+    "next_job": "batch_135",
+    "next_job_entry": "batches/grok-sensitive/batch_135.job.json",
+    "future136_prepared_only": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "sensitive_wave36": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_135",
+    "units": 21,
+    "report": "reports/grok-batch135-summary.json",
+    "old2598_preserved": true,
+    "latest_exported_workbook_count": 2598,
+    "pending_export": 21,
+    "precision_passes_started": false
+  },
+  "normal_wave37": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_136",
+    "units": 28,
+    "report": "reports/gpt-batch136-summary.json",
+    "old2619_preserved": true,
+    "latest_exported_workbook_count": 2598,
+    "pending_export": 49,
+    "precision_passes_started": false
+  },
+  "stage_after136": {
+    "batch_ids": [
+      "batch_135",
+      "batch_136"
+    ],
+    "new_units": 49,
+    "current_drafts": 2647,
+    "remaining": 6326,
+    "latest_exported_workbook_count": 2598,
+    "pending_export_units": 49,
+    "workbook_not_operated_this_stage": true,
+    "checkpoint_reason": "49 incremental units/two packets since2598; below approximately100 entries or3-4 packets trigger. Existing2598 and prior2476 SHA verified without Office operations.",
+    "handoff": "work/coord-sol/执行接力-after136.md",
+    "all_stage_reports_closed": true,
+    "next_job": "batch_137",
+    "next_job_entry": "batches/grok-sensitive/batch_137.job.json",
+    "future138_prepared_only": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "sensitive_wave38": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_137",
+    "units": 14,
+    "report": "reports/grok-batch137-summary.json",
+    "old2647_preserved": true,
+    "latest_exported_workbook_count": 2598,
+    "pending_export": 63,
+    "precision_passes_started": false
+  },
+  "normal_wave39": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_138",
+    "units": 34,
+    "report": "reports/gpt-batch138-summary.json",
+    "old2661_preserved": true,
+    "latest_exported_workbook_count": 2695,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "stage_after138": {
+    "batch_ids": [
+      "batch_137",
+      "batch_138"
+    ],
+    "new_units": 48,
+    "since2598_checkpoint_batches": [
+      "batch_135",
+      "batch_136",
+      "batch_137",
+      "batch_138"
+    ],
+    "since2598_new_units": 97,
+    "current_drafts": 2695,
+    "remaining": 6278,
+    "latest_exported_workbook_count": 2695,
+    "pending_export_units": 0,
+    "pre_export_latest": 2598,
+    "pre_export_pending": 97,
+    "checkpoint_comparison": "reports/checkpoint2695-workbook-comparison.json",
+    "dependency_evidence": "reports/checkpoint-after138-dependency-evidence.json",
+    "handoff": "work/coord-sol/执行接力-after138.md",
+    "all_stage_reports_closed": true,
+    "next_job": "batch_139",
+    "next_job_entry": "batches/grok-sensitive/batch_139.job.json",
+    "future140_prepared_only": true,
+    "full_project_goal_status": "ongoing_not_complete"
+  },
+  "sensitive_wave40": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_139",
+    "units": 20,
+    "report": "reports/grok-batch139-summary.json",
+    "old2695_preserved": true,
+    "latest_exported_workbook_count": 2695,
+    "pending_export": 20,
+    "precision_passes_started": false
+  },
+  "normal_wave41": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_140",
+    "units": 33,
+    "report": "reports/gpt-batch140-summary.json",
+    "old2715_preserved": true,
+    "latest_exported_workbook_count": 2695,
+    "pending_export": 53,
+    "precision_passes_started": false
+  },
+  "sensitive_wave42": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_141",
+    "units": 14,
+    "report": "reports/grok-batch141-summary.json",
+    "old2748_preserved": true,
+    "latest_exported_workbook_count": 2695,
+    "pending_export": 67,
+    "precision_passes_started": false
+  },
+  "normal_wave43": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_142",
+    "units": 33,
+    "report": "reports/gpt-batch142-summary.json",
+    "old2762_preserved": true,
+    "latest_exported_workbook_count": 2795,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave44": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_143",
+    "units": 35,
+    "report": "reports/gpt-batch143-summary.json",
+    "old2795_preserved": true,
+    "latest_exported_workbook_count": 2795,
+    "pending_export": 35,
+    "precision_passes_started": false
+  },
+  "normal_wave45": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_144",
+    "units": 29,
+    "report": "reports/gpt-batch144-summary.json",
+    "old2830_preserved": true,
+    "latest_exported_workbook_count": 2795,
+    "pending_export": 64,
+    "precision_passes_started": false
+  },
+  "normal_wave46": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_145",
+    "units": 38,
+    "report": "reports/gpt-batch145-summary.json",
+    "old2859_preserved": true,
+    "latest_exported_workbook_count": 2897,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave47": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_146",
+    "units": 36,
+    "report": "reports/gpt-batch146-summary.json",
+    "old2897_preserved": true,
+    "latest_exported_workbook_count": 2897,
+    "pending_export": 36,
+    "precision_passes_started": false
+  },
+  "normal_wave48": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_147",
+    "units": 38,
+    "report": "reports/gpt-batch147-summary.json",
+    "old2933_preserved": true,
+    "latest_exported_workbook_count": 2897,
+    "pending_export": 74,
+    "precision_passes_started": false
+  },
+  "normal_wave49": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_148",
+    "units": 40,
+    "report": "reports/gpt-batch148-summary.json",
+    "old2971_preserved": true,
+    "latest_exported_workbook_count": 3011,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "current_recovery_before_stage3011_closure": {
+    "status": "ongoing_full_goal_batch_148_integrated",
+    "parent_agent": "session-273bf856-73e7-497e-9374-e5db67df8a2c",
+    "integrator_agent": null,
+    "translator_agent": "e52182c1-bf55-483c-b61f-fa43701efe82",
+    "route": {
+      "provider": "xiaomi-token-plan-cn",
+      "model": "mimo-v2.6-flash",
+      "reasoning_effort": "high"
+    },
+    "translator_state": "batch_148_stopped_QA_pass_integrated",
+    "authorization": "用户不用等我，全部做完；持续合规项目推进，无需逐包确认；不扩Steam/Git/安装依赖/发布等敏感操作，集成者不得委派。",
+    "handoff": "work/coord-sol/执行接力-after138.md",
+    "current_model_policy": "docs/模型分流规则.md",
+    "integrator_identity_note": "2695 checkpoint exported and reopened;139 formal baseline is final stage operation;140 has no formal baseline",
+    "execution_integrator": "137/138 independent acceptance and exact integration complete;139/140 source prepared only"
+  },
+  "text_next_job_before_stage3011_closure": {
+    "last_completed": "batch_148",
+    "state": "next_translation_or_acceptance_gate_pending",
+    "next_job": "batch_149",
+    "logical_batch_id": "batch_139",
+    "job": "batches/grok-sensitive/batch_149.job.json",
+    "prompt": "work/gpt-neutral-handoff/batch_139-dispatch.txt",
+    "future140": "batches/gpt-ordinary/batch_140.job.json",
+    "future140_dispatch_or_formal_baseline": false
+  },
+  "text_production_stage2715_3011": {
+    "report": "reports/production-stage2715-3011-summary.json",
+    "added296": true,
+    "old2715_all_fields_preserved": true,
+    "latest_checkpoint": 3011,
+    "pending_export": 0,
+    "next149_count": 2,
+    "next150_count": 33,
+    "next_jobs_dispatched": false
+  },
+  "paused_sensitive_jobs": {
+    "batch_149": {
+      "state": "credential_query_unavailable_pending_not_completed",
+      "source_route_and_old_baseline_unchanged": true,
+      "counted_completed": false,
+      "baseline": "reports/pre-grok-batch_149-existing.json",
+      "baseline_sha256": "cd006b6f667c4c828333503aca0ac94188dfd5784e8319269f5eecf0815a8fdd",
+      "route": {
+        "provider": "xai-oauth",
+        "model": "grok-4.7",
+        "reasoning_effort": "high"
+      }
+    }
+  },
+  "normal_wave51": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_150",
+    "units": 33,
+    "report": "reports/gpt-batch150-summary.json",
+    "old3011_preserved": true,
+    "latest_exported_workbook_count": 3011,
+    "pending_export": 33,
+    "precision_passes_started": false
+  },
+  "normal_wave52": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_151",
+    "units": 36,
+    "report": "reports/gpt-batch151-summary.json",
+    "old3044_preserved": true,
+    "latest_exported_workbook_count": 3011,
+    "pending_export": 69,
+    "precision_passes_started": false
+  },
+  "normal_wave53": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_152",
+    "units": 34,
+    "report": "reports/gpt-batch152-summary.json",
+    "old3080_preserved": true,
+    "latest_exported_workbook_count": 3114,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave57": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_156",
+    "units": 6,
+    "report": "reports/gpt-batch156-summary.json",
+    "old3114_preserved": true,
+    "latest_exported_workbook_count": 3114,
+    "pending_export": 6,
+    "precision_passes_started": false
+  },
+  "normal_wave58": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_157",
+    "units": 29,
+    "report": "reports/gpt-batch157-summary.json",
+    "old3120_preserved": true,
+    "latest_exported_workbook_count": 3114,
+    "pending_export": 35,
+    "precision_passes_started": false
+  },
+  "normal_wave59": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_158",
+    "units": 17,
+    "report": "reports/gpt-batch158-summary.json",
+    "old3149_preserved": true,
+    "latest_exported_workbook_count": 3166,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave60": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_159",
+    "units": 39,
+    "report": "reports/gpt-batch159-summary.json",
+    "old3166_preserved": true,
+    "latest_exported_workbook_count": 3205,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave61": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_160",
+    "units": 25,
+    "report": "reports/gpt-batch160-summary.json",
+    "old3205_preserved": true,
+    "latest_exported_workbook_count": 3230,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave62": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_161",
+    "units": 28,
+    "report": "reports/gpt-batch161-summary.json",
+    "old3230_preserved": true,
+    "latest_exported_workbook_count": 3258,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave63": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_162",
+    "units": 2,
+    "report": "reports/gpt-batch162-summary.json",
+    "old3258_preserved": true,
+    "latest_exported_workbook_count": 3260,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave64": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_163",
+    "units": 32,
+    "report": "reports/gpt-batch163-summary.json",
+    "old3260_preserved": true,
+    "latest_exported_workbook_count": 3292,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave65": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_164",
+    "units": 20,
+    "report": "reports/gpt-batch164-summary.json",
+    "old3292_preserved": true,
+    "latest_exported_workbook_count": 3312,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave66": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_165",
+    "units": 40,
+    "report": "reports/gpt-batch165-summary.json",
+    "old3312_preserved": true,
+    "latest_exported_workbook_count": 3352,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave67": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_166",
+    "units": 38,
+    "report": "reports/gpt-batch166-summary.json",
+    "old3352_preserved": true,
+    "latest_exported_workbook_count": 3390,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave68": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_167",
+    "units": 7,
+    "report": "reports/gpt-batch167-summary.json",
+    "old3390_preserved": true,
+    "latest_exported_workbook_count": 3397,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave69": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_168",
+    "units": 7,
+    "report": "reports/gpt-batch168-summary.json",
+    "old3397_preserved": true,
+    "latest_exported_workbook_count": 3404,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave70": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_169",
+    "units": 40,
+    "report": "reports/gpt-batch169-summary.json",
+    "old3404_preserved": true,
+    "latest_exported_workbook_count": 3444,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave71": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_170",
+    "units": 40,
+    "report": "reports/gpt-batch170-summary.json",
+    "old3444_preserved": true,
+    "latest_exported_workbook_count": 3484,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave72": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_171",
+    "units": 40,
+    "report": "reports/gpt-batch171-summary.json",
+    "old3484_preserved": true,
+    "latest_exported_workbook_count": 3524,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave73": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_172",
+    "units": 40,
+    "report": "reports/gpt-batch172-summary.json",
+    "old3524_preserved": true,
+    "latest_exported_workbook_count": 3564,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave74": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_173",
+    "units": 40,
+    "report": "reports/gpt-batch173-summary.json",
+    "old3564_preserved": true,
+    "latest_exported_workbook_count": 3604,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave75": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_174",
+    "units": 40,
+    "report": "reports/gpt-batch174-summary.json",
+    "old3604_preserved": true,
+    "latest_exported_workbook_count": 3644,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave76": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_175",
+    "units": 40,
+    "report": "reports/gpt-batch175-summary.json",
+    "old3644_preserved": true,
+    "latest_exported_workbook_count": 3684,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave77": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_176",
+    "units": 40,
+    "report": "reports/gpt-batch176-summary.json",
+    "old3684_preserved": true,
+    "latest_exported_workbook_count": 3724,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave78": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_177",
+    "units": 40,
+    "report": "reports/gpt-batch177-summary.json",
+    "old3724_preserved": true,
+    "latest_exported_workbook_count": 3764,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave79": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_178",
+    "units": 40,
+    "report": "reports/gpt-batch178-summary.json",
+    "old3764_preserved": true,
+    "latest_exported_workbook_count": 3804,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave80": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_179",
+    "units": 40,
+    "report": "reports/gpt-batch179-summary.json",
+    "old3804_preserved": true,
+    "latest_exported_workbook_count": 3844,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "normal_wave81": {
+    "state": "completed_and_integrated",
+    "batch_id": "batch_180",
+    "units": 40,
+    "report": "reports/gpt-batch180-summary.json",
+    "old3844_preserved": true,
+    "latest_exported_workbook_count": 3884,
+    "pending_export": 0,
+    "precision_passes_started": false
+  },
+  "workbook_stage_sha256": "e70f5c52d662f32a8a748c6dfeed6fc428bfb96eab5dc653bc415797cd6c4074",
+  "canonical_sha256_current": "860eed0b422a9e15426ec52056febca3079ad38d0811f6d2d74d17cc487ea87e",
+  "draft_checkpoint_package": {
+    "path": "builds/checkpoint-8146-qa-fixed",
+    "jar": "cosmobreeder-multi.jar",
+    "pak": "patch.pak",
+    "units": 8146,
+    "installed": false,
+    "qa_fixed": true
+  },
+  "semantic_qa": {
+    "engine": "Grok 4.7 (5 independent workers)",
+    "coverage": "all 3230 new rows",
+    "findings": 121,
+    "applied_batches": [
+      "batch_195",
+      "batch_196",
+      "batch_197"
+    ],
+    "rejected_suggestions": 0
+  },
+  "proofreading": {
+    "pass1_models": {
+      "pk01-03": "gpt-6.1-sol (MiMo failed)",
+      "pk04-06": "grok-4.7 (MiMo failed)",
+      "pk07-09": "MiniMax M3.1",
+      "pk10-13": "MiniMax M3.1",
+      "explicit-content": "gpt-6.1-sol"
+    },
+    "findings": 135,
+    "applied_batches": [
+      "batch_198",
+      "batch_199",
+      "batch_200",
+      "batch_201",
+      "batch_202",
+      "batch_203",
+      "batch_204"
+    ],
+    "miMo_outcome": "both batches failed with no output; replaced"
+  },
+  "final_package": {
+    "path": "builds/final-8146-r15-images",
+    "units": 8146,
+    "installed": false,
+    "jar_sha256": "906a1c31536b789f19d214a4deec7c0e1d0065105b55041d6b7826af0d91ec0b",
+    "pak_sha256": "7b574fb971101a93bc9ef2bbf08a27b711acf128a19fd3e75c523e3c8cfa9e1e",
+    "supersedes": "builds/final-8146-r14-images"
+  },
+  "reference_library": {
+    "generated_at": "2026-10-24",
+    "generator": "localization/tools/gen-reference.py",
+    "docs": [
+      "characters.md",
+      "lore.md",
+      "plot.md",
+      "README.md"
+    ],
+    "source_jsons": [
+      "lore-dex.json",
+      "lore-items.json",
+      "characters-Tomcat-Bossu.json",
+      "characters-Mauser-Yiffai-Yiffany.json",
+      "plot-main.json",
+      "plot-vsn.json"
+    ],
+    "missing": []
+  },
+  "batch_ledger_last": {
+    "batch_id": "batch_216",
+    "targets": [
+      "De303c41cf5764d629a0e"
+    ],
+    "kind": "revision; meta-text pollution repair",
+    "verdict": "C1-C10 PASS",
+    "canonical_sha256_after": "8639c261d4832df78a7b2d5f0296123841e0af7a4a89151a182cdb245309ca55"
+  },
+  "batch_ledger_recent": [
+    {
+      "batch_id": "batch_216",
+      "targets": 1,
+      "kind": "meta-text pollution repair"
+    },
+    {
+      "batch_id": "batch_217",
+      "targets": 19,
+      "kind": "GRRRL/Torch/LIVEWARE decisions + Mauser + Tribulb cross-line repair"
+    },
+    {
+      "batch_id": "batch_218",
+      "targets": 18,
+      "kind": "plant/monster family free translation"
+    },
+    {
+      "batch_id": "batch_219",
+      "targets": 18,
+      "kind": "onomatopoeia family split"
+    },
+    {
+      "batch_id": "batch_220",
+      "targets": 27,
+      "kind": "Bigbold 大壮兽 + Squeaks 小吱吱"
+    },
+    {
+      "batch_id": "batch_221",
+      "targets": 32,
+      "kind": "Yiffai/Cosmobreeder/GHOSTER latin residue"
+    },
+    {
+      "batch_id": "batch_222",
+      "targets": 25,
+      "kind": "繁育 lock violation + consensus unify residue"
+    },
+    {
+      "batch_id": "batch_223",
+      "targets": 26,
+      "kind": "Traeh 特蕾 + Tutone 图托恩"
+    },
+    {
+      "batch_id": "batch_224",
+      "targets": 25,
+      "kind": "Yiffany/Mauser/Enelye/Swiper/Ayskammr/Zeronia/Sceafya/EXILE"
+    },
+    {
+      "batch_id": "batch_225",
+      "targets": 26,
+      "kind": "ESPer/PSY/Lighttazer/BRACE/Canid/Kobold/R18/Squeaker/HQ/VIT"
+    },
+    {
+      "batch_id": "batch_226",
+      "targets": 31,
+      "kind": "pass2: full names, Bossu SNORT, contract out, Trainer tazer, Fenfen/EXILE/VIT lock, psychic unify, ZENER titles"
+    },
+    {
+      "batch_id": "batch_227",
+      "targets": 12,
+      "kind": "pass2: 2 instruction-text rows, 2 misattributions, decay chain, truncated lines"
+    },
+    {
+      "batch_id": "batch_228",
+      "targets": 11,
+      "kind": "pass2: 3 cross-line sentences + grammar/quote"
+    },
+    {
+      "batch_id": "batch_229",
+      "targets": 21,
+      "kind": "pass2: punctuation normalization"
+    },
+    {
+      "batch_id": "batch_230",
+      "targets": 14,
+      "kind": "open query resolution: Keycard->门卡, RealFeel->实感, PSYCHICAL distinct, SpecialNecklace name"
+    },
+    {
+      "batch_id": "batch_231",
+      "targets": 193,
+      "kind": "punctuation normalization: half-width ... ! ? , inside Chinese"
+    },
+    {
+      "batch_id": "batch_232",
+      "targets": 14,
+      "kind": "same-source consistency: 12 groups were inconsistent within the same branch"
+    },
+    {
+      "batch_id": "batch_233",
+      "targets": 13,
+      "kind": "spaces inside Chinese + full name 伊法妮·伊法伊 in vsn"
+    },
+    {
+      "batch_id": "batch_234",
+      "targets": 1,
+      "kind": "missed male-branch twin of a spacing fix"
+    },
+    {
+      "batch_id": "batch_235",
+      "targets": 7,
+      "kind": "kinship terms: BROTHER->弟弟, SISTER->姐姐, SIBLING->手足"
+    },
+    {
+      "batch_id": "batch_236",
+      "targets": 3,
+      "kind": "cross-line sentence repair (textbox-grouped scan)"
+    },
+    {
+      "batch_id": "batch_237",
+      "targets": 5,
+      "kind": "3 dropped full stops + 2 mixed-width punctuation"
+    },
+    {
+      "batch_id": "batch_238",
+      "targets": 1,
+      "kind": "NSFW term consistency (DICK 1/20 outlier)"
+    }
+  ],
+  "naming_decisions": {
+    "register": "work/proof/naming-decisions.md",
+    "decided": [
+      "GRRRL",
+      "Torch",
+      "Redbull",
+      "LIVEWARE",
+      "Bigbold",
+      "Squeaks",
+      "VINER",
+      "THORNER",
+      "BULBER",
+      "TRIBULB",
+      "ORBER",
+      "HOPPER",
+      "BULLFROG",
+      "GLOOP",
+      "GLUG",
+      "GLUGH",
+      "GOOP"
+    ],
+    "pending": [
+      "GHOSTER",
+      "Yiffai english residue",
+      "Cosmobreeder english residue",
+      "Lect case",
+      "Kobo"
+    ],
+    "locked_by_glossary_do_not_change": [
+      "Bossu 波苏 forms",
+      "Fenfen 芬芬 forms"
+    ]
+  },
+  "round_summary": {
+    "rows_changed_this_round": 217,
+    "naming_decisions_register": "work/proof/naming-decisions.md",
+    "latin_residue_rows": "397 -> 309 (remaining are all intentional: LECT/Bossu/Fenfen/key names/radio noise)",
+    "breeder_lock_violations": "3 -> 0",
+    "new_tooling": [
+      "tools/gen-reference.py",
+      "tools/scan-meta.py",
+      "tools/independent-audit.py"
+    ]
+  },
+  "independent_audit": {
+    "tool": "localization/tools/independent-audit.py",
+    "note": "does not import batch.py or projectlib; reimplements marker signature and invariants",
+    "verdict": "FAIL 0 / WARN 0",
+    "units": 8973,
+    "translated": 8146,
+    "empty": 827
+  },
+  "proofreading_pass2": {
+    "reviewers": {
+      "A_pack_626_rows": "minimax-cn/MiniMax-M3.1-Flash",
+      "B_pack_215_rows": "openai-codex/gpt-6.1-sol (MiMo failed with no output, taken over per policy)"
+    },
+    "findings_total": 78,
+    "after_dedup_and_false_positive_removal": 68,
+    "applied_batches": [
+      "batch_226",
+      "batch_227",
+      "batch_228",
+      "batch_229"
+    ],
+    "applied_rows": 75,
+    "notable": [
+      "2 more rows were reviewer instruction text in the translation field; scanner keyword list was too narrow and has been extended",
+      "a reviewer proposed aligning PSYCHIC DISTURBANCE to the minority form; majority form 扰动 was kept instead",
+      "Yiffai is both first name and surname, so AGENT YIFFAI YIFFAI is a full name, not two callers"
+    ],
+    "still_open_queries": [],
+    "queries_resolved": {
+      "Keycard": "门卡 (17:10 majority)",
+      "RealFeel": "实感 per GLOSSARY-LOCK",
+      "PSYCHICAL": "精神, kept distinct from psychic(灵能) per lore",
+      "Teaser": "挑逗 kept (already correct)",
+      "SpecialNecklace name": "翻译项链 (源名 FENFEN T is width-truncated; desc already says 能翻译Fenfen的话)"
+    }
+  },
+  "image_localization": {
+    "tool": "localization/tools/redraw-image.py",
+    "method": "reuse the game own CJK 12px pixel font; programmatic, not AI edit (256x224 pixel art)",
+    "guard": "every render fails hard if any changed pixel falls outside the declared boxes",
+    "done": [
+      {
+        "asset": "Acfb74ff046445762b007",
+        "units": 2,
+        "out": "work/image-staging/card-viewer.png",
+        "text": [
+          "宇宙卡查看器",
+          "按「A」翻卡"
+        ]
+      },
+      {
+        "asset": "A3ad10e4fc08b09e2bef4",
+        "units": 2,
+        "out": "work/image-staging/bestiary-title.png",
+        "text": [
+          "图鉴子菜单",
+          "-选择下方条目查看-"
+        ]
+      },
+      {
+        "asset": "A4b6160b4569cc8b87687",
+        "units": 5,
+        "out": "work/image-staging/pretitle-gamepad.png",
+        "text": [
+          "本软件仅限成人使用",
+          "本游戏建议使用手柄游玩",
+          "访问游戏设置",
+          "按手柄 L+R / 或 / 按键盘 Q+E"
+        ]
+      },
+      {
+        "asset": "Ada8d2a93e89e1525cbf1",
+        "units": 4,
+        "out": "work/image-staging/pretitle-plain.png",
+        "text": [
+          "same four body lines as above"
+        ]
+      }
+    ],
+    "key_technique": "the two pretitle variants share identical layout; the plain one has an empty banner, so its y=10..21 band was copied over as a clean striped-free backdrop instead of rebuilding the dither pattern",
+    "coverage": "9 of 9 image units have a staged redraw",
+    "not_integrated": false,
+    "why_not": "package.py deliberately does not replace bitmaps automatically; needs explicit go-ahead plus a per-asset archive mapping step",
+    "integration": {
+      "tool": "localization/tools/apply-images.py",
+      "package": "builds/final-8146-r5-images",
+      "method": "decrypt dataq/6 (sprites.png), paste the 4 staged redraws at their catalog xy, re-encrypt",
+      "guard": "hard fail if any pixel outside the 4 target rectangles changes; verified 0",
+      "manifest_refreshed": true,
+      "targets": {
+        "Acfb74ff046445762b007": [
+          1056,
+          3664
+        ],
+        "A4b6160b4569cc8b87687": [
+          2112,
+          3664
+        ],
+        "Ada8d2a93e89e1525cbf1": [
+          2376,
+          3664
+        ],
+        "A3ad10e4fc08b09e2bef4": [
+          2448,
+          3200
+        ]
+      }
+    }
+  },
+  "workbook": {
+    "path": "review/翻译校对-阶段8146-r4.xlsx",
+    "units": 8146,
+    "exported_after_batch_230": true
+  },
+  "static_acceptance": {
+    "date": "2026-10-24",
+    "why": "in-game acceptance needs the user; these are the checks that can be done without launching the game",
+    "width": {
+      "method": "render every translated line with the game own glyph metrics, compare against width_hint_px and against the source width",
+      "result": "median growth x0.46-x0.58 (Chinese is narrower than English); UI category max x1.50 and that is a 2-3 char label at 24-36px; no UI line exceeds 1.5x; 0 rows newly overflow after the punctuation batch",
+      "verdict": "width is not a risk"
+    },
+    "missing_glyphs": {
+      "method": "every char of all 8146 translations checked against bbc2.fnt metrics",
+      "result": 0,
+      "verdict": "no tofu boxes expected"
+    },
+    "punctuation": {
+      "before": {
+        "half_ellipsis": 227,
+        "cn_bang": 16,
+        "cn_comma": 6,
+        "cn_query": 6,
+        "dup_ellipsis": 1
+      },
+      "after": {
+        "half_ellipsis_dominant_chinese": 1,
+        "cn_bang": 1,
+        "cn_comma": 0,
+        "cn_query": 0
+      },
+      "excluded_on_purpose": 58,
+      "why_excluded": "radio-noise lines like [...SHNNNAP...KZZZ...] carry ... as part of the source; also 2 lines with run-length spaces used for alignment"
+    },
+    "same_source": {
+      "method": "group all units by identical English source, compare translations within the same variant",
+      "before": {
+        "groups_with_multiple_rows": 1700,
+        "inconsistent_total": 608,
+        "inconsistent_same_variant": 12,
+        "cross_variant_only": 596
+      },
+      "after": {
+        "inconsistent_same_variant": 0
+      },
+      "decision": "cross-variant differences (596) left as deliberate tone variation between the male and female branches"
+    },
+    "spacing": {
+      "before": 31,
+      "after": 17,
+      "kept_on_purpose": "onomatopoeia with letter spacing ([S I G H] -> [叹 气], H O O R A Y), key names like UP+攻击, and radio-noise lines"
+    },
+    "targeted_checks": {
+      "spoiler_leakage": {
+        "method": "for Area0 and then the whole library, flag rows whose translation contains a plot-critical word (姐姐/弟弟/女王/夺舍/流放地/黑暗能量/恩内莉/特蕾) that the English source does not",
+        "result": "Area0: 0. Whole library: 1 hit (HER CLUMSY SIBLING -> 弟弟, justified because the setting fixes Yiffai as her younger brother)"
+      },
+      "numeric_consistency": {
+        "method": "compare digit runs source vs translation",
+        "result": "17 differ, all legitimate: 100%->百分之百, 21->二十一, Mach 2->二马赫, or Chinese ordering 手册第19.88.01节801C条"
+      },
+      "voice_red_lines": {
+        "method": "Bossu scanned for buddy words, Tomcat for bureaucratic words",
+        "result": "Bossu 5 hits of 小子 (elder-to-junior register, not buddy), Tomcat 5 hits of 手册/规定/程序 (all reporting someone else rules, not his own register). One apparent mismatch (heart rate line) turned out to be a deliberate cross-line reorder and reads correctly when the two boxes are concatenated"
+      },
+      "kinship": {
+        "before": {
+          "BROTHER": {
+            "弟弟": 13,
+            "兄弟": 4
+          },
+          "SISTER": {
+            "姐姐": 14,
+            "姐妹": 2
+          },
+          "SIBLING": {
+            "手足": 5,
+            "其他": 2
+          }
+        },
+        "after": "all aligned",
+        "note": "female branch says 弟弟, male branch says 姐姐; SIBLING stays 手足 as the neutral form"
+      }
+    },
+    "crossline": {
+      "method": "regroup by textbox instead of by row; a row-level scan can never see this class of problem",
+      "textboxes": 1499,
+      "multi_row_boxes": 1014,
+      "candidates": 17,
+      "real_problems": 3,
+      "fixed_batch": "batch_236",
+      "why_false_positives": "most flagged boxes genuinely hold two sentences; the source just omits the first full stop",
+      "examples": [
+        "THERE'S ONLY ONE TYPE OF PAWWING I'M GOOD AT, -> 行末用了句号，但原文是逗号，句子连着下一框 AND IT DOESNT REQUIRE A COMPUTER",
+        "WHAT ELSE WOULD IT BE -> 行末用了问号，但下一框以 ...BUT 开头，转折被切断",
+        "IF I / WERE TO FIND MORE ORBS -> 一句跨两框，两行都写成问句，重复了「会怎样」"
+      ]
+    },
+    "crossline_v2": {
+      "sentence_end_detection": "... and … are ellipsis, not sentence terminators",
+      "false_positive_lesson": "first pass flagged 958 rows as \"translation broke the sentence\" purely because source lines ending in ... were treated as full stops",
+      "candidates_after_fix": 21,
+      "confirmed_problems": 5,
+      "fixed_batch": "batch_237",
+      "kept_on_purpose": "radio-noise rows like [..UP... T... AKE... ...ITCH!] and the literal ...............!!! lines"
+    },
+    "nsfw_terms": {
+      "DICK": {
+        "rows": 20,
+        "鸡巴": 19,
+        "老二": 1,
+        "action": "unified to 鸡巴"
+      },
+      "COCK": {
+        "rows": 5,
+        "鸡巴": 5
+      },
+      "PENIS": {
+        "rows": 3,
+        "阴茎": 3,
+        "note": "used in codex prose, formal register is correct there"
+      },
+      "ASS": {
+        "rows": 10,
+        "屁股": 7,
+        "后穴": 1,
+        "other": 2,
+        "note": "后穴 kept because that scene is more explicit than the rest"
+      },
+      "CUM": {
+        "rows": 4,
+        "射": 3,
+        "高潮": 1,
+        "note": "the 高潮 row is a female perspective, machine-induced"
+      },
+      "PUSSY": {
+        "rows": 2,
+        "note": "both mean cat, not anatomy - 文职猫娘 / 小猫咪 are correct"
+      },
+      "verdict": "NSFW terminology is essentially consistent; only the DICK outlier needed a fix"
+    }
+  },
+  "tooling": {
+    "check-crossline.py": "two checks: SPLIT (source still running, translation closes the sentence) and MISSING-STOP (source closes, translation does not). Ellipsis is NOT a sentence end - the first version missed that and produced 958 false positives; after excluding it, 21 candidates, 5 real. Use --show-context."
+  },
+  "delivery_doc": "docs/交付说明.md",
+  "delivery_manifest": "docs/交付清单.json",
+  "final_state": {
+    "text": "8146 / 8973 translated; 827 remaining = 814 code (triaged not-for-player) + 9 image (redrawn) + 4 vsn (deliberately blank)",
+    "packages": "builds/final-8146-r11-images (primary, text+font+4 bitmaps) / builds/final-8146-r11 (text only fallback)",
+    "batches_total_this_work": "238 (batch_001 - batch_238)",
+    "rows_fixed_in_these_rounds": 450,
+    "tooling": "21 tools in localization/tools/, 5 of them added for checking",
+    "checks_all_green": "independent-audit FAIL 0 / WARN 0; scan-meta 0 pollution; 0 missing glyphs; width median 0.46-0.58x of English",
+    "not_done": "in-game acceptance (requires the user to install and play)"
+  },
+  "installer": {
+    "exe": {
+      "path": "packaging/dist/CosmobreederYiffaiCN-v1.3.exe",
+      "bytes": 69295483,
+      "sha256": "bac93986d5b6d2a819c2559f7ad98ccb5dd1c166036edc19bf1ee63ba80f87e3",
+      "version": "1.3"
+    },
+    "variants": {
+      "nsfw": {
+        "detect": "patch.pak sha256 == 2f9da7d4...",
+        "installs": [
+          "cosmobreeder-multi.jar",
+          "patch.pak"
+        ]
+      },
+      "vanilla": {
+        "detect": "patch.pak 不存在",
+        "installs": [
+          "cosmobreeder-multi.jar"
+        ]
+      },
+      "unknown": {
+        "behavior": "拒绝安装，避免覆盖别人的补丁"
+      }
+    },
+    "tested": {
+      "real_dir": "识别为 NSFW 版",
+      "vanilla_dir": "识别为本体版，只装 jar，不产生 pak",
+      "vanilla_install_uninstall": "备份/还原/状态清除全部通过（sha256 核对）",
+      "exe_payload": "exe 内 jar/pak 字节数与 r14 完全一致"
+    }
+  },
+  "vanilla_variant": {
+    "finding": "本体版的对话文本在 jar 内的 datadf/datadm；官方 NSFW 补丁用同名 patch.pak 覆盖它们。",
+    "sizes": {
+      "jar datadf/1": "195719 明文",
+      "pak datadf/1": "206056 明文"
+    },
+    "key_overlap": "datadf 768/768、datadm 767/767，场景 key 完全一致",
+    "content_diff": "datadf 116/767 block 原文不同、datadm 110/767（SFW 版台词是改写过的）",
+    "strategy": "一个包服务两种客户：jar 里也写中文，装了 pak 的走 pak，没装的走 jar",
+    "translations": "1146 行可按原文复用现有译文，158 行需新翻（已派子代理）",
+    "installer": {
+      "variants": [
+        "nsfw",
+        "vanilla"
+      ],
+      "nsfw_detect": "patch.pak sha256 == 2f9da7d4...",
+      "vanilla_detect": "patch.pak 不存在",
+      "unknown": "有 pak 但哈希不认识 → 拒绝安装，避免覆盖别人的补丁"
+    },
+    "tested": {
+      "vanilla_install": "只换 jar，不产生 pak，备份正确",
+      "vanilla_uninstall": "jar 还原到原版哈希，state 清除",
+      "nsfw_detect": "正确识别为 NSFW 版并列出两个文件"
+    }
+  },
+  "vanilla_localization": {
+    "where": "本体版台词在 jar 内 datadf/datadm；官方 NSFW 补丁用同名 patch.pak 覆盖",
+    "jar_coverage": {
+      "datadf/1": "661 行全部中文",
+      "datadm/1": "659 行全部中文",
+      "remaining_latin": "25 行，均为 Lect/SELECT/SXUXYGAX 等允许保留项"
+    },
+    "new_translations": {
+      "file": "translations/jar-variant.jsonl",
+      "count": 158,
+      "note": "jar 独有、pak 里没有对应原文的台词；单独维护，不动 8973 条主库统计"
+    },
+    "torch_rule": "按原文词直译：flashlight→手电筒，torch→火把（与 Tomcat 那句「手电筒——Bossu 管它叫火把」一致）",
+    "confidence": "CONFIDENCE→亲密度，与已有 AFFINITY 写法统一",
+    "tod": "未硬译物种，作「老实的家伙」"
+  },
+  "crash_20261024": {
+    "symptom": "启动报 Startup Error，游戏自己写 cosmobreeder-error-*.txt",
+    "log": "PRG.ats: Error loading font file: classic.fnt / Caused by: No glyphs found",
+    "root_cause": "生成的 classic.fnt 里每个 char 行写成 chnl=15；原版和能正常工作的 bbc2.fnt 都是 chnl=0。libGDX 的 chnl 是颜色通道位，15 让所有字形被判为无效，于是「No glyphs found」→ 启动失败。",
+    "fix": "chnl=15 -> 0，重新生成 classic.fnt；结构校验（count 一致、id 无重复、坐标不越界、chnl<=3、设置标签不缺字）全部通过",
+    "lesson": "改字体文件后必须核对 char 行的每个字段与原版一致，不能只验「字形数」和「字节数」。"
+  }
+}

@@ -1,0 +1,312 @@
+{
+  "packet": "packet-05",
+  "input_path": "localization\\editorial\\r1\\corpus\\snapshot-01\\packets\\packet-05.reader.md",
+  "input_sha256": "845d7b9a44816fd5ccba07698632759423555b16c13571ef37dbcccc78fc619c",
+  "packet_json_path": "localization\\editorial\\r1\\corpus\\snapshot-01\\packets\\packet-05.json",
+  "packet_json_sha256": "8a9e9530c1e327b2bb79d003c5aa3444469c01862fb039b5278f6e6df161b3f4",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      350
+    ],
+    [
+      351,
+      450
+    ],
+    [
+      451,
+      550
+    ],
+    [
+      551,
+      650
+    ],
+    [
+      651,
+      750
+    ],
+    [
+      751,
+      850
+    ],
+    [
+      851,
+      950
+    ],
+    [
+      951,
+      1050
+    ],
+    [
+      1051,
+      1150
+    ],
+    [
+      1151,
+      1250
+    ],
+    [
+      1251,
+      1350
+    ],
+    [
+      1351,
+      1450
+    ],
+    [
+      1451,
+      1550
+    ],
+    [
+      1551,
+      1650
+    ],
+    [
+      1651,
+      1750
+    ],
+    [
+      1751,
+      1850
+    ],
+    [
+      1851,
+      1950
+    ],
+    [
+      1951,
+      2050
+    ],
+    [
+      2051,
+      2150
+    ],
+    [
+      2151,
+      2250
+    ],
+    [
+      2251,
+      2350
+    ],
+    [
+      2351,
+      2450
+    ],
+    [
+      2451,
+      2475
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    {
+      "path": "localization\\editorial\\r1\\LOCALIZATION_BRIEF.md",
+      "ranges": [
+        [
+          1,
+          65
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\WORK_ORDERS.md",
+      "ranges": [
+        [
+          1,
+          48
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\characters-primary.md",
+      "ranges": [
+        [
+          1,
+          277
+        ],
+        [
+          278,
+          377
+        ]
+      ],
+      "initial_cap_recovered": true
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\characters-support.md",
+      "ranges": [
+        [
+          1,
+          128
+        ]
+      ]
+    },
+    {
+      "path": "localization\\editorial\\r1\\reference\\world-and-plot.md",
+      "ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          250
+        ],
+        [
+          251,
+          350
+        ],
+        [
+          351,
+          406
+        ]
+      ],
+      "sha256": "7d4458d93e3b4e39e34db9ac16969fd3be293d4c007795f44132ffa706cacd49"
+    }
+  ],
+  "reader_sha256": "845d7b9a44816fd5ccba07698632759423555b16c13571ef37dbcccc78fc619c",
+  "reader_total_lines": 2475,
+  "actual_read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      350
+    ],
+    [
+      351,
+      450
+    ],
+    [
+      451,
+      550
+    ],
+    [
+      551,
+      650
+    ],
+    [
+      651,
+      750
+    ],
+    [
+      751,
+      850
+    ],
+    [
+      851,
+      950
+    ],
+    [
+      951,
+      1050
+    ],
+    [
+      1051,
+      1150
+    ],
+    [
+      1151,
+      1250
+    ],
+    [
+      1251,
+      1350
+    ],
+    [
+      1351,
+      1450
+    ],
+    [
+      1451,
+      1550
+    ],
+    [
+      1551,
+      1650
+    ],
+    [
+      1651,
+      1750
+    ],
+    [
+      1751,
+      1850
+    ],
+    [
+      1851,
+      1950
+    ],
+    [
+      1951,
+      2050
+    ],
+    [
+      2051,
+      2150
+    ],
+    [
+      2151,
+      2250
+    ],
+    [
+      2251,
+      2350
+    ],
+    [
+      2351,
+      2450
+    ],
+    [
+      2451,
+      2475
+    ]
+  ],
+  "reader_cropped": false,
+  "method": "工具read逐段实际语义通读；每整entry/VSN先连读EN意图，再连读candidate4当前ZH；机械脚本仅提取已读证据和完整rowid制作收据，不替代阅读。",
+  "reference_reads": {
+    "LOCALIZATION_BRIEF.md": "1–65",
+    "WORK_ORDERS.md": "1–48",
+    "characters-primary.md": "1–277 capped then 278–377 completed",
+    "characters-support.md": "1–128",
+    "world-and-plot.md": "起初两次not found；汇合后1–150、151–250、251–350、351–406完整补读，复核D01/D02/D04/I06/I07/E05/E06/E07/W06/W08/H05"
+  },
+  "semantic_scope": {
+    "scenes": 297,
+    "kinds": {
+      "code": 36,
+      "dialogue": 183,
+      "ui": 71,
+      "vsn": 7
+    },
+    "all_input_scenes_read": true,
+    "code_usage_unverified": true,
+    "runtime_verified": false,
+    "images_visually_verified": false,
+    "translation_applied": false,
+    "approved": false
+  },
+  "uncovered": [
+    "外部include的未入本包正文不等于已读",
+    "运行时触发/商店或missionLog使用状态未验证",
+    "视觉画面及实际排版未验"
+  ],
+  "finding_counts": {
+    "B": 31,
+    "A": 10
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "ledger": "localization/translations/editorial-r8-puzzle-repairs.jsonl",
+  "gate": "localization/editorial/r8-puzzle/reports/puzzle-01/build-gate.json",
+  "decisions": "localization/editorial/r8-puzzle/reports/puzzle-01/decisions.tsv",
+  "required_data": [
+    "../../../translations/editorial-r8-puzzle-repairs.jsonl",
+    "../../../editorial/r8-puzzle/reports/puzzle-01/build-gate.json",
+    "../../../editorial/r8-puzzle/reports/puzzle-01/decisions.tsv",
+    "../../../editorial/r8-puzzle/tools/verify_puzzle.py"
+  ],
+  "required_chars": [
+    "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]"
+  ]
+}

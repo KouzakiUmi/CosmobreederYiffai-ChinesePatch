@@ -1,0 +1,386 @@
+{
+  "ds:f70a8b7118ad020e": {
+    "source": "...SXUXYGAX...",
+    "translation": "...SXUXYGAX...",
+    "status": "preserved",
+    "notes": [
+      "作弊口令，保留字母序列与原标点。"
+    ]
+  },
+  "ds:5db00e8c6fd3dcd2": {
+    "source": "[...ZZZK...SFFF... ...WRR...QQKRKRT... ...]",
+    "translation": "[...ZZZK...SFFF... ...WRR...QQKRKRT... ...]",
+    "status": "preserved",
+    "notes": [
+      "无线电刻意干扰噪声，保留原音节，不推断被遮蔽内容。"
+    ]
+  },
+  "ds:c24935072aca6841": {
+    "source": "[KKZZT! TR... SSSH CALI...ATE...]",
+    "translation": "[KKZZT! TR... SSSH CALI...ATE...]",
+    "status": "preserved",
+    "notes": [
+      "无线电刻意干扰音节，原样保留，非可还原的完整英文句。"
+    ]
+  },
+  "ds:6eb2764d86b055b2": {
+    "source": "[...SSSSSSSS- ZZT!]",
+    "translation": "[...SSSSSSSS- ZZT!]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ds:a4f92385f6f93840": {
+    "source": "[...EKSKHSKKS....]",
+    "translation": "[...EKSKHSKKS....]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ds:6983c2aa381b5d2b": {
+    "source": "[...GZZZT.... RKKK... BZ...TTT...]",
+    "translation": "[...GZZZT.... RKKK... BZ...TTT...]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ds:a10c4d4b384d3155": {
+    "source": "[...SKERHSSSS...]",
+    "translation": "[...SKERHSSSS...]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ds:6bba15174e5fe1c3": {
+    "source": "[KZZ...ME IN... TZ... ...EAD!...]",
+    "translation": "[KZZ...ME IN... TZ... ...EAD!...]",
+    "status": "preserved",
+    "notes": [
+      "无线电被干扰的音节，保留源干扰，不拼回未听清的意思。"
+    ]
+  },
+  "ds:cf0234ded40397a3": {
+    "source": "[...KKKKK- ZZT!]",
+    "translation": "[...KKKKK- ZZT!]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ds:777226f0179930db": {
+    "source": "[@DerekChipReport]",
+    "translation": "[@DerekChipReport]",
+    "status": "preserved",
+    "notes": [
+      "运行时报告占位符，不改ID。"
+    ]
+  },
+  "ds:49c3da24e33ca821": {
+    "source": "[D U D E . . .]",
+    "translation": "[兄 弟 ……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c845af0b1f2d5c28": {
+    "source": "[...SKERHSSSSSSS]",
+    "translation": "[...SKERHSSSSSSS]",
+    "status": "preserved",
+    "notes": [
+      "无线电噪声。"
+    ]
+  },
+  "ui:658fda4a729fabff": {
+    "source": "CRT",
+    "translation": "CRT",
+    "status": "preserved",
+    "notes": [
+      "滤镜标准缩写。"
+    ]
+  },
+  "ui:8f2efd57fb7a6f54": {
+    "source": "FENFEN",
+    "translation": "芬芬",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:787ec76dcafd20c1": {
+    "source": "HELLO WORLD",
+    "translation": "你好，世界",
+    "status": "candidate",
+    "notes": [
+      "程序员经典HELLO WORLD梗，中文保留同一含义。"
+    ]
+  },
+  "ui:7a1584d03e9553b2": {
+    "source": "SCE-WEST",
+    "translation": "SCE-WEST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码，保留坐标身份，非叙事正文。"
+    ]
+  },
+  "ui:cb55de1917423f8f": {
+    "source": "BIGBOLD2",
+    "translation": "大壮兽2",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:d7e10e9f8c6b7f01": {
+    "source": "DPB-EAST",
+    "translation": "DPB-EAST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:d653b016db1da8f5": {
+    "source": "R2",
+    "translation": "R2",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:18f5384d58bcb1bb": {
+    "source": "Y",
+    "translation": "Y",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:c534464c1cde5dfc": {
+    "source": "ZER-WEST",
+    "translation": "ZER-WEST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:095d20fbc2e00fb6": {
+    "source": "-----------",
+    "translation": "-----------",
+    "status": "preserved",
+    "notes": [
+      "原禁用槽位装饰线。"
+    ]
+  },
+  "ui:305b64e2354cdefd": {
+    "source": "AYS-NORTH",
+    "translation": "AYS-NORTH",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:59691f5006da57a1": {
+    "source": "BIGBOLD1",
+    "translation": "大壮兽1",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:7dd0415afca8dc25": {
+    "source": "SCE-EAST",
+    "translation": "SCE-EAST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:a791366f6f620125": {
+    "source": "R1",
+    "translation": "R1",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:842983de8fb1d277": {
+    "source": "L3",
+    "translation": "L3",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:bd64bb8efa5b3f27": {
+    "source": "----",
+    "translation": "----",
+    "status": "preserved",
+    "notes": [
+      "原锁定槽位装饰线。"
+    ]
+  },
+  "ui:3c47f77ae2a44208": {
+    "source": "ZER-SOUTH",
+    "translation": "ZER-SOUTH",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:d76354d845789844": {
+    "source": "L2",
+    "translation": "L2",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:ace3d0f2f21db252": {
+    "source": "ZER-EAST",
+    "translation": "ZER-EAST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:df7e70e5021544f4": {
+    "source": "B",
+    "translation": "B",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:6b94857007d8333b": {
+    "source": "LECT",
+    "translation": "LECT",
+    "status": "preserved",
+    "notes": [
+      "货币名称。"
+    ]
+  },
+  "ui:980dc7dd3a383fb0": {
+    "source": "AYS-WEST",
+    "translation": "AYS-WEST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:c556edfcce014439": {
+    "source": "HNG-RECV",
+    "translation": "HNG-RECV",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:06ea5529273d6e6a": {
+    "source": "HARMARIST",
+    "translation": "HARMARIST",
+    "status": "preserved",
+    "notes": [
+      "作者署名。"
+    ]
+  },
+  "ui:559aead08264d579": {
+    "source": "A",
+    "translation": "A",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:0726682a900992ab": {
+    "source": "500 LECT",
+    "translation": "500 LECT",
+    "status": "preserved",
+    "notes": [
+      "货币奖励值与货币名。"
+    ]
+  },
+  "ui:fdb28b4e2efe4ad2": {
+    "source": "DPB-WEST",
+    "translation": "DPB-WEST",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:3ee3173e34076493": {
+    "source": "SCE-SOUTH",
+    "translation": "SCE-SOUTH",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:dffe8596427fc50e": {
+    "source": "L1",
+    "translation": "L1",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:021bbd75cf6530bd": {
+    "source": "R3",
+    "translation": "R3",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:08d1623c441b55a6": {
+    "source": "C4",
+    "translation": "C4",
+    "status": "preserved",
+    "notes": [
+      "炸药名称。"
+    ]
+  },
+  "ui:4b68ab3847feda7d": {
+    "source": "X",
+    "translation": "X",
+    "status": "preserved",
+    "notes": [
+      "实体按键名。"
+    ]
+  },
+  "ui:ee7a425e7320f39e": {
+    "source": "POV",
+    "translation": "POV",
+    "status": "preserved",
+    "notes": [
+      "控制器方向帽标准缩写。"
+    ]
+  },
+  "ui:b8d31479d203f785": {
+    "source": "AYS-SOUTH",
+    "translation": "AYS-SOUTH",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:540f6694c9ea54e5": {
+    "source": "DPB-NORTH",
+    "translation": "DPB-NORTH",
+    "status": "preserved",
+    "notes": [
+      "源存档地点短码。"
+    ]
+  },
+  "ui:6407c25e04e875dc": {
+    "source": "KITANESS      MR.SATURN",
+    "translation": "KITANESS      MR.SATURN",
+    "status": "preserved",
+    "notes": [
+      "美术与音乐署名及原列间距。"
+    ]
+  },
+  "vsn:86e70b139da911d1": {
+    "source": "...............!!!",
+    "translation": "...............!!!",
+    "status": "preserved",
+    "notes": [
+      "刻意长停顿与惊叹，保留源符号时序提示。"
+    ]
+  }
+}

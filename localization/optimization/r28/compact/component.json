@@ -1,0 +1,78 @@
+{
+  "component": "compact-fields-r28",
+  "base": "r27-story12-shaderfix-test5",
+  "base_jar_sha256": "dc6b0cedc3a3b2f6f51941a2cef449d33ec87d314ee64ea63495c3ffdebd06be",
+  "runtime_sources": [
+    "localization/layout/src/PRG/CompactFields.java",
+    "localization/layout/src/PRG/ItemFont8.java"
+  ],
+  "tool_sources": [
+    "localization/layout/tools/java/CompactFieldsPatch.java",
+    "localization/layout/tools/java/ItemFont8Patch.java"
+  ],
+  "test_sources": [
+    "localization/layout/tests/CompactFieldsTest.java",
+    "localization/layout/tests/CompactFieldsCpuTest.java",
+    "localization/layout/tests/ItemFont8Test.java",
+    "docs/font-layout-audit-20261025/simulation/CpuEvidence.java"
+  ],
+  "runtime_classes": ["PRG/CompactFields.class", "PRG/ItemFont8.class"],
+  "helper_inventory": ["PRG/CompactFields.class", "PRG/ItemFont8.class"],
+  "asset_inventory": [],
+  "target_pins": {
+    "PRG/LY": "daf1134310a20f66ebbf6b409cc07829ccebe520ec51fc60ba280fe1dbc6e2de",
+    "PRG/Mb": "39a1dd0a221b75514d9a320ebb88e9fa9fc21fd0c95c783ec33b73999e5f8e31",
+    "PRG/Mn": "1cbc6fe691709045077e132f4edd8d2a163f10df3220bcb379a03350d3fb7f09",
+    "PRG/Lb": "a928553b84a4655b0337bdcbf2c913b2bb42c30ce78cafb3e7b2abe3c1083bcb",
+    "PRG/Lg": "38b2425903424aa31d331c82c1410e62f3c723dd6f16e664c8688daaac72bbe8",
+    "PRG/Le": "3a6e7d9e2141861208f272acc0f1366d19949cb91a5dccb3750130c9d7638bb8"
+  },
+  "patcher_class": "CompactFieldsPatch",
+  "patcher_method": "apply",
+  "patchers": [{"class": "ItemFont8Patch", "method": "applyR27"}],
+  "apply_protocol": "Verify all six target entry SHA256 against frozen r27 before mutation; parse EXPAND_FRAMES once into common map; call CompactFieldsPatch.apply(map), then ItemFont8Patch.applyR27(map); emit COMPUTE_FRAMES|COMPUTE_MAXS. NEVER call old ItemFont8Patch.apply on r27 Le/Lg/Lb. Replace the two helper classes with freshly compiled bytes; do not enable SaveMenuLayout/ItemMenuLayout or alter Id/It/Mc/Mf/Iu.",
+  "modified_methods": [
+    "PRG/LY.b(LPRG/SN;)V",
+    "PRG/Mb.b(LPRG/SN;)V",
+    "PRG/Mn.b(LPRG/SN;)V",
+    "PRG/Mn.a(LPRG/SN;LPRG/aab;)V",
+    "PRG/Le.<init>(LPRG/apr;)V",
+    "PRG/Lb.a(F)V",
+    "PRG/Lg.a(F)V"
+  ],
+  "test_compile": "javac -encoding UTF-8 -source 8 -target 8 -cp <candidate.jar> -d <output-dir>/classes docs/font-layout-audit-20261025/simulation/CpuEvidence.java localization/layout/tests/CompactFieldsCpuTest.java",
+  "test_cli": "java -Xverify:all -Dfile.encoding=UTF-8 -cp <candidate.jar>;<output-dir>/classes PRG.CompactFieldsCpuTest <candidate.jar> <candidate.jar> <output-dir>",
+  "output_protocol": "Pre-create a new normalized ROOT/localization/optimization/r28/integration/tests/<run>/compact directory, or explicitly use the original ROOT/localization/optimization/r28/compact root. No other paths, extra nesting, traversal/symlink escapes, or baseline-evidence output are allowed. Python ROOT is fixed from the script location, not output depth. Compile test classes under the chosen output directory so the unchanged out-only write/read tripwire can load them. Preserve old baselines; all generated TSV/CPU/image/report files go to the new output-dir.",
+  "isolated_test_cli": "java -Xverify:all -Dfile.encoding=UTF-8 -cp <compact-overlay-v2.jar>;<compact/classes>;<r27.jar> PRG.CompactFieldsCpuTest <r27.jar> <compact-overlay-v2.jar> localization/optimization/r28/compact",
+  "raster_cli": "py -3.12 -B localization/optimization/r28/compact/render_compact.py <same-font-and-atlas-candidate.jar> --output-dir <output-dir>",
+  "cli_smoke": {
+    "output_dir": "localization/optimization/r28/integration/tests/compact-cli-smoke-20261025-2328/compact",
+    "fixture": "two dictionary records, no production corpus changes",
+    "scenarios": 81,
+    "actual_arq_vertices": 7632,
+    "assertions": 166,
+    "forbidden_attempts": 0,
+    "pixel_checks_all_zero": true,
+    "invalid_baseline_evidence_output_rejected_by": ["CompactFieldsCpuTest", "prepare_inputs.py", "render_compact.py"],
+    "logs": ["cpu.log", "render.log", "cpu-denied.log", "prepare-denied.log", "render-denied.log"]
+  },
+  "corpus_protocol": "UTF-8 item-corpus.tsv in compact output: variant TAB item-base-key TAB escaped-name TAB escaped-description, one record per base key with both .name and .desc and no other dot in base. Escape backslash as double backslash, then LF/CR/TAB as literal backslash-n/r/t. Both descriptions and actual dictionary names are corpus-tested. Each name is drawn at all five proven Le y values, unequipped and with the exact original aDJ cut8/pad8/+ display transform; actual Le supplier itself has separate synthetic compatibility coverage. All42 selection positions are also executed separately. prepare_inputs.py defaults to frozen audit dictionary-nsfw.json(PAK) and dictionary.json(JAR). To test candidate dictionaries, run prepare_inputs.py --pak-json <decrypted-candidate-PAK-dictionary.json> --jar-json <decrypted-candidate-JAR-dictionary.json> --output-dir <output-dir>. No save data is accepted/read.",
+  "final_local_evidence": {
+    "overlay": "localization/optimization/r28/compact/compact-overlay-v2.jar",
+    "overlay_sha256": "6bbaae8a5ce232382532ead64eedc38b900cf8837e2af3bfa156ccbe4c5cd120",
+    "scenarios": 1864,
+    "actual_arq_vertices": 88276,
+    "assertions": 2112,
+    "forbidden_attempts": 0,
+    "pixel_checks_all_zero": ["ink_overlap", "divider_ink", "full16_icon_overlap", "later_occlusion", "actual_nonpanel_ink", "description_escapes", "canvas_clips"],
+    "logs": ["baseline-evidence/patch-final.log", "baseline-evidence/cpu-formal-names.log", "baseline-evidence/render-formal-names.log", "baseline-evidence/item-legacy-patch.log", "baseline-evidence/item-legacy-cpu.log"],
+    "report": "baseline-evidence/render-report.json",
+    "corpus_input_sha256": "35e7b66b31611b41230525d265c0b6b9593fc8fdb51876224dad256cd5d4d358"
+  },
+  "limitations": [
+    "CPU synthetic state, not game screenshots or user-save evidence; no game constructors/save services/input/GL/CRT/parent clip executed.",
+    "All42 actual positions,164 actual dictionary names at five y values in two display states,164 descriptions and conservative16x16 icon bounds tested; equipped icon actions, final candidate translations and full parent draw require integration rerun.",
+    "Original Le equipped-name pad/cut8 plus suffix/blink semantics retained; arbitrary long stored names beyond original eight-code-unit UI remain outside supported input contract.",
+    "Only overheight dynamic descriptions page; original frozen JAR SpecialGeiger is the sole paginated item among164 descriptions. Static PAK82 all fit; candidate SFW translation can eliminate this overflow."
+  ]
+}

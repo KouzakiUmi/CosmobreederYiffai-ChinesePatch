@@ -1,0 +1,172 @@
+{
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-10.reader.md",
+  "input_sha256": "2c6ac960f5ded0a6841681a92734f145e134121e49ed40dd19cacda405b3acc4",
+  "packet_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-10.json",
+  "packet_sha256": "87572493c76c6afcf46be96e730ba19392403149d121ff0b8997367327b13870",
+  "read_status": "read_full",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      200
+    ],
+    [
+      201,
+      300
+    ],
+    [
+      301,
+      400
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      501,
+      600
+    ],
+    [
+      601,
+      700
+    ],
+    [
+      701,
+      800
+    ],
+    [
+      801,
+      900
+    ],
+    [
+      901,
+      1000
+    ],
+    [
+      1001,
+      1100
+    ],
+    [
+      1101,
+      1200
+    ],
+    [
+      1201,
+      1300
+    ],
+    [
+      1301,
+      1400
+    ],
+    [
+      1401,
+      1500
+    ],
+    [
+      1501,
+      1600
+    ],
+    [
+      1601,
+      1700
+    ],
+    [
+      1701,
+      1800
+    ],
+    [
+      1801,
+      1900
+    ],
+    [
+      1901,
+      2000
+    ],
+    [
+      2001,
+      2100
+    ],
+    [
+      2101,
+      2200
+    ],
+    [
+      2201,
+      2300
+    ],
+    [
+      2301,
+      2386
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    "LOCALIZATION_BRIEF.md:1-65",
+    "WORK_ORDERS.md:1-48",
+    "characters-primary.md:1-377",
+    "characters-support.md:1-128",
+    "world-and-plot.md:1-406"
+  ],
+  "reference_read_ranges": {
+    "characters-primary.md": [
+      [
+        1,
+        100
+      ],
+      [
+        101,
+        200
+      ],
+      [
+        201,
+        300
+      ],
+      [
+        301,
+        377
+      ]
+    ],
+    "characters-support.md": [
+      [
+        1,
+        100
+      ],
+      [
+        101,
+        128
+      ]
+    ],
+    "world-and-plot.md": [
+      [
+        1,
+        100
+      ],
+      [
+        101,
+        200
+      ],
+      [
+        201,
+        300
+      ],
+      [
+        301,
+        400
+      ],
+      [
+        401,
+        406
+      ]
+    ]
+  },
+  "method": "实际read每次100行，1–2386全部返回，无工具裁剪；每场先连读英语/控制，再连读candidate4当前段。JSON仅作canonical行ID、别名、原稿溯源的机械映射，不作脚本扫读冒充语义通读。",
+  "limits": [
+    "静态粗校提案，不是approved或正式应用",
+    "code用途、嵌套JSON实显与排版/运行未核",
+    "别名沿输入保留，未另行把不同版本/性别/形态合并",
+    "旧ledger未作为当前问题依据，合句空行不报漏译"
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "schema": "cosmo-editorial-r4-candidate-review/v1",
+  "status": "PASS_STATIC_AND_CPU_NOT_REAL_MACHINE",
+  "candidate": "localization/builds/r4-pending-candidate9",
+  "archives_sha256": {
+    "cosmobreeder-multi.jar": "2594adeb90769e270b866e2e5d47c3f7b9a9de4269b9aaaee352c36439b1fcae",
+    "patch.pak": "032d2eb7c27dab8206c754bd7abc4e3b49f9665ed0e544b281c68a38b465697c"
+  },
+  "build_manifest_sha256": "d3461614a2391e9fc5625e13a6ac0f2fa96a268b799d8c1ff244cde2bdd7a17a",
+  "tests_results_sha256": "30275e916665aa1eedde1eeeeb80ff62f5b72b078505f8d51156e17fbe2ed44f",
+  "ledger_sha256": "03820bf51d922a903abb68c17eb6440e6c835b681cdf7c98926bd6af6590c83f",
+  "checks": [
+    {
+      "name": "build.status",
+      "passed": true,
+      "detail": "integrated_candidate_not_real_clip_CRT_input_acceptance"
+    },
+    {
+      "name": "build.full_component_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.r4pending_selected",
+      "passed": true,
+      "detail": [
+        "core",
+        "pattern",
+        "compact",
+        "scenes",
+        "sfw",
+        "vsn",
+        "images",
+        "radio",
+        "editorial",
+        "names",
+        "r4pending"
+      ]
+    },
+    {
+      "name": "build.archive_pins",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.r4pending_report",
+      "passed": true,
+      "detail": 13
+    },
+    {
+      "name": "r4.new_values_present",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "r4.old_values_removed",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "diff.cosmobreeder-multi.jar.entry_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.patch.pak.entry_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.only_expected_text",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "diff.text_resources_exact",
+      "passed": true,
+      "detail": [
+        [
+          "cosmobreeder-multi.jar",
+          "datadf/1"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "dataq/6"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "datay/1"
+        ],
+        [
+          "patch.pak",
+          "dataq/6"
+        ],
+        [
+          "patch.pak",
+          "datav/1"
+        ]
+      ]
+    },
+    {
+      "name": "r2.preserved_parity",
+      "passed": true,
+      "detail": {
+        "c8_missing": 129,
+        "c9_missing": 129
+      }
+    },
+    {
+      "name": "r3.preserved_parity",
+      "passed": true,
+      "detail": {
+        "c8_missing": 10,
+        "c9_missing": 10
+      }
+    },
+    {
+      "name": "font.added_codepoints",
+      "passed": true,
+      "detail": {
+        "added": [
+          "0x60ec"
+        ],
+        "removed": []
+      }
+    },
+    {
+      "name": "tests.status",
+      "passed": true,
+      "detail": "passed_cpu_only_not_real_clip_CRT_input"
+    },
+    {
+      "name": "tests.steps",
+      "passed": true,
+      "detail": 17
+    },
+    {
+      "name": "tests.jar_binding",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "changed_entries": [
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/DialogueWrap.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/EndingReportLayout.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/StoryFont12.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "PRG/SubtitleLayout.class"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "bbc2.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "classic.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "datadf/1"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "dataq/6"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "datay/1"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/bbc2.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/bbc2.png"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/classic.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/classic.png"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/manifest.json"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "r28-font/story12.fnt"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "story12.fnt"
+    ],
+    [
+      "patch.pak",
+      "bbc2.fnt"
+    ],
+    [
+      "patch.pak",
+      "classic.fnt"
+    ],
+    [
+      "patch.pak",
+      "dataq/6"
+    ],
+    [
+      "patch.pak",
+      "datav/1"
+    ],
+    [
+      "patch.pak",
+      "r28-font/bbc2.fnt"
+    ],
+    [
+      "patch.pak",
+      "r28-font/bbc2.png"
+    ],
+    [
+      "patch.pak",
+      "r28-font/classic.fnt"
+    ],
+    [
+      "patch.pak",
+      "r28-font/classic.png"
+    ],
+    [
+      "patch.pak",
+      "r28-font/manifest.json"
+    ],
+    [
+      "patch.pak",
+      "r28-font/story12.fnt"
+    ],
+    [
+      "patch.pak",
+      "story12.fnt"
+    ]
+  ],
+  "new_codepoints": [
+    "0x60ec"
+  ],
+  "installed": false,
+  "game_started": false,
+  "user_save_accessed": false,
+  "real_clip_CRT_input_verified": false,
+  "limitations": [
+    "CPU 与静态复核；未安装、未启动游戏、未访问存档",
+    "未做真实 GPU/CRT/输入/全场景层次验收",
+    "R2/R3 的 missing 计数是朴素子串匹配口径，仅用于 c8/c9 同口径对照"
+  ]
+}

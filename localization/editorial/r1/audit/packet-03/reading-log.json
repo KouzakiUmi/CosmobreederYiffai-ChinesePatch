@@ -1,0 +1,181 @@
+{
+  "packet": "packet-03",
+  "packet_sha256": "8318391c5812accb5697008c8d267ceb86b737acdba7f8eb7f42171d424c696b",
+  "reader_sha256": "abe11b0c560502121258a60f48ffd048b37942d77acd2fba767469c5c1a86d05",
+  "reading_method": "read工具连续小段通读；脚本仅用于精确引用/ID/覆盖schema生成与校验，不替代语义阅读",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2500
+    ],
+    [
+      2501,
+      2531
+    ]
+  ],
+  "reader_total_lines": 2531,
+  "reader_output_truncated": false,
+  "reader_read_full": true,
+  "reference_reads": {
+    "LOCALIZATION_BRIEF.md": "1-65",
+    "WORK_ORDERS.md": "1-48",
+    "characters-primary.md": "1-277（原请求发生裁剪，随后补278-377，已全读）",
+    "characters-support.md": "1-128",
+    "world-and-plot.md": "1-150、151-300、301-406；完稿前全读复核，无裁剪"
+  },
+  "scene_count": 297,
+  "row_count": 1385,
+  "unique_row_count": 1385,
+  "alias_count": 433,
+  "finding_count": 44,
+  "finding_counts": {
+    "B": 34,
+    "A": 8,
+    "C": 2
+  },
+  "limitations": [
+    "所有read_full仅指本包工单文字已完整通读，不等于完整游戏全文/运行验证",
+    "code仅inventory；嵌套JSON实显用途待核；未做图片/音频/实机验证",
+    "未正式应用、未approved、未改译文或catalog、未部署",
+    "世界观参照已补读复核：W17幼崽/成人回忆边界、W19女线弟弟驾驶、W20气密套装、D04精灵让步、H01-H05记忆叙述、R06不可靠自夸均已对照；非终裁"
+  ],
+  "validation": {
+    "coverage_scene_ids_exact": true,
+    "coverage_primary_row_ids_exact": true,
+    "aliases_preserved": true,
+    "findings_row_ids_valid": true
+  },
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-03.reader.md",
+  "input_sha256": "abe11b0c560502121258a60f48ffd048b37942d77acd2fba767469c5c1a86d05",
+  "packet_input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-03.json",
+  "truncated_ranges": [],
+  "references_read": [
+    {
+      "path": "localization/editorial/r1/reference/characters-primary.md",
+      "ranges": [
+        [
+          1,
+          277
+        ],
+        [
+          278,
+          377
+        ]
+      ],
+      "read_full": true
+    },
+    {
+      "path": "localization/editorial/r1/reference/characters-support.md",
+      "ranges": [
+        [
+          1,
+          128
+        ]
+      ],
+      "read_full": true
+    },
+    {
+      "path": "localization/editorial/r1/reference/world-and-plot.md",
+      "ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          300
+        ],
+        [
+          301,
+          406
+        ]
+      ],
+      "read_full": true
+    },
+    {
+      "path": "localization/editorial/r1/LOCALIZATION_BRIEF.md",
+      "ranges": [
+        [
+          1,
+          65
+        ]
+      ],
+      "read_full": true
+    },
+    {
+      "path": "localization/editorial/r1/WORK_ORDERS.md",
+      "ranges": [
+        [
+          1,
+          48
+        ]
+      ],
+      "read_full": true
+    }
+  ],
+  "world_reference_recheck_completed": true
+}

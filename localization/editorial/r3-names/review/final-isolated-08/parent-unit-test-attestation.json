@@ -1,0 +1,14 @@
+{
+  "schema": "r3.parent-test-completion-attestation.v1",
+  "source": "parent agent session-d223eed1-4c8b-4373-b30f-83132e5dc670 completion message in this review turn",
+  "reported": {
+    "compiler_unit_tests": 13,
+    "compiler_unit_tests_status": "passed",
+    "nickname_exact_carriers": 3,
+    "negative_boundary_assertions": 2,
+    "additional_assertions_status": "passed"
+  },
+  "independent_reexecution": false,
+  "scope": "Parent-reported supplementary test completion, not invented raw execution output. Candidate8 archive, actual17CPU and independent residual/glyph/class checks are separately verified and SHA-pinned.",
+  "raw_current_run_log": "not supplied at initial finalization; do not substitute historical proposed-preview unit-tests.log"
+}

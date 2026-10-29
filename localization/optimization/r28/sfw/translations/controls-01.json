@@ -1,0 +1,44 @@
+{
+  "ds:19ac028a7da30a67": {
+    "source": "[\"BY PRESSING UP+ATTACK SIMULTANEOUSLY!\"]",
+    "translation": "[“同时按下UP+ATTACK！”]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:eb0ca74b519704f1": {
+    "source": "[I CAN PRESS UP+ATTACK TO LAUNCH A HOOK]",
+    "translation": "[我可以按UP+ATTACK射出钩子。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4f9cb377b293f340": {
+    "source": "[THAAAAAT'S RIGHT, JUST PRESS UP+ATTACK]",
+    "translation": "[没——错，只要按UP+ATTACK，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c98222b5c5741047": {
+    "source": "[\"AND THEN USE THE ABILITY WITH UP+ATTACK\"]",
+    "translation": "[“然后用UP+ATTACK施放能力。”]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:6a26c12dbc2df4ef": {
+    "source": "DOWN+JUMP TO|HYPER SLIDE!",
+    "translation": "按DOWN+JUMP|超级滑行！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:67053210d96ce656": {
+    "source": "DOWN+JUMP MID-|AIR DIVEKICKS!",
+    "translation": "空中按DOWN+JUMP|使出俯冲踢！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:a9fd6c83a63b50d4": {
+    "source": "UP+ATK WITHOUT|PSY ABILITY ON",
+    "translation": "未开启精神能力时|按UP+ATK",
+    "status": "candidate",
+    "notes": []
+  }
+}

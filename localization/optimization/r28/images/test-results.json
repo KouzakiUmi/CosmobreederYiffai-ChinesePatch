@@ -1,0 +1,784 @@
+{
+  "passed": true,
+  "target_rows": 243,
+  "redrawn_rows": 79,
+  "retained_rows": 164,
+  "exact_text_blocks_checked": 125,
+  "negative_cases_rejected": [
+    "RGB-under-alpha-outside-mask",
+    "alpha-change-even-inside-mask",
+    "unsupported-variant",
+    "non-RGBA-page",
+    "missing-ordinal-identity",
+    "stale-source-hash-jar",
+    "wrong-ordinal-jar",
+    "stale-source-hash-patch",
+    "wrong-ordinal-patch"
+  ],
+  "source_tilemap_sha256": "c51673200dc3d4c794b8cbb6e7496837cce357ab8d1431cc6f03bacd6a044d1c",
+  "sign_tilemap_evidence": [
+    {
+      "map": "Area0_map15.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        1,
+        5
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "Area0_map15.tmx",
+      "layer": "StaticBG2",
+      "xy": [
+        1,
+        7
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 54
+    },
+    {
+      "map": "Area0_map22.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        3,
+        16
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "Area0_map52.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        13,
+        5
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaA_map02.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        1,
+        1
+      ],
+      "tileset": "ClassicTileset0A.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaB_map11.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        12,
+        32
+      ],
+      "tileset": "ClassicTileset0B.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaC_map05.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        13,
+        2
+      ],
+      "tileset": "ClassicTileset0C.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaC_map52.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        2,
+        2
+      ],
+      "tileset": "ClassicTileset0C.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaH_map01.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        1,
+        1
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 1
+    },
+    {
+      "map": "AreaH_map02.tmx",
+      "layer": "StaticBG1",
+      "xy": [
+        1,
+        2
+      ],
+      "tileset": "ClassicTileset0.tsx",
+      "right_tile_local": 1
+    }
+  ],
+  "atlas_reports": [
+    {
+      "variant": "jar",
+      "replacement_count": 41,
+      "source_page_rawRGBA_sha256": "ec217bd4c5936332700fb5031c441736048b04a3dcf7de7d3c8cb3b65a7bfdcf",
+      "output_page_rawRGBA_sha256": "2141f9521ec61d4f40a345d33aab1d3fa99d9daabe32f9ae33e2aada1e912a15",
+      "records": [
+        {
+          "logical_name": "CardViewMenuBG",
+          "index": 1,
+          "ordinal": 95,
+          "changed_pixels": 733,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CardViewMenuBGTitle",
+          "index": 1,
+          "ordinal": 96,
+          "changed_pixels": 733,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicHUDBreedMenu",
+          "index": 1,
+          "ordinal": 2505,
+          "changed_pixels": 1524,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicHUDSubBreed",
+          "index": 1,
+          "ordinal": 2506,
+          "changed_pixels": 1525,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoCodecMenuBG",
+          "index": 1,
+          "ordinal": 6108,
+          "changed_pixels": 1848,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoItemMenuBG",
+          "index": 1,
+          "ordinal": 6270,
+          "changed_pixels": 1082,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoMissionLogMenuBG",
+          "index": 1,
+          "ordinal": 6277,
+          "changed_pixels": 2252,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSaveMenuBG",
+          "index": 1,
+          "ordinal": 6279,
+          "changed_pixels": 4176,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoNameEntryMenuBG",
+          "index": 1,
+          "ordinal": 6278,
+          "changed_pixels": 3570,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubData",
+          "index": 1,
+          "ordinal": 6281,
+          "changed_pixels": 1380,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubMapBG",
+          "index": 1,
+          "ordinal": 6282,
+          "changed_pixels": 1146,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubMapV2BG",
+          "index": 1,
+          "ordinal": 6283,
+          "changed_pixels": 867,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoTitleData",
+          "index": 1,
+          "ordinal": 6284,
+          "changed_pixels": 1380,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicPretitleGamepad",
+          "index": 1,
+          "ordinal": 3207,
+          "changed_pixels": 6067,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGalleryBG",
+          "index": 1,
+          "ordinal": 6109,
+          "changed_pixels": 2563,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGalleryViewerBG",
+          "index": 1,
+          "ordinal": 6110,
+          "changed_pixels": 2563,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoShopBG",
+          "index": 1,
+          "ordinal": 6280,
+          "changed_pixels": 625,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGameOverBG",
+          "index": 1,
+          "ordinal": 6111,
+          "changed_pixels": 232,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGameOverLiteBG",
+          "index": 1,
+          "ordinal": 6252,
+          "changed_pixels": 232,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "Observe",
+          "index": 1,
+          "ordinal": 6551,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 1,
+          "ordinal": 6552,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 4,
+          "ordinal": 6553,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItem",
+          "index": 1,
+          "ordinal": 6797,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 1,
+          "ordinal": 6798,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 4,
+          "ordinal": 6799,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgram",
+          "index": 1,
+          "ordinal": 6804,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 1,
+          "ordinal": 6805,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 4,
+          "ordinal": 6806,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 1,
+          "ordinal": 6268,
+          "changed_pixels": 105,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKActive",
+          "index": 1,
+          "ordinal": 2908,
+          "changed_pixels": 46,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKInactive",
+          "index": 1,
+          "ordinal": 2909,
+          "changed_pixels": 82,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 1,
+          "ordinal": 6795,
+          "changed_pixels": 496,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 4,
+          "ordinal": 6796,
+          "changed_pixels": 496,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 1,
+          "ordinal": 6800,
+          "changed_pixels": 467,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 4,
+          "ordinal": 6801,
+          "changed_pixels": 467,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0",
+          "index": -1,
+          "ordinal": 4268,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0A",
+          "index": -1,
+          "ordinal": 4269,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0B",
+          "index": -1,
+          "ordinal": 4270,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0C",
+          "index": -1,
+          "ordinal": 4271,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0F",
+          "index": -1,
+          "ordinal": 4272,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoCasino2",
+          "index": 1,
+          "ordinal": 6101,
+          "changed_pixels": 277,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        }
+      ],
+      "archive_sha256": "dc6b0cedc3a3b2f6f51941a2cef449d33ec87d314ee64ea63495c3ffdebd06be",
+      "atlas_changed_pixels": 40053,
+      "changed_pixels_outside_approved_mask": 0,
+      "alpha_changed_pixels": 0,
+      "retained_rows_exact": 80,
+      "input_not_mutated": true
+    },
+    {
+      "variant": "patch",
+      "replacement_count": 38,
+      "source_page_rawRGBA_sha256": "bc5fe2a231eb180bfc27e9ff1cbfc5ce424fc2ca181e97d5178aba2edc7d944e",
+      "output_page_rawRGBA_sha256": "37eb35d37504c49bb20005928b63a230aeccc463884dabe5f1e6f0b48840d31c",
+      "records": [
+        {
+          "logical_name": "CardViewMenuBG",
+          "index": 1,
+          "ordinal": 95,
+          "changed_pixels": 1153,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicHUDBreedMenu",
+          "index": 1,
+          "ordinal": 2505,
+          "changed_pixels": 1550,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicHUDSubBreed",
+          "index": 1,
+          "ordinal": 2506,
+          "changed_pixels": 1514,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoCodecMenuBG",
+          "index": 1,
+          "ordinal": 6352,
+          "changed_pixels": 1769,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoItemMenuBG",
+          "index": 1,
+          "ordinal": 6514,
+          "changed_pixels": 1082,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoMissionLogMenuBG",
+          "index": 1,
+          "ordinal": 6521,
+          "changed_pixels": 2252,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSaveMenuBG",
+          "index": 1,
+          "ordinal": 6523,
+          "changed_pixels": 4431,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoNameEntryMenuBG",
+          "index": 1,
+          "ordinal": 6522,
+          "changed_pixels": 3871,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubData",
+          "index": 1,
+          "ordinal": 6525,
+          "changed_pixels": 1476,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubMapBG",
+          "index": 1,
+          "ordinal": 6526,
+          "changed_pixels": 1146,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoSubMapV2BG",
+          "index": 1,
+          "ordinal": 6527,
+          "changed_pixels": 867,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGalleryBG",
+          "index": 1,
+          "ordinal": 6353,
+          "changed_pixels": 2563,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGalleryViewerBG",
+          "index": 1,
+          "ordinal": 6354,
+          "changed_pixels": 2563,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoShopBG",
+          "index": 1,
+          "ordinal": 6524,
+          "changed_pixels": 625,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGameOverBG",
+          "index": 1,
+          "ordinal": 6355,
+          "changed_pixels": 232,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoGameOverLiteBG",
+          "index": 1,
+          "ordinal": 6496,
+          "changed_pixels": 232,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "Observe",
+          "index": 1,
+          "ordinal": 6795,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ObserveClose",
+          "index": 1,
+          "ordinal": 6796,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ObserveOpen",
+          "index": 4,
+          "ordinal": 6797,
+          "changed_pixels": 341,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItem",
+          "index": 1,
+          "ordinal": 7041,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItemClose",
+          "index": 1,
+          "ordinal": 7042,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectItemOpen",
+          "index": 4,
+          "ordinal": 7043,
+          "changed_pixels": 515,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgram",
+          "index": 1,
+          "ordinal": 7048,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgramClose",
+          "index": 1,
+          "ordinal": 7049,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectProgramOpen",
+          "index": 4,
+          "ordinal": 7050,
+          "changed_pixels": 650,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoHUDUpdatedFlagDefault",
+          "index": 1,
+          "ordinal": 6512,
+          "changed_pixels": 105,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKActive",
+          "index": 1,
+          "ordinal": 2908,
+          "changed_pixels": 46,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicNameEntryBoxOKInactive",
+          "index": 1,
+          "ordinal": 2909,
+          "changed_pixels": 82,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectAgentClose",
+          "index": 1,
+          "ordinal": 7039,
+          "changed_pixels": 496,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectAgentOpen",
+          "index": 4,
+          "ordinal": 7040,
+          "changed_pixels": 496,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectMapClose",
+          "index": 1,
+          "ordinal": 7044,
+          "changed_pixels": 467,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "SelectMapOpen",
+          "index": 4,
+          "ordinal": 7045,
+          "changed_pixels": 467,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0",
+          "index": -1,
+          "ordinal": 4512,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0A",
+          "index": -1,
+          "ordinal": 4513,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0B",
+          "index": -1,
+          "ordinal": 4514,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0C",
+          "index": -1,
+          "ordinal": 4515,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "ClassicTileset0F",
+          "index": -1,
+          "ordinal": 4516,
+          "changed_pixels": 214,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        },
+        {
+          "logical_name": "CosmoCasino2",
+          "index": 1,
+          "ordinal": 6345,
+          "changed_pixels": 277,
+          "changed_pixels_outside_approved_mask": 0,
+          "alpha_changed_pixels": 0
+        }
+      ],
+      "archive_sha256": "d2e21deeb85d74e981770b247625ee7ceb7ed39ae566305c1833c2c3d97b54d5",
+      "atlas_changed_pixels": 32881,
+      "changed_pixels_outside_approved_mask": 0,
+      "alpha_changed_pixels": 0,
+      "retained_rows_exact": 84,
+      "input_not_mutated": true
+    }
+  ],
+  "scope": "read-only original archives + in-memory overlay; only this JSON report written to image staging"
+}

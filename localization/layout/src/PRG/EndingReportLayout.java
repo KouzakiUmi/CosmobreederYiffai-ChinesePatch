@@ -21,33 +21,11 @@ public final class EndingReportLayout {
      * formatter only pads to two rows and silently loses excess source in consumers.
      * Preserve explicit | lines and $ line style; never return an overlong block. */
     public static String formatData(amw original, String text, amq columns, amv minimumRows, boolean normalize) {
-        if (!hasHan(text) || columns != Ol.MODULE$ || minimumRows != Oa.MODULE$ || normalize)
+        if (columns != Ol.MODULE$ || minimumRows != Oa.MODULE$ || normalize)
             return original.a(text, columns, minimumRows, normalize);
-        StringBuilder out = new StringBuilder(84);
-        int rows = 0;
-        for (String line : text.split("\\|", -1)) {
-            boolean styled = line.startsWith("$");
-            String payload = styled ? line.substring(1) : line;
-            int capacity = styled ? 27 : 28;
-            int at = 0;
-            do {
-                int end = Math.min(payload.length(), at + capacity);
-                if (end < payload.length() && Character.isHighSurrogate(payload.charAt(end - 1))) end--;
-                if (++rows > 3) throw new IllegalArgumentException("Ending data description exceeds 28 columns x 3 rows: " + text);
-                int start = out.length();
-                if (styled) out.append('$');
-                for (int i = at; i < end; i++) {
-                    char ch = payload.charAt(i);
-                    if (ch == '\n' || ch == '\r' || Character.isISOControl(ch))
-                        throw new IllegalArgumentException("Ending data description contains a control character");
-                    out.append(ch);
-                }
-                while (out.length() - start < 28) out.append(' ');
-                at = end;
-            } while (at < payload.length());
-        }
-        while (out.length() < 84) out.append(' ');
-        return out.toString();
+        // English goes through the same source-conserving path: the original
+        // formatter's second wrapping pass lost two actual SFW closing ']'.
+        return SceneText.fixedGrid(text, 28, 3, true);
     }
 
     public static void drawData(SN target, String text, int x, int y, String originalRole) {

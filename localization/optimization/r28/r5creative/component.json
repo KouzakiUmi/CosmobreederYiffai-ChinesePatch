@@ -1,0 +1,26 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "ledger": "localization/translations/editorial-r5-creative-repairs.jsonl",
+  "gate": "localization/editorial/r5-creative/reports/creative-01/build-gate.json",
+  "decisions": "localization/editorial/r5-creative/reports/creative-01/decisions.tsv",
+  "required_data": [
+    "../../../translations/editorial-r5-creative-repairs.jsonl",
+    "../../../editorial/r5-creative/reports/creative-01/build-gate.json",
+    "../../../editorial/r5-creative/reports/creative-01/decisions.tsv",
+    "../../../editorial/r5-creative/tools/verify_creative.py"
+  ],
+  "required_chars": [
+    "确实，看来图托恩的矿，都\"认了主\"。",
+    "认了主的东西，会自己炸毛。",
+    "波苏的意思是，那些老矿工在自己矿里埋了雷——谁碰炸谁，好让人记住\"这矿是我家的\"！",
+    "波苏是说，老矿工在自己的矿井里埋了地雷，等于立块牌子：“这矿是我家的，谁也别碰！”",
+    "波苏，我进来了。",
+    "希望你别进来，孩子。",
+    "纳——米——机……什么鸡？",
+    "——总之！他手脚很不老实，我只好使尽浑身解数把他打退！",
+    "这儿这个小色狼不值钱，拿去用吧！就像他当初那样\"用\" ;3！"
+  ]
+}

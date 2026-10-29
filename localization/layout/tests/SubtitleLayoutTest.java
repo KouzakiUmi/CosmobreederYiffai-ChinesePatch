@@ -12,6 +12,11 @@ public final class SubtitleLayoutTest {
     static long checks;
     static int commands, renderedPages, manualOverflow, autoOverflow;
     static PixelLayout.Metrics metrics, storyMetrics;
+    static boolean patternSymbols;
+    static Method encodeMask;
+    static CpuPatternFont patternFont;
+    static final Map<Integer,int[][]> patternInk=new HashMap<Integer,int[][]>();
+    static int patternInkLeft,patternInkRight;
     static final amX META = new amX(null, Ol.MODULE$, Om.MODULE$, null);
     static final Method CALLBACK;
     static { try { CALLBACK = jo.class.getDeclaredMethod("a", jo.class, String.class, azK.class,
@@ -34,6 +39,13 @@ public final class SubtitleLayoutTest {
             return null;
         });
     public static void main(String[] args) throws Exception {
+        patternSymbols=args.length>2 && args[2].equals("--pattern-symbols");
+        if(patternSymbols) {
+            Class<?> symbols=Class.forName("PRG.PatternSymbols");
+            encodeMask=symbols.getMethod("encodeMask",String.class);
+            check(args.length>3,"strict symbol mode requires independently extracted original-atlas ink properties");
+            loadPattern((String)symbols.getField("DINGBATS_SHA256").get(null),Paths.get(args[3]));
+        }
         try(InputStream in=new FileInputStream(args[0])) {metrics=DialogueWrap.readMetrics(in);}
         eq(metrics.glyph('这').xAdvance,10.0,"pinned actual Han advance");
         eq(metrics.glyph('A').xAdvance,8.0,"pinned actual ASCII advance");
@@ -49,8 +61,9 @@ public final class SubtitleLayoutTest {
         check(exact20.get(0).lines.get(1).isEmpty(),"exact20 has no tail row");
         check(SubtitleLayout.pages(repeat("这",21),28).get(0).lines.get(0).length()<=20,"21st Han wraps within 240px");
         String legalMixed29="这AAAAAAAAAAAAAAAAAAAAAAAAAAAA";
-        try { DialogueGrid.format(legalMixed29,storyMetrics,28,3,240); throw new AssertionError("legacy UTF16 contract changed"); }
-        catch(IllegalArgumentException expected) { checks++; }
+        List<DialogueGrid.Page> capped=DialogueGrid.format(legalMixed29,storyMetrics,28,3,240);
+        check(capped.get(0).lines.get(0).length()<=28,"simultaneous legacy UTF16 cap");
+        eq(capped.get(0).lines.get(0)+capped.get(0).lines.get(1),legalMixed29,"cap conserves text");
         run(new anp(new amr.h(legalMixed29,"utf16-cap"),"default"),legalMixed29,"synthetic/legal-236px-29UTF16");
         pictureCase("[3P组织]已成为推动太空探索的一股重要力量。");
         pictureCase("毕竟，谁又能说清遥远的未知星球上潜藏着什么危险……");
@@ -123,7 +136,7 @@ public final class SubtitleLayoutTest {
         for(int i=0;i<expected.size();i++) {
             amG active=(amG)result.f().f(); amn animation=active.a();
             eq(animation.a(),SubtitleLayout.animationGrid(expected.get(i).grid,28),"actual entry/continuation grid "+root);
-            check(animation.a().trim().isEmpty() || animation.a().charAt(0)!=' ',"no leading-padding amn trim-index truncation");
+            eq(animation.a(),expected.get(i).grid,"source indentation and blank rows preserved exactly");
             eq(animation.a().replace(" ",""),expected.get(i).grid.replace(" ",""),"actual animation preserves every source ink character");
             eq(active.f(),auto?((amH)command).f():((anp)command).e(),"original style");
             if(auto)eq(active.e().f(),Double.valueOf(result.e()+((amH)command).e()),"original auto delay per page");
@@ -136,13 +149,18 @@ public final class SubtitleLayoutTest {
             check(animation.c(animation.i()),"real amn original completion");
             eq(animation.a(animation.i()+1),animation.a(),"real completed mask");
             amn skipped=animation.a(animation.a(),animation.e(),new aAw(100.01),animation.g());
-            eq(skipped.a(100.02,true),animation.a().trim().length(),"original amn skip completion");
+            eq(skipped.a(100.02,true),DialogueWrap.terminalText(amr.e.MODULE$,animation.a()).length(),"skip reaches absolute terminal source index");
             eq(skipped.a(101.0),animation.a(),"original skipped amn full mask");
             draws.clear();
             CALLBACK.invoke(null,new jo(result,28,false,SN_RECORD,16,54,Ol.MODULE$,null),active.f(),
                 active.e(),skipped,skipped.a(101.0,true),skipped.a(101.0),true);
             eq(draws.size(),3,"real copied/skip amn reaches jo");
-            for(int row=0;row<3;row++)eq(draws.get(row).text,animation.a().substring(row*28,(row+1)*28),"skip frame exact source row");
+            boolean skipPattern=active.f().equals("HardFox") || active.f().equals("Fox");
+            for(int row=0;row<3;row++) {
+                Draw draw=draws.get(row);
+                eq(draw.text,expectedRow(skipPattern,animation.a().substring(row*28,(row+1)*28)),"skip frame exact source row or verified symbol encoding");
+                if(!skipPattern || patternSymbols)ink(draw);
+            }
             check(tailCount[0]==0,"no premature original tail event");
             // Original anh drains remaining amW only after active state clears.
             result=change(result,result.e()+10,azI.MODULE$).a(META);
@@ -161,19 +179,21 @@ public final class SubtitleLayoutTest {
             draws.clear(); CALLBACK.invoke(null,renderer,active.f(),active.e(),animation,r,mask,true);
             eq(draws.size(),3,"real jo emits original three SN rows");
             for(int row=0;row<3;row++) {
-                Draw draw=draws.get(row);eq(draw.text,mask.substring(row*28,(row+1)*28),"actual source row");
+                Draw draw=draws.get(row);
                 boolean pattern=active.f().equals("HardFox") || (active.f().equals("Fox") && !readableFox);
+                eq(draw.text,expectedRow(pattern,mask.substring(row*28,(row+1)*28)),"actual source row or verified symbol encoding");
                 boolean cjk=StoryFont12.uses12(animation.a()) && !pattern;
                 eq(draw.role,pattern?"dingbats":cjk?StoryFont12.ROLE:"default","font role follows full animation, never current mask row");
                 eq(draw.x,cjk?8:16,"story12 x8 / pure ASCII or dingbats legacy x16");
                 eq(draw.y,54-16*row,"real jo unchanged line step");
-                // Patterns deliberately retain the ORIGINAL dingbats font; do
-                // not pretend default10 or story12 describes its symbol ink.
-                if(!pattern)ink(draw);
+                // Candidate symbol mode measures the actual pinned dingbats, never
+                // default10/story12. Frozen baseline retains its known unsupported glyph defect.
+                if(!pattern || patternSymbols)ink(draw);
             }
         }
     }
     static void ink(Draw draw) {
+        if("dingbats".equals(draw.role)){patternGeometry(draw);return;}
         PixelLayout.Metrics selected=StoryFont12.ROLE.equals(draw.role)?storyMetrics:metrics;
         int width=StoryFont12.ROLE.equals(draw.role)?SubtitleLayout.LINE_WIDTH:SubtitleLayout.LEGACY_LINE_WIDTH;
         double x=draw.x;int previous=-1;
@@ -187,6 +207,72 @@ public final class SubtitleLayoutTest {
             }
             x+=g.xAdvance;previous=cp;at+=Character.charCount(cp);
         }
+    }
+    static void patternGeometry(Draw draw) {
+        // Use ORIGINAL arr and exact original atlas channel bounds. A padded FNT
+        // quad is not alpha/red ink: O at anchor16 has quad15..26, ink15..23.
+        arr layout=new arr();layout.a(patternFont,draw.text,0,draw.text.length(),new ara(1,1,1,1),0,8,false,null);
+        int actual=0,expected=0;
+        for(int i=0;i<draw.text.length();i++)if(draw.text.charAt(i)!=' ')expected++;
+        for(int r=0;r<layout.a.b;r++) {
+            arr.a run=layout.a.a(r);float x=draw.x+run.c;
+            for(int i=0;i<run.a.b;i++) {
+                x+=run.b.a[i];arp.b g=run.a.a(i);
+                if(g.a==' ')continue;
+                check(patternFont.data.a((char)g.a)==g,"original arr direct selected glyph, never missingGlyph");
+                eq(g.l,8,"original dingbats advance8");eq(g.j,-1,"original padded xoffset");
+                eq(g.d,11,"original padded quad width");eq(g.e,12,"original padded quad height");
+                float left=x+g.j,top=draw.y+run.d+g.k;
+                check(left>=0 && left+g.d<=256,"actual arr padded quad inside logical256 horizontal");
+                check(top>=0 && top+g.e<=256,"actual arr padded quad inside logical256 vertical");
+                int[][] boxes=patternInk.get(g.a);check(boxes!=null,"actual source atlas has alpha AND red ink for every revealed symbol");
+                for(int[] box:boxes) {
+                    check(box[2]>box[0] && box[3]>box[1],"sampled channel ink is nonempty");
+                    check(left+box[0]>=draw.x+patternInkLeft && left+box[2]<=draw.x+patternInkRight,"actual arr plus original atlas alpha/red ink inside original symbol content envelope");
+                }
+                actual++;
+            }
+        }
+        eq(actual,expected,"original arr emits one real visible symbol for every revealed nonblank source unit");
+    }
+    static String expectedRow(boolean pattern,String raw)throws Exception {
+        return pattern && patternSymbols ? (String)encodeMask.invoke(null,raw) : raw;
+    }
+    static final class CpuPatternFile extends aqX {
+        final byte[] bytes;
+        CpuPatternFile(byte[] bytes){super();this.bytes=bytes;this.a=new File("dingbats.fnt");}
+        @Override public InputStream e(){return new ByteArrayInputStream(bytes);}
+        @Override public aqX d(){return this;}
+        @Override public aqX b(String child){return this;}
+    }
+    static final class CpuPatternFont extends arp {
+        final arp.a data;
+        CpuPatternFont(byte[] raw){this(new arp.a(new CpuPatternFile(raw),false));}
+        CpuPatternFont(arp.a data){super(data,new arI(),false);this.data=data;}
+        @Override protected void a(arp.a data){/* no texture upload, GL or resource construction */}
+    }
+    static void loadPattern(String expectedSha,Path atlasProperties)throws Exception {
+        byte[] raw;
+        try(InputStream in=SubtitleLayoutTest.class.getResourceAsStream("/dingbats.fnt");ByteArrayOutputStream out=new ByteArrayOutputStream()) {
+            if(in==null)throw new IOException("missing actual dingbats FNT");
+            byte[] buffer=new byte[8192];for(int n;(n=in.read(buffer))!=-1;)out.write(buffer,0,n);raw=out.toByteArray();
+        }
+        StringBuilder sha=new StringBuilder();for(byte b:java.security.MessageDigest.getInstance("SHA-256").digest(raw))sha.append(String.format("%02x",b&255));
+        eq(sha.toString(),expectedSha,"actual dingbats font pin");
+        Properties props=new Properties();try(Reader reader=Files.newBufferedReader(atlasProperties,StandardCharsets.UTF_8)){props.load(reader);}
+        eq(props.getProperty("fnt_sha256"),expectedSha,"independently sampled candidate-atlas bounds belong to actual pinned FNT");
+        patternInkLeft=Integer.parseInt(props.getProperty("ink_left"));patternInkRight=Integer.parseInt(props.getProperty("ink_right"));
+        for(String key:props.stringPropertyNames())if(key.endsWith(".alpha")) {
+            int cp=Integer.parseInt(key.substring(0,key.length()-6));int[][] boxes=new int[2][4];
+            String[] channels={"alpha","red"};
+            for(int c=0;c<2;c++) {
+                String[] fields=props.getProperty(cp+"."+channels[c]).split(",");eq(fields.length,4,"actual atlas channel bbox");
+                for(int n=0;n<4;n++)boxes[c][n]=Integer.parseInt(fields[n]);
+            }
+            patternInk.put(cp,boxes);
+        }
+        check(patternInk.size()>0,"nonempty independently sampled original glyph table");
+        patternFont=new CpuPatternFont(raw);
     }
     static void tail()throws Exception {
         String grid=SubtitleLayout.pages("原尾事件与提示",28).get(0).grid;

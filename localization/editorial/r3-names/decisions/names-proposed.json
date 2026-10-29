@@ -1,0 +1,801 @@
+{
+  "schema": "r3.character-names.v1",
+  "status": "proposed_for_independent_review",
+  "baseline": "localization/builds/r28-editorial-repairs-candidate6",
+  "names": [
+    {
+      "name_id": "Mauser",
+      "source_forms": [
+        "Mauser"
+      ],
+      "old_forms": [
+        "毛瑟"
+      ],
+      "target": "毛鼠",
+      "reason": "保Mauser近音，以鼠保已证鼠身份；中文音义创译，不声称作者释名，军武联想只能部分保留。",
+      "action": "rename_or_standardize",
+      "current_carriers": 31,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Mauser"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Tomcat",
+      "source_forms": [
+        "Tomcat"
+      ],
+      "old_forms": [
+        "Tomcat"
+      ],
+      "target": "雄猫",
+      "reason": "保tomcat词义及电台呼号感；角色相关成人双关仍由原对白承接，不改成色猫。",
+      "action": "rename_or_standardize",
+      "current_carriers": 94,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Tomcat"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": [
+        {
+          "source_forms": [
+            "TOM",
+            "Tom"
+          ],
+          "old_forms": [
+            "汤姆"
+          ],
+          "target": "阿雄",
+          "reason": "仅原文TOM昵称位置保亲近，不添年龄/军阶。"
+        }
+      ]
+    },
+    {
+      "name_id": "Yiffai",
+      "source_forms": [
+        "Yiffai"
+      ],
+      "old_forms": [
+        "YIFFAI",
+        "伊法伊"
+      ],
+      "target": "伊吠",
+      "reason": "与姐姐整组音义创译：伊保近音，吠取已证犬类发声层；不声称吠完整等于yiff成人义，不新增狐狼亚种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 295,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Yiffai"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Yiffany",
+      "source_forms": [
+        "Yiffany",
+        "Yifany"
+      ],
+      "old_forms": [
+        "伊法妮"
+      ],
+      "target": "伊吠妮",
+      "reason": "共享伊吠词根并以妮保女名形式，姓氏仍为伊吠；这是中文功能补偿而非作者构词定论。",
+      "action": "rename_or_standardize",
+      "current_carriers": 231,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Yiffany",
+        "Yifany"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Bossu",
+      "source_forms": [
+        "Bossu"
+      ],
+      "old_forms": [
+        "BOSSU",
+        "Bossu",
+        "波苏"
+      ],
+      "target": "波苏",
+      "reason": "boss领导层可见，物种未证，不硬牛化或狗化；既有姓名自然，统一当前英文/中文写法。",
+      "action": "rename_or_standardize",
+      "current_carriers": 121,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Bossu"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Macsen",
+      "source_forms": [
+        "Macsen"
+      ],
+      "old_forms": [],
+      "target": "麦森",
+      "reason": "保近音和商人身份的姓名感；无可见姓名源时不新增露脸或把匿名商贩强命名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 0,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Macsen"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "The0",
+      "source_forms": [
+        "The0"
+      ],
+      "old_forms": [
+        "The0"
+      ],
+      "target": "The0",
+      "reason": "保数字0的黑客代号样式；不纯音译西奥而丢0，不依据名字推神名或犬亚种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 4,
+      "preserve_ascii_case": true,
+      "radio_aliases": [
+        "The0"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Gitgud",
+      "source_forms": [
+        "Gitgud"
+      ],
+      "old_forms": [],
+      "target": "季高",
+      "reason": "季高谐技高，中文编辑补偿原git gud游戏技能梗；不声称姓季是原作设定，无可见源不新增揭名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 0,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Gitgud"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Starkill",
+      "source_forms": [
+        "Starkill"
+      ],
+      "old_forms": [
+        "星杀"
+      ],
+      "target": "星杀",
+      "reason": "保受控代号及揭示时点，不以改名把后期真身份灌到前期。",
+      "action": "rename_or_standardize",
+      "current_carriers": 12,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Starkill"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/core.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Yogo",
+      "source_forms": [
+        "Yogo"
+      ],
+      "old_forms": [
+        "约戈"
+      ],
+      "target": "约戈",
+      "reason": "无可靠动物词义，保现有可呼叫姓名，不由熟悉犬科推本人犬科。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Yogo"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Buntleen",
+      "source_forms": [
+        "Buntleen"
+      ],
+      "old_forms": [
+        "邦特琳"
+      ],
+      "target": "邦妮琳",
+      "reason": "Bun与原文明示BUNNY的联想转为邦妮加琳，保女性姓名形与兔趣，不定亚种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Buntleen"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Kahr",
+      "source_forms": [
+        "Kahr"
+      ],
+      "old_forms": [
+        "卡尔"
+      ],
+      "target": "卡尔",
+      "reason": "保近音和可核同名军武层；不凭拟声推猫种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Kahr"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Komet",
+      "source_forms": [
+        "Komet"
+      ],
+      "old_forms": [
+        "科梅特"
+      ],
+      "target": "彗珂",
+      "reason": "以已核Komet彗星义配Ko近音形成短名；不新增速度/战机/种族事实。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Komet"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Erma",
+      "source_forms": [
+        "Erma"
+      ],
+      "old_forms": [
+        "厄玛"
+      ],
+      "target": "艾玛",
+      "reason": "用自然中文姓名近音，不以厄字强化灾厄含义；水獭身份不硬塞进名字。",
+      "action": "rename_or_standardize",
+      "current_carriers": 7,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Erma"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Daleir",
+      "source_forms": [
+        "Daleir"
+      ],
+      "old_forms": [
+        "达莱尔",
+        "黛蕾尔"
+      ],
+      "target": "黛蕾",
+      "reason": "保主要音节与姓名感，统一标题达莱尔和正文黛蕾尔；不凭近形认定诱骗词源。",
+      "action": "rename_or_standardize",
+      "current_carriers": 10,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Daleir"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Nambu",
+      "source_forms": [
+        "Nambu"
+      ],
+      "old_forms": [
+        "南布"
+      ],
+      "target": "南布",
+      "reason": "保自然近音与同名军武层，spotty不足硬定斑点犬。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Nambu"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Vickers",
+      "source_forms": [
+        "Vickers"
+      ],
+      "old_forms": [
+        "维克斯"
+      ],
+      "target": "维克斯",
+      "reason": "保军武同名辨识和强势呼叫；狐狸/foxy梗在菜单，不把未证vixen拆词强译为薇狐。",
+      "action": "rename_or_standardize",
+      "current_carriers": 3,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Vickers"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Cetartni",
+      "source_forms": [
+        "Cetartni"
+      ],
+      "old_forms": [
+        "Cetartni",
+        "塞塔特尼"
+      ],
+      "target": "塞塔特尼",
+      "reason": "异常拼写无可靠构词证据，不任意删音或猜倒写；保可追踪近音并统一正文英文。",
+      "action": "rename_or_standardize",
+      "current_carriers": 6,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Cetartni"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Gaoru",
+      "source_forms": [
+        "Gaoru"
+      ],
+      "old_forms": [
+        "加奥鲁"
+      ],
+      "target": "高鲁",
+      "reason": "收束Gao/ru形成短人名；吼声只作听感，不据此定虎/犬种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Gaoru"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Gepard",
+      "source_forms": [
+        "Gepard"
+      ],
+      "old_forms": [
+        "格帕德"
+      ],
+      "target": "猎豹",
+      "reason": "按已核德语名字义直译，可兼同名军武呼号；不在角色物种档案中由此推定猎豹亚种。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Gepard"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Truvelo",
+      "source_forms": [
+        "Truvelo"
+      ],
+      "old_forms": [
+        "特鲁维洛"
+      ],
+      "target": "特鲁维洛",
+      "reason": "保近音/同名军武辨识，不凭姓名给已证鬣狗强加新词根。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Truvelo"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Vulcan",
+      "source_forms": [
+        "Vulcan"
+      ],
+      "old_forms": [
+        "伏尔甘"
+      ],
+      "target": "伏尔甘",
+      "reason": "既有神名式音译保火与锻造文化层，不把名字当人物火能力。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Vulcan"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Henschel",
+      "source_forms": [
+        "Henschel"
+      ],
+      "old_forms": [
+        "亨舍尔"
+      ],
+      "target": "亨舍尔",
+      "reason": "保近音及同名军武层；不据Hen给猫角色强加母鸡名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 3,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Henschel"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Franchi",
+      "source_forms": [
+        "Franchi"
+      ],
+      "old_forms": [
+        "弗兰基"
+      ],
+      "target": "弗兰基",
+      "reason": "保近音，不把战姿文化线索硬断血统，不添红熊字。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Franchi"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Chauchat",
+      "source_forms": [
+        "Chauchat"
+      ],
+      "old_forms": [
+        "绍沙"
+      ],
+      "target": "绍狞",
+      "reason": "绍保首音及传统绍沙影子；狞取原文明示caracal，补偿可核chat猫义；是中文创译非作者释名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Chauchat"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Karbine",
+      "source_forms": [
+        "Karbine"
+      ],
+      "old_forms": [
+        "卡宾"
+      ],
+      "target": "卡宾",
+      "reason": "已有通行武器词义与姓名感，狐身份另由原位outfox双关承接。",
+      "action": "rename_or_standardize",
+      "current_carriers": 2,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Karbine"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Pancor",
+      "source_forms": [
+        "Pancor"
+      ],
+      "old_forms": [
+        "PANCOR",
+        "Pancor",
+        "潘科"
+      ],
+      "target": "潘科",
+      "reason": "保可呼叫近音，不凭缺一手资料的同名线索另造兔科。",
+      "action": "rename_or_standardize",
+      "current_carriers": 6,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Pancor"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/agents.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Redbull",
+      "source_forms": [
+        "Redbull"
+      ],
+      "old_forms": [
+        "红牛"
+      ],
+      "target": "红牛",
+      "reason": "原定称有透明动物词义，保留；不把其他饮料/普通红色牛也当同一个人。",
+      "action": "rename_or_standardize",
+      "current_carriers": 17,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Redbull"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Enelye",
+      "source_forms": [
+        "Enelye"
+      ],
+      "old_forms": [
+        "恩内莉",
+        "恩莉耶"
+      ],
+      "target": "恩莉耶",
+      "reason": "自报个人名，统一恩内莉变体；无证不性俚语化，High Lady称号独立。",
+      "action": "rename_or_standardize",
+      "current_carriers": 23,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Enelye"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Pigobin",
+      "source_forms": [
+        "Pigobin"
+      ],
+      "old_forms": [
+        "猪哥布林"
+      ],
+      "target": "猪哥布林",
+      "reason": "保古老实体定称及pig/Gobin层，不推广到Gobin/Omegobin全族。",
+      "action": "rename_or_standardize",
+      "current_carriers": 11,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Pigobin"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Traeh",
+      "source_forms": [
+        "Traeh"
+      ],
+      "old_forms": [
+        "特拉赫",
+        "特蕾"
+      ],
+      "target": "Traeh",
+      "reason": "保TRAEH反写HEART信息，不直送中文心形谜底；只在源名出现处用，不用Queen先行揭名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 104,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Traeh"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Werehund",
+      "source_forms": [
+        "Werehund"
+      ],
+      "old_forms": [
+        "狼犬"
+      ],
+      "target": "狼犬",
+      "reason": "保特定父亲个体的现称谓，不造出生名、不全物种改名。",
+      "action": "rename_or_standardize",
+      "current_carriers": 17,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Werehund"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Werepup",
+      "source_forms": [
+        "Werepup"
+      ],
+      "old_forms": [
+        "狼崽"
+      ],
+      "target": "狼崽",
+      "reason": "保特定幼子称谓，不把玩家成人往事主体并入幼崽。",
+      "action": "rename_or_standardize",
+      "current_carriers": 22,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Werepup"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Sevaw",
+      "source_forms": [
+        "Sevaw"
+      ],
+      "old_forms": [
+        "Sevaw",
+        "塞瓦夫"
+      ],
+      "target": "Sevaw",
+      "reason": "已证个体名，保SEVAW反写WAVES信息；不是Dragon本身，不改谜题线索。",
+      "action": "rename_or_standardize",
+      "current_carriers": 6,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Sevaw"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Erauqs",
+      "source_forms": [
+        "Erauqs"
+      ],
+      "old_forms": [
+        "厄拉乌克斯"
+      ],
+      "target": "Erauqs",
+      "reason": "已证长老/母亲个体，保ERAUQS反写SQUARE信息；Elder称号独立。",
+      "action": "rename_or_standardize",
+      "current_carriers": 5,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Erauqs"
+      ],
+      "evidence": [
+        "localization/editorial/r3-names/research/bosses.json"
+      ],
+      "nicknames": []
+    },
+    {
+      "name_id": "Jakov",
+      "source_forms": [
+        "Jakov"
+      ],
+      "old_forms": [
+        "Jakov"
+      ],
+      "target": "雅科夫",
+      "reason": "只将冠名人名作通行近音，不新增物种；Obscura等道具非人名部分不顺改。",
+      "action": "rename_or_standardize",
+      "current_carriers": 4,
+      "preserve_ascii_case": false,
+      "radio_aliases": [
+        "Jakov"
+      ],
+      "evidence": [
+        "localization/editorial/r1/reference/world-and-plot.md#L355"
+      ],
+      "nicknames": []
+    }
+  ],
+  "family": {
+    "surname": "Yiffai",
+    "male_given": "Yiffai",
+    "female_given": "Yiffany",
+    "preserve_repeated_full_name": true
+  },
+  "excluded": [
+    "Bigbold/Dragon等通用物种和无名Boss",
+    "仅Queen/High Lady头衔的出现",
+    "RATS/ELGNAIRT/ELCRIC/SSORC仅证档案标题，不改其既有显示",
+    "制作人员/赞助名单",
+    "actor/JSON key/控制/动态@占位符"
+  ],
+  "notes": [
+    "人物物种证据与名字字面义译分开",
+    "新增名字不虚构新剧情或在无可见源处新增出现",
+    "全部来源与旧名变体以candidate6实际载体为准"
+  ]
+}

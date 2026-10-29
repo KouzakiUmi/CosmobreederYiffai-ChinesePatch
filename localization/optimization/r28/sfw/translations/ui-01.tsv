@@ -1,0 +1,35 @@
+ui:7991c99d6438ca21	新特工|使用的武器。
+ui:079a7daceca78a84	| | | | | | | | | | | | |	preserved	SFW原版刻意留白的卡片背面；不可移植PAK成人背面文案。
+ui:e3b0c44298fc1c14		preserved	SFW原版空槽位，保持原字节；不是翻译完成行。
+ui:5f51ee8a6700b2a7	特拉赫曾是|芬芬长老，|即使被封印，|仍威胁着|整个图托恩。|冒险者只需|碰一下她的|水晶监牢，|她就能将其|完全控制|在自己手中……
+ui:c14e6db2840cb30e	新鲜出炉的|扭结面包
+ui:4b864d8b449d9689	按(SELECT)|进行通讯
+ui:1e43fe8585868978	炎炎夏日|清爽解渴！
+ui:08527671d4a2448a	个大味辣|却让人上瘾！
+ui:70b71a34c2de0318	回忆
+ui:e5b699158d8f3f0f	退出回忆菜单
+ui:2c99cd0bc4a42cdd	SELECT/SHARE	preserved	实体手柄键名，保留原标识，非中文缺漏。
+ui:3bb292bc8c6268c4	与来自图托恩深处的怪物|进行一场热身决斗。
+ui:7824f84fcff2d206	不使用___，|深入图托恩……
+ui:6e4261695ad1aa36	SELECT	preserved	实体按键名保留，不翻译为动作。
+ui:124ed46a006e21a4	门卡3
+ui:1797a90d4eced121	漫长追逐之后，|该做个了结了……
+ui:1cbcddaeff7c3e18	狼崽|\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n   背面
+ui:80387c049254e1c3	给了小狗一记重击后，|又和他交上了朋友！
+ui:68c81c6b925b9b8f	墨西哥薄饼|夹烤鱼
+ui:3a9be38595e567d7	门卡0
+ui:03f90c5f50ae5e08	危险、好斗|又原始的|欧米茄哥布林，|曾在一位|黑暗而强大的|统治者麾下|团结一心。|然而，此人|早已消失在|已知的历史|长河之中……
+ui:56ae6d236ad1444b	门卡2
+ui:894c31445c9d73fc	传说名为|“艾斯卡姆尔”的|矿井曾是|巨大而可怕的|龙的家园。|芬芬长老|Sevaw便|以这些传说|为基础，|创造了烈焰|投影。	candidate	独立原JAR上下文复核；Ayskammr沿用area.areaa及相邻Redbull卡已有艾斯卡姆尔译名，Sevaw保原拼写；agent-reviewed，human_approved=false。
+ui:3da7df310b6f1e64	多汁成熟的|带梗水果
+ui:cd00c9fab5688172	START/OPTIONS	preserved	实体手柄键名，保留原标识。
+ui:1286298996d5b1b8	美味的|小点心！
+ui:5c4bffcff4102b5f	随身训练
+ui:5224c68661887775	新鲜温热|香醇好喝
+ui:9ed8de1b19979a7e	学到宝贵的教训，|还有一项厉害的新技能！
+ui:39f17ec6ebcf3cec	START	preserved	实体按键名保留，不翻译为动作。
+ui:bd860d9cd1e27d35	门卡4
+ui:69f8153a26847adb	门卡1
+ui:a213a1e7fc47ced9	伊法伊的首场大战，|夺回闪亮的利刃！
+ui:0dc607943547ab37	细剑
+ui:a518c8ce3ca817de	硬得很，|可不好敲开！

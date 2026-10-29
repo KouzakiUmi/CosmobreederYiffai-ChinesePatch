@@ -1,0 +1,28 @@
+{
+  "version": "alpha0.1",
+  "prerelease": true,
+  "baseline": "synthetic-test-only",
+  "fixture_only": true,
+  "files": {
+    "cosmobreeder-multi.jar": {
+      "source_sha256": "527a26893afbd6227c86341d23b48712d8330b03222c6bad2677bc67b9048782",
+      "target_sha256": "e92ca442eb0fbb54f868bef6f89b385e06533707b75d5efcafc9a4ac3a5ecc83",
+      "source_size": 131087,
+      "target_size": 131395,
+      "delta_sha256": "ad7075368731b90eb7c568add8287bdbc19037a6047c8a31e72364c3cba3a759",
+      "delta_size": 1114,
+      "copy_bytes": 65536,
+      "delta": "cosmobreeder-multi.jar.cbd"
+    },
+    "patch.pak": {
+      "source_sha256": "527a26893afbd6227c86341d23b48712d8330b03222c6bad2677bc67b9048782",
+      "target_sha256": "e92ca442eb0fbb54f868bef6f89b385e06533707b75d5efcafc9a4ac3a5ecc83",
+      "source_size": 131087,
+      "target_size": 131395,
+      "delta_sha256": "ad7075368731b90eb7c568add8287bdbc19037a6047c8a31e72364c3cba3a759",
+      "delta_size": 1114,
+      "copy_bytes": 65536,
+      "delta": "patch.pak.cbd"
+    }
+  }
+}

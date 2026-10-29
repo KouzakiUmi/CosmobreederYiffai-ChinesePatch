@@ -1,0 +1,493 @@
+{
+  "scope": "One decision per original direct consumer; NOT a coverage percentage or per-class runtime coverage claim.",
+  "records": [
+    {
+      "class": "PRG/ET",
+      "decision": "retained_not_covered",
+      "reason": "保留：HUD数值/拾取串/固定状态列需逐字段矩形；未改动全局步进，真实全状态未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_ET__a7d5a7607758.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Eu",
+      "decision": "retained_not_covered",
+      "reason": "保留：繁育相邻消费者不等同Ew描述槽；图标/状态列和各自输入几何未证，不盲套224px。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Eu__2fb83d6678bb.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ev",
+      "decision": "retained_not_covered",
+      "reason": "保留：繁育相邻消费者不等同Ew描述槽；图标/状态列和各自输入几何未证，不盲套224px。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ev__a6fb9f1e0880.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ew",
+      "decision": "partial_fixed",
+      "reason": "已修指定affinity/needs全文源头和完整绘制；含中文needs默认10/12行距，原显式3行affinity必要classic8；原图标/FOUND/姓名/交互未改。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ew__4034ebb93463.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ez",
+      "decision": "retained_not_covered",
+      "reason": "保留：繁育相邻消费者不等同Ew描述槽；图标/状态列和各自输入几何未证，不盲套224px。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ez__0f62191a05ac.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/IB",
+      "decision": "retained_not_covered",
+      "reason": "保留：通用helper由具体调用者传字体/矩形；未使用全局String.length或全局字号替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_IB__026afbde7b8f.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/II",
+      "decision": "retained_not_covered",
+      "reason": "保留：航运两列和选中图标需独立窄栏预算，本轮不套全屏居中。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_II__83ee0545cdc3.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/IO",
+      "decision": "retained_not_covered",
+      "reason": "保留：标题/暂停按钮含位图与动态文本，未改变闪烁/动作/命中范围；完整验收未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_IO__634455c72dd6.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/IR",
+      "decision": "retained_not_covered",
+      "reason": "保留：标题/暂停按钮含位图与动态文本，未改变闪烁/动作/命中范围；完整验收未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_IR__cec9e077d373.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/IV",
+      "decision": "retained_not_covered",
+      "reason": "保留：HUD数值/拾取串/固定状态列需逐字段矩形；未改动全局步进，真实全状态未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_IV__93a008cdfc9b.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Id",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Id__0008acd61fc4.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ie",
+      "decision": "retained_not_covered",
+      "reason": "保留：HUD数值/拾取串/固定状态列需逐字段矩形；未改动全局步进，真实全状态未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ie__a7ab4c6ecdd9.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ix",
+      "decision": "retained_not_covered",
+      "reason": "保留：错误提示最小诊断后备，不能依赖新字体初始化成功；长错误信息未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ix__c59306d419f0.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/JM",
+      "decision": "retained_not_covered",
+      "reason": "保留：主菜单独立消费路径；本轮没有该字段矩形/状态闭环，不宣称被场景helper覆盖。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_JM__ec45f0d0718e.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/JQ",
+      "decision": "retained_not_covered",
+      "reason": "保留：无线电正文由上游JR/core工作处理；说话者标签不是本轮profile。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_JQ__78f1053cd0d0.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Jm",
+      "decision": "partial_fixed",
+      "reason": "已修两处卡牌四参format+右侧行/标题，128px/8px行距用classic8，原normalization/统计/翻卡/选择语义保留；完整父clip与前后动画未验。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Jm__e6ae7a07e1e9.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Jq",
+      "decision": "retained_not_covered",
+      "reason": "保留：作弊/旋钮的四参format和逐字底板未改；必须联动输入格/警告列，不能为布局改变选项语义。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Jq__5e9df3dc6a04.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Jt",
+      "decision": "retained_not_covered",
+      "reason": "保留：作弊/旋钮的四参format和逐字底板未改；必须联动输入格/警告列，不能为布局改变选项语义。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Jt__a8de85d7a547.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Jv",
+      "decision": "retained_not_covered",
+      "reason": "保留：作弊/旋钮的四参format和逐字底板未改；必须联动输入格/警告列，不能为布局改变选项语义。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Jv__372ef08e4abc.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Jw",
+      "decision": "retained_not_covered",
+      "reason": "保留：独立奖励/数值/动画路径，不凭排版推断交易或奖励值域；动态字段几何未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Jw__c7648cb2fe43.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/KW",
+      "decision": "retained_not_covered",
+      "reason": "保留：独立奖励/数值/动画路径，不凭排版推断交易或奖励值域；动态字段几何未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_KW__d351aac2d66f.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/KX",
+      "decision": "retained_not_covered",
+      "reason": "保留：独立奖励/数值/动画路径，不凭排版推断交易或奖励值域；动态字段几何未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_KX__0b70ae35308c.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Kc",
+      "decision": "partial_fixed",
+      "reason": "已修r27完整说明source local9之后的format/zip截尾；$不再侵占第28可绘列，双pass/颜色/偏移保持；标题/列表/输入未改。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Kc__091ac03da527.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Kk",
+      "decision": "retained_not_covered",
+      "reason": "保留：Continue属于另一工作范围，原输入/事件不在SceneText中接管。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Kk__3c025f950e47.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Kr",
+      "decision": "partial_fixed",
+      "reason": "沿用r27整行classic8结算接管，helper重新编译；真实Ks/Kr两档60字段与动态值/颜色/闪烁通过，不冒称全结局演出通过。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Kr__99def910ad65.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LC",
+      "decision": "retained_not_covered",
+      "reason": "保留：设备名/键位图案与双列输入映射未改，不改变绑定语义；完整长设备名路径未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LC__087bf16356e0.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LE",
+      "decision": "retained_not_covered",
+      "reason": "保留：设备名/键位图案与双列输入映射未改，不改变绑定语义；完整长设备名路径未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LE__fbd1a288bf5f.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LG",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LG__ad5ca8d33add.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LJ",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LJ__e211f8744cd2.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LK",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LK__96a2213cd53f.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LL$a",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LL_a__ea21e0381667.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LL$b",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LL_b__ad1112ec6af5.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LL$c",
+      "decision": "retained_not_covered",
+      "reason": "保留：非本轮独占范围；该具体消费者矩形、输入及全文查看路径仍未知，未宣称覆盖。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LL_c__5f0012e9fd00.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LV",
+      "decision": "retained_not_covered",
+      "reason": "保留：选项/确认窄栏/双列/面包屑各有独立矩形；没有证据支持统一240px或全局替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LV__45c7f78d1db5.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LX",
+      "decision": "retained_not_covered",
+      "reason": "保留：紧凑姓名/存档由独立工作范围处理，本轮不改存储、名字内容或槽位。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LX__9b327a48e9e5.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/LY",
+      "decision": "retained_not_covered",
+      "reason": "保留：紧凑姓名/存档由独立工作范围处理，本轮不改存储、名字内容或槽位。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_LY__daf1134310a2.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lb",
+      "decision": "retained_not_covered",
+      "reason": "保留：现有道具ItemFont8已局部接管；用户明确排除修改该helper，本轮不冒称全道具菜单通过。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lb__c753a5df061b.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lg",
+      "decision": "retained_not_covered",
+      "reason": "保留：现有道具ItemFont8已局部接管；用户明确排除修改该helper，本轮不冒称全道具菜单通过。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lg__426f0c4be794.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lh",
+      "decision": "retained_not_covered",
+      "reason": "保留：道具类别/邻接标签独立于已登记Lg说明；安全宽度和完整状态未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lh__42fb564e9f7e.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lq",
+      "decision": "retained_not_covered",
+      "reason": "保留：任务日志滚动/列表与详情字体传递未闭环，不以修复四参格式器替代完整查看路径。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lq__13983e59938c.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lr",
+      "decision": "retained_not_covered",
+      "reason": "保留：任务日志滚动/列表与详情字体传递未闭环，不以修复四参格式器替代完整查看路径。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lr__820f4b00da2e.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Lx",
+      "decision": "partial_fixed",
+      "reason": "已修唯一底栏居中调用，使用实际绘制role的arr度量，未改全局Yg/It；地图左/右竖排/图例/图标未改。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Lx__3affe2e2e0fb.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/ME",
+      "decision": "retained_not_covered",
+      "reason": "保留：商店动作/价格/货币字段未改；正文上游适配不代表交易控件覆盖。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_ME__e7af3be1c731.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/MN",
+      "decision": "retained_not_covered",
+      "reason": "保留：商店动作/价格/货币字段未改；正文上游适配不代表交易控件覆盖。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_MN__a63f702466f0.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Mb",
+      "decision": "retained_not_covered",
+      "reason": "保留：紧凑姓名/存档由独立工作范围处理，本轮不改存储、名字内容或槽位。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Mb__39a1dd0a221b.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Mc",
+      "decision": "retained_not_covered",
+      "reason": "保留：紧凑姓名/存档由独立工作范围处理，本轮不改存储、名字内容或槽位。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Mc__ed918c189fc5.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Ml",
+      "decision": "retained_not_covered",
+      "reason": "保留：通用helper由具体调用者传字体/矩形；未使用全局String.length或全局字号替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Ml__7bf40a4a0df2.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Mn",
+      "decision": "retained_not_covered",
+      "reason": "保留：紧凑姓名/存档由独立工作范围处理，本轮不改存储、名字内容或槽位。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Mn__1cbc6fe69170.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Na",
+      "decision": "retained_not_covered",
+      "reason": "保留：剧情/字幕由其他工作范围处理，不修改StoryFont12/SubtitleLayout或语言解码语义。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Na__81c053cff955.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Po",
+      "decision": "partial_fixed",
+      "reason": "已修唯一传送目标地名居中调用；固定标题/MISSION/PAWSED及状态输入完全保留。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Po__9120a3493600.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Yg",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Yg__dc6c7964df17.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Yq",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Yq__02034a612302.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/Zl",
+      "decision": "retained_not_covered",
+      "reason": "保留：通用helper由具体调用者传字体/矩形；未使用全局String.length或全局字号替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_Zl__ad8abc2c2005.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/aak",
+      "decision": "retained_not_covered",
+      "reason": "保留：通用helper由具体调用者传字体/矩形；未使用全局String.length或全局字号替换。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_aak__4dc02607718b.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/arp",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_arp__0d449c180721.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/arq",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_arq__d550127df4c7.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/arr",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_arr__443f8a2ead94.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/iF",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_iF__72963b05816e.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/jl",
+      "decision": "retained_not_covered",
+      "reason": "保留：共享字体/渲染基础设施；场景局部调用已有接管，不全局改8格或居中，其他调用者未知。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_jl__a07da6c75311.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/jo",
+      "decision": "retained_not_covered",
+      "reason": "保留：剧情/字幕由其他工作范围处理，不修改StoryFont12/SubtitleLayout或语言解码语义。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_jo__7d9209e5275c.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    },
+    {
+      "class": "PRG/kn",
+      "decision": "partial_fixed",
+      "reason": "已修30列×2完整format及两处实际glyph居中；原标题位图/动画/时长/SA变换链不变；全文超两行拒绝，Reverse/AlBhed未验。",
+      "source_snapshot": "docs/full-layout-study-20261023/inventory/snapshots/PRG_kn__06ecd40ba832.txt",
+      "runtime_parent_clip": "not_verified",
+      "whole_class_or_scene_coverage": false
+    }
+  ]
+}

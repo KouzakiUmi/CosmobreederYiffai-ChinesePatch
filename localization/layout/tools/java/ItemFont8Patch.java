@@ -23,6 +23,38 @@ public final class ItemFont8Patch implements Opcodes {
         pins.put("PRG/Lb", "c753a5df061b665c502f265fd3d340f33f52803c193daa787f294aa43cba4ae1");
         INPUT_SHA256 = Collections.unmodifiableMap(pins);
     }
+    /** Frozen-r27 incremental input. Do NOT call original apply on these bytes. */
+    public static final Map<String,String> R27_INPUT_SHA256;
+    static {
+        Map<String,String> pins=new LinkedHashMap<String,String>();
+        pins.put("PRG/Lb","a928553b84a4655b0337bdcbf2c913b2bb42c30ce78cafb3e7b2abe3c1083bcb");
+        pins.put("PRG/Lg","38b2425903424aa31d331c82c1410e62f3c723dd6f16e664c8688daaac72bbe8");
+        pins.put("PRG/Le","3a6e7d9e2141861208f272acc0f1366d19949cb91a5dccb3750130c9d7638bb8");
+        R27_INPUT_SHA256=Collections.unmodifiableMap(pins);
+    }
+    /** Only additive clock hooks: original full-source Lb/Lg draw hooks remain. */
+    public static void applyR27(Map<String,ClassNode> classes) {
+        ClassNode lb=require(classes,"PRG/Lb"),lg=require(classes,"PRG/Lg"),le=require(classes,"PRG/Le");
+        MethodNode ctor=method(le,"<init>","(LPRG/apr;)V");
+        MethodInsnNode name=uniqueCall(ctor,HELPER,"registerName","(LPRG/Lg;)V");
+        MethodInsnNode description=uniqueCall(ctor,HELPER,"registerDescription","(LPRG/Lb;)V");
+        uniqueCall(method(lb,"b","(LPRG/SN;)V"),HELPER,"drawDescription","(LPRG/Lb;LPRG/SN;Ljava/lang/String;)Z");
+        uniqueCall(method(lg,"b","(LPRG/SN;)V"),HELPER,"drawName","(LPRG/SN;Ljava/lang/String;IILjava/lang/String;LPRG/Lg;)V");
+        MethodNode a=method(lb,"a","(F)V"),b=method(lg,"a","(F)V");
+        for(MethodNode m:new MethodNode[]{a,b}) {
+            int count=0;for(AbstractInsnNode n:m.instructions.toArray())if(n.getOpcode()>=0){if(n.getOpcode()!=RETURN)fail("nonempty update/already patched");count++;}
+            if(count!=1)fail("update identity");
+        }
+        hookUpdate(a,"update","Lb");hookUpdate(b,"updateName","Lg");
+        ctor.instructions.insertBefore(name,new VarInsnNode(ALOAD,0));
+        ctor.instructions.set(name,call("registerName","(LPRG/Lg;LPRG/Le;)V"));
+        ctor.instructions.insertBefore(description,new VarInsnNode(ALOAD,0));
+        ctor.instructions.set(description,call("registerDescription","(LPRG/Lb;LPRG/Le;)V"));
+    }
+    private static void hookUpdate(MethodNode m,String name,String type) {
+        InsnList code=new InsnList();code.add(new VarInsnNode(ALOAD,0));code.add(new VarInsnNode(FLOAD,1));
+        code.add(call(name,"(LPRG/"+type+";F)V"));m.instructions.insert(code);
+    }
     private ItemFont8Patch() { }
 
     public static void apply(Map<String,ClassNode> classes) {

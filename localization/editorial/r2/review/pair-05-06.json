@@ -1,0 +1,1579 @@
+{
+  "schema_version": 1,
+  "scope": "R2修前提案独立复核，非系统精校或应用批准",
+  "reviewer": "gpt-6.1-sol independent worker",
+  "status": "reviewed_with_revision_requests",
+  "summary": {
+    "findings": 69,
+    "edits_checked": 122,
+    "pass_count": 67,
+    "revise_count": 2,
+    "hold_count": 0,
+    "deferred_decisions": 10
+  },
+  "input_sha256": {
+    "localization\\editorial\\r2\\review-input\\packet-05.md": "e49fa7004007a9d9d5d334cd4dbbb6d115aa1a4b24558dc2ea0972778315b30e",
+    "localization\\editorial\\r2\\review-input\\packet-06.md": "c4430c6a1acfdbf230881e7beb1b205c5443be2dbc6cfeac7db78c9194a38eac",
+    "localization\\editorial\\r2\\packets\\packet-05\\decisions.jsonl": "b28023fbb44e23125c662628043db9ed0b9314e7b7da158b2d65732b043f22d7",
+    "localization\\editorial\\r2\\packets\\packet-05\\edits.jsonl": "6de3b093ef738ad8b50a43bbe5114e2c08750b351d61b63b413538f60109263c",
+    "localization\\editorial\\r2\\packets\\packet-06\\decisions.jsonl": "8c576ca4d4325a1aa332940cc616a3d9ebd293ccaba81cfebed79bb73b32e2d3",
+    "localization\\editorial\\r2\\packets\\packet-06\\edits.jsonl": "ba9619dbdb7e8a618e0b7f30c5f386e1cf9a350ba7a2b0f4ecff8bd76e1e67b0"
+  },
+  "actual_read_ranges": {
+    "localization\\editorial\\r2\\review-input\\packet-05.md": [
+      [
+        1,
+        220
+      ],
+      [
+        221,
+        420
+      ],
+      [
+        421,
+        630
+      ],
+      [
+        631,
+        840
+      ],
+      [
+        841,
+        1050
+      ],
+      [
+        1051,
+        1250
+      ],
+      [
+        1251,
+        1430
+      ],
+      [
+        1431,
+        1597
+      ]
+    ],
+    "localization\\editorial\\r2\\review-input\\packet-06.md": [
+      [
+        1,
+        200
+      ],
+      [
+        201,
+        410
+      ],
+      [
+        411,
+        620
+      ],
+      [
+        621,
+        820
+      ],
+      [
+        821,
+        1020
+      ],
+      [
+        1021,
+        1220
+      ],
+      [
+        1221,
+        1407
+      ]
+    ],
+    "localization\\editorial\\r2\\REPAIR_CONTRACT.md": [
+      [
+        1,
+        48
+      ]
+    ],
+    "localization/editorial/r1/reference/characters-primary.md": [
+      [
+        1,
+        250
+      ]
+    ],
+    "localization/editorial/r1/reference/characters-support.md": [
+      [
+        1,
+        128
+      ]
+    ],
+    "localization/editorial/r1/reference/world-and-plot.md": [
+      [
+        1,
+        250
+      ]
+    ],
+    "localization\\editorial\\r2\\packets\\packet-05\\decisions.jsonl": [
+      [
+        1,
+        41
+      ]
+    ],
+    "localization\\editorial\\r2\\packets\\packet-06\\decisions.jsonl": [
+      [
+        1,
+        28
+      ]
+    ],
+    "localization\\editorial\\r2\\packets\\packet-05\\edits.jsonl": [
+      [
+        1,
+        40
+      ],
+      [
+        41,
+        75
+      ]
+    ],
+    "localization\\editorial\\r2\\packets\\packet-06\\edits.jsonl": [
+      [
+        1,
+        25
+      ],
+      [
+        26,
+        47
+      ]
+    ]
+  },
+  "checks": [
+    {
+      "finding_id": "P05-001",
+      "scene_id": "SC60b2521ed8918dd3",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "气味调侃和船队归属保留；kobo条件未扩大为主角真实身份。",
+      "edit_ids_checked": [
+        "E05-001"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::AreaB_Slaver2.Talk.kobo",
+        "datadf/all.ds#L1062",
+        "D00e3357e502608142f1b"
+      ]
+    },
+    {
+      "finding_id": "P05-002",
+      "scene_id": "SC51b737558bc257e4",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "两槽保留肉食推销与有胆量的阴森反话，未推定成分。",
+      "edit_ids_checked": [
+        "E05-002",
+        "E05-003"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::AreaC_Slaver1.FakeMeat",
+        "datadf/all.ds#L1439",
+        "datadf/all.ds#L1440",
+        "D1bd9b402147767e69c47",
+        "D2a65c538d468a5882e0c"
+      ]
+    },
+    {
+      "finding_id": "P05-003",
+      "scene_id": "SCfb40649184a4a38a",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "男线独立同义场景保留，未以女线经历代换。",
+      "edit_ids_checked": [
+        "E05-004",
+        "E05-005"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::AreaC_Slaver1.FakeMeat",
+        "datadm/all.ds#L1449",
+        "datadm/all.ds#L1450",
+        "Dd1b461cf2b42ac06e834",
+        "Dae896e03c810588fa8a9"
+      ]
+    },
+    {
+      "finding_id": "P05-004",
+      "scene_id": "SC1a5d579ca870656a",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "救出后回看与总部留副本三源行全部保留；条件移入首有效槽，消费尾仍空。",
+      "edit_ids_checked": [
+        "E05-006",
+        "E05-007"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::Bossu.Area0_map26_a noselect",
+        "datadf/all.ds#L2048",
+        "datadf/all.ds#L2049",
+        "datadf/all.ds#L2050",
+        "Df595db3f7ef4265beeeb",
+        "Dd72e73748aa468a419ae",
+        "D600441e588477a1eded3"
+      ]
+    },
+    {
+      "finding_id": "P05-005",
+      "scene_id": "SCa7d50e8f2d64a2e7",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "机器人描述纠正兽类误认，装甲比较和似乎未丢；不当作正式译名裁决。",
+      "edit_ids_checked": [
+        "E05-008"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::BossuDex.ClassicBumperC",
+        "datadf/all.ds#L3167",
+        "datadf/all.ds#L3168",
+        "D56305dad9561d46f3b1f",
+        "De8fb59e097cd35fd204f"
+      ]
+    },
+    {
+      "finding_id": "P05-006",
+      "scene_id": "SCe810fe1962b453b0",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "draconid上位龙类未说人形，改龙类生物成立，未强裁Bossu译名。",
+      "edit_ids_checked": [
+        "E05-009"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::BossuDex.ClassicWyvern",
+        "datadf/all.ds#BossuDex.ClassicWyvern:2963",
+        "D71538f9724092a07ce72"
+      ]
+    },
+    {
+      "finding_id": "P05-007",
+      "scene_id": "SCe810fe1962b453b0",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "SFW原文攻击时注意力分散与俯冲时机均在，高潮污染已移除；三个有效槽保留。",
+      "edit_ids_checked": [
+        "E05-010",
+        "E05-011",
+        "E05-012"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::BossuDex.ClassicWyvern",
+        "datadf/all.ds#BossuDex.ClassicWyvern:2968",
+        "datadf/all.ds#BossuDex.ClassicWyvern:2969",
+        "datadf/all.ds#BossuDex.ClassicWyvern:2970",
+        "Db7738b40c12c8af81ec5",
+        "SFW656d1194409abaf471e2c8a9",
+        "SFW19be9cdb9218ba3a9b02543d"
+      ]
+    },
+    {
+      "finding_id": "P05-008",
+      "scene_id": "SC77ea58a1063412b5",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "女主受话人不再叫小子；勉强运转、贴地飞行限制、再次被击落风险俱全。",
+      "edit_ids_checked": [
+        "E05-013",
+        "E05-014"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::Mauser.Area0Transportal1 noselect",
+        "datadf/all.ds#L2059",
+        "datadf/all.ds#L2060",
+        "datadf/all.ds#L2061",
+        "D19fb9f3c6a9bcac0d5d1",
+        "D24c4b5a45c1409cd2701",
+        "D2907ce005d70b2c6dae6"
+      ]
+    },
+    {
+      "finding_id": "P05-009",
+      "scene_id": "SC426f7f71c0aa693b",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "in case预防性保存与后文手动操作一致，不再暗示出事自动存档。",
+      "edit_ids_checked": [
+        "E05-015"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::Mauser.Area0_map13_b noselect",
+        "datadf/all.ds#L1996",
+        "datadf/all.ds#L1997",
+        "Dcfa2091dc044626fd495",
+        "D470dde81e257f7cc2070"
+      ]
+    },
+    {
+      "finding_id": "P05-010",
+      "scene_id": "SC713dd4f4639c27ba",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "衣身而非肉体；完整head内学院和社团比较余义保留，仍是Yiffany说辞。",
+      "edit_ids_checked": [
+        "E05-016"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.KoboBody",
+        "datadf/all.ds#L4228",
+        "datadf/all.ds#L4229",
+        "D4f209cdd52168cecc7f4",
+        "Deeb454e9091fd09b7b06"
+      ]
+    },
+    {
+      "finding_id": "P05-011",
+      "scene_id": "SC713dd4f4639c27ba",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "放松/够松接玩具尺寸反将一军成立；未把社团往事写成旁白认证。",
+      "edit_ids_checked": [
+        "E05-017",
+        "E05-018"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.KoboBody",
+        "datadf/all.ds#L4233",
+        "datadf/all.ds#L4234",
+        "datadf/all.ds#L4235",
+        "D47ffd84067c40b4ac07a",
+        "D6c37e303e8dc77495126",
+        "D0a0256ccb57ec23dc3ae"
+      ]
+    },
+    {
+      "finding_id": "P05-012",
+      "scene_id": "SCae76be512589a7df",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "不保证但尽力支援意图准确；不硬造猫叫是可接受本地化取舍，非强制逐字双关。",
+      "edit_ids_checked": [
+        "E05-019"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.TazerTrainee",
+        "datadf/all.ds#L4069",
+        "Dc81b7d3e836889a98c07"
+      ]
+    },
+    {
+      "finding_id": "P05-013",
+      "scene_id": "SCb6f24971b727c80c",
+      "decision_action": "apply",
+      "verdict": "revise",
+      "reason": "E05-026新增肚把GET IN ME明确限定消化入口，削弱同段大肉/嘴及两人独处的成人双关；其他八槽夸张、打断和一分钟基本成立。",
+      "edit_ids_checked": [
+        "E05-020",
+        "E05-021",
+        "E05-022",
+        "E05-023",
+        "E05-024",
+        "E05-025",
+        "E05-026",
+        "E05-027",
+        "E05-028"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.VitMeat",
+        "datadf/all.ds#L3825",
+        "datadf/all.ds#L3826",
+        "datadf/all.ds#L3827",
+        "datadf/all.ds#L3828",
+        "datadf/all.ds#L3829",
+        "datadf/all.ds#L3830",
+        "datadf/all.ds#L3831",
+        "datadf/all.ds#L3832",
+        "datadf/all.ds#L3833",
+        "D166d9b11e149c47db490",
+        "D1437360fcb00b40299f7",
+        "Db1a77a0cccd764b06f80",
+        "Df5efdd988586f18320d4",
+        "D004df4de30ea84e4cc41",
+        "D6f8cad3de6ae42ec09fd",
+        "Dfbcf124f64eefa9f5677",
+        "D8700c10e54950f07a1a7",
+        "Dbe3f7a0579d8875139e7"
+      ]
+    },
+    {
+      "finding_id": "P05-014",
+      "scene_id": "SC1c0e8e24cfeaa003",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "报告—精神科医生—能力例举的连续意图清楚；shooting stars按异能发射星星理解有近邻能量弹支持，未把犬类故事升级事实。",
+      "edit_ids_checked": [
+        "E05-029",
+        "E05-030",
+        "E05-031",
+        "E05-032",
+        "E05-033"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.ZenerSquare",
+        "datadf/all.ds#TomcatItems.ZenerSquare:4353",
+        "datadf/all.ds#TomcatItems.ZenerSquare:4354",
+        "datadf/all.ds#TomcatItems.ZenerSquare:4355",
+        "datadf/all.ds#TomcatItems.ZenerSquare:4356",
+        "datadf/all.ds#TomcatItems.ZenerSquare:4357",
+        "D414f910deef6a8c58c18",
+        "Ddf789f4ddbde4d536b5a",
+        "Dbb4a1bf29c7d0ed35344",
+        "D933d0bec2ed1394540f1",
+        "D2183c5f1716addac0e03"
+      ]
+    },
+    {
+      "finding_id": "P05-015",
+      "scene_id": "SC188abbfbd53fac7b",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "sensor dark语法与作用尚有疑点；保守defer可接受，不等于暗色传感球已证正确。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.ZenerTriangle",
+        "datadf/all.ds#L4532",
+        "D44d88714f34ef875d2b3"
+      ]
+    },
+    {
+      "finding_id": "P05-016",
+      "scene_id": "SC188abbfbd53fac7b",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "耐打/战斗能力下降保完整利弊及我感觉，不无据性化。",
+      "edit_ids_checked": [
+        "E05-034"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::TomcatItems.ZenerTriangle",
+        "datadf/all.ds#L4533",
+        "datadf/all.ds#L4534",
+        "Ddc8272bc94e48a23de90",
+        "D854107930dd8115324ed"
+      ]
+    },
+    {
+      "finding_id": "P05-017",
+      "scene_id": "SCbb24ffbfac0746d8",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "may...but让步读法合理；全女性/非全不朽及数百年渐变均在，不混入NSFW繁衍原因。",
+      "edit_ids_checked": [
+        "E05-035",
+        "E05-036",
+        "E05-037"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicArcher",
+        "datadm/all.ds#BossuDex.ClassicArcher:3140",
+        "datadm/all.ds#BossuDex.ClassicArcher:3141",
+        "datadm/all.ds#BossuDex.ClassicArcher:3142",
+        "datadm/all.ds#BossuDex.ClassicArcher:3143",
+        "D5b2a0ded65b05a8c4a4b",
+        "Ded16272bce4c9ad0e0e8",
+        "D988644c7b29b57f29170",
+        "SFWf116b4cccfb60b3418c9b385"
+      ]
+    },
+    {
+      "finding_id": "P05-018",
+      "scene_id": "SCbb24ffbfac0746d8",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "据掌握情况保总部知识界限；百岁上限与相对年轻保留，不硬判幼童。",
+      "edit_ids_checked": [
+        "E05-038",
+        "E05-039"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicArcher",
+        "datadm/all.ds#BossuDex.ClassicArcher:3145",
+        "datadm/all.ds#BossuDex.ClassicArcher:3146",
+        "datadm/all.ds#BossuDex.ClassicArcher:3147",
+        "D14d1fe20a325ee566503",
+        "Dd2ee9155a657a104b46f",
+        "D33fc743b1e3cdb520f17"
+      ]
+    },
+    {
+      "finding_id": "P05-019",
+      "scene_id": "SCbb24ffbfac0746d8",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "从寿命惊叹回到战斗警觉和防御目的完整，head消费尾未误删。",
+      "edit_ids_checked": [
+        "E05-040"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicArcher",
+        "datadm/all.ds#BossuDex.ClassicArcher:3149",
+        "datadm/all.ds#BossuDex.ClassicArcher:3150",
+        "D675d1eadf501e2fb62a2",
+        "D4b00b09e203eaed7cf90"
+      ]
+    },
+    {
+      "finding_id": "P05-020",
+      "scene_id": "SC46fe33beaab2503d",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "NSFW呼叫和I HOPE NOT须成组处理；defer有理，但原通讯错置与笑点仍未修，不得计已修。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicFenfen",
+        "datadm/all.ds#L3124",
+        "D9fce9d54f3d94ad4e6a5"
+      ]
+    },
+    {
+      "finding_id": "P05-021",
+      "scene_id": "SC54121e70d4d54642",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "SFW自身无成人回复，纯无线电呼叫可独立修；未串入NSFW笑点。",
+      "edit_ids_checked": [
+        "E05-041"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicFenfen",
+        "datadm/all.ds#BossuDex.ClassicFenfen:3063",
+        "D9fce9d54f3d94ad4e6a5"
+      ]
+    },
+    {
+      "finding_id": "P05-022",
+      "scene_id": "SC553c64bb4bea4bc3",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "anthro外观而非另设兽人种族，head未删不友好含义，仍由Bossu后揭名。",
+      "edit_ids_checked": [
+        "E05-042"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::BossuDex.ClassicKobold",
+        "datadm/all.ds#L3108",
+        "datadm/all.ds#L3109",
+        "Da1d8594ea27a160b9499",
+        "D7fece68a3fb7e881bd92"
+      ]
+    },
+    {
+      "finding_id": "P05-023",
+      "scene_id": "SCe0520bfb2096fa57",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "犬类昵称非专名，原有CAAAAN拖音保留，不增局部结巴。",
+      "edit_ids_checked": [
+        "E05-043"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Mauser.AreaE_map23 noselect",
+        "datadm/all.ds#L2577",
+        "D6b8544c2fece36ca959d"
+      ]
+    },
+    {
+      "finding_id": "P05-024",
+      "scene_id": "SC87c3d069f4408f43",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "危急简报清楚区分降落伞不可用及制动能力不足，未加俏皮口吻或设备数量推断。",
+      "edit_ids_checked": [
+        "E05-044",
+        "E05-045"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Queen.AreaX_falling noselect noamendfreq",
+        "datadm/all.ds#L2664",
+        "datadm/all.ds#L2665",
+        "D29e6d934a74103bd7372",
+        "D4f3c77cf286e35c95b8d"
+      ]
+    },
+    {
+      "finding_id": "P05-025",
+      "scene_id": "SC87c3d069f4408f43",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "总部Mauser面对信号断续；没法维持仍未补宾语，不是身体撑不住。",
+      "edit_ids_checked": [
+        "E05-046"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Queen.AreaX_falling noselect noamendfreq",
+        "datadm/all.ds#L2670",
+        "D0cf65c3f37c3af36b190"
+      ]
+    },
+    {
+      "finding_id": "P05-026",
+      "scene_id": "SC70adcf011b42bbeb",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "call up电话短语修正且保打断；体征检查无新增口吃。",
+      "edit_ids_checked": [
+        "E05-047",
+        "E05-048",
+        "E05-049"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Tomcat.AreaA_map42_a noselect",
+        "datadm/all.ds#L2239",
+        "datadm/all.ds#L2240",
+        "datadm/all.ds#L2241",
+        "datadm/all.ds#L2242",
+        "D38fbb197dc6ab063137d",
+        "D8521dd91e90c369ed30b",
+        "Daac695c034eebdb0e473",
+        "Dc5c361b19ca44e04efc6"
+      ]
+    },
+    {
+      "finding_id": "P05-027",
+      "scene_id": "SC70adcf011b42bbeb",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "装备迷兴奋夸张和贵/限量落点成立；型号、强调斜线及head余义完整。",
+      "edit_ids_checked": [
+        "E05-050",
+        "E05-051",
+        "E05-052",
+        "E05-053"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Tomcat.AreaA_map42_a noselect",
+        "datadm/all.ds#L2244",
+        "datadm/all.ds#L2245",
+        "datadm/all.ds#L2246",
+        "datadm/all.ds#L2247",
+        "datadm/all.ds#L2248",
+        "datadm/all.ds#L2249",
+        "datadm/all.ds#L2250",
+        "Dd25c160c7acfc08a44ab",
+        "D861341c21f899154afc3",
+        "D17b2340c16b6c7d12d11",
+        "D13cf7f1973481c6540fa",
+        "Da0e197b050e16e23eb42",
+        "Db04e7c719f6ea6e8a642",
+        "D7122e60dd1eec7768a01"
+      ]
+    },
+    {
+      "finding_id": "P05-028",
+      "scene_id": "SC70adcf011b42bbeb",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "DOWN + JUMP、空中前提、俯冲踢、命中可受伤物才反弹全在，未跨动作改变条件。",
+      "edit_ids_checked": [
+        "E05-054"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::Tomcat.AreaA_map42_a noselect",
+        "datadm/all.ds#L2254",
+        "datadm/all.ds#L2255",
+        "datadm/all.ds#L2256",
+        "D9a0ee14d2a0039ca9dbc",
+        "Dcfd862b1a80d9fd91ba6",
+        "D01fdb7fe56cd3c2555b8"
+      ]
+    },
+    {
+      "finding_id": "P05-029",
+      "scene_id": "SCcfed64c6d940ad62",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "短促讨食及末尾称呼拖长保留；最爱属口语强调，不据此硬判无源新增偏好设定。",
+      "edit_ids_checked": [
+        "E05-055",
+        "E05-056",
+        "E05-057",
+        "E05-058"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadm/all.ds::TomcatItems.StatOctopus",
+        "datadm/all.ds#L3974",
+        "datadm/all.ds#L3975",
+        "datadm/all.ds#L3976",
+        "datadm/all.ds#L3977",
+        "datadm/all.ds#L3978",
+        "datadm/all.ds#L3979",
+        "Db49272c5ac7f96f36395",
+        "Dc8a49cfabcb56cb25578",
+        "D761f98244213620cb18c",
+        "Db1f6d781a64118d09b99",
+        "D928189533adc6e266338",
+        "D0c360fc0cdf340bfd98b"
+      ]
+    },
+    {
+      "finding_id": "P05-030",
+      "scene_id": "SC58ccd1b993ca1ca5",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "享受陪伴自然且未加身体依偎，三段管线结构保留。",
+      "edit_ids_checked": [
+        "E05-059"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datav/dictionary.json::ui.breeding.Kobold.affinity",
+        "datav/dictionary.json#ui.breeding.Kobold.affinity:None",
+        "U1d5d8df8a2ced817e524"
+      ]
+    },
+    {
+      "finding_id": "P05-031",
+      "scene_id": "SCe2b05d5a4cb5a705",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "抱怨住处/粗犷示好转折准确，三段管线与状态独立性保留。",
+      "edit_ids_checked": [
+        "E05-060"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datav/dictionary.json::ui.breeding.Dwarf.affinity",
+        "datav/dictionary.json#ui.breeding.Dwarf.affinity.mid",
+        "U5661fc63c0efe31201fb"
+      ]
+    },
+    {
+      "finding_id": "P05-032",
+      "scene_id": "SC87699368a000005b",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "learn joys改体会乐趣成立，菜单简介未误当角色自述；两段管线保留。",
+      "edit_ids_checked": [
+        "E05-061"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datav/dictionary.json::ui.data.f_AgentF03",
+        "datav/dictionary.json#ui.data.f_AgentF03.desc",
+        "U67f1b652d088b43ca2d2"
+      ]
+    },
+    {
+      "finding_id": "P05-033",
+      "scene_id": "SCdb93fddeabca5d30",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "战后追忆与犹豫语序清楚，未补回忆对象；两段管线保留。",
+      "edit_ids_checked": [
+        "E05-062"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datav/dictionary.json::ui.data.m_ClassicWerepup",
+        "datav/dictionary.json#ui.data.m_ClassicWerepup.desc",
+        "Ub3df6df9e00d0a88d37e"
+      ]
+    },
+    {
+      "finding_id": "P05-034",
+      "scene_id": "SC96a89c88351f6c03",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "nested用途未证，defer符合契约；不说明波浪译法正确。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datay/scripts_pack.json::/missionLog/female/2/header",
+        "datay/scripts_pack.json#/missionLog/female/2/header",
+        "U51c7f164284e7c74387a"
+      ]
+    },
+    {
+      "finding_id": "P05-035",
+      "scene_id": "SCd8d9edde0d88a8f5",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "OLD JUNK疑似商品名而非店名，但nested用途未证，defer不强应用成立。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datay/scripts_pack.json::/shops/male/Area0_Macsen1/products/2/displayName",
+        "datay/scripts_pack.json#/shops/male/Area0_Macsen1/products/2/displayName",
+        "Uddfe6b7d78510dbb8f9e"
+      ]
+    },
+    {
+      "finding_id": "P05-036",
+      "scene_id": "SC830eb1f5ee0725d9",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "male路径与Yiffany/her源冲突，译文忠实源身份，defer避免按路径硬改人物。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datay/scripts_pack.json::/missionLog/male/13/text",
+        "datay/scripts_pack.json#/missionLog/male/13/text",
+        "U2289b0f899a5af02f0bc"
+      ]
+    },
+    {
+      "finding_id": "P05-037",
+      "scene_id": "SCa1e42fd2a89cb4a7",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "Exile地名已证但译名未裁，暂缓强撤现用名合理；东北部表达问题仍留置。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "datadf/all.ds::MauserHints_AreaE.AfterSeenLock",
+        "datadf/all.ds#L3636",
+        "datadf/all.ds#L3637",
+        "Dbddb18c3ee50d1597e74",
+        "Da44a807c70d6089e7383"
+      ]
+    },
+    {
+      "finding_id": "P05-038",
+      "scene_id": "SC29248fbcf75fe78f",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "两次犬吠嵌入欢呼、救星祝颂保留，不推定群众全部物种。",
+      "edit_ids_checked": [
+        "E05-063",
+        "E05-064",
+        "E05-065"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "vsn/f_EndingGood/script.vsn::vsn/f_EndingGood/script.vsn",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:25",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:26",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:27",
+        "Ve1b44cd86767bae64abe",
+        "Ve1b44cd86767bae64abe",
+        "V9acaff909baaeec73952"
+      ]
+    },
+    {
+      "finding_id": "P05-039",
+      "scene_id": "SC29248fbcf75fe78f",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "Tomcat祝贺、犬类昵称和成名后勿忘总部俱全；姑——娘拖音属可选口吻，不作硬阻断。",
+      "edit_ids_checked": [
+        "E05-066",
+        "E05-067"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "vsn/f_EndingGood/script.vsn::vsn/f_EndingGood/script.vsn",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:40",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:41",
+        "V11c61b888b48adc0b64b",
+        "Vb2df9e6b60bb4d48a4ed"
+      ]
+    },
+    {
+      "finding_id": "P05-040",
+      "scene_id": "SC29248fbcf75fe78f",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "Bossu署名、两个完整全名、长幼、资历/技能/热情与PPP评价均在；head外余义未误删。",
+      "edit_ids_checked": [
+        "E05-068",
+        "E05-069",
+        "E05-070",
+        "E05-071",
+        "E05-072",
+        "E05-073"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "vsn/f_EndingGood/script.vsn::vsn/f_EndingGood/script.vsn",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:55",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:56",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:57",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:58",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:59",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:60",
+        "vsn/f_EndingGood/script.vsn#vsn/f_EndingGood/script.vsn:61",
+        "V845b6a016df96768b39e",
+        "Vd46aa4a475aa9cf54989",
+        "V253b673b7ba9b896d499",
+        "Vfc59233e6b01bdfa54de",
+        "V487fc49ba19acb8502ba",
+        "Vffccf19cf96682e270e0",
+        "V91bd43a05c2a6bc7e908"
+      ]
+    },
+    {
+      "finding_id": "P05-041",
+      "scene_id": "SC394405c5c61c5988",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "被俘结束报告解释为获释后的经历报告合理，未声称当前已获释；昏睡打断未越Black提前补打盹。",
+      "edit_ids_checked": [
+        "E05-074",
+        "E05-075"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-05.md",
+        "vsn/m_GameOverArea0/script.vsn::vsn/m_GameOverArea0/script.vsn",
+        "vsn/m_GameOverArea0/script.vsn#L6",
+        "vsn/m_GameOverArea0/script.vsn#L7",
+        "vsn/m_GameOverArea0/script.vsn#L8",
+        "V952d45a242a8478f1537",
+        "V1747c2ac688dd228192d",
+        "V4c90a307383fdbcf27fa"
+      ]
+    },
+    {
+      "finding_id": "P06-001",
+      "scene_id": "SC46a2115bf1481b1d",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "羽毛轻与穿裙轻盈比较、随后否认保留；未坐实商人穿裙经历。",
+      "edit_ids_checked": [
+        "E06-001",
+        "E06-002"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#AreaC_MacsenDark.TazerRapier",
+        "datadf/all.ds#L1201",
+        "datadf/all.ds#L1202",
+        "datadf/all.ds#L1203",
+        "D0110c41b79812179ea99",
+        "D4dc1f0f15cbd7e169cd0",
+        "D8e487b45f6e10ee50119"
+      ]
+    },
+    {
+      "finding_id": "P06-002",
+      "scene_id": "SC69cf1fb9619b4227",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "任意宠物亲密度满的条件与水晶充能分支独立；MAX程度可译，未动条件控制。",
+      "edit_ids_checked": [
+        "E06-003",
+        "E06-004"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#AreaH_MacsenBreeding.Talk.fap",
+        "datadf/all.ds#L1715",
+        "datadf/all.ds#L1716",
+        "datadf/all.ds#L1718",
+        "datadf/all.ds#L1719",
+        "datadf/all.ds#L1720",
+        "D6daf6743ed76564fd044",
+        "Dde860edaecbd3c159a2c",
+        "Dc3e3096df7a91731a56b",
+        "D81800d00613512d2e567",
+        "Daf6e292683fcc45f081e"
+      ]
+    },
+    {
+      "finding_id": "P06-003",
+      "scene_id": "SC26dbe5fa7ee9cf03",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "源there疑为their有these上下文支持；仅首问与反讽重写，未凭空补自修耗能机理。",
+      "edit_ids_checked": [
+        "E06-005",
+        "E06-006"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#BossuDex.ClassicCannonWallC",
+        "datadf/all.ds#L3187",
+        "datadf/all.ds#L3188",
+        "datadf/all.ds#L3189",
+        "datadf/all.ds#L3190",
+        "datadf/all.ds#L3191",
+        "D2a4fe8565f6793bc65ec",
+        "Dd867d5baf899fa43c5c8",
+        "D0bb75b7996c4aa9c8f0e",
+        "D06457645af3cca345e89",
+        "Ddd029575a5acb7df94b2"
+      ]
+    },
+    {
+      "finding_id": "P06-004",
+      "scene_id": "SC11c65e57ae93baff",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "源突兀orders与speaker未核，defer比删行或套NSFW更稳妥；原译非因此获正确认证。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#Mauser.AreaB_map29_a noselect",
+        "datadf/all.ds#Mauser.AreaB_map29_a noselect:2324",
+        "Df20864d9bd5c9e434937"
+      ]
+    },
+    {
+      "finding_id": "P06-005",
+      "scene_id": "SCcbbefc7a63e6bd3c",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "单一未知agent用对方准确，freely保留；不揭亲属性别或关机施事，看来知识限制仍在。",
+      "edit_ids_checked": [
+        "E06-007",
+        "E06-008",
+        "E06-009",
+        "E06-010"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#Mauser.AreaC_map64_a noselect",
+        "datadf/all.ds#L2411",
+        "datadf/all.ds#L2412",
+        "datadf/all.ds#L2413",
+        "datadf/all.ds#L2414",
+        "datadf/all.ds#L2415",
+        "datadf/all.ds#L2416",
+        "datadf/all.ds#L2417",
+        "Db3d9f5c94aa2355a423c",
+        "Ddea7f867303ba0bec8f6",
+        "De437ae290cd04141701c",
+        "D83fb1edf654b5a2626b9",
+        "D8e82ca037f2bc3ac52d5",
+        "Dbb8938476f31d37c09b5",
+        "D33bcefe6915f13e51879"
+      ]
+    },
+    {
+      "finding_id": "P06-006",
+      "scene_id": "SC30bbe99d4389a0bf",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "Anytime回应牵线致谢而非自己参与；保留两位同事被凑对的笑点。",
+      "edit_ids_checked": [
+        "E06-011"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#Tomcat.Area0_First_CosmoCard noselect",
+        "datadf/all.ds#L2104",
+        "Ddea6def7e5eeb5cd2860"
+      ]
+    },
+    {
+      "finding_id": "P06-007",
+      "scene_id": "SCfd1dd9245ceeeff1",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "SFW独立同义应答成立，未引入成人卡背内容。",
+      "edit_ids_checked": [
+        "E06-012"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#Tomcat.Area0_First_CosmoCard noselect",
+        "datadf/all.ds#Tomcat.Area0_First_CosmoCard noselect:2098",
+        "Ddea6def7e5eeb5cd2860"
+      ]
+    },
+    {
+      "finding_id": "P06-008",
+      "scene_id": "SCa95fc07f154b4282",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "无线电比收音机适合本场双向任务通讯；误认拾到设备者的情节仍在，不夸大严重性。",
+      "edit_ids_checked": [
+        "E06-013"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#Tomcat.KoboPickup noselect noamendfreq",
+        "datadf/all.ds#Tomcat.KoboPickup noselect noamendfreq:3737",
+        "datadf/all.ds#Tomcat.KoboPickup noselect noamendfreq:3738",
+        "datadf/all.ds#Tomcat.KoboPickup noselect noamendfreq:3739",
+        "datadf/all.ds#Tomcat.KoboPickup noselect noamendfreq:3740"
+      ]
+    },
+    {
+      "finding_id": "P06-009",
+      "scene_id": "SCf17f3e7ace13c492",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "门卡them显示对象有歧义，未核实际显示/触发而defer合理；不是认可自指旧译。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#TomcatItems.SpecialKeycard4",
+        "datadf/all.ds#L4314",
+        "datadf/all.ds#L4315",
+        "datadf/all.ds#L4316",
+        "Dff0d1cac41ee15adadfc",
+        "D4cd4cf848f2a3b3309b9",
+        "Da3032095d96a2d715469"
+      ]
+    },
+    {
+      "finding_id": "P06-010",
+      "scene_id": "SCa84ca531944c6858",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "system在quadrant中按星系理解合理，完整head保规格不合及应急用途。",
+      "edit_ids_checked": [
+        "E06-014"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadf/all.ds#TomcatItems.TazerPirate",
+        "datadf/all.ds#TomcatItems.TazerPirate:4061",
+        "datadf/all.ds#TomcatItems.TazerPirate:4062",
+        "D3d942eab1c4aed019e47",
+        "D8bcf9cc6dbd880a80927"
+      ]
+    },
+    {
+      "finding_id": "P06-011",
+      "scene_id": "SC17d46a70f789c0a9",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "无线电与物品菜单SELECT用途一致；head内按键与使用提示未删。",
+      "edit_ids_checked": [
+        "E06-015"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#Area0_Macsen1.Talk.hornets",
+        "datadm/all.ds#L67",
+        "datadm/all.ds#L68",
+        "Dcc2c10d342077b3c23d4",
+        "D26ceeeb08c7ab8af4503"
+      ]
+    },
+    {
+      "finding_id": "P06-012",
+      "scene_id": "SC1d927b426a0e5fa4",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "H-HEY急辩、冲动训诫、好小子及Pup反驳俱在；频率/指令/空尾未动，不无端幼儿化。",
+      "edit_ids_checked": [
+        "E06-016",
+        "E06-017",
+        "E06-018",
+        "E06-019"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#Bossu.Area0_map10_a noselect noamendfreq",
+        "datadm/all.ds#L2011",
+        "datadm/all.ds#L2012",
+        "datadm/all.ds#L2013",
+        "datadm/all.ds#L2014",
+        "datadm/all.ds#L2015",
+        "datadm/all.ds#L2016",
+        "datadm/all.ds#L2017",
+        "datadm/all.ds#L2018",
+        "datadm/all.ds#L2019",
+        "D38a7b6f632d3d4920fba",
+        "Dd18fc511fcf1366f3eb0",
+        "D9479f7cd1322ede97f0f",
+        "D09dce01cbf1bccb85bb0",
+        "Dcfc4c0faaedc6be3a295",
+        "D0d8e560dc45b18339684",
+        "D58d49a2b312ab2ee41d8",
+        "D3b537a0c7c2970289ceb",
+        "D2793fac7cef4c23c459c"
+      ]
+    },
+    {
+      "finding_id": "P06-013",
+      "scene_id": "SC8a64100509cd1232",
+      "decision_action": "apply",
+      "verdict": "revise",
+      "reason": "E06-021的凡俗生物未明确保留mortal与immortal相反的衰老死亡意义；其余让步、繁衍因果、总部知识界限基本成立。",
+      "edit_ids_checked": [
+        "E06-020",
+        "E06-021",
+        "E06-022",
+        "E06-023"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#BossuDex.ClassicElf",
+        "datadm/all.ds#L3264",
+        "datadm/all.ds#L3265",
+        "datadm/all.ds#L3266",
+        "datadm/all.ds#L3267",
+        "datadm/all.ds#L3268",
+        "datadm/all.ds#L3269",
+        "D5b2a0ded65b05a8c4a4b",
+        "Ded16272bce4c9ad0e0e8",
+        "Dcc16f1c80cba3b29825c",
+        "D988644c7b29b57f29170",
+        "D37a2af6fea5d2ff4e91d",
+        "D14d1fe20a325ee566503"
+      ]
+    },
+    {
+      "finding_id": "P06-014",
+      "scene_id": "SC8a64100509cd1232",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "提醒回神和防御目的完整，合句头未删消费尾含义，不新增敌意。",
+      "edit_ids_checked": [
+        "E06-024"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#BossuDex.ClassicElf",
+        "datadm/all.ds#L3273",
+        "datadm/all.ds#L3274",
+        "datadm/all.ds#L3275",
+        "D675d1eadf501e2fb62a2",
+        "D4b00b09e203eaed7cf90",
+        "D19a92a0d298c43889bd7"
+      ]
+    },
+    {
+      "finding_id": "P06-015",
+      "scene_id": "SC12557c972d930ead",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "关切生命值下降并问能否起身，不再威胁嘲讽；保持原无方括号节点形式。",
+      "edit_ids_checked": [
+        "E06-025",
+        "E06-026"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#DefeatHints.ClassicWerehund.transform",
+        "datadm/all.ds#L4864",
+        "datadm/all.ds#L4865",
+        "D1f73f6380da1780f8bd0",
+        "D3b7d4d9c01ecee166e26"
+      ]
+    },
+    {
+      "finding_id": "P06-016",
+      "scene_id": "SC2c035a06b63b51a3",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "食物回血/提升属性与遇强敌可备粮条件完整，不改成必须购买。",
+      "edit_ids_checked": [
+        "E06-027",
+        "E06-028"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#Gitgud.Tip6",
+        "datadm/all.ds#L3388",
+        "datadm/all.ds#L3389",
+        "datadm/all.ds#L3390",
+        "D7349c232c82d8856e589",
+        "D28416e56b874d8937945",
+        "De10fa05f8f7d8a73d926"
+      ]
+    },
+    {
+      "finding_id": "P06-017",
+      "scene_id": "SCd14e021c6ca16c23",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "窥探卫星通讯比有点偷看链路自然；完整head保芯片交换开门及双赢，不强认所有黑客为The0。",
+      "edit_ids_checked": [
+        "E06-029",
+        "E06-030"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#Hacker_Shared.Meeting",
+        "datadm/all.ds#L4970",
+        "datadm/all.ds#L4971",
+        "datadm/all.ds#L4972",
+        "datadm/all.ds#L4973",
+        "D37a04fec0436ce935a22",
+        "D497a68a9b227040e307f",
+        "D0ddacd5616cd73308110",
+        "D5a267d3fe5082a86d8b7"
+      ]
+    },
+    {
+      "finding_id": "P06-018",
+      "scene_id": "SC5952f8f6e6829e90",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "发光为源明示特征，补回不增来源或机理。",
+      "edit_ids_checked": [
+        "E06-031"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datadm/all.ds#TomcatItems.SpecialLeftmark",
+        "datadm/all.ds#TomcatItems.SpecialLeftmark:4214",
+        "Dc42b0405143b2e68c88e"
+      ]
+    },
+    {
+      "finding_id": "P06-019",
+      "scene_id": "SC91728abf50d61496",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "猫爪戏称、礼貌呼噜、靠近时收爪保持；三段管线不变，不等同把肉垫收进身体。",
+      "edit_ids_checked": [
+        "E06-032"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datav/dictionary.json#ui.breeding.Swiper.affinity",
+        "datav/dictionary.json#ui.breeding.Swiper.affinity.high",
+        "U083416b25fba95865c55"
+      ]
+    },
+    {
+      "finding_id": "P06-020",
+      "scene_id": "SC635055d78e091a5c",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "Enelye译名未终裁，defer合理，不强定任一现用名。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datav/dictionary.json#ui.card.CosmoCardEnelye",
+        "datav/dictionary.json#ui.card.CosmoCardEnelye.name",
+        "Ub839aef2a82add3daaa7"
+      ]
+    },
+    {
+      "finding_id": "P06-021",
+      "scene_id": "SC60978b8144431f79",
+      "decision_action": "defer",
+      "verdict": "pass",
+      "reason": "nested显示用途未证，defer符合契约；旧货铺仍是待核问题，非认证正确。",
+      "edit_ids_checked": [],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "datay/scripts_pack.json#/shops/female/Area0_Macsen1/products/2/displayName",
+        "datay/scripts_pack.json#/shops/female/Area0_Macsen1/products/2/displayName",
+        "Ub9b63ea494994c9a95a2"
+      ]
+    },
+    {
+      "finding_id": "P06-022",
+      "scene_id": "SCcf4e44e2dba4cfa6",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "Fox/lang前缀和cut分隔均保留，受控施受及失去自主明确；前文动机仍未判定，未倒灌全知知识。",
+      "edit_ids_checked": [
+        "E06-033",
+        "E06-034",
+        "E06-035",
+        "E06-036",
+        "E06-037"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/f_AgentFZ5/script.vsn#vsn/f_AgentFZ5/script.vsn",
+        "vsn/f_AgentFZ5/script.vsn#L35",
+        "vsn/f_AgentFZ5/script.vsn#L36",
+        "vsn/f_AgentFZ5/script.vsn#L37",
+        "vsn/f_AgentFZ5/script.vsn#L41",
+        "vsn/f_AgentFZ5/script.vsn#L42",
+        "V416786ea80f83adb4cd0",
+        "V417a55beb869b43b6311",
+        "Va3e66a029e76f1964198",
+        "V3526d2eba2990b2b482e",
+        "V53a1a40f684c7780301a"
+      ]
+    },
+    {
+      "finding_id": "P06-023",
+      "scene_id": "SCfabc28c6d25f68c7",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "前三/攻方语义保留，未误成体位排行；汉语不必硬复刻top同形字笑点。",
+      "edit_ids_checked": [
+        "E06-038"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_AgentM0B/script.vsn#vsn/m_AgentM0B/script.vsn",
+        "vsn/m_AgentM0B/script.vsn#L45",
+        "vsn/m_AgentM0B/script.vsn#L46",
+        "Vdbd63fff02d467b47493",
+        "Va84c7f9ec856309a624e"
+      ]
+    },
+    {
+      "finding_id": "P06-024",
+      "scene_id": "SCadcabd923d4535da",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "犬吠欢呼两次及救星赞颂完整，不推广成角色常态口癖。",
+      "edit_ids_checked": [
+        "E06-039",
+        "E06-040",
+        "E06-041"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:25",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:26",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:27",
+        "Vd58b341ee258d96fa212",
+        "Vd58b341ee258d96fa212",
+        "Vfabd35b8ffac6147848d"
+      ]
+    },
+    {
+      "finding_id": "P06-025",
+      "scene_id": "SCadcabd923d4535da",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "grrrrl译姑娘成立，未硬加猫叫；小狗崽弟弟属本句调侃而非年龄裁定。",
+      "edit_ids_checked": [
+        "E06-042"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:40",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:41",
+        "Vdfa94be03465f41ce843",
+        "V5332ec619914b8a01c51"
+      ]
+    },
+    {
+      "finding_id": "P06-026",
+      "scene_id": "SCadcabd923d4535da",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "报告署名是正文可译；text前缀、方括号、署名前空格与Bossu名字保留。",
+      "edit_ids_checked": [
+        "E06-043"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn",
+        "vsn/m_EndingGood/script.vsn#vsn/m_EndingGood/script.vsn:61",
+        "V1f422217877d0e1a1372"
+      ]
+    },
+    {
+      "finding_id": "P06-027",
+      "scene_id": "SC28990ff79109edc4",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "去掉无源粗口且仍是夸张惊呼，未新增口吃或改正文节点格式。",
+      "edit_ids_checked": [
+        "E06-044"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_GameOverAreaA/script.vsn#vsn/m_GameOverAreaA/script.vsn",
+        "vsn/m_GameOverAreaA/script.vsn#L85",
+        "V8e20d97e2ab4f53386c3"
+      ]
+    },
+    {
+      "finding_id": "P06-028",
+      "scene_id": "SC28990ff79109edc4",
+      "decision_action": "apply",
+      "verdict": "pass",
+      "reason": "三槽连读保仅能体会活体电池/持续快感安抚的状态及前后报告反差，未声称康复；只知道略认知化，可选改只顾享受但不列硬阻断。",
+      "edit_ids_checked": [
+        "E06-045",
+        "E06-046",
+        "E06-047"
+      ],
+      "evidence_refs": [
+        "localization/editorial/r2/review-input/packet-06.md",
+        "vsn/m_GameOverAreaA/script.vsn#vsn/m_GameOverAreaA/script.vsn",
+        "vsn/m_GameOverAreaA/script.vsn#L109",
+        "vsn/m_GameOverAreaA/script.vsn#L110",
+        "vsn/m_GameOverAreaA/script.vsn#L111",
+        "vsn/m_GameOverAreaA/script.vsn#L112",
+        "Vc6a8f028c460dd45017c",
+        "V1ee70afcc2c641ed80bd",
+        "Vf87e78d2f497fbf45ac3",
+        "V2650ca4ce98564842569"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "issue_id": "R0506-01",
+      "finding_id": "P05-013",
+      "edit_id": "E05-026",
+      "severity": "medium",
+      "category": "meaning/joke",
+      "source_evidence": "datadf/all.ds#L3828-L3833; GETTT INNN MEEEE; review-input/packet-05.md:437-460",
+      "problem": "肚为新增明确部位，将GET IN ME可同时读成食欲和成人邀请的对象收窄。",
+      "requirement": "保留进到我里面的含混与拖音，不指定肚；例如快——进——来——吧——！或进——我——里——面——！；九槽和前缀均不变。"
+    },
+    {
+      "issue_id": "R0506-02",
+      "finding_id": "P06-013",
+      "edit_id": "E06-021",
+      "severity": "medium",
+      "category": "meaning",
+      "source_evidence": "datadm/all.ds#L3264-L3269; MORTAL CHARACTERISTICS contrasted with IMMORTAL; review-input/packet-06.md:495-520",
+      "problem": "凡俗生物容易仅指普通/世俗生物，未清楚传达mortal之会衰老死亡，与不朽对照被弱化。",
+      "requirement": "在原合句头保繁衍因果并明确有寿命/会衰老死亡这一特征，不新增原文未述具体遗传机理；消费尾仍空。"
+    }
+  ],
+  "optional_notes": [
+    {
+      "finding_id": "P06-028",
+      "edit_ids": [
+        "E06-045",
+        "E06-046",
+        "E06-047"
+      ],
+      "note": "只知道略认知化，可选润为只顾享受/只能感受这一状态，结合前句无力体会别的已能理解；不作为硬阻断。"
+    },
+    {
+      "finding_id": "P05-017",
+      "edit_ids": [
+        "E05-036",
+        "E05-037"
+      ],
+      "note": "渐增趋势在越来越多中仍在；几百年来一直如此略松，可选改这几百年间一直在变化，不上升硬阻断。"
+    }
+  ],
+  "structural_checks": {
+    "decision_edit_coverage": true,
+    "no_real_newline_in_edits": true,
+    "pipe_counts_unchanged": true,
+    "actor_and_script_prefixes_unchanged": true,
+    "manual_edits_do_not_fill_consumed_empty_slots": "review-input逐场人工核对未见违规",
+    "tomcat_naming": "AFTER保Tomcat命名且head其余含义保留；手动old未改字节"
+  },
+  "limits": [
+    "角色主参照与世界参照实读1–250行，相关角色边界/内容版本/剧情/受控事实已覆盖；未声称全文读完。",
+    "完整读取两份review-input及69条decisions、122条edits；未额外读取r2/input JSON，未独立重抽归档或核引擎old匹配。",
+    "AFTER命名替换与来源锁定预检为稿内说明，未以此替代运行验证。",
+    "未运行字体/容器渲染、游戏、加载分支或正式资源回归；UI字数/管线保留不等于像素适配通过。",
+    "pass仅判本轮决策与提案可接受，defer的pass不认证旧译正确；无approved结论。"
+  ]
+}

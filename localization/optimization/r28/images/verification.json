@@ -1,0 +1,29 @@
+{
+  "target_variant_rows": 243,
+  "workorder_count": 38,
+  "redrawn_rows": 79,
+  "retained_rows": 164,
+  "retained_by_reason": {
+    "preserved-existing-chinese-regression": 4,
+    "preserved-empty-animation-frame": 60,
+    "preserved-blink-off-frame": 2,
+    "preserved-brand-copyright-animation": 90,
+    "preserved-unconfirmed-micro-symbol": 8
+  },
+  "changed_pixels": 77872,
+  "changed_pixels_outside_approved_mask": 0,
+  "alpha_changed_pixels": 0,
+  "font_sizes": {
+    "12": 92,
+    "8": 63
+  },
+  "not_performed": [
+    "archive-build",
+    "install",
+    "deploy",
+    "game-launch",
+    "save-I/O",
+    "runtime-clip-validation"
+  ],
+  "visual_review": "passed-with-explicit-preservations; actual read_image of 32 hash-pinned sheets; see visual-review.json"
+}

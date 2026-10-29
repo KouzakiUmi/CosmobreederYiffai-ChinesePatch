@@ -64,11 +64,19 @@ public final class PixelLayout {
         public final double lineStep;
         public final Insets effects;
         public final String id, version;
+        /** Optional legacy row budget, counted in source display UTF-16 units. */
+        public final int maxUtf16;
         public Profile(Rect content, double lineStep, Insets effects) {
             this("", "", content, lineStep, effects);
         }
         public Profile(String id, String version, Rect content,
                        double lineStep, Insets effects) {
+            this(id, version, content, lineStep, effects, Integer.MAX_VALUE);
+        }
+        public Profile(String id, String version, Rect content,
+                       double lineStep, Insets effects, int maxUtf16) {
+            if (maxUtf16 < 1) throw new IllegalArgumentException("maxUtf16 must be positive");
+            this.maxUtf16 = maxUtf16;
             if (id == null || version == null || content == null || effects == null)
                 throw new NullPointerException("profile field");
             finite(lineStep, "lineStep");
@@ -110,7 +118,7 @@ public final class PixelLayout {
     }
 
     public enum IssueKind {
-        UNIT_TOO_WIDE, LINE_TOO_WIDE, LINE_TOO_HIGH, HEIGHT_OVERFLOW,
+        UNIT_TOO_WIDE, LINE_TOO_WIDE, LINE_TOO_HIGH, HEIGHT_OVERFLOW, UTF16_OVERFLOW,
         FORCED_BREAK, CONTROL_CHARACTER
     }
 
@@ -123,7 +131,8 @@ public final class PixelLayout {
         }
         public boolean isOverflow() {
             return kind == IssueKind.UNIT_TOO_WIDE || kind == IssueKind.LINE_TOO_WIDE
-                || kind == IssueKind.LINE_TOO_HIGH || kind == IssueKind.HEIGHT_OVERFLOW;
+                || kind == IssueKind.LINE_TOO_HIGH || kind == IssueKind.HEIGHT_OVERFLOW
+                || kind == IssueKind.UTF16_OVERFLOW;
         }
     }
 
@@ -286,7 +295,9 @@ public final class PixelLayout {
             while (fit < end) {
                 Measure next = new Measure(measure);
                 append(next, units.get(fit), metrics, p.effects, null);
-                if (next.width() > p.content.width && fit > at) break;
+                boolean exceeds = next.width() > p.content.width
+                    || units.get(fit).span.end - units.get(at).span.start > p.maxUtf16;
+                if (exceeds && fit > at) break;
                 measure = next;
                 fit++;
                 if (fit == end || legalBoundary(text, units.get(fit - 1), units.get(fit))) {
@@ -294,7 +305,7 @@ public final class PixelLayout {
                     if (fit == end || preferredBoundary(text, units.get(fit - 1), units.get(fit)))
                         preferred = fit;
                 }
-                if (next.width() > p.content.width) break; // one oversized unit, always progresses
+                if (exceeds) break; // one oversized atomic unit, always progresses
             }
             int stop = fit;
             if (fit < end) {
@@ -341,6 +352,9 @@ public final class PixelLayout {
             if (single.width() > p.content.width)
                 issues.add(new Issue(IssueKind.UNIT_TOO_WIDE, raw.span, index));
         }
+        if (start < end && all.get(end - 1).span.end - all.get(start).span.start > p.maxUtf16)
+            issues.add(new Issue(IssueKind.UTF16_OVERFLOW,
+                new Span(all.get(start).span.start, all.get(end - 1).span.end), index));
         if (newline != null) units.add(new Unit(newline, Collections.<PlacedGlyph>emptyList()));
         int spanStart = units.isEmpty() ? emptyOffset : units.get(0).display.start;
         int spanEnd = units.isEmpty() ? emptyOffset : units.get(units.size() - 1).display.end;
@@ -457,12 +471,14 @@ public final class PixelLayout {
         int first = text.codePointAt(start), at = start + Character.charCount(first);
         if (first == '\r' && at < text.length() && text.charAt(at) == '\n') return at + 1;
         if (hardBreak(first)) return at;
-        // Ellipses are never split internally, including the Chinese six-dot pair.
-        if (first == 0x2026 || first == 0x22ef || first == '.') {
+        // Shared atomic policy: ellipsis and dash runs cannot be split by either
+        // the pixel budget or a legacy UTF-16 row budget. Single '.'/'-' stay ordinary.
+        if (first == 0x2026 || first == 0x22ef || first == '.'
+            || first == 0x2014 || first == 0x2015 || first == '-') {
             int end = at;
             while (end < text.length() && text.codePointAt(end) == first)
                 end += Character.charCount(first);
-            if (first != '.' || end - start >= 3) at = end;
+            if ((first != '.' && first != '-') || end - start >= (first == '.' ? 3 : 2)) at = end;
         }
         int previous = first, regionalCount = regional(first) ? 1 : 0;
         boolean joinNext = first == 0x200d || virama(first);

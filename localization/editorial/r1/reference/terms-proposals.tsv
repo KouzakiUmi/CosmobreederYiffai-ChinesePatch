@@ -1,0 +1,36 @@
+proposal_id	source_term	context_scope	provisional_zh	final_decision	decision_status	fact_refs	unit_occurrence_source_refs	constraint
+T001	3P / PPP / PPPC / 3PC	组织自称/宣传/属地	3P组织；其他缩写暂保留		proposed-not-final	W01,W08	V461a6a7d5f000b146d7c/O6f1874ad91277b85ec82@vsn/ClassicPreTitle/script.vsn:6; V9b7d2d514805746355e0/Oaceef4097553b99b104b@vsn/f_ClassicBigboldV2/script.vsn:15	不造未经展开的全称或四个组织
+T002	Cosmobreeder / Cosmobreeding	职业称谓/成人公务双关	宇宙育种者 / 宇宙育种		proposed-not-final	W01,W11	V461a6a7d5f000b146d7c/O6f1874ad91277b85ec82@vsn/ClassicPreTitle/script.vsn:6; V35753ef8d2e8ce3545f3/O3eaf818ea22d9b055205@vsn/m_ClassicBigboldV2/script.vsn:51	研究职业与性喜剧层并存，不全改特工或交配
+T003	Agent	普通职务呼叫	探员		proposed-not-final	W03	V7e5558b3c01bcc427629/Oe1c1e35550dfaad049f0@vsn/m_GameStart/script.vsn:19	Top/bottom独立处理，不把职务与专名混同
+T004	Top Agent / bottom agent	自夸/性角色/挖苦	顶尖/垫底探员；成人角色按句重写		proposed-not-final	R05,E06	Va74c93d39852456ec8d3/Ob4a45eaf7d8711381215@vsn/m_AgentM02/script.vsn:11; Vebe92d4eed3128235ad2/O2e564fbc64811b075cee@vsn/m_GameOverAreaC/script.vsn:18	非统一军衔；不可全局固定攻/受
+T005	Yiffany / Yiffai	专名与结局全名	伊法妮 / 伊法伊（暂）		proposed-not-final	W05,W06	V6b946ff0cd3e851cd52f/O92cd853866ba1c6f31ed@vsn/f_GameStart/script.vsn:23; Vab192be073383a46437e/O13c960410aeedf0216d0@vsn/m_EndingGood/script.vsn:55	姐姐/弟弟固定；Yiffai Yiffai重名不删，专名不提前灌敌身份
+T006	Tutone	行星	图托恩		proposed-not-final	W02	Vfe440d529a77f7889ac2/O6e87be36775bc5790e80@vsn/m_GameStart/script.vsn:6	明确planet，非仅图鉴未说明
+T007	Exile / prison moon	绕行小行星/剧情俗称	放逐星（暂）/监狱卫星		proposed-not-final	E07	V787512b9ff4f80145c2e/Oc4e1b1dbb4e988aa7119@vsn/m_GameOverAreaE/script.vsn:5	同一天体；不凭moon另造月球
+T008	Ayskammr / Depot B / Sceafya / Zeronia	区域专名	艾斯卡姆尔 / B号仓区 / Sceafya待定 / Zeronia待定		proposed-not-final	C04	localization/sources/blobs/1672b5dd05ef370162fcea4e39ad4dd03c16221513c676fd90da0264dc5f4b1e.ds:3509	地区不是四个行星，目录顺序不等于游玩顺序
+T009	bio data / data / report	采集/传输/档案/存档语境	生物数据 / 数据 / 报告（按对象）		proposed-not-final	W03,W11	V7e5558b3c01bcc427629/Oe1c1e35550dfaad049f0@vsn/m_GameStart/script.vsn:19; V35753ef8d2e8ce3545f3/O3eaf818ea22d9b055205@vsn/m_ClassicBigboldV2/script.vsn:51	不全部荤化，不全部净化成情报或存档
+T010	Lighttazer	科幻刃形武器系列	光能电击刃（暂）		proposed-not-final	I03	Dbbd7a6f007c51f7e62bc/Oc9bf7affe4d123a5be51@datadm/all.ds:4087	未证电磁枪，不能套现代现实taser外形
+T011	Trainee / Trainer Tazer	新人弱武器/捕获武器	见习电击刃 / 驯兽电击刃（暂）		proposed-not-final	I03	Dbbd7a6f007c51f7e62bc/Oc9bf7affe4d123a5be51@datadm/all.ds:4087	两个英文不同词；Trainer最后一击对特定怪物传机库
+T012	F.A.P. / Field Attenuated Prism	技术名与成人缩写	F.A.P.场衰减棱晶（暂）		proposed-not-final	I05,R07	D723fb8eba708ff0e331d/O4b6a4374e037fc658e57@datadm/all.ds:4432; Va862c5d2a8065618090e/O1cff8b76e0c68708b441@vsn/m_AgentM08/script.vsn:77	宠物棱晶与F.A.P.-like jewel不无证合一
+T013	Jakov’s Obscura	水晶命名趣味	雅科夫暗晶（暂，待命名终裁）		proposed-not-final	I05	D723fb8eba708ff0e331d/O4b6a4374e037fc658e57@datadm/all.ds:4432	保留命名层；技术全称另列，笑点按功能处理
+T014	PSY / ESP / ESPer / Zener	数值/能力范畴/能力者/力量名	PSY / 超感知 / 超感者 / 泽纳（暂）		proposed-not-final	H01,I06	V340e5be183a58363ed99/O591263fb1aaeb32d2640@vsn/f_AgentFZ1/script.vsn:5; D1e4ba99d5eb82af6da29/Oc7b903c046595a6b2416@datadm/all.ds:4475	不同层级不吞成同一魔力，数值定义须另核
+T015	feral	四足形态/野性犬科	兽态 / 野性犬科（按语境）		proposed-not-final	W16	Vaf7dd57056720eea492a/Oa1a5a2668f3f2ff2e746@vsn/m_ClassicWerehund/script.vsn:123	兽态不自动等于失去理智或野蛮人格
+T016	Fenfen	本土种族/机械复制体	芬芬 / 机械芬芬（暂）		proposed-not-final	H01,D02	V340e5be183a58363ed99/O591263fb1aaeb32d2640@vsn/f_AgentFZ1/script.vsn:5; D9fce9d54f3d94ad4e6a5/O93747cb50f2482f26380@datadm/all.ds:3124	原生与复制体分开，总部尚未遇见不是已灭绝
+T017	Kobold / Kobo	蜥蜴太空海盗/简称/服装	科博德 / 科博（暂）		proposed-not-final	R05,I03	Va74c93d39852456ec8d3/Ob4a45eaf7d8711381215@vsn/m_AgentM02/script.vsn:11; Dbbd7a6f007c51f7e62bc/Oc9bf7affe4d123a5be51@datadm/all.ds:4087	不套别作狗头人设定；鳞装是服装非客观变身
+T018	Spiker / Bumper / Spiderbot / Driller	机械敌人	刺甲机 / 弹跳巡逻机 / 蛛形机 / 钻掘机（暂）		proposed-not-final	D01,D03	De933955b20dc64b1a22d/Oc2b7948077102e9eef2f@datadm/all.ds:2768; Dae3c593ea275d0db400d/Ocdcbf1db74a509c2b16c@datadm/all.ds:3140	机器不译成兽；各机械型号别合并
+T019	Swiper / Squeaker / Barker	物种名	挥爪猫 / 吱吱兽 / 吠犬（暂）		proposed-not-final	D01,R01	De933955b20dc64b1a22d/Oc2b7948077102e9eef2f@datadm/all.ds:2768; Vdb90579d41254a8f0a50/Ob77f37a1bc312289b6c9@vsn/f_AgentF01/script.vsn:18	Swiper不是动作；Barker不泛指所有犬科
+T020	Hopper / Ghoster	Bossu暂定命名	跳跳怪 / 幽首（暂）		proposed-not-final	D05,D06	Dc666dbc85660a3be0667/O6a441ed4e465d53414e1@datadm/all.ds:3227; Db8de9edef242b9e4a21a/Oe221133b4ddccf9c0f90@datadm/all.ds:3194	保留for now笑点与暂名属性
+T021	High Lady / Queen	Enelye/Traeh/自封Vickers	高贵女领主 / 女王（按对象）		proposed-not-final	W14,H07,R04	V999b254bd5dfa6ae3e0a/O1f4b45aa23a38f1a3776@vsn/m_ClassicEnelye/script.vsn:5; Va0221f64944d5ae004ac/O988c4690d9c2202c7c26@vsn/f_AgentFZ6/script.vsn:11; V9ec2d936ab267e87c766/O5e09ee818be546b7254b@vsn/f_AgentF08/script.vsn:46	不把Enelye、Traeh、自封海盗女王合一
+T022	P.A.W. / pawing	终端/菜单/成人双关	P.A.W.终端；pawing按句接梗		proposed-not-final	I09,I10	D25c06edf2a8c203d1fdd/O1bb1392ddd0081a65977@datadm/all.ds:4590; D73388e47212e1c666dc3/O27accfac95100145c8c5@datadm/all.ds:4622	设备语境不一律改成爪子
+T023	USL / Universal Scripting Language	程序语言	USL通用脚本语言		proposed-not-final	I09	D25c06edf2a8c203d1fdd/O1bb1392ddd0081a65977@datadm/all.ds:4590	原文有展开，非未知组织缩写
+T024	biocrypto / Omega Protocol	黑市物品/任务法律口径	生物加密币 / 欧米伽协议（暂）		proposed-not-final	I09	D25c06edf2a8c203d1fdd/O1bb1392ddd0081a65977@datadm/all.ds:4590	授权是角色说法，不造完整宪制或无限豁免
+T025	torch / flashlight	Bossu英式词与吐槽	手电筒；英美用词笑点另写		proposed-not-final	I05	D723fb8eba708ff0e331d/O4b6a4374e037fc658e57@datadm/all.ds:4432	同物非火把，不拆成两件道具
+T026	come in / come / cum	无线电呼叫+荤笑话	收到请回答；接梗按功能重写		proposed-not-final	D02	D9fce9d54f3d94ad4e6a5/O93747cb50f2482f26380@datadm/all.ds:3124	come in主功能不是我走进来了
+T027	mine / miner / mine	矿井/地雷/所有权连环冷笑话	矿坑埋雷归矿主（功能草案）		proposed-not-final	D01	De933955b20dc64b1a22d/Oc2b7948077102e9eef2f@datadm/all.ds:2768	保留解释→误解→吐槽，不硬凑英文同形词
+T028	depot / despot	区域冷笑话	仓区霸王（功能草案）		proposed-not-final	W03	V7e5558b3c01bcc427629/Oe1c1e35550dfaad049f0@vsn/m_GameStart/script.vsn:19	不是正式反派名称；仅该冷笑话重写
+T029	bone / boner; meat / meet	食物/成人接梗/店主道别	骨头/肉棒接梗；肉日再见（功能草案）		proposed-not-final	I01	Dd5a9e59ee559eafa445f/O71965802a40e771e1466@datadm/all.ds:3861	道具名仍骨头/肉；不全局荤化
+T030	pup / puppy / kiddo	成人昵称/真实幼崽	小狗 / 小家伙；幼崽按对象		proposed-not-final	W07,W17	V60e2610da1363aa4fd96/O8711c26c30b47d3461b5@vsn/m_ClassicBigbold/script.vsn:34; V7e92b286a418ffc7c48f/O3a29a67b9fc1b0bd129d@vsn/m_ClassicWerepup/script.vsn:162	成人主角不降龄，Werepup幼崽边界保留
+T031	Cosmohelm / Cosmosuit	头盔/服装/完整气密套装	宇宙盔 / 宇宙服（暂）		proposed-not-final	W20	V80479a61bdb981bdaa98/O7188e11ab7cd06c3e395@vsn/m_ClassicSqueakerBoss/script.vsn:12	头盔不等完整套装，配齐条件保留
+T032	key / keycard / CosmoCard	牢锁/等级门卡/图鉴资料卡	钥匙 / 钥匙卡 / 宇宙资料卡		proposed-not-final	W17,I10	V7e92b286a418ffc7c48f/O3a29a67b9fc1b0bd129d@vsn/m_ClassicWerepup/script.vsn:162; D73388e47212e1c666dc3/O27accfac95100145c8c5@datadm/all.ds:4622	不能全部译卡；资料卡不负责开门
+T033	get off / beat off / sleepy head	成人与普通动作双关	按场景重写双义和接梗		proposed-not-final	W11,R02	V35753ef8d2e8ce3545f3/O3eaf818ea22d9b055205@vsn/m_ClassicBigboldV2/script.vsn:51; Vfd407e62f0d4f201e7dc/Oe3ad7a379fb99ca55e45@vsn/f_AgentF06/script.vsn:11	不改变施受者、同意状态或事件动作
+T034	EDITOR’S NOTE	原作任务报告编辑框架	编者按		proposed-not-final	E04	V5b2be15bc92522ad4ce7/O0e8aec9197dd0ec98617@vsn/m_GameOverAreaA/script.vsn:93	原叙事不当本地化备注删除
+T035	STARDATE XXXX / T-minus XXXX	掩码字段	星历XXXX / 倒计时XXXX		proposed-not-final	W02	Vfe440d529a77f7889ac2/O6e87be36775bc5790e80@vsn/m_GameStart/script.vsn:6	不补具体年代或倒计时数字

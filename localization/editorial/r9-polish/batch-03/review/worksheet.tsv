@@ -1,0 +1,71 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O0c07dadcb3188edea015	SC743bc08e3d49936f	gemini	B	  Bossu: [根据 PPP 手册第19.88.01节801C条规定，这条专线只供宇宙育种者执行公务！]	  Bossu: [根据PPP手册第19.88.01节801C条规定，这条专线只供宇宙育种者执行公务！]		gemini:P03-036:B
+CAT:O14fc544563ff2640ae12	SC9905518caec9bf24	gemini	B	  Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]	  Bossu: [我们总算把维修工作外包给了当地的一名犬科，他不介意用Lect来结算报酬。]		gemini:P03-021:B
+CAT:O1d1de1873ef4c286442a	SC63db3a0838280464	gemini	B	  Yiffai: 我……我很抱歉……伊、伊吠，先走了！	  Yiffai: 我……我很抱歉……伊、伊吠挂了！		gemini:P03-042:B
+CAT:O1d21aea95d61e59d44e5	SC651a6e66b50608c9	gemini	C	  Mauser: [对、对！你姐姐位于泽罗尼亚]	  Mauser: [对、对！你姐姐位于泽罗尼亚。]		gemini:P03-032:C
+CAT:O230ccb48ee0b4fbe7500	SCa9fb8a0543b4e2eb	gemini	C	  Bossu: [他搞起数据检索来容易一头陷进去]	  Bossu: [他搞起数据检索来容易一头陷进去。]		gemini:P03-008:C
+CAT:O24cd6378b36499ce88d2	SC250c73e45b18694e	ds+gemini	A,B	  Bossu: [你快要接近那间房间了，你的手足就在那里被黑暗能量吞噬了。]	  Bossu: [你快接近那间房间了，你姐姐就是在那儿被黑暗能量吞噬的。]	  Bossu: [你快要接近那间房间了，你姐姐就是在那儿被黑暗能量吞噬的。]	gemini:P03-031:B ds:P03-005:A
+CAT:O278112971f2254c3f194	SCfc3fa29ba595ed81	gemini	A	  Yiffany: [黏糊……？]	  Yiffany: [咕叽……？]		gemini:P03-001:A
+CAT:O31052ad862684434c0fe	SC5737f92fda658079	ds	B	  Yiffany: [哈哈，那当然！通话结束。]		  Yiffany: [哈哈，那当然！完毕，通话结束。]	ds:P03-015:B
+CAT:O34a712d957a3b37024a7	SCa9fb8a0543b4e2eb	ds+gemini	B	  Bossu: [干得好，伊吠，潘科 是顶尖干员之一。]	  Bossu: [干得好，伊吠，潘科是顶尖特工之一。]	  Bossu: [干得好，伊吠，潘科是顶尖特工之一。]	gemini:P03-007:B ds:P03-008:B
+CAT:O389c17fd2594fa89c4b7	SC1ac13281cd0015e4	ds	A	  Bossu: [你这混蛋，你以为制伏了一名特工，然后就能随便征用他们的无线电？哈！]		  Bossu: [你这混蛋，你以为制伏了一名特工，然后就能随便征用她的无线电？哈！]	ds:P03-002:A
+CAT:O3ca76a6f996f0d24e719	SCa9fb8a0543b4e2eb	gemini	B	  Bossu: [记住，你的 "DATA VIEW" 程序会在你把干员救回来之后记录他们的数据。]	  Bossu: [记住，你的 "DATA VIEW" 程序会在你把特工救回来之后记录他们的数据。]		gemini:P03-009:B
+CAT:O43d624dcd76cdfd6ed02	SC4a6ba978bc909729	gemini	C	  Tomcat: [伊吠！别忘了用上那件装备]	  Tomcat: [伊吠！别忘了用上那件装备。]		gemini:P03-026:C
+CAT:O4570c8a8458b8bfbcc82	SCcf88d45ac7bb50f9	ds	B	  Bossu: [抱歉，我们不能冒险让你传进实体里。]		  Bossu: [抱歉，我们不能冒险让你传进实心地表里。]	ds:P03-029:B
+CAT:O49f48f2e63933561f891	SC9905518caec9bf24	gemini	B	  Yiffai: [我还有活儿要干，伊吠通话完毕！]	  Yiffai: [我还有活儿要干，伊吠结束通话！]		gemini:P03-022:B
+CAT:O4ded814da2349897ea9b	SCbc42f4d31b1999f1	ds	B	  Bossu: [谁在说话？立刻表明身份！]		  Bossu: [这是谁？立刻表明身份！]	ds:P03-024:B
+CAT:O4ed8c9f8e294d6d61dac	SC7979a606b9be0aad	gemini	C	  Mauser: [对、对！你的弟弟位于泽罗尼亚]	  Mauser: [对、对！你的弟弟位于泽罗尼亚。]		gemini:P03-033:C
+CAT:O6144a9b1f8bc4b06dd88	SC7979a606b9be0aad	ds	needs_evidence	  Yiffany: [我一直就离得那么近…… 该死！]		  Yiffany: [我一直就离得那么近…… 该死！]	ds:P03-038:needs_evidence
+CAT:O61d2b4824b8b3c980cfb	SC1d927b426a0e5fa4	ds	B	  Bossu: [别一时冲动就打昏了头。]		  Bossu: [别被一时的热血冲昏头。]	ds:P03-011:B
+CAT:O633dd30d9d8ac4dd23cf	SC3d34d0fbc8f5e312	ds+gemini	B	  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把通讯器还给它的主人。]	  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把无线电还给它的主人。]	  Bossu: [听好了，根据 PPP 法令 2348.832.01A 条，我命令你把无线电归还原主。]	gemini:P03-003:B ds:P03-006:B
+CAT:O66e4355b77d4646c9ea6	SC1a5d579ca870656a	ds+gemini	B	  Bossu: [我们刚收到 塞塔特尼 特工的消息，说你成功救出了对方。]	  Bossu: [我们刚收到特工塞塔特尼的消息，说你成功救出了对方。]	  Bossu: [我们刚收到塞塔特尼特工的消息，说你成功救出了对方。]	gemini:P03-014:B ds:P03-009:B
+CAT:O6a5b8d0925fc0c835199	SC3d34d0fbc8f5e312	gemini	C	  Bossu: [真没想到伊吠妮的无线电也会被抢]	  Bossu: [真没想到伊吠妮的无线电也会被抢。]		gemini:P03-004:C
+CAT:O6d5345f204ca314d9fa7	SC2b75ad4296112ea4	ds+gemini	B,C	  Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用LECT来结算报酬。]	  Bossu: [我们总算把维修工作外包给了当地的一名犬科，他不介意用Lect来结算报酬。]	  Bossu: [我们总算把维修工作外包给了当地的一个犬科，它不介意用 LECT 结算报酬。]	gemini:P03-020:B ds:P03-035:C
+CAT:O6e57f6779443092cb9a4	SC0ba29e6323e29812	gemini	B	  Bossu: [……等你们胡闹完了再接吧……]	  Bossu: [……等你胡闹完了再接吧……]		gemini:P03-037:B
+CAT:O6f08a211392bbc5db919	SCa9fb8a0543b4e2eb	ds	B	  Bossu: [希望他好歹给了你一些有用的情报。]		  Bossu: [希望他给了你一些有用的情报。]	ds:P03-033:B
+CAT:O7c97dfd66b6dd0d25f52	SCa9fb8a0543b4e2eb	gemini	B	  Mauser: [我们这边也会自动记录副本，不过你可以在 P.A.W. 菜单查看干员数据！]	  Mauser: [我们这边也会自动记录副本，不过你可以在 P.A.W. 菜单查看特工数据！]		gemini:P03-010:B
+CAT:O88888047fcf274a44886	SC5737f92fda658079	gemini	B	  Bossu: [好女孩，期待看到那份数据！]	  Bossu: [好姑娘，期待看到那份数据！]		gemini:P03-023:B
+CAT:O8ed5328423c2d0e56b38	SC70bc836984031e04	ds+gemini	A,B	  Bossu: [你快到你弟弟被黑暗能量控制的那间房间了。]	  Bossu: [你快接近那间房间了，你弟弟就是在那儿被黑暗能量侵蚀的。]	  Bossu: [你快到那个房间了，你弟弟就是在那儿被黑暗能量吞噬的。]	gemini:P03-030:B ds:P03-004:A
+CAT:O926aa9fb57984643a089	SC15b44576c56cffa3	gemini	B	  Bossu: [所以先确认一下没人偷偷把它穿走。]	  Bossu: [所以先确认一下，没人偷偷把它拿走。]		gemini:P03-043:B
+CAT:O93fe9978071914e353c2	SCcf88d45ac7bb50f9	ds	B	  Bossu: [另外，你已目视确认这座传送门的地面坐标，往后应该就能随时回到这里了。]		  Bossu: [不止如此，你已目视确认这座传送门的地面坐标，往后应该就能随时回到这里了。]	ds:P03-031:B
+CAT:O96a7314bc333c954f54c	SC0cf0a0ca5caff10d	ds	B	  Bossu: [伊吠妮，抓到了本地动物，干得好！]		  Bossu: [干得好，伊吠妮，抓到了一些本地动物！]	ds:P03-037:B
+CAT:O98a4f6cbcabfcff2e823	SC0cf0a0ca5caff10d	ds	B	  Yiffany: [我会使出和动物打交道的拿手本事，好好陪陪它们……]		  Yiffany: [我会施展我的动物魔法，多陪陪它们……]	ds:P03-019:B
+CAT:O9a5e5c5b93cc37f246ed	SCcd0a1f3a77507ef2	ds	C	  Bossu: 呃？！特工……伊吠？		  Bossu: 哈？！特工……伊吠？	ds:P03-036:C
+CAT:O9e8c6bc92c5b884e1cb3	SC98b0a44fc7ee1632	ds+gemini	A,B	  Yiffai: 我……我很抱歉……伊、伊吠，先走了！	  Yiffai: 我……我很抱歉……伊、伊吠挂了！	  Yiffai: 我……我很抱歉……伊、伊吠，通话完毕！	gemini:P03-041:B ds:P03-001:A
+CAT:Oa3ec12f202e77e320ba6	SC98e37924cb2ab926	ds+gemini	B,C	  Bossu: [干得好，特工，你该为自己骄傲]	  Bossu: [干得好，特工，你该为自己骄傲。]	  Bossu: [干得好，特工，你该为自己骄傲！]	gemini:P03-028:C ds:P03-026:B
+CAT:Oa5cf4f42568296c05e07	SC4bcbf7c78e71c9dd	gemini	B	  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把通讯器还给它的主人。]	  Bossu: [听好了，根据PPP法令2348.832.01A条，我命令你把无线电还给它的主人。]		gemini:P03-005:B
+CAT:Oa748356a8aab2522057d	SC4bcbf7c78e71c9dd	gemini	C	  Bossu: [真没想到伊吠妮的无线电也会被抢]	  Bossu: [真没想到伊吠妮的无线电也会被抢。]		gemini:P03-006:C
+CAT:Oaf30d15a450d3d02aa5e	SC4a6ba978bc909729	gemini	C	  Bossu: [干得漂亮，伊吠！那可是些很棒的生物数据]	  Bossu: [干得漂亮，伊吠！那可是些很棒的生物数据。]		gemini:P03-025:C
+CAT:Ob1f70f52ae86474ae5c2	SCe06c5d5fa7de9d5a	gemini	B	  Bossu: [根据 PPP 手册第19.88.01节801C条规定，这条专线只供宇宙育种者执行公务！]	  Bossu: [根据PPP手册第19.88.01节801C条规定，这条专线只供宇宙育种者执行公务！]		gemini:P03-035:B
+CAT:Ob31df43cd88f8778dff1	SC1d927b426a0e5fa4	ds	B	  Yiffai: [知道了，我又不是小狗崽……]		  Yiffai: [哎呀，知道啦，我又不是小狗崽……]	ds:P03-014:B
+CAT:Oc3d736938ce9949f1320	SC743bc08e3d49936f	ds	B	  Yiffai: [咕叽……？]		  Yiffai: [黏糊……？]	ds:P03-021:B
+CAT:Oc8bd53ce5ed3191111a3	SCc27e8f58c8e9a99d	ds	C	  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]		  Bossu: [那小子虽说瘦小单薄，可能没怎么反抗，但等 PPP 全力出手，你们就会后悔欺负那只小狗崽！]	ds:P03-034:C
+CAT:Occ34d2fa6f13b899dd40	SCfc3fa29ba595ed81	gemini	C	  Bossu: [依照PPP手册19.88.01节801C条，这条专线只供宇宙育种者执行公务！]	  Bossu: [根据PPP手册19.88.01节801C条，这条专线只供宇宙育种者执行公务！]		gemini:P03-002:C
+CAT:Ocda83356b46fcd58e4fb	SCc2bc480c7e587351	gemini	C	  Bossu: [干得好，特工，你该为自己骄傲]	  Bossu: [干得好，特工，你该为自己骄傲。]		gemini:P03-029:C
+CAT:Oceff8f0a9d23b9513fc3	SC651a6e66b50608c9	ds	B	  Yiffai: [什么！？ 真的？ 她在哪？]		  Yiffai: [什么！？真的？她在哪？]	ds:P03-025:B
+CAT:Od2e00b45fdd980df3233	SC9905518caec9bf24	ds	B	  Bossu: [我们就是把你飞船的自动驾驶设定为：你不亲自驾驶的时候，它会返回这里。]		  Bossu: [我们给你飞船的自动驾驶做好了设定：你不亲自驾驶的时候，它会返回这里。]	ds:P03-027:B
+CAT:Oda2c444361d4ffdf92f8	SC0cf0a0ca5caff10d	ds	B	  Bossu: [之前的特工报告说，就在为你保养飞船的机库区域架设了观测单元。]		  Bossu: [之前的特工报告说，在给你保养飞船的机库区架好了观测单元。]	ds:P03-018:B
+CAT:Odc6d4de9c07572b96987	SC58cedb6914563db9	gemini	B	  Bossu: [……等你们胡闹完了再接起来吧……]	  Bossu: [……等你胡闹完了再打过来吧……]		gemini:P03-039:B
+CAT:Ode2d828d32c0761c9009	SC5737f92fda658079	ds	B	  Bossu: [但愿等你把像样的数据采集开展起来，到时候还是这种情况。]		  Bossu: [但愿等你正经做起数据采集，那劲头还在。]	ds:P03-012:B
+CAT:Oe1a023ea3f4c5e26556c	SCbc42f4d31b1999f1	ds	B	  Bossu: [根据PPP手册19.88.01节801C条，这条专线只供宇宙育种者执行公务！]		  Bossu: [依照 PPP 手册第 19.88.01 节 801C 条，这条专线只供宇宙育种者执行公务！]	ds:P03-007:B
+CAT:Oe50425a960f590eded1e	SCb19035363d3c7b1f	ds+gemini	B	  Bossu: [抱歉，我们不能冒险让你传送到实心地表里，何况你还是我们仅存的唯一希望。]	  Bossu: [抱歉，我们不能冒险让你传进实体里，何况你还是我们仅存的唯一希望。]	  Bossu: [抱歉，我们不能冒险让你传送到实心地表里，何况你还是我们仅存的希望。]	gemini:P03-017:B ds:P03-030:B
+CAT:Of0aa61857047c59585d7	SCb19035363d3c7b1f	ds+gemini	B	  Yiffai: [明白了。伊吠结束通话！] 	  Yiffai: [明白了。伊吠结束通话！]	  Yiffai: [明白了。伊吠通话完毕！] 	gemini:P03-016:B ds:P03-016:B
+SFW041a290cd3f66966eb7b0d8f	SCb18d51254d264ab3	ds	B	  Mauser: [没错，你脚下这块地面，其实就在一颗低轨道卫星上。]		  Mauser: [没错，你脚下这块地面属于一颗轨道很低的卫星——]	ds:P03-028:B
+SFW066cbf9bf2c512fe9b30ab0e	SCb3ab0694fcd68270	ds	B	  Bossu: [……等你脱了那身装束再告诉我……]		  Bossu: [……等你脱了那身套装再告诉我……]	ds:P03-023:B
+SFW10d37e708bc1861e9cb97381	SCde4ad2fe0ab8d046	gemini	B	  Yiffai: [明白了。伊吠结束通话！] 	  Yiffai: [明白了。伊吠结束通话！]		gemini:P03-018:B
+SFW179934b1d5a42a73a1099914	SCd557a750eabd9d1c	ds+gemini	B	  Bossu: [乖，等着看你的数据！]	  Bossu: [好小子，期待看到那份数据！]	  Bossu: [好小子，期待看到那份数据！]	gemini:P03-024:B ds:P03-013:B
+SFW26e18127120d5bef45032068	SCb3ab0694fcd68270	gemini	B	  Bossu: [……等你们胡闹完了再接起来吧……]	  Bossu: [……等你胡闹完了再打过来吧……]		gemini:P03-040:B
+SFW2c3113de4fae455b3123cd09	SC5d1f63ab15b52fb9	gemini	B	  Bossu: [其他特工来说也是个好兆头。]	  Bossu: [这对其他特工来说也是个好兆头。]		gemini:P03-013:B
+SFW4ceaf870903393ed36ca840e	SC09b1c6371a1b7cec	ds	B	  Mauser: [说不定还会送你礼物表示感谢……]		  Mauser: [说不定还会给你一份谢礼……]	ds:P03-020:B
+SFW51cc855dfa95eb9439729918	SC3cc336eda1f609a0	ds	B	  Bossu: [……那是套鳞装吗？]		  Bossu: [……那是鳞片套装？]	ds:P03-022:B
+SFW5ddd00a6f9e234bbc510bb03	SC127cc528b609c1cf	gemini	C	  Tomcat: [伊吠！别忘了用上那件装备]	  Tomcat: [伊吠！别忘了用上那件装备。]		gemini:P03-027:C
+SFW6c31580a04f0f2b00e5c9a7a	SC84f50545ab568f13	ds	B	  Tomcat: [可又不是靠鼻子追踪的猎犬。没找着也不奇怪。]		  Tomcat: [可你又不是靠鼻子追踪的猎犬。这种事总会发生。]	ds:P03-032:B
+SFW756f2f673f7ffa4300e97c94	SC5d1f63ab15b52fb9	gemini	B	  Bossu: [干得好，伊吠，潘科 是顶尖干员之一。]	  Bossu: [干得好，伊吠，潘科是顶尖特工之一。]		gemini:P03-011:B
+SFW866eefa8c43c168b77aaf752	SCf0ea6de76fd3377d	gemini	C	  Mauser: [是啊，你越跟本地动物亲近]	  Mauser: [是啊，你越跟本地动物亲近，]		gemini:P03-044:C
+SFW87e6ee1c64e37e3cb5269294	SC472e7b3d8ffa443a	gemini	B	  Bossu: [我们刚收到 塞塔特尼 特工的消息，说你成功救出了对方。]	  Bossu: [我们刚收到特工塞塔特尼的消息，说你成功救出了对方。]		gemini:P03-015:B
+SFW89aa149fad8028feb7a3b6b9	SC127cc528b609c1cf	ds	B	  Bossu: [撑住场面了啊，伊吠？]		  Bossu: [顶住了啊，伊吠？]	ds:P03-010:B
+SFWb61d1a0f8e4a0eb71e1843d0	SC3cc336eda1f609a0	gemini	B	  Bossu: [……等你们胡闹完了再接吧……]	  Bossu: [……等你胡闹完了再接吧……]		gemini:P03-038:B
+SFWc00f5f149929e58137123612	SC5d1f63ab15b52fb9	ds+gemini	B	  Bossu: [每次看到特工平安归来，总让人欣慰，这对]	  Bossu: [每次看到特工平安归来总让人欣慰，]	  Bossu: [每次看到特工平安归来，总让人欣慰，]	gemini:P03-012:B ds:P03-017:B
+SFWea0b5d5779c09240002d7613	SC472e7b3d8ffa443a	ds	A	  Yiffany: [没错，他们受了点伤。]		  Yiffany: [没错，对方受了点伤。]	ds:P03-003:A
+SFWed9b361549c61f086c1352a3	SC84f50545ab568f13	gemini	C	  Mauser: [对、对！你的弟弟位于泽罗尼亚]	  Mauser: [对、对！你的弟弟位于泽罗尼亚。]		gemini:P03-034:C
+SFWfc559e66b4dabf26ba221dd8	SCde4ad2fe0ab8d046	gemini	B	  Bossu: [抱歉，我们不能冒险让你传送到实心地表里，何况你还是我们仅存的唯一希望。]	  Bossu: [抱歉，我们不能冒险让你传进实体里，何况你还是我们仅存的唯一希望。]		gemini:P03-019:B

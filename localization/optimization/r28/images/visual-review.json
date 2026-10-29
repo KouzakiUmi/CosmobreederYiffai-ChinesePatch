@@ -1,0 +1,157 @@
+{
+  "schema": 1,
+  "reviewer": "本轮执行代理实际read_image目视；非OCR、非第二人复核",
+  "status": "passed-with-explicit-preservations",
+  "source_distinct_RGBA_frames_reviewed": 101,
+  "source_sheets": 9,
+  "candidate_black_white_sheets": 16,
+  "enlarged_text_proof_sheets": 7,
+  "unique_text_proof_blocks": 50,
+  "reviewed_sheets": [
+    {
+      "path": "review/source-ui-1.png",
+      "png_sha256": "38443904ce8cf31da5ab76db8f2af38b05ba5208792cc523c3b2bc9b97d9c6a9"
+    },
+    {
+      "path": "review/source-ui-2.png",
+      "png_sha256": "905c5204d43a29674272705dbfbe388c51b9fe0eede276f1184a484061d021ea"
+    },
+    {
+      "path": "review/source-ui-3.png",
+      "png_sha256": "d5333b23555a92bba5b6f68568c1da166516eb3370b44302233ba524b6c7b294"
+    },
+    {
+      "path": "review/source-ui-4.png",
+      "png_sha256": "a6ea5dd4144a25408fd7612ef4686708e07a0d07ee206a5a1b6dfd4f54df958f"
+    },
+    {
+      "path": "review/source-animation-1.png",
+      "png_sha256": "9dc3c13326169f6b4ee490d5eafcad2be6b6bdb93ca4396f87ebd47c3a06a8c9"
+    },
+    {
+      "path": "review/source-animation-2.png",
+      "png_sha256": "3b8793d1dc3a27ce083a1a2e82614eed3dfb801d3348bd3f9943aa5974fcb6a6"
+    },
+    {
+      "path": "review/source-title-1.png",
+      "png_sha256": "684dbc52744b6e33a0d4615545973736481ae7f445ceb8fdaaa11c97c30833df"
+    },
+    {
+      "path": "review/source-title-2.png",
+      "png_sha256": "7b3751a9b7d9b9eb99bbd9e9f904d974530616ae41a48bcbff6b4af28cce665d"
+    },
+    {
+      "path": "review/source-title-3.png",
+      "png_sha256": "c6a1b1e375289e501f7b5071ab997d2dede09dc422ae92ce67aba64f0d10fb95"
+    },
+    {
+      "path": "review/candidate-jar-black-1.png",
+      "png_sha256": "3483f9a6c857269518187442bd6f8975ad4944f791f128406e296336dd6a9557"
+    },
+    {
+      "path": "review/candidate-jar-white-1.png",
+      "png_sha256": "3483f9a6c857269518187442bd6f8975ad4944f791f128406e296336dd6a9557"
+    },
+    {
+      "path": "review/candidate-jar-black-2.png",
+      "png_sha256": "02533f57c5bb9fabb3ed4a408919e411716620d04f1a7602eeee958f446ad186"
+    },
+    {
+      "path": "review/candidate-jar-white-2.png",
+      "png_sha256": "54a800a540c8300727109090e65a6ee76d3c9ecbd32d8e5cb3a04066a99a02a5"
+    },
+    {
+      "path": "review/candidate-jar-black-3.png",
+      "png_sha256": "cf4b253987df0f7d5fa6dda5feff7521cd821f046b4892333945c6ac8887f25a"
+    },
+    {
+      "path": "review/candidate-jar-white-3.png",
+      "png_sha256": "8158236d70bf5df98bddeac8c0ea55c1efb6d13b66ea864e22e0fa17193e2afd"
+    },
+    {
+      "path": "review/candidate-jar-black-4.png",
+      "png_sha256": "03330666b271a86f43d600a2c55054b36dd22c873dc621bbf2bb460df1e589a0"
+    },
+    {
+      "path": "review/candidate-jar-white-4.png",
+      "png_sha256": "6460978ebd956fc07d78d5fa92b5c8bc9c4d80e28df7916b83d2598a18a1b638"
+    },
+    {
+      "path": "review/candidate-patch-black-1.png",
+      "png_sha256": "7bae5f8eaa10f1a7b18668d3d7ef2be3fa3a6c7b5de33775ab3a449b4c11850a"
+    },
+    {
+      "path": "review/candidate-patch-white-1.png",
+      "png_sha256": "7bae5f8eaa10f1a7b18668d3d7ef2be3fa3a6c7b5de33775ab3a449b4c11850a"
+    },
+    {
+      "path": "review/candidate-patch-black-2.png",
+      "png_sha256": "9facb66ac06e9b0ea9688f4b6b2daed0c3541ed3e27874648321f546dfce0e6e"
+    },
+    {
+      "path": "review/candidate-patch-white-2.png",
+      "png_sha256": "de9e128f895837d4e5e1b74eda4ad07df4f1f8e66479147bcd0290fbbae22666"
+    },
+    {
+      "path": "review/candidate-patch-black-3.png",
+      "png_sha256": "a735c58c765b68cb5222036c02de11395d8ca939baaf7bd61f734e856080c57a"
+    },
+    {
+      "path": "review/candidate-patch-white-3.png",
+      "png_sha256": "5792e0466eb6c1a52612948ba5fafa5306797663f27cc8d002bdffa80e9c5fab"
+    },
+    {
+      "path": "review/candidate-patch-black-4.png",
+      "png_sha256": "9ed87d01b7ca2b50413ad1d2b5622c229a49dcf7ed0868d40105468663f0fd45"
+    },
+    {
+      "path": "review/candidate-patch-white-4.png",
+      "png_sha256": "35a08c6096ba86a3b6cc46cbee3fc3b50f145706a010dc489fbaf3fa8c1ce216"
+    },
+    {
+      "path": "review/text-proof-1.png",
+      "png_sha256": "e95f69fbdfd63e8bede0c962291182983265165b60f1e5513b0abd7160edf61f"
+    },
+    {
+      "path": "review/text-proof-2.png",
+      "png_sha256": "e85734bf7102baeae7d5e9b9f8c350e9ae7481bd5fe5f361e4e43c8f041c86d4"
+    },
+    {
+      "path": "review/text-proof-3.png",
+      "png_sha256": "dbfea2e1cc8b09675535188be476f511596664e8e93a112a4ecd4484c00e1c39"
+    },
+    {
+      "path": "review/text-proof-4.png",
+      "png_sha256": "4ce9f87fc6a74986addd826bfbdc0eef3b79d7bac854b4b282cad32225f212d5"
+    },
+    {
+      "path": "review/text-proof-5.png",
+      "png_sha256": "a1496b6fcef247615ebd21f69394d613460492c1078a573a77760abd367f08a2"
+    },
+    {
+      "path": "review/text-proof-6.png",
+      "png_sha256": "e350f1d21d7a8985ef73dca83ad78c9a8711d9a9f89ad18cbb798696f2563354"
+    },
+    {
+      "path": "review/text-proof-7.png",
+      "png_sha256": "389b69cb145b276ffa8f3c898ea18177c5cd851a022d3d03464eb9ef91ab782d"
+    }
+  ],
+  "findings_resolved": [
+    "Casino工单保守40px槽包含角色斜边；缩窄新字目标至30px，并仅擦PRESS/TO/STOP三个精确glyph框。修正后角色、箭头和轮盘保护矩形逐字节相同。",
+    "Gallery工单槽包含y207黑框；细化目标槽至y207前，黑框保持。",
+    "SHOP的旁侧OP已通过map local1→2动画消歧，并在16px tile内各自处理，不跨tile重排。"
+  ],
+  "explicit_preservations": [
+    "品牌、版权与作者署名90行",
+    "模糊微符号8行未可靠转录",
+    "空开合60行及更新灭帧2行",
+    "已中文4行",
+    "F. DATA、COM%、TELE缩写和地图S/T/?/!代码"
+  ],
+  "limitations": [
+    "原生8px微标签密度高，未扩大命中区/动态槽。",
+    "未启动游戏，未做GPU/窗口缩放/CRT/动态clip/存档I/O实机验收。",
+    "仅本独立候选；不宣称243行全部已译。"
+  ]
+}

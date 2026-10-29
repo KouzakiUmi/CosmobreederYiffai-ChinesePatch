@@ -1,0 +1,58 @@
+{
+  "schema": "cosmoloc-r28-component/v1",
+  "component": "pattern-symbols",
+  "base": "frozen-r27-incremental",
+  "base_archive": "localization/builds/r27-story12-shaderfix-test5/cosmobreeder-multi.jar",
+  "base_archive_sha256": "dc6b0cedc3a3b2f6f51941a2cef449d33ec87d314ee64ea63495c3ffdebd06be",
+  "runtime_sources": [
+    "localization/layout/src/PRG/StoryFont12.java",
+    "localization/layout/src/PRG/PatternSymbols.java"
+  ],
+  "runtime_inventory": [
+    "PRG/StoryFont12.class",
+    "PRG/StoryFont12$Font.class",
+    "PRG/StoryFont12$Metrics.class",
+    "PRG/PatternSymbols.class"
+  ],
+  "new_helpers": ["PRG/PatternSymbols.class"],
+  "tool_sources": ["localization/layout/tools/java/StoryFont12Patch.java"],
+  "test_sources": [
+    "localization/layout/tests/PatternSymbolsTest.java",
+    "localization/layout/tests/StoryFont12Test.java"
+  ],
+  "incremental_apply": {
+    "asm_apply": null,
+    "protocol": "Compile both runtime sources with --release 8 against frozen r27; replace its three StoryFont12 runtime class entries and add PatternSymbols.class. Leave original patched jo/Na/Yg bytecode and all resources untouched. Do NOT call StoryFont12Patch.apply against already-patched r27.",
+    "replaced_base_StoryFont12_class_sha256": "3ccbbe618122cab6d9e142ba630d902d198787b44bd633f7e25cbe2b0fdb1fe3",
+    "asset_changes": []
+  },
+  "raw_r21_alternative": {
+    "protocol": "Only for a full rebuild from raw r21/original bytecode: retain StoryFont12Patch.INPUT_SHA256 checks BEFORE patch passes and invoke StoryFont12Patch.apply once in the existing patch order. Its HELPER_INVENTORY now includes PatternSymbols.class, so compile/package BOTH runtime sources. This is NOT an r27 patch pass.",
+    "original_target_sha256": {
+      "PRG/Yg": "dc6c7964df17ba744ab0397d9a01be3ac97c711954c876d6b72a6d606a1d3859",
+      "PRG/jo": "7d9209e5275c9333bb581c94028034beab553716e222e97cd93418d53d41fa76",
+      "PRG/Na": "81c053cff955d5958e22c31283fe5e74070bed168407a091dad7d0c127843318"
+    }
+  },
+  "unchanged_asset_pins": {
+    "dingbats.fnt": "2d2aeba3f9b513ea520958e4271601e9a19ffcbb5663c4596abc45dacd590c19",
+    "story12.fnt": "972d49918484e3e5521a7da58dbe94f6c6c604e4f486844b75f5b3be87fa2546",
+    "story12/bbc2-shared-story12.png": "486935a160007265569428c871ce3f949fd1b3a1d68f3690ea7f6572276540bd"
+  },
+  "test_cli": "C:/Windows/py.exe -3.12 -B localization/optimization/r28/pattern/run_tests.py",
+  "test_driver": "localization/optimization/r28/pattern/run_tests.py",
+  "verified_results": "localization/optimization/r28/pattern/run-b754944448e54c01a4905b9f6f9e7bd4/results.json",
+  "candidate_cli_contract_results": "localization/optimization/r28/pattern/candidate-cli-c044bf66618149798409449bfab18087/results.json",
+  "test_input_manifest": "docs/font-layout-audit-20261025/regressions/vsn.tsv",
+  "candidate_test_cli": "java -Xverify:all -Dfile.encoding=UTF-8 -cp <testclasses>;<candidate-runtime-classes>;<candidate.jar> PatternSymbolsTest <new-vsn.tsv> <dingbats.fnt> <new-story12.fnt> <bbc2.fnt> <expected-census.properties>",
+  "candidate_story_lifecycle_cli": "java <existing-ASM-exports> -Xverify:all -cp <testclasses>;<candidate-runtime-classes>;<candidate.jar>;<tools> StoryFont12Test --cpu <runtime-font-dir> <independent-expected-native12-count>",
+  "candidate_expected_census": {
+    "format": "UTF-8 java.util.Properties",
+    "required_keys": ["commands", "han_commands", "han"],
+    "optional_keys": ["before_blank"],
+    "provenance": "Compute independently from actual candidate archive scripts; verify TSV fixtures byte-identical to decrypted archive entries. No fifth argument means frozen r27 counts only.",
+    "font_pin": "Candidate must explicitly stage/recompile its coordinated StoryFont12.FONT_SHA256; test compares supplied actual FNT to the consumed runtime constant."
+  },
+  "integration_note": "The standalone test seals r27 corpus/font counts. If parent intentionally adds SFW translations/glyphs, regenerate test manifests and update the separate story12 font SHA as a coordinated font change; do not silently use these frozen-r27 assertions as proof of expanded corpus coverage.",
+  "not_verified": ["GPU/shader execution", "parent clip/CRT", "in-game screenshots", "all scene reachability/readability unlock state transitions"]
+}

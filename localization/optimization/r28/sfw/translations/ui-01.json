@@ -1,0 +1,226 @@
+{
+  "ui:7991c99d6438ca21": {
+    "source": "A WEAPON FOR|NEW AGENTS.",
+    "translation": "新特工|使用的武器。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:079a7daceca78a84": {
+    "source": "| | | | | | | | | | | | |",
+    "translation": "| | | | | | | | | | | | |",
+    "status": "preserved",
+    "notes": [
+      "SFW原版刻意留白的卡片背面；不可移植PAK成人背面文案。"
+    ]
+  },
+  "ui:e3b0c44298fc1c14": {
+    "source": "",
+    "translation": "",
+    "status": "preserved",
+    "notes": [
+      "SFW原版空槽位，保持原字节；不是翻译完成行。"
+    ]
+  },
+  "ui:5f51ee8a6700b2a7": {
+    "source": "Traeh, a former | Fenfen Elder,   | was a danger to | all of Tutone   | even when sealed| away. Just one  | touch of her cr-| ystal prison and| she could take  | control of any  | adventurer...",
+    "translation": "特拉赫曾是|芬芬长老，|即使被封印，|仍威胁着|整个图托恩。|冒险者只需|碰一下她的|水晶监牢，|她就能将其|完全控制|在自己手中……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:c14e6db2840cb30e": {
+    "source": "TWISTED BREAD|BAKED FRESH",
+    "translation": "新鲜出炉的|扭结面包",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:4b864d8b449d9689": {
+    "source": "PRESS (SELECT)|TO COMMUNICATE",
+    "translation": "按(SELECT)|进行通讯",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:1e43fe8585868978": {
+    "source": "REFRESHING ON|A HOT DAY!",
+    "translation": "炎炎夏日|清爽解渴！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:08527671d4a2448a": {
+    "source": "BIG AND SPICY|BUT ADDICTIVE!",
+    "translation": "个大味辣|却让人上瘾！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:70b71a34c2de0318": {
+    "source": "MEMORIES",
+    "translation": "回忆",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:e5b699158d8f3f0f": {
+    "source": "EXIT MEMORIES MENU",
+    "translation": "退出回忆菜单",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:2c99cd0bc4a42cdd": {
+    "source": "SELECT/SHARE",
+    "translation": "SELECT/SHARE",
+    "status": "preserved",
+    "notes": [
+      "实体手柄键名，保留原标识，非中文缺漏。"
+    ]
+  },
+  "ui:3bb292bc8c6268c4": {
+    "source": "A WARMUP DUEL WITH A MONSTER|FROM THE DEPTHS OF TUTONE.",
+    "translation": "与来自图托恩深处的怪物|进行一场热身决斗。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:7824f84fcff2d206": {
+    "source": "GET DEEP INTO TUTONE|WITHOUT USING ___ ...",
+    "translation": "不使用___，|深入图托恩……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:6e4261695ad1aa36": {
+    "source": "SELECT",
+    "translation": "SELECT",
+    "status": "preserved",
+    "notes": [
+      "实体按键名保留，不翻译为动作。"
+    ]
+  },
+  "ui:124ed46a006e21a4": {
+    "source": "KEYCARD3",
+    "translation": "门卡3",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:1797a90d4eced121": {
+    "source": "FINISHING BUSINESS AFTER A|WINDING CHASE...",
+    "translation": "漫长追逐之后，|该做个了结了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:1cbcddaeff7c3e18": {
+    "source": "werepup|\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n   back",
+    "translation": "狼崽|\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n   背面",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:80387c049254e1c3": {
+    "source": "MAKING FRIENDS WITH A PUPPY|AFTER GIVING HIM A WALLOP!",
+    "translation": "给了小狗一记重击后，|又和他交上了朋友！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:68c81c6b925b9b8f": {
+    "source": "GRILLED FISH|IN A TORTILLA",
+    "translation": "墨西哥薄饼|夹烤鱼",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:3a9be38595e567d7": {
+    "source": "KEYCARD0",
+    "translation": "门卡0",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:03f90c5f50ae5e08": {
+    "source": "Dangerous,      | aggressive and  | primitive, the  | Omegobins were  | once united by a| dark & powerful | ruler. However, | such a figure   | has long since  | vanished from   | known history...",
+    "translation": "危险、好斗|又原始的|欧米茄哥布林，|曾在一位|黑暗而强大的|统治者麾下|团结一心。|然而，此人|早已消失在|已知的历史|长河之中……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:56ae6d236ad1444b": {
+    "source": "KEYCARD2",
+    "translation": "门卡2",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:894c31445c9d73fc": {
+    "source": "Legends say that| the mines known | as \"Ayskammr\"   | once were home  | to large and    | fearsome dragons| and the Fenfen  | Elder Sevaw used| those stories as| the basis for a | firey projection",
+    "translation": "传说名为|“艾斯卡姆尔”的|矿井曾是|巨大而可怕的|龙的家园。|芬芬长老|Sevaw便|以这些传说|为基础，|创造了烈焰|投影。",
+    "status": "candidate",
+    "notes": [
+      "独立原JAR上下文复核；Ayskammr沿用area.areaa及相邻Redbull卡已有艾斯卡姆尔译名，Sevaw保原拼写；agent-reviewed，human_approved=false。"
+    ]
+  },
+  "ui:3da7df310b6f1e64": {
+    "source": "JUICY & RIPE|STEMMED FRUIT",
+    "translation": "多汁成熟的|带梗水果",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:cd00c9fab5688172": {
+    "source": "START/OPTIONS",
+    "translation": "START/OPTIONS",
+    "status": "preserved",
+    "notes": [
+      "实体手柄键名，保留原标识。"
+    ]
+  },
+  "ui:1286298996d5b1b8": {
+    "source": "A DELICIOUS|LITTLE TREAT!",
+    "translation": "美味的|小点心！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:5c4bffcff4102b5f": {
+    "source": "POCKET TRAIN",
+    "translation": "随身训练",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:5224c68661887775": {
+    "source": "A LOVELY DRINK|FRESH & WARM",
+    "translation": "新鲜温热|香醇好喝",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:9ed8de1b19979a7e": {
+    "source": "LEARNING A VALUABLE LESSON|AND A NEAT NEW SKILL!",
+    "translation": "学到宝贵的教训，|还有一项厉害的新技能！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:39f17ec6ebcf3cec": {
+    "source": "START",
+    "translation": "START",
+    "status": "preserved",
+    "notes": [
+      "实体按键名保留，不翻译为动作。"
+    ]
+  },
+  "ui:bd860d9cd1e27d35": {
+    "source": "KEYCARD4",
+    "translation": "门卡4",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:69f8153a26847adb": {
+    "source": "KEYCARD1",
+    "translation": "门卡1",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:a213a1e7fc47ced9": {
+    "source": "YIFFAI'S FIRST GREAT BATTLE|TO REGAIN A BRILLIANT BLADE!",
+    "translation": "伊法伊的首场大战，|夺回闪亮的利刃！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:0dc607943547ab37": {
+    "source": "RAPIER",
+    "translation": "细剑",
+    "status": "candidate",
+    "notes": []
+  },
+  "ui:a518c8ce3ca817de": {
+    "source": "REAL HARD|TO CRACK!",
+    "translation": "硬得很，|可不好敲开！",
+    "status": "candidate",
+    "notes": []
+  }
+}

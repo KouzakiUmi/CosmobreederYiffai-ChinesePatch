@@ -1,0 +1,157 @@
+{
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-08.reader.md",
+  "input_sha256": "dacd6438f9e64c85e7b728c981fd69e1e9b9c63bfcca9b78054ea71dd4bbe9ad",
+  "packet_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-08.json",
+  "packet_sha256": "f37b5eb4654014dfcdffe86c14b25846bc47801abeaa05b9ccb4a55ffea93feb",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      200
+    ],
+    [
+      201,
+      300
+    ],
+    [
+      301,
+      400
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      501,
+      600
+    ],
+    [
+      601,
+      700
+    ],
+    [
+      701,
+      800
+    ],
+    [
+      801,
+      900
+    ],
+    [
+      901,
+      1000
+    ],
+    [
+      1001,
+      1100
+    ],
+    [
+      1101,
+      1200
+    ],
+    [
+      1201,
+      1300
+    ],
+    [
+      1301,
+      1400
+    ],
+    [
+      1401,
+      1500
+    ],
+    [
+      1501,
+      1600
+    ],
+    [
+      1601,
+      1700
+    ],
+    [
+      1701,
+      1800
+    ],
+    [
+      1801,
+      1900
+    ],
+    [
+      1901,
+      2000
+    ],
+    [
+      2001,
+      2100
+    ],
+    [
+      2101,
+      2200
+    ],
+    [
+      2201,
+      2300
+    ],
+    [
+      2301,
+      2400
+    ],
+    [
+      2401,
+      2494
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    "characters-primary.md",
+    "characters-support.md",
+    "world-and-plot.md"
+  ],
+  "references_read_ranges": {
+    "characters-primary.md": [
+      [
+        1,
+        277
+      ],
+      [
+        278,
+        377
+      ]
+    ],
+    "characters-support.md": [
+      [
+        1,
+        128
+      ]
+    ],
+    "world-and-plot.md": [
+      [
+        1,
+        150
+      ],
+      [
+        151,
+        300
+      ],
+      [
+        301,
+        406
+      ]
+    ]
+  },
+  "reference_truncation_recovered": {
+    "characters-primary.md": [
+      278,
+      377
+    ]
+  },
+  "read_status": "read_full",
+  "reader_total_lines": 2494,
+  "semantic_read_method": "read工具每次<=100行连续读取，1–2494全部实际可见；程序仅提取ID/别名与输出，不替代语义通读",
+  "formal_application": false,
+  "runtime_verified": false
+}

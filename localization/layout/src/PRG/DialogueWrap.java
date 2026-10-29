@@ -46,24 +46,18 @@ public final class DialogueWrap {
             // Known substitutions must be measured even when their result is ASCII:
             // @DerekChipReport can expand to a long English report as well as CJK.
             for (DialogueGrid.Page page : pages(finalText, legacyColumns, pixelWidth, metrics()))
-                out.add(new aAZ(new amr.d(legacyColumns == 12 ? continueGrid(page.grid) : page.grid), tuple.e(), tuple.f()));
+                out.add(new aAZ(new amr.d(page.grid), tuple.e(), tuple.f()));
         }
         return list(out);
     }
 
-    /** Original amn completes at grid.trim().length(), not at rtrim(grid).length().
-     * A wrapped page starting with a space would therefore hide its final ink.
-     * Move only FIRST-ROW leading spaces into that same row's padding: retain
-     * all ink, all 36 code units and all subsequent row positions. Never silently
-     * collapse a deliberately blank leading row. */
-    private static String continueGrid(String grid) {
-        int leading = 0;
-        while (leading < 12 && grid.charAt(leading) == ' ') leading++;
-        if (leading == 0 || grid.trim().isEmpty()) return grid;
-        if (leading == 12) throw new IllegalArgumentException("Continue page starts with a blank row; original amn cannot reveal it safely");
-        StringBuilder fixed = new StringBuilder(36).append(grid.substring(leading, 12));
-        for (int i = 0; i < leading; i++) fixed.append(' ');
-        return fixed.append(grid.substring(12)).toString();
+    /** CorePatch substitutes only amn a(DZ) terminal trim. Preserve absolute
+     * source offsets, indentation and blank rows; all intermediate indices,
+     * animation deadlines and skip/input state remain the original engine code. */
+    public static String terminalText(amr.e original, String grid) {
+        int end = grid.length();
+        while (end > 0 && grid.charAt(end - 1) <= 32) end--;
+        return grid.substring(0, end);
     }
 
     @SuppressWarnings({"rawtypes", "unchecked"})

@@ -1,0 +1,28 @@
+{
+  "component": "compact-fields-r28",
+  "sources": {
+    "localization/layout/src/PRG/CompactFields.java": "6edf0fe510aa56f2253ee47165dfd94873650ad0530c0c7dbfeb5cc591bed028",
+    "localization/layout/src/PRG/ItemFont8.java": "ebd6763d64e57d7c2924c139c6ae9b9bcbec13b57ad62905fd9696ba695eef0b",
+    "localization/layout/tools/java/CompactFieldsPatch.java": "87582248060eb253e42d2836053c21040afab08d1891d069c3382d9398550d5a",
+    "localization/layout/tools/java/ItemFont8Patch.java": "0f2fccab5f1deea9dd3fcf54aab5b7d0ba7b7361ae5c35a5b21c9250da721581",
+    "localization/layout/tests/CompactFieldsTest.java": "1f449849e1121eb245cf60704005e079349d12739ebba96a1918269d5ffaa408",
+    "localization/layout/tests/CompactFieldsCpuTest.java": "4be7bd464a6668d1d0455432e9447fe375610d82d833fc8bf38bbe757ec1911c",
+    "localization/layout/tests/ItemFont8Test.java": "f501fa86ad104cd02da0931c9d925c164e5c9dd258e589a08569ba412be78aae",
+    "docs/font-layout-audit-20261025/simulation/CpuEvidence.java": "eadac586f3ae312c3d34e394df203ee4c0679073f7ab858241983f81df56311f"
+  },
+  "helpers": {
+    "PRG/CompactFields.class": "ecf9fbd1d5d0ba9543a1f55548f2db7c32952c35fb2af27168531cf130145def",
+    "PRG/ItemFont8.class": "a201df8689636eab2d9f89c24a12b2ab83bebbd8b26ae4e7dc8da47b43fcec2a"
+  },
+  "evidence": {
+    "compact-contact-sheet.png": "44bbe593c75d3b3297cb3ba2105d100b0314c0844daeacce3b9e68f1b816ece4",
+    "cpu-formal-names.log": "4585b172e8b41fe5b18f6b46b399e9ec9f0d2a49c8add3820f4f8921c1211373",
+    "cpu-recording.json": "8a937e5a3e6f18e94f64116dd92b95b706c488228561e6fe9f109522ee0171ed",
+    "item-corpus.tsv": "35e7b66b31611b41230525d265c0b6b9593fc8fdb51876224dad256cd5d4d358",
+    "item-legacy-cpu.log": "a3b9c9a9e004a883704a69fa98323c9860c19123add121e969b76b216e2ad0c9",
+    "item-legacy-patch.log": "dc2e76ef26af8d0276dd188a0bf36a08157c71ddf85a580b4012e587e7e483d2",
+    "patch-final.log": "0d47f82d6206b1ace0c4cda46a17354613bf0302383decd2ebc83d6fc1a0fee0",
+    "render-formal-names.log": "a995d2609ce8e2180d08b0b69574e5f76b953b88446bb37797126bbc9bc79615",
+    "render-report.json": "ac9ed6dc0dfe391eb7401ba12a2ee1ae0b1c3b8c5be4e28944358833c337990f"
+  }
+}

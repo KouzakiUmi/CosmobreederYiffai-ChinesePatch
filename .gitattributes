@@ -8,6 +8,17 @@
 *.ps1 text eol=crlf
 *.bat text eol=crlf
 *.cmd text eol=crlf
+
+# Source-locked repair ledgers and the decisions/gates that pin their bytes are
+# verified by whole-file SHA. Any end-of-line normalisation on checkout would
+# break that binding and make the build reject its own ledger, so these paths
+# keep the exact bytes that were written.
+localization/translations/editorial-*-repairs.jsonl -text
+localization/translations/character-names.json -text
+localization/translations/character-name-repairs.jsonl -text
+localization/editorial/*/review/build-gate.json -text
+localization/editorial/r9-polish/*/review/decisions.tsv -text
+localization/editorial/r9-polish/*/review/*.json -text
 *.cbd binary
 *.png binary
 *.zip binary

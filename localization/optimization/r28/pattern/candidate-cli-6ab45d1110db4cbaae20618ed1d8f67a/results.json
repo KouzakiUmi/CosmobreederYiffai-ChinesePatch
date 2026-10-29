@@ -1,0 +1,35 @@
+{
+  "scope": "candidate optional census CLI only, actual one-script parser/jo/arr fixture; no final candidate archive claim",
+  "steps": [
+    {
+      "name": "compile",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "log": "localization\\optimization\\r28\\pattern\\candidate-cli-6ab45d1110db4cbaae20618ed1d8f67a\\compile.log"
+    },
+    {
+      "name": "candidate-census-pass",
+      "exit_code": 0,
+      "expected_exit": 0,
+      "log": "localization\\optimization\\r28\\pattern\\candidate-cli-6ab45d1110db4cbaae20618ed1d8f67a\\candidate-census-pass.log"
+    },
+    {
+      "name": "candidate-census-reject",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "log": "localization\\optimization\\r28\\pattern\\candidate-cli-6ab45d1110db4cbaae20618ed1d8f67a\\candidate-census-reject.log"
+    },
+    {
+      "name": "candidate-census-missing-reject",
+      "exit_code": 1,
+      "expected_exit": 1,
+      "log": "localization\\optimization\\r28\\pattern\\candidate-cli-6ab45d1110db4cbaae20618ed1d8f67a\\candidate-census-missing-reject.log"
+    }
+  ],
+  "independent_expected_census": {
+    "commands": 5,
+    "han_commands": 5,
+    "han": 80
+  },
+  "success": true
+}

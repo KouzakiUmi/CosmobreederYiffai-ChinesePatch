@@ -1,0 +1,1022 @@
+{
+  "ds:f160ca43223d1700": {
+    "source": "HUH, A DOG?",
+    "translation": "咦，一只狗？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:cf616595b9e385b9": {
+    "source": "Y-YOU'RE A NICE DOG, RIGHT?",
+    "translation": "你、你是只乖狗狗，对吧？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:39bda6c1dfa4be56": {
+    "source": "YOU'LL NEED A KEY TO GET THIS CELL OPEN!",
+    "translation": "得有钥匙才能打开这间牢房！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:608a9de78b1a5d05": {
+    "source": "DON'T TRY AND HIT THE DOOR, IT WON'T WORK.",
+    "translation": "别试着砸门，没用的。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:15167377d57ccfd7": {
+    "source": "YOU'LL NEED TO FIND A KEY TO OPEN IT.",
+    "translation": "你得找到钥匙才能打开。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:66ea9325a4b4beb6": {
+    "source": "THE DOOR'S ALREADY OPEN, YIFFANY! BUT THANK YOU!",
+    "translation": "门已经开了，伊法妮！不过还是谢谢你！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1aa038c2ea72395b": {
+    "source": "SOME CREEPY ROBED GUY LOCKED ME UP IN HERE!",
+    "translation": "有个穿长袍的怪家伙把我关在这里了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ff70a709bb16d324": {
+    "source": "YOU COULD LET ME OUT, IF YOU HAVE A KEY...",
+    "translation": "要是你有钥匙，就能放我出去……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:30a11d540d5fa991": {
+    "source": "W-we could open this cell if you had a k-k-key! You've got one, right?",
+    "translation": "你、你要是有钥、钥匙，就能打开这间牢房！你有的，对吧？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c78b7a37dc13a676": {
+    "source": "There's no way to open this cell w-without a key! Hurry up and get one p-please!",
+    "translation": "没钥匙就打、打不开牢房！拜、拜托你快去找一把！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:665e6578955c413b": {
+    "source": "W-why did they lock me up? I'm just a scout!",
+    "translation": "他、他们为什么把我关起来？我只是个侦察兵啊！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3ba68fd76401d6a4": {
+    "source": "Thanks a bunch! I never thought I'd end up in alien jail.",
+    "translation": "太感谢了！没想到我竟会被关进外星监狱。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:73d0591c54cf9a40": {
+    "source": "Do you really think you're strong enough to break this barrier?",
+    "translation": "你真觉得自己有那么大力气，能打破这道屏障？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:62701ed0bc7d9708": {
+    "source": "Hmf... good luck out there.",
+    "translation": "哼……祝你在外面好运。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6a9a090690ed9783": {
+    "source": "If you spot any of those strong dwarves, send 'em my way!",
+    "translation": "要是见到那种力气大的矮人，叫他们来找我！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:fefd3ef3bd14c79c": {
+    "source": "I bet one of them could break me out!",
+    "translation": "我敢说他们肯定能把我弄出去！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:53af4f29fc3e0b64": {
+    "source": "Bye bye. If you wanna help, go find someone strong!",
+    "translation": "再见。想帮忙的话，就去找个力气大的来！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:7872fe7d128c5bb0": {
+    "source": "Well do you have a plan, or are you just gonna stand there lookin'?",
+    "translation": "你到底有没有计划，还是就打算站着干看？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:81757e8c2574ebea": {
+    "source": "Oh, do you think you can break me out of here?",
+    "translation": "哦，你觉得自己能把我救出去？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ff14ae4fb6ba1247": {
+    "source": "This outta be fun to see...",
+    "translation": "这下可有好戏看了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:0331f6fdd92657a2": {
+    "source": "Well then, I guess you're stronger than I thought!",
+    "translation": "好吧，看来你的力气比我想的大！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:31073a679025504a": {
+    "source": "I can make my way back to the hangar myself, no need to carry me.",
+    "translation": "我自己能回机库，不用你背。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:2586e86773685f37": {
+    "source": "It's an energy barrier, nothing complicated.",
+    "translation": "就是道能量屏障，没什么复杂的。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d7caf436379c7e71": {
+    "source": "No offense, but you look a bit weak to break it yourself.",
+    "translation": "无意冒犯，不过看你这样子，恐怕没力气自己打破它。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:25ca642065dfc9b4": {
+    "source": "Yeah yeah... Don't go around all puffed up over this.",
+    "translation": "好啦好啦……别因为这点事就到处得意。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:f822a9a167daf694": {
+    "source": "Aww, it's a little dog!",
+    "translation": "哎呀，是只小狗！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:35b3be15f7cdf50f": {
+    "source": "Seeya girl! Be careful out there!",
+    "translation": "再见啦，小姑娘！在外面小心点！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:9b5ef2f5f0859bd3": {
+    "source": "...eh, fiiine. I guess this vacation had to end sooner or later.",
+    "translation": "……唉，好——吧。我想这假期迟早也得结束。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:9cd1410f32a24bbf": {
+    "source": "The kobolds bring me food and everything.",
+    "translation": "狗头人还给我送吃的，什么都照顾到了。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:233ba1023a63ad7f": {
+    "source": "You look like a smart and eager dog!",
+    "translation": "你看起来真是只聪明又有干劲的狗！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:7f222dee9487bc01": {
+    "source": "Did you know that ferals are able to dig up dirt by pressing DOWN+ATTACK?",
+    "translation": "你知道野兽形态可以按DOWN+ATTACK挖开泥土吗？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:59a8e472fb0d5e24": {
+    "source": "I'll be right along, heheh! My leg kinda fell asleep...",
+    "translation": "我马上跟来，嘿嘿！腿好像有点睡麻了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:429cea7ae7958eb3": {
+    "source": "Bye bye! I'll be waiting...",
+    "translation": "再见啦！我会等着的……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:b65d541ad0fe301d": {
+    "source": "Huh? Oh. It's just a dog.",
+    "translation": "嗯？哦。原来只是只狗。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3c884d80725fc4dc": {
+    "source": "I guess you can't help me get out of here, huh girl?",
+    "translation": "你大概没法帮我出去吧，小姑娘？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:fd468957b14b1652": {
+    "source": "Oh, are you going to get help? Yay!",
+    "translation": "哦，你要去找人帮忙吗？太好啦！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:48a8aecf1d165eae": {
+    "source": "Oh... I guess you aren't going to let me out...?",
+    "translation": "哦……看来你不打算放我出去……？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:0ce953fb6f65b4db": {
+    "source": "I've been cooped up in here forever and it's sooo boring!",
+    "translation": "我被关在这里好久了，真是无聊透了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:047d7a2187e72289": {
+    "source": "Will you let me out, pleeease?",
+    "translation": "放我出去好不好，求——你啦？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:07eb05aa0b864597": {
+    "source": "Wow! My heroine!",
+    "translation": "哇！我的女英雄！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:aaf92c17c63f266d": {
+    "source": "Thanks for double-checking, but I'll be fine!",
+    "translation": "谢谢你又来确认，不过我没事啦！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1674b73c26059887": {
+    "source": "Some big kobolds locked me up in here.",
+    "translation": "几个大块头狗头人把我关在这里了。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:03ba7c5d9b99a5c6": {
+    "source": "And I thought they were my friends...",
+    "translation": "我还以为他们是我的朋友呢……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:59a4f87361fd7d7b": {
+    "source": "I'll see you back at the hangar!",
+    "translation": "我们回机库再见！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1e187138dc3ce410": {
+    "source": "Ooohhh! You're a sight for sore eyes!",
+    "translation": "哦哦哦！见到你可真是太好了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d10362d30664fc7b": {
+    "source": "C-c'mon, you've *got* to get me out of here! You don't know what it's like!",
+    "translation": "拜、拜托，你*一定*得把我救出去！你不知道这里有多难熬！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:5bfedf803ed147fd": {
+    "source": "I wanna run and jump, but I've been cooped up here for weeks...!",
+    "translation": "我想跑跑跳跳，可我已经被关在这里好几个星期了……！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:af94afc305b965df": {
+    "source": "I... a dog?!",
+    "translation": "我……一只狗？！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:2d1b8a8f14da0fc4": {
+    "source": "Please help me, good girl! You just gotta find someone...",
+    "translation": "帮帮我，乖姑娘！你只要去找个人来……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:466457f12b5dc38b": {
+    "source": "Come back soon! I can't take much more of this boring room!",
+    "translation": "快点回来！这无聊的房间我真的快待不下去了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a911409fce1b0669": {
+    "source": "Don't tease me... please... just lemme out now!",
+    "translation": "别逗我了……求你……现在就放我出去吧！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:813862a02d167c68": {
+    "source": "You'll need a key! I've tried... everything...",
+    "translation": "你得有钥匙！我已经……什么办法都试过了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:96ca30ef3066bebb": {
+    "source": "Please unlock my cell! Let me go free!",
+    "translation": "求你打开牢门！放我自由吧！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ce30801ad1aa65a0": {
+    "source": "Thank you Yiffany! Thank you!",
+    "translation": "谢谢你，伊法妮！谢谢你！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:108c3e61516df629": {
+    "source": "I'm fine now. Just need a minute to stretch my legs.",
+    "translation": "我现在没事了。只需要点时间活动活动腿脚。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:f43c341b94ad6189": {
+    "source": "They locked me up in this cell as soon as we landed!",
+    "translation": "我们刚降落，他们就把我关进了这间牢房！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c12c8df7fb566d30": {
+    "source": "I'm going stir crazy in here! I just wanna ruuun!",
+    "translation": "我被关得都快疯了！我只想出去跑——啊！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:aa3d1e216a36529a": {
+    "source": "Actually I feel like my legs are kinda cramped now...",
+    "translation": "其实现在感觉腿好像有点抽筋了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6e8c4bd4a159726b": {
+    "source": "So I'll probably just make my way back to the hangar and relax.",
+    "translation": "所以我大概会先慢慢回机库，休息一下。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:be25612e453e7926": {
+    "source": "A real primo, high end model too... except it's broken.",
+    "translation": "还是顶级的高端型号呢……只可惜坏了。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:89b3754f6e0dbaac": {
+    "source": "And here you are, to brighten up my day!",
+    "translation": "你一来，我这一天都亮堂了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a0bbee210c728000": {
+    "source": "You and that torch are lifesavers.",
+    "translation": "你和那支手电筒真是救星。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4c8dedc91b57f9f6": {
+    "source": "Those space pirates are gonna regret crossing me...",
+    "translation": "那些太空海盗一定会后悔招惹我……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:8eb0fb4f4375f128": {
+    "source": "Dang, just a dog.",
+    "translation": "啧，只是只狗。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3c541a06baf7594f": {
+    "source": "Oh hey, what brings you here?",
+    "translation": "哦，嗨，你怎么来了？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:dfbc96da67d5de2d": {
+    "source": "I guess I'll get back to the hangar and start filing my reports...",
+    "translation": "看来我得回机库，开始整理报告了……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6029d84439cd877c": {
+    "source": "Don't worry about me, ehehe...",
+    "translation": "不用担心我，诶嘿嘿……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:33b85179f9476a30": {
+    "source": "Heey there doggy.",
+    "translation": "嗨——小狗狗。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:062320cceeebd0ce": {
+    "source": "Do you wanna hang out and enjoy the forest with me?",
+    "translation": "想留下来，和我一起享受森林吗？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:df689237622f61b4": {
+    "source": "I guess not, huh?",
+    "translation": "看来是不想，是吧？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:316f497747461964": {
+    "source": "Really, no need to bust things up on my account. I'm doing great, eh-heh.",
+    "translation": "真的，没必要为了我砸坏东西。我过得挺好的，诶嘿。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d009b8f43d1e3b64": {
+    "source": "Really? Do you *have* to bust me out of here?",
+    "translation": "真的？你*非得*把我弄出去吗？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:8a1aafec94e1a781": {
+    "source": "Meep... guess you're telling me to get back to work...",
+    "translation": "呜……看来你是叫我回去工作啊……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:f7bc68fc2ec5ba9a": {
+    "source": "Yeah yeah, I'll start working on my paperwork...",
+    "translation": "好啦好啦，我会开始处理文书的……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a5d92d2d410980b9": {
+    "source": "Honestly, all the running around and training fauna was soo tiring.",
+    "translation": "说实话，到处跑来跑去、训练动物，真的好累。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6202d2c4d74fb486": {
+    "source": "I don't mind a little vacation, eheheh...",
+    "translation": "放个小假我也不介意，诶嘿嘿……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:2aa0920032b7ee54": {
+    "source": "Did I really look like I was in trouble or something?",
+    "translation": "我看起来真的像遇上麻烦了吗？",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:8177ebba613447da": {
+    "source": "Sceafya is really lovely...",
+    "translation": "斯凯菲亚真的很美……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:0711ecf918e5e367": {
+    "source": "Don't worry about me, I'll be along later.",
+    "translation": "别担心我，我待会儿就跟上。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:651a7a508b594783": {
+    "source": "You know, I'm gonna miss chilling out here in the forest.",
+    "translation": "说真的，我会想念在森林里悠闲度日的时光。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:82f7c6bc15c01402": {
+    "source": "It's got some totally rad vibes!",
+    "translation": "这里的氛围简直棒极了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4a580a60f16fe027": {
+    "source": "Lot more loot in it than being a cosmo agent, heh-heh...",
+    "translation": "比当宇宙特工能捞到的好处多多了，嘿嘿……",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:9fef49321d42b861": {
+    "source": "It gets my fur all mussed up!",
+    "translation": "弄得我的毛全乱了！",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:bf7603daf5f2d3dc": {
+    "source": "GIVE THEM SOME ATTENTION AND PETS ONE MORE TIME WHILE HOLDING THIS CRYSTAL",
+    "translation": "拿着这块水晶，再关心它们一次、摸摸它们。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:bf68b1f60e37fe32": {
+    "source": "AFTER YOU'VE MAXED A PET'S CONFIDENCE, RETURN HERE FOR A SPECIAL REWARD.",
+    "translation": "把宠物的自信提升到最高后，回来领取特别奖励。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ddf41475f90a3145": {
+    "source": "JUST PET THEM WHILE THEY'RE AT FULL CONFIDENCE TO CHARGE THE CRYSTAL.",
+    "translation": "在它们自信满满时抚摸它们，就能给水晶充能。",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:09d847d2963ff620": {
+    "source": "[YEAH, HAVEN'T SEEN ANYTHING DANGEROUS HERE YET]",
+    "translation": "[是啊，目前还没见到什么危险的东西。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:792263b7b2a537a2": {
+    "source": "[THAAAT'S RIGHT! OUR SATELLITE HAS A CONSTANT STREAM OF]",
+    "translation": "[没——错！我们的卫星一直在源源不断地传来]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:51752683b5681d54": {
+    "source": "[GOOD LUCK OUT THERE GIRL!]",
+    "translation": "[祝你在外面好运，姑娘！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:fa53bf20016fd946": {
+    "source": "[SORRY YIFFANY, THE ONLY SATELLITE IN THE AREA]",
+    "translation": "[抱歉，伊法妮，这一带唯一的卫星]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c81dd055ee56f92e": {
+    "source": "[GOOD JOB TAKING CARE OF THAT BRUTE, YIFFANY!]",
+    "translation": "[干得好，伊法妮，把那个蛮横的大块头收拾了！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:76c98d15257f991d": {
+    "source": "[THANKS BOSSU, I JUST WISH HE DIDN'T RUN AWAY]",
+    "translation": "[谢谢，波苏，可惜他逃走了。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:f8264d57dce7947d": {
+    "source": "[THAT'S GONNA MAKE IT EXTRA HARD TO CALM HIM DOWN...]",
+    "translation": "[这样一来，要让他冷静下来就更难了……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:0953fbd5282d3fc9": {
+    "source": "[DO YOUR BEST UNTIL YOU MANAGE TO GET PROPER EQUIPMENT]",
+    "translation": "[在设法找到合适装备之前，先尽你所能，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d18e1d4b19dd5d56": {
+    "source": "[SO THAT WE CAN HELP OUT THESE CREATURES ON TUTONE.]",
+    "translation": "[这样我们才能帮助图托恩的这些生物。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:35b59fe307a553fd": {
+    "source": "[OF COURSE, I'LL SEE IF I CAN TRACK HIM DOWN AGAIN.]",
+    "translation": "[当然，我会再试着找到他的下落。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:150f35487b6e7f2c": {
+    "source": "[MANAGED TO HOLD YOUR OWN, EH YIFFANY?]",
+    "translation": "[撑住场面了啊，伊法妮？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:dad31a5f760da0eb": {
+    "source": "[YEAH, BUT THE BIG FELLA MANAGED TO SLIP AWAY AGAIN.]",
+    "translation": "[是啊，可那大块头又溜掉了。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1f1c898e4424d0cf": {
+    "source": "[WAS HOPING TO CAPTURE THEM SO WE COULD FIGURE OUT]",
+    "translation": "[本来希望把他们抓住，好弄清楚]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3d14e9aed16a2ac9": {
+    "source": "[WHAT EXACTLY IS GOING ON DOWN ON THIS PLANET.]",
+    "translation": "[这颗星球上到底发生了什么。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ca4c9a23bd25054a": {
+    "source": "[THAT'S RIGHT, THEY WERE A LITTLE ROUGHED UP]",
+    "translation": "[没错，他们受了点伤。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:e83af746b1de2354": {
+    "source": "[KEEP AN EYE OUT FOR OTHER AGENTS THAT YOU CAN RESCUE!]",
+    "translation": "[留意其他能救出来的特工！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:39cf447b8a8dd2e7": {
+    "source": "[THERE MUST BE MORE OUT THERE.]",
+    "translation": "[外面肯定还有更多。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:e5a3f760776b7577": {
+    "source": "[WE MANAGED TO SET IT ON FOLLOW MODE]",
+    "translation": "[我们设法把它设成了跟随模式。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:bc033831e0f49179": {
+    "source": "[GREAT, THEN I CAN GO AND BLAST THOSE DARN SHIPS THA-]",
+    "translation": "[太好了，那我就能去轰掉那些该死的飞船——]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:bab7413034d33f98": {
+    "source": "[AND YOU CAN TAKE A LOOK AT THEM.]",
+    "translation": "[你就可以查看它们了。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:17e2714ad4daf541": {
+    "source": "[NOW NOW, YOU MAY BE ONE OF OUR TOP AGENTS]",
+    "translation": "[好啦好啦，你或许是我们的顶尖特工之一，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:49d8a2770f569b5f": {
+    "source": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+    "translation": "[G...D JOB DEF...ING TH...A...ET...AI!]",
+    "status": "preserved",
+    "notes": [
+      "intentional-corruption/source-preserved；原JAR前后演出与独立复核确认刻意广播干扰，保留Latin碎段，不猜补DEF...ING，不计完整中文。"
+    ]
+  },
+  "ds:e9c25922cec44917": {
+    "source": "[...WHAT WAS THAT...?]",
+    "translation": "[……你说什么……？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ecc00c802c2edb72": {
+    "source": "[...SAID... B...IG... ...TEN... ...END!]",
+    "translation": "[...SAID... B...IG... ...TEN... ...END!]",
+    "status": "preserved",
+    "notes": [
+      "intentional-corruption/source-preserved；独立复核确认广播刻意失真，保留Latin碎段，不把TEN或END猜补成触或尽头，不计完整中文。"
+    ]
+  },
+  "ds:d5293c99d48d2a54": {
+    "source": "[YOU'RE BREAKING UP WAY TOO MUCH, LET ME GET OUT OF HERE]",
+    "translation": "[你那边断断续续的太严重了，等我先出去，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ebf9c11b55c0a36a": {
+    "source": "[AND THEN YOU CAN TELL ME ABOUT THE BIG TEN...]",
+    "translation": "[然后你再跟我说说那个BIG TEN...]",
+    "status": "candidate",
+    "notes": [
+      "源BIG TEN...故意停在碎片处，保留原Latin碎段，不猜补为大触手等词。"
+    ]
+  },
+  "ds:922afe30f652ba03": {
+    "source": "[THE KIND THAT DOESN'T COLLECT SHOES, I GUESS?]",
+    "translation": "[大概是不收集鞋子的那种？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ca22b1a60637053c": {
+    "source": "[OH COME ON, IT WAS JUST A BIT OF ROUGHHOUSING!]",
+    "translation": "[拜托，只是稍微打闹了一下嘛！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:582713a8912059ef": {
+    "source": "[HE EVEN GAVE ME A GIFT FOR GOING EASY ON HIM!]",
+    "translation": "[他还送了我礼物，感谢我手下留情！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:ffb299d5453c8dfb": {
+    "source": "[THE SATELLITE  STOPPED TRANSMITTING DATA UNTIL JUST NOW]",
+    "translation": "[那颗卫星直到刚才才恢复数据传输。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:760e06c932f058b9": {
+    "source": "[..UP... T... AKE... ...UP!]",
+    "translation": "[……起……来……醒……醒……！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4e08979de855b897": {
+    "source": "[KKZZT! TR... SSSH MIS...ATE...]",
+    "translation": "[咔滋滋！特……嘶嘶……失……误……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d87e67044bf8be1e": {
+    "source": "[LISTEN BUSTER, I'M GETTING REAL TIRED OF YOUR CRA-]",
+    "translation": "[听着，混蛋，我受够了你这堆破——]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:db0b745920bb1a47": {
+    "source": "[TO A LOW ORBITING MOON THAT SEEMS TO HAVE BEEN A PRISON?]",
+    "translation": "[到了那颗低轨道卫星，看起来那里以前是监狱？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a15bde291d1240da": {
+    "source": "[OH HEY! FINALLY FOUND A PROPER TRAINER TAZER, HUH?]",
+    "translation": "[哦，嘿！终于找到一把像样的训练电击器了？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4b6ce5b7d9afcd30": {
+    "source": "[YUP, NOW I CAN CAPTURE A FEW OF THE CREATURES DOWN HERE]",
+    "translation": "[对，现在能抓几只这里的生物了，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:7207e32cfa139482": {
+    "source": "[AND WE CAN SORT WHAT'S HAPPENING ON THIS PLANET.]",
+    "translation": "[我们也就能弄清这颗星球发生了什么。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4ae7061bd966dc27": {
+    "source": "[YOU CAN CALL ME \"THE0\"! THOUGHT I'D HELP YOU OUT BY]",
+    "translation": "[你可以叫我“THE0”！我想着来帮你，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:282dd8778fb1d28b": {
+    "source": "[JUST GIVE ME A CALL AT 28.250 AND I'LL FILL YOU IN!]",
+    "translation": "[打28.250联系我，我就告诉你详情！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:073717f001ed0a7a": {
+    "source": "[...LET ME KNOW WHEN YOU'RE OUT OF THAT SUIT...]",
+    "translation": "[……等你脱了那身装束再告诉我……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:cdb9477ca7de2a59": {
+    "source": "[THE MORE THEIR CONFIDENCE WILL BE BOOSTED!]",
+    "translation": "[它们的自信就会提升得越多！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1030f086a377ab68": {
+    "source": "[MAYBE YOU'LL EVEN GET A REWARD AS THANKS...]",
+    "translation": "[说不定还会送你礼物表示感谢……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a745f0ccd5a60235": {
+    "source": "[TRY NOT TO ATTACK THEM HEAD ON]",
+    "translation": "[尽量别从正面攻击它们，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3ceb2bdf753448d9": {
+    "source": "[OR YOU MAY BE ON THE RECEIVING END OF THEIR SWIPES!]",
+    "translation": "[不然你可就要挨它们的爪子了！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c7841451a54737df": {
+    "source": "[IF I DIDN'T KNOW BETTER, I'D THINK YOU WERE AN ESPER]",
+    "translation": "[要不是心里有数，我会以为你是个超能力者，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3177e43eff3f6a34": {
+    "source": "[OR WORSE... A CHEATER...]",
+    "translation": "[或者更糟……是个作弊的……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:7edcc72d597423a8": {
+    "source": "[ISN'T THERE SOME WAY TO DEACTIVATE THEM AGAIN?]",
+    "translation": "[就没办法把它们再关掉吗？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:667c72bbf83e5570": {
+    "source": "[ALWAYS GOING ON ABOUT DIGGING DEEPER AND GREEDIER]",
+    "translation": "[总是在念叨着挖得更深、更贪婪，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:8ac3f7a58209cc62": {
+    "source": "[AND NEVER SHUTTING UP ABOUT THE DRUMS! EVER LOUDER!]",
+    "translation": "[还没完没了地说着鼓声！越来越响！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6d6981e45f560a82": {
+    "source": "[THE MINES HERE.]",
+    "translation": "[这里的矿井。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3b4cf17a41346f5e": {
+    "source": "[MOMENT OF THEIR OWN ATTACK.]",
+    "translation": "[它们自己发动攻击的那一刻。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:b8ba9d80f0a62d15": {
+    "source": "[SO TRY TO CATCH THEM IN THE MIDDLE OF A DIVE.]",
+    "translation": "[所以尽量趁它们俯冲时出手。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:3e945dc15b0fb65a": {
+    "source": "[EEP! YOU'D THINK THEY MISTOOK ME FOR ONE OF THEIR OWN]",
+    "translation": "[咿！它们简直把我当成了同类，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:d9dee512c21bb672": {
+    "source": "[WITH THE WAY THEY WERE NIPPING AT ME...]",
+    "translation": "[围着我一口一口地咬……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:f390854ee751cfea": {
+    "source": "[NA-NO-MY-HUH?]",
+    "translation": "[纳——诺——什么玩意儿？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:825af062a01a4b3f": {
+    "source": "[THAT MAY SEEM HYPNOTIC AT FIRST]",
+    "translation": "[乍看之下会让人着迷，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:1ed5867168c43d7f": {
+    "source": "[COME ON, I'M A PRO! I WON'T GET DISTRACTED!]",
+    "translation": "[拜托，我可是专业的！才不会分心！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:e0727314415d1a96": {
+    "source": "[FOR THE SAKE OF YOUR VIT BAR, I HOPE NOT, AGENT.]",
+    "translation": "[为了你的体力条着想，我也希望如此，特工。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:e54f7506a8bfd5a7": {
+    "source": "[AS THE CENTURIES HAVE GONE BY.]",
+    "translation": "[在数百年的岁月流逝之中。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:09917893607cdd44": {
+    "source": "[LOOKING FOR NEW HOSTS ON TUTONE.]",
+    "translation": "[在图托恩寻找新的宿主。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6801406af2382531": {
+    "source": "[THE NORTHEAST OF THAT MOON, YIFFANY.]",
+    "translation": "[在那颗卫星的东北部，伊法妮。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c6c20f556c35d190": {
+    "source": "[AFTER SHE'S DONE FOOLING AROUND...]",
+    "translation": "[等她胡闹完了之后……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:690925c2b9f82614": {
+    "source": "[UH, YIFFANY? ARE YOU IN A KOBOLD SUIT?]",
+    "translation": "[呃，伊法妮？你穿着狗头人装？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:4d5ee39a771560c1": {
+    "source": "[YEAH! WHY...?]",
+    "translation": "[对啊！怎么了……？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:b61745aee6e8d54a": {
+    "source": "[YEAAAH THIS JUST MAKES IT KINDA AWKWARD.]",
+    "translation": "[是——啊，这样就是有点尴尬。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a6f0bc381174830d": {
+    "source": "[MAYBE CALL ME BACK WHEN YOU'RE OUT OF THAT THING?]",
+    "translation": "[不如等你脱掉那东西再打给我？]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:2976303340a509f1": {
+    "source": "[HEY COME ON, IT'S NOT THAT WEI-]",
+    "translation": "[喂，拜托，这又没那么奇——]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:63c77863b049eef3": {
+    "source": "[HELLO? OH! YOU AREN'T YIFFANY!]",
+    "translation": "[喂？哦！你不是伊法妮！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:55a912ef1c5ae218": {
+    "source": "[DID THAT GRRRL REALLY GET BEATEN UP BY SOME KOBOS]",
+    "translation": "[那姑娘真被几只狗头人打败了，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:919170d52b3bd0c6": {
+    "source": "[AND LOSE HER RADIO... YET AGAIN...]",
+    "translation": "[又把收音机弄丢了……又一次……]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:08eb3b2f66a79984": {
+    "source": "[...?!]",
+    "translation": "[……？！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:cc7a50b02801a5f2": {
+    "source": "[HOPE SHE FINDS IT AGAIN ONCE SHE COMES AROUND, SERIOUSLY]",
+    "translation": "[说真的，希望她醒过来之后能再找到它。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:62a0cdd663368c5e": {
+    "source": "[YOU KNOW WHAT THEY SAY! EVERY DOG NEEDS A BONE TO CHEW]",
+    "translation": "[俗话说得好！每只狗都得有根骨头啃，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:66ca7dcad1c5161e": {
+    "source": "[AND THESE ONES WILL FILL YOUR VIT UP JUUUST A LIL BIT!]",
+    "translation": "[而这些能给你恢复那——么一点体力！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:55658826a5c39550": {
+    "source": "[YEAH, BUT I PREFER THE KIND THAT CLEAN YOUR TEETH TOO]",
+    "translation": "[嗯，不过我更喜欢还能洁牙的那种。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:7a1881aac6259a6b": {
+    "source": "[HEY, TAKE YOUR SNACKS WHERE YOU CAN GET 'EM!]",
+    "translation": "[嘿，有什么零食就吃什么吧！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:a229cbf37e8e297c": {
+    "source": "[THE DNA DOESN'T MATCH ANYTHING IN OUR DATABANKS]",
+    "translation": "[它的DNA和我们数据库里任何东西都对不上，]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:c8368f10b9837ca0": {
+    "source": "[BUT IT'S PROBABLY STILL GOOD EATS!]",
+    "translation": "[不过应该还是挺好吃的！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:6cea22c8a9c37f81": {
+    "source": "[IT SHOULD RECOVER A DECENT CHUNK OF YOUR VIT, TOO!]",
+    "translation": "[它应该还能给你恢复不少体力！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:56c39dd192986cae": {
+    "source": "[REMEMBER, YOU USED TO ALWAYS TRADE THEM OFF FOR SNACKS.]",
+    "translation": "[记得吗，你以前总拿它们去换零食。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:8c582d5164fac9cb": {
+    "source": "[OF COURSE! I DRANK THE FIRST ONE I EVER GOT!]",
+    "translation": "[当然！我第一次拿到手就喝掉了！]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:846019798750f25b": {
+    "source": "[THAT'S HOW I LEARNED THAT IT WAS BETTER TO TRADE EM]",
+    "translation": "[就是那次让我明白，还是拿去换东西比较好。]",
+    "status": "candidate",
+    "notes": []
+  },
+  "ds:e49e19a9ddbf81a9": {
+    "source": "[I GUESS THAT MAKES SENSE...]",
+    "translation": "[听起来也有道理……]",
+    "status": "candidate",
+    "notes": []
+  }
+}

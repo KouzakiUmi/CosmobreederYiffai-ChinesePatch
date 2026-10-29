@@ -1,0 +1,189 @@
+{
+  "packet": "packet-01",
+  "status": "read_full",
+  "input_sha256": "74ed5b0d9a60c4be4317b3aaa57a2e1ec06e365bdb162b7487a2e75148c82124",
+  "actual_read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2450
+    ],
+    [
+      2451,
+      2510
+    ]
+  ],
+  "reader_output_capped": false,
+  "reference_read": {
+    "LOCALIZATION_BRIEF.md": "1-65",
+    "WORK_ORDERS.md": "1-48",
+    "characters-primary.md": "1-277 (initial output capped); supplemented 278-377",
+    "characters-support.md": "1-128",
+    "world-and-plot.md": "1-150,151-300,301-406; full, no truncation; final proposals rechecked against W06/W09/W17/H03/H06/E01/E02/R05/I05/I07"
+  },
+  "scene_count": 296,
+  "row_count": 1376,
+  "findings_count": 36,
+  "semantic_method": "实际小段read完整reader后，按连续场景和参考复核；程序仅关联稳定ID、原当前引文、收据和哈希。ledger未用作当前问题依据。",
+  "unverified": [
+    "运行时触发顺序",
+    "实机/UI/字体排版",
+    "code字符串玩家可见用途",
+    "正式应用与独立复审"
+  ],
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-01.reader.md",
+  "input_hashes": {
+    "packet-01.json": "652b461765354220d1cb747d45c3785b8e1011b5ff4f5d52822a9758b0d66bac",
+    "packet-01.reader.md": "74ed5b0d9a60c4be4317b3aaa57a2e1ec06e365bdb162b7487a2e75148c82124"
+  },
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2450
+    ],
+    [
+      2451,
+      2510
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": {
+    "LOCALIZATION_BRIEF.md": "1-65",
+    "WORK_ORDERS.md": "1-48",
+    "characters-primary.md": "1-277 (initial output capped); supplemented 278-377",
+    "characters-support.md": "1-128",
+    "world-and-plot.md": "1-150,151-300,301-406; full, no truncation; final proposals rechecked against W06/W09/W17/H03/H06/E01/E02/R05/I05/I07"
+  },
+  "findings_status_counts": {
+    "proposal": 32,
+    "needs_evidence": 4
+  },
+  "world_reference_recheck": "completed; no factual conflict requiring withdrawal; Q remains unresolved by world reference"
+}

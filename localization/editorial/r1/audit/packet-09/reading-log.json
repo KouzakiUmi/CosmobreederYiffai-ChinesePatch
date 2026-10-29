@@ -1,0 +1,148 @@
+{
+  "packet": "packet-09",
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-09.reader.md",
+  "input_sha256": "1611dc5529846681baf591744e9ace97a2039cc383132c53b1fd4ad0bc199c1b",
+  "read_status": "read_full",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2448
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    {
+      "name": "LOCALIZATION_BRIEF.md",
+      "read_ranges": [
+        [
+          1,
+          65
+        ]
+      ]
+    },
+    {
+      "name": "WORK_ORDERS.md",
+      "read_ranges": [
+        [
+          1,
+          48
+        ]
+      ]
+    },
+    {
+      "name": "characters-primary.md",
+      "read_ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          250
+        ],
+        [
+          251,
+          377
+        ]
+      ]
+    },
+    {
+      "name": "characters-support.md",
+      "read_ranges": [
+        [
+          1,
+          128
+        ]
+      ]
+    },
+    {
+      "name": "world-and-plot.md",
+      "read_ranges": [
+        [
+          1,
+          150
+        ],
+        [
+          151,
+          300
+        ],
+        [
+          301,
+          406
+        ]
+      ]
+    }
+  ],
+  "packet_json_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-09.json",
+  "packet_json_sha256": "83c5cd6580383abfb9ea29bed1ef3e60005316858d877779203171eb9f945b9b",
+  "method": "read工具分段实际阅读reader全部2448行；程序仅提取已读场景canonical/alias ID和序列化收据，非程序语义扫描。旧ledger不作为当前中文。",
+  "limitations": [
+    "未运行游戏，未验证嵌套JSON运行用途、动态UI拼接或排版",
+    "未approved，未应用正式译文",
+    "各建议为scene_draft_only，不能均分回填节点"
+  ]
+}

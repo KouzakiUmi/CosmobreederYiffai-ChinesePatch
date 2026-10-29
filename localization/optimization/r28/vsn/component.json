@@ -1,0 +1,574 @@
+{
+  "schema_version": 1,
+  "component": "canonical-pak-vsn-joins",
+  "archive": "patch.pak",
+  "frozen_build": "r27-story12-shaderfix-test5",
+  "frozen_archive_sha256": "d2e21deeb85d74e981770b247625ee7ceb7ed39ae566305c1833c2c3d97b54d5",
+  "operations_sha256": "c262d73c6d9ac27afc1b2f4739986018db48c281adb2d019bddcb6381b2592f5",
+  "review_ledger_sha256": "3bb3c135e3a086f9b33e3d3fe220726dbf4b8c5ac7a039c573bb2ba0f12c0bb6",
+  "required_chars": "localization/optimization/r28/vsn/required_chars.txt",
+  "required_chars_sha256": "5e0affc1b1af6f28ad1395d4fb1b3e945c5d9d639cd27e31c6f74910e1c51f45",
+  "api": {
+    "module": "localization/tools/vsn_joins.py",
+    "function": "rewrite_vsn",
+    "signature": "rewrite_vsn(logical_path, source_bytes, records=None, *, archive='patch.pak') -> (new_bytes, report)",
+    "source_bytes": "decrypted exact r27 patch.pak plaintext for pinned logical path",
+    "call_order": "after decrypting frozen r27 PAK; before encrypting output; no prior translation/rewrite; SFW is forbidden",
+    "atomicity": "all applicable pinned operations preflight before output; raises VsnJoinValidationError on any drift"
+  },
+  "summary": {
+    "reviewed_candidate_edges": 421,
+    "reviewed_maximal_groups": 391,
+    "accepted_join_groups": 300,
+    "accepted_edges": 324,
+    "fully_accepted_review_groups": 295,
+    "partially_accepted_review_groups": 5,
+    "fully_retained_review_groups": 91,
+    "explicitly_retained_edges": 97,
+    "protected_lang_retained_edges": 72,
+    "four_untranslated_units": 4,
+    "automatic_delay_delta_seconds": 0
+  },
+  "resources": {
+    "vsn/ClassicPreTitle/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/5",
+      "canonical_source_sha256": "93f5c0dd1ffc4e76059f3d9e0d6eee36b28ea8ec11106b6343c76a9336ddaa33",
+      "r27_plaintext_sha256": "c360b7bc0610fa400f6d1153853dd21d1e5751ad74bbd379638b313ec943c5d4",
+      "physical_line_count": 35,
+      "control_sha256": "d87c0ec173fc98bc5d9c6b004e601c3e28ff61947adaa8b70fddd8315f8a583a"
+    },
+    "vsn/f_AgentF01/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/11",
+      "canonical_source_sha256": "011d9333e6e863d1dd1c2e571e50521128d300cd7c40988588aa8fd9c8e4bec4",
+      "r27_plaintext_sha256": "ea92f93aa769f4d951b0b1180a2b82e75a0a4aa4b90f5adbc7062ee48ebf15fd",
+      "physical_line_count": 76,
+      "control_sha256": "394551f8f9591860fe44d3453b885b708117c7f71d0c27d9afb6f0244a3d83d8"
+    },
+    "vsn/f_AgentF02/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/17",
+      "canonical_source_sha256": "8d1f0de0ffec48cd7d30e0ff5c24477ddb889fa89ef4231680fe10c3516e4955",
+      "r27_plaintext_sha256": "0f10c43065e40e7ffacf17348d4b6895817256936b1e5d5f04b4580a73a48278",
+      "physical_line_count": 74,
+      "control_sha256": "57dbb2c01d2b20b00c77277a0cd332f7bf0d266703da4d24b12b556ad608ece2"
+    },
+    "vsn/f_AgentF03/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/23",
+      "canonical_source_sha256": "4de1d6569827c5e41054b20d2fe565786deeb7d804718a68856e70a2431ef573",
+      "r27_plaintext_sha256": "a4c1d11f87e4b3df93f69599ed15f908cb180f6c313ab239d5cba53d3c065ce5",
+      "physical_line_count": 87,
+      "control_sha256": "c477e2296b064dab9fe93b305d956f51203b6e1dad46be376445ba88b6a055d5"
+    },
+    "vsn/f_AgentF04/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/29",
+      "canonical_source_sha256": "58d2f809c0e6a579bb252e7901daf6c575ab86e9b77a683de851e0e44ee8bc7c",
+      "r27_plaintext_sha256": "891e84d11d5cd151fd63ec34587d5a0f6947f57498f05baae7ca4bc1efa8ae00",
+      "physical_line_count": 80,
+      "control_sha256": "731b89dbf54f00eeaaae4e2ea525118eef4ce14e93c2c20ca051729997f051cf"
+    },
+    "vsn/f_AgentF05/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/35",
+      "canonical_source_sha256": "25a1dde5194c0057fd7ff034c8977d61ab1dc730d684ef12ceb7889aea499f27",
+      "r27_plaintext_sha256": "8ac05beb1b2c4e1cf466e7c93ac1ff84d4acd8ba380eebf1e674e6f266ff9e65",
+      "physical_line_count": 80,
+      "control_sha256": "a38db844dc5aef7a263a001de7793c7f8c73c48719e29d8334a1977f39d8ce59"
+    },
+    "vsn/f_AgentF06/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/41",
+      "canonical_source_sha256": "efb300787c67687ce77d16c287b7979a5a0acf090f819f3a95a8a3b7edceab0f",
+      "r27_plaintext_sha256": "f88051cf49e7303be37165d5831cf6b5dedfd3b49f6b1dfd3bd6aef01565c9c1",
+      "physical_line_count": 104,
+      "control_sha256": "697df7d2ee298e7ccf22a118bec4712de605524b26d9b9fc70e53d873fdc135f"
+    },
+    "vsn/f_AgentF07/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/47",
+      "canonical_source_sha256": "781ebf12d26890caa73e04effa84e7194724412257fa1231364c84c0dc6156ad",
+      "r27_plaintext_sha256": "6afeccaccc8fa6e52c29d6722fa8b639627ae63349fb8664545482515c537be8",
+      "physical_line_count": 78,
+      "control_sha256": "512b98a2822c1346d4cb277c468b19c3c93ae2f84a307a9767c00e23bad67757"
+    },
+    "vsn/f_AgentF08/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/53",
+      "canonical_source_sha256": "125a52a5276ae17c0d9a12e6229f20d9978f802fa8b92fe25f30efb7e8e159aa",
+      "r27_plaintext_sha256": "06d6766ca0082ba204519d1ddcd5215053f0174761d618cd56e8a96fbfa0daa9",
+      "physical_line_count": 86,
+      "control_sha256": "64102477427f2c1684497d376702133a464011eff790288821093c02d5e911b9"
+    },
+    "vsn/f_AgentF0B/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/59",
+      "canonical_source_sha256": "dcbff217f25e1183ee888032679154c06c203e04cb7b10b4bc15139f92eba8d9",
+      "r27_plaintext_sha256": "df76096f08a1105f78b988d492b26aefc60271e740df60261d388d45a95a7642",
+      "physical_line_count": 55,
+      "control_sha256": "47c0cfdc187f84af9c473fc36cca802eeabf6d038580679fe8166a1d71a809e5"
+    },
+    "vsn/f_AgentFZ1/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/65",
+      "canonical_source_sha256": "9fada4a493eab776c31660d2b866f698d39c8ee55ac555a406026575434568ec",
+      "r27_plaintext_sha256": "90fefb3f260cad96877eb8264b3c9044276d7a92a925bf2de36e5d5a5461b25b",
+      "physical_line_count": 58,
+      "control_sha256": "e8c517297d2597ad36a23a14903b90f583ef7868de99a53869783c775b2bd06f"
+    },
+    "vsn/f_AgentFZ2/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/71",
+      "canonical_source_sha256": "b5b3dd8bf2f495f52d1acb58265ff7846919315893d76c989b05f56592ae192a",
+      "r27_plaintext_sha256": "37a1bbe45d535d41bcedd8b5fde0db577e15571606c72c24182113ed3b077816",
+      "physical_line_count": 48,
+      "control_sha256": "78f0ab61c220cec5f953567e012b10ad3141599160ccdd3f8f0b05f4b4f855a0"
+    },
+    "vsn/f_AgentFZ3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/77",
+      "canonical_source_sha256": "f1600c23d547d7d9923c63ea00b45e453633e89c153c29761382365fb80f549c",
+      "r27_plaintext_sha256": "d372803afca78574f429b08d588eb8cad213594529db873c299c2254a959f93e",
+      "physical_line_count": 47,
+      "control_sha256": "5e0b09ddcc94630427dede9c0040580034b28be746c8582038208dafc935058f"
+    },
+    "vsn/f_AgentFZ4/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/83",
+      "canonical_source_sha256": "7b0456d0e169ff913218d0d99a74d837fec61d0f58a223e1c02c052fa0104eaf",
+      "r27_plaintext_sha256": "454b93629a7567f24e806cf525447c2698e0abc45e23c46e694ebb3d42b74776",
+      "physical_line_count": 49,
+      "control_sha256": "3d451228ac4d4efc9fe0a028f58c3b03ea8579e3586ade615f1e6bfc91c0f6b0"
+    },
+    "vsn/f_AgentFZ5/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/89",
+      "canonical_source_sha256": "68425b9e3802775934fa8f97bc9d485c5b169ae49d39749589db0c30eb5b79ec",
+      "r27_plaintext_sha256": "5ef55c9c5bf2c34de84c54c6671252e819f069987fcf8926c52c7b27e463a8db",
+      "physical_line_count": 45,
+      "control_sha256": "618c76b73dbeb9643bbd542ac5b4f5a5b6ecfaab4354905af96d6f1321e1f766"
+    },
+    "vsn/f_AgentFZ6/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/95",
+      "canonical_source_sha256": "0181dc2867c742fb5d24f81ec0e1bac3f5a6524f58843fda9bb23ff0e73d098b",
+      "r27_plaintext_sha256": "9bf07660d1a92e1e2fca46747e6dca59f1518d8c8d4a118b623619b1e54818f8",
+      "physical_line_count": 51,
+      "control_sha256": "4634cc0fadfe91b1a115377d102c44b3872e4b8637d130dc13fe42ae000a13b7"
+    },
+    "vsn/f_ClassicBigbold/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/101",
+      "canonical_source_sha256": "1cfbae8f648df9cdf8042f267fc8bd50b5ed9ce3338ae5ea68916509536c711f",
+      "r27_plaintext_sha256": "f2562f83b33bc49fa828eacb646154e68123d91179d50e3073572a33b906d20a",
+      "physical_line_count": 232,
+      "control_sha256": "98d653ec7483c91c8f90288baeb0e328eef3d143a06f3ffbce4093dfb6e3347b"
+    },
+    "vsn/f_ClassicBigboldV2/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/107",
+      "canonical_source_sha256": "4815d8fd5f3908b51ef353cd8f2eec2028b9d1612d660af9f236e1a3e6d23232",
+      "r27_plaintext_sha256": "22402ab672b9c8f0b63e4a24bdc1b6ecc4133cf345136de4ec8aa40e44da200d",
+      "physical_line_count": 265,
+      "control_sha256": "b14177a4c725d09f546010ff93e03d0290a61d2bc50bbd8023a05e6155522a92"
+    },
+    "vsn/f_ClassicBossRedbull/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/113",
+      "canonical_source_sha256": "322268db2f745ecaa62bcf289972fe3573f1e1d8174792de966f48825e23c8c9",
+      "r27_plaintext_sha256": "6b73e084379356e81ce96e4286a8899c28cca757b34374991e04cd52d443c89a",
+      "physical_line_count": 52,
+      "control_sha256": "fbc6139a85b102ce72590a836014f1ba5b088d4d9a1b0e02759feefadef81cd4"
+    },
+    "vsn/f_ClassicEnelye/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/119",
+      "canonical_source_sha256": "9178414c11414e1275b225caf0f21f34637d863d57c620822f1bd97cd77a2a42",
+      "r27_plaintext_sha256": "959ce675a8382d8ae944c44653033e1e2fc17f1d94d30f5671f548ca2bbb8888",
+      "physical_line_count": 32,
+      "control_sha256": "c907ad93512cde147d79366fa01c61292b5fbf20c8f22ccd39b1fdfbbde57f96"
+    },
+    "vsn/f_ClassicPigobinV3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/125",
+      "canonical_source_sha256": "60e853f2238226a567decc2a72a156299d87cc43e423482ff6c7b9876a33d905",
+      "r27_plaintext_sha256": "7b10b6ef77220537095b0bee44516a8ba5af980d8b76f9d9aa1cdfb2160f2c60",
+      "physical_line_count": 40,
+      "control_sha256": "d6424fbad8d0d7766e2c67be108454912cb8e865944459060bc307ff6fd06426"
+    },
+    "vsn/f_ClassicSqueakerBoss/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/131",
+      "canonical_source_sha256": "e1441cb5c2ccc96e9215f929149d4bfc5b40efecff5aa1857f738ad86f151b07",
+      "r27_plaintext_sha256": "4868419ef64a465b58036be274d71d7913f74726a523183284f56758f2abce98",
+      "physical_line_count": 23,
+      "control_sha256": "d0fa47ea4e0e2698fe7d0e7171a2b1a15f4cc7f45f500c37cb8d8ad3d1ad3ae4"
+    },
+    "vsn/f_ClassicStarkillV3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/137",
+      "canonical_source_sha256": "e9a9d407b5f4b2ca3d14b73ca80b36f5429eba9071d1a13f11530a1d9c38a9b0",
+      "r27_plaintext_sha256": "8bdbe78f66e70db1dc0895610d4d2cbc5863b9070edbad82faca83ec176b7ddc",
+      "physical_line_count": 39,
+      "control_sha256": "4f7ed0e0ca53d0aace9c73a1ae1fc7b6516ec09125322d255afe9af906bbbfc6"
+    },
+    "vsn/f_ClassicWerehund/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/143",
+      "canonical_source_sha256": "69b592563fadc77ea99f2f231d42e45d1e874cb78f1c481edec83cfa17ff5a88",
+      "r27_plaintext_sha256": "b6a361273ee737c26f7e04c8e475dae460d1fa8f1139b13c66d99cfc84270b1d",
+      "physical_line_count": 183,
+      "control_sha256": "7206d4e25cd77fdb111af58b6427cbabcb8ad976fc091b0f0177e190c5334921"
+    },
+    "vsn/f_ClassicWerepup/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/149",
+      "canonical_source_sha256": "0e3e8718ff444b26493d254c66eb20854e5c8414335dc70ab2221e849f28cd2c",
+      "r27_plaintext_sha256": "b73fa1056b04ba5ae897448da2924455d14c5de7c62425cfa8644382032680b8",
+      "physical_line_count": 177,
+      "control_sha256": "a2e66ae874a04702703b1f515598ff1999ed2e7dc55a735be9fa97329d1e7a92"
+    },
+    "vsn/f_EndingBad/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/155",
+      "canonical_source_sha256": "62faadbba3848232f0ecba4e76e07bc0c6c68ed1cf72e3c09e8dfa130e730261",
+      "r27_plaintext_sha256": "97a955b0f4c7f900873168a0b81de68cac332df8fa46cf2cd75afc09ca54f126",
+      "physical_line_count": 25,
+      "control_sha256": "5553313093347e497900318bd2af54b64dc4682e00199677968032d628c96c76"
+    },
+    "vsn/f_EndingGood/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/161",
+      "canonical_source_sha256": "b1addf1ed2185db2e1d020950f7142a404d1acf17f70567445aaa035214e6c37",
+      "r27_plaintext_sha256": "b07e4a0f312d3280da5c063206ae43417ba21a21352b40b31076c2a73a3b5d8c",
+      "physical_line_count": 64,
+      "control_sha256": "019da36687e5422cae549d4d04ff70cd6618cb150981627cee2523e33d72dc01"
+    },
+    "vsn/f_EndingIntoShmup/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/167",
+      "canonical_source_sha256": "b9292b582abb1e48bbe7fea306197a6857fd7f0dca8a0c5453f18b96d791cd2d",
+      "r27_plaintext_sha256": "d08635f9fb7e332945b3d79542f1bf8fd5d76d4c0eca21eb80b6d19e857fc20e",
+      "physical_line_count": 13,
+      "control_sha256": "fc85fadb5ea71ad2040b141ab6bf98aee7175237dcc6140a0e9f2fb36ed0142d"
+    },
+    "vsn/f_GameOverArea0/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/173",
+      "canonical_source_sha256": "4f08ac90734a568faabfb5ce75224da1b985fc994a947a628b755d536a135ba7",
+      "r27_plaintext_sha256": "13ce718a9b72180f1baa90cdbe412e70a45070a3a4006f0539d7a99e0a0e70ec",
+      "physical_line_count": 103,
+      "control_sha256": "a304758db71f4f82b9f4a0a2f32faca090c6a61a7cd11ab82b8b7db14747812e"
+    },
+    "vsn/f_GameOverAreaA/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/179",
+      "canonical_source_sha256": "cfd853e9a3ac0fcbe84afac19f9669c9b2a333504384bf99225e645eee21b8d8",
+      "r27_plaintext_sha256": "b6c10f291a049f6fc6328aaf11f67e51a70c473d7a5a4cab4b1b7f84842bd6cf",
+      "physical_line_count": 120,
+      "control_sha256": "57fbe1fce66a064d4a4a854e967e247c8e77da529fdc726ebf761f6b0a10796b"
+    },
+    "vsn/f_GameOverAreaB/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/185",
+      "canonical_source_sha256": "22c719579cc15e11700dd312633134a7665a3ade307dfa8fdb9bc87b66d80ff0",
+      "r27_plaintext_sha256": "636077c7283a303824c408d2e59fce559721aa923ebc52adff8b22e01306d220",
+      "physical_line_count": 107,
+      "control_sha256": "3b2397e57a29677377d16d5aa24cf9930cccf53e2e0838496dc8737c85f728be"
+    },
+    "vsn/f_GameOverAreaC/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/191",
+      "canonical_source_sha256": "682a581be597f1e8ebab0a4c806e91954a77f447205088940e4e7aefb88cbf30",
+      "r27_plaintext_sha256": "08b77d10c14e02f6f4f2530f1a2c8bf850df9cfe1cb9a31df38d180bb84f198d",
+      "physical_line_count": 103,
+      "control_sha256": "d9df8af7dd5d66b3e8b8ee3738fd634e9401de88ab5c92824e7c3b2abd1b6622"
+    },
+    "vsn/f_GameOverAreaE/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/197",
+      "canonical_source_sha256": "f82aafd0a41bdd241c3acd41830c6fdb6688260a71aab784033612f2171060bb",
+      "r27_plaintext_sha256": "f1473d44f7914b0ce53282d411b70447665d9c0eaa21b33caffae1b5a371be31",
+      "physical_line_count": 18,
+      "control_sha256": "47913511628d473c2a6f47812bd9e61d9756e111242b37b4b8723072c46f681f"
+    },
+    "vsn/f_GameStart/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/203",
+      "canonical_source_sha256": "11a3464d17326cec77a18a7d047ac7cb98ee22286e0e8468a8131ba70dd7ef42",
+      "r27_plaintext_sha256": "3e16a0917502b3b238df0bd95bf1a56d8595e8524e906cb43ffac49a6e40dc11",
+      "physical_line_count": 126,
+      "control_sha256": "f86760407f4474bd814976789270484ffd809364aca882fbb3c9ff3ac46ab0a0"
+    },
+    "vsn/m_AgentM01/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/209",
+      "canonical_source_sha256": "b7aecc4ecf9693e537fb0601c39c5b2a602646de55fa6064bedeb2206242c7c5",
+      "r27_plaintext_sha256": "61557f6af72dfabef97b19168b0c7d134f0ba86c1f3a47d955b2eeaefbe98df4",
+      "physical_line_count": 73,
+      "control_sha256": "fc928da7edab0529262401af14c461f2078f7cb14219eb8ae9aee2ba6f631bd7"
+    },
+    "vsn/m_AgentM02/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/215",
+      "canonical_source_sha256": "48f30c9acb970e1fe9e6840b49c094c9ef34896787dfc0b29a8b89ca4ddc71dc",
+      "r27_plaintext_sha256": "75241677dafdff7b83a07dbd927747eb3e5f3b36ee2edc5fde0fae6551717bcc",
+      "physical_line_count": 80,
+      "control_sha256": "a7d0346858a14130f7e4e2a52ea8ccf3951ed55252ebdc0fde1dd3a5be12db40"
+    },
+    "vsn/m_AgentM03/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/221",
+      "canonical_source_sha256": "ba9584455433b4a24001ce0545dd4d5c3f661ede76d8ec75f8e28b729c463ceb",
+      "r27_plaintext_sha256": "af8aa3e0079536a233be4dabf646d7518edae98230474e323cd6f3b933a922fc",
+      "physical_line_count": 76,
+      "control_sha256": "7f747ca8028855c251f266a1e144b91b5db0acde1b8d74465970370d4c07fc69"
+    },
+    "vsn/m_AgentM04/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/227",
+      "canonical_source_sha256": "1f962bc8687b45d38cbd1442dc2931ce1b6e9d9bda336faa4d1edcc79e420ae9",
+      "r27_plaintext_sha256": "793810b58dc4725ec492510c554da31e7d00993c0b6760216efcc3fc77fe0238",
+      "physical_line_count": 92,
+      "control_sha256": "7b70c897cb0624d9b750b1a48c6fd295732e39f81bf8a6958d32d257925ae175"
+    },
+    "vsn/m_AgentM05/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/233",
+      "canonical_source_sha256": "d4681e1fc650758725a53d04afdd36f6464c70a09c081acd17a2be45faee2707",
+      "r27_plaintext_sha256": "dffe01b8a096403e5332c0aa79fe3bf987195a7fd651c34f41a40174f1b23d73",
+      "physical_line_count": 93,
+      "control_sha256": "2217e5eabcba65b9170a576b36e7e98c2aed3c7083b8e0f398d75b5f2009d043"
+    },
+    "vsn/m_AgentM06/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/239",
+      "canonical_source_sha256": "833c58cddb68da4b667eca18703f311ec692cad172b03950ff8aae8e42667780",
+      "r27_plaintext_sha256": "1eb90219c9ca88cded61b9d31dc4bd5975a860456ddf5bb6080f3ad2514ab87c",
+      "physical_line_count": 93,
+      "control_sha256": "a07323eb6a6dd172f1ab5aebc39db69a30cf684d645941629dff1da8077c66cf"
+    },
+    "vsn/m_AgentM07/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/245",
+      "canonical_source_sha256": "dd57c72ce5bbbfbcc3628d5292e1b164f821e94fee80064c75fa09a38dae96ae",
+      "r27_plaintext_sha256": "7b3abeeea9166a1b8a64eeaa2a211763a5f7669f1b61f423f0760ebb4f024081",
+      "physical_line_count": 77,
+      "control_sha256": "089f18dc312f15848438e528eb8c35c20e73131382c2b101aace9fde36f435fb"
+    },
+    "vsn/m_AgentM08/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/251",
+      "canonical_source_sha256": "da613c182df43fac842cbb0498f928404f02964b000e0765aad941f721a7cecd",
+      "r27_plaintext_sha256": "635630a811378e2bf0ea63c9ec77953612712671edeb271b715b19ccbfa2fc88",
+      "physical_line_count": 94,
+      "control_sha256": "8c395df9c0686613a60531f24a3892ccbd952d0fc6b31f58324a6d19fcee3303"
+    },
+    "vsn/m_AgentM0B/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/257",
+      "canonical_source_sha256": "6948ad4101a6f0b8e977e2f3d249108b98554c323932a4b37789b81970298a70",
+      "r27_plaintext_sha256": "7d22b78bcbac9ce29a61705485e9b1090c416d3bcce8b20626dd4dafe0b14298",
+      "physical_line_count": 54,
+      "control_sha256": "d584172e79507bfc82df7636b14723c625bf9cd61587f7e416a6ca10b55dfb99"
+    },
+    "vsn/m_AgentMZ1/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/263",
+      "canonical_source_sha256": "246575c9a22bd285f6c2d8ad2721ede9e17a074482435ff91dff16661f4148c9",
+      "r27_plaintext_sha256": "2c302d2f505d0073b1e2f8608cafb08d3165767396779db25358b5d930098613",
+      "physical_line_count": 58,
+      "control_sha256": "1bfc46dec59ceeebe0f10b3f321f67e4cc37a4927858ed5ff063d6ea77a654cc"
+    },
+    "vsn/m_AgentMZ2/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/269",
+      "canonical_source_sha256": "75cb4918fae0ff30ed65264911e52dc65b8c0d5b0f1240757ee42f48d9f6520d",
+      "r27_plaintext_sha256": "7eb8a2accafe14de470d9a5fdcad7f6bfc4a362d67aa949d40b63a7d3baf4925",
+      "physical_line_count": 48,
+      "control_sha256": "1dc18fc66bb00ef23ad1b87e783538fa585bdb3f834995f4abe5190c648524f5"
+    },
+    "vsn/m_AgentMZ3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/275",
+      "canonical_source_sha256": "8172d0ef45a3cbf79d3db7431e19f48266e5438ace8f7cb16f924f18e2dcb1d5",
+      "r27_plaintext_sha256": "32c7b4658a35e9f8c75d3a1d79a1199ebb79aadefd7eebcca3a626d5913674c8",
+      "physical_line_count": 47,
+      "control_sha256": "2e6cb6ce93029f7bcedb8d2521eebb095bdb083608b956527b8fd19266b00d44"
+    },
+    "vsn/m_AgentMZ4/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/281",
+      "canonical_source_sha256": "81e744bbd1079cd81576598261d491d983bb629142de1b93272d7da146503d6c",
+      "r27_plaintext_sha256": "1fd8ab0abfdae5bbf390670dc5a2b366fb3f82268b933f219513cd08442e1fd5",
+      "physical_line_count": 49,
+      "control_sha256": "2adc3aee8c5806d7a46096da448b86dc765ddfd2d69111e6e8587c506122cd20"
+    },
+    "vsn/m_AgentMZ5/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/287",
+      "canonical_source_sha256": "91e0e9d6751dc80f0a46e8702b100a3e35faba947ab219d5a9f56cdbef421aa4",
+      "r27_plaintext_sha256": "7f749466142336284bce8405fe2b07b129e9da81c9eca8465eb8cf7bc787da4e",
+      "physical_line_count": 45,
+      "control_sha256": "c8afdc2c91e9d2c6a219f03ce2bd06bab3e90830c5f914d7dcd49bcf1f7988dc"
+    },
+    "vsn/m_AgentMZ6/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/293",
+      "canonical_source_sha256": "69252b40147ab7a24ba36a4736d352a631e36a7894f7da3ab35434419711e82d",
+      "r27_plaintext_sha256": "268d99d0ffd32ff52969397607bb40b9e96f868c0cc4d2ff1c34778c55f17c83",
+      "physical_line_count": 51,
+      "control_sha256": "cc28f9a8a960506c139331824fb4ecd9a1648df4e80019ada64b4ae4ec5c4382"
+    },
+    "vsn/m_ClassicBigbold/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/299",
+      "canonical_source_sha256": "9be0235b421ca71a01278d5959459ac8489ec48684e86f1ff645f3ae8d19025f",
+      "r27_plaintext_sha256": "7ba77226d9aaa059d0d7b1d9e1a4143273f66dd6bc7eadce1057a7c1a56a981e",
+      "physical_line_count": 225,
+      "control_sha256": "47d402b81c1452045b4440e3b0dc38493ea9b0817db5fe499d08d7b4266c873c"
+    },
+    "vsn/m_ClassicBigboldV2/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/305",
+      "canonical_source_sha256": "b7036abd2f81660ca9c02eb8e7ab148eacb67d5e92abf05c1301d658f7958115",
+      "r27_plaintext_sha256": "386ee96420adb1389d13aedae108f99d6cb5c8eb6828c2c03ae7ebd3ad314088",
+      "physical_line_count": 254,
+      "control_sha256": "07e23afac85ddd8a0f2e5080213596ecbe7f3d669fb9f77ec8190f75b90bf286"
+    },
+    "vsn/m_ClassicBossRedbull/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/311",
+      "canonical_source_sha256": "39b33e833a253f07235cd336ef168863adfc749f94082c79d8c958a614d51e98",
+      "r27_plaintext_sha256": "fbc23b3b822ffc6eb9748f72de5ea58cdeb72fbd1d4a33fad50cc80c72e6cdc7",
+      "physical_line_count": 52,
+      "control_sha256": "fbc6139a85b102ce72590a836014f1ba5b088d4d9a1b0e02759feefadef81cd4"
+    },
+    "vsn/m_ClassicEnelye/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/317",
+      "canonical_source_sha256": "28b549c22b50eb578e4211521e52e85bc89bf091b75c82e6d52ae854c1f477ab",
+      "r27_plaintext_sha256": "770f5ca1e837611dd7159a71f2ad09b3a70c2e08238890233fc2f1c3c654926b",
+      "physical_line_count": 31,
+      "control_sha256": "1b6fee6a85ae0beb95c3a49227116e772b620196e18a8f8c83fcec5d0bbf47f9"
+    },
+    "vsn/m_ClassicPigobinV3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/323",
+      "canonical_source_sha256": "507a1034c21fb60d63b45055c7a1fd5e31593d8d4ecbacc398bc4b73dfe01763",
+      "r27_plaintext_sha256": "482061c24e9d6fb7a47a5b9dc6a14fc8513ff018dcf984947a902f3a515b6af0",
+      "physical_line_count": 40,
+      "control_sha256": "d6424fbad8d0d7766e2c67be108454912cb8e865944459060bc307ff6fd06426"
+    },
+    "vsn/m_ClassicSqueakerBoss/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/329",
+      "canonical_source_sha256": "21645f1219dc510e550cadc33679ec16bfdc934df3c936bd79b815f3c0d066f0",
+      "r27_plaintext_sha256": "98c690e915f02479b0465d28cdb742ea7749c1fd8ac1e3ec323617de94a438a7",
+      "physical_line_count": 24,
+      "control_sha256": "d0fa47ea4e0e2698fe7d0e7171a2b1a15f4cc7f45f500c37cb8d8ad3d1ad3ae4"
+    },
+    "vsn/m_ClassicStarkillV3/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/335",
+      "canonical_source_sha256": "6e099226f9924e5387f1bc5f2f9dfcf0a95045a23ed241f55716ecdaadbc95ce",
+      "r27_plaintext_sha256": "aeaf6bb96cf78281d46f9fcda638a0dae85d6588718ae829541b7c2cdc623471",
+      "physical_line_count": 38,
+      "control_sha256": "4f7ed0e0ca53d0aace9c73a1ae1fc7b6516ec09125322d255afe9af906bbbfc6"
+    },
+    "vsn/m_ClassicWerehund/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/341",
+      "canonical_source_sha256": "84107b94199ab6ae3dfef734025c84a05f7418b80b83b5514a7aa8683da0eda2",
+      "r27_plaintext_sha256": "45177c588565de5bfa8bdeca0acf9afe145ffdc8b4ef21d81b792dbced0122d5",
+      "physical_line_count": 186,
+      "control_sha256": "2438ba1cb95154ea5fe4c32020c762b3ae60e368633dcc766fe5b06fc440457f"
+    },
+    "vsn/m_ClassicWerepup/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/347",
+      "canonical_source_sha256": "4f192932288d9d92c91595133e95647ed9271093e79f47123120ade8b17614da",
+      "r27_plaintext_sha256": "86042673cc36c45cf3487eee11a617282d2ee79921a354921bd5ca48259fb1da",
+      "physical_line_count": 194,
+      "control_sha256": "051b30093e277c8ef17a014b4976bd545caf062c1edbcea997e73b42a04d8925"
+    },
+    "vsn/m_EndingBad/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/353",
+      "canonical_source_sha256": "7298168696a2dbc83313f21cdbe44466d3b9aea1fcc5edf2e7abac831e3ff795",
+      "r27_plaintext_sha256": "159a016a3dcad33ed4fb0b34949bf162fcbf490944e1a325539cc672122cb173",
+      "physical_line_count": 25,
+      "control_sha256": "ed37541e8410d354bc064526cea78308413cfb31a1283a677ad3fad7d8600bcd"
+    },
+    "vsn/m_EndingGood/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/359",
+      "canonical_source_sha256": "c5ca1505377714e88f9b63266ceda6fa99710bc80d69db44b1750d13287c7309",
+      "r27_plaintext_sha256": "9c0aaaacf954d404fff9a0d9ba5cecf566aff90e40f83c294a34d5c9ec9a6aab",
+      "physical_line_count": 65,
+      "control_sha256": "5e863cd0919a7ba832fbece40468a4e595523c9a7fea7895dbec97e7395e86fa"
+    },
+    "vsn/m_EndingIntoShmup/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/365",
+      "canonical_source_sha256": "2dac326179e20019a213f510ad6e8a65990ff032fa52dfe88015507d606c548f",
+      "r27_plaintext_sha256": "02ae1fb841671e9cd5a90e26750ebf6f538384dbf34823f5d484af74ff5ee80d",
+      "physical_line_count": 13,
+      "control_sha256": "6c2c162f987e4fe90a56f92b32de0f9a0ae7cc96451d45e3dbeb6e8dafb77471"
+    },
+    "vsn/m_GameOverArea0/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/371",
+      "canonical_source_sha256": "5fd4f585ee09efaaee8727219570fc98cff24b0adca4f48fc162a28ba335684c",
+      "r27_plaintext_sha256": "95db018dc54ddb907c65a68557893b9341462d877c91f49b9fea676f95457f2a",
+      "physical_line_count": 95,
+      "control_sha256": "e5595bd7384c1bfb8ce9ed3cfc16cdc88d12a8d816307b733ded6c854d858fb5"
+    },
+    "vsn/m_GameOverAreaA/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/377",
+      "canonical_source_sha256": "fcb1c4f6824f86c2676cc22aabad97631b15f7358203cfe0ac839575b9f368e8",
+      "r27_plaintext_sha256": "ed4c94947874c3196b86a372d46e1b783a947e813bae1c63dff4c483ef5b771d",
+      "physical_line_count": 121,
+      "control_sha256": "8cb8773d2b67c1949a3624e3bff48ce297a66bd2d42f6edb97a616af9aba67f7"
+    },
+    "vsn/m_GameOverAreaB/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/383",
+      "canonical_source_sha256": "a882533e6ead274a011a776dafa34c373456e9adf3641497129bffd23262f8e9",
+      "r27_plaintext_sha256": "a6b06b295513d47525be6b409401f839a411a99dc741e3b3db26ba6def76d4e8",
+      "physical_line_count": 108,
+      "control_sha256": "3539a01fab9b47adfbb7a269d73e0b184d95f91eac8f95e246d19cff42b23d5b"
+    },
+    "vsn/m_GameOverAreaC/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/389",
+      "canonical_source_sha256": "7c961fb7c04822004e212d30b125d4886a1f91044b13038fc116001d9dc0d7c6",
+      "r27_plaintext_sha256": "c1999a7ac1b15da37a40b4b34fdba9fa28b9f77d0857ae3e9f22553507106288",
+      "physical_line_count": 108,
+      "control_sha256": "91473e430b23816784ace5797f35b8522cef3224c548b0a3701a561c57e1fa77"
+    },
+    "vsn/m_GameOverAreaE/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/395",
+      "canonical_source_sha256": "48984a988d04b74ef7de5c943ae9e61b86019152460171fba89c61003d6274da",
+      "r27_plaintext_sha256": "ea81ad5c78ef7af68ae7f4f89bcf275a97d2da0a309fed58dd944e795c512e28",
+      "physical_line_count": 18,
+      "control_sha256": "fc1be843ef4d4af039b5db5d9a763016dc3596896b57a6c78061c0641ece78d4"
+    },
+    "vsn/m_GameStart/script.vsn": {
+      "archive": "patch.pak",
+      "archive_entry": "vsn/401",
+      "canonical_source_sha256": "78e99a122124f1eede83a3d0a2e36d2f54f5d0197400a541fafb41f7016505d9",
+      "r27_plaintext_sha256": "188a23038ec321f6237fe7cea5ff5106f4cb0e1ea698bc9a2fe7df254a6f900d",
+      "physical_line_count": 124,
+      "control_sha256": "f86760407f4474bd814976789270484ffd809364aca882fbb3c9ff3ac46ab0a0"
+    }
+  },
+  "tests": [
+    "/c/Windows/py.exe -3.12 -B -m unittest discover -s localization/tests -p test_vsn_joins.py -v",
+    "/c/Windows/py.exe -3.12 -B localization/optimization/r28/vsn/run_integration.py"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "api": {"module": "localization/tools/editorial_repairs.py", "entrypoint": "apply_entry"},
+  "registry": "localization/translations/character-names.json",
+  "ledger": "localization/translations/character-name-repairs.jsonl",
+  "manifest": "localization/editorial/r3-names/compiled/final-01/manifest.json",
+  "inventory": "localization/editorial/r3-names/engineering/inventory.json",
+  "compiler": "localization/editorial/r3-names/tools/compile_names.py",
+  "sync_tool": "localization/editorial/r3-names/tools/sync_radio_names.py",
+  "carrier_review": "localization/editorial/r3-names/review/engineering-01.json",
+  "required_data": [
+    "../../../translations/character-names.json",
+    "../../../translations/character-name-repairs.jsonl",
+    "../../../editorial/r3-names/compiled/final-01/manifest.json",
+    "../../../editorial/r3-names/compiled/final-01/bindings.json",
+    "../../../editorial/r3-names/engineering/inventory.json",
+    "../../../editorial/r3-names/tools/compile_names.py",
+    "../../../editorial/r3-names/tools/sync_radio_names.py",
+    "../../../editorial/r3-names/generated/radio-names.tsv",
+    "../../../editorial/r3-names/review/names-01.json",
+    "../../../editorial/r3-names/review/engineering-01.json",
+    "../../../editorial/r3-names/NAMING_RULES.md"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+ "batch": "batch-01",
+ "routes": {
+  "gemini": {
+   "findings": 18,
+   "coverage": 137,
+   "problems": [
+    "P01-007 width +36px on CAT:O102345c815895245984a",
+    "P01-016 width +27px on CAT:O16943a493b2a822eac75"
+   ],
+   "severity": {
+    "B": 16,
+    "C": 2
+   },
+   "categories": {
+    "term": 2,
+    "idiom": 3,
+    "relationship": 1,
+    "continuity": 1,
+    "format": 9,
+    "meaning": 1,
+    "voice": 1
+   },
+   "status": {
+    "proposal": 18
+   },
+   "rows_proposed": 18
+  },
+  "ds": {
+   "findings": 22,
+   "coverage": 137,
+   "problems": [
+    "P01-006 width +36px on CAT:O45c65d8356906bf52d1d",
+    "P01-015 width +27px on CAT:Oabd53fe8c10770b1d1d5",
+    "P01-021 width +60px on CAT:O199371b34daed6215054",
+    "P01-022 width +27px on CAT:O16943a493b2a822eac75"
+   ],
+   "severity": {
+    "B": 17,
+    "C": 5
+   },
+   "categories": {
+    "term": 7,
+    "idiom": 9,
+    "format": 4,
+    "voice": 2
+   },
+   "status": {
+    "proposal": 22
+   },
+   "rows_proposed": 22
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 32,
+  "rows_both_routes": 8,
+  "rows_identical_text": 4,
+  "rows_conflicting_text": 4,
+  "only_gemini": 10,
+  "only_ds": 14,
+  "conflicts": [
+   {
+    "row_id": "CAT:Odd9c1febae40a1891df4",
+    "scene_id": "SCd5c9663954abbdc8",
+    "current": "  * 我就按好价钱把它让给你！",
+    "gemini": "  * 这石头便宜点卖给你！",
+    "ds": "  * 我就按实惠价把它让给你！"
+   },
+   {
+    "row_id": "CAT:O102345c815895245984a",
+    "scene_id": "SCc92af4404f200165",
+    "current": "    Mauser: [哎呀，伊吠妮，那片区域那边怎么了？]",
+    "gemini": "    Mauser: [哎呀，伊吠妮，你怎么又跑回那片区域去了？]",
+    "ds": "    Mauser: [哎呀，伊吠妮，你回的那片区域怎么了？]"
+   },
+   {
+    "row_id": "CAT:Oabd53fe8c10770b1d1d5",
+    "scene_id": "SC6e55efe5652d83ff",
+    "current": "  The0: [哦嗨呀小家伙！是我啦，你友好的小黑客狗。这不，我就想来你这小小的OTP 密码加密频道里露个脸！]",
+    "gemini": "  The0: [哦嗨呀小家伙！是我啦，你友好的小黑客狗。这不，我就想来你这小小的OTP加密频道里露个脸！]",
+    "ds": "  The0: [哦嗨呀小家伙！是我啦，你友好的小黑客狗。这不，我就想来你这小小的一次性密码本加密频道里露个脸！]"
+   },
+   {
+    "row_id": "CAT:Oe31d0e581612b4958fcc",
+    "scene_id": "SCd66443a7f1b96258",
+    "current": "  The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]",
+    "gemini": "  The0: [总之，祝你黑客——我是说，狩猎快乐！]",
+    "ds": "  The0: [总之，祝你黑——我是说，狩猎愉快！]"
+   }
+  ]
+ }
+}

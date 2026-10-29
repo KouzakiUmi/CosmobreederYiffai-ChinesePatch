@@ -1,0 +1,134 @@
+[
+  {
+    "class": "PRG/iE.class",
+    "owner": "PRG/Li",
+    "method": "a",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lj.class",
+    "owner": "PRG/Li",
+    "method": "g",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lj.class",
+    "owner": "PRG/Li",
+    "method": "h",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lj.class",
+    "owner": "PRG/Li",
+    "method": "j",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "a",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "e",
+    "descriptor": "()I"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "f",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "g",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "h",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "i",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lk.class",
+    "owner": "PRG/Li",
+    "method": "j",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "a",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "e",
+    "descriptor": "()I"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "f",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "g",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "h",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "i",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Li.class",
+    "owner": "PRG/Li",
+    "method": "j",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lt.class",
+    "owner": "PRG/Li",
+    "method": "f",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lq.class",
+    "owner": "PRG/Li",
+    "method": "e",
+    "descriptor": "()I"
+  },
+  {
+    "class": "PRG/Lq.class",
+    "owner": "PRG/Li",
+    "method": "g",
+    "descriptor": "()Ljava/lang/String;"
+  },
+  {
+    "class": "PRG/Lq.class",
+    "owner": "PRG/Li",
+    "method": "i",
+    "descriptor": "()Ljava/lang/String;"
+  }
+]

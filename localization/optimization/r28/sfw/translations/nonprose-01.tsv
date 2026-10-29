@@ -1,0 +1,49 @@
+ds:f70a8b7118ad020e	...SXUXYGAX...	preserved	作弊口令，保留字母序列与原标点。
+ds:5db00e8c6fd3dcd2	[...ZZZK...SFFF... ...WRR...QQKRKRT... ...]	preserved	无线电刻意干扰噪声，保留原音节，不推断被遮蔽内容。
+ds:c24935072aca6841	[KKZZT! TR... SSSH CALI...ATE...]	preserved	无线电刻意干扰音节，原样保留，非可还原的完整英文句。
+ds:6eb2764d86b055b2	[...SSSSSSSS- ZZT!]	preserved	无线电噪声。
+ds:a4f92385f6f93840	[...EKSKHSKKS....]	preserved	无线电噪声。
+ds:6983c2aa381b5d2b	[...GZZZT.... RKKK... BZ...TTT...]	preserved	无线电噪声。
+ds:a10c4d4b384d3155	[...SKERHSSSS...]	preserved	无线电噪声。
+ds:6bba15174e5fe1c3	[KZZ...ME IN... TZ... ...EAD!...]	preserved	无线电被干扰的音节，保留源干扰，不拼回未听清的意思。
+ds:cf0234ded40397a3	[...KKKKK- ZZT!]	preserved	无线电噪声。
+ds:777226f0179930db	[@DerekChipReport]	preserved	运行时报告占位符，不改ID。
+ds:49c3da24e33ca821	[兄 弟 ……]
+ds:c845af0b1f2d5c28	[...SKERHSSSSSSS]	preserved	无线电噪声。
+ui:658fda4a729fabff	CRT	preserved	滤镜标准缩写。
+ui:8f2efd57fb7a6f54	芬芬
+ui:787ec76dcafd20c1	你好，世界	candidate	程序员经典HELLO WORLD梗，中文保留同一含义。
+ui:7a1584d03e9553b2	SCE-WEST	preserved	源存档地点短码，保留坐标身份，非叙事正文。
+ui:cb55de1917423f8f	大壮兽2
+ui:d7e10e9f8c6b7f01	DPB-EAST	preserved	源存档地点短码。
+ui:d653b016db1da8f5	R2	preserved	实体按键名。
+ui:18f5384d58bcb1bb	Y	preserved	实体按键名。
+ui:c534464c1cde5dfc	ZER-WEST	preserved	源存档地点短码。
+ui:095d20fbc2e00fb6	-----------	preserved	原禁用槽位装饰线。
+ui:305b64e2354cdefd	AYS-NORTH	preserved	源存档地点短码。
+ui:59691f5006da57a1	大壮兽1
+ui:7dd0415afca8dc25	SCE-EAST	preserved	源存档地点短码。
+ui:a791366f6f620125	R1	preserved	实体按键名。
+ui:842983de8fb1d277	L3	preserved	实体按键名。
+ui:bd64bb8efa5b3f27	----	preserved	原锁定槽位装饰线。
+ui:3c47f77ae2a44208	ZER-SOUTH	preserved	源存档地点短码。
+ui:d76354d845789844	L2	preserved	实体按键名。
+ui:ace3d0f2f21db252	ZER-EAST	preserved	源存档地点短码。
+ui:df7e70e5021544f4	B	preserved	实体按键名。
+ui:6b94857007d8333b	LECT	preserved	货币名称。
+ui:980dc7dd3a383fb0	AYS-WEST	preserved	源存档地点短码。
+ui:c556edfcce014439	HNG-RECV	preserved	源存档地点短码。
+ui:06ea5529273d6e6a	HARMARIST	preserved	作者署名。
+ui:559aead08264d579	A	preserved	实体按键名。
+ui:0726682a900992ab	500 LECT	preserved	货币奖励值与货币名。
+ui:fdb28b4e2efe4ad2	DPB-WEST	preserved	源存档地点短码。
+ui:3ee3173e34076493	SCE-SOUTH	preserved	源存档地点短码。
+ui:dffe8596427fc50e	L1	preserved	实体按键名。
+ui:021bbd75cf6530bd	R3	preserved	实体按键名。
+ui:08d1623c441b55a6	C4	preserved	炸药名称。
+ui:4b68ab3847feda7d	X	preserved	实体按键名。
+ui:ee7a425e7320f39e	POV	preserved	控制器方向帽标准缩写。
+ui:b8d31479d203f785	AYS-SOUTH	preserved	源存档地点短码。
+ui:540f6694c9ea54e5	DPB-NORTH	preserved	源存档地点短码。
+ui:6407c25e04e875dc	KITANESS      MR.SATURN	preserved	美术与音乐署名及原列间距。
+vsn:86e70b139da911d1	...............!!!	preserved	刻意长停顿与惊叹，保留源符号时序提示。

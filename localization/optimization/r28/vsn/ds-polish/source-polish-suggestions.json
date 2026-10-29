@@ -1,0 +1,250 @@
+[
+  {
+    "canonical_operation_id": "DSP-datadf-2582",
+    "source_en": [
+      "[REPORTS ALSO SAID THAT A FULLY FUNC- TIONAL REST AREA]",
+      "[WAS SET UP BY PREVIOUS AGENTS.]"
+    ],
+    "source_sha256": [
+      "d88c9e6fec031ef38b5aa6b7ceaa2e3f2e080bcb9f7c43d83d1d7b65274460f6",
+      "e33879e418bf22f373ba009c215a7949ef19cb239eb97271d3d51010a1af4c88"
+    ],
+    "canonical_header": "<Bossu.AreaH_map01_a noselect>",
+    "prefix": "  Bossu: ",
+    "old_zh_CN": "[报告还说，那儿有一个功-能完好的休息区，是由之前的特工们建起来的。]",
+    "candidate_zh_CN": "[报告还说，那儿有一个功能完好的休息区，是由之前的特工们建起来的。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadf-2866",
+    "source_en": [
+      "[IT SHOULD JUST AS IMPERVIOUS TO PHY- SICAL DAMAGE]"
+    ],
+    "source_sha256": [
+      "c9714c936659d6cf945ec531a68fbf7fa3e31b8ac38929688947efec733e10f6"
+    ],
+    "canonical_header": "<BossuDex.ClassicTentacle>",
+    "prefix": "  Bossu: ",
+    "old_zh_CN": "[它应该也一样对物-理伤害免疫]",
+    "candidate_zh_CN": "[它应该也一样对物理伤害免疫]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-2369",
+    "source_en": [
+      "[...THE KIT AND FU- LLY STOCKED SHIP I TOTALLY HAVE...]"
+    ],
+    "source_sha256": [
+      "766b2c7cb93b8286e233ce2ff3a277602404ba9535af84b620ca2e29d30694a2"
+    ],
+    "canonical_header": "<Mauser.AreaB_map11_a noselect>",
+    "prefix": "  Yiffai: ",
+    "old_zh_CN": "[……那套装备，还有我这艘补-给充足的船，我当然有……]",
+    "candidate_zh_CN": "[……那套装备，还有我这艘补给充足的船，我当然有……]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-2603",
+    "source_en": [
+      "[BUT REPORTS ALSO MENTION A FULLY FUN- CTIONAL REST AREA]",
+      "[WAS SET UP BY PREVIOUS AGENTS.]"
+    ],
+    "source_sha256": [
+      "37908b897c50fa9cdda852544b25f09a834d055e66d6506bca6e15938dd5b250",
+      "e33879e418bf22f373ba009c215a7949ef19cb239eb97271d3d51010a1af4c88"
+    ],
+    "canonical_header": "<Bossu.AreaH_map01_a noselect>",
+    "prefix": "  Bossu: ",
+    "old_zh_CN": "[不过报告里也提到有一个功能完-好的休息区，是由之前的特工们建起来的。]",
+    "candidate_zh_CN": "[不过报告里也提到有一个功能完好的休息区，是由之前的特工们建起来的。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-2640",
+    "source_en": [
+      "[OKAY PUP, SPILL IT. WHAT JUST HAP- PENED OVER THERE?]"
+    ],
+    "source_sha256": [
+      "8fb2d863049cbd4bc9ce4395f08af096952efe0852c2221fec7b7e5b72713ec5"
+    ],
+    "canonical_header": "<Tomcat.AreaX_fenfen_rescued noselect>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[好吧小家伙，说来听听。刚才那边发-生了什么事？]",
+    "candidate_zh_CN": "[好吧小家伙，说来听听。刚才那边发生了什么事？]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-2908",
+    "source_en": [
+      "[IT SHOULD JUST AS IMPERVIOUS TO PHY- SICAL DAMAGE]"
+    ],
+    "source_sha256": [
+      "c9714c936659d6cf945ec531a68fbf7fa3e31b8ac38929688947efec733e10f6"
+    ],
+    "canonical_header": "<BossuDex.ClassicTentacle>",
+    "prefix": "  Bossu: ",
+    "old_zh_CN": "[它应该也一样对物-理伤害免疫]",
+    "candidate_zh_CN": "[它应该也一样对物理伤害免疫]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-3790",
+    "source_en": [
+      "[HEY PUP, I'M MONIT- ORING YOUR VITALS FROM OVER HERE]"
+    ],
+    "source_sha256": [
+      "9181a0faac52fd8d392d5943363b0f4cad9a4abb367b64310129d5783e4b45f8"
+    ],
+    "canonical_header": "<Tomcat.TestA>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[嘿小狗，我在这边监-测你的生命体征]",
+    "candidate_zh_CN": "[嘿小狗，我在这边监测你的生命体征]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadf-1919",
+    "source_en": [
+      "With my novel algorithms - and the energy afforded by this site - I believe",
+      "I can hack into the simulation that drives our very reality..."
+    ],
+    "source_sha256": [
+      "dd35dbf36065de88ca9d4dbb4f6463335d7dc81e1a9c0fcd47425da401dde449",
+      "68d3ee1ff9a12ae3383aff7124fcbf9c354f2deb387eb8088167dd414cfec65d"
+    ],
+    "canonical_header": "<AreaX_Upgrade.Hack>",
+    "prefix": "  * ",
+    "old_zh_CN": "凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……",
+    "candidate_zh_CN": "凭我新颖的算法——以及此地供给的能量——我相信我能侵入驱动我们这个现实的模拟程序……",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-1930",
+    "source_en": [
+      "With my novel algorithms - and the energy afforded by this site - I believe",
+      "I can hack into the simulation that drives our very reality..."
+    ],
+    "source_sha256": [
+      "dd35dbf36065de88ca9d4dbb4f6463335d7dc81e1a9c0fcd47425da401dde449",
+      "68d3ee1ff9a12ae3383aff7124fcbf9c354f2deb387eb8088167dd414cfec65d"
+    ],
+    "canonical_header": "<AreaX_Upgrade.Hack>",
+    "prefix": "  * ",
+    "old_zh_CN": "凭我新颖的算法 - 以及此地供给的能量 - 我相信我能侵入驱动我们这个现实的模拟程序……",
+    "candidate_zh_CN": "凭我新颖的算法——以及此地供给的能量——我相信我能侵入驱动我们这个现实的模拟程序……",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4623",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapData01>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4637",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapDataB1>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4651",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapDataANorth>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4665",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapDataASouth>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4679",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapDataCEast>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4693",
+    "source_en": [
+      "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+      "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]"
+    ],
+    "source_sha256": [
+      "d3eb774980e8a4bb2b7dc0af1f1c0c1663db6a32c337286744a1c2a35d234dfd",
+      "f001a55069c6323fd78209e75fff7e460041d0ef36826347fa6b711b07fb209f"
+    ],
+    "canonical_header": "<TomcatItems.MapDataE>",
+    "prefix": "  Tomcat: ",
+    "old_zh_CN": "[其他特工已经绘制出你目- 前所处区域各个部分的地图，有时还带标注。]",
+    "candidate_zh_CN": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  },
+  {
+    "canonical_operation_id": "DSP-datadm-4789",
+    "source_en": [
+      "IT'S VITAL TO AVOID RUNNING",
+      "INTO THAT BIGBOLD. HE HURTS",
+      "MORE THAN ANY- THING ELSE THERE"
+    ],
+    "source_sha256": [
+      "aa0b1f87fdd2ecd62861fdb9f9104329c28ff51bd2af89e03310aded90945c5a",
+      "e6f63c181a8fb5e1b455fab7829ea244c9fe2583f014651e1fc8aca88023a15a",
+      "7483d22633fb139bc16401caae623d0e91d1bc6984da480c874956bc495d56e0"
+    ],
+    "canonical_header": "<DefeatHints.ClassicBigboldV2.debris>",
+    "prefix": "  Bossu: ",
+    "old_zh_CN": "关键是务必避免撞上那只大壮兽。它伤人比那里其他任何- 东西都更狠",
+    "candidate_zh_CN": "关键是务必避免撞上那只大壮兽。它造成的伤害比那里其他任何东西都大。",
+    "warning": "SFW独立来源/上下文/译文核验建议，不是SFW允许表或行号定位规则。"
+  }
+]

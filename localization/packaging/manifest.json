@@ -1,0 +1,67 @@
+{
+ "name": "Cosmobreeder Yiffai 简体中文补丁",
+ "game": "Cosmobreeder Yiffai (Steam)",
+ "version": "1.5",
+ "built": "2026-10-24",
+ "variants": {
+  "nsfw": {
+   "label": "NSFW 版（游戏里已装官方 patch.pak）",
+   "detect": {
+    "patch.pak": {
+     "sha256": "2f9da7d49ece8427c5ae733f725bec0fe6b0b49c18d0331c06857d1ff758b2fa"
+    }
+   },
+   "available": true,
+   "files": [
+    {
+     "path": "cosmobreeder-multi.jar",
+     "payload": "cosmobreeder-multi.jar",
+     "sha256": "eac55c126b00dd6d94b311e4e8293df2e6834cf21f307ae79d1d1e80bf67d259",
+     "size": 45508294,
+     "original": {
+      "sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "size": 44859941
+     }
+    },
+    {
+     "path": "patch.pak",
+     "payload": "patch.pak",
+     "sha256": "e6a0ce130f041f04179e7ef2aa123ab11e7cd248deb44650dbf720340e0eaf25",
+     "size": 13261404,
+     "original": {
+      "sha256": "2f9da7d49ece8427c5ae733f725bec0fe6b0b49c18d0331c06857d1ff758b2fa",
+      "size": 12523943
+     }
+    }
+   ]
+  },
+  "vanilla": {
+   "label": "本体版（游戏里没有 patch.pak）",
+   "detect": {
+    "patch.pak": {
+     "absent": true
+    }
+   },
+   "available": true,
+   "files": [
+    {
+     "path": "cosmobreeder-multi.jar",
+     "payload": "cosmobreeder-multi.jar",
+     "sha256": "eac55c126b00dd6d94b311e4e8293df2e6834cf21f307ae79d1d1e80bf67d259",
+     "size": 45508294,
+     "original": {
+      "sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "size": 44859941
+     }
+    }
+   ]
+  }
+ },
+ "notes": [
+  "官方本体和官方 NSFW 补丁都叫 patch.pak，安装器按文件在不在、哈希对不对自动选版本。",
+  "jar 里同时含两种版本需要的文本，装了 patch.pak 的走 pak，没装的走 jar。",
+  "只修改 cosmobreeder-multi.jar（以及 NSFW 版下的 patch.pak）。",
+  "安装前会把原版备份到游戏目录下的 _汉化补丁备份\\，卸载时还原。",
+  "不写注册表，不动存档。"
+ ]
+}

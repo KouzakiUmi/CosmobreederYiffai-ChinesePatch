@@ -38,7 +38,7 @@ public final class DialogueGrid {
         String[] paragraphs = finalText.split("<p>");
         for (String paragraph : paragraphs) {
             PixelLayout.Profile profile = new PixelLayout.Profile("dialogue-grid", "10px-v1",
-                new PixelLayout.Rect(0, 0, width, Double.MAX_VALUE), 16, PixelLayout.Insets.NONE);
+                new PixelLayout.Rect(0, 0, width, Double.MAX_VALUE), 16, PixelLayout.Insets.NONE, q);
             PixelLayout.Plan plan = PixelLayout.layout(paragraph, metrics, profile);
             if (plan.overflow) throw new IllegalArgumentException("Dialogue glyph cannot fit: " + plan.issues);
             List<String> lines = new ArrayList<String>();
@@ -67,44 +67,10 @@ public final class DialogueGrid {
         return Collections.unmodifiableList(pages);
     }
 
-    /** Opt-in for story12's 240px rows: ASCII still advances 8px, so a legal
-     * pixel row can exceed the unchanged q28 animation/draw grid. Reflow such
-     * rows only at PixelLayout's existing atomic-unit boundaries, then let the
-     * ORIGINAL formatter validate pixels and serialize pages. Legacy format()
-     * and all radio/Continue callers retain their exact previous contract. */
+    /** Compatibility entry point: both budgets now participate in ONE break selection. */
     public static List<Page> formatCapped(String finalText, PixelLayout.Metrics metrics,
                                           int q, int rows, double width) {
-        if (finalText == null || metrics == null) throw new NullPointerException("dialogue input");
-        if (q < 1 || rows < 1 || q > 1000 || rows > 100 || !(width > 0) || !Double.isFinite(width))
-            throw new IllegalArgumentException("Invalid dialogue grid");
-        StringBuilder reflowed = new StringBuilder();
-        boolean changed = false;
-        String[] paragraphs = finalText.split("<p>", -1);
-        for (int p = 0; p < paragraphs.length; p++) {
-            if (p != 0) reflowed.append("<p>");
-            String paragraph = paragraphs[p];
-            PixelLayout.Plan plan = PixelLayout.layout(paragraph, metrics, new PixelLayout.Profile(
-                "story12-utf16-cap", "12px-v1", new PixelLayout.Rect(0, 0, width, Double.MAX_VALUE),
-                16, PixelLayout.Insets.NONE));
-            for (int l = 0; l < plan.lines.size(); l++) {
-                if (l != 0) reflowed.append('\n');
-                PixelLayout.Line line = plan.lines.get(l);
-                String content = plain(paragraph.substring(line.display.start, line.display.end));
-                if (content.length() <= q) { reflowed.append(content); continue; }
-                changed = true;
-                int used = 0;
-                for (PixelLayout.Unit unit : line.units) {
-                    String atomic = plain(paragraph.substring(unit.display.start, unit.display.end));
-                    if (atomic.length() > q) throw new IllegalArgumentException("Atomic dialogue unit exceeds legacy UTF-16 row");
-                    if (used + atomic.length() > q) { reflowed.append('\n'); used = 0; }
-                    reflowed.append(atomic); used += atomic.length();
-                }
-            }
-        }
-        return format(changed ? reflowed.toString() : finalText, metrics, q, rows, width);
-    }
-    private static String plain(String text) {
-        return text.replace("\r", "").replace("\n", "").replace("\u2028", "").replace("\u2029", "");
+        return format(finalText, metrics, q, rows, width);
     }
 
     public static boolean hasHan(String text) {

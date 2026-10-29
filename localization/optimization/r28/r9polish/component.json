@@ -1,0 +1,43 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "batches": [
+    {
+      "batch": "batch-01",
+      "ledger": "localization/translations/editorial-r9-polish-repairs.jsonl",
+      "gate": "localization/editorial/r9-polish/batch-01/review/build-gate.json",
+      "decisions": "localization/editorial/r9-polish/batch-01/review/decisions.tsv",
+      "required_data": [
+        "../../../translations/editorial-r9-polish-repairs.jsonl",
+        "../../../editorial/r9-polish/batch-01/review/build-gate.json",
+        "../../../editorial/r9-polish/batch-01/review/decisions.tsv",
+        "../../../editorial/r9-polish/tools/verify_round.py"
+      ]
+    },
+    {
+      "batch": "batch-03",
+      "ledger": "localization/translations/editorial-r9-batch-03-repairs.jsonl",
+      "gate": "localization/editorial/r9-polish/batch-03/review/build-gate.json",
+      "decisions": "localization/editorial/r9-polish/batch-03/review/decisions.tsv",
+      "required_data": [
+        "../../../translations/editorial-r9-batch-03-repairs.jsonl",
+        "../../../editorial/r9-polish/batch-03/review/build-gate.json",
+        "../../../editorial/r9-polish/batch-03/review/decisions.tsv"
+      ]
+    },
+    {
+      "batch": "batch-02",
+      "ledger": "localization/translations/editorial-r9-batch-02-repairs.jsonl",
+      "gate": "localization/editorial/r9-polish/batch-02/review/build-gate.json",
+      "decisions": "localization/editorial/r9-polish/batch-02/review/decisions.tsv",
+      "required_data": [
+        "../../../translations/editorial-r9-batch-02-repairs.jsonl",
+        "../../../editorial/r9-polish/batch-02/review/build-gate.json",
+        "../../../editorial/r9-polish/batch-02/review/decisions.tsv"
+      ]
+    }
+  ],
+  "required_chars": []
+}

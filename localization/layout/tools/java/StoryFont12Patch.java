@@ -8,15 +8,18 @@ import jdk.internal.org.objectweb.asm.tree.*;
  * unified builder. Then EXPAND_FRAMES -> all-target preflight -> apply ->
  * COMPUTE_FRAMES | MAXS. BridgePatch's additive Yg accessor is compatible.
  * No Id/SN/global default method is patched, only two exact story consumers.
+ * This apply() accepts RAW ORIGINAL/r21 targets, never already-patched r27.
+ * An r27 incremental upgrade replaces the StoryFont12 helper classes and adds
+ * PatternSymbols.class only; it must NOT re-run this ASM pass.
  */
 public final class StoryFont12Patch implements Opcodes {
     public static final Map<String,String> INPUT_SHA256;
-    public static final String[] HELPER_INVENTORY = {"PRG/StoryFont12.class", "PRG/StoryFont12$Font.class", "PRG/StoryFont12$Metrics.class"};
+    public static final String[] HELPER_INVENTORY = {"PRG/StoryFont12.class", "PRG/StoryFont12$Font.class", "PRG/StoryFont12$Metrics.class", "PRG/PatternSymbols.class"};
     public static final String[] ASSET_INVENTORY = {"story12.fnt", "story12/story12.manifest.json", "story12/story12.coverage.json",
         "story12/OFL.txt", "story12/NOTICE.txt", "story12/LICENSES/ark-pixel/OFL.txt", "story12/LICENSES/cubic-11/OFL.txt", "story12/LICENSES/galmuri/LICENSE.txt"};
     public static final String SHARED_PNG_SOURCE = "localization/runtime/story12/bbc2-shared-story12.png";
     public static final String FONT_SHA256 = "972d49918484e3e5521a7da58dbe94f6c6c604e4f486844b75f5b3be87fa2546";
-    public static final String PNG_SHA256 = "9ebe032708a9d141f1ea8a46497e25f10d26b17a0a8f6522a915f04ce4c354c4";
+    public static final String PNG_SHA256 = "486935a160007265569428c871ce3f949fd1b3a1d68f3690ea7f6572276540bd";
     private static final String HELPER = "PRG/StoryFont12";
     private static final String BOOLEAN_DRAW = "(LPRG/SN;ZLjava/lang/String;II)V";
     private static final String REPLACEMENT = "(LPRG/Id;LPRG/SN;ZLjava/lang/String;IILjava/lang/String;)V";

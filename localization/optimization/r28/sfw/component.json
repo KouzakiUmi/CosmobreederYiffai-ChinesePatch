@@ -1,0 +1,61 @@
+{
+  "schema": "r28-sfw-component/v1",
+  "component": "SFW derived localization candidates",
+  "variant": "sfw",
+  "input_archive": {
+    "path": "backup/cosmobreeder-multi.jar",
+    "archive_name": "cosmobreeder-multi.jar",
+    "sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+    "meaning": "original source JAR, NOT already translated r27; no PAK fallback"
+  },
+  "overlay_target": {
+    "baseline": "frozen r27-story12-shaderfix-test5",
+    "archive_sha256_before_overlay": "dc6b0cedc3a3b2f6f51941a2cef449d33ec87d314ee64ea63495c3ffdebd06be",
+    "encryption_and_archive_writes": "external main builder only; this component writes nothing"
+  },
+  "api": {
+    "module": "localization/tools/sfw_localization.py",
+    "entry": "build_replacements",
+    "signature": "build_replacements(original_jar_path, *, glyphs=None, allow_pattern_candidates=False) -> (dict[str, bytes], dict)",
+    "dict_key": "original JAR archive entry e.g. datadf/1, datadm/1, datav/1, vsn/<slot>",
+    "dict_value": "DECRYPTED UTF-8 plaintext bytes, not encrypted archive payload",
+    "canonical_joins": "already calls existing dialogue_sfw.rewrite_sfw with canonical joins then overlays only unconsumed JAR source identities; preserves 834 applied / 122 skipped",
+    "sfw_ds_polish": "16 independent SFW source-ID/applied-canonical-join/exact-old-Chinese guarded corrections run after DS joins and candidate overlays; enable_ds_polish defaults True",
+    "sfw_vsn_joins": "19 source/context-reviewed SFW-only ordinary text joins run inside the same API; 19 fewer source manual text commands, original line count/EOLs and non-text command sequence retained; no auto/lang joins",
+    "do_not": "do not rerun dialogue_sfw on returned DS (would clobber corrected candidates and DS polish); do not pass a PAK or translated JAR",
+    "lower_level": "rebuild_candidate_entries(source_jar, data_dir, *, canonical_join_records=None, glyphs=None, allow_pattern_candidates=False, enable_ds_polish=True)",
+    "pattern_default": "False: all Fox/HardFox commands remain original source bodies. True: Chinese candidate bodies emitted with original roles. Final integration uses original jo readability gate plus deterministic legal-dingbats mapping of the current mask. Runtime PatternSymbols does not read sourceEng; original source identity and symbol_source remain in this ledger for provenance.",
+    "glyph_gate": "glyphs is optional for repertoire discovery but release caller must pass/verify full final default/classic/story glyph repertoire; required_chars.json is not proof of font availability",
+    "ending_gate": "All 60 ui.end.* fields remain present; every nonempty field must fit original 32 UTF-16 cells / classic8 256px. Only ui.end.cr6 source-ID-pinned cosmetic padding changes left/right4 to left/right3 spaces; full FMOD STUDIO and FIRELIGHT attribution retained. Actual final-01 FNT advances checked in ending-field-layout.json; 37 tests pass."
+  },
+  "required_data": [
+    "source-manifest.json",
+    "ledger-ds.jsonl",
+    "ledger-vsn.jsonl",
+    "ledger-ui.jsonl",
+    "vsn-joins.jsonl",
+    "ds-polish.jsonl",
+    "required_chars.json"
+  ],
+  "required_chars": {
+    "file": "localization/optimization/r28/sfw/required_chars.json",
+    "field": "characters",
+    "codepoint_field": "codepoints",
+    "scope": "all candidate strings, 19 SFW VSN merged translations and 16 DS polish replacements, entire body including final characters and Chinese Fox/HardFox alternatives; parent extends fonts, no FNT mutation here"
+  },
+  "order": [
+    "Read frozen original source JAR and verify full SHA/index/stored-entry/plaintext identities against source-manifest.json",
+    "Call build_replacements(original_jar_path, allow_pattern_candidates=<compatibility_ready>); 834 exact-source canonical DS joins run inside API, then unconsumed own-source overlays and 16 guarded DS polish corrections",
+    "Use returned plaintext mapping as JAR-only overlay; preserve PAK separate identity",
+    "19 SFW-specific VSN ordinary text joins already run inside API after individual translations; do not reapply canonical PAK joins. All 19 have own original JAR source/context identities; 281 changed/absent canonical suggestions are not applied",
+    "When enabling Chinese Fox/HardFox, downstream retains original jo readability gate and deterministically maps the current mask to legal dingbats glyphs. Runtime PatternSymbols does not read original English; source identity remains in the ledger",
+    "Union required_chars with other components and canonical merged DS required characters; build final licensed fonts and verify every final character/glyph route",
+    "Encrypt returned plaintext by existing builder; mutate only new target artifacts, not original archives"
+  ],
+  "test_cli": "PYTHONIOENCODING=utf-8 /c/Windows/py.exe -3.12 -B -m unittest discover -s localization/tests -p test_sfw_localization.py -v",
+  "rebuild_data_cli": [
+    "PYTHONIOENCODING=utf-8 /c/Windows/py.exe -3.12 -B localization/optimization/r28/sfw/compile_batches.py",
+    "PYTHONIOENCODING=utf-8 /c/Windows/py.exe -3.12 -B localization/optimization/r28/sfw/build_data.py"
+  ],
+  "status": "Chinese agent-reviewed candidates, human_approved=false; no unresolved needs_review records. Four intentionally corrupted broadcasts are source-preserved Latin fragments, not counted as complete Chinese. No game/runtime acceptance is claimed."
+}

@@ -1,0 +1,148 @@
+{
+  "schema": "cosmo-editorial-r5-candidate-review/v1",
+  "status": "PASS_STATIC_AND_CPU_NOT_REAL_MACHINE",
+  "candidate": "localization/builds/r5-creative-candidate10",
+  "archives_sha256": {
+    "cosmobreeder-multi.jar": "d55f2ef88a6404aeca9c389f09e556f67f19cbee76ca5cb8edd090a2b8f70975",
+    "patch.pak": "89d98ad8d3a7fd71138a611f6565a97bc0e53de05fa060a19f90ead2e9c4027f"
+  },
+  "build_manifest_sha256": "d1dd5c0610b20bb7bc970a7de9b5547df62c39aae601bcab7837dd115962bf30",
+  "tests_results_sha256": "553ba3d9adbcc96fb4569d6dd0808c3a0e66cd7c44190e0e9ca244d46d4d2129",
+  "ledger_sha256": "616cc70f38488ed81ab1c0535a90a0496f30c9510b2e3815d742395c58ece5e3",
+  "checks": [
+    {
+      "name": "build.status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.full_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.r5_selected",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.archive_pins",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "build.r5_report",
+      "passed": true,
+      "detail": 16
+    },
+    {
+      "name": "r5.new_present",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "r5.old_removed",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "r5.names_kept",
+      "passed": true,
+      "detail": {
+        "violations": []
+      }
+    },
+    {
+      "name": "diff.cosmobreeder-multi.jar.entry_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.patch.pak.entry_set",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "diff.text_resources",
+      "passed": true,
+      "detail": [
+        [
+          "cosmobreeder-multi.jar",
+          "datadf/1"
+        ],
+        [
+          "cosmobreeder-multi.jar",
+          "datadm/1"
+        ],
+        [
+          "patch.pak",
+          "datadf/1"
+        ],
+        [
+          "patch.pak",
+          "datadm/1"
+        ],
+        [
+          "patch.pak",
+          "vsn/41"
+        ]
+      ]
+    },
+    {
+      "name": "diff.only_font_side",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "name": "r4.values_kept",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tests.status",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tests.steps",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "name": "tests.binding",
+      "passed": true,
+      "detail": null
+    }
+  ],
+  "changed_entries": [
+    [
+      "cosmobreeder-multi.jar",
+      "datadf/1"
+    ],
+    [
+      "cosmobreeder-multi.jar",
+      "datadm/1"
+    ],
+    [
+      "patch.pak",
+      "datadf/1"
+    ],
+    [
+      "patch.pak",
+      "datadm/1"
+    ],
+    [
+      "patch.pak",
+      "vsn/41"
+    ]
+  ],
+  "installed": false,
+  "game_started": false,
+  "user_save_accessed": false,
+  "real_clip_CRT_input_verified": false,
+  "limitations": [
+    "CPU 与静态复核；未安装、未启动游戏、未访问存档",
+    "未做真实 GPU/CRT/输入与全场景层次验收",
+    "整行子串口径的 R2/R3 计数仅作同口径对照，不作保留证据；专名保持以逐条断言核验"
+  ]
+}

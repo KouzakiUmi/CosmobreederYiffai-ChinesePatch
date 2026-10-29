@@ -1,0 +1,371 @@
+{
+  "field_count": 60,
+  "nonempty_fields": 29,
+  "maximum_columns": 32,
+  "maximum_width_px": 256,
+  "fields": [
+    {
+      "key": "ui.end.BadEnding.l0",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l1",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l2",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l3",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l4",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.BadEnding.l6",
+      "text": "                     特蕾还   ",
+      "columns": 27,
+      "width_px": 216
+    },
+    {
+      "key": "ui.end.BadEnding.l7",
+      "text": "                     在外面  ",
+      "columns": 26,
+      "width_px": 208
+    },
+    {
+      "key": "ui.end.BadEnding.l8",
+      "text": "                     那里……   ",
+      "columns": 28,
+      "width_px": 224
+    },
+    {
+      "key": "ui.end.BadEnding.l9",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l0",
+      "text": "                    评级",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier1.l1",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l2",
+      "text": "*!                  见习",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier1.l3",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l4",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l6",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier1.l7",
+      "text": "*!                  不错的尝试！",
+      "columns": 26,
+      "width_px": 208
+    },
+    {
+      "key": "ui.end.Tier1.l8",
+      "text": "                    对新手来说",
+      "columns": 25,
+      "width_px": 200
+    },
+    {
+      "key": "ui.end.Tier1.l9",
+      "text": "                     还不错！",
+      "columns": 25,
+      "width_px": 200
+    },
+    {
+      "key": "ui.end.Tier2.l0",
+      "text": "                    评级",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier2.l1",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier2.l2",
+      "text": "*!                  列兵",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier2.l3",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier2.l4",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier2.l5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier2.l6",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier2.l7",
+      "text": "*!                  干得漂亮 !",
+      "columns": 26,
+      "width_px": 208
+    },
+    {
+      "key": "ui.end.Tier2.l8",
+      "text": "                    但你能",
+      "columns": 23,
+      "width_px": 184
+    },
+    {
+      "key": "ui.end.Tier2.l9",
+      "text": "                     跑得更快吗？",
+      "columns": 27,
+      "width_px": 216
+    },
+    {
+      "key": "ui.end.Tier3.l0",
+      "text": "                    评级",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier3.l1",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier3.l2",
+      "text": "*!                  高手",
+      "columns": 22,
+      "width_px": 176
+    },
+    {
+      "key": "ui.end.Tier3.l3",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier3.l4",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier3.l5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier3.l6",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier3.l7",
+      "text": "*!                  哇！神速！",
+      "columns": 25,
+      "width_px": 200
+    },
+    {
+      "key": "ui.end.Tier3.l8",
+      "text": "                      你就是",
+      "columns": 25,
+      "width_px": 200
+    },
+    {
+      "key": "ui.end.Tier3.l9",
+      "text": "                     天生的高手！ !",
+      "columns": 29,
+      "width_px": 232
+    },
+    {
+      "key": "ui.end.Tier4.l0",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier4.l1",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier4.l2",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier4.l3",
+      "text": "*!                         哇！！",
+      "columns": 30,
+      "width_px": 240
+    },
+    {
+      "key": "ui.end.Tier4.l4",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier4.l5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.Tier4.l6",
+      "text": "                         你是",
+      "columns": 27,
+      "width_px": 216
+    },
+    {
+      "key": "ui.end.Tier4.l7",
+      "text": "                          真正的",
+      "columns": 29,
+      "width_px": 232
+    },
+    {
+      "key": "ui.end.Tier4.l8",
+      "text": "*!                     宇宙-   ",
+      "columns": 29,
+      "width_px": 232
+    },
+    {
+      "key": "ui.end.Tier4.l9",
+      "text": "*!                      育种者！",
+      "columns": 28,
+      "width_px": 224
+    },
+    {
+      "key": "ui.end.cr0",
+      "text": "        设计与美术        ",
+      "columns": 21,
+      "width_px": 168
+    },
+    {
+      "key": "ui.end.cr1",
+      "text": "           HARMARIST            ",
+      "columns": 32,
+      "width_px": 256
+    },
+    {
+      "key": "ui.end.cr2",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.cr3",
+      "text": "    程序制作       音乐         ",
+      "columns": 26,
+      "width_px": 208
+    },
+    {
+      "key": "ui.end.cr4",
+      "text": "      KITANESS      MR.SATURN   ",
+      "columns": 32,
+      "width_px": 256
+    },
+    {
+      "key": "ui.end.cr5",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.cr6",
+      "text": "   FMOD STUDIO，由 FIRELIGHT 开发   ",
+      "columns": 32,
+      "width_px": 256
+    },
+    {
+      "key": "ui.end.cr7",
+      "text": "     科技私人有限公司。      ",
+      "columns": 20,
+      "width_px": 160
+    },
+    {
+      "key": "ui.end.cr8",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    },
+    {
+      "key": "ui.end.cr9",
+      "text": "",
+      "columns": 0,
+      "width_px": 0
+    }
+  ],
+  "font_source": "localization/optimization/r28/integration/tests/final-01/fonts/classic.fnt",
+  "font_sha256": "be7ab5c40a009cf8b72038fcb9da787b94bc271a5cfd7d8ac38f953157095f53",
+  "note": "Actual final-01 classic8 advances, all 60 fields; no glyph/width/column-limit relaxation."
+}

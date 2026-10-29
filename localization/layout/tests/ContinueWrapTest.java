@@ -17,6 +17,11 @@ public final class ContinueWrapTest {
         try(InputStream in=new FileInputStream(args[0])){metrics=DialogueWrap.readMetrics(in);}
         originalCallerEvidence();
         run(MAUSER,MAUSER);
+        // Keep these real-input fixtures long enough that the original .21s
+        // button press is a skip, not an already-finished page advance.
+        run(" 中"+MAUSER," 中"+MAUSER);
+        run("\n中文这"+MAUSER,"\n中文这"+MAUSER);
+        run("\n   中\n文"+MAUSER,"\n   中\n文"+MAUSER);
         // Actual merged DefeatHints.Generic.map (DJ8d38a565f016814174ef):
         // raw80px page2 starts with " NAVIGATE" and original amn loses the final '!'.
         String mapHint="要是需要找路，就从你的 P.A.W. 菜单里打开 NAVIGATE 子菜单！";
@@ -84,6 +89,7 @@ public final class ContinueWrapTest {
             eq(page.h().length(),expectedPages-pageIndex-1,"original remaining-page count");
             String grid=page.a().a();
             eq(grid.length(),36,"Continue retains original NY12 x Om3 serialization");
+            eq(grid,DialogueWrap.pages(replacement,12,80,metrics).get(pageIndex).grid,"actual Kk preserves exact authored indentation and hard-break rows");
             check(!grid.contains("-"),"no synthetic hyphen in final pages");
             for(int row=0;row<3;row++) {
                 String line=rtrim(grid.substring(row*12,(row+1)*12));
@@ -120,7 +126,7 @@ public final class ContinueWrapTest {
             eq(state.visited.visits,1,"no repeated visited effects during paging");
         }
         eq(finalSignals,1,"one terminal signal while consuming the original session");
-        eq(recovered.toString().replace(" ",""),replacement.toUpperCase().replace(" ",""),"complete final replacement conserved across all pages");
+        eq(recovered.toString().replace(" ",""),replacement.toUpperCase().replace(" ","").replace("\r","").replace("\n","").replace("\u2028","").replace("\u2029",""),"complete final replacement conserved across all pages; hard breaks are grid row boundaries");
     }
     static void draw(Kk controller,apr state,JQ.a page,double time,String expectedMask) {
         List<Draw> draws=new ArrayList<Draw>();

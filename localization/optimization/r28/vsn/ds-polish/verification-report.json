@@ -1,0 +1,194 @@
+{
+  "status": "passed",
+  "tests": 11,
+  "scope": "pure byte/source conservation and glyph coverage; no game or DS runtime draw claim",
+  "source_api_sha256": "6a1e832c7c07b7eedce928482013590cdcebca10445d6a96a72b15891a9a2282",
+  "component_manifest_sha256": "a7719fb7d2fbede4f4faa788e03f7772a0dc3ba51cca438e675fb1021ad4571a",
+  "canonical_joins_unchanged_sha256": "372b077c0f095a74f152e5144b19da3d23c751b35e49605c1f5083bbe9cd75b5",
+  "resources": [
+    {
+      "archive": "patch.pak",
+      "logical_path": "datadf/all.ds",
+      "input_sha256": "9c4fb0739c5442f1ea30ec6a69103670743edca4442b8c2c9c89c74ab191f58b",
+      "output_sha256": "930d586cedf960d8176bc95c122d4170b29d6022225e42c995be766dc8aab0d6",
+      "applied_revisions": 3,
+      "physical_line_count": 5373,
+      "removed_text_nodes": 0,
+      "control_or_timing_changes": 0,
+      "operations": [
+        "DSP-datadf-2582",
+        "DSP-datadf-2866",
+        "DSP-datadf-1919"
+      ],
+      "occurrence_mapping": [
+        {
+          "operation_id": "DSP-datadf-2582",
+          "output_line": 2582,
+          "canonical_join_id": "DJf14b9b53a18e23bd1137",
+          "source_occurrence_ids": [
+            "Of64067d7ce177b03c68c",
+            "O6a7004f574ca8a8c7a70"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadf-2866",
+          "output_line": 2866,
+          "canonical_join_id": null,
+          "source_occurrence_ids": [
+            "Od72b8bf1eaba1dc8db7a"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadf-1919",
+          "output_line": 1919,
+          "canonical_join_id": "DJ7f7267b7ea7caa916783",
+          "source_occurrence_ids": [
+            "Odb8b5f415c2c145670cb",
+            "Od7296f7f11e0489fae39"
+          ]
+        }
+      ]
+    },
+    {
+      "archive": "patch.pak",
+      "logical_path": "datadm/all.ds",
+      "input_sha256": "4be12b98723cdfffc3b97d83292479431130e58d75f7c3a45780fee53250266e",
+      "output_sha256": "22e5df5ce5138b543e868be03ed371cf1028d3b46039503852c95996946504fa",
+      "applied_revisions": 13,
+      "physical_line_count": 5386,
+      "removed_text_nodes": 0,
+      "control_or_timing_changes": 0,
+      "operations": [
+        "DSP-datadm-2369",
+        "DSP-datadm-2603",
+        "DSP-datadm-2640",
+        "DSP-datadm-2908",
+        "DSP-datadm-3790",
+        "DSP-datadm-1930",
+        "DSP-datadm-4623",
+        "DSP-datadm-4637",
+        "DSP-datadm-4651",
+        "DSP-datadm-4665",
+        "DSP-datadm-4679",
+        "DSP-datadm-4693",
+        "DSP-datadm-4789"
+      ],
+      "occurrence_mapping": [
+        {
+          "operation_id": "DSP-datadm-2369",
+          "output_line": 2369,
+          "canonical_join_id": null,
+          "source_occurrence_ids": [
+            "Ofe0b0d238dde37a0e6db"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-2603",
+          "output_line": 2603,
+          "canonical_join_id": "DJdad59fc383d05e537c51",
+          "source_occurrence_ids": [
+            "O5b61f5362b6a7db11704",
+            "O4a542d38c4675a0fee38"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-2640",
+          "output_line": 2640,
+          "canonical_join_id": null,
+          "source_occurrence_ids": [
+            "Obd03668649488988240f"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-2908",
+          "output_line": 2908,
+          "canonical_join_id": null,
+          "source_occurrence_ids": [
+            "O66f75236f0ade5bd8183"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-3790",
+          "output_line": 3790,
+          "canonical_join_id": null,
+          "source_occurrence_ids": [
+            "Of081f298ba8b6a930f0a"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-1930",
+          "output_line": 1930,
+          "canonical_join_id": "DJfe082b560c2b138e1f82",
+          "source_occurrence_ids": [
+            "O9763c249286493504ef9",
+            "O31191a90f652f1aebaed"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4623",
+          "output_line": 4623,
+          "canonical_join_id": "DJe5cb3387bc54527f5f8b",
+          "source_occurrence_ids": [
+            "O3a055acfd5d346f0e9f2",
+            "Odf2965e3307b9fb510d5"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4637",
+          "output_line": 4637,
+          "canonical_join_id": "DJbae2ae992d7aef2552a3",
+          "source_occurrence_ids": [
+            "Oecab7d50993a206b43f8",
+            "Oa438a039c93484a2c949"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4651",
+          "output_line": 4651,
+          "canonical_join_id": "DJ2ff87a88808c8382c733",
+          "source_occurrence_ids": [
+            "Oe1a9a5390dac8536f1ec",
+            "Ob9b70956a1c28ea7d861"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4665",
+          "output_line": 4665,
+          "canonical_join_id": "DJffeafff819af01bd9f18",
+          "source_occurrence_ids": [
+            "O227977e297c67f7068d8",
+            "O37e5cd1f049bd1b65c6b"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4679",
+          "output_line": 4679,
+          "canonical_join_id": "DJcba6822014d6658431ad",
+          "source_occurrence_ids": [
+            "O611135caa1a580b4718f",
+            "O33235f18cec498cb5afe"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4693",
+          "output_line": 4693,
+          "canonical_join_id": "DJ5c49bffb5e0cbd48251d",
+          "source_occurrence_ids": [
+            "O86e5a5b8aefbf6b5e067",
+            "O9791220ccb3dd4b8a56e"
+          ]
+        },
+        {
+          "operation_id": "DSP-datadm-4789",
+          "output_line": 4789,
+          "canonical_join_id": "DJ1bedc5ba12ec06cfaf3c",
+          "source_occurrence_ids": [
+            "Ob16cb0bd61ba17d01514",
+            "Oa99a241f44ababbb4c82",
+            "O4ef19d5f42b73df7f648"
+          ]
+        }
+      ]
+    }
+  ]
+}

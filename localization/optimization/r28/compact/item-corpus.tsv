@@ -1,0 +1,164 @@
+PAK	Bomb	炸弹	接触即|爆炸。
+PAK	CosmoBody	星装	制式配发|特工制服。
+PAK	CosmoHead	星盔	防太空|宇宙头盔。
+PAK	DoggyBody	牵绳	你不该|脱了牵绳！
+PAK	DoggyHead	项圈	就像幼犬身上|会看到的。
+PAK	ElfBody	精灵裙	又软又轻|如羽毛。
+PAK	ElfHead	头冠	女性化王冠|但感觉不错
+PAK	FakeDrumstick	油炸..？	捏住鼻子|就行了！
+PAK	FakeMeat	肉？	看着不错，但|闻起来像……
+PAK	FakeMilk	……牛奶？	奶油状、白色|还带酸味……！
+PAK	FakeTea	茶。但	它到底|有多老……？
+PAK	IceCola	冰可乐	还有什么比耍酷|更酷
+PAK	JudoBody	道服	已穿开，但|仍能穿
+PAK	JudoHead	头带	闻起来像|好斗的劲头
+PAK	Key	钥匙	但它能|打开什么？
+PAK	KoboBody	科博服	有点热，但|伪装得不错
+PAK	KoboHead	科博头	巨大的蜥蜴|头伪装！
+PAK	LuckyBodyNotUpgraded	酥麻	生出感觉|如此复杂
+PAK	LuckyHead	头巾	有阅历的|传承布料
+PAK	LuckyHeadNotUpgraded	旧布	该好好|洗一洗了！
+PAK	Pickaxe	镐	往上抛。|矮人的最爱
+PAK	PirateBody	夹克	虽脏，但|很合身
+PAK	PirateHead	三角帽	舒适且|容易穿戴
+PAK	PsyCoffee	咖啡	回复大量|精神力！
+PAK	PsyJuice	果汁	回复一些|精神力。
+PAK	PsySyrup	糖浆	回复少许|精神力。
+PAK	PsyTea	茶	回复许多|精神力。
+PAK	Rock	石头	能扔，但|几乎没用
+PAK	SpecialAnklet	脚环	贴墙时|可蹬墙跳
+PAK	SpecialBrace	超能护腕	按下+跳跃|超级滑行！
+PAK	SpecialBuckler	小圆盾	蹲下启用|能量护盾！
+PAK	SpecialCosmoID	宇宙ID	特工身份|与年龄证明。
+PAK	SpecialFap	水晶	
+PAK	SpecialGeiger	G+无线电	通讯，并|探测秘密！
+PAK	SpecialHookshot	钩爪	上+攻击，且|精神能力未开
+PAK	SpecialKeycard0	门卡0	可开启|至0级的门。
+PAK	SpecialKeycard1	门卡1	可开启|至1级的门。
+PAK	SpecialKeycard2	门卡2	可开启|至2级的门。
+PAK	SpecialKeycard3	门卡3	可开启|至3级的门。
+PAK	SpecialKeycard4	门卡4	可开启|至4级的门。
+PAK	SpecialLabel	标签	兽形尺寸的|货运标签。
+PAK	SpecialLeftmark	左印记	按住攻击|蓄力斩击！
+PAK	SpecialNecklace	翻译项链	能翻译|Fenfen的话。
+PAK	SpecialPowermark	力印记	启用超级|蓄力攻击！
+PAK	SpecialPsycards	精神卡	精神能力|得到强化！
+PAK	SpecialRadio	无线电	按 (选择)|进行通讯
+PAK	SpecialRightmark	右印记	按住攻击|蓄力斩击！
+PAK	SpecialShoes	鞋子	空中下+跳跃|俯冲踢！
+PAK	SpecialTorch	火把	照亮|最黑暗的房间。
+PAK	SpecialWhistle	哨子	伊法伊家族|的传家宝。
+PAK	SpecialZentaiSuit	宇宙服	制式配发|特工制服。
+PAK	StatCheese	奶酪	刺鼻，但|无法抗拒
+PAK	StatCherry	樱桃	双足飞龙爱|挤破这些！
+PAK	StatCream	热奶油	给予精力|好再造更多！ 
+PAK	StatFishtaco	鱼塔可	尝起来像|走了桃花运！
+PAK	StatFortune	福饼干	又软又腻|吠犬最爱！
+PAK	StatMelon	瓜	每个精灵都有|一对好货！
+PAK	StatNut	硬坚果	费点劲|但值得！
+PAK	StatOctopus	章鱼	扭动的新鲜|刺身……？
+PAK	StatPepper	辣椒	又大又辣|专给你的！
+PAK	StatPretzel	椒盐卷	硬结|培育而成
+PAK	StatSpirit	灵体	来自异世界|的灵体
+PAK	StatTadpole	蝌蚪	黏糊糊……却|很满足！
+PAK	Statcoin	属性币	吃下即可|提升属性！
+PAK	TazerAttuned	调谐	宇宙武器的|巅峰之作！
+PAK	TazerAttunedNotUpgraded	废品	没用。
+PAK	TazerCombat	战斗	一把历战|武器
+PAK	TazerKobo	科博爪	凶猛的多刃|砍杀器
+PAK	TazerPirate	海盗	最适合|割喉者！
+PAK	TazerRapier	强奸者	窄而优雅的|细剑~
+PAK	TazerTomahawk	战斧	Fenfen的|传统武器。
+PAK	TazerTrainee	见习	给童贞特工|用的武器。
+PAK	TazerTrainer	训练者	育种者的|最好伙伴。
+PAK	ThrowKnife	小刀	投出造成|高伤害。
+PAK	ThrownC4	C4	威力惊人|千万小心！！
+PAK	TribalBody	背心	边缘缀着|华丽珠子
+PAK	TribalHead	头饰	Fenfen神圣的|羽饰帽
+PAK	VitBone	骨头	回复少许|生命。
+PAK	VitDrumstick	鸡腿	回复一些|生命。
+PAK	VitHam	火腿	回复大量|生命
+PAK	VitMeat	肉	回复许多|生命。
+PAK	VitSkull	头骨	这东西|从哪来的？
+JAR	Bomb	BOMB	EXPLODES ON|CONTACT.
+JAR	CosmoBody	STARSUIT	STANDARD ISSUE|AGENT UNIFORM.
+JAR	CosmoHead	STARHELM	SPACE-PROOF|COSMO HELMET.
+JAR	DoggyBody	LEASH	YOU SHOULDN'T|BE OFF LEASH !
+JAR	DoggyHead	COLLAR	LIKE YOU'D SEE|ON A PUPPY.
+JAR	ElfBody	ELFDRESS	SOFT AND LIGHT|AS A FEATHER.
+JAR	ElfHead	TIARA	FEMININE CROWN|BUT FEELS NICE
+JAR	FakeDrumstick	FRIED..?	HOLD YOUR NOSE|AND IT'S OKAY!
+JAR	FakeMeat	MEAT?	LOOKS NICE BUT|SMELLS LIKE...
+JAR	FakeMilk	...MILK?	CREAMY, WHITE|AND TANGY...!
+JAR	FakeTea	TEA. BUT	HOW OLD IS IT|ANYWAYS...?
+JAR	IceCola	ICE COLA	WHAT'S COOLER |THAN BE'N COOL
+JAR	JudoBody	GI	BROKEN IN BUT|STILL WEARABLE
+JAR	JudoHead	HEADBAND	SMELLS LIKE A|FIGHTING GUSTO
+JAR	Key	KEY	BUT WHAT DOES|IT UNLOCK?
+JAR	KoboBody	KOBOSUIT	A BIT WARM BUT|DISGUISES GOOD
+JAR	KoboHead	KOBOHEAD	A GIANT LIZARD|HEAD DISGUISE!
+JAR	LuckyBodyNotUpgraded	TINGLE	GET A FEELING|SO COMPLICATED
+JAR	LuckyHead	BANDANA	AN EXPERIENCED|HERITAGE CLOTH
+JAR	LuckyHeadNotUpgraded	OLD RAG	COULD USE A|GOOD CLEANING!
+JAR	Pickaxe	PICKAXE	TOSS UPWARD. A|DWARF FAVORITE
+JAR	PirateBody	JACKET	DIRTY BUT HAS|A GOOD FIT
+JAR	PirateHead	TRICORN	COMFORTABLE &|EASY TO WEAR
+JAR	PsyCoffee	COFFEE	RECOVERS A|LOAD OF PSY!
+JAR	PsyJuice	JUICE	RECOVERS A|BIT OF PSY.
+JAR	PsySyrup	SYRUP	RECOVERS A|LITTLE PSY.
+JAR	PsyTea	TEA	RECOVERS A|LOT OF PSY.
+JAR	Rock	ROCK	THROWABLE BUT|ALMOST USELESS
+JAR	SpecialAnklet	ANKLET	WALLJUMP WHEN|AGAINST A WALL
+JAR	SpecialBrace	H. BRACE	DOWN+JUMP TO|HYPER SLIDE!
+JAR	SpecialBuckler	BUCKLER	CROUCH ENABLES|ENERGY SHIELD!
+JAR	SpecialCosmoID	COSMO ID	PROOF OF AGENT|STATUS & AGE.
+JAR	SpecialFap	CRYSTAL	
+JAR	SpecialGeiger	G+ RADIO	COMMUNICATE AND|DETECT SECRETS!
+JAR	SpecialHookshot	HOOKSHOT	UP+ATK WITHOUT|PSY ABILITY ON
+JAR	SpecialKeycard0	KEYCARD0	OPEN DOORS UP|TO LEVEL 0.
+JAR	SpecialKeycard1	KEYCARD1	OPEN DOORS UP|TO LEVEL 1.
+JAR	SpecialKeycard2	KEYCARD2	OPEN DOORS UP|TO LEVEL 2.
+JAR	SpecialKeycard3	KEYCARD3	OPEN DOORS UP|TO LEVEL 3.
+JAR	SpecialKeycard4	KEYCARD4	OPEN DOORS UP|TO LEVEL 4.
+JAR	SpecialLabel	LABEL	FERAL-SIZED|SHIPPING LABEL.
+JAR	SpecialLeftmark	LFT MARK	HOLD ATTACK TO|CHARGE SLASH!
+JAR	SpecialNecklace	FENFEN T	CAN TRANSLATE|FENFEN SPEECH.
+JAR	SpecialPowermark	PWR MARK	ENABLES SUPER|CHARGE ATTACKS!
+JAR	SpecialPsycards	PSYCARDS	PSY ABILITIES|POWERED UP!
+JAR	SpecialRadio	RADIO	PRESS (SELECT)|TO COMMUNICATE
+JAR	SpecialRightmark	RGT MARK	HOLD ATTACK TO|CHARGE SLASH!
+JAR	SpecialShoes	SHOES	DOWN+JUMP MID-|AIR DIVEKICKS!
+JAR	SpecialTorch	TORCH	LIGHTS UP THE|DARKEST ROOMS.
+JAR	SpecialWhistle	WHISTLE	YIFFAI FAMILY|HEIRLOOM.
+JAR	SpecialZentaiSuit	COSMOSUIT	STANDARD ISSUE|AGENT UNIFORM.
+JAR	StatCheese	CHEESE	PUNGENT BUT|IRRESISTIBLE
+JAR	StatCherry	CHERRY	JUICY & RIPE|STEMMED FRUIT
+JAR	StatCream	HOTCREAM	A LOVELY DRINK|FRESH & WARM
+JAR	StatFishtaco	FISHTACO	GRILLED FISH|IN A TORTILLA
+JAR	StatFortune	F COOKIE	A DELICIOUS|LITTLE TREAT!
+JAR	StatMelon	MELON	REFRESHING ON|A HOT DAY!
+JAR	StatNut	HARD NUT	REAL HARD|TO CRACK!
+JAR	StatOctopus	OCTOPUS	WIGGLING FRESH|SASHIMI...?
+JAR	StatPepper	PEPPER	BIG AND SPICY|BUT ADDICTIVE!
+JAR	StatPretzel	PRETZEL	TWISTED BREAD|BAKED FRESH
+JAR	StatSpirit	SPIRIT	A SPIRIT FROM|ANOTHER WORLD
+JAR	StatTadpole	TADPOLE	SLIMY... YET|SATISFYING!
+JAR	Statcoin	STATCOIN	CONSUME FOR |STAT INCREASE!
+JAR	TazerAttuned	ATTUNED	THE EPITOME OF|COSMO WEAPONS!
+JAR	TazerAttunedNotUpgraded	JUNK	USELESS.
+JAR	TazerCombat	COMBAT	A BATTLE WORN|WEAPON
+JAR	TazerKobo	KOBOCLAW	A FIERCE MULTI|BLADED SLASHER
+JAR	TazerPirate	PIRATE	PERFECT FOR|CUTTHROATS!
+JAR	TazerRapier	RAPIER	A NARROW AND|ELEGANT BLADE~
+JAR	TazerTomahawk	TOMAHAWK	A TRADITIONAL|FENFEN WEAPON.
+JAR	TazerTrainee	TRAINEE	A WEAPON FOR|NEW AGENTS.
+JAR	TazerTrainer	TRAINER	A BREEDER'S|BEST FRIEND.
+JAR	ThrowKnife	KNIFE	THROW TO DEAL|HIGH DAMAGE.
+JAR	ThrownC4	C4	AMAZING POWER|BE CAREFUL!!
+JAR	TribalBody	VEST	FRINGED WITH|ORNATE BEADS
+JAR	TribalHead	HEADRESS	FENFEN SACRED|FEATHERED HAT
+JAR	VitBone	BONE	RECOVERS A|LITTLE HEALTH.
+JAR	VitDrumstick	DRUMSTIK	RECOVERS A|BIT OF HEALTH.
+JAR	VitHam	HAM	RECOVERS A|LOAD OF HEALTH
+JAR	VitMeat	MEAT	RECOVERS A|LOT OF HEALTH.
+JAR	VitSkull	SKULL	WHERE DID THIS|COME FROM?

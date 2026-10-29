@@ -1,0 +1,13 @@
+{
+  "reviewed_candidate_edges": 421,
+  "reviewed_maximal_groups": 391,
+  "accepted_join_groups": 300,
+  "accepted_edges": 324,
+  "fully_accepted_review_groups": 295,
+  "partially_accepted_review_groups": 5,
+  "fully_retained_review_groups": 91,
+  "explicitly_retained_edges": 97,
+  "protected_lang_retained_edges": 72,
+  "four_untranslated_units": 4,
+  "automatic_delay_delta_seconds": 0
+}

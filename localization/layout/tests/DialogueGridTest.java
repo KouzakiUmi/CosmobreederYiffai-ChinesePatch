@@ -64,7 +64,8 @@ public final class DialogueGridTest {
         rejects(() -> DialogueGrid.format("中文", FONT, 0, 3, 150));
         rejects(() -> DialogueGrid.format("中文", FONT, 20, 3, Double.NaN));
         rejects(() -> DialogueGrid.format("中文", FONT, 20, 3, 5));
-        rejects(() -> DialogueGrid.format("ABCD", FONT, 2, 3, 150));
+        ok(DialogueGrid.format("ABCD", FONT, 2, 3, 150).get(0).lines.get(0).equals("AB"), "UTF-16 and pixels wrap together");
+        rejects(() -> DialogueGrid.format("……", FONT, 1, 3, 150));
         ok(DialogueGrid.hasHan(story), "Han detection"); ok(!DialogueGrid.hasHan("R18 27.850"), "non-Han detection");
         System.out.println("DIALOGUE_GRID_OK checks=" + checks);
     }

@@ -1,0 +1,374 @@
+{
+  "scope": "Independent complete candidate1 archive/FNT/class/pixel review plus candidate2 all-class/all-font-bundle byte and full decoded-atlas RGBA identity bridge; no game/JVM/install/save",
+  "checks": 9009,
+  "findings": [],
+  "archives": {
+    "cosmobreeder-multi.jar": {
+      "sha256": "b8ad97ee9a5d96f38b8e3753bc3252d723c68c4686acef875e10ce69325c63c3",
+      "roles": {
+        "default": {
+          "sha256": "a00549d74925fe647462f0f545417a725fe3673a90a20fe8d60eb2aed902cbfa",
+          "original_glyphs": 2409,
+          "added_glyphs": 31,
+          "total_glyphs": 2440,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "cosmobreeder-multi.jar",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        },
+        "classic": {
+          "sha256": "be7ab5c40a009cf8b72038fcb9da787b94bc271a5cfd7d8ac38f953157095f53",
+          "original_glyphs": 2504,
+          "added_glyphs": 31,
+          "total_glyphs": 2535,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "cosmobreeder-multi.jar",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        },
+        "story12": {
+          "sha256": "977bb36a550eb84a991e6080ea285d1da119d1445be5bfff62f3a14857005153",
+          "original_glyphs": 2409,
+          "added_glyphs": 31,
+          "total_glyphs": 2440,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "cosmobreeder-multi.jar",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        }
+      },
+      "licenses8": {
+        "boutique-bitmap-7x7/OFL.txt": {
+          "sha256": "ad588b5ce58a02179b806381339fd380e5110771f2fa91279af026fd3ab97002",
+          "bytes": 5463,
+          "exact_source": true
+        },
+        "galmuri/LICENSE.txt": {
+          "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+          "bytes": 4360,
+          "exact_source": true
+        },
+        "misaki/misaki.txt": {
+          "sha256": "82929cc3b34c79b6a67f21fe137c7bb165589c9e34ba1441611e493afd67dfca",
+          "bytes": 9016,
+          "exact_source": true
+        },
+        "miseki-bitmap/LICENSE.txt": {
+          "sha256": "e855b45b384d37c9a778119271bd9c32706e3f1f9f278de0ad47347606eea846",
+          "bytes": 4358,
+          "exact_source": true
+        }
+      },
+      "constant_fields": {
+        "DialogueWrap": {
+          "class_sha256": "463f223c48cc6652d46acf977366d76d042449b1443e8b762a4104a94d7ad04a",
+          "FONT_SHA256": "a00549d74925fe647462f0f545417a725fe3673a90a20fe8d60eb2aed902cbfa",
+          "actual_FNT_match": true,
+          "old_pin_absent": true
+        },
+        "StoryFont12": {
+          "class_sha256": "31b4eb831f2d8c6ec8e2cf996adf79f1a6c6eda1ee39f63aa529ba4aed99f0d5",
+          "FONT_SHA256": "977bb36a550eb84a991e6080ea285d1da119d1445be5bfff62f3a14857005153",
+          "actual_FNT_match": true,
+          "old_pin_absent": true
+        },
+        "EndingReportLayout": {
+          "class_sha256": "64b977f8ad40ede3749578b39f50c303ab1c66b7bc82d1bb7eee65e417419612",
+          "FONT_SHA256": "be7ab5c40a009cf8b72038fcb9da787b94bc271a5cfd7d8ac38f953157095f53",
+          "actual_FNT_match": true,
+          "old_pin_absent": true
+        },
+        "SubtitleLayout": {
+          "class_sha256": "cdcaa97fca91237866aa8e243d2ae43ab9d48b4ba898328af5d029eddb824137",
+          "FONT_SHA256": "a00549d74925fe647462f0f545417a725fe3673a90a20fe8d60eb2aed902cbfa",
+          "actual_FNT_match": true,
+          "old_pin_absent": true
+        }
+      },
+      "old_story12_unchanged_entries": 9,
+      "new_bundle_entries": [
+        "r28-font/LICENSES8/boutique-bitmap-7x7/OFL.txt",
+        "r28-font/LICENSES8/galmuri/LICENSE.txt",
+        "r28-font/LICENSES8/misaki/misaki.txt",
+        "r28-font/LICENSES8/miseki-bitmap/LICENSE.txt",
+        "r28-font/NOTICE.txt",
+        "r28-font/OFL8.txt",
+        "r28-font/bbc2.fnt",
+        "r28-font/bbc2.png",
+        "r28-font/classic.fnt",
+        "r28-font/classic.png",
+        "r28-font/manifest.json",
+        "r28-font/story12.fnt"
+      ],
+      "coverage": {
+        "records": 6146,
+        "scripts": 39,
+        "pattern_commands": 272,
+        "codepoints": 2114,
+        "missing": {
+          "default": [],
+          "classic": [],
+          "story12": []
+        },
+        "scope": "project static parse_resource, not JVM/reachability"
+      },
+      "runtime_targets": 52,
+      "atlas": {
+        "all_pixels_checks_pass": true,
+        "image_rows": 41,
+        "changed_pixels": 43485,
+        "outside_approved_changes": 0,
+        "font_art_masks_disjoint": true,
+        "old_glyph_rectangle_pixels_checked_including_crossfont_overlap": 736869,
+        "new_cell_pixels_source_checked": 9548,
+        "raw_RGBA_sha256": "47e6e699b4f22738eb54087bd2d09cff0e53158b8fd289affce6ebf8fb4d2ea7",
+        "dingbats_original": true
+      },
+      "candidate1_sha256": "1227621dcda2e9e76e43469bedf872e2d06ab2b73995282d5d2cf4fdc7f0bd42",
+      "inherited_candidate1_checks_by_byte_and_RGBA_identity": true
+    },
+    "patch.pak": {
+      "sha256": "10db525de973dc20a4c5f20b30bd989a0dcb1b0b08d80344b122bddeaa0cf245",
+      "roles": {
+        "default": {
+          "sha256": "a00549d74925fe647462f0f545417a725fe3673a90a20fe8d60eb2aed902cbfa",
+          "original_glyphs": 2409,
+          "added_glyphs": 31,
+          "total_glyphs": 2440,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "r27 JAR (original PAK root absent)",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        },
+        "classic": {
+          "sha256": "be7ab5c40a009cf8b72038fcb9da787b94bc271a5cfd7d8ac38f953157095f53",
+          "original_glyphs": 2504,
+          "added_glyphs": 31,
+          "total_glyphs": 2535,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "r27 JAR (original PAK root absent)",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        },
+        "story12": {
+          "sha256": "977bb36a550eb84a991e6080ea285d1da119d1445be5bfff62f3a14857005153",
+          "original_glyphs": 2409,
+          "added_glyphs": 31,
+          "total_glyphs": 2440,
+          "metadata_metrics_exact": true,
+          "baseline_metrics_source": "patch.pak",
+          "old_pixels_exact": true,
+          "new_raw_BDF_pixels_exact": true
+        }
+      },
+      "licenses8": {
+        "boutique-bitmap-7x7/OFL.txt": {
+          "sha256": "ad588b5ce58a02179b806381339fd380e5110771f2fa91279af026fd3ab97002",
+          "bytes": 5463,
+          "exact_source": true
+        },
+        "galmuri/LICENSE.txt": {
+          "sha256": "86a3ee9495f942f0243f18c103da9faca27adb88142613edb8bb852e56c892c1",
+          "bytes": 4360,
+          "exact_source": true
+        },
+        "misaki/misaki.txt": {
+          "sha256": "82929cc3b34c79b6a67f21fe137c7bb165589c9e34ba1441611e493afd67dfca",
+          "bytes": 9016,
+          "exact_source": true
+        },
+        "miseki-bitmap/LICENSE.txt": {
+          "sha256": "e855b45b384d37c9a778119271bd9c32706e3f1f9f278de0ad47347606eea846",
+          "bytes": 4358,
+          "exact_source": true
+        }
+      },
+      "constant_fields": {},
+      "old_story12_unchanged_entries": 9,
+      "new_bundle_entries": [
+        "r28-font/LICENSES8/boutique-bitmap-7x7/OFL.txt",
+        "r28-font/LICENSES8/galmuri/LICENSE.txt",
+        "r28-font/LICENSES8/misaki/misaki.txt",
+        "r28-font/LICENSES8/miseki-bitmap/LICENSE.txt",
+        "r28-font/NOTICE.txt",
+        "r28-font/OFL8.txt",
+        "r28-font/bbc2.fnt",
+        "r28-font/bbc2.png",
+        "r28-font/classic.fnt",
+        "r28-font/classic.png",
+        "r28-font/manifest.json",
+        "r28-font/story12.fnt"
+      ],
+      "coverage": {
+        "records": 7784,
+        "scripts": 67,
+        "pattern_commands": 272,
+        "codepoints": 2392,
+        "missing": {
+          "default": [],
+          "classic": [],
+          "story12": []
+        },
+        "scope": "project static parse_resource, not JVM/reachability"
+      },
+      "atlas": {
+        "all_pixels_checks_pass": true,
+        "image_rows": 38,
+        "changed_pixels": 36313,
+        "outside_approved_changes": 0,
+        "font_art_masks_disjoint": true,
+        "old_glyph_rectangle_pixels_checked_including_crossfont_overlap": 736869,
+        "new_cell_pixels_source_checked": 9548,
+        "raw_RGBA_sha256": "7bf058c1b41cfd3f1c4bf344ead2cc6998b23c56bf24b592d46c33952e138417",
+        "dingbats_original": true
+      },
+      "candidate1_sha256": "1f87194cf5a9bdcbac6eaf9dcc8bd5cd5454bb9cb5e8cc78a3df174feb2ac649",
+      "inherited_candidate1_checks_by_byte_and_RGBA_identity": true
+    }
+  },
+  "status": "PASS",
+  "candidate": "localization/builds/r28-full-opt-candidate2",
+  "producer_snapshot": {
+    "localization/tools/layout_fonts.py": "b59f2e67c14a376d5b2a97facfccf69dbd9afb2bff03c1311145fbe18f064280",
+    "localization/tools/build_story_font12.py": "5011d628b958b788251ac5070f9ed18234d4c65a6259af1d23610332f7cad4f1",
+    "localization/tools/build_item_font8.py": "9b0fecb96d0a14c0e61cb8c1284cbd7eae0ad9996549b21cc489c5dbc2f668f7"
+  },
+  "phase1": "complete",
+  "phase2": "complete",
+  "not_verified": [
+    "parent actual candidate JVM suite (separate evidence)",
+    "GPU/shader execution/parent clip/CRT/game screenshots",
+    "scene reachability/translation semantics"
+  ],
+  "candidate1_complete_review_checks": 1159,
+  "candidate2_identity_bridge": {
+    "cosmobreeder-multi.jar": {
+      "candidate1_sha256": "1227621dcda2e9e76e43469bedf872e2d06ab2b73995282d5d2cf4fdc7f0bd42",
+      "candidate2_sha256": "b8ad97ee9a5d96f38b8e3753bc3252d723c68c4686acef875e10ce69325c63c3",
+      "raw_changed_entries": [
+        "datadf/1",
+        "datadm/1",
+        "dataq/6",
+        "datav/1",
+        "vsn/101",
+        "vsn/107",
+        "vsn/11",
+        "vsn/113",
+        "vsn/119",
+        "vsn/125",
+        "vsn/131",
+        "vsn/137",
+        "vsn/143",
+        "vsn/149",
+        "vsn/155",
+        "vsn/161",
+        "vsn/167",
+        "vsn/17",
+        "vsn/173",
+        "vsn/179",
+        "vsn/185",
+        "vsn/191",
+        "vsn/197",
+        "vsn/203",
+        "vsn/209",
+        "vsn/215",
+        "vsn/221",
+        "vsn/227",
+        "vsn/23",
+        "vsn/233",
+        "vsn/29",
+        "vsn/35",
+        "vsn/41",
+        "vsn/47",
+        "vsn/5",
+        "vsn/53",
+        "vsn/59",
+        "vsn/65",
+        "vsn/71",
+        "vsn/77",
+        "vsn/83",
+        "vsn/89",
+        "vsn/95"
+      ],
+      "decoded_changed_entries": [
+        "datav/1"
+      ],
+      "font_bundle_byte_equal_entries": 25,
+      "class_byte_equal_entries": 7779,
+      "atlas_RGBA_equal": true,
+      "dictionary_changes": [
+        {
+          "key": "ui.end.cr6",
+          "before": "    FMOD STUDIO，由 FIRELIGHT 开发    ",
+          "after": "   FMOD STUDIO，由 FIRELIGHT 开发   ",
+          "old_utf16_units": 34,
+          "new_utf16_units": 32
+        }
+      ],
+      "actual_atlas_RGBA_sha256": "47e6e699b4f22738eb54087bd2d09cff0e53158b8fd289affce6ebf8fb4d2ea7",
+      "candidate1_unchanged_after_bridge": true,
+      "candidate2_unchanged_after_bridge": true
+    },
+    "patch.pak": {
+      "candidate1_sha256": "1f87194cf5a9bdcbac6eaf9dcc8bd5cd5454bb9cb5e8cc78a3df174feb2ac649",
+      "candidate2_sha256": "10db525de973dc20a4c5f20b30bd989a0dcb1b0b08d80344b122bddeaa0cf245",
+      "raw_changed_entries": [
+        "datadf/1",
+        "datadm/1",
+        "dataq/6",
+        "vsn/101",
+        "vsn/107",
+        "vsn/11",
+        "vsn/113",
+        "vsn/119",
+        "vsn/125",
+        "vsn/143",
+        "vsn/149",
+        "vsn/17",
+        "vsn/173",
+        "vsn/179",
+        "vsn/185",
+        "vsn/191",
+        "vsn/203",
+        "vsn/209",
+        "vsn/215",
+        "vsn/221",
+        "vsn/227",
+        "vsn/23",
+        "vsn/233",
+        "vsn/239",
+        "vsn/245",
+        "vsn/251",
+        "vsn/257",
+        "vsn/29",
+        "vsn/299",
+        "vsn/305",
+        "vsn/311",
+        "vsn/317",
+        "vsn/323",
+        "vsn/329",
+        "vsn/335",
+        "vsn/341",
+        "vsn/347",
+        "vsn/35",
+        "vsn/371",
+        "vsn/377",
+        "vsn/383",
+        "vsn/389",
+        "vsn/401",
+        "vsn/41",
+        "vsn/47",
+        "vsn/53",
+        "vsn/59"
+      ],
+      "decoded_changed_entries": [],
+      "font_bundle_byte_equal_entries": 24,
+      "class_byte_equal_entries": 0,
+      "atlas_RGBA_equal": true,
+      "actual_atlas_RGBA_sha256": "7bf058c1b41cfd3f1c4bf344ead2cc6998b23c56bf24b592d46c33952e138417",
+      "candidate1_unchanged_after_bridge": true,
+      "candidate2_unchanged_after_bridge": true
+    }
+  },
+  "baseline_review_candidate": "localization/builds/r28-full-opt-candidate1"
+}

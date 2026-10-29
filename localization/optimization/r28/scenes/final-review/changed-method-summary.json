@@ -1,0 +1,1271 @@
+[
+  {
+    "class": "PRG/amn",
+    "method": "a",
+    "descriptor": "(DZ)I",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/DialogueWrap.terminalText(LPRG/amr$e;Ljava/lang/String;)Ljava/lang/String;",
+        "baseline": "PRG/amr$e.c(Ljava/lang/String;)Ljava/lang/String;",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          6,
+          7
+        ],
+        "candidate_range": [
+          6,
+          7
+        ],
+        "baseline": [
+          "182:PRG/amr$e.c(Ljava/lang/String;)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "184:PRG/DialogueWrap.terminalText(LPRG/amr$e;Ljava/lang/String;)Ljava/lang/String; itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/LY",
+    "method": "b",
+    "descriptor": "(LPRG/SN;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.saveRow(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V",
+        "baseline": "PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V",
+        "inserted_aload_local": -1
+      },
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.saveLower(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V",
+        "baseline": "PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          75,
+          76
+        ],
+        "candidate_range": [
+          75,
+          76
+        ],
+        "baseline": [
+          "182:PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ],
+        "candidate": [
+          "184:PRG/CompactFields.saveRow(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          83,
+          84
+        ],
+        "candidate_range": [
+          83,
+          84
+        ],
+        "baseline": [
+          "182:PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ],
+        "candidate": [
+          "184:PRG/CompactFields.saveLower(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Mb",
+    "method": "b",
+    "descriptor": "(LPRG/SN;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.name(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V",
+        "baseline": "PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V",
+        "inserted_aload_local": -1
+      },
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.nameCursor(LPRG/SN;Ljava/lang/String;IIIILPRG/Mb;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IIII)V",
+        "inserted_aload_local": 0
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          27,
+          28
+        ],
+        "candidate_range": [
+          27,
+          28
+        ],
+        "baseline": [
+          "182:PRG/Id.a(LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ],
+        "candidate": [
+          "184:PRG/CompactFields.name(LPRG/Id;LPRG/SN;Ljava/lang/String;II)V itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          77,
+          78
+        ],
+        "candidate_range": [
+          77,
+          78
+        ],
+        "baseline": [
+          "153:96"
+        ],
+        "candidate": [
+          "153:97"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          80,
+          81
+        ],
+        "candidate_range": [
+          80,
+          81
+        ],
+        "baseline": [
+          "162:96"
+        ],
+        "candidate": [
+          "162:97"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          95,
+          96
+        ],
+        "candidate_range": [
+          95,
+          97
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IIII)V itf=true"
+        ],
+        "candidate": [
+          "25:0",
+          "184:PRG/CompactFields.nameCursor(LPRG/SN;Ljava/lang/String;IIIILPRG/Mb;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Mn",
+    "method": "b",
+    "descriptor": "(LPRG/SN;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.letter(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          13,
+          14
+        ],
+        "candidate_range": [
+          13,
+          14
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/CompactFields.letter(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Mn",
+    "method": "a",
+    "descriptor": "(LPRG/SN;LPRG/aab;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/CompactFields.selectedLetter(LPRG/SN;Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          46,
+          47
+        ],
+        "candidate_range": [
+          46,
+          47
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/CompactFields.selectedLetter(LPRG/SN;Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Le",
+    "method": "<init>",
+    "descriptor": "(LPRG/apr;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/ItemFont8.registerName(LPRG/Lg;LPRG/Le;)V",
+        "baseline": "PRG/ItemFont8.registerName(LPRG/Lg;)V",
+        "inserted_aload_local": 0
+      },
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/ItemFont8.registerDescription(LPRG/Lb;LPRG/Le;)V",
+        "baseline": "PRG/ItemFont8.registerDescription(LPRG/Lb;)V",
+        "inserted_aload_local": 0
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          228,
+          229
+        ],
+        "candidate_range": [
+          228,
+          230
+        ],
+        "baseline": [
+          "184:PRG/ItemFont8.registerName(LPRG/Lg;)V itf=false"
+        ],
+        "candidate": [
+          "25:0",
+          "184:PRG/ItemFont8.registerName(LPRG/Lg;LPRG/Le;)V itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          249,
+          250
+        ],
+        "candidate_range": [
+          250,
+          252
+        ],
+        "baseline": [
+          "184:PRG/ItemFont8.registerDescription(LPRG/Lb;)V itf=false"
+        ],
+        "candidate": [
+          "25:0",
+          "184:PRG/ItemFont8.registerDescription(LPRG/Lb;LPRG/Le;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Lb",
+    "method": "a",
+    "descriptor": "(F)V",
+    "changes": [
+      {
+        "kind": "clock_hook_only",
+        "added": [
+          "ALOAD 0",
+          "FLOAD 1",
+          "PRG/ItemFont8.update(LPRG/Lb;F)V"
+        ],
+        "original_return_preserved": true
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "insert",
+        "baseline_range": [
+          1,
+          1
+        ],
+        "candidate_range": [
+          1,
+          4
+        ],
+        "baseline": [],
+        "candidate": [
+          "25:0",
+          "23:1",
+          "184:PRG/ItemFont8.update(LPRG/Lb;F)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Lg",
+    "method": "a",
+    "descriptor": "(F)V",
+    "changes": [
+      {
+        "kind": "clock_hook_only",
+        "added": [
+          "ALOAD 0",
+          "FLOAD 1",
+          "PRG/ItemFont8.updateName(LPRG/Lg;F)V"
+        ],
+        "original_return_preserved": true
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "insert",
+        "baseline_range": [
+          1,
+          1
+        ],
+        "candidate_range": [
+          1,
+          4
+        ],
+        "baseline": [],
+        "candidate": [
+          "25:0",
+          "23:1",
+          "184:PRG/ItemFont8.updateName(LPRG/Lg;F)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Ew",
+    "method": "a",
+    "descriptor": "(LPRG/SN;Z)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.breedAffinity(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;ZLPRG/SN;)Ljava/lang/String;",
+        "baseline": "PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "inserted_aload_local": 1
+      },
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.breedNeeds(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;ZLPRG/SN;)Ljava/lang/String;",
+        "baseline": "PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "inserted_aload_local": 1
+      },
+      {
+        "kind": "call_replacement",
+        "count": 2,
+        "candidate": "PRG/SceneText.breedDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          172,
+          173
+        ],
+        "candidate_range": [
+          172,
+          173
+        ],
+        "baseline": [
+          "167:409"
+        ],
+        "candidate": [
+          "167:411"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          175,
+          176
+        ],
+        "candidate_range": [
+          175,
+          176
+        ],
+        "baseline": [
+          "153:409"
+        ],
+        "candidate": [
+          "153:411"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          240,
+          241
+        ],
+        "candidate_range": [
+          240,
+          242
+        ],
+        "baseline": [
+          "182:PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "25:1",
+          "184:PRG/SceneText.breedAffinity(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;ZLPRG/SN;)Ljava/lang/String; itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          268,
+          269
+        ],
+        "candidate_range": [
+          269,
+          270
+        ],
+        "baseline": [
+          "198:283"
+        ],
+        "candidate": [
+          "198:284"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          277,
+          278
+        ],
+        "candidate_range": [
+          278,
+          279
+        ],
+        "baseline": [
+          "160:282"
+        ],
+        "candidate": [
+          "160:283"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          280,
+          281
+        ],
+        "candidate_range": [
+          281,
+          282
+        ],
+        "baseline": [
+          "160:282"
+        ],
+        "candidate": [
+          "160:283"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          282,
+          285
+        ],
+        "candidate_range": [
+          283,
+          286
+        ],
+        "baseline": [
+          "167:343",
+          "167:284",
+          "167:284"
+        ],
+        "candidate": [
+          "167:344",
+          "167:285",
+          "167:285"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          286,
+          287
+        ],
+        "candidate_range": [
+          287,
+          288
+        ],
+        "baseline": [
+          "198:301"
+        ],
+        "candidate": [
+          "198:302"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          295,
+          296
+        ],
+        "candidate_range": [
+          296,
+          297
+        ],
+        "baseline": [
+          "160:300"
+        ],
+        "candidate": [
+          "160:301"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          298,
+          299
+        ],
+        "candidate_range": [
+          299,
+          300
+        ],
+        "baseline": [
+          "160:300"
+        ],
+        "candidate": [
+          "160:301"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          300,
+          303
+        ],
+        "candidate_range": [
+          301,
+          304
+        ],
+        "baseline": [
+          "167:343",
+          "167:302",
+          "167:302"
+        ],
+        "candidate": [
+          "167:344",
+          "167:303",
+          "167:303"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          304,
+          305
+        ],
+        "candidate_range": [
+          305,
+          306
+        ],
+        "baseline": [
+          "198:319"
+        ],
+        "candidate": [
+          "198:320"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          313,
+          314
+        ],
+        "candidate_range": [
+          314,
+          315
+        ],
+        "baseline": [
+          "160:318"
+        ],
+        "candidate": [
+          "160:319"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          316,
+          317
+        ],
+        "candidate_range": [
+          317,
+          318
+        ],
+        "baseline": [
+          "160:318"
+        ],
+        "candidate": [
+          "160:319"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          318,
+          321
+        ],
+        "candidate_range": [
+          319,
+          322
+        ],
+        "baseline": [
+          "167:343",
+          "167:320",
+          "167:320"
+        ],
+        "candidate": [
+          "167:344",
+          "167:321",
+          "167:321"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          322,
+          323
+        ],
+        "candidate_range": [
+          323,
+          324
+        ],
+        "baseline": [
+          "198:337"
+        ],
+        "candidate": [
+          "198:338"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          331,
+          332
+        ],
+        "candidate_range": [
+          332,
+          333
+        ],
+        "baseline": [
+          "160:336"
+        ],
+        "candidate": [
+          "160:337"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          334,
+          335
+        ],
+        "candidate_range": [
+          335,
+          336
+        ],
+        "baseline": [
+          "160:336"
+        ],
+        "candidate": [
+          "160:337"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          336,
+          339
+        ],
+        "candidate_range": [
+          337,
+          340
+        ],
+        "baseline": [
+          "167:343",
+          "167:338",
+          "167:338"
+        ],
+        "candidate": [
+          "167:344",
+          "167:339",
+          "167:339"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          374,
+          375
+        ],
+        "candidate_range": [
+          375,
+          377
+        ],
+        "baseline": [
+          "182:PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "25:1",
+          "184:PRG/SceneText.breedNeeds(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;ZLPRG/SN;)Ljava/lang/String; itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          393,
+          394
+        ],
+        "candidate_range": [
+          395,
+          396
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.breedDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          408,
+          409
+        ],
+        "candidate_range": [
+          410,
+          411
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.breedDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Ew",
+    "method": "a",
+    "descriptor": "(LPRG/SN;ILPRG/aAJ;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.breedDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          25,
+          26
+        ],
+        "candidate_range": [
+          25,
+          26
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.breedDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Jm",
+    "method": "a",
+    "descriptor": "(LPRG/Jm;LPRG/SN;ILPRG/aAJ;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.cardDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          41,
+          42
+        ],
+        "candidate_range": [
+          41,
+          42
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.cardDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Jm",
+    "method": "a",
+    "descriptor": "(LPRG/Jm;LPRG/SN;LPRG/At;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 2,
+        "candidate": "PRG/SceneText.cardFormat(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "baseline": "PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "inserted_aload_local": -1
+      },
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.cardDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          189,
+          190
+        ],
+        "candidate_range": [
+          189,
+          190
+        ],
+        "baseline": [
+          "182:PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.cardFormat(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          220,
+          221
+        ],
+        "candidate_range": [
+          220,
+          221
+        ],
+        "baseline": [
+          "182:PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.cardFormat(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ]
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          245,
+          246
+        ],
+        "candidate_range": [
+          245,
+          246
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.cardDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/kn",
+    "method": "a",
+    "descriptor": "(LPRG/ka;LPRG/SH;LPRG/SN;D)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.achievementDraw(LPRG/SN;Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          96,
+          97
+        ],
+        "candidate_range": [
+          96,
+          97
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.achievementDraw(LPRG/SN;Ljava/lang/String;IILPRG/aBa;Ljava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/kn",
+    "method": "a",
+    "descriptor": "(LPRG/km;LPRG/SN;LPRG/aAJ;)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.achievementDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          62,
+          63
+        ],
+        "candidate_range": [
+          62,
+          63
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.achievementDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/kn",
+    "method": "a",
+    "descriptor": "(Ljava/lang/String;LPRG/SH;LPRG/km;LPRG/SN;D)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.achievementFormat(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "baseline": "PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String;",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          15,
+          16
+        ],
+        "candidate_range": [
+          15,
+          16
+        ],
+        "baseline": [
+          "182:PRG/amw.a(Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.achievementFormat(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Lx",
+    "method": "a",
+    "descriptor": "(LPRG/SN;Z)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.mapCenter(LPRG/SN;Ljava/lang/String;ILjava/lang/String;)I",
+        "baseline": "PRG/SN.a(Ljava/lang/String;ILjava/lang/String;)I",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          327,
+          328
+        ],
+        "candidate_range": [
+          327,
+          328
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;ILjava/lang/String;)I itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.mapCenter(LPRG/SN;Ljava/lang/String;ILjava/lang/String;)I itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Po",
+    "method": "a",
+    "descriptor": "(LPRG/apr;LPRG/SH;LPRG/SN;I)V",
+    "changes": [
+      {
+        "kind": "call_replacement",
+        "count": 1,
+        "candidate": "PRG/SceneText.mapDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V",
+        "baseline": "PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V",
+        "inserted_aload_local": -1
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          36,
+          37
+        ],
+        "candidate_range": [
+          36,
+          37
+        ],
+        "baseline": [
+          "185:PRG/SN.a(Ljava/lang/String;IILjava/lang/String;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.mapDraw(LPRG/SN;Ljava/lang/String;IILjava/lang/String;)V itf=false"
+        ]
+      }
+    ]
+  },
+  {
+    "class": "PRG/Kc",
+    "method": "b",
+    "descriptor": "(LPRG/SN;ZI)V",
+    "changes": [
+      {
+        "kind": "full_source_tail_only",
+        "prefix_including_source_store_identical": true,
+        "prefix_logical_instructions": 34,
+        "exact_eight_instruction_tail": true,
+        "tail": [
+          "25:1",
+          "25:9",
+          "21:2",
+          "21:4",
+          "21:6",
+          "21:3",
+          "184:PRG/SceneText.dataBlock(LPRG/SN;Ljava/lang/String;ZIII)V itf=false",
+          "177:"
+        ],
+        "baseline_removed_tail": [
+          "178:PRG/aJB.MODULE$LPRG/aJB;",
+          "182:PRG/aJB.d()LPRG/aEP; itf=false",
+          "178:PRG/aKE.MODULE$LPRG/aKE;",
+          "6:",
+          "188:10",
+          "89:",
+          "3:",
+          "21:6",
+          "79:",
+          "89:",
+          "4:",
+          "21:6",
+          "16:8",
+          "100:",
+          "79:",
+          "89:",
+          "5:",
+          "21:6",
+          "16:16",
+          "100:",
+          "79:",
+          "182:PRG/aKE.a([I)LPRG/aEl; itf=false",
+          "182:PRG/aEP.a(LPRG/aFO;)Ljava/lang/Object; itf=false",
+          "192:PRG/aEO",
+          "58:10",
+          "178:PRG/amw.MODULE$LPRG/amw;",
+          "25:9",
+          "178:PRG/Ol.MODULE$LPRG/Ol;",
+          "178:PRG/Oa.MODULE$LPRG/Oa;",
+          "3:",
+          "184:PRG/EndingReportLayout.formatData(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false",
+          "58:11",
+          "178:PRG/amr$e.MODULE$LPRG/amr$e;",
+          "25:11",
+          "178:PRG/Ol.MODULE$LPRG/Ol;",
+          "182:PRG/Ol.a()I itf=false",
+          "182:PRG/amr$e.a(Ljava/lang/String;I)LPRG/aCj; itf=false",
+          "25:10",
+          "185:PRG/aCj.a(LPRG/aCd;)LPRG/aCj; itf=true",
+          "21:2",
+          "25:1",
+          "21:4",
+          "21:3",
+          "186:apply(ZLPRG/SN;II)LPRG/azz; bsm=java/lang/invoke/LambdaMetafactory.altMetafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; (6) | jdk.internal.org.objectweb.asm.Type:(Ljava/lang/Object;)Ljava/lang/Object; | jdk.internal.org.objectweb.asm.Handle:PRG/Kc.b(ZLPRG/SN;IILPRG/aAJ;)Ljava/lang/Object; (6) | jdk.internal.org.objectweb.asm.Type:(LPRG/aAJ;)Ljava/lang/Object; | java.lang.Integer:5 | java.lang.Integer:1 | jdk.internal.org.objectweb.asm.Type:(LPRG/aAJ;)Ljava/lang/Object;",
+          "185:PRG/aCj.f(LPRG/azz;)V itf=true",
+          "177:"
+        ]
+      }
+    ],
+    "deltas": [
+      {
+        "kind": "replace",
+        "baseline_range": [
+          35,
+          42
+        ],
+        "candidate_range": [
+          35,
+          39
+        ],
+        "baseline": [
+          "178:PRG/aJB.MODULE$LPRG/aJB;",
+          "182:PRG/aJB.d()LPRG/aEP; itf=false",
+          "178:PRG/aKE.MODULE$LPRG/aKE;",
+          "6:",
+          "188:10",
+          "89:",
+          "3:"
+        ],
+        "candidate": [
+          "25:1",
+          "25:9",
+          "21:2",
+          "21:4"
+        ]
+      },
+      {
+        "kind": "delete",
+        "baseline_range": [
+          43,
+          77
+        ],
+        "candidate_range": [
+          40,
+          40
+        ],
+        "baseline": [
+          "79:",
+          "89:",
+          "4:",
+          "21:6",
+          "16:8",
+          "100:",
+          "79:",
+          "89:",
+          "5:",
+          "21:6",
+          "16:16",
+          "100:",
+          "79:",
+          "182:PRG/aKE.a([I)LPRG/aEl; itf=false",
+          "182:PRG/aEP.a(LPRG/aFO;)Ljava/lang/Object; itf=false",
+          "192:PRG/aEO",
+          "58:10",
+          "178:PRG/amw.MODULE$LPRG/amw;",
+          "25:9",
+          "178:PRG/Ol.MODULE$LPRG/Ol;",
+          "178:PRG/Oa.MODULE$LPRG/Oa;",
+          "3:",
+          "184:PRG/EndingReportLayout.formatData(LPRG/amw;Ljava/lang/String;LPRG/amq;LPRG/amv;Z)Ljava/lang/String; itf=false",
+          "58:11",
+          "178:PRG/amr$e.MODULE$LPRG/amr$e;",
+          "25:11",
+          "178:PRG/Ol.MODULE$LPRG/Ol;",
+          "182:PRG/Ol.a()I itf=false",
+          "182:PRG/amr$e.a(Ljava/lang/String;I)LPRG/aCj; itf=false",
+          "25:10",
+          "185:PRG/aCj.a(LPRG/aCd;)LPRG/aCj; itf=true",
+          "21:2",
+          "25:1",
+          "21:4"
+        ],
+        "candidate": []
+      },
+      {
+        "kind": "replace",
+        "baseline_range": [
+          78,
+          80
+        ],
+        "candidate_range": [
+          41,
+          42
+        ],
+        "baseline": [
+          "186:apply(ZLPRG/SN;II)LPRG/azz; bsm=java/lang/invoke/LambdaMetafactory.altMetafactory(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; (6) | jdk.internal.org.objectweb.asm.Type:(Ljava/lang/Object;)Ljava/lang/Object; | jdk.internal.org.objectweb.asm.Handle:PRG/Kc.b(ZLPRG/SN;IILPRG/aAJ;)Ljava/lang/Object; (6) | jdk.internal.org.objectweb.asm.Type:(LPRG/aAJ;)Ljava/lang/Object; | java.lang.Integer:5 | java.lang.Integer:1 | jdk.internal.org.objectweb.asm.Type:(LPRG/aAJ;)Ljava/lang/Object;",
+          "185:PRG/aCj.f(LPRG/azz;)V itf=true"
+        ],
+        "candidate": [
+          "184:PRG/SceneText.dataBlock(LPRG/SN;Ljava/lang/String;ZIII)V itf=false"
+        ]
+      }
+    ]
+  }
+]

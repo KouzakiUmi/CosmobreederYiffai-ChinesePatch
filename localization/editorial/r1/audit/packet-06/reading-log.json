@@ -1,0 +1,138 @@
+{
+  "packet": "packet-06",
+  "input_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-06.reader.md",
+  "input_sha256": "b63532c516455c229fb1b471bc24713497eaa0065186a678d7ec800e90c6ea6d",
+  "packet_json_path": "localization/editorial/r1/corpus/snapshot-01/packets/packet-06.json",
+  "packet_json_sha256": "151427f194b5a1e30cfede4f1400b4bc5a7b12dda504ad3f08785e83e3fb567e",
+  "read_status": "read_full",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      200
+    ],
+    [
+      201,
+      300
+    ],
+    [
+      301,
+      400
+    ],
+    [
+      401,
+      500
+    ],
+    [
+      501,
+      600
+    ],
+    [
+      601,
+      700
+    ],
+    [
+      701,
+      800
+    ],
+    [
+      801,
+      900
+    ],
+    [
+      901,
+      1000
+    ],
+    [
+      1001,
+      1100
+    ],
+    [
+      1101,
+      1200
+    ],
+    [
+      1201,
+      1300
+    ],
+    [
+      1301,
+      1400
+    ],
+    [
+      1401,
+      1500
+    ],
+    [
+      1501,
+      1600
+    ],
+    [
+      1601,
+      1700
+    ],
+    [
+      1701,
+      1800
+    ],
+    [
+      1801,
+      1900
+    ],
+    [
+      1901,
+      2000
+    ],
+    [
+      2001,
+      2100
+    ],
+    [
+      2101,
+      2200
+    ],
+    [
+      2201,
+      2300
+    ],
+    [
+      2301,
+      2361
+    ]
+  ],
+  "truncated_ranges": [],
+  "reader_line_count": 2361,
+  "reading_method": "24次read，每次limit100，实际顺次读完；先理解完整英文与控制边再回连当前中文，不以搜索/脚本扫描代替。JSON仅用于稳定ID、别名和证据摘录/覆盖构造。",
+  "references_read": [
+    {
+      "path": "localization/editorial/r1/LOCALIZATION_BRIEF.md",
+      "sha256": "84b217d0f1d51c2fc015187a7a9aafb89f2d894bf8996bbc181a4242f4997548"
+    },
+    {
+      "path": "localization/editorial/r1/WORK_ORDERS.md",
+      "sha256": "ad71d0c57477ec84d32b0eabd53e43a738069cccb1d9d922a32ba1353ac9c78c"
+    },
+    {
+      "path": "localization/editorial/r1/reference/characters-primary.md",
+      "sha256": "3ad8d3df20dfd80e0fc19e21ddb8e07bd0968d4ea928555a5aa146857056419d"
+    },
+    {
+      "path": "localization/editorial/r1/reference/characters-support.md",
+      "sha256": "b50f394bf3fd457b6cd10ed47f942436744fac618b9acb4443d1da073115db40"
+    },
+    {
+      "path": "localization/editorial/r1/reference/world-and-plot.md",
+      "sha256": "7d4458d93e3b4e39e34db9ac16969fd3be293d4c007795f44132ffa706cacd49"
+    }
+  ],
+  "reference_notes": "primary首读输出裁剪于277，已补278–377；world首次不存在，落盘后完整补读1–150、151–300、301–406。",
+  "scene_count": 297,
+  "row_count": 1316,
+  "coverage_row_count": 1712,
+  "findings_count": 28,
+  "uncovered": "无reader缺口；code用途、图像画面、JSON运行时用途、游戏加载/触发及视觉排版均未验证。",
+  "status_boundary": "仅proposal/needs_evidence；未正式应用，未approved，未部署，未Git写。"
+}

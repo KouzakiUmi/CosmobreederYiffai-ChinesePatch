@@ -13,7 +13,9 @@ import jdk.internal.org.objectweb.asm.tree.*;
 /** Isolated CPU. No GameMain, GL, native texture allocation, install/save writes.
  * --preflight original.jar
  * original.jar helper-dir story12-asset-dir NEW-test.jar
- * Fresh JVM, test.jar FIRST on classpath: --cpu runtime-font-dir
+ * Fresh JVM, test.jar FIRST on classpath: --cpu runtime-font-dir [expected-native-count]
+ * Expanded candidates must pass their independently computed wide glyph count;
+ * absent argument retains the frozen r27 count2312.
  * Test fonts use real parser/arp allocation with a CPU dimension-only shared
  * texture object; the texture's GPU constructor is NEVER executed.
  */
@@ -156,7 +158,7 @@ public final class StoryFont12Test implements Opcodes {
         amn animation=new amn(page,0,(azK)azI.MODULE$,0.05f);
         return new anh(null,0,new aAw(new amG(animation,(azK)azI.MODULE$,"Normal")),(aEO)aFC.MODULE$,(aEO)aFC.MODULE$,null,false,null,null,(aEO)aFC.MODULE$,(azK)azI.MODULE$);
     }
-    private static void cpu(Path runtime) throws Exception {
+    private static void cpu(Path runtime, int expectedNativeCount) throws Exception {
         byte[] fontBytes=bytes(StoryFont12Test.class.getResourceAsStream("/story12.fnt"));
         check(sha(fontBytes).equals(StoryFont12.FONT_SHA256),"real root story FNT");
         PixelLayout.Metrics metrics=StoryFont12.metrics();
@@ -206,7 +208,7 @@ public final class StoryFont12Test implements Opcodes {
             nativeCount++;
             check(g.d==12&&g.e==12&&g.l==12,"ALL real native12 glyph fields/uses12 parity U+"+Integer.toHexString(cp));
         }
-        check(nativeCount==2312,"full native12 corpus glyph count");
+        check(nativeCount==expectedNativeCount,"full native12 corpus glyph count: expected "+expectedNativeCount+", got "+nativeCount);
         final List<Object[]> draws=new ArrayList<Object[]>();
         SN sn=(SN)java.lang.reflect.Proxy.newProxyInstance(StoryFont12Test.class.getClassLoader(),new Class<?>[]{SN.class},(p,m,a)-> {
             if(m.getName().equals("b")&&m.getParameterTypes().length==0) return "default";
@@ -249,9 +251,13 @@ public final class StoryFont12Test implements Opcodes {
         check(refused&&invalid.fonts.e("story12").g()&&invalid.regionReads==0,"actual loose FileHandle SHA drift refuses BEFORE font/region/map allocation");
     }
     public static void main(String[] args) throws Exception {
-        if(args.length==2&&args[0].equals("--cpu")) { cpu(Paths.get(args[1])); System.out.println("STORY12_CPU_OK assertions="+assertions+" (real Yg/jo/Na/FNT; GL/clip/game/save NOT run)"); return; }
+        if((args.length==2||args.length==3)&&args[0].equals("--cpu")) {
+            int expected=args.length==3?Integer.parseInt(args[2]):2312;
+            cpu(Paths.get(args[1]),expected);
+            System.out.println("STORY12_CPU_OK assertions="+assertions+" expected_native="+expected+" (real Yg/jo/Na/FNT; GL/clip/game/save NOT run)"); return;
+        }
         if(args.length==2&&args[0].equals("--preflight")) { patch(Paths.get(args[1])); System.out.println("STORY12_PREFLIGHT_OK assertions="+assertions); return; }
-        if(args.length!=4) throw new IllegalArgumentException("original.jar helpers assets NEW-test.jar | --cpu runtime-font-dir | --preflight original.jar");
+        if(args.length!=4) throw new IllegalArgumentException("original.jar helpers assets NEW-test.jar | --cpu runtime-font-dir [expected-native-count] | --preflight original.jar");
         Map<String,ClassNode> nodes=patch(Paths.get(args[0])); writeJar(nodes,Paths.get(args[1]),Paths.get(args[2]),Paths.get(args[3]));
         System.out.println("STORY12_PATCH_OK assertions="+assertions+"; run fresh JVM --cpu with test JAR first");
     }

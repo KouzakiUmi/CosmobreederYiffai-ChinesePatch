@@ -1,0 +1,2268 @@
+{
+  "schema": "sfw-vsn-join-source-review/v1",
+  "suggestions_sha256": "51ee233eb98301467b42819cb25f9fad41c4f24152307256cbcd749c5471db8d",
+  "counts": {
+    "source_absent_or_changed": 281,
+    "unique_whole_source_match_review_only": 19
+  },
+  "source_scan_applied_groups": 0,
+  "final_application_ledger": "vsn-joins.jsonl",
+  "operations": [
+    {
+      "canonical_operation_id": "VG001-13-14",
+      "logical_path": "vsn/f_AgentF01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG002-31-32",
+      "logical_path": "vsn/f_AgentF01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG003-38-39-40",
+      "logical_path": "vsn/f_AgentF01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG004-44-45",
+      "logical_path": "vsn/f_AgentF01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG005-18-19",
+      "logical_path": "vsn/f_AgentF02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG006-25-26",
+      "logical_path": "vsn/f_AgentF02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG007-43-44",
+      "logical_path": "vsn/f_AgentF02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG008-62-63",
+      "logical_path": "vsn/f_AgentF02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG009-64-65",
+      "logical_path": "vsn/f_AgentF02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG010-14-15",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG011-30-31-32",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG012-36-37",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG013-38-39",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG014-44-45",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG015-49-50",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG016-56-57",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG017-62-63-64",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG018-69-70",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG019-77-78",
+      "logical_path": "vsn/f_AgentF03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG020-6-7",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG021-11-12",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG022-23-24",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG023-25-26",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG024-34-35",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG025-40-41",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG026-46-47",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG027-48-49",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG028-53-54",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG029-55-56",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG030-67-68",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG031-69-70",
+      "logical_path": "vsn/f_AgentF04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG032-13-14",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG033-15-16",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG034-22-23",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG035-35-36",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG036-48-49",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG037-56-57",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG038-62-63",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG039-77-78",
+      "logical_path": "vsn/f_AgentF05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG040-26-27",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG041-37-38",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG042-44-45",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG044-64-65",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG047-88-89",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG048-94-95",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG049-100-101",
+      "logical_path": "vsn/f_AgentF06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG050-5-6",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG051-11-12",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG052-13-14",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG053-22-23",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG054-29-30",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG055-34-35",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG056-36-37",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG057-43-44",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG058-49-50",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG059-55-56",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG060-59-60",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG061-65-66",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG062-67-68",
+      "logical_path": "vsn/f_AgentF07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG064-12-13",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG065-19-20",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG066-25-26",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG067-32-33",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG068-34-35",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG069-39-40-41",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG070-52-53",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG071-66-67",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG072-74-75",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG073-80-81",
+      "logical_path": "vsn/f_AgentF08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG074-26-27",
+      "logical_path": "vsn/f_AgentF0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG075-40-41",
+      "logical_path": "vsn/f_AgentF0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG076-47-48",
+      "logical_path": "vsn/f_AgentF0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG112-82-83",
+      "logical_path": "vsn/f_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG114-94-95",
+      "logical_path": "vsn/f_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG115-129-130",
+      "logical_path": "vsn/f_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG116-149-150",
+      "logical_path": "vsn/f_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG117-202-203",
+      "logical_path": "vsn/f_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG118-6-7",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG119-16-17",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG120-50-51",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG121-81-82",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG122-101-102",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG123-110-111",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG124-121-122",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG125-159-160",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG126-169-170",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG127-207-208",
+      "logical_path": "vsn/f_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG128-7-8",
+      "logical_path": "vsn/f_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/59",
+      "resource_sha256": "322268db2f745ecaa62bcf289972fe3573f1e1d8174792de966f48825e23c8c9",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 7,
+          "source": "I'd almost thought that the lot of you were merely an annoyance",
+          "raw_source_sha256": "ba8035507c0400d6b332aff64dbdd9b30e4d8aa87d4f1325b731a3171b41a9a3",
+          "ledger_id": "SFWff09ba4925658668131773d1"
+        },
+        {
+          "source_line_evidence": 8,
+          "source": "but here's one that actually manged to hit me. Heh!",
+          "raw_source_sha256": "38540e349aa69ae2ce859aee55a6cb33439920f0caa5ca87800af9af05fc04bf",
+          "ledger_id": "SFWe6b3361f181c49bb2bf06a3c"
+        }
+      ],
+      "candidate_zh_CN": "我差点以为，你们这些小东西只配惹人烦，没想到还真有个能打中我的。呵！",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG129-44-45",
+      "logical_path": "vsn/f_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/59",
+      "resource_sha256": "322268db2f745ecaa62bcf289972fe3573f1e1d8174792de966f48825e23c8c9",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 44,
+          "source": "And while you're at it, take this garbage that a fellow small fighter left",
+          "raw_source_sha256": "8f8c5ee0cdc5f16dd5f1d10ec67795c138ab06de603e7e0dc567d03de942f81e",
+          "ledger_id": "SFW7908fe731ba0afc7b246a258"
+        },
+        {
+          "source_line_evidence": 45,
+          "source": "after I had given him an even rougher lesson than yours.",
+          "raw_source_sha256": "767f4d03de3feb48a2a8fea7cba9e9b7d5cc7aea515057f6b051433119c70bd7",
+          "ledger_id": "SFWa5ab853b298a4fef6386d591"
+        }
+      ],
+      "candidate_zh_CN": "顺便，把另一个小个子战士留下的垃圾也带走。那次我给他的教训，比给你的还狠。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG130-49-50",
+      "logical_path": "vsn/f_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/59",
+      "resource_sha256": "322268db2f745ecaa62bcf289972fe3573f1e1d8174792de966f48825e23c8c9",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 49,
+          "source": "With shoes in hand, Yiffany scrambles out as the Redbull drops deeper into the mines",
+          "raw_source_sha256": "9310b5510305646efcc624759fa69410255541bdbf708092ac1e405c880c5dbb",
+          "ledger_id": "SFW16f6726bd58a344d7117e2ab"
+        },
+        {
+          "source_line_evidence": 50,
+          "source": "his glowing red mane fading eerily into the dark...",
+          "raw_source_sha256": "19c9313f8d01f271324e22f9ea2d92ec1977f17a25bbf0d00268fcf6100335e4",
+          "ledger_id": "SFW96f2b261390fb871064a8503"
+        }
+      ],
+      "candidate_zh_CN": "伊法妮拿着靴子爬出去，红牛则深入矿井，他泛着红光的鬃毛诡异地隐入黑暗……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG131-12-13",
+      "logical_path": "vsn/f_ClassicEnelye/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/65",
+      "resource_sha256": "9178414c11414e1275b225caf0f21f34637d863d57c620822f1bd97cd77a2a42",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 12,
+          "source": "I must commend your most respectable performance in the art of combat",
+          "raw_source_sha256": "05d6695ac5cd288f6434bc9650b67eb3e24e5553cb935d23ab3a05705eb87807",
+          "ledger_id": "SFW19cbffdb82bc5f422b60bcb8"
+        },
+        {
+          "source_line_evidence": 13,
+          "source": "it was a highly enjoyable act to watch, even for one as old as I.",
+          "raw_source_sha256": "709e4d3c1c5d23e077f03669155651101f51d4a2ec20e67286c4a8978c767e1d",
+          "ledger_id": "SFW5246ce58bc19b72af97a763f"
+        }
+      ],
+      "candidate_zh_CN": "你在战斗技艺上的表现令人肃然起敬，我必须予以赞扬。即便对我这样年长的人而言，观赏这场表演也十分愉快。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG133-32-33",
+      "logical_path": "vsn/f_ClassicPigobinV3/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/71",
+      "resource_sha256": "60e853f2238226a567decc2a72a156299d87cc43e423482ff6c7b9876a33d905",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 32,
+          "source": "Now taketh this necklace so that you may understand others of this land",
+          "raw_source_sha256": "056f991e6bc6180c3b7a92b4e6c0d41630502b00cfb1129f18b64501d6444e7e",
+          "ledger_id": "SFW4364632112a617269fec3f33"
+        },
+        {
+          "source_line_evidence": 33,
+          "source": "...and spareth them from your ill manners...eh heh heh heh...",
+          "raw_source_sha256": "1e37c8f95d7534e72f997cce0ec71240d635715ce888b66e5cf22365cc8fee18",
+          "ledger_id": "SFW2487bf5fbf7736c0b45b64d1"
+        }
+      ],
+      "candidate_zh_CN": "且收下这项链，好让汝听懂此地众人的话语……也免得汝再对他们无礼……呵呵呵呵……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG134-37-38",
+      "logical_path": "vsn/f_ClassicPigobinV3/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/71",
+      "resource_sha256": "60e853f2238226a567decc2a72a156299d87cc43e423482ff6c7b9876a33d905",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 37,
+          "source": "And with a gutteral laugh, the demonic form faded back into the darkest darks",
+          "raw_source_sha256": "327d3b3fce7f9b8b1e0fcb47b6416efccff93038f03e58936e8f045d41aa794c",
+          "ledger_id": "SFW87c575229b8e0195174836c8"
+        },
+        {
+          "source_line_evidence": 38,
+          "source": "leaving nought but a scared pup in his wake...",
+          "raw_source_sha256": "3dbeacd34c340171cf91c5a255d566769816e29f0afc2026a3f9aa61f769c745",
+          "ledger_id": "SFW4fa73b90f951faacab8e237f"
+        }
+      ],
+      "candidate_zh_CN": "随着一阵低沉的笑声，那恶魔身影退回最深的黑暗，只留下一只吓坏的小狗……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG135-31-32",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG137-50-51",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG138-69-70",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG139-77-78",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG140-96-97",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG141-121-122",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG142-173-174",
+      "logical_path": "vsn/f_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG143-5-6",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG144-11-12",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG145-13-14",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG146-18-19",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG147-29-30",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG148-58-59",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG149-67-68-69",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG150-86-87",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG151-95-96",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG152-97-98",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG153-105-106-107",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG154-124-125",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG155-132-133",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG156-141-142",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG157-153-154",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG158-173-174",
+      "logical_path": "vsn/f_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG160-7-8",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG161-25-26",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG162-27-28",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG163-36-37",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG164-41-42-43",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG165-47-48",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG166-54-55",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG167-56-57",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG168-61-62",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG169-63-64",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG171-85-86",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG173-94-95",
+      "logical_path": "vsn/f_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG174-5-6",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG175-11-12",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG176-26-27",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG177-32-33",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG178-47-48",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG179-83-84",
+      "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG180-22-23",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG181-29-30",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG183-56-57-58",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG184-82-83",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG185-91-92",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG187-102-103",
+      "logical_path": "vsn/f_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG188-18-19",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG189-20-21",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG190-37-38",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG191-42-43",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG192-52-53",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG193-58-59",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG194-71-72",
+      "logical_path": "vsn/f_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG195-28-29",
+      "logical_path": "vsn/f_GameStart/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/119",
+      "resource_sha256": "2a9c88d8fcbb09e4c3543924f91964eaa1626155206e0562efc6239bf45ddfca",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 28,
+          "source": "Oh yeah, no problem! If my little bro is all tangled up in it like you say he is",
+          "raw_source_sha256": "9dfd3fe0d01fd9c3114cc62c3695c5d2259f020b78a379c9fd3c8c326abb463a",
+          "ledger_id": "SFW5e034eef0eda69e89b5e5e2c"
+        },
+        {
+          "source_line_evidence": 29,
+          "source": "then I wouldn't miss being the one to rescue him for the world!",
+          "raw_source_sha256": "d90bece54c0f87aa227c8fe1104ad4eca258a3286b903339db50f66248c18326",
+          "ledger_id": "SFWaf834f7e8408f4645eea8df9"
+        }
+      ],
+      "candidate_zh_CN": "当然，没问题！要是我弟真像你说的那样卷进去了，那救他的机会，我说什么也不会错过！",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG196-33-34",
+      "logical_path": "vsn/f_GameStart/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG197-35-36",
+      "logical_path": "vsn/f_GameStart/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG198-84-85",
+      "logical_path": "vsn/f_GameStart/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/119",
+      "resource_sha256": "2a9c88d8fcbb09e4c3543924f91964eaa1626155206e0562efc6239bf45ddfca",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 85,
+          "source": "Gotta remember that there were some experienced agents that went missing",
+          "raw_source_sha256": "5ead36598e61c287a4cae0304831830ff1942ffbbc4734d8ac96b98fcb2b2666",
+          "ledger_id": "SFWff91d04643d155adc3078532"
+        },
+        {
+          "source_line_evidence": 86,
+          "source": "not just my baby bro!",
+          "raw_source_sha256": "218c31e7f127014cc5d98989baeb00018d32a7ccf640646ceb180631e2e2ddea",
+          "ledger_id": "SFWf685dc3bf83b8fac98984c54"
+        }
+      ],
+      "candidate_zh_CN": "得记住，失踪的还有好些经验丰富的特工，可不止我家小弟！",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG199-7-8",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG200-12-13",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG201-41-42",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG202-43-44",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG203-49-50-51",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG204-56-57",
+      "logical_path": "vsn/m_AgentM01/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG205-12-13",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG206-18-19",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG207-23-24",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG208-29-30-31",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG209-36-37",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG210-38-39",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG211-43-44-45",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG212-46-47",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG213-48-49",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG214-53-54",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG215-55-56",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG216-63-64",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG217-68-69",
+      "logical_path": "vsn/m_AgentM02/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG218-41-42",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG219-43-44",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG220-49-50-51",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG221-55-56",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG222-57-58",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG223-63-64-65",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG224-71-72",
+      "logical_path": "vsn/m_AgentM03/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG225-14-15",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG226-19-20-21-22",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG227-29-30",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG228-35-36",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG229-47-48",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG230-54-55",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG231-60-61",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG232-62-63",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG233-67-68",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG234-69-70",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG235-80-81-82",
+      "logical_path": "vsn/m_AgentM04/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG237-12-13",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG238-15-16",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG240-41-42",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG241-43-44",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG242-48-49",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG243-60-61",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG244-75-76",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG245-81-82-83",
+      "logical_path": "vsn/m_AgentM05/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG246-12-13",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG247-18-19",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG248-20-21",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG249-25-26",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG250-27-28",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG251-33-34",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG252-35-36",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG253-42-43-44",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG254-51-52",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG255-57-58",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG256-64-65-66",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG257-71-72",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG259-86-87-88",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG260-90-91",
+      "logical_path": "vsn/m_AgentM06/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG261-18-19",
+      "logical_path": "vsn/m_AgentM07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG262-31-32",
+      "logical_path": "vsn/m_AgentM07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG263-38-39",
+      "logical_path": "vsn/m_AgentM07/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG264-11-12-13",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG265-18-19",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG266-20-21",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG267-33-34-35",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG268-47-48",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG269-53-54",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG270-57-58",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG271-62-63",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG272-64-65",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG273-71-72",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG274-93-94",
+      "logical_path": "vsn/m_AgentM08/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG275-18-19",
+      "logical_path": "vsn/m_AgentM0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG276-22-23",
+      "logical_path": "vsn/m_AgentM0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG277-39-40",
+      "logical_path": "vsn/m_AgentM0B/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG313-36-37",
+      "logical_path": "vsn/m_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG314-97-98",
+      "logical_path": "vsn/m_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG315-123-124",
+      "logical_path": "vsn/m_ClassicBigbold/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG316-6-7",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/167",
+      "resource_sha256": "a540f55fba9989ee64432e7a16a696e8e94624f782b02d05b7d23e416396af95",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 6,
+          "source": "Could probably have taken you out in one smack if they gave me a better tazer",
+          "raw_source_sha256": "b21a7f23aaffe0a7c00bbf731c4bc731b8cca7a87aa8611d1de32d9fbe6089dc",
+          "ledger_id": "SFWb3813fe7c4ce9ed63b8d5ad1"
+        },
+        {
+          "source_line_evidence": 7,
+          "source": "instead of this weak little trainee gear.",
+          "raw_source_sha256": "4eeaeb69829677bcca85b44d59b235c778f591c972c7f9b666217b045a885d92",
+          "ledger_id": "SFW9c0b3d774241868d9ba9e4c6"
+        }
+      ],
+      "candidate_zh_CN": "要是给我把好点的电击枪，而不是这套弱得可怜的实习装备，我大概一击就能放倒你。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG317-14-15",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/167",
+      "resource_sha256": "a540f55fba9989ee64432e7a16a696e8e94624f782b02d05b7d23e416396af95",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 14,
+          "source": "As if I haven't already spent years studying up on all the safety protocols",
+          "raw_source_sha256": "781b935cbdd2d45d3f15f84ae4ee429a4e2760bb1c7e4a0980c33ffafa97cdff",
+          "ledger_id": "SFW5a5368dca96eb1859905e198"
+        },
+        {
+          "source_line_evidence": 15,
+          "source": "nevermind all the various ways to safely study all sorts of creatures.",
+          "raw_source_sha256": "24000462343b1b72cd216893af69fcd98935ed47106679164cde6db717e0cd4b",
+          "ledger_id": "SFWa21f55c2bf6729f50d060266"
+        }
+      ],
+      "candidate_zh_CN": "说得好像我没花好几年钻研那些安全规程似的，更别说安全研究各种生物的种种方法了。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG318-24-25",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG319-82-83",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG320-112-113",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG321-196-197",
+      "logical_path": "vsn/m_ClassicBigboldV2/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG322-7-8",
+      "logical_path": "vsn/m_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/173",
+      "resource_sha256": "39b33e833a253f07235cd336ef168863adfc749f94082c79d8c958a614d51e98",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 7,
+          "source": "I'd almost thought that the lot of you were merely an annoyance",
+          "raw_source_sha256": "ba8035507c0400d6b332aff64dbdd9b30e4d8aa87d4f1325b731a3171b41a9a3",
+          "ledger_id": "SFW0aaa52d16ace3938f51698dc"
+        },
+        {
+          "source_line_evidence": 8,
+          "source": "but here's one that actually manged to hit me. Heh!",
+          "raw_source_sha256": "38540e349aa69ae2ce859aee55a6cb33439920f0caa5ca87800af9af05fc04bf",
+          "ledger_id": "SFW73442eec5b63b15ec4a9eafc"
+        }
+      ],
+      "candidate_zh_CN": "我还差点以为，你们这群家伙只会惹人烦，没想到还真有一个打中我了。呵！",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG323-44-45",
+      "logical_path": "vsn/m_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/173",
+      "resource_sha256": "39b33e833a253f07235cd336ef168863adfc749f94082c79d8c958a614d51e98",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 44,
+          "source": "And while you're at it, take this garbage that a fellow small fighter left",
+          "raw_source_sha256": "8f8c5ee0cdc5f16dd5f1d10ec67795c138ab06de603e7e0dc567d03de942f81e",
+          "ledger_id": "SFW3cd950853c08b36c461d327e"
+        },
+        {
+          "source_line_evidence": 45,
+          "source": "after I had given him an even rougher lesson than yours.",
+          "raw_source_sha256": "767f4d03de3feb48a2a8fea7cba9e9b7d5cc7aea515057f6b051433119c70bd7",
+          "ledger_id": "SFWa4c90be3ab039b6ad14a9633"
+        }
+      ],
+      "candidate_zh_CN": "顺便，把另一个小个子战士留下的垃圾带走。我当时给他的教训，可比给你的还要狠。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG324-49-50",
+      "logical_path": "vsn/m_ClassicBossRedbull/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/173",
+      "resource_sha256": "39b33e833a253f07235cd336ef168863adfc749f94082c79d8c958a614d51e98",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 49,
+          "source": "With shoes in hand, Yiffai scrambles out as the Redbull drops deeper into the mines",
+          "raw_source_sha256": "69aaec844eeac85f3599089c1523b9beb394348be95baf323165a45815a4e637",
+          "ledger_id": "SFW8b9f709b88f1f91748823e42"
+        },
+        {
+          "source_line_evidence": 50,
+          "source": "his glowing red mane fading eerily into the dark...",
+          "raw_source_sha256": "19c9313f8d01f271324e22f9ea2d92ec1977f17a25bbf0d00268fcf6100335e4",
+          "ledger_id": "SFWecb4f230849d7b02a2a8e1b6"
+        }
+      ],
+      "candidate_zh_CN": "伊法伊拿着靴子爬出去，红牛则深入矿井，他泛着红光的鬃毛诡异地隐入黑暗……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG325-12-13",
+      "logical_path": "vsn/m_ClassicEnelye/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/179",
+      "resource_sha256": "3af4a3983e732b5772b6e888d5f7c6e5c8e124054d70624d851698c6fa2804d6",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 12,
+          "source": "I must commend your most respectable performance in the art of combat",
+          "raw_source_sha256": "05d6695ac5cd288f6434bc9650b67eb3e24e5553cb935d23ab3a05705eb87807",
+          "ledger_id": "SFW6aaf5da2882e1b5a94329072"
+        },
+        {
+          "source_line_evidence": 13,
+          "source": "it was a highly enjoyable act to watch, even for one as old as I.",
+          "raw_source_sha256": "709e4d3c1c5d23e077f03669155651101f51d4a2ec20e67286c4a8978c767e1d",
+          "ledger_id": "SFW6fd323c3c7bd0c764ce63487"
+        }
+      ],
+      "candidate_zh_CN": "你在战斗技艺上的表现令人肃然起敬，我必须予以赞扬。即便对我这样年长的人而言，观赏这场表演也十分愉快。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG327-32-33",
+      "logical_path": "vsn/m_ClassicPigobinV3/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/185",
+      "resource_sha256": "507a1034c21fb60d63b45055c7a1fd5e31593d8d4ecbacc398bc4b73dfe01763",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 32,
+          "source": "Now taketh this necklace so that you may understand others of this land",
+          "raw_source_sha256": "056f991e6bc6180c3b7a92b4e6c0d41630502b00cfb1129f18b64501d6444e7e",
+          "ledger_id": "SFW5519ae14517c4ec293568109"
+        },
+        {
+          "source_line_evidence": 33,
+          "source": "...and spareth them from your ill manners...eh heh heh heh...",
+          "raw_source_sha256": "1e37c8f95d7534e72f997cce0ec71240d635715ce888b66e5cf22365cc8fee18",
+          "ledger_id": "SFW71bc33018c4d7ea2045dcd83"
+        }
+      ],
+      "candidate_zh_CN": "且收下这项链，好让汝听懂此地众人的话语……也省得旁人再领教汝的无礼……呵呵呵呵……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG328-37-38",
+      "logical_path": "vsn/m_ClassicPigobinV3/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/185",
+      "resource_sha256": "507a1034c21fb60d63b45055c7a1fd5e31593d8d4ecbacc398bc4b73dfe01763",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 37,
+          "source": "And with a gutteral laugh, the demonic form faded back into the darkest darks",
+          "raw_source_sha256": "327d3b3fce7f9b8b1e0fcb47b6416efccff93038f03e58936e8f045d41aa794c",
+          "ledger_id": "SFW33cdf403056e8439d7305494"
+        },
+        {
+          "source_line_evidence": 38,
+          "source": "leaving nought but a scared pup in his wake...",
+          "raw_source_sha256": "3dbeacd34c340171cf91c5a255d566769816e29f0afc2026a3f9aa61f769c745",
+          "ledger_id": "SFW0923f3e9cc54805cce10dda4"
+        }
+      ],
+      "candidate_zh_CN": "伴着喉间一阵低笑，那魔影退回了最深的黑暗，只留下一个吓坏了的小狗崽……",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG329-6-7",
+      "logical_path": "vsn/m_ClassicSqueakerBoss/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/191",
+      "resource_sha256": "21645f1219dc510e550cadc33679ec16bfdc934df3c936bd79b815f3c0d066f0",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 6,
+          "source": "One of you sorts went and ransacked all my belongings right after I landed",
+          "raw_source_sha256": "ae54e8a1bfc5ccadd6eae82e332f88d53e274acadfa447fccc8bafdb755e3fcb",
+          "ledger_id": "SFWa1557b416feb8809dc1c6f3a"
+        },
+        {
+          "source_line_evidence": 7,
+          "source": "and now you're trying to take me down in one-on-one combat?",
+          "raw_source_sha256": "202f90b98ab5a16bc8d4130fc8e38e1168956bec47cb7b33de92e4e5d2b1c33f",
+          "ledger_id": "SFWe21b79cb99c29d5b26418d8e"
+        }
+      ],
+      "candidate_zh_CN": "你们这种家伙前脚在我刚落地时把我的所有家当翻了个精光，如今你又想在一对一单挑里把我打倒？",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG330-11-12",
+      "logical_path": "vsn/m_ClassicStarkillV3/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/197",
+      "resource_sha256": "6e099226f9924e5387f1bc5f2f9dfcf0a95045a23ed241f55716ecdaadbc95ce",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 11,
+          "source": "But give me another concussion and I can't say I'll keep on remembering you",
+          "raw_source_sha256": "17e58c4d7e17f72c373c06d252d44b85903cd83850930c174f9672d24fb5414e",
+          "ledger_id": "SFWa1868b6d1a0b73476122b9c8"
+        },
+        {
+          "source_line_evidence": 12,
+          "source": "so maybe give me a moment, eh?",
+          "raw_source_sha256": "297126b3829fd1699c474840c2474f419d450cbf8ad606f67e090effd48ef391",
+          "ledger_id": "SFW03ffc0977f7ade3e924906fe"
+        }
+      ],
+      "candidate_zh_CN": "不过你要是再把我打出一次脑震荡，我可不敢保证还能记得你，所以让我缓一会儿，行吗？",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG331-7-8",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG332-39-40",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG333-47-48",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG334-56-57",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG335-118-119",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG336-176-177",
+      "logical_path": "vsn/m_ClassicWerehund/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG337-11-12-13",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG338-20-21-22",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG339-28-29",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG340-37-38",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG341-44-45",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG342-53-54",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG343-61-62",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG344-63-64",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG345-71-72",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG346-73-74",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG347-81-82",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG348-83-84",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG349-91-92",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG351-121-122",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG352-138-139",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG353-147-148",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG354-155-156",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG355-157-158",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG356-170-171",
+      "logical_path": "vsn/m_ClassicWerepup/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG359-7-8",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG360-19-20",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG361-26-27",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG362-28-29",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG363-38-39",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG364-40-41",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG365-47-48",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG366-58-59",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG367-75-76",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG368-81-82",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG369-89-90",
+      "logical_path": "vsn/m_GameOverArea0/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG370-21-22",
+      "logical_path": "vsn/m_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG371-36-37",
+      "logical_path": "vsn/m_GameOverAreaA/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG373-20-21",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG374-22-23",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG375-27-28",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG376-29-30",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG377-35-36",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG378-48-49",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG379-55-56",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG380-70-71",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG382-84-85",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG383-86-87",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG384-92-93",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG385-95-96",
+      "logical_path": "vsn/m_GameOverAreaB/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG386-18-19",
+      "logical_path": "vsn/m_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG387-21-22",
+      "logical_path": "vsn/m_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG388-40-41",
+      "logical_path": "vsn/m_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG389-74-75",
+      "logical_path": "vsn/m_GameOverAreaC/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    },
+    {
+      "canonical_operation_id": "VG390-23-24",
+      "logical_path": "vsn/m_GameStart/script.vsn",
+      "status": "unique_whole_source_match_review_only",
+      "applied": false,
+      "archive": "cosmobreeder-multi.jar",
+      "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+      "archive_entry": "vsn/233",
+      "resource_sha256": "57120ba65f7a744348233e1caca1c41bf75fa2952c1cc7b5ea282b776cc628be",
+      "prefix": "text: ",
+      "inputs": [
+        {
+          "source_line_evidence": 23,
+          "source": "Now listen up here agent Yiffai, you may have graduated top of your class",
+          "raw_source_sha256": "435d9a7ac6e802dfc250b4445d345993232e301c16caf2f84812191c76200953",
+          "ledger_id": "SFW88aa7aff33a1c9fa240d758b"
+        },
+        {
+          "source_line_evidence": 24,
+          "source": "but we wouldn't have sent you on this mission if we had any other choice.",
+          "raw_source_sha256": "868dc54818ebedf6c85e8ed2c255ef01f6007fbb8d847e8a9763728fc71901e9",
+          "ledger_id": "SFWed2ad5337c3fd4bb153a2ebf"
+        }
+      ],
+      "candidate_zh_CN": "听好了，伊法伊特工，你虽然以全班第一毕业，但凡还有别的选择，我们都不会派你执行这次任务。",
+      "review_notes": [
+        "No PAK line number used. Own JAR source and adjacent text-only physical commands matched exactly.",
+        "Not applied: full stage/actor/timing and reduction of click count still require SFW-specific review."
+      ]
+    },
+    {
+      "canonical_operation_id": "VG391-34-35",
+      "logical_path": "vsn/m_GameStart/script.vsn",
+      "status": "source_absent_or_changed",
+      "applied": false
+    }
+  ]
+}

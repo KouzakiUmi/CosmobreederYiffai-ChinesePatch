@@ -1,0 +1,1023 @@
+[
+  {
+    "case_id": "DS01",
+    "kind": "unrecorded-skip",
+    "context": [
+      {
+        "line": 629,
+        "r27": "<AreaA_Prison2.TalkBeforeRescue.bopped>"
+      },
+      {
+        "line": 630,
+        "r27": "  * 咕噜噜……！少废话，像打铁一样！狠狠！干！我！"
+      },
+      {
+        "line": 631,
+        "r27": "  * 快给我找个男人来！"
+      },
+      {
+        "line": 632,
+        "r27": ""
+      },
+      {
+        "line": 633,
+        "r27": "<AreaA_Prison2.TalkAfterRescue.thanks>  "
+      },
+      {
+        "line": 634,
+        "r27": "  * 幸好你及时赶到！呼——"
+      },
+      {
+        "line": 635,
+        "r27": "  * 我都要把那铁砧凿出个窟窿了……"
+      }
+    ],
+    "decision": "retained",
+    "operations": [],
+    "source_case": {
+      "case_id": "DS01",
+      "kind": "unrecorded-skip",
+      "edge": {
+        "logical_path": "datadf/all.ds",
+        "lines": [
+          634,
+          635
+        ],
+        "entry": "AreaA_Prison2.TalkAfterRescue.thanks",
+        "prefix": "  * ",
+        "left_draft_cn": "幸好你及时赶到！呼——",
+        "right_draft_cn": "我都要把那铁砧凿出个窟窿了……",
+        "left_source_en": "Good thing you came along when you did! Whew!",
+        "explicit_skip_reason": null
+      },
+      "occurrences": [
+        {
+          "occurrence_id": "O93c2ad1c64e46ae4974f",
+          "unit_id": "D7309064e5c4d21399301",
+          "category": "dialogue",
+          "location": "datadf/all.ds#L634",
+          "context": "datadf/all.ds | AreaA_Prison2.TalkAfterRescue.thanks | line 634",
+          "variant": "female",
+          "speaker": "*",
+          "prefix": "  * ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "e5a4b72264547fe67cbfb0f42aa5636a315955008e764be309b47e92825881bc",
+          "logical_path": "datadf/all.ds",
+          "resource_id": "R1498d95ee3abd4335938",
+          "archive": "patch",
+          "archive_entry": "datadf/1",
+          "line": 634,
+          "entry": "AreaA_Prison2.TalkAfterRescue.thanks",
+          "previous_line": "<AreaA_Prison2.TalkAfterRescue.thanks>",
+          "next_line": "* I was just about to tear a hole in that anvil..."
+        },
+        {
+          "occurrence_id": "O200bb4a9b7d73ead0260",
+          "unit_id": "D7dea37bf124672d02b30",
+          "category": "dialogue",
+          "location": "datadf/all.ds#L635",
+          "context": "datadf/all.ds | AreaA_Prison2.TalkAfterRescue.thanks | line 635",
+          "variant": "female",
+          "speaker": "*",
+          "prefix": "  * ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "374e45f11759b5db352d69049acd45c60eae79766e300eca90884eb1f60d592a",
+          "logical_path": "datadf/all.ds",
+          "resource_id": "R1498d95ee3abd4335938",
+          "archive": "patch",
+          "archive_entry": "datadf/1",
+          "line": 635,
+          "entry": "AreaA_Prison2.TalkAfterRescue.thanks",
+          "previous_line": "* Good thing you came along when you did! Whew!",
+          "next_line": "<AreaA_Prison3.Hello>"
+        }
+      ],
+      "source_units": [
+        {
+          "id": "D7309064e5c4d21399301",
+          "category": "dialogue",
+          "source": "Good thing you came along when you did! Whew!",
+          "source_sha256": "e5a4b72264547fe67cbfb0f42aa5636a315955008e764be309b47e92825881bc",
+          "variant": "female",
+          "speaker": "*",
+          "legacy_id": "Dc35b67096c",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 0,
+            "close_square": 0,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadf/all.ds | AreaA_Prison2.TalkAfterRescue.thanks | line 634"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        },
+        {
+          "id": "D7dea37bf124672d02b30",
+          "category": "dialogue",
+          "source": "I was just about to tear a hole in that anvil...",
+          "source_sha256": "374e45f11759b5db352d69049acd45c60eae79766e300eca90884eb1f60d592a",
+          "variant": "female",
+          "speaker": "*",
+          "legacy_id": "Dd26f5489b3",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 0,
+            "close_square": 0,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadf/all.ds | AreaA_Prison2.TalkAfterRescue.thanks | line 635"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "line": 629,
+          "r27": "<AreaA_Prison2.TalkBeforeRescue.bopped>"
+        },
+        {
+          "line": 630,
+          "r27": "  * 咕噜噜……！少废话，像打铁一样！狠狠！干！我！"
+        },
+        {
+          "line": 631,
+          "r27": "  * 快给我找个男人来！"
+        },
+        {
+          "line": 632,
+          "r27": ""
+        },
+        {
+          "line": 633,
+          "r27": "<AreaA_Prison2.TalkAfterRescue.thanks>  "
+        },
+        {
+          "line": 634,
+          "r27": "  * 幸好你及时赶到！呼——"
+        },
+        {
+          "line": 635,
+          "r27": "  * 我都要把那铁砧凿出个窟窿了……"
+        }
+      ]
+    },
+    "classification": "derived-coverage-skip",
+    "reason": "原文先完整感谢并以Whew呼气结束，下一行另起铁砧感叹。中文呼——是松气停顿，不是词中断；保留独立点按。"
+  },
+  {
+    "case_id": "DS02",
+    "kind": "unrecorded-skip",
+    "context": [
+      {
+        "line": 3871,
+        "r27": "<TomcatItems.StatNut>"
+      },
+      {
+        "line": 3872,
+        "r27": "  Yiffany: [好消息，刚搞到个硬坚果！传感器怎么说？]"
+      },
+      {
+        "line": 3873,
+        "r27": "  Tomcat: [才没有，你的体温没变，你的——]"
+      },
+      {
+        "line": 3874,
+        "r27": "  Tomcat: [哦，哈哈，原来是找到当地的美味了啊。]"
+      },
+      {
+        "line": 3875,
+        "r27": "  Tomcat: [至少先认真一会儿，听我说，那些坚果能增强你的防御能力。]"
+      },
+      {
+        "line": 3876,
+        "r27": ""
+      },
+      {
+        "line": 3877,
+        "r27": "  Yiffany: [哈哈！没抢先讲出这个笑话，不爽了吧。]"
+      },
+      {
+        "line": 3878,
+        "r27": "  Tomcat: [才、才没有。我可没为了说些蠢双关什么的，就特意研究这里的植物和动物……]"
+      },
+      {
+        "line": 3879,
+        "r27": ""
+      },
+      {
+        "line": 3880,
+        "r27": "  Tomcat: [……]"
+      },
+      {
+        "line": 3881,
+        "r27": "  Tomcat: [*背景传来纸张沙沙声*]"
+      },
+      {
+        "line": 3882,
+        "r27": "  Tomcat: [不过找到别的东西也记得告诉我。汤姆猫通话完毕！]"
+      },
+      {
+        "line": 3883,
+        "r27": ""
+      }
+    ],
+    "decision": "retained",
+    "operations": [],
+    "source_case": {
+      "case_id": "DS02",
+      "kind": "unrecorded-skip",
+      "edge": {
+        "logical_path": "datadf/all.ds",
+        "lines": [
+          3873,
+          3874
+        ],
+        "entry": "TomcatItems.StatNut",
+        "prefix": "  Tomcat: ",
+        "left_draft_cn": "[才没有，你的体温没变，你的——]",
+        "right_draft_cn": "[哦，哈哈，原来是找到当地的美味了啊。]",
+        "left_source_en": "[YOU DID NOT, THERE'S NO CHANGE IN YOUR TEMP OR TO Y-]",
+        "explicit_skip_reason": null
+      },
+      "occurrences": [
+        {
+          "occurrence_id": "Oeeda5f493f34e96aa0a3",
+          "unit_id": "Dadb931143b1fe602f290",
+          "category": "dialogue",
+          "location": "datadf/all.ds#L3873",
+          "context": "datadf/all.ds | TomcatItems.StatNut | line 3873",
+          "variant": "female",
+          "speaker": "Tomcat",
+          "prefix": "  Tomcat: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "b20ff0c2c01f46267af66b4696026ea409763b990cb3dcc686678cb4ff1cf217",
+          "logical_path": "datadf/all.ds",
+          "resource_id": "R1498d95ee3abd4335938",
+          "archive": "patch",
+          "archive_entry": "datadf/1",
+          "line": 3873,
+          "entry": "TomcatItems.StatNut",
+          "previous_line": "Yiffany: [GREAT NEWS, JUST GOT A HARDNUT! HOW ARE THE SENSORS?]",
+          "next_line": "Tomcat: [OH HAR HAR, FOUND SOME OF THE LOCAL EDIBLE DELIGHTS EH.]"
+        },
+        {
+          "occurrence_id": "O4bb21906a263c2fd09d5",
+          "unit_id": "D65e53622764eb14234e9",
+          "category": "dialogue",
+          "location": "datadf/all.ds#L3874",
+          "context": "datadf/all.ds | TomcatItems.StatNut | line 3874",
+          "variant": "female",
+          "speaker": "Tomcat",
+          "prefix": "  Tomcat: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "68e1aba20c31f21969ddfcd46ef3cdc9d77abd5897e8151ec478e47c06ef2b7a",
+          "logical_path": "datadf/all.ds",
+          "resource_id": "R1498d95ee3abd4335938",
+          "archive": "patch",
+          "archive_entry": "datadf/1",
+          "line": 3874,
+          "entry": "TomcatItems.StatNut",
+          "previous_line": "Tomcat: [YOU DID NOT, THERE'S NO CHANGE IN YOUR TEMP OR TO Y-]",
+          "next_line": "Tomcat: [AT LEAST BE SERIOUS FOR A MOMENT AND LET ME TELL YOU THAT]"
+        }
+      ],
+      "source_units": [
+        {
+          "id": "Dadb931143b1fe602f290",
+          "category": "dialogue",
+          "source": "[YOU DID NOT, THERE'S NO CHANGE IN YOUR TEMP OR TO Y-]",
+          "source_sha256": "b20ff0c2c01f46267af66b4696026ea409763b990cb3dcc686678cb4ff1cf217",
+          "variant": "female",
+          "speaker": "Tomcat",
+          "legacy_id": "D4e9f1c7cf5",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadf/all.ds | TomcatItems.StatNut | line 3873"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        },
+        {
+          "id": "D65e53622764eb14234e9",
+          "category": "dialogue",
+          "source": "[OH HAR HAR, FOUND SOME OF THE LOCAL EDIBLE DELIGHTS EH.]",
+          "source_sha256": "68e1aba20c31f21969ddfcd46ef3cdc9d77abd5897e8151ec478e47c06ef2b7a",
+          "variant": "female",
+          "speaker": "Tomcat",
+          "legacy_id": "Da671fafbd7",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadf/all.ds | TomcatItems.StatNut | line 3874"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "line": 3871,
+          "r27": "<TomcatItems.StatNut>"
+        },
+        {
+          "line": 3872,
+          "r27": "  Yiffany: [好消息，刚搞到个硬坚果！传感器怎么说？]"
+        },
+        {
+          "line": 3873,
+          "r27": "  Tomcat: [才没有，你的体温没变，你的——]"
+        },
+        {
+          "line": 3874,
+          "r27": "  Tomcat: [哦，哈哈，原来是找到当地的美味了啊。]"
+        },
+        {
+          "line": 3875,
+          "r27": "  Tomcat: [至少先认真一会儿，听我说，那些坚果能增强你的防御能力。]"
+        },
+        {
+          "line": 3876,
+          "r27": ""
+        },
+        {
+          "line": 3877,
+          "r27": "  Yiffany: [哈哈！没抢先讲出这个笑话，不爽了吧。]"
+        },
+        {
+          "line": 3878,
+          "r27": "  Tomcat: [才、才没有。我可没为了说些蠢双关什么的，就特意研究这里的植物和动物……]"
+        },
+        {
+          "line": 3879,
+          "r27": ""
+        },
+        {
+          "line": 3880,
+          "r27": "  Tomcat: [……]"
+        },
+        {
+          "line": 3881,
+          "r27": "  Tomcat: [*背景传来纸张沙沙声*]"
+        },
+        {
+          "line": 3882,
+          "r27": "  Tomcat: [不过找到别的东西也记得告诉我。汤姆猫通话完毕！]"
+        },
+        {
+          "line": 3883,
+          "r27": ""
+        }
+      ]
+    },
+    "classification": "derived-coverage-skip",
+    "reason": "TO Y-明确自我截断，随后OH HAR HAR识破坚果双关并改口；保留截断与揭示笑点的独立点按。"
+  },
+  {
+    "case_id": "DS03",
+    "kind": "unrecorded-skip",
+    "context": [
+      {
+        "line": 1381,
+        "r27": "<AreaC_Prison3.Rescue>"
+      },
+      {
+        "line": 1382,
+        "r27": "  * 哦！你要救我？我正盼着被狠狠干——"
+      },
+      {
+        "line": 1383,
+        "r27": "  * 我是说，出去干、干些上位特工该干的事。操、操、操当地生物，对！"
+      },
+      {
+        "line": 1384,
+        "r27": ""
+      }
+    ],
+    "decision": "retained",
+    "operations": [],
+    "source_case": {
+      "case_id": "DS03",
+      "kind": "unrecorded-skip",
+      "edge": {
+        "logical_path": "datadm/all.ds",
+        "lines": [
+          1382,
+          1383
+        ],
+        "entry": "AreaC_Prison3.Rescue",
+        "prefix": "  * ",
+        "left_draft_cn": "哦！你要救我？我正盼着被狠狠干——",
+        "right_draft_cn": "我是说，出去干、干些上位特工该干的事。操、操、操当地生物，对！",
+        "left_source_en": "Oh! You're gonna rescue me? I'm looking forward to getting a deep-",
+        "explicit_skip_reason": null
+      },
+      "occurrences": [
+        {
+          "occurrence_id": "Oa599314d9bc0437c136f",
+          "unit_id": "D16045aa2e03f8a4e3894",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L1382",
+          "context": "datadm/all.ds | AreaC_Prison3.Rescue | line 1382",
+          "variant": "male",
+          "speaker": "*",
+          "prefix": "  * ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "4beb4f78caa44ce7e126d4435febf32016b26c2d7a138ddb8c8297783934a0aa",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 1382,
+          "entry": "AreaC_Prison3.Rescue",
+          "previous_line": "<AreaC_Prison3.Rescue>",
+          "next_line": "* I mean getting out and d-doing top agent things. F-f-fucking fauna, right!"
+        },
+        {
+          "occurrence_id": "Oa89867a85947dbe9b84a",
+          "unit_id": "Df9d8bf6167bdadad0d56",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L1383",
+          "context": "datadm/all.ds | AreaC_Prison3.Rescue | line 1383",
+          "variant": "male",
+          "speaker": "*",
+          "prefix": "  * ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "2e96af137eb6db3b66bcdb23feca8026747c3ce014a513a88105ca790856c1c2",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 1383,
+          "entry": "AreaC_Prison3.Rescue",
+          "previous_line": "* Oh! You're gonna rescue me? I'm looking forward to getting a deep-",
+          "next_line": ""
+        }
+      ],
+      "source_units": [
+        {
+          "id": "D16045aa2e03f8a4e3894",
+          "category": "dialogue",
+          "source": "Oh! You're gonna rescue me? I'm looking forward to getting a deep-",
+          "source_sha256": "4beb4f78caa44ce7e126d4435febf32016b26c2d7a138ddb8c8297783934a0aa",
+          "variant": "male",
+          "speaker": "*",
+          "legacy_id": "D1dd231803b",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 0,
+            "close_square": 0,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | AreaC_Prison3.Rescue | line 1382"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        },
+        {
+          "id": "Df9d8bf6167bdadad0d56",
+          "category": "dialogue",
+          "source": "I mean getting out and d-doing top agent things. F-f-fucking fauna, right!",
+          "source_sha256": "2e96af137eb6db3b66bcdb23feca8026747c3ce014a513a88105ca790856c1c2",
+          "variant": "male",
+          "speaker": "*",
+          "legacy_id": "D7d2af63f54",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 0,
+            "close_square": 0,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | AreaC_Prison3.Rescue | line 1383"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "line": 1381,
+          "r27": "<AreaC_Prison3.Rescue>"
+        },
+        {
+          "line": 1382,
+          "r27": "  * 哦！你要救我？我正盼着被狠狠干——"
+        },
+        {
+          "line": 1383,
+          "r27": "  * 我是说，出去干、干些上位特工该干的事。操、操、操当地生物，对！"
+        },
+        {
+          "line": 1384,
+          "r27": ""
+        }
+      ]
+    },
+    "classification": "derived-coverage-skip",
+    "reason": "deep-后I mean明确掩饰欲望的自我改口；后句d-doing/f-f-fucking口吃也需保留，不能合并提前揭示。"
+  },
+  {
+    "case_id": "DS04",
+    "kind": "unrecorded-skip",
+    "context": [
+      {
+        "line": 2728,
+        "r27": "<Bossu.KoboPickup noselect noamendfreq>"
+      },
+      {
+        "line": 2729,
+        "r27": "  Bossu: [什么？海盗？竟敢霸占特工的无线电！]"
+      },
+      {
+        "line": 2730,
+        "r27": "  Bossu: [你最好没动那个可怜的特——]"
+      },
+      {
+        "line": 2731,
+        "r27": "  Bossu: [……伊法伊，是你吗？]"
+      },
+      {
+        "line": 2732,
+        "r27": "  Bossu: [……那是鳞片套装？汤姆猫也有的那种？]"
+      },
+      {
+        "line": 2733,
+        "r27": "  Bossu: [……我会把这段对话从记录里删掉。]"
+      },
+      {
+        "line": 2734,
+        "r27": "  Bossu: [……等你们胡闹完了再接吧……]"
+      },
+      {
+        "line": 2735,
+        "r27": ""
+      }
+    ],
+    "decision": "retained",
+    "operations": [],
+    "source_case": {
+      "case_id": "DS04",
+      "kind": "unrecorded-skip",
+      "edge": {
+        "logical_path": "datadm/all.ds",
+        "lines": [
+          2730,
+          2731
+        ],
+        "entry": "Bossu.KoboPickup noselect noamendfreq",
+        "prefix": "  Bossu: ",
+        "left_draft_cn": "[你最好没动那个可怜的特——]",
+        "right_draft_cn": "[……伊法伊，是你吗？]",
+        "left_source_en": "[YOU BETTER NOT HAVE LAID A HAND ON THAT POOR AGE-]",
+        "explicit_skip_reason": null
+      },
+      "occurrences": [
+        {
+          "occurrence_id": "O5f6544d48dc9a2fd8061",
+          "unit_id": "D8de65f42ab27fb4bd43f",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L2730",
+          "context": "datadm/all.ds | Bossu.KoboPickup noselect noamendfreq | line 2730",
+          "variant": "male",
+          "speaker": "Bossu",
+          "prefix": "  Bossu: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "bdc79b30e04dacf96fc3f13a6d8a22ede2358c96c57468cbcaee98ef079c82cb",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 2730,
+          "entry": "Bossu.KoboPickup noselect noamendfreq",
+          "previous_line": "Bossu: [WHAT? A PIRATE? HOW DARE YOU COMMANDEER AN AGENT'S RADIO!]",
+          "next_line": "Bossu: [...YIFFAI, IS THAT YOU?]"
+        },
+        {
+          "occurrence_id": "Of4908bc2676f2874c9d5",
+          "unit_id": "Dedb66be19d93daab07c6",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L2731",
+          "context": "datadm/all.ds | Bossu.KoboPickup noselect noamendfreq | line 2731",
+          "variant": "male",
+          "speaker": "Bossu",
+          "prefix": "  Bossu: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "9818efa5a6bba75087675683d669312f2a285588bb003d9f2ed9342d7d6a850b",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 2731,
+          "entry": "Bossu.KoboPickup noselect noamendfreq",
+          "previous_line": "Bossu: [YOU BETTER NOT HAVE LAID A HAND ON THAT POOR AGE-]",
+          "next_line": "Bossu: [...IS THAT A SCALE SUIT? LIKE TOMCAT HAS?]"
+        }
+      ],
+      "source_units": [
+        {
+          "id": "D8de65f42ab27fb4bd43f",
+          "category": "dialogue",
+          "source": "[YOU BETTER NOT HAVE LAID A HAND ON THAT POOR AGE-]",
+          "source_sha256": "bdc79b30e04dacf96fc3f13a6d8a22ede2358c96c57468cbcaee98ef079c82cb",
+          "variant": "male",
+          "speaker": "Bossu",
+          "legacy_id": "Dbb78fec7d3",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | Bossu.KoboPickup noselect noamendfreq | line 2730"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        },
+        {
+          "id": "Dedb66be19d93daab07c6",
+          "category": "dialogue",
+          "source": "[...YIFFAI, IS THAT YOU?]",
+          "source_sha256": "9818efa5a6bba75087675683d669312f2a285588bb003d9f2ed9342d7d6a850b",
+          "variant": "male",
+          "speaker": "Bossu",
+          "legacy_id": "D1a95eea9c9",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | Bossu.KoboPickup noselect noamendfreq | line 2731"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "line": 2728,
+          "r27": "<Bossu.KoboPickup noselect noamendfreq>"
+        },
+        {
+          "line": 2729,
+          "r27": "  Bossu: [什么？海盗？竟敢霸占特工的无线电！]"
+        },
+        {
+          "line": 2730,
+          "r27": "  Bossu: [你最好没动那个可怜的特——]"
+        },
+        {
+          "line": 2731,
+          "r27": "  Bossu: [……伊法伊，是你吗？]"
+        },
+        {
+          "line": 2732,
+          "r27": "  Bossu: [……那是鳞片套装？汤姆猫也有的那种？]"
+        },
+        {
+          "line": 2733,
+          "r27": "  Bossu: [……我会把这段对话从记录里删掉。]"
+        },
+        {
+          "line": 2734,
+          "r27": "  Bossu: [……等你们胡闹完了再接吧……]"
+        },
+        {
+          "line": 2735,
+          "r27": ""
+        }
+      ]
+    },
+    "classification": "derived-coverage-skip",
+    "reason": "AGE-在认出伊法伊前被自己中止，随后独立确认身份；保留先斥责再认人的悬念/角色事件时机。"
+  },
+  {
+    "case_id": "DS05",
+    "kind": "unrecorded-skip",
+    "context": [
+      {
+        "line": 4233,
+        "r27": "<TomcatItems.KoboBody>"
+      },
+      {
+        "line": 4234,
+        "r27": "  Tomcat: [这好像是某种……服装的衣身部分]"
+      },
+      {
+        "line": 4235,
+        "r27": "  Tomcat: [……鳞皮套装？]"
+      },
+      {
+        "line": 4236,
+        "r27": "  Yiffai: [感觉怪怪的。给我讲讲呗？]"
+      },
+      {
+        "line": 4237,
+        "r27": "  Tomcat: [这个嘛，我在学院认识的一些家伙特别热衷于扮成别的种族……]"
+      },
+      {
+        "line": 4238,
+        "r27": ""
+      },
+      {
+        "line": 4239,
+        "r27": "  Tomcat: [我不算特别喜欢，但以前偶尔也会玩玩，主要是他们还有些很棒的玩具可以配着——]"
+      },
+      {
+        "line": 4240,
+        "r27": ""
+      },
+      {
+        "line": 4241,
+        "r27": "  Yiffai: [这套衣服绝、对、不、是干那个用的！！]"
+      },
+      {
+        "line": 4242,
+        "r27": "  Yiffai: [……对吧？]"
+      },
+      {
+        "line": 4243,
+        "r27": "  Mauser: [你得找个没汤姆猫那么色、那么喵的家伙，给你讲讲这套衣服的用途了，伊法伊！]"
+      },
+      {
+        "line": 4244,
+        "r27": ""
+      },
+      {
+        "line": 4245,
+        "r27": "  Yiffai: [哼嗯！]"
+      },
+      {
+        "line": 4246,
+        "r27": ""
+      },
+      {
+        "line": 4247,
+        "r27": "### Elf ###"
+      }
+    ],
+    "decision": "retained",
+    "operations": [],
+    "source_case": {
+      "case_id": "DS05",
+      "kind": "unrecorded-skip",
+      "edge": {
+        "logical_path": "datadm/all.ds",
+        "lines": [
+          4234,
+          4235
+        ],
+        "entry": "TomcatItems.KoboBody",
+        "prefix": "  Tomcat: ",
+        "left_draft_cn": "[这好像是某种……服装的衣身部分]",
+        "right_draft_cn": "[……鳞皮套装？]",
+        "left_source_en": "[THAT SEEMS TO BE THE BODY PORTION OF SOME SORT OF...]",
+        "explicit_skip_reason": null
+      },
+      "occurrences": [
+        {
+          "occurrence_id": "O5e4ddef25efcd5a48da9",
+          "unit_id": "D8cd12a95060f2d25b195",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L4234",
+          "context": "datadm/all.ds | TomcatItems.KoboBody | line 4234",
+          "variant": "male",
+          "speaker": "Tomcat",
+          "prefix": "  Tomcat: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "0979bb34c9f8bf22bbb28ac6c8a53a28c1e01da94c85b79aa4e50004e436b719",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 4234,
+          "entry": "TomcatItems.KoboBody",
+          "previous_line": "<TomcatItems.KoboBody>",
+          "next_line": "Tomcat: [...SCALE SUIT?]"
+        },
+        {
+          "occurrence_id": "O63fa9747ea736593fbc6",
+          "unit_id": "D1c5de7a0cde7c527a1a8",
+          "category": "dialogue",
+          "location": "datadm/all.ds#L4235",
+          "context": "datadm/all.ds | TomcatItems.KoboBody | line 4235",
+          "variant": "male",
+          "speaker": "Tomcat",
+          "prefix": "  Tomcat: ",
+          "leading_ws": "",
+          "trailing_ws": "",
+          "raw_payload_sha256": "4b2cfdd22791868790cd46a77703698365f48405833bf03ba59d5e0fc323a94a",
+          "logical_path": "datadm/all.ds",
+          "resource_id": "Ra35a485b471cb2677d90",
+          "archive": "patch",
+          "archive_entry": "datadm/1",
+          "line": 4235,
+          "entry": "TomcatItems.KoboBody",
+          "previous_line": "Tomcat: [THAT SEEMS TO BE THE BODY PORTION OF SOME SORT OF...]",
+          "next_line": "Yiffai: [SEEMS KINDA WEIRD. CAN YOU FILL ME IN ON IT?]"
+        }
+      ],
+      "source_units": [
+        {
+          "id": "D8cd12a95060f2d25b195",
+          "category": "dialogue",
+          "source": "[THAT SEEMS TO BE THE BODY PORTION OF SOME SORT OF...]",
+          "source_sha256": "0979bb34c9f8bf22bbb28ac6c8a53a28c1e01da94c85b79aa4e50004e436b719",
+          "variant": "male",
+          "speaker": "Tomcat",
+          "legacy_id": "D65f308de56",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | TomcatItems.KoboBody | line 4234"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        },
+        {
+          "id": "D1c5de7a0cde7c527a1a8",
+          "category": "dialogue",
+          "source": "[...SCALE SUIT?]",
+          "source_sha256": "4b2cfdd22791868790cd46a77703698365f48405833bf03ba59d5e0fc323a94a",
+          "variant": "male",
+          "speaker": "Tomcat",
+          "legacy_id": "D6d381a1708",
+          "protected_tokens": [],
+          "markers": {
+            "placeholders": [],
+            "pipes": 0,
+            "newlines": 0,
+            "open_square": 1,
+            "close_square": 1,
+            "underscore_runs": [],
+            "angle_tag_pairs": 0
+          },
+          "width_hint_px": 240,
+          "occurrence_count": 1,
+          "context_examples": [
+            "datadm/all.ds | TomcatItems.KoboBody | line 4235"
+          ],
+          "review_flags": [
+            "raw_variant_semantics_unverified"
+          ]
+        }
+      ],
+      "context": [
+        {
+          "line": 4233,
+          "r27": "<TomcatItems.KoboBody>"
+        },
+        {
+          "line": 4234,
+          "r27": "  Tomcat: [这好像是某种……服装的衣身部分]"
+        },
+        {
+          "line": 4235,
+          "r27": "  Tomcat: [……鳞皮套装？]"
+        },
+        {
+          "line": 4236,
+          "r27": "  Yiffai: [感觉怪怪的。给我讲讲呗？]"
+        },
+        {
+          "line": 4237,
+          "r27": "  Tomcat: [这个嘛，我在学院认识的一些家伙特别热衷于扮成别的种族……]"
+        },
+        {
+          "line": 4238,
+          "r27": ""
+        },
+        {
+          "line": 4239,
+          "r27": "  Tomcat: [我不算特别喜欢，但以前偶尔也会玩玩，主要是他们还有些很棒的玩具可以配着——]"
+        },
+        {
+          "line": 4240,
+          "r27": ""
+        },
+        {
+          "line": 4241,
+          "r27": "  Yiffai: [这套衣服绝、对、不、是干那个用的！！]"
+        },
+        {
+          "line": 4242,
+          "r27": "  Yiffai: [……对吧？]"
+        },
+        {
+          "line": 4243,
+          "r27": "  Mauser: [你得找个没汤姆猫那么色、那么喵的家伙，给你讲讲这套衣服的用途了，伊法伊！]"
+        },
+        {
+          "line": 4244,
+          "r27": ""
+        },
+        {
+          "line": 4245,
+          "r27": "  Yiffai: [哼嗯！]"
+        },
+        {
+          "line": 4246,
+          "r27": ""
+        },
+        {
+          "line": 4247,
+          "r27": "### Elf ###"
+        }
+      ]
+    },
+    "classification": "derived-coverage-skip",
+    "reason": "some sort of...后下一行试探性辨认SCALE SUIT，属于悬念停顿和后续猜测，不是纯句法断词；不提前显露答案。"
+  }
+]

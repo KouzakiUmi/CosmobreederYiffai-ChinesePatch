@@ -1,0 +1,32 @@
+{
+  "status": "BOUNDED_DRAWING_VERIFIED_FULL_GAME_G3_UNPROVEN",
+  "game_started": false,
+  "installed": false,
+  "candidate_jar_sha256": "c7a015f3c0f9db6bf52ce668090659e2cb3385e1349458d1d3e3fbb8518b6923",
+  "recording_sha256": "fb5b0e020c8f81adae30ffcf4969ce6a8225820bd80049ae00920b599f5d2b37",
+  "replay_report_sha256": "0e9189e0ab95fd83005e039fac8100155a762a4bec5e25d32041a4d8f37f9db7",
+  "probe_checks": 3172,
+  "scenarios": 22,
+  "sn_draw_calls": 1450,
+  "expected_rejections": 1,
+  "guard": {
+    "active": true,
+    "positive_denials": 0,
+    "direct_negative_tests": 8,
+    "os_sandbox": false
+  },
+  "replay_unit_tests": 9,
+  "successful_candidate_frames": 11,
+  "successful_candidate_text_alpha_overlap_pixels": 0,
+  "normal_original_frame_overlap_pixels": 15,
+  "delete_original_visible_frame_overlap_pixels": 4,
+  "source_sha256": {
+    "localization/layout/validation/PRG/SaveDrawingProbe.java": "b651e37b3d7df62d190b8df3b939fa3a05d1b175db7539069141959f326c4fdf"
+  },
+  "storage_preflight_sha256": "7278ca997f1c1e8cb34741c692634dce9ecd3be1f3c03b1071bc35f96d161a5d",
+  "limitations": [
+    "synthetic state; Mf.s override; selected constructors bypassed",
+    "CPU glyph runs/quads, no shader/CRT/actual parent clip",
+    "no real input, save, native or Steam runtime verification"
+  ]
+}

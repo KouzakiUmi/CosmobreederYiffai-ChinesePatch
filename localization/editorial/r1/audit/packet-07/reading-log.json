@@ -1,0 +1,214 @@
+{
+  "packet": "packet-07",
+  "input_path": "localization\\editorial\\r1\\corpus\\snapshot-01\\packets\\packet-07.reader.md",
+  "input_sha256": "053f2230da4180ba29de5a87a3604c05d9c0ffc891a5fe3375ba77f460152c39",
+  "packet_json_sha256": "87f049b2028f769f0c9dd95e016e134256ba448ecc695554f565963cf23c7edb",
+  "read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2409
+    ]
+  ],
+  "truncated_ranges": [],
+  "references_read": [
+    "LOCALIZATION_BRIEF.md",
+    "WORK_ORDERS.md",
+    "reference/characters-primary.md",
+    "reference/characters-support.md",
+    "reference/world-and-plot.md"
+  ],
+  "reader_sha256": "053f2230da4180ba29de5a87a3604c05d9c0ffc891a5fe3375ba77f460152c39",
+  "read_status": "read_full",
+  "actual_read_ranges": [
+    [
+      1,
+      100
+    ],
+    [
+      101,
+      250
+    ],
+    [
+      251,
+      400
+    ],
+    [
+      401,
+      550
+    ],
+    [
+      551,
+      700
+    ],
+    [
+      701,
+      850
+    ],
+    [
+      851,
+      1000
+    ],
+    [
+      1001,
+      1150
+    ],
+    [
+      1151,
+      1300
+    ],
+    [
+      1301,
+      1450
+    ],
+    [
+      1451,
+      1600
+    ],
+    [
+      1601,
+      1750
+    ],
+    [
+      1751,
+      1900
+    ],
+    [
+      1901,
+      2050
+    ],
+    [
+      2051,
+      2200
+    ],
+    [
+      2201,
+      2350
+    ],
+    [
+      2351,
+      2409
+    ]
+  ],
+  "reader_lines": 2409,
+  "reader_clipped": false,
+  "reference_reads": {
+    "LOCALIZATION_BRIEF.md": [
+      1,
+      65
+    ],
+    "WORK_ORDERS.md": [
+      1,
+      48
+    ],
+    "characters-primary.md": [
+      [
+        1,
+        277
+      ],
+      [
+        278,
+        377
+      ]
+    ],
+    "characters-support.md": [
+      1,
+      128
+    ],
+    "world-and-plot.md": [
+      [
+        1,
+        150
+      ],
+      [
+        151,
+        300
+      ],
+      [
+        301,
+        406
+      ]
+    ]
+  },
+  "reference_clipping": {
+    "characters-primary.md": "初次默认read裁剪于277；已补读278–377",
+    "world-and-plot.md": "首次不存在，完成后已补读1–406"
+  },
+  "method": "全包以read每段不超过150行依序实际通读；脚本仅整理已判断发现、抽取精确引文/ID与覆盖库存，不代替语义阅读。",
+  "not_done": [
+    "正式译文应用",
+    "逐实际节点回填映射",
+    "独立二审",
+    "code用途运行核验",
+    "图像视觉/OCR/重绘",
+    "UI排版及实机验证"
+  ],
+  "counts": {
+    "scenes": 297,
+    "rows": 1304,
+    "findings": 28
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "status": "passed_synthetic_delta_and_static_gates_only",
+  "production_package_created": false,
+  "install_invoked": false,
+  "uninstall_invoked": false,
+  "game_started": false,
+  "exe_built": false,
+  "checks": [
+    "synthetic-COPY-XOR-source-dependent-bytewise-reconstruction",
+    "wrong-source-SHA-rejected",
+    "synthetic-complete-schema-accepted-only-as-read-only-probe",
+    "partial",
+    "not-full",
+    "missing-component",
+    "duplicate-component",
+    "wrong-r27-base-pin",
+    "installed-boundary-claim",
+    "stale-target-SHA",
+    "failed-build-command",
+    "unsafe-build-id",
+    "old-alpha-output-rejected-before-write",
+    "non-dist-r28-output-rejected-before-write",
+    "actual-partial-pilot-rejected-without-packaging",
+    "zip-blocks-cosmobreeder_patch/patch.pak",
+    "zip-blocks-cosmobreeder_patch/x.png",
+    "zip-blocks-cosmobreeder_patch/font.bdf",
+    "zip-blocks-cosmobreeder_patch/../oops.txt",
+    "zip-blocks-cosmobreeder_patch/x.exe",
+    "ZIP-exact-allowlist",
+    "complete-original-and-native8-legal-text-inventory-with-unmodified-installer"
+  ],
+  "staged_verify_payload": {
+    "exit_code": 0,
+    "action": "--verify-payload",
+    "result": {
+      "version": "alpha0.1",
+      "status": "verified",
+      "game_started": false
+    }
+  },
+  "original_backups_read_only_pins": {
+    "cosmobreeder-multi.jar": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+    "patch.pak": "2f9da7d49ece8427c5ae733f725bec0fe6b0b49c18d0331c06857d1ff758b2fa"
+  },
+  "check_count": 22,
+  "installer_and_legal_input_count": 21,
+  "script_sha256": "646fc8d2afbd0e4a791085a07b129a6b11e9efa7a47683e8bf2c63cdc8e19120",
+  "full_production_candidate_package_validation": "not_run; parent executes only after final seven-component candidate exists"
+}

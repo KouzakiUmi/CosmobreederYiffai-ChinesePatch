@@ -1,0 +1,17 @@
+{
+  "ui:1d915599364f2e27": {
+    "source": "FMOD STUDIO BY FIRELIGHT",
+    "translation": "FMOD STUDIO，由 FIRELIGHT 开发",
+    "status": "candidate",
+    "cosmetic_padding": {
+      "source_left": 4,
+      "source_right": 4,
+      "target_left": 3,
+      "target_right": 3
+    },
+    "notes": [
+      "final-01真实JVM结算测试发现原复用译文34格/272px；只将两端各4个装饰空格改为3个，正文与FMOD STUDIO/FIRELIGHT署名完整保留，最终32格/256px。",
+      "此源ID的明确排版padding修正，不授权其他首尾空白变化；不改原32格容量、字体、署名、标记或其他59条结算字段。"
+    ]
+  }
+}

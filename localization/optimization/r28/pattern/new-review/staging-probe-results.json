@@ -1,0 +1,33 @@
+{
+  "scope": "static exact current-known-source rewrite check, not candidate execution",
+  "full_selected_owners": {
+    "default": true,
+    "story12": true,
+    "classic": true
+  },
+  "partial_core_sfw_missing_owners": [
+    "story12",
+    "classic"
+  ],
+  "known_literal_rewrites": {
+    "default": {
+      "source": "localization/layout/src/PRG/DialogueWrap.java",
+      "old_literal_count": 1,
+      "new_literal_count": 1,
+      "old_remaining": false
+    },
+    "story12": {
+      "source": "localization/layout/src/PRG/StoryFont12.java",
+      "old_literal_count": 1,
+      "new_literal_count": 1,
+      "old_remaining": false
+    },
+    "classic": {
+      "source": "localization/layout/src/PRG/EndingReportLayout.java",
+      "old_literal_count": 1,
+      "new_literal_count": 1,
+      "old_remaining": false
+    }
+  },
+  "reviewed_build_candidate_sha256": "d0eb974196efdef1a227d7d05092d1ad22f0b2634652eb88bebcf94caebdc044"
+}

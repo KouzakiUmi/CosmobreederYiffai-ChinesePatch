@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "unittest_count": 13,
+  "exact_nickname_positive_properties": 3,
+  "out_of_scope_or_case_negative_properties": 2,
+  "evidence_sha256": {
+    "localization/editorial/r3-names/review/unit-tests-final.log": "0814a03221b2cae3eb8601b0277cb03732f51a9c514929fb75b681aa25ac42c7",
+    "localization/editorial/r3-names/engineering/test_names.py": "ccd12e1ad3a761a6053f2a26bbc7b0d87f22700de623ff6244d3789502e1b5ad",
+    "localization/editorial/r3-names/tools/compile_names.py": "44c3924e6636b529ca7f9530e9ae435db6483a326a0a931356bbdb5a624682d6",
+    "localization/translations/character-names.json": "bece4c1c6f4eb31d9883b5745c0fb95b66044c47e630de806a03497bc8850e9e"
+  }
+}

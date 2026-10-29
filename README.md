@@ -39,6 +39,25 @@
 
 ---
 
+## FizRP 风格安装器（本地重制候选）
+
+当前本地修正版使用 r28-character-names-candidate8 内容，参考 FizRP 的浅蓝／薄荷配色、目录选择、操作状态与运行记录；耗时校验和安装在后台执行，避免界面卡死。已迁移旧安装器的“自动查找”：只读 Steam 注册表位置、常见库与 `libraryfolders.vdf`，检查安装器附近目录；不递归扫描磁盘。多处候选供选择，找到后自动检测原版／NSFW 档位，不自动安装。找不到时仍可手动浏览。沿用 alpha0.1 差分与备份还原协议，不增加跨版本覆盖升级。
+
+- [Windows 独立安装器](<dist/r28-character-names-20261026/CosmobreederYiffai-alpha0.1-setup.exe>)、[Python ZIP](<dist/r28-character-names-20261026/CosmobreederYiffai-alpha0.1-python.zip>)、[使用说明](<dist/r28-character-names-20261026/README.md>)。
+- **本轮R3人名统一**：36项逐名裁决，839个节点精确应用，采用雄猫／毛鼠、伊吠／伊吠妮、猎豹／绍狞等音义方案，并统一正文异形；保原形的代号／谜题名字有明确理由。内部ID／JF掩名／频率不改，R2非姓名修订全部继承。实际归档独立核验、17项CPU步骤及差分重建／EXE载荷和许可自检通过，未安装或实机验收。详见[完整人名对照](<localization/editorial/r3-names/README.md>)。
+- **上一轮R2内容修订（继续继承）**：339 条粗校记录全部复审，291 条应用、45 条留置、3 条驳回；Tomcat当时先保留英文，本轮R3按音义规则采用雄猫。536 个主审节点和版本别名按来源精确回填，独立复核与17项CPU步骤、差分重建、EXE载荷／许可检查通过。未执行真实安装或游戏验收，详见[本轮修订报告](<localization/editorial/r2/README.md>)。
+- **前一轮排版修正（布局继续保留）**：无线电头像名、对白署名及底部联系人适配显示（姓名现以R3台账为准）；图鉴“败北”等列表名称改为 classic8，底部说明放大至 default10、10px 行距并重新换行。内部角色 ID、隐藏身份和存档不变。17 项最终归档 CPU 回归、独立增量复核及 EXE 载荷／许可自检通过，未执行实机安装或游戏验收。详见[修复与复现说明](<localization/optimization/r28/radio-book/README.md>)。
+- 适用于 `1.0.5_full`：无官方 `patch.pak` 时识别为原版 SFW 档，仅更新 JAR；存在官方包时识别为 NSFW 档，核对两项源 SHA-256 后更新 JAR 与 PAK。未知来源拒绝写入；旧汉化先用对应旧安装器还原。
+- EXE 双击时隐藏控制台，命令行参数保留；`--selftest` 构建界面、验证载荷后自动退出，不执行安装。
+- 此候选未签名；自动自检不等于人工点击验收或实机游戏验收。
+
+## 文案精校（R1文档／粗校，R2修订，R3人名统一）
+
+参考 WoC 的工单／证据／复审执行方式，不套用其奇幻文风或术语。R1 文档与全文粗校、R2可确认修订和R3人名统一已完成；尚未宣布全游戏系统整段精校完成。[当前人名裁决](<localization/editorial/r3-names/reports/names-01/SUMMARY.md>)、[前轮修订与留置清单](<localization/editorial/r2/reports/repair-01/SUMMARY.md>)。
+
+- [精校方案与参照入口](<localization/editorial/r1/README.md>)：角色、世界观、剧情条件、称呼与暂定术语。
+- [首轮全文粗校总览](<localization/editorial/r1/reports/rough-review-01/SUMMARY.md>)：十包通读，339 条记录（309 条待复审改写提案、30 条待核）；包含独立抽核与退修记录，不能直接当定稿应用。
+
 ## 📥 下载与安装
 
 从 [alpha0.1 预发行页](https://github.com/KouzakiUmi/CosmobreederYiffai-ChinesePatch/releases/tag/alpha0.1) 下载 **Windows 独立安装器**，或下载 **Python 运行版 ZIP**。
@@ -66,7 +85,7 @@ python -m cosmobreeder_patch --licenses
 
 ## 🎮 安装与还原机制
 
-1. **定位固定文件**：只处理 `cosmobreeder-multi.jar` 与 `patch.pak`，不递归发现游戏、不扫描注册表、不访问存档。
+1. **定位固定文件**：安装引擎只处理 `cosmobreeder-multi.jar` 与 `patch.pak` 及专属备份／状态，不访问存档。新版 GUI 可只读查询 Steam 安装注册表项、多库配置及附近目录来定位候选，不递归扫描；候选目录仍须经过档位与源 SHA 校验。
 2. **档位检测**：存在 `patch.pak` 时视为官方可选补丁档，同时校验两文件 SHA-256；否则只处理 JAR 的原版档。任一不匹配即拒绝，**不提供强制覆盖**。
 3. **先重建再动手**：全部目标文件先在系统临时目录重建并通过精确 SHA-256 校验，之后才触碰游戏目录。
 4. **专属备份 + journal**：备份写入 `_cosmobreeder_alpha0.1_backup/` 与 `cosmobreeder-alpha0.1-state.json`，记录本次源/目标哈希；已有安装记录或备份存在时拒绝重复安装。
@@ -167,7 +186,15 @@ CB_REAL_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 ```
 
-构建器重新生成 `manifest.json`、`SHA256SUMS`，并把根 `LICENSE`、`NOTICE`、`THIRD_PARTY_NOTICES.md` 与完整 `licenses/` 文本目录复制进发行目录、嵌入 EXE 与运行 zip；许可文件缺失时拒绝构建。构建会短暂生成精确目标验证文件，校验后立即删除，不进入发布包。
+具有本地已验收r28目标时，仍使用同一个[原构建入口](<tools/build_alpha_release.py>)和[原安装器界面](<src/cosmobreeder_patch/__main__.py>)，不另起打包入口：
+
+```sh
+python tools/build_alpha_release.py --source backup --target localization/builds/r28-full-opt-candidate2 --output dist/r28-original-tool-new --exe
+```
+
+r27默认参数保持不变；r28必须通过对应验收记录和目标SHA门禁，并从冻结目标补齐原生8px完整许可。EXE内置UTF-8模式，原安装器源码、备份／还原和alpha0.1状态协议不变；构建只运行负载／许可校验，不执行真实安装或卸载。
+
+构建器重新生成发布清单与SHA256SUMS，复制完整法律声明，并嵌入EXE与Python ZIP。缺少许可时拒绝构建；临时重建必须与冻结目标逐字节相同，核实归属和路径后才清理，不进入发布包。
 
 发布采用**新增** Release 的方式，不覆盖历史版本。版本历史见 [Releases](../../releases)。
 

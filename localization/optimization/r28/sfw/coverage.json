@@ -1,0 +1,78 @@
+{
+  "schema": "sfw-candidate-coverage/v1",
+  "archive_sha256": "cd37e445b36b8ad1b64a0089fe718362ec130af9219ee02f215d223ba8fa6221",
+  "records": 7134,
+  "per_kind": {
+    "ds": {
+      "reused_candidate": 4976,
+      "preserved": 56,
+      "candidate": 439
+    },
+    "vsn": {
+      "reused_candidate": 647,
+      "candidate": 143,
+      "preserved": 2
+    },
+    "ui": {
+      "reused_candidate": 734,
+      "candidate": 44,
+      "preserved": 93
+    }
+  },
+  "pending_unique": {},
+  "special_roles": {
+    "Fox": 262,
+    "HardFox": 10
+  },
+  "candidate_is_not_runtime_acceptance": true,
+  "audit_460_ds_gap": {
+    "located_records": 460,
+    "status": {
+      "candidate": 417,
+      "preserved": 4,
+      "reused_candidate": 39
+    },
+    "remaining_ids": []
+  },
+  "sfw_vsn_joins": {
+    "applied_candidate_groups": 19,
+    "retained_review_groups": 0,
+    "click_reduction": 19,
+    "unmatched_canonical_suggestions_not_applied": 281
+  },
+  "sfw_ds_polish": {
+    "candidate_operations": 16,
+    "source": "own JAR raw source IDs plus applied canonical joins plus exact old Chinese"
+  },
+  "intentional_corruption_not_full_Chinese": [
+    {
+      "ledger_id": "SFW03012fac0a4548ecbc283a53",
+      "logical_path": "datadf/all.ds",
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "raw_source": "[G...D JOB DEF...ING TH...A...ET...AI!]"
+    },
+    {
+      "ledger_id": "SFW89828a6ab567ab16a388d671",
+      "logical_path": "datadf/all.ds",
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "raw_source": "[...SAID... B...IG... ...TEN... ...END!]"
+    },
+    {
+      "ledger_id": "SFW5f8a5ceb0952154ab8c78294",
+      "logical_path": "datadm/all.ds",
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "raw_source": "[G...D JOB DEF...ING TH...A...ET...AI!]"
+    },
+    {
+      "ledger_id": "SFWc11c9d73ebcce89eab847772",
+      "logical_path": "datadm/all.ds",
+      "root": "Mauser.AreaA_map34_a noamendfreq",
+      "raw_source": "[...SAID... B...IG... ...TEN... ...END!]"
+    }
+  ],
+  "candidate_containing_Han": {
+    "ds": 5345,
+    "ui": 778,
+    "vsn": 777
+  }
+}

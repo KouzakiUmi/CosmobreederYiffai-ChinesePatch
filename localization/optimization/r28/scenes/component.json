@@ -1,0 +1,108 @@
+{
+  "component": "r28-scenes",
+  "integration_base": "localization/builds/r27-story12-shaderfix-test5/cosmobreeder-multi.jar",
+  "runtime": [
+    "localization/layout/src/PRG/SceneText.java",
+    "localization/layout/src/PRG/EndingReportLayout.java"
+  ],
+  "tools": [
+    "localization/layout/tools/java/SceneTextPatch.java"
+  ],
+  "tests": [
+    "localization/layout/tests/SceneTextTest.java",
+    "localization/layout/tests/EndingReportLayoutTest.java"
+  ],
+  "helper_classes": [
+    "PRG/EndingReportLayout.class",
+    "PRG/SceneText$1.class",
+    "PRG/SceneText.class"
+  ],
+  "target_pins": {
+    "PRG/Ew.class": "4034ebb934633cf4c074b8489ede4ba08bc025d63cf03c02fe18111b86df51f6",
+    "PRG/Jm.class": "e6ae7a07e1e9a5a0d59a8413a9deeef30a57b3536377c4ae0c8ec0bb51d48fa5",
+    "PRG/kn.class": "06ecd40ba83236fa72f012091e13e6ef985926db2943e2016316702f4a76e53e",
+    "PRG/Lx.class": "3affe2e2e0fb378c85e6749fc81d487d8b2b48699d90748a3b0d6030a060d300",
+    "PRG/Po.class": "9120a3493600e030737bca3eae89aee55b590869cda28d4f9e92c3446bac0050",
+    "PRG/Kc.class": "2f407f1f6c3e4e7dda3f3f47a8a3445f3047b5be87f35d1b775aa559c76a0eb2"
+  },
+  "patcher_class": "SceneTextPatch",
+  "patcher_entry": "public static void apply(Map<String,ClassNode>)",
+  "patch_order": "Raw-SHA check all six entries; ClassReader.EXPAND_FRAMES; apply while these targets are pristine r27; do NOT reapply old EndingReportPatch. Other disjoint patchers may run before/after.",
+  "pin_contract": "Driver must enforce target_pins on raw class bytes. apply additionally enforces complete canonical ASM17 class-tree SHA and exact method descriptors/callsite ordinal counts, atomically before mutation.",
+  "resource_requirements": {
+    "new_resources": [],
+    "font_roles": [
+      "default",
+      "classic"
+    ],
+    "requirements": [
+      "Existing default10 and classic8 glyph metrics/pixels preserved; only append missing glyphs.",
+      "classic printable ASCII must retain original Yq fixed-width setup (8px advance).",
+      "Retain original 1px transparent Latin glyph quad padding.",
+      "FontAccess/LayoutBridge and PixelLayout public APIs already in r27; do not globally patch It/Yg centering."
+    ]
+  },
+  "candidate_cpu_tests": [
+    {
+      "main": "EndingReportLayoutTest",
+      "arguments": [
+        "{fontdir}/classic.fnt",
+        "{sfw-dictionary.json}"
+      ]
+    },
+    {
+      "main": "EndingReportLayoutTest",
+      "arguments": [
+        "{fontdir}/classic.fnt",
+        "{nsfw-dictionary.json}"
+      ]
+    },
+    {
+      "main": "SceneTextTest",
+      "arguments": [
+        "--candidate",
+        "{candidate.jar}",
+        "{fontdir}",
+        "{sfw-dictionary.json}",
+        "{nsfw-dictionary.json}"
+      ],
+      "vm_extra": [
+        "-Dscenes.report={new-output}/breeding-corpus.json"
+      ]
+    }
+  ],
+  "test_classpath_order": [
+    "{testclasses}",
+    "{candidate.jar}",
+    "{toolclasses}"
+  ],
+  "vm_flags": [
+    "-Dfile.encoding=UTF-8",
+    "-Xverify:all",
+    "--add-exports",
+    "java.base/jdk.internal.org.objectweb.asm=ALL-UNNAMED",
+    "--add-exports",
+    "java.base/jdk.internal.org.objectweb.asm.tree=ALL-UNNAMED"
+  ],
+  "fontdir_files": [
+    "bbc2.fnt",
+    "classic.fnt"
+  ],
+  "font_pin_staging": [
+    "PRG/EndingReportLayout.FONT_SHA256 must match candidate classic.fnt (original pixels/metrics plus appended glyphs)."
+  ],
+  "frozen_r27_evidence": "localization/optimization/r28/scenes/run010/results.json",
+  "source_sha256": {
+    "localization/layout/src/PRG/SceneText.java": "6303d44070bf34e9e60cbe11514b297fc7d5ac4103590d58c11dfe4cd8f7d55a",
+    "localization/layout/src/PRG/EndingReportLayout.java": "716f97d9d7d87a0ff19e688434758b227dbc331f285f418a52f3e86a5d033451",
+    "localization/layout/tools/java/SceneTextPatch.java": "87d72f402a2a888aeb7584df862132ea2f50be476004a4d3130c8c4b2585e931",
+    "localization/layout/tests/SceneTextTest.java": "1944ce6543de604cbc6b83abbb8f1b54476fc5da73a43a531052ef6d228f1fdc",
+    "localization/layout/tests/EndingReportLayoutTest.java": "88c289abe465fde46e89e91d56e200e40c5f934832abed35ccbdeb5cd538defe"
+  },
+  "unknown": [
+    "No complete UI parent/FBO/clip/CRT/GPU execution.",
+    "No real keyboard/controller/input traversal.",
+    "No arbitrary user text or unknown overheight content viewing strategy; capacity failures refuse rather than truncate.",
+    "Full Jm front/back/flip scene and kn SA Reverse/AlBhed transformations not replayed."
+  ]
+}

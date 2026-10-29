@@ -1,0 +1,23 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "ledger": "localization/translations/editorial-r6-consistency-repairs.jsonl",
+  "gate": "localization/editorial/r6-consistency/reports/consistency-01/build-gate.json",
+  "decisions": "localization/editorial/r6-consistency/reports/consistency-01/decisions.tsv",
+  "required_data": [
+    "../../../translations/editorial-r6-consistency-repairs.jsonl",
+    "../../../editorial/r6-consistency/reports/consistency-01/build-gate.json",
+    "../../../editorial/r6-consistency/reports/consistency-01/decisions.tsv",
+    "../../../editorial/r6-consistency/tools/verify_consistency.py"
+  ],
+  "required_chars": [
+    "让我猜猜：刚碰了一颗传感器探测不到的悬浮球？",
+    "弹跳机",
+    "驯兽",
+    "那一区的弹跳机，装甲似乎比你之前见过的同类更好。",
+    "那一区的弹跳机，装甲似乎比你见过的其他弹跳机都要好。",
+    "当然，我也不是没有胃口。 "
+  ]
+}

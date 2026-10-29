@@ -1,0 +1,113 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O06f1907ba07d8dc7b391	SC7a92e517ed293442	ds	B	  Yiffai: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]		  Yiffai: [淘、淘气？这个我可说不准，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]	ds:P02-060:B
+CAT:O0b3c8bdd88e013a74bb6	SC8fc1d02a6ab7a24f	gemini	B	  Tomcat: [哦，是你吗，Y特工？]	  Tomcat: [哦，是你吗，Y探员？]		gemini:P02-041:B
+CAT:O0c8211a9d37463e29f8d	SC29cb42777b41829b	ds+gemini	A,needs_evidence	  Yiffai: [嗯，VEHICU……？不，是 3-*2*。轻型电击枪保养……？]	  Yiffai: [嗯，载具……？不，是 3-*2*。光能电击刃保养……？]	  Yiffai: [嗯，VEHICU……？不，是 3-*2*。光能电击刃保养……？]	gemini:P02-050:A ds:P02-070:needs_evidence
+CAT:O0cfa5bde1146fdd6ecea	SC30bbe99d4389a0bf	ds	C	  Tomcat: [啊，这个……听起来……真有意思……]		  Tomcat: [啊……这样啊……听起来……真有意思……]	ds:P02-068:C
+CAT:O10d160b811e4756bcaa1	SC9e591c294ef1ac37	ds	B	  Yiffai: [否定，杂音太重，无法听清总部。]		  Yiffai: [不行，杂音太重，听不清总部。]	ds:P02-030:B
+CAT:O154d658fe941fe5ec590	SCc03069cb0055411f	gemini	B	  Tomcat: [是什么？终于找到驯兽电击枪了？]	  Tomcat: [是什么？终于找到驯兽电击刃了？]		gemini:P02-026:B
+CAT:O1b2c8e2c878f4fbe717b	SC5e2b2e3aaaa209d1	gemini	B	  Tomcat: 呃？！特工……伊吠？	  Tomcat: 呃？！探员……伊吠？		gemini:P02-045:B
+CAT:O2174c5fe64f4102f53b2	SCb09c7c6e85e32642	gemini	B	  Bossu: [你确定吗，特工？]	  Bossu: [你确定吗，探员？]		gemini:P02-017:B
+CAT:O25cedba8d6fdd2231429	SCc03069cb0055411f	ds	B	  Tomcat: [先缓一分钟，等你的"兴奋"消下去吧，小狗崽。可别吓着当地那些家伙。]		  Tomcat: [先缓一分钟，等你的「兴奋」消下去吧，小狗崽。可别吓着当地那些家伙。]	ds:P02-067:B
+CAT:O2f08e3046c2ccced0fb0	SCae345fce997f566f	gemini	B	  Tomcat: 哈？！特工……伊吠妮？	  Tomcat: 哈？！探员……伊吠妮？		gemini:P02-046:B
+CAT:O30e37ccba11ed6e8b795	SCb09c7c6e85e32642	ds	B	  Tomcat: [我看见你捡到钩爪枪了，小狗？]		  Tomcat: [我看见你捡到钩爪了，小狗崽？]	ds:P02-014:B
+CAT:O333110e1aecae442eaf3	SCad3ea7970d37573b	ds+gemini	B	  Bossu: [说明，特工。]	  Bossu: [说明情况，探员。]	  Bossu: [解释一下，特工。]	gemini:P02-014:B ds:P02-044:B
+CAT:O33a4fd2b09ac4313cf49	SCad3ea7970d37573b	ds	B	  Tomcat: [我看见你捡到一把钩锁了。]		  Tomcat: [我看见你捡到钩爪了。]	ds:P02-013:B
+CAT:O343d21c74e8cf4710cc0	SC92ab63c597a375c2	gemini	B	  Tomcat: [呃，等你没穿着科博德套装的时候再打给我？]	  Tomcat: [呃，等你没穿着科博套件的时候再打给我？]		gemini:P02-051:B
+CAT:O3a330ed3405476761de0	SC414553ce54cf5a3f	ds+gemini	B	  Tomcat: [真是的，那撅屁股的小家伙先丢了电击枪，现在无线电又被史莱姆抢了？]	  Tomcat: [真是的，那撅屁股的小家伙先丢了电击刃，现在无线电又被史莱姆抢了？]	  Tomcat: [真是的，那爱翘尾的小子先丢了电击枪，现在无线电又被史莱姆抢了？]	gemini:P02-061:B ds:P02-023:B
+CAT:O3a775d3332e66cb5e7fc	SC41f714a207c66198	ds	C	  Tomcat: [对，它们是/昂贵的/鞋！限量版！]		  Tomcat: [对，它们是/贵上天/的鞋！限量版！]	ds:P02-069:C
+CAT:O44abc9ae439d2607ec8c	SCf532915a63773f91	ds	B	  Yiffany: [拜托，我可不是白当年级第一毕业的！]		  Yiffany: [拜托，我可是以年级第一毕业的！]	ds:P02-053:B
+CAT:O47f03d4d922c622c1d14	SC802b4ca328a9e80b	gemini	B	  Tomcat: [你好呀，Y特工，雄猫前来报到！]	  Tomcat: [你好呀，Y探员，雄猫前来报到！]		gemini:P02-004:B
+CAT:O4af2670b0540d2ca860b	SCbef498a71645cdb4	gemini	B	  Bossu: [特工，你最好听听自己的直觉]	  Bossu: [探员，你最好听听自己的直觉]		gemini:P02-011:B
+CAT:O4e73429a4a1184f377f2	SC692b79fe52f83d3f	ds	B	  Tomcat: [告诉你主人，她这笑话可一点都不好笑！]		  Tomcat: [告诉你主人，她该换套幽默感了！]	ds:P02-061:B
+CAT:O56687a3a48caf477571d	SCbef498a71645cdb4	gemini	A	  Bossu: [火把忽明忽暗，突然冒冷汗，可能是在提醒你，先保存重要数据，再继续探索陌生房间。]	  Bossu: [手提电筒忽明忽暗，突然冒冷汗，可能是在提醒你，先保存重要数据，再继续探索陌生房间。]		gemini:P02-012:A
+CAT:O5880cf9de5c37c07d123	SCc03069cb0055411f	ds	B	  Tomcat: [能让你这小狗崽把/这种/体征数据传回指挥中心的，还能有什么？]		  Tomcat: [能让你这小狗崽把/这种/体征数据传回总部的，还能有什么？]	ds:P02-036:B
+CAT:O5cc9b0d80e737354bfbb	SC3c0ffb7f567ba00e	ds	B	  Yiffai: [……？！翘屁股——]		  Yiffai: [……？！翘尾——]	ds:P02-024:B
+CAT:O5cd7254a36ebe307ee10	SC3c0ffb7f567ba00e	gemini	B	  Tomcat: [喂？哦！你不是伊吠特工！]	  Tomcat: [喂？哦！你不是伊吠探员！]		gemini:P02-054:B
+CAT:O60b1135756756340374a	SCb09c7c6e85e32642	gemini	B	  Bossu: [很遗憾，特工，既然我们无法与你姐姐取得联系，她本人也没有回应……]	  Bossu: [很遗憾，探员，既然我们无法与你姐姐取得联系，她本人也没有回应……]		gemini:P02-020:B
+CAT:O6157258ddd7562f1bcdf	SCb09c7c6e85e32642	gemini	B	  Yiffai: [绝对没错。她在我面前脱了衣服，然后才跟我用电击枪交手。]	  Yiffai: [绝对没错。她在我面前脱光了衣服，才拔出电击刃跟我交手。]		gemini:P02-018:B
+CAT:O626ae8c475d4e662ac69	SC8c2e86fa78a3a795	gemini	B	  Tomcat: 呃？！特工……伊吠？	  Tomcat: 呃？！探员……伊吠？		gemini:P02-047:B
+CAT:O6744a46c6a883f3ad9cb	SCad3ea7970d37573b	gemini	B	  Yiffany: [不过现在我能确认，之前那个特工绝对是我弟弟，伊吠。]	  Yiffany: [不过现在我能确认，之前那个探员绝对是我弟弟，伊吠。]		gemini:P02-015:B
+CAT:O6764cb6d939ade08d643	SC71bccdad94bc42b7	ds	B	  Tomcat: [隔壁那间房有点东西，让它不太正常]		  Tomcat: [隔壁那间房里有什么东西，让它不太正常。]	ds:P02-048:B
+CAT:O6768aeb2804dfc0208f2	SCfd3daaa3e0ae8d94	gemini	B	  Tomcat: [本地科博德群体蹂躏，晚点再打」的时候。]	  Tomcat: [本地科博群体蹂躏，晚点再打」的时候。]		gemini:P02-056:B
+CAT:O679c3309dd7bafb789ac	SC0c36a41f62a4e9af	gemini	B	  Bossu: [明白，特工。留意其他和他们一样的人。]	  Bossu: [明白，探员。留意其他和他们一样的当地人。]		gemini:P02-037:B
+CAT:O6c1ee8f2e41787ea6504	SCc03069cb0055411f	ds+gemini	B	  Bossu: [为了就近研究当地生命，你必须在战斗中使用驯兽电击枪击败它们。]	  Bossu: [为了就近研究当地生命，你必须在战斗中使用驯兽电击刃击败它们。]	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击枪击败它们。]	gemini:P02-028:B ds:P02-032:B
+CAT:O6ec521d0214c562af868	SC9e591c294ef1ac37	ds	B	  Tomcat: [KZZ...ME IN... TZ... ...EAD！...]		  Tomcat: [KZZ...ME IN... TZ... ...EAD!...]	ds:P02-065:B
+CAT:O6f13fb5dda1035b0372a	SCb09c7c6e85e32642	ds+gemini	B	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按上+攻击，就能轻轻松松荡过那道缺口。]	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]	gemini:P02-021:B ds:P02-018:B
+CAT:O70daab93aaf1c09c669e	SC7a92e517ed293442	gemini	B	  Mauser: [特工，你不是收集者？你是认真的吗？]	  Mauser: [探员，你居然不集卡？认真的吗？]		gemini:P02-002:B
+CAT:O770292ca284154ad007d	SC1c722fa26d1718c5	gemini	B	  Bossu: [明白，特工。留意其他像他们这样的。]	  Bossu: [明白，探员。留意其他像他们这样的当地人。]		gemini:P02-040:B
+CAT:O7989c3b76bb6c9e7775f	SCd9d60e96fc755eca	ds	B	  Tomcat: [行行行，随便吧。希望那该死的姑娘等把那只狗搞完，或者随便搞完什么之后，能接电话……]		  Tomcat: [行行行，随便吧。希望那该死的姑娘搞完那只狗、或者随便搞完什么之后能接电话……]	ds:P02-059:B
+CAT:O7c7e7c48ce839912ab32	SC3c0ffb7f567ba00e	ds+gemini	B	  Tomcat: [就知道那个爱翘尾巴的又跑去跟一群科博德厮混，又把无线电弄丢了……]	  Tomcat: [就知道那个爱翘尾巴的又跑去跟一群科博厮混，又把无线电弄丢了……]	  Tomcat: [就知道那爱翘尾的又跑去跟一群科博德厮混，又把无线电弄丢了……]	gemini:P02-055:B ds:P02-021:B
+CAT:O7e3296e6fdbe65918575	SC7a92e517ed293442	ds	B	  Tomcat: [哇，好可爱！我都不知道你们这些小家伙还在收集宇宙卡！]		  Tomcat: [哇，好可爱！我都不知道你们这些小狗崽还在收集宇宙卡！]	ds:P02-037:B
+CAT:O8106c0c948299a21a011	SCb3df0be96568258e	ds	B	  Yiffai: [黏糊？]		  Yiffai: [咕叽？]	ds:P02-057:B
+CAT:O819647f6652669d93d6f	SCf532915a63773f91	ds	A	  Yiffany: [我会用双方同意的接触和自愿给予的实物，与本地生物建立联结，之后它们就会给我们提供重要数据，这才配得上一位宇宙大使。]		  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]	ds:P02-003:A
+CAT:O84f58ac1929bd4e50de4	SC41f714a207c66198	ds	A	  Tomcat: [在已经腾空时按 DOWN + JUMP，你就会做出一次俯冲踢；如果接触到任何会承受伤害的东西，还会把你向上弹起。]		  Tomcat: [腾空后按 DOWN + JUMP，就会使出俯冲踢；踢中会受伤的东西，还会把你弹起。]	ds:P02-001:A
+CAT:O87297e9cd773755f8f8f	SC71bccdad94bc42b7	ds	B	  Yiffany: [要是波苏，就该叫它“照明电筒”了。]		  Yiffany: [或者按波苏的说法，那叫“火把”。]	ds:P02-043:B
+CAT:O882e1b20b14202516f16	SC1c722fa26d1718c5	gemini	B	  Yiffany: [他不知怎么把图像直接送进了我的脑子！]	  Yiffany: [对方不知怎么把画面直接传进了我脑子里！]		gemini:P02-039:B
+CAT:O8c45d5f526c33af4225e	SCad3ea7970d37573b	ds	B	  Mauser: [你没有可能认错？]		  Mauser: [会不会是你认错了？]	ds:P02-045:B
+CAT:O8e4e8617f6591931b867	SCaea814b2761c722a	gemini	B	  Tomcat: 哈？！特工……伊吠妮？	  Tomcat: 哈？！探员……伊吠妮？		gemini:P02-048:B
+CAT:O9305500e4b283590c6ba	SCad3ea7970d37573b	ds	B	  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+攻击 射出钩子，然后在天花板上荡过去！]		  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]	ds:P02-016:B
+CAT:O932d7baf5aa57139de0c	SCc03069cb0055411f	ds+gemini	B	  Bossu: [没什么好羞愧的。只要记住，特工。]	  Bossu: [没什么好害臊的。只要记住，探员。]	  Bossu: [没什么好羞愧的。记好了，特工。]	gemini:P02-027:B ds:P02-062:B
+CAT:O948e459ae0d32dcfad7d	SCf532915a63773f91	ds	B	  Tomcat: [姑娘，你知道吧，你念手册上那套废话的时候，我看得到你心率在往上飙，对吧？]		  Tomcat: [姑娘，你念手册那套废话时心率一直在往上飙，我看得见，对吧？]	ds:P02-052:B
+CAT:O9623a45a542c2ad45dc4	SCfd3daaa3e0ae8d94	ds	B	  Tomcat: [行吧，随便。希望那该死的姑娘等她被肉突蹭完之后接电话……]		  Tomcat: [行吧，随便。希望那该死的姑娘被肉突蹭完之后能接电话……]	ds:P02-058:B
+CAT:O96c02f9f3e73eedb5608	SC88308e58fac219d6	ds	B	  Tomcat: [哦什么？这是某种玩笑吗？]		  Tomcat: [什么情况？这算哪门子玩笑？]	ds:P02-055:B
+CAT:O976c28439d6855393c27	SC802b4ca328a9e80b	ds	B	  Tomcat: [R18卫星正持续把你的近场数据传回总部。]		  Tomcat: [卫星 R18 正持续把你的近场数据传回总部。]	ds:P02-025:B
+CAT:O99755dc740e44b72ed68	SCf532915a63773f91	gemini	B	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击枪击败它们。]	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击刃击败它们。]		gemini:P02-030:B
+CAT:Oa33d35dfe8b8c30fc802	SC3c0ffb7f567ba00e	ds	B	  Tomcat: [希望他玩够那些小肉棒后，还能把它找回来！]		  Tomcat: [希望他玩够那些小肉突后，还能把它找回来！]	ds:P02-020:B
+CAT:Oabc44e0b08fb98fb29e4	SC41f714a207c66198	gemini	B	  Tomcat: [你在开玩笑吧？你算哪门子特工？]	  Tomcat: [你在开玩笑吧？你算哪门子探员？]		gemini:P02-006:B
+CAT:Ob03577f207bded425e43	SC802b4ca328a9e80b	ds	B	  Tomcat: [没——错！我的频率是28.880。]		  Tomcat: [没——错！28.880 是我的频率。]	ds:P02-026:B
+CAT:Ob06ace0ade323b502364	SC8fc1d02a6ab7a24f	ds+gemini	B	  Tomcat: [真是的，那撅屁股的小家伙先丢了电击枪，现在无线电又被野生狗崽抢了？]	  Tomcat: [真是的，那撅屁股的小家伙先丢了电击刃，现在无线电又被野生狗崽抢了？]	  Tomcat: [真是的，那爱翘尾的小子先丢了电击枪，现在无线电又被野性犬崽抢了？]	gemini:P02-042:B ds:P02-022:B
+CAT:Ob1cb7f2e127383c8c8bb	SC414553ce54cf5a3f	gemini	B	  Tomcat: [哦，是你吗，Y特工？]	  Tomcat: [哦，是你吗，Y探员？]		gemini:P02-060:B
+CAT:Ob5a79c984b101edee329	SC692b79fe52f83d3f	ds	B	  Tomcat: [我这儿可还得工作呢！喂，小狗。]		  Tomcat: [我这儿可还得工作呢！喂，小狗崽。]	ds:P02-040:B
+CAT:Ob70e5a0343129ffc46d2	SC41f714a207c66198	ds	B	  Tomcat: [不——错，你知道的，人人都会盯着看的！]		  Tomcat: [不——错，你知道的，人人都得羡慕死！]	ds:P02-049:B
+CAT:Ob7711f8dc438e6e9ed0d	SCae345fce997f566f	ds	A	  Yiffai: 我……我很抱歉……伊、伊吠，先走了！		  Yiffai: 我……我很抱歉……伊、伊吠完毕！	ds:P02-004:A
+CAT:Obc38d2918bf863d8853b	SCaea814b2761c722a	ds	A	  Yiffai: 我……我很抱歉……伊、伊吠，先走了！		  Yiffai: 我……我很抱歉……伊、伊吠完毕！	ds:P02-005:A
+CAT:Obd21af1d9d8864a85f59	SC88308e58fac219d6	ds	B	  Tomcat: [有些人可是有工作要做的！]		  Tomcat: [我们这儿还有人要干活呢！]	ds:P02-056:B
+CAT:Oc1dbe37ad72c09203192	SCad3ea7970d37573b	ds	B	  Yiffany: [别管我，我们有更要紧的事，比如我弟弟他到底怎么了？]		  Yiffany: [别管我，我们有更要紧的事——我弟弟到底怎么了？]	ds:P02-063:B
+CAT:Oc62eb4fc6f3b74b075bf	SC70adcf011b42bbeb	ds+gemini	B	  Tomcat: [换成别的外勤特工，突然弄到一双 Mark IV Cosmoboots，早就兴奋得发疯了！]	  Tomcat: [换成别的外勤探员，突然弄到一双马克 IV 宇宙靴，早就兴奋得发疯了！]	  Tomcat: [换成别的外勤特工，突然弄到一双马克 IV 宇宙靴，早就兴奋得发疯了！]	gemini:P02-007:B ds:P02-034:B
+CAT:Oc6d9bbb9042c30b5c9d4	SC30bbe99d4389a0bf	ds	B	  Tomcat: [太好了！打开你的 P.A.W.，进到宇宙卡菜单，你应该就能把卡片翻过来，这样就能提前知道你会怎么被干-]		  Tomcat: [太好了！打开 P.A.W. 的宇宙卡菜单，把卡片翻过来，就能提前知道你会怎么被干-]	ds:P02-051:B
+CAT:Occe73da652c2456bb49e	SCbef498a71645cdb4	gemini	A	  Yiffai: [……你刚把我的手电筒叫作“火把”？]	  Yiffai: [……你刚才管我的手电筒叫“手提电筒”？]		gemini:P02-013:A
+CAT:Ocd189f63e760411cfd8c	SC1c722fa26d1718c5	ds+gemini	B	  Yiffany: [不！完全不是那样！他送了……]	  Yiffany: [不！才不是那样！对方把……]	  Yiffany: [不！完全不是那样！对方把……]	gemini:P02-038:B ds:P02-054:B
+CAT:Od4e4c2d200fee0af6d4d	SCd94219e9f76a7931	ds+gemini	B	  Tomcat: [你知道，要是你刚才真获得了超能力者能力，你大概能做些很酷的事，比如从远处射击拉杆！]	  Tomcat: [你知道，要是你刚才真获得了超能力，你大概能做些很酷的事，比如从远处射击拉杆！]	  Tomcat: [你知道，要是你刚才真得了超能力，你大概能做些很酷的事，比如从远处射击拉杆！]	gemini:P02-009:B ds:P02-035:B
+CAT:Oe0516f955ca5fbd52759	SC9e591c294ef1ac37	ds	needs_evidence	  Tomcat: [..嘶... T.. 喀... ...嗒！]		  Tomcat: [..嘶... T.. 喀... ...嗒！]	ds:P02-071:needs_evidence
+CAT:Oe07684690b95ae9952e0	SCb09c7c6e85e32642	gemini	B	  Mauser: [嗯，绝对是伊吠妮特工的作风。]	  Mauser: [嗯，绝对是伊吠妮探员的作风。]		gemini:P02-019:B
+CAT:Oea01c921f0d76378f21e	SC9e591c294ef1ac37	ds	B	  Yiffai: [伊吠通话结束。]		  Yiffai: [伊吠完毕。]	ds:P02-028:B
+CAT:Oea1e012ba4c478b5c243	SC71bccdad94bc42b7	gemini	B	  Bossu: [这事你最好相信自己的直觉，特工。]	  Bossu: [这事你最好相信自己的直觉，探员。]		gemini:P02-010:B
+CAT:Oea45a3f166e97110d658	SC29cb42777b41829b	gemini	B	  Tomcat: [呃，能不能等你没穿科博德套装的时候再呼叫我？]	  Tomcat: [呃，能不能等你没穿科博套件的时候再呼叫我？]		gemini:P02-049:B
+CAT:Oebae81baa4cc1dc47c2e	SC30bbe99d4389a0bf	gemini	B	  Mauser: [哦哇，那是图托恩宇宙卡？真的吗，特工？]	  Mauser: [哇，那是图托恩宇宙卡？真的假的，探员？]		gemini:P02-001:B
+CAT:Of081f298ba8b6a930f0a	SC4064dbb44e0d4abd	ds	B	  Tomcat: [嘿小狗，我在这边监测你的生命体征]		  Tomcat: [嘿，小狗崽，我在这边监测你的生命体征]	ds:P02-039:B
+CAT:Of5e8b45825ad53b40229	SCad3ea7970d37573b	ds	B	  Tomcat: [就————是这样，只要没选中你那些古怪能力，按 UP+攻击，就能轻松荡过那段缺口。]		  Tomcat: [就————是这样，只要没选中你那些古怪能力，按 UP+ATTACK，就能轻松荡过那段缺口。]	ds:P02-017:B
+CAT:Ofbc6eb29909d31de873f	SCf532915a63773f91	gemini	B	  Bossu: [记住，特工。]	  Bossu: [记住，探员。]		gemini:P02-029:B
+CAT:Ofbfa8a122f9acf96fb26	SCb09c7c6e85e32642	ds	B	  Yiffai: [没有，一句都没有。只是冷冷地盯着前方，就像根本不认识我。我诶！]		  Yiffai: [没有，一句都没有。只是冷冷地盯着前方，就像根本不认识我。是我啊！]	ds:P02-041:B
+CAT:Ofdc1532a3e2b53fbfbed	SCb09c7c6e85e32642	ds+gemini	B	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个主动进攻的特工就是我姐姐。]	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个主动进攻的探员就是我姐姐。]	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个先动手的特工就是我姐姐。]	gemini:P02-016:B ds:P02-046:B
+SFW004f0ab00a8d33d90afecb9e	SC1f3af40987a668b2	ds	A	  Tomcat: [在已经腾空时按 DOWN + JUMP，你就会做出一次俯冲踢；如果接触到任何会承受伤害的东西，还会把你向上弹起。]		  Tomcat: [腾空后按 DOWN + JUMP，就会使出俯冲踢；踢中会受伤的东西，还会把你弹起。]	ds:P02-002:A
+SFW026bc70dd26389de4877fd3e	SC88ac39742501fe56	ds	B	  Yiffai: [没有，一句都没有。只是冷冷地盯着前方，就像根本不认识我。我诶！]		  Yiffai: [没有，一句都没有。只是冷冷地盯着前方，就像根本不认识我。是我啊！]	ds:P02-042:B
+SFW2861002ea7edc1a3e205652b	SC80c8667bd7fac785	gemini	B	  Tomcat: [你好呀，Y特工，雄猫前来报到！]	  Tomcat: [你好呀，Y探员，雄猫前来报到！]		gemini:P02-005:B
+SFW47f7c927f7a9a0aa372758ef	SCfbbf5640a73a84de	ds	B	  Yiffai: [伊吠通话结束。]		  Yiffai: [伊吠完毕。]	ds:P02-029:B
+SFW664b9a9c649f14a4c9456816	SC80c8667bd7fac785	ds	B	  Tomcat: [没——错！我的频率是28.880。]		  Tomcat: [没——错！28.880 是我的频率。]	ds:P02-027:B
+SFW73278dff7c93fd2eb47620ec	SCa95fc07f154b4282	ds+gemini	B	  Tomcat: [那姑娘真被几只狗头人打败了，]	  Tomcat: [那姑娘真被几只科博打败了，]	  Tomcat: [那丫头真被几只科博德打败了，]	gemini:P02-057:B ds:P02-011:B
+SFW7735d2eab9f391ecbff29527	SC535f6e164a31fa12	ds	B	  Tomcat: [哇，好可爱！我都不知道你们这些小家伙还在收集宇宙卡！]		  Tomcat: [哇，好可爱！我都不知道你们这些小狗崽还在收集宇宙卡！]	ds:P02-038:B
+SFW7a78facc8910b8483220a39f	SC9a688dbe085a347d	ds+gemini	B	  Bossu: [要近距离研究当地生物，你必须在战斗中用驯兽电击枪击败它们。]	  Bossu: [要近距离研究当地生物，你必须在战斗中用驯兽电击刃击败它们。]	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击枪击败它们。]	gemini:P02-036:B ds:P02-033:B
+SFW86d2f6dbe683e9edc53c5bd2	SC0cf5cb4542ec30c8	ds+gemini	B	  Tomcat: [天啊，那小狗崽先是弄丢了电击器，]	  Tomcat: [天啊，那小狗崽先是弄丢了电击刃，]	  Tomcat: [天啊，那小狗崽先是弄丢了电击枪，]	gemini:P02-063:B ds:P02-008:B
+SFW87b9352a743f2df38f0a43bd	SC46b66f5ee056573b	gemini	B	  Bossu: [记住，特工。]	  Bossu: [记住，探员。]		gemini:P02-032:B
+SFW89173dc14303f328530ec81d	SC535f6e164a31fa12	gemini	B	  Mauser: [特工，你不是收集者？你是认真的吗？]	  Mauser: [探员，你居然不集卡？认真的吗？]		gemini:P02-003:B
+SFW8b8f2d496d48e93c355e1388	SCa5140c9a1c336133	ds+gemini	B	  Tomcat: [呃，伊吠妮？你穿着狗头人装？]	  Tomcat: [呃，伊吠妮？你穿着科博套件？]	  Tomcat: [呃，伊吠妮？你穿着科博德套装？]	gemini:P02-053:B ds:P02-010:B
+SFW8e4e32da79980f1835053293	SC1f3af40987a668b2	ds	B	  Yiffany: [好，这种信息才像我的路子！]		  Yiffany: [好，这种情报才对我的胃口！]	ds:P02-064:B
+SFW8e99466b3c7c52b480efa251	SCfbbf5640a73a84de	ds	B	  Yiffai: [否定，杂音太重，无法听清总部。]		  Yiffai: [不行，杂音太重，听不清总部。]	ds:P02-031:B
+SFW917260bab667c8d6097a0680	SC1f3af40987a668b2	gemini	B	  Tomcat: [你在开玩笑吧？你算哪门子特工？]	  Tomcat: [你在开玩笑吧？你算哪门子探员？]		gemini:P02-008:B
+SFW9584c616b59da73ba70de0ae	SC9d19f21b29a0477d	ds+gemini	B	  Tomcat: [呃，伊吠？你穿着狗头人装？]	  Tomcat: [呃，伊吠？你穿着科博套件？]	  Tomcat: [呃，伊吠？你穿着科博德套装？]	gemini:P02-052:B ds:P02-009:B
+SFW9617d64aaf4a61ad8f40188e	SC0cf5cb4542ec30c8	gemini	B	  Tomcat: [哦，是你吗，Y特工？]	  Tomcat: [哦，是你吗，Y探员？]		gemini:P02-062:B
+SFW9901dc93342f87dc7e8b3bf2	SC46b66f5ee056573b	gemini	B	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击枪击败它们。]	  Bossu: [要近距离研究本地生命，你必须在战斗中使用驯兽电击刃击败它们。]		gemini:P02-033:B
+SFWad567767bbeb5a6cf4b786ff	SC9a688dbe085a347d	gemini	B	  Bossu: [记住，特工。]	  Bossu: [记住，探员。]		gemini:P02-035:B
+SFWb4adf4535d8874b806d919b6	SC3797d1c3dddb8655	ds+gemini	B	  Tomcat: [天啊，那小混蛋先是弄丢了电击器，]	  Tomcat: [天啊，那小混蛋先是弄丢了电击刃，]	  Tomcat: [天啊，那小混蛋先是弄丢了电击枪，]	gemini:P02-044:B ds:P02-007:B
+SFWbaf1412a89133a401efc324e	SC88ac39742501fe56	gemini	B	  Bossu: [你确定吗，特工？]	  Bossu: [你确定吗，探员？]		gemini:P02-023:B
+SFWbb3db23d70a4a1cba7840c12	SC88ac39742501fe56	gemini	B	  Bossu: [很遗憾，特工，既然我们无法与你姐姐取得联系，她本人也没有回应……]	  Bossu: [很遗憾，探员，既然我们无法与你姐姐取得联系，她本人也没有回应……]		gemini:P02-024:B
+SFWbb9c67ce3fb8d7c20b4b4c61	SC88ac39742501fe56	ds+gemini	B	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按上+攻击，就能轻轻松松荡过那道缺口。]	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]	  Tomcat: [没——错，只要别选你那些奇怪的超能力，再按 UP+ATTACK，就能轻轻松松荡过那道缺口。]	gemini:P02-025:B ds:P02-019:B
+SFWc2bd1baa04e30925a11879aa	SC88ac39742501fe56	ds+gemini	B	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个主动进攻的特工就是我姐姐。]	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个主动进攻的探员就是我姐姐。]	  Yiffai: [没空聊那个。紧急情况通报：已确认，之前跟我交手的那个先动手的特工就是我姐姐。]	gemini:P02-022:B ds:P02-047:B
+SFWc96932dc3f3afdf6347a2605	SCfbbf5640a73a84de	ds	B	  Tomcat: [KZZ...ME IN... TZ... ...EAD！...]		  Tomcat: [KZZ...ME IN... TZ... ...EAD!...]	ds:P02-066:B
+SFWd1d01a2d103b665840925cfb	SC46b66f5ee056573b	ds+gemini	B	  Tomcat: [哦，嘿！终于找到一把像样的训练电击器了？]	  Tomcat: [哦，嘿！终于找到一把像样的驯兽电击刃了？]	  Tomcat: [哦，嘿！终于找到一把像样的驯兽电击枪了？]	gemini:P02-031:B ds:P02-006:B
+SFWdd7b9a5fd7f5213316467a6b	SCc8706a14172fbaba	gemini	B	  Tomcat: [喂？哦！你不是伊吠特工！]	  Tomcat: [喂？哦！你不是伊吠探员！]		gemini:P02-058:B
+SFWe4874fffc9805a4f8fd2451a	SC9a688dbe085a347d	gemini	B	  Tomcat: [哦，嘿！终于找到一把像样的驯兽电击枪了？]	  Tomcat: [哦，嘿！终于找到一把像样的驯兽电击刃了？]		gemini:P02-034:B
+SFWe9c543d875d96daa813b1cd4	SC1f3af40987a668b2	ds	B	  Tomcat: [不——错，你知道的，人人都会盯着看的！]		  Tomcat: [不——错，你知道的，人人都得羡慕死！]	ds:P02-050:B
+SFWeaefbdc143306f9661173c1c	SCc8706a14172fbaba	ds+gemini	B	  Tomcat: [那小狗崽真被几只狗头人打败了，]	  Tomcat: [那小狗崽真被几只科博打败了，]	  Tomcat: [那小狗崽真被几只科博德打败了，]	gemini:P02-059:B ds:P02-012:B
+SFWfc58168f3e8fc1309f6a397e	SC88ac39742501fe56	ds	B	  Tomcat: [我看见你捡到钩爪枪了，小狗？]		  Tomcat: [我看见你捡到钩爪了，小狗崽？]	ds:P02-015:B
+SFWfeb0cd00db149128b445062f	SC3797d1c3dddb8655	gemini	B	  Tomcat: [哦，是你吗，Y特工？]	  Tomcat: [哦，是你吗，Y探员？]		gemini:P02-043:B

@@ -1,0 +1,28 @@
+{
+  "api": {
+    "module": "localization/tools/editorial_repairs.py",
+    "entrypoint": "apply_entry"
+  },
+  "ledger": "localization/translations/editorial-r4-pending-repairs.jsonl",
+  "gate": "localization/editorial/r4-pending/reports/pending-01/build-gate.json",
+  "decisions": "localization/editorial/r4-pending/reports/pending-01/decisions.tsv",
+  "evidence": "localization/editorial/r4-pending/evidence/runtime-evidence.json",
+  "required_data": [
+    "../../../translations/editorial-r4-pending-repairs.jsonl",
+    "../../../editorial/r4-pending/reports/pending-01/build-gate.json",
+    "../../../editorial/r4-pending/reports/pending-01/decisions.tsv",
+    "../../../editorial/r4-pending/evidence/runtime-evidence.json",
+    "../../../editorial/r4-pending/tools/verify_decisions.py"
+  ],
+  "required_chars": [
+    "撞击兽",
+    "旧杂货",
+    "获得泽纳波",
+    "硬结打卷|育得正好",
+    "科博德蜷在你身边，|惬意地享受着你的陪伴。|真是个好宠物！",
+    "击败小狼崽之后，|回忆涌上心头，又迟疑起来。",
+    "强势的上位猫探员，|迎战来犯之敌！",
+    "精灵加成|闲置时回复精神力",
+    "你在流放地东北发现的那座宝库，看起来确实很重要。"
+  ]
+}

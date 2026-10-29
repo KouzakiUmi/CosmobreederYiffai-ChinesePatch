@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "status": "P0_P1_offline_candidate_not_accepted",
+  "candidate": "localization/builds/layout-r22-candidate-v2",
+  "package_manifest_sha256": "cd04fe206732ca400e7e375f2d2a20ba0bf13415e129efbcc356564a5f6db38a",
+  "layout_manifest_sha256": "8e0a47688a8c1ec567fd536591adadeeff918bc8f291f20535e41f36674e6ed4",
+  "python_tests": {
+    "command": "python -B -m unittest discover -s localization/tests -p 'test_layout*.py' -v",
+    "tests": 64,
+    "exit_code": 0,
+    "includes_second_archive_failure_injection": true
+  },
+  "legacy_package_tests": {
+    "tests": 2,
+    "exit_code": 0,
+    "fixture": "fingerprint-checked backup JAR/PAK, translation/installation untouched"
+  },
+  "java_tests": {
+    "core_checks": 37928,
+    "save_checks": 28,
+    "save_property_checks": 2,
+    "item_checks": 188,
+    "vsn": "real r21 parser/8x85 reveal boundaries/exact-parent copy/skip/event and role gates",
+    "final_verified_classes_without_initialization": 46,
+    "runtime": "Temurin 17.0.6"
+  },
+  "qa_source_sha256": {
+    "localization/tests/test_layout_bundle.py": "8df67d4e91f368de30da7a5707984f2ce4a02499df4004df9a5ace3f846b4076",
+    "localization/tests/test_layout_fonts.py": "f2456a65682663ecb74ff04ef8a5bf3e9fbc7b4086e36e5de32d0e97313993d3",
+    "localization/tests/test_layout_package_staging.py": "ae287467944739bbaf2e1191a30fc239f7bf3ba01463371aef7006a19f69981a"
+  },
+  "frozen_inputs_and_current_sources_rechecked": true,
+  "game_started": false,
+  "installed": false,
+  "remaining": [
+    "G3: actual rectangles, parent clip, CRT readability, real input/event/timing regression",
+    "P2: other text consumers/classic scenes",
+    "P3: image quality and final installer refresh"
+  ]
+}
