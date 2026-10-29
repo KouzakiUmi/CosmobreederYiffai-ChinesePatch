@@ -1,0 +1,51 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P08-0501	gemini	B	term	SC9f1bb2ff4b29b7d6	SFW25bf347341e6feb42c079492	apply	lang(Fox): 所有重大纷争，都由我们中最睿智的超能力者所组成的议会来化解。	本行作「理事会」，同一场另两行与全库口径都是「议会」（Fenfen council）。
+gemini:P08-0502	gemini	A	term	SC9e9ceda84c287300	CAT:O3097f924a69022f9c990	apply	lang(Fox): 其中一些，比如高贵的精灵，拿起了古老的武器来援助我们Fenfen……	Elves 整词未译。全库一律作「精灵」，男线同型对白也作「精灵」。
+gemini:P08-0503	gemini	B	continuity	SCf793f8e2f2b5b70f	SFW3840c04d50de9a060aa17ace	apply	lang(Fox): 纷纷逃离Fenfen议会的力量。	同一场里 council 前文作「议会」，本行却作「Fenfen理事会」；男线同句作「Fenfen议会」。
+gemini:P08-0504	gemini	B	term	SCe68f2e03acd6f17b	CAT:O670c59a52e7d88ed0538	apply	text: 是我的宇宙头盔！它不知怎么一路跑到这边来了！	Cosmohelm 整词未译；词典 `CosmoHead.desc` 作「宇宙头盔」，另一处雄猫对白同。
+gemini:P08-0505	gemini	B	term	SCe68f2e03acd6f17b	CAT:Oaea9196d5c151cdad1dd	apply	text: 只要再留心宇宙服那一部分就好……	Cosmosuit 整词未译，词典 `SpecialZentaiSuit` 条目名即「宇宙服」；同时行末半角三点改全角省略号。
+ds:P08-S5-101	ds	B	continuity	SC4d550b4a736dbb6d	CAT:Oe6617a1e866ea46027ae	apply	text: 其实扭打时他们谁也没射，可我已经欲火焚身，那也只是早晚的事……	同一场把 wrestle／tussling／wrestling 分别译成「摔跤」与「扭打」，指同一件事却两个词；本行改「扭打」。
+ds:P08-S5-102	ds	B	idiom	SC4d550b4a736dbb6d	CAT:O5ad1b7cd998b9f3e6b48	apply	text: 他下面那话儿先对这主意起了劲，脑子迟早也会明白咱俩接下来要做什么。	原文 manhood 是绕开的说法，现译「鸡巴」把它直白化；而同一场另一行 thick cock 才是原文直白处。委婉被升格会把这两处的强弱对比压平。
+ds:P08-S5-104	ds	C	continuity	SC8559b2a4c2d88fb3	CAT:O7c9dbd885f58ee3a8ba5	apply	text: 任务简报里没见过它们，我当时完全懵了，幸好黛蕾很清醒，叫我使劲踢开它们！	同一行里前半用「它们」指那批怪物，后半改口「他们」，指称不一致。
+ds:P08-S5-113	ds	B	continuity	SC960d377d64349226	CAT:Oea5141006a4eace1ae81	apply	text: ……再看看那外星生物硬成什么样……诶嘿嘿嘿……	本场 alien creature／aliens 有「外星生物」与「异星生物」两套说法，指同一批东西。
+ds:P08-S5-121	ds	C	meaning	SCf1e352091c207f10	CAT:Oad80f00d07b618f57ae5	apply	text: 对，没错，肯定是这样。那无赖突然耍起花招，逼得我只好一再“回敬”他！	原文 beat him off 说的是把人打退，现译加了「用手」这个原文没有的细节。
+ds:P08-S5-112	ds	B	term	SC9f1bb2ff4b29b7d6	SFW25bf347341e6feb42c079492	reject		同一行同一处（理事会／议会），取另一条。
+ds:P08-S5-117	ds	B	term	SC9e9ceda84c287300	CAT:O3097f924a69022f9c990	reject		同一行同一处（Elves），取另一条。
+ds:P08-S5-118	ds	B	term	SCf793f8e2f2b5b70f	SFW3840c04d50de9a060aa17ace	reject		同一行同一处（Fenfen理事会），取另一条。
+ds:P08-S5-125	ds	B	term	SCe68f2e03acd6f17b	CAT:O670c59a52e7d88ed0538	reject		同一行同一处（Cosmohelm），取另一条。
+ds:P08-S5-126	ds	B	term	SCe68f2e03acd6f17b	CAT:Oaea9196d5c151cdad1dd	reject		同一行同一处（Cosmosuit）；另一条把词与行末标点一起处理。
+ds:P08-S5-127	ds	C	format	SCe68f2e03acd6f17b	CAT:Oaea9196d5c151cdad1dd	reject		同一行同一处（行末半角三点）；另一条已一并处理。
+R9M-CAT:Ob48a6739b3b9d8f879f3	R9M	C	format	SC4d550b4a736dbb6d	CAT:Ob48a6739b3b9d8f879f3	apply	text: ……我还挺喜欢那种粗暴对待的……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O2f991b3c8680f9c1d8b2	R9M	C	format	SC8559b2a4c2d88fb3	CAT:O2f991b3c8680f9c1d8b2	apply	text: ……一只吓人的丛林怪物抓住我了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O1e9eff8dbd095d46d7b2	R9M	C	format	SC8559b2a4c2d88fb3	CAT:O1e9eff8dbd095d46d7b2	apply	text: ……然后嘛，我就把树枝招呼到那恶心家伙脑袋上！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Obc8700ad0b1069ce264e	R9M	C	format	SC8559b2a4c2d88fb3	CAT:Obc8700ad0b1069ce264e	apply	text: 简直像被那些怪物的舌头围成的墙裹住了，懂吗？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O9fb530c44d847f3f59d4	R9M	C	format	SC8559b2a4c2d88fb3	CAT:O9fb530c44d847f3f59d4	apply	text: ……哎等等，我是不是还有任务要做来着？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O074b0061b33542b7204e	R9M	C	format	SC960d377d64349226	CAT:O074b0061b33542b7204e	apply	text: 哎呀，你不用揍那些小触手的！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O30dbbb5e43a920faa6ce	R9M	C	format	SC960d377d64349226	CAT:O30dbbb5e43a920faa6ce	apply	text: 水獭艾玛，还有我，狐狸黛蕾！多棒的搭档啊！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O5c1ea29a7a26b827f669	R9M	C	format	SC960d377d64349226	CAT:O5c1ea29a7a26b827f669	apply	text: ……所以我陪着她，遇上谁也好指点她几招！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O874ad484601b18d01773	R9M	C	format	SC960d377d64349226	CAT:O874ad484601b18d01773	apply	text: 又抓又踢了几分钟后，我转身翘起尾巴——	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O0e3e3c1b76e7741951db	R9M	C	format	SC960d377d64349226	CAT:O0e3e3c1b76e7741951db	apply	text: 也不知道这些外星生物长没长眼睛……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O5e3999ec0497f3de3152	R9M	C	format	SC9e9ceda84c287300	CAT:O5e3999ec0497f3de3152	apply	lang(Fox): 爆裂的灵能弹将敌人轰退。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oe503856b65d23ff5d5bd	R9M	C	format	SCf72bb408100fe80c	CAT:Oe503856b65d23ff5d5bd	apply	text: 唔……可能得扶我一把才能站起来。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O8c9180a5c85ca65f5d39	R9M	C	format	SCf1e352091c207f10	CAT:O8c9180a5c85ca65f5d39	apply	text: 啊！抱歉，小伙子！我也不知道刚才怎么鬼迷心窍了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O7f9ae1cc96f8492f1c10	R9M	C	format	SCf1e352091c207f10	CAT:O7f9ae1cc96f8492f1c10	apply	text: 乖……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oabe34b6226eecd67c458	R9M	C	format	SCba223e0dcbb46a0c	CAT:Oabe34b6226eecd67c458	apply	text: 当然，我也不是没有胃口。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ob62bdc8e362ce2a79b1c	R9M	C	format	SCba223e0dcbb46a0c	CAT:Ob62bdc8e362ce2a79b1c	apply	text: ……精灵们不见了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Offa44929d7fb73142bcb	R9M	C	format	SC9ac2eccd1d8bd48f	CAT:Offa44929d7fb73142bcb	apply	text: 那么，俊美的骑士，汝又待如何？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+ds:P08-S5-103	ds	C	format	SC4d550b4a736dbb6d	CAT:Ob48a6739b3b9d8f879f3	reject		与本表 R9M-CAT:Ob48a6739b3b9d8f879f3 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-105	ds	C	format	SC8559b2a4c2d88fb3	CAT:O2f991b3c8680f9c1d8b2	reject		与本表 R9M-CAT:O2f991b3c8680f9c1d8b2 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-106	ds	C	format	SC8559b2a4c2d88fb3	CAT:O1e9eff8dbd095d46d7b2	reject		与本表 R9M-CAT:O1e9eff8dbd095d46d7b2 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-107	ds	C	format	SC8559b2a4c2d88fb3	CAT:Obc8700ad0b1069ce264e	reject		与本表 R9M-CAT:Obc8700ad0b1069ce264e 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-108	ds	C	format	SC8559b2a4c2d88fb3	CAT:O9fb530c44d847f3f59d4	reject		与本表 R9M-CAT:O9fb530c44d847f3f59d4 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-109	ds	C	format	SC960d377d64349226	CAT:O074b0061b33542b7204e	reject		与本表 R9M-CAT:O074b0061b33542b7204e 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-110	ds	C	format	SC960d377d64349226	CAT:O30dbbb5e43a920faa6ce	reject		与本表 R9M-CAT:O30dbbb5e43a920faa6ce 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-111	ds	C	format	SC960d377d64349226	CAT:O5c1ea29a7a26b827f669	reject		与本表 R9M-CAT:O5c1ea29a7a26b827f669 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-114	ds	C	format	SC960d377d64349226	CAT:O874ad484601b18d01773	reject		与本表 R9M-CAT:O874ad484601b18d01773 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-115	ds	C	format	SC960d377d64349226	CAT:O0e3e3c1b76e7741951db	reject		与本表 R9M-CAT:O0e3e3c1b76e7741951db 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-116	ds	C	format	SC9e9ceda84c287300	CAT:O5e3999ec0497f3de3152	reject		与本表 R9M-CAT:O5e3999ec0497f3de3152 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-119	ds	C	format	SCf72bb408100fe80c	CAT:Oe503856b65d23ff5d5bd	reject		与本表 R9M-CAT:Oe503856b65d23ff5d5bd 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-120	ds	C	format	SCf1e352091c207f10	CAT:O8c9180a5c85ca65f5d39	reject		与本表 R9M-CAT:O8c9180a5c85ca65f5d39 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-122	ds	C	format	SCf1e352091c207f10	CAT:O7f9ae1cc96f8492f1c10	reject		与本表 R9M-CAT:O7f9ae1cc96f8492f1c10 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-123	ds	C	format	SCba223e0dcbb46a0c	CAT:Oabe34b6226eecd67c458	reject		与本表 R9M-CAT:Oabe34b6226eecd67c458 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-124	ds	C	format	SCba223e0dcbb46a0c	CAT:Ob62bdc8e362ce2a79b1c	reject		与本表 R9M-CAT:Ob62bdc8e362ce2a79b1c 同一行同一处（行尾空格），取先落地的条目。
+ds:P08-S5-128	ds	C	format	SC9ac2eccd1d8bd48f	CAT:Offa44929d7fb73142bcb	reject		与本表 R9M-CAT:Offa44929d7fb73142bcb 同一行同一处（行尾空格），取先落地的条目。
