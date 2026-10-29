@@ -308,7 +308,7 @@ def main():
     (out / (name + '.json')).write_text(
         json.dumps(order, ensure_ascii=False, indent=1) + '\n', encoding='utf8')
     lines = ['# %s 精校工单：%s' % (name, order['title']), '',
-             '英文与当前中文都按整场连读；`current` 是 candidate13 的实际显示行。',
+             '英文与当前中文都按整场连读；`current` 是构建候选的实际显示行（以本批参照摘录与 ORDER 记的候选为准）。',
              'ROW 行的 `line` 是归档物理行号，`row_id` 是稳定节点；CONTROL 是脚本控制行，不改。', '']
     for s in order_rows:
         lines.append('## %s | %s | %s | %s' % (s['scene_id'], s['mode'], s['logical_path'], s['root']))
