@@ -1,0 +1,29 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P08-0201	gemini	B	term	SC74fa82aa35846705	CAT:O3a34ed7c9ce9097944e7	apply	text: 这就是我的标配宇宙头盔！我一落地就在找它！	Cosmohelm 整词未译。词典 `CosmoHead.desc` 作「宇宙头盔」，另一处雄猫对白也作「宇宙头盔」；两路同报。
+ds:P08-S2-108	ds	B	idiom	SC6c92dcf306eb4565	CAT:Ob902a1b0b8c5857d72ca	apply	text: 才22岁就以优异成绩毕业，那可真是条大新闻！	「我当时可上了大新闻」不成话：「上新闻」不能带宾语。与 batch-08-part01 的 ds:P08-S-112 是同一句在另一场的拷贝。
+ds:P08-S2-116	ds	B	meaning	SC3c96e35204cd3dcc	CAT:O7c8cd1379cab5e482225	apply	text: ……我接连挨了那么多欧米茄哥布林，他居然连句夸奖都没有！	原文 takin' one Omegobin after another 的 take 在这里是「受、挨」；现译「吃下」把欧米茄哥布林写成了食物，施受关系错。
+ds:P08-S2-121	ds	B	term	SCc035945720439679	SFW112e61664bc516ada92ee1c6	apply	lang(Fox): 一旦没有了Fenfen议会的力量来囚禁Traeh，	Fenfen council 同型男线三句与词典 `CosmoCardStarkill.desc` 均作「议会」；本行「理事会」是孤例。
+ds:P08-S2-123	ds	C	idiom	SCc2e08d1dfc6c98fd	CAT:O6e5722108c3d24c2bef3	apply	lang(Fox): 我们中才终于有人率先出手……	strike out 是「出手／先动手」；现译「反击」把它读成还手，而原文说的是没人敢先动。
+ds:P08-S2-125	ds	C	term	SCbe1fe03046dd63f0	CAT:O330edc99fba783b228c7	apply	lang(Fox): 这名扭曲的特工，把余下的议会成员逐一抓走，	同一场前文已作「议会」，本行却作「议员」，指称同一批人却用了不同词。
+ds:P08-S2-126	ds	C	continuity	SCbe1fe03046dd63f0	CAT:O25866ba6b7947416d031	apply	lang(Fox): 触碰Traeh的囚牢后，闯入者便不再是原来的自己。	囚禁 Traeh 的那座建筑，全库「囚牢」6 处、「牢笼」1 处；且女线同句作「囚牢」。
+ds:P08-S2-109	ds	B	meaning	SC6c92dcf306eb4565	CAT:O472effdb44387dbb2253	reject		REJECT：主张把「光电击枪」改成「轻型电击枪」。说法本身有道理（light 指重量，不是光），但 LIGHTTAZER 的中文名至今未终裁、库内并存三种写法，改名要连动全部含该武器的行与词典条目名。本批不动，见 R9M-1201。
+ds:P08-S2-111	ds	C	term	SC74fa82aa35846705	CAT:O3a34ed7c9ce9097944e7	reject		REJECT：与本表 gemini:P08-0201 同一行同一处（Cosmohelm），两路同报，取 gemini 条的措辞落地。
+R9M-1201	R9M	B	term	SC6c92dcf306eb4565	CAT:O472effdb44387dbb2253	hold		DS 报「光电击枪」应为「轻型电击枪」，依据是 light 指重量。但 LIGHTTAZER 的中文名至今未终裁，库内三种写法并存，此前已定「不要单点改」，改名要连动全部含该武器的行与词典条目名，本批不改。
+ds:P08-S2-101	ds	C	format	SC5b08efc340c04910	CAT:O3acade832c9fc3f427fc	apply	text: 得承认，他们确实伏击并冲散了我的小队！	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-102	ds	C	format	SC5b08efc340c04910	CAT:Oe5e7e3f6faac071b681d	apply	text: 给他们口交时，倒让我有点想起家里……	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-103	ds	C	format	SCc7795e6405707551	CAT:O043b03200c93c2c60d9a	apply	text: 后来我猛地惊醒，才发现那帮家伙都走了。	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-104	ds	C	format	SCc7795e6405707551	CAT:O7222dc854ce487686d8b	apply	text: 这几天的经历，想忘也忘不了。	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-105	ds	C	format	SCcf4e44e2dba4cfa6	CAT:O67dc68ea520b452279e3	apply	lang(Fox): 一路来到了关押Traeh的囚牢核心。	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-106	ds	C	format	SCcf4e44e2dba4cfa6	CAT:O0d9331ea938a937db45e	apply	lang(Fox): 无从得知，究竟是黑暗的超能力者力量在作祟，还是仅仅出于好奇，	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-107	ds	C	format	SCcf4e44e2dba4cfa6	CAT:O9419eb934b89590c09e8	apply	lang(Fox): 力量与痛苦席卷这名可怜的探索者全身，	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-110	ds	C	format	SC6c92dcf306eb4565	CAT:Oca7be4b9f2fc0c599c32	apply	text: 连事后余韵都不让我享受，就得四处奔忙，是吧？	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-112	ds	C	format	SC3b2e2ad5011ee43d	CAT:O33bdf5c05039d0c997a2	apply	text: 才、才不是说我是胆小猫什么的！	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-113	ds	C	format	SC3b2e2ad5011ee43d	CAT:O45b19444717a46f5de09	apply	text: 只、只是为了长见识，你懂吧？	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-114	ds	C	format	SC3b2e2ad5011ee43d	CAT:O64f62abb4173c7273b96	apply	text: 喂、喂，你去哪儿啊！别走啊！！！！	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-115	ds	C	format	SC3c96e35204cd3dcc	CAT:Od39bf6d365771a974487	apply	text: 不过怪了，我还以为他是上位特工，不是吗？	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-117	ds	C	format	SC3c96e35204cd3dcc	CAT:O54d570e70c55c7aae1e3	apply	text: 嘿！岂有此理！	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-118	ds	C	format	SC7de8c86ddb5e03bc	CAT:O125b21788705de67edee	apply	lang(Fox): 当Traeh把矛头转向我们超能力者议会的其余成员时，	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-119	ds	C	format	SC7de8c86ddb5e03bc	CAT:O8024ff2116a080221c33	apply	lang(Fox): 然而，怀有这番新野心的并非只有Traeh。	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-120	ds	C	format	SC7de8c86ddb5e03bc	CAT:Odeaf7b0abed1cde79aac	apply	lang(Fox): 我们的生活，再也谈不上安静谦逊了……	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-122	ds	C	format	SCc2e08d1dfc6c98fd	CAT:O823e610ef2e8475e9e37	apply	lang(Fox): 爆裂的灵能弹将敌人轰飞。	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P08-S2-124	ds	C	format	SCbe1fe03046dd63f0	CAT:O5f19daba4d4d35780788	apply	lang(Fox): 唯一让这邪恶女王尚未征服整个图托恩的，	译文行尾多出半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
