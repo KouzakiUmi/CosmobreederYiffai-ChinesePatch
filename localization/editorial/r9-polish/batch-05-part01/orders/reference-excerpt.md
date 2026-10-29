@@ -20,13 +20,22 @@
 
 ## 三、术语（口径以现有译文与术语提案为准）
 
-| 英文 | 现行中文 | 说明 |
+**下表每一条都取自 `datav/dictionary.json` 的条目名**（`localization/editorial/r1/corpus/snapshot-03`，`logical_path == datav/dictionary.json`）。这一列不是「术语提案」，是游戏里已经显示给玩家看的字，正文必须跟着它写。改这张表之前先回语料核对，不要凭印象填。
+
+| 英文 | 游戏内条目名 | 出处 |
 | --- | --- | --- |
-| Swiper / Squeaker / Barker | 挥爪／吱吱兽／吠犬 | 物种名，不是动作 |
-| Kobold / Kobo | 科博德／科博 | R9 已统一为「科博德」（少数简写场合用科博） |
-| Spiker / Bumper / Spiderbot / Driller | 刺甲机／弹跳机／蛛形机／钻掘机 | 机器不译成兽 |
-| Werepup / Werehund | 狼崽／狼犬 | R3 已定 |
-| draconid | 龙人／龙类 | 大型首领 |
+| SWIPER / SQUEAKER / BARKER | 挥爪／吱吱怪／吠犬 | dictionary |
+| SPIKER / DRILLER / BUMPER | 刺虫／钻探者／弹跳机 | dictionary |
+| SPIKEBOT / SPIDER / WYVERN | 刺机器人／蜘蛛／双足飞龙 | dictionary |
+| FLAMER / DRONE / FLYBOMB | 喷火者／无人机／飞行炸弹 | dictionary |
+| HOPPER / BULBER / TRIBULB | 跳跃者／球茎怪／三球茎怪 | dictionary |
+| THORNER / VINER / GHOSTER / ORBER | 荆棘怪／藤蔓怪／幽灵者／光球 | dictionary |
+| XENO / CRAW LIE / BIGBOLD / BLOCKER | 异形／爬虫／大壮兽／阻挡者 | dictionary |
+| WEREPUP / WEREHUND | 狼崽／狼犬 | dictionary（R3 同） |
+| KOBOLD / KOBOLD 相关 | 科博德（KOBOCLAW 科博爪等） | dictionary（R9 同） |
+| FENFEN | Fenfen（SFW 版词典另作「芬芬」，中文条目名待裁） | dictionary |
+| DRAGON | 龙 | dictionary |
+| draconid | 龙类 | **无词典条目**；正文两处作「龙类」（`MauserHints_AreaA`、part03 Wyvern） |
 | feral | 兽态／野性犬科 | 按语境，不等于失去理智 |
 | PSY / ESPer / Zener | PSY／超感者／泽纳 | 泽纳波不用「波浪」 |
 | bio data | 生物数据 | 采集语境 |

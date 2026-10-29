@@ -1,0 +1,113 @@
+{
+ "batch": "batch-05-part01",
+ "box_px": 240,
+ "rows": [
+  {
+   "row_id": "CAT:O6b9a3bb37d35006c7838",
+   "scene_id": "SC9a50ee5c19b72be6",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Odaefef7908bae16febfb",
+   "scene_id": "SCf8c62480a20fd0e4",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oebaa9ca90d8f126b1f45",
+   "scene_id": "SCfeff53e003014bf2",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oc8227e39ed2d2509f0dc",
+   "scene_id": "SC36a4246a3fd4b93d",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Obe556b284687ca06d598",
+   "scene_id": "SCf096caa44f045c89",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O501f09c7008d9f4f7633",
+   "scene_id": "SCf096caa44f045c89",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O93747cb50f2482f26380",
+   "scene_id": "SC46fe33beaab2503d",
+   "current_wraps": 1,
+   "gemini_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O07b2c3b2e1eda4aaec28",
+   "scene_id": "SC6c6396e08a205b23",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Odb4931725a302877f84b",
+   "scene_id": "SC2df2a934a81fcf00",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O422deacf720938629a08",
+   "scene_id": "SCcc1017cf7ebd30ac",
+   "current_wraps": 4,
+   "gemini_wraps": 3,
+   "over_3": true
+  },
+  {
+   "row_id": "CAT:O51bbf635a96c12cb2f4e",
+   "scene_id": "SCb6f36febbdf9e0cd",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW01c279ac5b41aa55ec6a42b2",
+   "scene_id": "SCfae065df9d829e6c",
+   "current_wraps": 4,
+   "gemini_wraps": 3,
+   "over_3": true
+  },
+  {
+   "row_id": "CAT:O98c14bff4eea72e7f0d2",
+   "scene_id": "SCa226bce097a955f8",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  }
+ ],
+ "over_limit": [
+  {
+   "row_id": "CAT:O422deacf720938629a08",
+   "scene_id": "SCcc1017cf7ebd30ac",
+   "current_wraps": 4,
+   "gemini_wraps": 3,
+   "over_3": true
+  },
+  {
+   "row_id": "SFW01c279ac5b41aa55ec6a42b2",
+   "scene_id": "SCfae065df9d829e6c",
+   "current_wraps": 4,
+   "gemini_wraps": 3,
+   "over_3": true
+  }
+ ]
+}

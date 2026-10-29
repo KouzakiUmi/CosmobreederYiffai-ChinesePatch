@@ -33,7 +33,7 @@
 | batch-02 | `Tomcat` | 56 | 566 | 36,041 | 已并入 candidate15 |
 | batch-03 | `Bossu` | 53 | 437 | 29,033 | 已并入 candidate14 |
 | batch-04 | `Mauser` | 81 | 871 | 58,922 | 已并入 candidate16 |
-| batch-05 | `BossuDex`（图鉴） | 149 | 1,253 | 83,198 | 分 3 个 part，待开 |
+| batch-05 | `BossuDex`（图鉴） | 149 | 1,253 | 83,198 | 分 3 个 part，part01 已并入 candidate17 |
 | batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part，待开 |
 
 每批工单在 `batch-NN/orders/`：`ORDER.md`（规范）· `batch-NN.reader.md`（正文）· `batch-NN.json`（结构化）· `reference-excerpt.md`（本批人物与术语摘录，按批重写）。
@@ -75,23 +75,29 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 4. 主代理逐条核验后写 `batch-NN/review/decisions.tsv`；`tools/build_ledger.py <batch>` 生成该批来源锁定台账并 dry-run，`tools/verify_round.py <batch>` 出 gate。
 5. 在 `localization/optimization/r28/r9polish/component.json` 的 `batches` 数组登记该批（台账／gate／decisions 三项），再构建候选与跑 17 步回归。
 
-## 五之二、四批合计
+## 五之二、五批合计
 
-| 项 | batch-01 | batch-02 | batch-03 | batch-04 | 合计 |
-| --- | --- | --- | --- | --- | --- |
-| 场次／行 | 137／358 | 56／566 | 53／437 | 81／871 | 327／2,232 |
-| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 22＋39 | 317 |
-| 裁决 | 35 | 38 | 35 | 40 | 148 |
-| 　采纳 | 32 | 24 | 28 | 19 | **103** |
-| 　驳回 | 2 | 11 | 5 | 14 | 32 |
-| 　留置 | 1 | 3 | 2 | 7 | 13 |
-| 主代理补 | 3 | 2 | 16 | 1 | 22 |
+| 项 | batch-01 | batch-02 | batch-03 | batch-04 | batch-05-part01 | 合计 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 场次／行 | 137／358 | 56／566 | 53／437 | 81／871 | 49／419 | 376／2,651 |
+| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 22＋39 | 13＋33 | 363 |
+| 裁决 | 35 | 38 | 35 | 40 | 56 | 204 |
+| 　采纳 | 32 | 24 | 28 | 19 | 41 | **144** |
+| 　驳回 | 2 | 11 | 5 | 14 | 11 | 43 |
+| 　留置 | 1 | 3 | 2 | 7 | 4 | 17 |
+| 主代理补 | 3 | 2 | 16 | 1 | 6 | 28 |
 
-驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%。batch-02 是两路重提已裁决术语（`agent`／`torch`／`MARK IV`）并互相当成误译；batch-04 的 14 条里有 6 条来自我写错的参照摘录，属系统性误判而非模型问题。
+驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%，batch-05-part01 为 20%（11／56）。batch-02 是两路重提已裁决术语（`agent`／`torch`／`MARK IV`）并互相当成误译；batch-04 的 14 条里有 6 条来自我写错的参照摘录，属系统性误判而非模型问题。
+
+## 五之三、batch-05-part01 的两个教训
+
+**一、参照摘录里的术语表是最高危的一行。** part01 摘录把 Squeaker／Spiker／Driller 写成「吱吱兽／刺甲机／钻掘机」，Gemini 老老实实按表执行，DS 没有照表而是去查游戏内名，才躲过去。语料实测 `datav/dictionary.json` 的条目名是「吱吱怪／刺虫／钻探者」（SQUEAKER 同源 16 处、FLAMER 作「喷火者」），三个「规范译名」在库里零出现。真正需要的不是「更聪明的模型」，而是**摘录里的每条术语都必须带出处行号**——没有出处的术语表等于把错了的常识写成规则。
+
+**二、`BOSSU HERE` 不是 `roger`。** Gemini 把 `[BOSSU HERE, WHAT'S THE PROBLEM, AGENT?]` 改成「波苏收到」，「收到」对应 roger／copy that，而 HERE 是报明身份。这行真正的问题是译名替换留下的 `波苏 在此`（半角空格）。同类误判还有 `COME IN. BOSSU?`：源文带问号，现译「波苏，我进来了。」把呼叫写成陈述，抹掉了问句，也抹掉了下行波苏拿 come in 开黄腔的支点。
 
 ## 六、构建与回归
 
-`r9polish` 组件按 `batches` 数组顺序应用各批台账。每批的 gate 绑定**它应用之前的那一个构建**（batch-01 绑 candidate12、batch-03 绑 candidate13、batch-02 绑 candidate14），构建时逐批串行校验整资源 SHA：任何一批的基线漂移都会让构建直接失败，而不是悄悄覆盖。
+`r9polish` 组件按 `batches` 数组顺序应用各批台账。每批的 gate 绑定**它应用之前的那一个构建**（batch-01 绑 candidate12、batch-03 绑 candidate13、batch-02 绑 candidate14、batch-04 绑 candidate15、batch-05-part01 绑 candidate16），构建时逐批串行校验整资源 SHA：任何一批的基线漂移都会让构建直接失败，而不是悄悄覆盖。
 
 | 候选 | 组件 | 台账 | 编译 | 17 步回归 |
 | --- | --- | --- | --- | --- |
@@ -99,16 +105,18 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 | candidate14 | 同上 | batch-01 + batch-03，60 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate15 | 同上 | batch-01 + batch-03 + batch-02，84 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate16 | 同上 | 再加 batch-04，共 103 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate17 | 同上 | 再加 batch-05-part01，共 144 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate13 归档：jar `fb533645…61587`（45,842,131 B）· pak `046158e7…af8ca8`（13,588,668 B）。
 candidate15 归档：jar `2ff30bbd…bcb29`（45,842,088 B）· pak `9c2c7377…0ca585`（13,588,593 B），明细见 [`build-manifest.json`](../../builds/r9-polish-candidate15/build-manifest.json)。
 candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16/build-manifest.json)。
+candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 
 ## 七、边界
 
-- 已落地 batch-01／02／03／04（327 场／2,232 行），约占全库 2,989 场的 10.9%；**其余批次未精校，「第 1 轮」不因此视为完成**。
+- 已落地 batch-01／02／03／04 与 batch-05-part01（376 场／2,651 行），约占全库 2,989 场的 12.6%；**其余批次未精校，「第 1 轮」不因此视为完成**。
 - 三项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）。
 - 不覆盖任何历史证据；未安装、未启动游戏、未访问存档；未生成 `acceptance.json`。
 - CPU 回归与静态复核不等于实机验收：男线 `DragonHint` 既有 4 行折行（240px／12px 实测）是否翻页或溢出，仍需实机确认。

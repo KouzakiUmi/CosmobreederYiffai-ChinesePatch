@@ -1,0 +1,37 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O000059a9bccb01172eaa	SC203f504ddad4428c	ds	C	  Yiffany: [这、这些一直朝我冲过来的机器虫是怎么回事？]		  Yiffany: [这、这些一直朝我扑过来的机器虫是怎么搞的？]	ds:P05-110:C
+CAT:O07b2c3b2e1eda4aaec28	SC6c6396e08a205b23	ds+gemini	B,C	  Yiffai: [它根本不是我的对手！我先嗨呀，再啊哒，还-]	  Yiffai: [它根本不是我的对手！我先嗨呀，再啊哒，还——]	  Yiffai: [它根本不是我的对手！我先嗨呀，再啊哒，还——]	gemini:P05-112:C ds:P05-113:B
+CAT:O422deacf720938629a08	SCcc1017cf7ebd30ac	ds+gemini	A	  Bossu: [早先的报告说，你的不少同僚特工已经被科博德抓去了。能救就救他们回来，哪怕这得先做点交易，才能保证特工的安全。]	  Bossu: [早先报告称你的不少同僚已被科博德抓走。能救就救他们，哪怕得做交易来确保特工安全。]	  Bossu: [早先的报告说，不少同僚特工被科博德抓了。能救就救，哪怕得先做点交易保证他们的安全。]	gemini:P05-101:A ds:P05-118:A
+CAT:O4f91ec4e352430882278	SC09028b606f1f544b	ds	C	  Bossu: [不管怎样，小心点，特工！]  		  Bossu: [不管怎样，小心点，特工！]	ds:P05-115:C
+CAT:O501f09c7008d9f4f7633	SCf096caa44f045c89	ds+gemini	B	  Bossu: [那些DRILLER单元只会在一个划定区域内活动]	  Bossu: [那些钻掘机只会在一个划定区域内活动。]	  Bossu: [那些钻探者只会在划定的区域内活动。]	gemini:P05-105:B ds:P05-105:B
+CAT:O51bbf635a96c12cb2f4e	SCb6f36febbdf9e0cd	ds+gemini	B	  Yiffai: [……？挖矿有那么多忌讳？可这跟爆炸有什么关系？]	  Yiffai: [……？矿井当然开采过了，可这跟爆炸有什么关系？]	  Yiffai: [……？那当然，可这跟爆炸有什么关系？]	gemini:P05-107:B ds:P05-120:B
+CAT:O585683ee840628bb888b	SC9bbf1f307dac7c56	ds	B	  Bossu: [之前没有矮人出现在这片区域的报告，但它们确实很擅长嗅出稀有矿脉。]		  Bossu: [之前没有矮人出现在这片区域的报告，但他们确实很擅长嗅出稀有矿脉。]	ds:P05-111:B
+CAT:O5efbd3492bc7aae253bf	SC09028b606f1f544b	ds	C	  Bossu: [它们简直就像是被扰乱的灵能的化身……]		  Bossu: [它们简直就像灵能躁动化出的实体……]	ds:P05-132:C
+CAT:O5f600ae5ab4c4abda1ac	SC02fc9006b921bf57	ds	B	  Bossu: [那些装在天花板上的炮塔全都失控了，大概是电力系统损坏得太厉害的缘故]		  Bossu: [那些装在天花板上的炮塔全都失控了，大概是电力系统损坏得太厉害的缘故。]	ds:P05-108:B
+CAT:O6b9a3bb37d35006c7838	SC9a50ee5c19b72be6	ds+gemini	B	  Bossu: [的确，就我们所能看出的而言。]	  Bossu: [确实如此，至少据我们所知是这样。]	  Bossu: [确实如此，据我们目前所知。]	gemini:P05-108:B ds:P05-109:B
+CAT:O72c46d5d58897e28ada1	SC46fe33beaab2503d	ds	needs_evidence	  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]		  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]	ds:P05-130:needs_evidence
+CAT:O74a589a54a137f4033ed	SC2df2a934a81fcf00	ds	B	  Bossu: [图托恩上发生的怪事，导致有人目击到非实体的水母]		  Bossu: [图托恩上发生的怪事，导致有人目击到非实体的水母。]	ds:P05-123:B
+CAT:O7955489532c488358c6e	SC176bd1d1147dcec8	ds	B	  Bossu: [“喷火兽”属于龙形科的一员。]		  Bossu: [“喷火兽”属于龙类的一员。]	ds:P05-112:B
+CAT:O93747cb50f2482f26380	SC46fe33beaab2503d	gemini	B	  Yiffai: [波苏，我进来了。]	  Yiffai: [呼叫波苏，进得来吗？]		gemini:P05-111:B
+CAT:O98c14bff4eea72e7f0d2	SCa226bce097a955f8	gemini	B	  Bossu: [要是碰到近视的棕毛小动物，那些小家伙叫作「吱吱怪」。]	  Bossu: [要是碰到近视的棕毛小动物，那些小家伙叫作「吱吱兽」。]		gemini:P05-106:B
+CAT:O9f5dd3fddc00368e8de8	SCfee63ea33946f198	ds	B	  Bossu: [那些圆滚滚的悬浮无人机，和你见过在泽罗尼亚周围飞的那种很像。不过，这一型号还配备了爆炸载荷。]		  Bossu: [那些圆滚滚的悬浮无人机，和你在泽罗尼亚周围见过的那种很像。不过这一型号还配备了爆炸载荷。]	ds:P05-114:B
+CAT:Ob01ce1e481fa6d8e9eea	SC36a4246a3fd4b93d	ds	C	  Bossu: [虽说那些家伙看起来像在地上爬的虫子，它们其实是一具精巧的机械仿体。]		  Bossu: [虽说那些家伙看着像在地上爬的虫子，其实是一具精巧的机械仿制品。]	ds:P05-103:C
+CAT:Ob0e7622b60ee1b85b055	SCadd3f1c2ea5b2cd3	ds	B	  Yiffai: [我不记得简报里提到过这个区域]		  Yiffai: [我不记得简报里提到过这个区域。]	ds:P05-126:B
+CAT:Ob502fba8e84f0f537434	SC4d8c57a7ad3905f7	ds	C	  Yiffai: [字面意思？你是说……打比方吧？]		  Yiffai: [字面意思？你是说……只是打个比方吧？]	ds:P05-133:C
+CAT:Ob727de40e97ec2c611bd	SC4d8c57a7ad3905f7	ds	B	  Bossu: [小心那些四处巡逻的带刺无人机]		  Bossu: [小心那些四处巡逻的带刺无人机。]	ds:P05-127:B
+CAT:Obe556b284687ca06d598	SCf096caa44f045c89	ds+gemini	B	  Bossu: [作为一种纳米机械机器人，那些'DRILLER'单元会持续自我修复。它们会不知疲倦地钻掘。]	  Bossu: [作为一种纳米机械机器人，那些「钻掘机」会持续自我修复。它们会不知疲倦地钻掘。]	  Bossu: [作为一种纳米机械机器人，那些钻探者会持续自我修复，会不知疲倦地钻掘。]	gemini:P05-104:B ds:P05-104:B
+CAT:Oc8227e39ed2d2509f0dc	SC36a4246a3fd4b93d	ds+gemini	B	  Bossu: [那些银色带刺的机器人叫做"SPIKERS"]	  Bossu: [那些银色带刺的机器人叫作「刺甲机」。]	  Bossu: [那些银色带刺的机器人，叫做「刺虫」。]	gemini:P05-103:B ds:P05-102:B
+CAT:Odaefef7908bae16febfb	SCf8c62480a20fd0e4	gemini	B	  Bossu: [……除非它们负责请你吃晚饭，当然。]	  Bossu: [……当然，除非它们愿意请你吃晚饭。]		gemini:P05-109:B
+CAT:Odb4931725a302877f84b	SC2df2a934a81fcf00	ds+gemini	B,C	  Yiffany: [我说啊 波苏，我不是人鱼，对吧？]	  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]	  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]	gemini:P05-113:C ds:P05-116:B
+CAT:Oe05bfaf92f0f6aeeb3bf	SC907d0a8b4bf67bcf	ds	C	  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]		  Bossu: [信不信由你，那些是最近才造的，出自你们碰上的那些蜥蜴太空海盗之手。]	ds:P05-129:C
+CAT:Oe0aa7e76dfc1f8da1973	SCcc1017cf7ebd30ac	ds	B	  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到 lect 的事，他们都干！]		  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到 Lect 的事，他们都干！]	ds:P05-117:B
+CAT:Oe793fb515df5430c4feb	SC004e98d9aff02289	ds	B	  Bossu: [干掉它，但别被围住，才能活下来]		  Bossu: [干掉它，但别被围住，才能活下来。]	ds:P05-124:B
+CAT:Oebaa9ca90d8f126b1f45	SCfeff53e003014bf2	ds+gemini	B	  Bossu: [波苏 在此，出什么问题了，特工？]	  Bossu: [波苏收到，出什么问题了，特工？]	  Bossu: [波苏在此，出什么问题了，特工？]	gemini:P05-110:B ds:P05-106:B
+CAT:Ofae81cd00d4f84252689	SC02fc9006b921bf57	ds	B	  Yiffai: [当然，当然！伊吠下线！]		  Yiffai: [当然，当然！伊吠通话完毕！]	ds:P05-107:B
+CAT:Ofb4c3ae02e7843cc968d	SC3b0f76128c2a6465	ds	B	  Yiffany: [唉……谢——谢啦波苏。伊吠妮完毕。]		  Yiffany: [唉……谢——谢啦波苏。伊吠妮通话完毕。]	ds:P05-128:B
+SFW01c279ac5b41aa55ec6a42b2	SCfae065df9d829e6c	ds+gemini	A	  Bossu: [这些小型轮式无人机原本用来在矿井里运送矿石和工具。不过，这些机器已经过改装，装上了粗陋的尖刺，还加入了搜寻入侵者的程序。]	  Bossu: [这些小型轮式机原本在矿井里运送矿石与工具，但已被改装，加上了粗陋尖刺与搜寻入侵者的程序。]	  Bossu: [这些小型轮式无人机原本在矿井里运送矿石和工具，如今被改装上粗陋的尖刺，并加上搜寻入侵者的程序。]	gemini:P05-102:A ds:P05-119:A
+SFW3c0385107b32a2c4d0d39b95	SC03c43e680b4ff75e	ds	needs_evidence	  Yiffany: [以前这条线还能给点真正_有用的提示……]		  Yiffany: [以前这条线还能给点真正_有用的提示……]	ds:P05-121:needs_evidence
+SFW6e7ffa47864e257d741d96fe	SCbb24ffbfac0746d8	ds	A	  Bossu: [斯凯菲亚的精灵虽说全是女性，却并非个个都能长生不老。]		  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非个个都能长生不老。]	ds:P05-101:A
+SFWab74b9d79595e6b56cf2c6f4	SC2fc4d040f52d9594	ds	C	  Yiffai: [波苏，请立刻确认我的身体状态，确认我没变成水生生物！]		  Yiffai: [波苏，请立刻给我个状态更新，确认我没变成水生生物！]	ds:P05-131:C
+SFWb4d62462c32d758271eb1b3c	SC4f216ab8e3236078	ds	B	  Bossu: [这些大块头以强劲的利爪闻名]		  Bossu: [这些大块头以强劲的利爪闻名。]	ds:P05-122:B
+SFWd96bb58052321c0b20d85e5b	SC03c43e680b4ff75e	ds	B	  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选]		  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选。]	ds:P05-125:B

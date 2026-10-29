@@ -1,0 +1,120 @@
+{
+ "batch": "batch-05-part01",
+ "routes": {
+  "gemini": {
+   "findings": 13,
+   "coverage": 49,
+   "problems": [],
+   "severity": {
+    "A": 2,
+    "B": 9,
+    "C": 2
+   },
+   "categories": {
+    "format": 4,
+    "term": 4,
+    "continuity": 2,
+    "idiom": 2,
+    "voice": 1
+   },
+   "status": {
+    "proposal": 13
+   },
+   "rows_proposed": 13
+  },
+  "ds": {
+   "findings": 33,
+   "coverage": 49,
+   "problems": [
+    "P05-129 width +48px on CAT:Oe05bfaf92f0f6aeeb3bf",
+    "P05-133 width +36px on CAT:Ob502fba8e84f0f537434"
+   ],
+   "severity": {
+    "A": 3,
+    "B": 21,
+    "C": 7,
+    "needs_evidence": 2
+   },
+   "categories": {
+    "meaning": 2,
+    "term": 9,
+    "idiom": 6,
+    "format": 13,
+    "voice": 1,
+    "continuity": 1,
+    "source_uncertainty": 1
+   },
+   "status": {
+    "proposal": 31,
+    "needs_evidence": 2
+   },
+   "rows_proposed": 33
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 36,
+  "rows_both_routes": 10,
+  "rows_identical_text": 2,
+  "rows_conflicting_text": 8,
+  "only_gemini": 3,
+  "only_ds": 23,
+  "conflicts": [
+   {
+    "row_id": "CAT:O422deacf720938629a08",
+    "scene_id": "SCcc1017cf7ebd30ac",
+    "current": "  Bossu: [早先的报告说，你的不少同僚特工已经被科博德抓去了。能救就救他们回来，哪怕这得先做点交易，才能保证特工的安全。]",
+    "gemini": "  Bossu: [早先报告称你的不少同僚已被科博德抓走。能救就救他们，哪怕得做交易来确保特工安全。]",
+    "ds": "  Bossu: [早先的报告说，不少同僚特工被科博德抓了。能救就救，哪怕得先做点交易保证他们的安全。]"
+   },
+   {
+    "row_id": "SFW01c279ac5b41aa55ec6a42b2",
+    "scene_id": "SCfae065df9d829e6c",
+    "current": "  Bossu: [这些小型轮式无人机原本用来在矿井里运送矿石和工具。不过，这些机器已经过改装，装上了粗陋的尖刺，还加入了搜寻入侵者的程序。]",
+    "gemini": "  Bossu: [这些小型轮式机原本在矿井里运送矿石与工具，但已被改装，加上了粗陋尖刺与搜寻入侵者的程序。]",
+    "ds": "  Bossu: [这些小型轮式无人机原本在矿井里运送矿石和工具，如今被改装上粗陋的尖刺，并加上搜寻入侵者的程序。]"
+   },
+   {
+    "row_id": "CAT:Oc8227e39ed2d2509f0dc",
+    "scene_id": "SC36a4246a3fd4b93d",
+    "current": "  Bossu: [那些银色带刺的机器人叫做\"SPIKERS\"]",
+    "gemini": "  Bossu: [那些银色带刺的机器人叫作「刺甲机」。]",
+    "ds": "  Bossu: [那些银色带刺的机器人，叫做「刺虫」。]"
+   },
+   {
+    "row_id": "CAT:Obe556b284687ca06d598",
+    "scene_id": "SCf096caa44f045c89",
+    "current": "  Bossu: [作为一种纳米机械机器人，那些'DRILLER'单元会持续自我修复。它们会不知疲倦地钻掘。]",
+    "gemini": "  Bossu: [作为一种纳米机械机器人，那些「钻掘机」会持续自我修复。它们会不知疲倦地钻掘。]",
+    "ds": "  Bossu: [作为一种纳米机械机器人，那些钻探者会持续自我修复，会不知疲倦地钻掘。]"
+   },
+   {
+    "row_id": "CAT:O501f09c7008d9f4f7633",
+    "scene_id": "SCf096caa44f045c89",
+    "current": "  Bossu: [那些DRILLER单元只会在一个划定区域内活动]",
+    "gemini": "  Bossu: [那些钻掘机只会在一个划定区域内活动。]",
+    "ds": "  Bossu: [那些钻探者只会在划定的区域内活动。]"
+   },
+   {
+    "row_id": "CAT:O51bbf635a96c12cb2f4e",
+    "scene_id": "SCb6f36febbdf9e0cd",
+    "current": "  Yiffai: [……？挖矿有那么多忌讳？可这跟爆炸有什么关系？]",
+    "gemini": "  Yiffai: [……？矿井当然开采过了，可这跟爆炸有什么关系？]",
+    "ds": "  Yiffai: [……？那当然，可这跟爆炸有什么关系？]"
+   },
+   {
+    "row_id": "CAT:O6b9a3bb37d35006c7838",
+    "scene_id": "SC9a50ee5c19b72be6",
+    "current": "  Bossu: [的确，就我们所能看出的而言。]",
+    "gemini": "  Bossu: [确实如此，至少据我们所知是这样。]",
+    "ds": "  Bossu: [确实如此，据我们目前所知。]"
+   },
+   {
+    "row_id": "CAT:Oebaa9ca90d8f126b1f45",
+    "scene_id": "SCfeff53e003014bf2",
+    "current": "  Bossu: [波苏 在此，出什么问题了，特工？]",
+    "gemini": "  Bossu: [波苏收到，出什么问题了，特工？]",
+    "ds": "  Bossu: [波苏在此，出什么问题了，特工？]"
+   }
+  ]
+ }
+}
