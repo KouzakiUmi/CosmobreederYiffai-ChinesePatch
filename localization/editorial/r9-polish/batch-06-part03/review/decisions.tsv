@@ -1,0 +1,63 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P06c-107	gemini	A	format	SC380c91faa6db871f	CAT:Oe6746f5c08256674efe7	apply	  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]	`UP+ATTACK` 是按键名，本行译成「UP+攻击」；同 root 另有行仍作 UP+ATTACK，玩家会照着找不到键。只改按键，句子其余不动。
+gemini:P06c-117	gemini	A	format	SCc628ffe48ea2eae1	CAT:O7349c9c1c2d138c18952	apply	  Tomcat: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]	`DOWN`／`JUMP` 是按键名，本行译成「"下"+"跳跃"」；同时该行前缀有两个空格（`Tomcat:  [`），一并收成一个。
+ds:P06c-S2-107	ds	A	gameplay	SCc628ffe48ea2eae1	CAT:O7349c9c1c2d138c18952	reject		REJECT：与本表 gemini:P06c-117 同一行同一处（DOWN+JUMP 汉化），两路同报，取 gemini 条落地；该条同时处理前缀双空格。
+gemini:P06c-115	gemini	A	term	SCac703fc5683db815	SFWd26027cf61c897115711389c	apply	  Tomcat: [你看见什么了，鬼，还是科博德，还——]	KOBO 旧译「狗头人」残留；全库 99 处作「科博德」，batch-02 已改同 root 四处。
+ds:P06c-S2-103	ds	A	term	SCac703fc5683db815	SFWd26027cf61c897115711389c	reject		REJECT：与本表 gemini:P06c-115 同一行同一处，两路同报，取 gemini 条落地。
+ds:P06c-S2-105	ds	B	term	SC1152b760ddce4ff4	CAT:O625e7d09ebbfa3e57013	apply	  Tomcat: [哦，鱼肉塔可！那些挥爪兽挺有品味！]	SWIPER 词典条目名是「挥爪」（正文 26 处）；「挥击」只 2 处，是自造写法。
+gemini:P06c-114	gemini	A	meaning	SCb614c415a982f2e2	CAT:O6a904bbc603303cd9813	apply	  Yiffai: [我碰到个发光的球体，它在我身上留了个印记。]	原文 I RAN INTO THIS **GLOWING** ORB 的 GLOWING 被整个漏掉。下一行紧接说「它发光的样子」，不补这层读者会跟不上。
+gemini:P06c-102	gemini	A	meaning	SC1667be893970acf7	CAT:Ob1ff940814bb4a3d032f	apply	  Yiffany: [你该不会想说，你现在平时都不偶尔吃点软食了吧？]	「你现在还是不偶尔吃点软食吧？」把否定与频度副词直搬，中文读成逻辑颠倒。原文 STILL DON’T DIP INTO SOFT FOOD 是「还是不去沾点软食」，改后反问才成立。
+gemini:P06c-124	gemini	A	meaning	SC991ea0f9329298c2	CAT:Oe85eaa3f722d3c7ae523	apply	  Yiffai: [我一定得经常去探望它们……]	原文 them 指的是机库里关着的那些怪物，前面用「它们」；现译「他们」把非人对象写成人类第三人称。
+ds:P06c-S2-104	ds	B	meaning	SCac703fc5683db815	SFW3bb9b17bd951f3f64597eb57	apply	  Tomcat: [对，在你之前的几位特工提到过，有超感官能力的存在曾经住在那颗星球上。]	原文 SOME OF YOUR FELLOW AGENTS（你之前的几位同僚特工）；现译「你之前的一些特工」读成「你以前有过的特工」，所属关系反了。与 batch-06-part01 的 ds:P06a-S1-122 是同一句的两版。
+ds:P06c-S2-124	ds	B	meaning	SC3e6a941b432ebacd	SFW0acdca0f43e30cfb5d6b2c85	apply	  Tomcat: [要是波苏都没多少情报，我也补不上什么。也许都藏起来了？]	原文连「波苏」带「我」都说情报不足；现译「波苏都没多少情报，我也补充不了多少」把主语关系读成递进否定，与后半「也许都藏起来了？」的猜测语气接不上。
+gemini:P06c-108	gemini	A	gameplay	SCb28ad558d39b8510	CAT:O8e8cd9a7820dc9fdc872	reject		REJECT：本条主张 THEM 指门卡，改成「凭这张门卡，同级或更低级的门都能打开」。同 root 另两处、batch-06-part01／part02／part04 已据 ON THEM 判为门上所标等级，且上一行明说「拿着一张走进能量门」。现译「门上所标数字」是对的，不改。
+gemini:P06c-101	gemini	B	format	SC1667be893970acf7	CAT:O52efb42ea8c0ed53c593	apply	  Tomcat: [哇，不害臊是吧，姑娘？你绝对见不到我去——]	被打断处用半角连字符，12px 渲染成孤立小横；全批其它打断处一律用全角破折号。
+gemini:P06c-118	gemini	B	format	SCa9114272b58ad08b	CAT:Od392f870abe3a0abdaef	apply	  Tomcat: [你刚拿到的还真是支手电筒啊。嘿，你是不是——]	同上一处：半角连字符改破折号。
+gemini:P06c-119	gemini	B	format	SCa9114272b58ad08b	CAT:O594e072fbdb493d95aa7	apply	  Tomcat: [是啊，可你还记得在学院时那个女孩——]	同上一处。
+gemini:P06c-126	gemini	B	format	SC02b55d34dcb3cebf	SFW2802027dc07b681976ed2f92	apply	  Yiffai: [好、好吃？？我根本不知道它从哪来的！]	结巴处「好-好吃」的半角连字符改顿号，与本作其它结巴写法一致。
+ds:P06c-S2-118	ds	B	format	SC02b55d34dcb3cebf	SFW2802027dc07b681976ed2f92	reject		REJECT：与本表 gemini:P06c-126 同一行同一处，取 gemini 条落地。
+gemini:P06c-103	gemini	B	format	SCbd6464e659ec0e15	CAT:Oe40d2f2e6c731a834a9b	apply	  Yiffai: [对！店主说它是这星球上最酷的饮料！]	行尾残留一个半角空格。
+gemini:P06c-104	gemini	B	format	SCbd6464e659ec0e15	CAT:Oc273e7ddc5dedbde122e	apply	  Tomcat: [在外面永远不知道会碰上什么。]	行尾残留一个半角空格。
+gemini:P06c-109	gemini	B	format	SC0010041113ecb2fa	CAT:O1e05697377603e084528	apply	  Yiffai: [我……我没事……大概吧？]	行尾残留一个半角空格。
+gemini:P06c-111	gemini	B	format	SCf6a3230e9ad0488c	CAT:O26571691e60f21218a94	apply	  Yiffai: [哇，听着真棒！那我试着用精神力，欣赏一场烟花秀！]	行尾残留一个半角空格。
+gemini:P06c-121	gemini	B	format	SC993a5c42d33b6d89	CAT:Oddeadbb5ae399319e1aa	apply	  Yiffai: [收、收到……]	行尾残留一个半角空格。
+gemini:P06c-125	gemini	B	format	SC3e6a941b432ebacd	SFW54db094aaf8a74226233db28	apply	  Yiffany: [话说，那些机械克隆体什么来头？真吓人！]	行尾残留一个半角空格。
+gemini:P06c-130	gemini	B	format	SC2e1ad8301df37781	CAT:O98025f059a1cd52bd349	apply	  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]	行尾残留两个半角空格。
+ds:P06c-S2-101	ds	B	format	SCb614c415a982f2e2	CAT:O81c19ef7fa9738bb6e3b	reject		REJECT：与本表 gemini:P06c-109 同一行同一处（行尾空格），两路同报，取 gemini 条落地。
+ds:P06c-S2-128	ds	B	format	SC2e1ad8301df37781	CAT:O98025f059a1cd52bd349	reject		REJECT：与本表 gemini:P06c-130 同一行同一处（行尾两空格），取 gemini 条落地。
+ds:P06c-S2-112	ds	C	format	SC993a5c42d33b6d89	CAT:Oddeadbb5ae399319e1aa	reject		REJECT：与本表 gemini:P06c-121 同一行同一处（行尾空格），取 gemini 条落地。
+ds:P06c-S2-108	ds	B	format	SCa9114272b58ad08b	CAT:Od392f870abe3a0abdaef	reject		REJECT：与本表 gemini:P06c-118 同一行同一处（半角连字符），取 gemini 条落地。
+ds:P06c-S2-109	ds	B	format	SCa9114272b58ad08b	CAT:O594e072fbdb493d95aa7	reject		REJECT：与本表 gemini:P06c-119 同一行同一处，取 gemini 条落地。
+gemini:P06c-105	gemini	B	format	SC5b68ce5b32c2d3f6	SFW4cb1ac02a7c77f41772cca27	apply	  Tomcat: [……不然我可要笑话你只穿半套了。]	本行是完整句子而句末无标点，下一行换说话人。
+gemini:P06c-106	gemini	B	format	SCfb0717823b73e65d	CAT:O2d17ea3c07d6cd0b16f8	apply	  Tomcat: [哦是吗？]	反问的「哦是吗」缺问号，读者分不出是陈述还是反诘。
+gemini:P06c-127	gemini	B	format	SCa1157ae0945fd818	CAT:O033db4a645a0c328cc0c	apply	  Tomcat: [我的天哪……]	感叹句「我的天哪」缺标点。
+gemini:P06c-132	gemini	B	format	SC6b9b4091349eca10	CAT:Ofebffd735536dad5e505	apply	  Yiffai: [代价是，打起敌人来……造成的伤害会变小？]	句末是疑问分句而缺问号。
+gemini:P06c-122	gemini	B	continuity	SC1e72de7771f036e0	SFW1443cb382f1cc80140555322	apply	  Tomcat: [准是上一批出勤的特工落下的……]	本行与下一行是同一句的两段（准是上次出击的人落下的……／那些怪物），中文缺承接省略号会把两句黏成一句。
+gemini:P06c-110	gemini	B	format	SCa7f6bf77b04f9aa4	CAT:O6a279510fe0b7d13fa16	apply	  Yiffany: [不、不是那种。我只是捡到一颗不知是什么的发光球体。它在我身上留下了某种印记……]	行首「不、不是那种」的顿号处夹了半角空格。
+gemini:P06c-116	gemini	B	format	SCac703fc5683db815	SFW07ed289a99d011d0144fb026	apply	  Yiffany: [不、不是那种。我只是捡到一颗不知是什么的发光球体。它在我身上留下了某种印记……]	同上一处，女版。
+gemini:P06c-128	gemini	B	format	SCa1157ae0945fd818	CAT:Od5549c41462c259fb1be	apply	  Tomcat: [你这个超级大傻蛋！]	前缀有两个空格（`Tomcat:  [`），全批只此一处与 P06c-117 两处，收成一个。
+ds:P06c-S2-120	ds	B	format	SCa1157ae0945fd818	CAT:Od5549c41462c259fb1be	reject		REJECT：与本表 gemini:P06c-128 同一行同一处（前缀双空格），两路同报，取 gemini 条落地。
+gemini:P06c-129	gemini	B	continuity	SC2e1ad8301df37781	CAT:O211facfb3b8fe772cf97	apply	  Tomcat: [是啊，他说自己见识到了自己从来不知道的某一面。到处乱跑，挖洞。]	「他说自己接触到了自己从来不知道的某一面」两个「自己」指同一个人，读成自我接触；原文是接触到自身未知的一面。
+ds:P06c-S2-121	ds	C	idiom	SC2e1ad8301df37781	CAT:O211facfb3b8fe772cf97	reject		REJECT：与本表 gemini:P06c-129 同一行，两路同报；gemini 条只改重复指代，改动更小，取之。
+gemini:P06c-131	gemini	B	continuity	SC6b9b4091349eca10	CAT:O6fff22370eb029a977d7	apply	  Tomcat: [哇，我刚看到你的生命体征又飙升了一次！]	「生命体征又出现一次飙升」是英语 A SPIKE 的直搬；中文说「又飙升了一次」更顺。
+ds:P06c-S2-119	ds	C	idiom	SCa4638c3c48cd8a1f	CAT:Obca7ad607da0d1ab86bd	apply	  Yiffany: [每当把它放到装备附近，它似乎就会有反应。]	「它似乎每当我把它放到装备附近就会有反应」把 WHENEVER 从句嵌在「似乎」后面，中文读起来断气；调成「似乎每当我……，它就会有反应」。
+ds:P06c-S2-106	ds	B	format	SC1152b760ddce4ff4	CAT:O65e2e6b61ccbfd63ad4d	apply	  Yiffai: [我不太懂你在说什么……你……等等……]	「我不太懂你在说什……」的省略号落在「什」字后，读者会以为是「说什么」缺字；补完整。
+ds:P06c-S2-111	ds	B	term	SCac703fc5683db815	SFWdd4f67ddeb36c5eb2666e64c	apply	  Tomcat: [要是再找到什么遗物，喊我一声，我们可以一起试着解开这个谜！]	本作把可解谜的古代造物统一作「遗物」（正文 5 处对「造物」4 处），且「造物」在中文里偏指造物主所造之物。
+ds:P06c-S2-110	ds	B	term	SCa9114272b58ad08b	CAT:Ob12aa958ad5096c3de70	apply	  Yiffany: [我记得，雄猫。伊吠妮完毕。]	同批 OUT 公式本行作「通话结束」，而全库「通话完毕」33 处对「通话结束」17 处；本行与同场其它 OUT 行不一致，按多数归位。
+ds:P06c-S2-123	ds	B	term	SC6b9b4091349eca10	CAT:Oadabdf5f4c875d03e3d4	apply	  Yiffai: [我会尽量小心的。伊吠完毕。]	同上一处，男版对应行。
+ds:P06c-S2-126	ds	C	format	SC2e1ad8301df37781	CAT:Od5cb2273258f6c0c47b6	apply	  Tomcat: [好吧，小伙伴，只要你没发疯就好，不然我又得叫精神科医生来了。]	本行是完整句子而句末无标点，下一行另起。
+ds:P06c-S2-127	ds	C	format	SC2e1ad8301df37781	CAT:Od49a80955607f3118a06	apply	  Tomcat: [他们现在都在待命，还不是因为特工交来的那些报告，里面净是些让人难以置信的事，你知道吗！]	同上，句末缺标点。
+ds:P06c-S2-117	ds	C	format	SCf0b74e4a2e72ba8d	SFWee8aa042fee059e1260a0681	apply	  Tomcat: [锋利得必要时足以当武器。]	「锋利得必要时完全能当武器。」句尾用句号但整句是被打断的补充说明，按同批写法改为省略号。
+ds:P06c-S2-102	ds	B	meaning	SCb614c415a982f2e2	CAT:O6a904bbc603303cd9813	reject		REJECT：与本表 gemini:P06c-114 同一行同一处（GLOWING 漏译），两路同报，取 gemini 条的措辞落地。
+ds:P06c-S2-122	ds	B	term	SC3eca555452e3d9dd	CAT:Ofee95a392931cffd067e	apply	  Yiffany: [是啊。看来像把双刃剑。伊吠妮完毕。]	同批 OUT 公式本行作「通话结束」；与本表 ds:P06c-S2-110 同一类，按「通话完毕」的多数写法归位。
+gemini:P06c-113	gemini	B	format	SCb614c415a982f2e2	CAT:O81c19ef7fa9738bb6e3b	reject		REJECT：与本表 gemini:P06c-109 同一行同一处（行尾空格），重复引用，已按那条落地。
+gemini:P06c-123	gemini	B	format	SC1e72de7771f036e0	SFW50a9aed327bfdb5590de707d	reject		REJECT：与本表 gemini:P06c-121 同一行同一处（行尾空格），重复引用。
+gemini:P06c-112	gemini	B	format	SC7afab1aa6fcc44f1	CAT:O9890245d2727ce5999df	apply	  Tomcat: [听说你要是够快通关这个试玩版，就能得到好东西！嘿！嘿！嘿！]	行尾残留一个半角空格。
+gemini:P06c-120	gemini	B	format	SCdbfca46d3c76496c	CAT:O059c535de9e0ec74d9d7	apply	  Tomcat: [蝌蚪出了名地滑溜，却很有满足感……]	本行是未完分句的收尾，下一行接着说完；中文缺省略号承接。
+ds:P06c-S2-113	ds	B	format	SC8cff10bbe01476b9	SFWd89a9cadf69ad64f379305c7	reject		REJECT：主张改「兄 弟 ……」。原文 D U D E . . . 逐字加空格、末尾接省略点，「兄 弟 ……」正是这条排版的镜像；part04 的 gemini:P06d-106 也独立判为不改。
+ds:P06c-S2-125	ds	B	voice	SCcfed64c6d940ad62	CAT:Ocb15089e2566c4856b7d	reject		REJECT：主张改上一行「老兄。兄弟。给我。」的断句。原文 DUDE. BRO. GIMME. 本就是三个独立短句，现译与之逐句对应，无结构缺陷。
+ds:P06c-S2-114	ds	B	continuity	SC01445b26a7f89ccc	CAT:Oc0e5186d43e1341ea62b	reject		REJECT：主张改「蝌蚪出了名地滑溜……似乎还可能恢复」的连词。该行是两条英文合句后的尾句，语气连贯可读，改它属润色。
+ds:P06c-S2-115	ds	B	term	SC098d910f490ceae6	CAT:Oc06042ddd32f9b5a7c9b	reject		REJECT：主张把「兽装」改成别的写法。全库「兽装」仅此 1 处，但它是本作既有译法且读得通；改成自造新词没有依据。
+ds:P06c-S2-116	ds	B	term	SCf0b74e4a2e72ba8d	SFWfc24f0d05273c906a981ce20	reject		REJECT：与上一条同族，针对「装扮用的」提法；无库内依据，属润色。
+R9M-906	R9M	A	gameplay	SCb28ad558d39b8510	CAT:O8e8cd9a7820dc9fdc872	hold		本行译文正确，登记为「已一致，不改」：THEM 指门，与同 root 男线、batch-06 前三个 part 的同一句一致。本批与 part04 各有一次提案要把等级挪回卡上，均驳回，此处记明理由是防止后续批次再翻。
+R9M-907	R9M	B	term	SCb28ad558d39b8510	CAT:O8e8cd9a7820dc9fdc872	hold		门卡这一句在五个 root 里出现六次，其中三处已统一为「门上所标等级／数字」，两处仍是别的写法。全库统一需跨 root 一次改完，本批只锁定本批范围内的写法，其余登记待后续批次。

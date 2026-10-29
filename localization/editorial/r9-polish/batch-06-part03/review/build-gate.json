@@ -1,0 +1,95 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-06-part03 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate22",
+ "decisions_total": 62,
+ "apply_findings": [
+  "ds:P06c-S2-104",
+  "ds:P06c-S2-105",
+  "ds:P06c-S2-106",
+  "ds:P06c-S2-110",
+  "ds:P06c-S2-111",
+  "ds:P06c-S2-117",
+  "ds:P06c-S2-119",
+  "ds:P06c-S2-122",
+  "ds:P06c-S2-123",
+  "ds:P06c-S2-124",
+  "ds:P06c-S2-126",
+  "ds:P06c-S2-127",
+  "gemini:P06c-101",
+  "gemini:P06c-102",
+  "gemini:P06c-103",
+  "gemini:P06c-104",
+  "gemini:P06c-105",
+  "gemini:P06c-106",
+  "gemini:P06c-107",
+  "gemini:P06c-109",
+  "gemini:P06c-110",
+  "gemini:P06c-111",
+  "gemini:P06c-112",
+  "gemini:P06c-114",
+  "gemini:P06c-115",
+  "gemini:P06c-116",
+  "gemini:P06c-117",
+  "gemini:P06c-118",
+  "gemini:P06c-119",
+  "gemini:P06c-120",
+  "gemini:P06c-121",
+  "gemini:P06c-122",
+  "gemini:P06c-124",
+  "gemini:P06c-125",
+  "gemini:P06c-126",
+  "gemini:P06c-127",
+  "gemini:P06c-128",
+  "gemini:P06c-129",
+  "gemini:P06c-130",
+  "gemini:P06c-131",
+  "gemini:P06c-132"
+ ],
+ "operations": 41,
+ "ledger": "localization/translations/editorial-r9-batch-06-part03-repairs.jsonl",
+ "ledger_sha256": "3f6608961a67d6b4afee64d7a8034f269fb5b05fb9ae558e6b8141ab5652025c",
+ "decisions_sha256": "a84084abfd8a3c43d964b826bda6b8836f44d2e72e63283d46cd6bc5ceb2c960",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "f7306e3357a428b211cc5bd979e7a6bee3c0637257a972c5d6d6b4c9723cde2d"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 41,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "1d05886d5ce4947436efdc512181120fdde43554ac23c089115e47e7bf0d3f57",
+    "after_resource_sha256": "2ab6dd08a16b0e8c7c3b757850098e0c3f9ab36414f992f5dc1aa301bc1566ef",
+    "targets_changed": 8
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "d204e8bc0c58314a79f1ea999f42017962c5ad0656ae2466a2cd6a46f7f94281",
+    "after_resource_sha256": "df4403f37c8be4c4c10cb850de64b091a34c12d200c70924cb87048d736bdae4",
+    "targets_changed": 2
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "b6c5849bcd822e3519e1f05684e78995c7f10f50740da2fb507e52ac76fd7d61",
+    "after_resource_sha256": "96438067cd6662425746f97bdcf3b2e18e989fadf23ee21fe0e8b25ed0cb63ec",
+    "targets_changed": 13
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "8e6d65846828f31727d8ff1bacd1bb149b1bda312e249042b378821e7bd7c30e",
+    "after_resource_sha256": "dac9c7ac42b0b038816ca9cb758680ed44ef0ae1afdfe58f25d1872f0ca48d7e",
+    "targets_changed": 18
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}
