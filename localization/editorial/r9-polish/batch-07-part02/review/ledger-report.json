@@ -1,0 +1,74 @@
+{
+ "batch": "batch-07-part02",
+ "decisions": 30,
+ "applied": 23,
+ "operations": 23,
+ "targets": 9,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/107",
+   "before_resource_sha256": "b767a97ed6fc06e29ec8c0438f9b6df0dd641ad3c4765bacb7d4d857286851c4",
+   "after_resource_sha256": "4e5f377d2e5e1511123f380425481d36d39d6541c2e6f2bf35e24e037fe0ab05",
+   "targets_changed": 1
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/221",
+   "before_resource_sha256": "142863a92e8335b93bf5cb6da5533839951b81a80c540052667975861ce4aee0",
+   "after_resource_sha256": "99a9c6bce0a7e5996211690f46aed190f5a8341a474965946a1b0ba0811d8cb7",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/155",
+   "before_resource_sha256": "a7a5a01ced4cc309c73c380e6342375bff39ee2e2ceb3f0dac5d9b4681b1a3cb",
+   "after_resource_sha256": "fd3c4c7d6185f57bf1e7785280d752f34413acecbcf0475bb951aa9e1cb1ebb6",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/185",
+   "before_resource_sha256": "f9bcf057e5e4c1b0ff5ac043c5a1d920dd59ad6b0a8c12267051be8e56dbb08d",
+   "after_resource_sha256": "89558e70c1741883756a61d3802354255f17368bdb1eaf83df76597fc2a73635",
+   "targets_changed": 10
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/191",
+   "before_resource_sha256": "865bcbcfbdbc771a57e9f35cd8d0c8d724b774fd4a746dfc709e1efd95607977",
+   "after_resource_sha256": "5d28b312537344fde3e8144c25452d4d3e4a6345771ee0119366169bccc13ccf",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/203",
+   "before_resource_sha256": "2deddae01e193e3ddaebd3135a94eec5f4a497cffd83a0da206a37a47cfa23fc",
+   "after_resource_sha256": "3519ad31fb0f8bf9b8b285ac881e6f72466f66097a5debfb1b8a24006be27a87",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/377",
+   "before_resource_sha256": "95be12f3ae058ce38544181e7ff90fb2168d85b9fe2d4c5b346086c54c39883e",
+   "after_resource_sha256": "79101c1d8a4e833e3650d8928381a3f7ed8614e8b2b134d2c93c156e5c3ebbc0",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/383",
+   "before_resource_sha256": "10e45e192e4291d5e39ce840183efb38e84b795e57275155970d20ec3e04c286",
+   "after_resource_sha256": "613097a108d12d4f581518f4889678e79a018576f4659064b6a17160057b7674",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/401",
+   "before_resource_sha256": "f26696f3e07f534281138ff9a08943aa10209ed9c7ba4171273798e9e5a93020",
+   "after_resource_sha256": "40f63d6559e1cc240929d306763389bb9e26cb9e6bb4bfbfd510b75a520c5122",
+   "targets_changed": 1
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-07-part02-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate25"
+}

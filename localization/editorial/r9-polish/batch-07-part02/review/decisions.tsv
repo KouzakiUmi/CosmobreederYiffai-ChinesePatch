@@ -1,0 +1,31 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P07-205	gemini	C	format	SC6dbce418949e752e	CAT:O924e2410dac62bf3b33c	apply	text: 像被下了药，或……或是什么……？	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+gemini:P07-206	gemini	C	format	SC6dbce418949e752e	CAT:O4b018ca1f3b6c32e8e8f	apply	text: 一位精灵女士把我按在浴泉的岩石上……然后……	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+gemini:P07-208	gemini	C	format	SC28990ff79109edc4	CAT:Oa45629f0cc920293edf7	apply	text: 简直像个任我插的玩具。嗯呃！好……好爽！啊！	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+gemini:P07-210	gemini	C	format	SCb067f24e0154e7af	CAT:O1c87f56be14a51c8c773	apply	text: 对，肯定是这样。他们不想妨碍我大展身手！	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+gemini:P07-211	gemini	C	format	SCb067f24e0154e7af	CAT:Oc6fbe0ea978c3ea783dd	apply	text: 我还没来得及站起来，一只橙毛吠犬就被放过来扑向我，	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+gemini:P07-212	gemini	C	format	SC0f1be81dd740b331	CAT:O6f314bc78cd21079d41f	apply	text: 天啊啊，那帮臭虫把我的涂装毁惨了！	译文行尾多一个半角空格，英文原行行尾没有；该空格参与行宽测量。只删空格。
+ds:P07-S2-101	ds	C	format	SC6d1f199de144d4c6	CAT:O62b55780b07bed166465	apply	text: 至少我们救了图托恩，对吧？	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-102	ds	C	format	SCc81867d38ef92db1	CAT:O9987cb1010d009b1cb30	apply	text: 该、该死，这一下比想的狠多了。我还没准备好……	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-103	ds	C	format	SCc81867d38ef92db1	CAT:O0828af0266903194e5d6	apply	text: ——啊啊！放开我的外套！	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-105	ds	C	format	SCc81867d38ef92db1	CAT:O8260f924823505654dec	apply	text: ……太激烈了……得……得在那之前停下……RRrRrgrrrr……	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-106	ds	C	format	SCc81867d38ef92db1	CAT:O0a19b03a21bdcd1dab72	apply	text: ……不行……              ……太 舒 服 了……	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-107	ds	C	format	SCc81867d38ef92db1	CAT:Ob1c06f5683b5e857363d	apply	text: 停不下了，一、一直高——潮啊啊啊！	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-108	ds	C	format	SCc81867d38ef92db1	CAT:O9a8740a4163c99483465	apply	text: ……数据报告继、继续……	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-109	ds	C	format	SCc81867d38ef92db1	CAT:O5e69534c6063fc429061	apply	text: 看来，我在图托恩的经历就这样收场了。	译文行尾多出半角空格，英文原行行尾没有。只删空格。
+ds:P07-S2-111	ds	C	format	SC6dbce418949e752e	CAT:O924e2410dac62bf3b33c	reject		与本表 gemini:P07-205 同一行同一处（行尾空格），两路同报，取先落地的条目。
+ds:P07-S2-112	ds	C	format	SC6dbce418949e752e	CAT:O4b018ca1f3b6c32e8e8f	reject		与本表 gemini:P07-206 同一行同一处（行尾空格），两路同报，取先落地的条目。
+ds:P07-S2-115	ds	C	format	SC28990ff79109edc4	CAT:Oa45629f0cc920293edf7	reject		与本表 gemini:P07-208 同一行同一处（行尾空格），两路同报，取先落地的条目。
+ds:P07-S2-116	ds	C	format	SCb067f24e0154e7af	CAT:O1c87f56be14a51c8c773	reject		与本表 gemini:P07-210 同一行同一处（行尾空格），两路同报，取先落地的条目。
+ds:P07-S2-117	ds	C	format	SCb067f24e0154e7af	CAT:Oc6fbe0ea978c3ea783dd	reject		与本表 gemini:P07-211 同一行同一处（行尾空格），两路同报，取先落地的条目。
+ds:P07-S2-118	ds	C	format	SC0f1be81dd740b331	CAT:O6f314bc78cd21079d41f	reject		与本表 gemini:P07-212 同一行同一处（行尾空格），两路同报，取先落地的条目。
+gemini:P07-202	gemini	B	format	SC29248fbcf75fe78f	SFW1d163a96f0a48c15382dc1eb	apply	text: ——嗯哼……	清嗓打断处用半角连字符；中文破折号是全角双线，12px 下一个单横会被读成符号残留。
+gemini:P07-207	gemini	B	format	SCadcabd923d4535da	SFW915927655dfd6c6309ed3abb	apply	text: ——嗯哼……	男线同型位置同改。
+gemini:P07-204	gemini	C	format	SCc81867d38ef92db1	CAT:Oc0d2b2136fb52ea99f0f	apply	text: ——啊啊！喂！你们这些野兽从哪冒出来的？	惊叹句首用单字短破折号「—」，全批其它被打断处都是「——」，统一。
+gemini:P07-209	gemini	C	format	SCb067f24e0154e7af	CAT:O5dc9df634e079a066331	apply	text: 要是能快点醒——我是说，再有力气些，我早就跑了，不过都是这科博德在出力，其实也没那么糟嘛！	改口处（wake up faste- I mean）用单字短破折号，同前统一为「——」。
+gemini:P07-203	gemini	B	continuity	SCc81867d38ef92db1	CAT:O385d349d1863c8292346	apply	text: 那些蜥蜴绅士完事后，甚至懒得把我锁起来。无——聊！	「连把我锁起来都懒得」把 bother 直搬成句末「懒得」，中文缺宾语读不成句；原文 didn't even bother chaining me up。
+ds:P07-S2-104	ds	C	voice	SCc81867d38ef92db1	CAT:O56324a79379f6de484dd	apply	text: 该、该死！！！这次怎么这么爽？！？	HECKING 是刻意弱化的脏话，现译升格成「他妈的」；同一批 heck 系另外 4 处都作「到底／搞什么／坏了」。按原文强度收回去。
+ds:P07-S2-110	ds	C	idiom	SC6dbce418949e752e	CAT:O656df030bf001e9f50d9	apply	text: 倒也不是说，被传来传去、被当成飞机杯那样用，就*不*好玩。	「像当飞机杯那样用」两个动词叠着不成词；且否定被逗号甩到句尾，「不*好玩*」读成对前文的追加否认，与 Not that it wasn't 的双重否定不合。
+ds:P07-S2-113	ds	C	meaning	SC9711bca5985d84ed	CAT:O1da1c45ee175e63552a1	apply	text: 好吧，这可比我预想的还颠一点！	a little ruffer 是「还颠一点」；现译「颠得厉害」把程度抬高了，与原文的轻描淡写不符。
+ds:P07-S2-114	ds	C	voice	SCadcabd923d4535da	SFWb8b5b91d7b8146472d52d7e2	apply	text: 干得漂亮，姑——娘！你和你那小狗崽弟弟在下面可真把坏蛋收拾干净了！	grrrrl 是拉长的低吼写法，现译「姑娘」抹平了；本作既有的拉长处理用破折号（如「还——是说」），沿用。
+gemini:P07-201	gemini	C	format	SC6d1f199de144d4c6	CAT:O62b55780b07bed166465	reject		REJECT：与本表 ds:P07-S2-101 同一行同一处（行尾空格），取 DS 条落地。
