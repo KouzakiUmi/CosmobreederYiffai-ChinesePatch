@@ -14,9 +14,9 @@
 | R6 | 层一致性与术语回改（Bumper→弹跳机等） | [r6-consistency](r6-consistency/README.md) |
 | R7 | 用运行代码＋渲染判定剩余条目 | [r7-render](r7-render/README.md) |
 | R8 | 谜题提示改“相邻”，补字形 | [r8-puzzle](r8-puzzle/README.md) |
-| R9 | 全正文精校 batch-01～04、batch-05 三个 part、batch-06 四个 part 与 batch-07 两个 part（双路：Gemini 3.8 Flash 自适应 + DS(OD)），453 处落地 | [r9-polish](r9-polish/README.md) |
+| R9 | 全正文精校 batch-01～04、batch-05 三个 part、batch-06 四个 part 与 batch-07 两个 part（双路：Gemini 3.8 Flash 自适应 + DS(OD)），485 处落地 | [r9-polish](r9-polish/README.md) |
 
-当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ 19（+05-part02）→ 20（+06-part02）→ 21（+06-part01）→ 23（+06-part04）→ 24（+06-part03）→ 25（+07-part01）→ 26（+07-part02）→ 27（+08-part01）→ 28（+08-part02）→ **29（+08-part03，最新）**。
+当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ 19（+05-part02）→ 20（+06-part02）→ 21（+06-part01）→ 23（+06-part04）→ 24（+06-part03）→ 25（+07-part01）→ 26（+07-part02）→ 27（+08-part01）→ 28（+08-part02）→ 29（+08-part03）→ **30（+08-part04，最新）**。
 
 - candidate12：13 个组件，四步编译 exit 0，55 类。
 - candidate13～19：15 个组件（新增 `r9polish`），四步编译 exit 0，55 类；**17 步 CPU 回归全部 exit 0**。
@@ -28,9 +28,9 @@
 | 项 | 状态 |
 | --- | --- |
 | P01-035 `MAGs` | 唯一仍未决的留置项。已证：该句只在 NSFW 版存在（SFW 版整句不同）、全库无 MAG 物品、无弹药系统，现译“弹匣”无据；但“杂志”与“磁靴”两解均无法证实 |
-| 全正文系统精校 | **进行中**：R9 batch-01～07 已落地（805 场／7,419 行，约 26.9%）；batch-08 的 part04／05、区域场景、界面系统与零散条目未做，见下节 |
+| 全正文系统精校 | **进行中**：R9 batch-01～07 已落地（821 场／7,921 行，约 27.5%）；batch-08 的 part05、区域场景、界面系统与零散条目未做，见下节 |
 | 全库口径待终裁 | `LIGHTTAZER` 命名（光能电击刃／光电击枪／轻型电击枪三种）、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心） |
-| candidate29 封签 | 未做 |
+| candidate30 封签 | 未做 |
 
 ## 三、进行中：全正文系统精校（双路，路由已定）
 
@@ -41,7 +41,7 @@
 | A | `gemini/gemini-3.8-flash` | `tiered`（自适应） | 非 ACP 入口；`antigravity-acp` 按用户要求禁用 |
 | B | `opendesign-corouter-plan/deepseek-v4.1-flash` | `high` | OpenDesign 套餐路由（DS(OD)）；旧记录里「没有 opendesign provider」已过时 |
 
-已落地十六批：
+已落地十七批：
 
 | 批次 | 范围 | 场次／行 | 两路发现 | 裁决 | 台账 |
 | --- | --- | --- | --- | --- | --- |
@@ -61,6 +61,7 @@
 | batch-08-part01 | VSN 场景脚本（part 1／5） | 15／452 | 21 / 29 | 53（apply 24／reject 26／hold 3） | 24 个操作，并入 candidate27 |
 | batch-08-part02 | VSN 场景脚本（part 2／5） | 16／470 | 1 / 26 | 28（apply 25／reject 2／hold 1） | 25 个操作，并入 candidate28 |
 | batch-08-part03 | VSN 场景脚本（part 3／5） | 15／483 | 0 / 8 | 25（apply 24／hold 1） | 24 个操作，并入 candidate29 |
+| batch-08-part04 | VSN 场景脚本（part 4／5） | 16／502 | 2 / 7 | 36（apply 32／reject 3／hold 1） | 32 个操作，并入 candidate30 |
 
 batch-08～11 的批次定义已写入 `tools/build_batch.py`（batch-08 VSN 场景脚本 2,356 行／约 5 个 part；batch-09 区域场景 1,597 行／约 4 个 part；batch-10 界面与系统 1,159 行／约 3 个 part；batch-11 零散条目 505 行）；`reader.md` 与 `.json` 由 `build_batch.py` 生成，`ORDER.md` 与 `reference-excerpt.md` 需按批手写。
 
