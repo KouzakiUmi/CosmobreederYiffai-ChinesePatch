@@ -1,0 +1,26 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P08-S3-101	ds	B	idiom	SC832e4681e35f8f6d	CAT:O1c5e5e95713c1f55ddf4	apply	text: 我！的！天！太谢谢你了，谢谢你救我！	原文 soooooooo much 的拉长被挪到了「太」上，成了「太——谢谢你」，单独一个「太」悬空不成句；拉长该落在「谢谢」上。
+ds:P08-S3-102	ds	C	term	SC0288b8c93129d093	CAT:Od26574a966de491be47b	apply	text: 不管是谁教的，我都得谢谢。多数野兽一涨起肉结就停了。	feral 在本行被译成「兽人」，「兽人」在中文里读作一个种族；同场另一处作「兽形」。原文指失去理智的野兽状态。
+ds:P08-S3-103	ds	C	meaning	SC0288b8c93129d093	CAT:Ofeff8f51c3d0b105c516	apply	text: 再给你一小会儿，说不定那些狗狗奶油就能蹭进我里面了！	原文 doggy cream 是绕开的说法，现译「狗狗精液」把它直白化了，属加码；工单禁止。改回「狗狗奶油」，与原文的委婉程度一致。
+ds:P08-S3-104	ds	B	meaning	SC8cfb083ebf53f503	CAT:O4eee43c5c8a791ffade4	apply	text: 等你放开自己，每次插入都把尾巴往后迎，我发誓他们会自己调角度，让那些凸粒恰好顶中你。	原文 pushing your tail back 是尾巴；现译「把屁股往后迎」换了部位，同场另一行作「粗尾巴」。
+ds:P08-S3-105	ds	C	voice	SCd69d545248a7babc	CAT:Oad7343144ac1717c628f	apply	text: 当然，再来两三个科博德，对我这样身手高超的上位特工而言，又算得了什么？	「区区在下」是自谦语，与这一句自夸身手高超的语气相反，且同场另一处该角色自称「本人」。原文 yours truly 就是「我」。
+ds:P08-S3-106	ds	C	meaning	SCd69d545248a7babc	CAT:O7c957ec32840a49ec5bf	apply	text: 我静候时机，等科博德们不知在忙些什么、忙到筋疲力尽	原文 doing whatever it is they do 这一层被整个漏掉，只剩「忙活到筋疲力尽」，读者不知道它们在忙什么。
+ds:P08-S3-107	ds	C	idiom	SC234ab616e2065b4f	SFW303c05d577c957459eb87bce	apply	text: 往好处想，看来我有几件装备也掉进这里了。	「有些我的装备」是英文语序直搬；中文应作「我有几件装备」。
+ds:P08-S3-108	ds	C	meaning	SC6f9dc9a02e4070a9	CAT:O19cca20ab65637cd7246	apply	text: 拿着，有股冲劲的黄毛小子，离开我的领地吧。	原文 Here, 是递东西时说「拿着」；现译「好吧」把这句读成了语气词，而下文紧接 take this garbage 与 With shoes in hand，递物动作不能丢。
+R9M-CAT:Odbaa97f8ad38565b6b69	R9M	C	format	SC8ca974932cebe3c3	CAT:Odbaa97f8ad38565b6b69	apply	text: 起先撞见几个太空海盗。没什么大不了，对吧？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O8e573572a049b63ae705	R9M	C	format	SC8ca974932cebe3c3	CAT:O8e573572a049b63ae705	apply	text: 不骗你，我还真有段日子没做爱了。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O25aac6350f03509b6cda	R9M	C	format	SC8ca974932cebe3c3	CAT:O25aac6350f03509b6cda	apply	text: 简直让我想起了在学院的日子！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:Obd906925198633290848	R9M	C	format	SC8ca974932cebe3c3	CAT:Obd906925198633290848	apply	text: 你尝过海盗酿的那种酸奶吗？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O84f5f2dfcb5bf121ed89	R9M	C	format	SC8ca974932cebe3c3	CAT:O84f5f2dfcb5bf121ed89	apply	text: 总之，我说到哪了……	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O199227d31537be4e16d5	R9M	C	format	SC8ca974932cebe3c3	CAT:O199227d31537be4e16d5	apply	text: 我听这附近的酒保说起过他们。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O6118f287fdcc1bb16cc2	R9M	C	format	SC832e4681e35f8f6d	CAT:O6118f287fdcc1bb16cc2	apply	text: ……啵！！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:Oaa0b230e86c2c0130c4b	R9M	C	format	SC832e4681e35f8f6d	CAT:Oaa0b230e86c2c0130c4b	apply	text: 我从地表的旧舱口下来，可见着太多好玩的事了！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O5c6b821881ff928818f2	R9M	C	format	SC832e4681e35f8f6d	CAT:O5c6b821881ff928818f2	apply	text: ……还有些特工，瞧着就像故意被抓去找乐子的！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:Oeea1cdd013e38babc1a9	R9M	C	format	SC832e4681e35f8f6d	CAT:Oeea1cdd013e38babc1a9	apply	text: ……见着什么生物，都想跟对方肉体接触。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O8bfc957b822cdda6a0c1	R9M	C	format	SC0288b8c93129d093	CAT:O8bfc957b822cdda6a0c1	apply	text: 对——就是这样，终于射中靶心啦<3 <3	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O05c8f168f413e803c55e	R9M	C	format	SC0288b8c93129d093	CAT:O05c8f168f413e803c55e	apply	text: 放心把我灌满吧，我随身都带着 Estrafin！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O2a1ce8dd77078b6f7dea	R9M	C	format	SC8cfb083ebf53f503	CAT:O2a1ce8dd77078b6f7dea	apply	text: 我猜你其实只想四处跑着玩。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:Od5d500b7140ed29eca3a	R9M	C	format	SCd69d545248a7babc	CAT:Od5d500b7140ed29eca3a	apply	text: 多谢你替我解开镣铐，菜鸟。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:O8b043a339ab65f78a095	R9M	C	format	SCd69d545248a7babc	CAT:O8b043a339ab65f78a095	apply	text: 失陪了，菜鸟。我得收拾装备，再交份报告。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-CAT:Of67ca13006bb8b779840	R9M	C	format	SC6f9dc9a02e4070a9	CAT:Of67ca13006bb8b779840	apply	text: 接下来呢，你们还想来一个把我也撞——	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。该空格参与行宽测量。只删空格。
+R9M-1301	R9M	C	format	SCd69d545248a7babc	CAT:O7c957ec32840a49ec5bf	hold		本批另有 12 行（`SFW` 编号一侧）中文行尾带空格，经核对英文原行本身也带空格，属排版镜像，不动。这批镜像行与 17 行真缺陷混在同一批里，是本轮两路判断相反的原因。
