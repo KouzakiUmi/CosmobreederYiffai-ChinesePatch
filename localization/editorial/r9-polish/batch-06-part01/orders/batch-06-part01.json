@@ -1,0 +1,5478 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-06-part01",
+ "batch_group": "batch-06",
+ "part": 1,
+ "parts": 4,
+ "title": "雄猫道具与商店线（道具说明）（第 1／4 部分）",
+ "roots": [
+  "TomcatItems"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC60ed91a511e551d2",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.CosmoCard",
+   "header_line": 4691,
+   "controls": [
+    {
+     "line": 4691,
+     "source": "<TomcatItems.CosmoCard>",
+     "current": "<TomcatItems.CosmoCard>"
+    },
+    {
+     "line": 4706,
+     "source": "### Ship Parts",
+     "current": "### Ship Parts"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oe42913059da382b2e142",
+     "line": 4692,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEEEEY WE'VE GOT COSMOCARDS ON THIS PLANET!]",
+     "current": "  Yiffany: [嘿————这颗星球上有宇宙卡！]"
+    },
+    {
+     "row_id": "CAT:O941d1568f55e5cc2d492",
+     "line": 4693,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH NEAT! THOSE ARE GREAT FOR SOME FAUNA INFO]",
+     "current": "  Tomcat: [哦，不错！那些对了解生物很有用]"
+    },
+    {
+     "row_id": "CAT:Oad234307117b0fcbc530",
+     "line": 4694,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YUP, GET ALL THAT GREAT INFO ON WHAT'S GONNA]",
+     "current": "  Yiffany: [可不嘛，那些要被硬塞进你身体里的东西，都能了解个透！]"
+    },
+    {
+     "row_id": "CAT:O7b51efe0da728afd52d6",
+     "line": 4695,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BE JAMMED RIGHT UP INSIDE OF YA!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O23ea5c8ed4918d1e538d",
+     "line": 4696,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Tomcat: [……]"
+    },
+    {
+     "row_id": "CAT:O969105df60b44f1811b2",
+     "line": 4697,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...AND OF ENEMY STATS AND ITEM DROPS, YOU KNOW.]",
+     "current": "  Tomcat: [……还有敌人属性和掉落物，你知道的。]"
+    },
+    {
+     "row_id": "CAT:O889386a659b0a2ebef46",
+     "line": 4698,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REALLY? IS THAT STUFF ON THE FRONT OF THE CARDS]",
+     "current": "  Yiffany: [真的？那些东西是在卡片正面还是哪儿？我从来不去看那一面……]"
+    },
+    {
+     "row_id": "CAT:O0f1c998ff1376d74eda2",
+     "line": 4699,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OR SOMETHING? I NEVER LOOK AT THAT SIDE...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od81753aa11063247cc2d",
+     "line": 4700,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EVEN THOUGH YOU HAVE TO SEE THE FRONTSIDE FIRST]",
+     "current": "  Tomcat: [就算你进 P.A.W 子菜单看卡片数据时，也得先看到正面……]"
+    },
+    {
+     "row_id": "CAT:O5b4960792f7eb254d64e",
+     "line": 4701,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHILE ACCESSING THE CARD DATA IN YOUR P.A.W SUBMENU...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofbb1adfd4a9613dfb175",
+     "line": 4702,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH YEAH I JUST HABITUALLY FLIP TO THE /GOOD/ SIDE]",
+     "current": "  Yiffany: [哦对，我就是习惯翻到/好看/的那一面。]"
+    },
+    {
+     "row_id": "CAT:Odccaa53d6a43504e404a",
+     "line": 4703,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU KNOW WHAT I MEAN!]",
+     "current": "  Yiffany: [你懂我意思吧！]"
+    },
+    {
+     "row_id": "CAT:Oc806f262e9defda611b0",
+     "line": 4704,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[RIIIIIIIIGHT...]",
+     "current": "  Tomcat: [是————啊……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2be09e8483c914fb",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.DoggyHead",
+   "header_line": 4092,
+   "controls": [
+    {
+     "line": 4092,
+     "source": "<TomcatItems.DoggyHead>",
+     "current": "<TomcatItems.DoggyHead>"
+    },
+    {
+     "line": 4101,
+     "source": "### Combat/Judo ###",
+     "current": "### Combat/Judo ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Of1c2e58306be9df014ce",
+     "line": 4093,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHAT DO YOU THINK OF THIS COLLAR, TOMCAT? STYLISH?]",
+     "current": "  Yiffany: [这项圈怎么样，雄猫？时髦吗？]"
+    },
+    {
+     "row_id": "CAT:O933fcf7e3c4697948853",
+     "line": 4094,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OHHH IT'S NOT SO BAD, NOT SURE ABOUT BRIGHT RED MYSELF]",
+     "current": "  Tomcat: [哦，不算差，我自己对亮红色不太拿得准，而且上面连可爱的铃铛都没有……]"
+    },
+    {
+     "row_id": "CAT:O806c4526a476ef57c27d",
+     "line": 4095,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AND IT DOESN'T EVEN HAVE ANY CUTE BELLS ON IT...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9111637478e32705eceb",
+     "line": 4096,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[COME ON, LET'S BE PRACTICAL! I'VE GOT SNEAKING TO DO.]",
+     "current": "  Yiffany: [拜托，实际点！我还得潜行呢。]"
+    },
+    {
+     "row_id": "CAT:O6d492a9a5ff61d455f2a",
+     "line": 4097,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OKAY OKAY IT'S PREEEETTY COOL THEN.]",
+     "current": "  Tomcat: [好好好，那它就挺——酷的。]"
+    },
+    {
+     "row_id": "CAT:Ob942e8565a6f70721ba1",
+     "line": 4098,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HOPE IT PROVIDES GOOD DEFENSIVE CAPABILITIES TOO!]",
+     "current": "  Tomcat: [希望它防御能力也不错！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe17ae1d4176d49ff",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.DoggyHead",
+   "header_line": 4101,
+   "controls": [
+    {
+     "line": 4101,
+     "source": "<TomcatItems.DoggyHead>",
+     "current": "<TomcatItems.DoggyHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O9909e256e58e2cf8ca80",
+     "line": 4102,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOW THAT'S A PRETTY STYLISH COLLAR YOU GOT THERE. SOLID!]",
+     "current": "  Tomcat: [你这项圈还真时髦。够结实！]"
+    },
+    {
+     "row_id": "CAT:Odf5bfc13278cbfa0c7df",
+     "line": 4103,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'M ONLY WEARING IT BECAUSE I HAVE NO CHOICE, OKAY??]",
+     "current": "  Yiffai: [我只是没得选才戴着的，懂吗？？]"
+    },
+    {
+     "row_id": "CAT:O4965283edbbed9868b6f",
+     "line": 4104,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S NOT LIKE I LIKE THIS KINDA S-STUFF...]",
+     "current": "  Yiffai: [我才不是喜欢这种东、东西……]"
+    },
+    {
+     "row_id": "CAT:O548ce717e8a149113b2c",
+     "line": 4105,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEHE! SURE THING, IT'LL BE OUR LITTLE SECRET.]",
+     "current": "  Tomcat: [嘿嘿！当然啦，这是咱俩的小秘密。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6590f4641ceec351",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.ElfHead",
+   "header_line": 4255,
+   "controls": [
+    {
+     "line": 4255,
+     "source": "<TomcatItems.ElfHead>",
+     "current": "<TomcatItems.ElfHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O11de8f92e4670ec00456",
+     "line": 4256,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BOUGHT YOURSELF A PRETTY NEW ELF TIARA, HUH?]",
+     "current": "  Tomcat: [给自己买了顶漂亮的精灵新头冠，嗯？]"
+    },
+    {
+     "row_id": "CAT:O4f77fbb466b3dc81c288",
+     "line": 4257,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[... ITS DEFENSIVE CAPABILITIES ARE SUPERIOR, SO...]",
+     "current": "  Yiffai: [……它的防御性能更好，所以……]"
+    },
+    {
+     "row_id": "CAT:O23107e9be74e37fb331b",
+     "line": 4258,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[RIGHT, RIGHT. SUPER-ADORABLE!]",
+     "current": "  Tomcat: [对对对，超级可爱！]"
+    },
+    {
+     "row_id": "CAT:Od2a4feb0f2c0888ee816",
+     "line": 4259,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HMF...]",
+     "current": "  Yiffai: [哼……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4d17154d92bd6440",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.FakeDrumstick",
+   "header_line": 4007,
+   "controls": [
+    {
+     "line": 4007,
+     "source": "<TomcatItems.FakeDrumstick>",
+     "current": "<TomcatItems.FakeDrumstick>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2f71354e6a98675942be",
+     "line": 4008,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU MAY HAVE GOTTEN THAT DRUMSTICK FOR A GOOD PRICE]",
+     "current": "  Tomcat: [这鸡腿你也许买得不贵，但它怎么看着像……]"
+    },
+    {
+     "row_id": "CAT:Oe7b411381d6bd6b024c0",
+     "line": 4009,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT IT KINDA LOOKS LIKE...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3465defa63ce5e39c99d",
+     "line": 4010,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BITS OF MEAT RE- WRAPPED AROUND SOME STRANGE BONE?]",
+     "current": "  Tomcat: [把碎肉重新裹到一根怪骨头上？]"
+    },
+    {
+     "row_id": "CAT:O85d1138936612240870d",
+     "line": 4011,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOT SURE IF IT'LL MAKE YOU FEEL BETTER OR WORSE, REALLY]",
+     "current": "  Tomcat: [说实话，不知道吃了会让你舒服点，还是更难受，不过大概不会要了你的命！]"
+    },
+    {
+     "row_id": "CAT:Oe463bcbcc73471384f13",
+     "line": 4012,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT IT PROBABLY WON'T KILL YOU!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O130b0dee370b7c0d2887",
+     "line": 4013,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...PROBABLY!]",
+     "current": "  Tomcat: [……大概吧！]"
+    },
+    {
+     "row_id": "CAT:Oc5fadfab21f49e409b4e",
+     "line": 4014,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NICE...]",
+     "current": "  Yiffai: [不错……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC858168b82abac191",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.FakeDrumstick",
+   "header_line": 3967,
+   "controls": [
+    {
+     "line": 3967,
+     "source": "<TomcatItems.FakeDrumstick>",
+     "current": "<TomcatItems.FakeDrumstick>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1a50ec4a82f2ce402a94",
+     "line": 3968,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU MAY HAVE GOTTEN THAT DRUMSTICK FOR A GOOD PRICE]",
+     "current": "  Tomcat: [这鸡腿你也许买得不贵，可它看起来有点像……]"
+    },
+    {
+     "row_id": "CAT:O173e12bf949a404f2215",
+     "line": 3969,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT IT KINDA LOOKS LIKE...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0a608258ce27b0a53940",
+     "line": 3970,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BITS OF MEAT RE- WRAPPED AROUND SOME STRANGE BONE?]",
+     "current": "  Tomcat: [肉块重新裹在某种奇怪的骨头上？]"
+    },
+    {
+     "row_id": "CAT:Oa76cd486e68da4e8e123",
+     "line": 3971,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOT SURE IF IT'LL MAKE YOU FEEL BETTER OR WORSE, REALLY]",
+     "current": "  Tomcat: [真说不准会让你舒服点还是更糟，不过大概不会要了你的命！]"
+    },
+    {
+     "row_id": "CAT:O539c3cf7051987809fea",
+     "line": 3972,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT IT PROBABLY WON'T KILL YOU!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3ad430dccaaeb965cbcf",
+     "line": 3973,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...PROBABLY!]",
+     "current": "  Tomcat: [……大概！]"
+    },
+    {
+     "row_id": "CAT:O8fc0c39b9c382880e067",
+     "line": 3974,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE'S ONLY ONE WAY TO FIND OUT!]",
+     "current": "  Yiffany: [只有一个办法能知道！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5c5a3a396c1417ce",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.FakeTea",
+   "header_line": 4037,
+   "controls": [
+    {
+     "line": 4037,
+     "source": "<TomcatItems.FakeTea>",
+     "current": "<TomcatItems.FakeTea>"
+    },
+    {
+     "line": 4046,
+     "source": "### Throwables ###",
+     "current": "### Throwables ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O5bea6ef254bd087dd6b8",
+     "line": 4038,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO, THIS MAY NOT BE A SURPRISE, BUT...]",
+     "current": "  Tomcat: [所以，这也许不算意外，可是……]"
+    },
+    {
+     "row_id": "CAT:O9d62ca4b32ee770efb6d",
+     "line": 4039,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...THERE'S NOTHING RESEMBLING TEA IN THAT CUPPA.]",
+     "current": "  Tomcat: [……那杯子里根本没有半点像茶的东西。]"
+    },
+    {
+     "row_id": "CAT:O479b811cf40dcad209d4",
+     "line": 4040,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]",
+     "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]"
+    },
+    {
+     "row_id": "CAT:O765468e6a673eb519159",
+     "line": 4041,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT WHATEVER'S IN THAT PITCH BLACK LIQUID]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O99ede1784e335d38e10d",
+     "line": 4042,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[PROBABLY WON'T KILL YOU! MAYBE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O23fd36d8675003ca446e",
+     "line": 4043,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...ENJOY!!!!!]",
+     "current": "  Tomcat: [……享用吧！！！！！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfb502d255a1ac972",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.FakeTea",
+   "header_line": 4005,
+   "controls": [
+    {
+     "line": 4005,
+     "source": "<TomcatItems.FakeTea>",
+     "current": "<TomcatItems.FakeTea>"
+    },
+    {
+     "line": 4013,
+     "source": "### Throwables ###",
+     "current": "### Throwables ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Obbe7fc1554f0358905eb",
+     "line": 4006,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO, THIS MAY NOT BE A SURPRISE, BUT...]",
+     "current": "  Tomcat: [所以，这也许不算意外，可是……]"
+    },
+    {
+     "row_id": "CAT:O2247647899064066a149",
+     "line": 4007,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...THERE'S NOTHING RESEMBLING TEA IN THAT CUPPA.]",
+     "current": "  Tomcat: [……那一杯里没有任何像茶的东西。]"
+    },
+    {
+     "row_id": "CAT:Ob806e63f877eb189462d",
+     "line": 4008,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]",
+     "current": "  Tomcat: [不过好的一面是，它煮了那么久，那漆黑液体里无论有什么，大概不会要了你的命！也许！]"
+    },
+    {
+     "row_id": "CAT:Ob8f3b6420c1dad33e056",
+     "line": 4009,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT WHATEVER'S IN THAT PITCH BLACK LIQUID]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O088ff787b26fec406853",
+     "line": 4010,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[PROBABLY WON'T KILL YOU! MAYBE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9643cf0e9d9358d86daa",
+     "line": 4011,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...ENJOY!!!!!]",
+     "current": "  Tomcat: [……享用吧！！！！！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa20acba318a2aace",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.IceCola",
+   "header_line": 3982,
+   "controls": [
+    {
+     "line": 3982,
+     "source": "<TomcatItems.IceCola>",
+     "current": "<TomcatItems.IceCola>"
+    },
+    {
+     "line": 3988,
+     "source": "### Trainee/Doggy ###",
+     "current": "### Trainee/Doggy ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWbdd71101a3c68506086b1345",
+     "line": 3983,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[PSH, IS THAT AN ICE SODA YOU'VE GOT?]",
+     "current": "  Tomcat: [切，你拿的是冰汽水吗？]"
+    },
+    {
+     "row_id": "SFW328bd2fddff30b3237834e05",
+     "line": 3984,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH! THE SHOPKEEPER SAID IT WAS] ",
+     "current": "  Yiffai: [对！店主说它是这星球上最酷的饮料！] "
+    },
+    {
+     "row_id": "SFWe094bdecd37a622403ff9447",
+     "line": 3985,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE COOLEST DRINK ON THE PLANET!]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW11b7992d6b5d1d824d7e32ab",
+     "line": 3986,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NEVER KNOW WHAT YOU'LL RUN INTO OUT THERE.] ",
+     "current": "  Tomcat: [在外面永远不知道会碰上什么。] "
+    },
+    {
+     "row_id": "SFWae9bde1c2775c1b3ef227bf2",
+     "line": 3987,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT KINDA MAKES ME MISS FIELD WORK, A BIT...]",
+     "current": "  Tomcat: [这有点让我想念外勤，有一点……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC886f1f98e98aa76a",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.JudoBody",
+   "header_line": 4135,
+   "controls": [
+    {
+     "line": 4135,
+     "source": "<TomcatItems.JudoBody>",
+     "current": "<TomcatItems.JudoBody>"
+    },
+    {
+     "line": 4146,
+     "source": "### Tribal ###",
+     "current": "### Tribal ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O4ae34830081ed2f74b87",
+     "line": 4136,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO, WHAT DO YOU THINK OF THIS?]",
+     "current": "  Yiffai: [怎么样，你觉得这件如何？]"
+    },
+    {
+     "row_id": "CAT:Of9dde050e2730f055fe3",
+     "line": 4137,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT LOOKS CUTE ON YOU! REALLY SHOWS OFF THAT PERKY BUTT]",
+     "current": "  Tomcat: [你穿着真可爱！翘屁股全衬出来了]"
+    },
+    {
+     "row_id": "CAT:Oce5b061f320980b5fb58",
+     "line": 4138,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOT THAT! I MEAN WHERE DO YOU THINK IT CAME FROM?]",
+     "current": "  Yiffai: [不是说那个！我是问，你觉得它哪来的？]"
+    },
+    {
+     "row_id": "CAT:Odb068e1aa05d393e47e0",
+     "line": 4139,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE WORE THESE DUR- ING TRAINING ALL THE TIME AT THE ACADEMY]",
+     "current": "  Yiffai: [在学院训练时，我们天天穿这个]"
+    },
+    {
+     "row_id": "CAT:Od74416cf91157f477ef3",
+     "line": 4140,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ALL PART OF OUR HAND TO HAND BASICS CLASSES, YUP!]",
+     "current": "  Tomcat: [没错！徒手格斗基础课必备！]"
+    },
+    {
+     "row_id": "CAT:O618278e2ccc13053aec8",
+     "line": 4141,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAYBE ONE OF THE PREVIOUS AGENTS DOWN THERE DECIDED THAT]",
+     "current": "  Tomcat: [也许之前下去的某个特工决定亲自出手解决问题，还穿上这个给自己壮胆！]"
+    },
+    {
+     "row_id": "CAT:O9ffd6690b350ded59f2e",
+     "line": 4142,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY WERE GOING TO TAKE MATTERS INTO THEIR OWN HANDS]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9773d2a35513fa763637",
+     "line": 4143,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND WORE THAT TO PSYCHE THEMSELVES UP!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8e54cd49d94156db",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.JudoBody",
+   "header_line": 4034,
+   "controls": [
+    {
+     "line": 4034,
+     "source": "<TomcatItems.JudoBody>",
+     "current": "<TomcatItems.JudoBody>"
+    },
+    {
+     "line": 4043,
+     "source": "### Tribal ###",
+     "current": "### Tribal ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWa656d06df69cf5fc1354ea75",
+     "line": 4035,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO, WHAT DO YOU THINK OF THIS OUTFIT I PICKED UP?]",
+     "current": "  Yiffai: [怎么样，我找到的这身装束如何？]"
+    },
+    {
+     "row_id": "SFWb5140994dce0af53adaf0fc9",
+     "line": 4036,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE WORE THESE DUR- ING TRAINING ALL THE TIME AT THE ACADEMY]",
+     "current": "  Yiffai: [在学院训练时，我们天天穿这个]"
+    },
+    {
+     "row_id": "SFW0cf0d7bca31d0e177c96c462",
+     "line": 4037,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ALL PART OF OUR HAND TO HAND BASICS CLASSES, YUP!]",
+     "current": "  Tomcat: [没错！徒手格斗基础课必备！]"
+    },
+    {
+     "row_id": "SFW922fba905bf19bcf85c5420b",
+     "line": 4038,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAYBE ONE OF THE PREVIOUS AGENTS DOWN THERE DECIDED THAT]",
+     "current": "  Tomcat: [也许之前下去的某个特工决定亲自出手解决问题，还穿上这个给自己壮胆！]"
+    },
+    {
+     "row_id": "SFW316d53250ba38beac8b1fb9a",
+     "line": 4039,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY WERE GOING TO TAKE MATTERS INTO THEIR OWN HANDS]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWd1769f4fa7f1dcc5095d5b7a",
+     "line": 4040,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND WORE THAT TO PSYCHE THEMSELVES UP!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC98ccae8bfe520d3d",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.JudoHead",
+   "header_line": 4007,
+   "controls": [
+    {
+     "line": 4007,
+     "source": "<TomcatItems.JudoHead>",
+     "current": "<TomcatItems.JudoHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW0a23085f244156d73752c194",
+     "line": 4008,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEY! A HEADBAND! JUST WHAT I NEEDED]",
+     "current": "  Yiffany: [嘿！头带！正是我需要的]"
+    },
+    {
+     "row_id": "SFW00df37ce162ba7f737cde34d",
+     "line": 4009,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'LL LET YOU FOCUS A BIT MORE WHILE IN BATTLE]",
+     "current": "  Tomcat: [它能让你在战斗时更专注一些，]"
+    },
+    {
+     "row_id": "SFWd3c381b740affcbffbf866bb",
+     "line": 4010,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JUST DON'T GET CARRIED AWAY, ALRIGHT?]",
+     "current": "  Tomcat: [只是别得意忘形，好吗？]"
+    },
+    {
+     "row_id": "SFW0ae2c7dcebfe4ff22c399f79",
+     "line": 4011,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NO KUNG FU ACTION ON THIS MISSION!]",
+     "current": "  Tomcat: [这次任务可不许你大耍功夫！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc635b8a619a4ab00",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.KoboHead",
+   "header_line": 4227,
+   "controls": [
+    {
+     "line": 4227,
+     "source": "<TomcatItems.KoboHead>",
+     "current": "<TomcatItems.KoboHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ofd82f7a74c649e64dd53",
+     "line": 4228,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LOOK I'M NOT EVEN GONNA COMMENT ON THIS STUFF ANYMORE]",
+     "current": "  Tomcat: [听着，这种东西我再也不评论了]"
+    },
+    {
+     "row_id": "CAT:Oa2b980b9d049e0c62d7b",
+     "line": 4229,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST... MAKE SURE YOU GET A FULL SET OF KOBO GEAR]",
+     "current": "  Tomcat: [只是……务必凑齐一整套科博德装备，就是爪子、头部和身体……]"
+    },
+    {
+     "row_id": "CAT:O2d745c3c5dd051ab4ce3",
+     "line": 4230,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHICH MEANS THE CLAWS, HEAD, AND BODY...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of17eb0d39d9f49c593a6",
+     "line": 4231,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...OR I'M GONNA HAVE TO JUDGE YA FOR WEARING A PARTIAL]",
+     "current": "  Tomcat: [……不然我可要笑话你只穿半套]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC64cd42ff93432b67",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.MapData02",
+   "header_line": 4628,
+   "controls": [
+    {
+     "line": 4628,
+     "source": "<TomcatItems.MapData02>",
+     "current": "<TomcatItems.MapData02>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oeb56e49fed7ec410a57a",
+     "line": 4629,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [那就是你刚捡到的地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:Oa5e1fcb816bd09da5b49",
+     "line": 4630,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域的各个部分，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:O94e31f27fd0cd2426633",
+     "line": 4631,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Odf79dbe7ef5fa0333204",
+     "line": 4632,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]"
+    },
+    {
+     "row_id": "CAT:O528b23c0f763dd1a3206",
+     "line": 4633,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC114b3f12884f5e34",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.MapDataANorth2",
+   "header_line": 4647,
+   "controls": [
+    {
+     "line": 4647,
+     "source": "<TomcatItems.MapDataANorth2>",
+     "current": "<TomcatItems.MapDataANorth2>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O781f23ba86871fdfc946",
+     "line": 4648,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [你刚捡到的是地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:Odc5841048cc81750f3bd",
+     "line": 4649,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:Obc97064923542df81330",
+     "line": 4650,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O7786e6c02d33528fabf6",
+     "line": 4651,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要进到对应的 P.A.W. 子菜单，就能看到新内容！]"
+    },
+    {
+     "row_id": "CAT:O2bef55e85a0f0636466b",
+     "line": 4652,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe26e145033e74444",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.MapDataASouth2",
+   "header_line": 4670,
+   "controls": [
+    {
+     "line": 4670,
+     "source": "<TomcatItems.MapDataASouth2>",
+     "current": "<TomcatItems.MapDataASouth2>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oe0ab03461bb7f6f359ee",
+     "line": 4671,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [那就是你刚捡到的地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:O1e096c2ed9427801bbca",
+     "line": 4672,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域的各个部分，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:O25df6c41d37158b7aca8",
+     "line": 4673,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of0aa19401d68cdb7b720",
+     "line": 4674,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]"
+    },
+    {
+     "row_id": "CAT:Oc9c40a579af644e5181c",
+     "line": 4675,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb0f869ba213cc387",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.MapDataB1",
+   "header_line": 4626,
+   "controls": [
+    {
+     "line": 4626,
+     "source": "<TomcatItems.MapDataB1>",
+     "current": "<TomcatItems.MapDataB1>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oef01703a2c62965406df",
+     "line": 4627,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [你刚捡到的是地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:Od56ea608a132a580017a",
+     "line": 4628,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:O547636f526e4ee8177d3",
+     "line": 4629,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2b0c776185803b48d35c",
+     "line": 4630,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要进到对应的 P.A.W. 子菜单，就能看到新内容！]"
+    },
+    {
+     "row_id": "CAT:Ob1f4750cb59c8330c4c8",
+     "line": 4631,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8a0c206cf55b2dd4",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.MapDataCEast",
+   "header_line": 4677,
+   "controls": [
+    {
+     "line": 4677,
+     "source": "<TomcatItems.MapDataCEast>",
+     "current": "<TomcatItems.MapDataCEast>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa74517d64eccf5b2167f",
+     "line": 4678,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [那就是你刚捡到的地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:O611135caa1a580b4718f",
+     "line": 4679,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:O33235f18cec498cb5afe",
+     "line": 4680,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obd8b6ffc12cc588e0a9d",
+     "line": 4681,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]"
+    },
+    {
+     "row_id": "CAT:O862c81d6dbe8bd858770",
+     "line": 4682,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC89b1629f31a66742",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.MapDataE",
+   "header_line": 4682,
+   "controls": [
+    {
+     "line": 4682,
+     "source": "<TomcatItems.MapDataE>",
+     "current": "<TomcatItems.MapDataE>"
+    },
+    {
+     "line": 4689,
+     "source": "### CosmoCards (shared)",
+     "current": "### CosmoCards (shared)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O59c2de91672dace1452e",
+     "line": 4683,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S A MAP DISK THAT YOU JUST PICKED UP THERE!]",
+     "current": "  Tomcat: [你刚捡到的是地图磁盘！]"
+    },
+    {
+     "row_id": "CAT:O960dc03e61998036b2fe",
+     "line": 4684,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "CAT:Of258f81d84eedb23cbac",
+     "line": 4685,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT YOU'RE CURR- ENTLY IN, SOMETIMES WITH NOTATION.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obd027676bc156833d2fd",
+     "line": 4686,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JUST NAVIGATE OVER TO THE APPROPRIATE P.A.W. SUBMENU]",
+     "current": "  Tomcat: [只要进到对应的 P.A.W. 子菜单，就能看到新内容！]"
+    },
+    {
+     "row_id": "CAT:Oaf1f6fc5b88f8f591b17",
+     "line": 4687,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO SEE WHAT'S NEW!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf4eca41e2bd1be11",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.Pickaxe",
+   "header_line": 3928,
+   "controls": [
+    {
+     "line": 3928,
+     "source": "<TomcatItems.Pickaxe>",
+     "current": "<TomcatItems.Pickaxe>"
+    },
+    {
+     "line": 3935,
+     "source": "### Other Consumables ###",
+     "current": "### Other Consumables ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW0b4dff75e20e8a98478adb54",
+     "line": 3929,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JEEZ THIS IS HEAVY!]",
+     "current": "  Yiffany: [天哪，这可真重！]"
+    },
+    {
+     "row_id": "SFW9166265c8e84d8c90a22f437",
+     "line": 3930,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE DWARVES ARE NO SLOUCHES. THEY WIELD THEIR PICKAX]",
+     "current": "  Tomcat: [那些矮人可不含糊，整天挥起矿镐来，仿佛有用不完的力气。]"
+    },
+    {
+     "row_id": "SFW7543f658c6cb9cc79426885a",
+     "line": 3931,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ALL DAY WITH A SEEMINGLY ENDLESS SUPPLY.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWfe691d8d1ae62580abdf8a6f",
+     "line": 3932,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITH ARMS LIKE YOURS, YOU'RE ONLY GONNA GET A SINGLE]",
+     "current": "  Tomcat: [以你的臂力，一柄镐只能扔一次，所以要扔得值！]"
+    },
+    {
+     "row_id": "SFWf35939e971c51f9789fbccaa",
+     "line": 3933,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THROW OUT OF A PICKAX SO MAKE IT COUNT!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC31281e1f7d7bb273",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.PirateHead",
+   "header_line": 4180,
+   "controls": [
+    {
+     "line": 4180,
+     "source": "<TomcatItems.PirateHead>",
+     "current": "<TomcatItems.PirateHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O9405f9c20512d9e77274",
+     "line": 4181,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOW THIS HAT REALLY MAKES A STATEMENT, DON'T YOU THINK?]",
+     "current": "  Yiffany: [这顶帽子一戴，气势就出来了，是不是？]"
+    },
+    {
+     "row_id": "CAT:O5e7c36d3808bd5c9a7aa",
+     "line": 4182,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YAR HAR! A PIRATE'S LIFE AMONG THE STARS!]",
+     "current": "  Tomcat: [呀哈！星海间的海盗生涯！]"
+    },
+    {
+     "row_id": "CAT:O270c7fe179f40d8c5a8f",
+     "line": 4183,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IMAGINE THAT... JUST TAKING WHATEVER SHIPS YOU WANT.]",
+     "current": "  Yiffany: [想想看……想夺哪艘船就夺哪艘。]"
+    },
+    {
+     "row_id": "CAT:Ob750d1e38808adbaf940",
+     "line": 4184,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...EVEN AN ELITE COSMO AGENT PROBABLY COULDN'T STOP THEM!]",
+     "current": "  Yiffany: [……就算精英宇宙特工大概也拦不住他们！]"
+    },
+    {
+     "row_id": "CAT:O4d9c5a5ec2cf795291da",
+     "line": 4185,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AVAST! LOWER YE SHIELDS AND PREPARE FOR DOCKING!]",
+     "current": "  Tomcat: [停船！降下尔等护盾，准备对接！]"
+    },
+    {
+     "row_id": "CAT:O8445362874f9ad9dff39",
+     "line": 4186,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE BRIG FOR ALL OF YE! OR THE AIRLOCK, IF YE BE YAPPY!]",
+     "current": "  Tomcat: [尔等全都进禁闭室！再嚷嚷就进气闸！]"
+    },
+    {
+     "row_id": "CAT:Oef08f314bfa76bc863a0",
+     "line": 4187,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...THROWN INTO THE BRIG, AND THEN LATER THE CAPTAIN]",
+     "current": "  Yiffany: [……被扔进禁闭室，然后船长进来，身上只戴着三角帽……嗯……]"
+    },
+    {
+     "row_id": "CAT:O36b00b9576c469e97f1e",
+     "line": 4188,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[COMES IN, WEARING ONLY HIS TRICORN... MMNH...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O43860b3e9c8e41bd8655",
+     "line": 4189,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WAIT, ARE WE DREAMING OF *BEING* PIRATES HERE, OR]",
+     "current": "  Tomcat: [等、等等，我们是在幻想*当*海盗，还是跟他们做爱？！]"
+    },
+    {
+     "row_id": "CAT:O6e4e7dc80919a687dc46",
+     "line": 4190,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAVING SEX WITH THEM?!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of62a225ee612ca0745c9",
+     "line": 4191,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHO? ME? NOT LIKE *I* HAVE A THING FOR PIRATES. SHUT UP.]",
+     "current": "  Yiffany: [谁？我？又不是*我*对海盗有意思。闭嘴。]"
+    },
+    {
+     "row_id": "CAT:O740ef7ea72d86d649632",
+     "line": 4192,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH... OKAY.]",
+     "current": "  Tomcat: [哦……好吧。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCcf94f585c1e0205e",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.PirateHead",
+   "header_line": 4091,
+   "controls": [
+    {
+     "line": 4091,
+     "source": "<TomcatItems.PirateHead>",
+     "current": "<TomcatItems.PirateHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW80a8d0015584d60548a3b2f6",
+     "line": 4092,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HUH, IS THIS REALLY A PIRATE'S HAT?]",
+     "current": "  Yiffai: [咦，这真是海盗帽？]"
+    },
+    {
+     "row_id": "SFWe2d8433543060c0eda9b24a4",
+     "line": 4093,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LOOKS LIKE IT. THE TRICORN REMAINS A POPULAR STYLE]",
+     "current": "  Tomcat: [看起来是。三角帽在太空海盗圈里依然很流行。]"
+    },
+    {
+     "row_id": "SFWe8f67acc8387d165164a9f97",
+     "line": 4094,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IN SPACE PIRACY CIRCLES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW44a08f67d84b1220b9bc3a6a",
+     "line": 4095,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEH, COOL... YOU KNOW, I DREAMED ABOUT BEING A]",
+     "current": "  Yiffai: [嘿，真酷……其实，那时我还是只小狗，梦想当个太空海盗。]"
+    },
+    {
+     "row_id": "SFW083918903e54033c352869f0",
+     "line": 4096,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SPACE PIRATE, BACK WHEN I WAS A PUPPY.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW7bffc54918e9b1ef54300919",
+     "line": 4097,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AWW, THAT'S ADORABLE.]",
+     "current": "  Tomcat: [哎呀，真可爱。]"
+    },
+    {
+     "row_id": "SFW8f9d28482bc132cf68b35c9d",
+     "line": 4098,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST REMEMBER YOU'RE STILL ON A MISSION, ALRIGHT?]",
+     "current": "  Tomcat: [记住，你还在执行任务，知道吗？]"
+    },
+    {
+     "row_id": "SFWfbb3a40e26235475f2eb0739",
+     "line": 4099,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[R-RIGHT... NO BEING CAPTAIN PUPLOCK...]",
+     "current": "  Yiffai: [对、对……不能当PUPLOCK船长……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCde53b33499353185",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.PsyCoffee",
+   "header_line": 3909,
+   "controls": [
+    {
+     "line": 3909,
+     "source": "<TomcatItems.PsyCoffee>",
+     "current": "<TomcatItems.PsyCoffee>"
+    },
+    {
+     "line": 3914,
+     "source": "### Stat Boost Items ###",
+     "current": "### Stat Boost Items ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O228d6b249be3959307cc",
+     "line": 3910,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE HAVE NO INFO ON COFFEE BEANS BEING GROWN ON TUTONE]",
+     "current": "  Tomcat: [我们没有关于图托恩种植咖啡豆的情报，这让我瞬间就对这个度假目的地说了个\"不\"……]"
+    },
+    {
+     "row_id": "CAT:Ofc7655c74c1fb2fa8315",
+     "line": 3911,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHICH MAKES IT AN INSTANT \"NO\" FOR MY VACATION...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3d8e66856384a1c62781",
+     "line": 3912,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT HEY! NOTHING WILL PERK UP THE MIND BETTER! ENJOY!]",
+     "current": "  Tomcat: [但嘿！没有什么比这更能提神醒脑了！享用吧！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf4ce230cf1159480",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.ShipShield",
+   "header_line": 4714,
+   "controls": [
+    {
+     "line": 4714,
+     "source": "<TomcatItems.ShipShield>",
+     "current": "<TomcatItems.ShipShield>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oe51e3515577ee5f41bc6",
+     "line": 4715,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'VE SECURED A REPLACEMENT PART FOR MY SHIP.]",
+     "current": "  Yiffany: [我搞到了飞船的替换零件。]"
+    },
+    {
+     "row_id": "CAT:O1c6e072b4acf915d40c6",
+     "line": 4716,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "CAT:O71df37235d8fea9accc6",
+     "line": 4717,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE'VE CONTRACTED A LOCAL MECHANIC AT THE OLD HANGAR WHO]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofebee5eb8c6d673ef3de",
+     "line": 4718,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[CAN ADVISE YOU FURTHER.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6cb73d3b8d0e995b507e",
+     "line": 4719,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ALRIGHT, I'LL TAKE IT BACK TO HIM.]",
+     "current": "  Yiffany: [好，我拿回去给他。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf69f39089a302ae5",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.ShipShield",
+   "header_line": 4726,
+   "controls": [
+    {
+     "line": 4726,
+     "source": "<TomcatItems.ShipShield>",
+     "current": "<TomcatItems.ShipShield>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O914e85026438e05ec032",
+     "line": 4727,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO, I JUST GOT THIS SHIP PART...]",
+     "current": "  Yiffai: [那么，我刚拿到了这个船件……]"
+    },
+    {
+     "row_id": "CAT:Od60908356152d76e74f9",
+     "line": 4728,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "CAT:O5314dd08080cfa3a17c7",
+     "line": 4729,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE'VE CONTRACTED A LOCAL MECHANIC AT THE OLD HANGAR WHO]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4000f15b77afaa806e10",
+     "line": 4730,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CAN ADVISE YOU FURTHER.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1f292c0cf50ec04647bd",
+     "line": 4731,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOT IT. I'LL ASK THE MECHANIC.]",
+     "current": "  Yiffai: [明白了。我会去问那位机械师。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7eb3c574023e5012",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialAnklet",
+   "header_line": 4367,
+   "controls": [
+    {
+     "line": 4367,
+     "source": "<TomcatItems.SpecialAnklet>",
+     "current": "<TomcatItems.SpecialAnklet>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O062c3d624e6f181ad2cd",
+     "line": 4368,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOT A HANDLE ON THAT ANTI-GRAV ANKLET, AGENT Y?]",
+     "current": "  Tomcat: [反重力脚环会用了没，Y特工？]"
+    },
+    {
+     "row_id": "CAT:O14c6b8188a1961ff7b87",
+     "line": 4369,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH! JUST GOTTA HUG A WALL MID-AIR, AND JUMP AGAIN!]",
+     "current": "  Yiffai: [嗯！在半空贴住墙，再跳一下就行！]"
+    },
+    {
+     "row_id": "CAT:O72e5361190684a185aad",
+     "line": 4370,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I REMEMBER ONE TIME MY SISTER SNUCK ONE OF THESE OUT]",
+     "current": "  Yiffai: [记得有一次，我姐姐偷偷带了一只出来]"
+    },
+    {
+     "row_id": "CAT:O9e852e2309835134e41a",
+     "line": 4371,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH? YOU MEAN BACK WHEN SHE WAS IN ACADEMY?]",
+     "current": "  Tomcat: [哦？你说她还在学院的时候？]"
+    },
+    {
+     "row_id": "CAT:O2e9ba83c89bf293183ad",
+     "line": 4372,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH, IT WAS OVER WINTER BREAK. I'D SIT AT THE ATHLETIC]",
+     "current": "  Yiffai: [对，那会儿是寒假。我会坐在体育中心，看她来回跳着练习。]"
+    },
+    {
+     "row_id": "CAT:O63e361bf1516f516b39a",
+     "line": 4373,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CENTER WATCHING HER JUMP BACK AND FORTH, PRACTICING.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2d1cb7ec4307387ffbfa",
+     "line": 4374,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REALLY? SHE DID THAT?]",
+     "current": "  Tomcat: [真的？她真这么做了？]"
+    },
+    {
+     "row_id": "CAT:O365d696ed46ed28c80c7",
+     "line": 4375,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE WENT THERE EVERY DAY FOR TWO WEEKS! SHE WAS DEDICATED!]",
+     "current": "  Yiffai: [我们连着两周天天去！她可执着了！]"
+    },
+    {
+     "row_id": "CAT:O50f98326541621b26e8e",
+     "line": 4376,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEE... HAHAHA!!]",
+     "current": "  Tomcat: [嘿……哈哈哈！！]"
+    },
+    {
+     "row_id": "CAT:O93fb510b415f72424d2f",
+     "line": 4377,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS... IS SOMETHING ABOUT THAT FUNNY, TOMCAT?]",
+     "current": "  Yiffai: [这……这有什么好笑的吗，雄猫？]"
+    },
+    {
+     "row_id": "CAT:O49fe181a8de86a99c197",
+     "line": 4378,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[N-NAH PUP. IT'S NOTHING.]",
+     "current": "  Tomcat: [没、没有，小狗崽。没什么。]"
+    },
+    {
+     "row_id": "CAT:O8c73b704c08de2ed1a19",
+     "line": 4379,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OKAY...]",
+     "current": "  Yiffai: [好吧……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3b929741025988f7",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialBrace",
+   "header_line": 4341,
+   "controls": [
+    {
+     "line": 4341,
+     "source": "<TomcatItems.SpecialBrace>",
+     "current": "<TomcatItems.SpecialBrace>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O33af25802cb3ff14b519",
+     "line": 4342,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NEAT! YOU'VE GOT YOURSELF A BOOSTER BRACE THERE BUDDY.]",
+     "current": "  Tomcat: [不错嘛！伙计，你弄到个助推护腕。]"
+    },
+    {
+     "row_id": "CAT:Of862652dca9b935c7544",
+     "line": 4343,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE ARE STANDARD ISSUE ON COSMO- BREEDER UNIFORMS]",
+     "current": "  Tomcat: [那是宇宙育种者制服的标准配备，能让你随时冲刺！]"
+    },
+    {
+     "row_id": "CAT:O35dd0965b13ed4193179",
+     "line": 4344,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND WILL LET YOU DASH AT WILL!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O080466b544f43f2fec83",
+     "line": 4345,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST A SHAME THE REST OF MY UNIFORM WASN'T WITH IT...]",
+     "current": "  Yiffai: [可惜我的其他制服没跟它放在一起……]"
+    },
+    {
+     "row_id": "CAT:O19583b75c81e4c549bcc",
+     "line": 4346,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CHIN UP KIDDO! ONE PIECE AT A TIME!]",
+     "current": "  Tomcat: [打起精神，小家伙！一件件找回来嘛！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7da96dd7dd612ff3",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialBuckler",
+   "header_line": 4422,
+   "controls": [
+    {
+     "line": 4422,
+     "source": "<TomcatItems.SpecialBuckler>",
+     "current": "<TomcatItems.SpecialBuckler>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1f21e9033dba425be7fd",
+     "line": 4423,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LOOKS LIKE OUR PUP JUST GOT HIMSELF AN ENERGY BUCKLER.]",
+     "current": "  Tomcat: [看来我们的小狗崽弄到了一面能量圆盾。]"
+    },
+    {
+     "row_id": "CAT:O3a2c187cc1d74f910f6b",
+     "line": 4424,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S NOT PART OF STANDARD AGENT GEAR. KNOW HOW TO USE IT?]",
+     "current": "  Tomcat: [这可不是特工的制式装备。会用吗？]"
+    },
+    {
+     "row_id": "CAT:Oedf4b100d9b153a42153",
+     "line": 4425,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I THINK SO! I TOOK A CLASS ON ADVANCED COMBAT GEAR.]",
+     "current": "  Yiffai: [应该会！我上过高级战斗装备课。]"
+    },
+    {
+     "row_id": "CAT:Ofcad33f16d79f0fb7ca6",
+     "line": 4426,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO ACTIVATE THE BUCKLER, I JUST CROUCH, RIGHT?]",
+     "current": "  Yiffai: [只要蹲下就能启动小圆盾，对吧？]"
+    },
+    {
+     "row_id": "CAT:O149358b15fa07a407220",
+     "line": 4427,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S RIGHT! ANY SMALL PROJ- ECTILES WILL BE REPELLED.]",
+     "current": "  Tomcat: [没错！小型投射物都会被弹开。]"
+    },
+    {
+     "row_id": "CAT:O959757afcb17368f2126",
+     "line": 4428,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'LL HAVE TO LOWER THE BUCKLER TO ATTACK, HOWEVER.]",
+     "current": "  Tomcat: [不过，攻击时得先放下小圆盾。]"
+    },
+    {
+     "row_id": "CAT:Oc3b4684289fc6671a773",
+     "line": 4429,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I THINK I'VE GOT IT, THANKS!]",
+     "current": "  Yiffai: [我想我懂了，谢谢！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe34e03fce07a4ffa",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialBuckler",
+   "header_line": 4416,
+   "controls": [
+    {
+     "line": 4416,
+     "source": "<TomcatItems.SpecialBuckler>",
+     "current": "<TomcatItems.SpecialBuckler>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oec9e222282709a947a2e",
+     "line": 4417,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WOAH GIRL, IS THAT AN ENERGY BUCKLER YOU JUST NABBED?]",
+     "current": "  Tomcat: [哇，姑娘，你刚顺走的是能量小圆盾吗？]"
+    },
+    {
+     "row_id": "CAT:Obc134dbbfc2f201ff6c8",
+     "line": 4418,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[USUALLY ONLY SEE THOSE IN A COMBAT ZONE!]",
+     "current": "  Tomcat: [通常只在战区见得到那些！]"
+    },
+    {
+     "row_id": "CAT:O33329b010e2eabfbc39e",
+     "line": 4419,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEP. AND THIS PLANET *IS* ONE.]",
+     "current": "  Yiffany: [对。而这颗星球*就是*战区。]"
+    },
+    {
+     "row_id": "CAT:O4556f6cd2bb095499f54",
+     "line": 4420,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I TRAINED WITH A SIMILAR DEVICE ON A FIELD MISSION.]",
+     "current": "  Yiffany: [我在一次外勤任务里用类似的装置训练过。]"
+    },
+    {
+     "row_id": "CAT:O8fec67313b3867b57982",
+     "line": 4421,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BY CROUCHING, I ACTIVATE THE BUCKLER AND CAN REPEL]",
+     "current": "  Yiffany: [蹲下就能启动小圆盾，弹开大多数小型武器的射击，以及类似的东西。]"
+    },
+    {
+     "row_id": "CAT:O9f7559bd4fa6abcc88d4",
+     "line": 4422,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MOST SMALL WEAPONS FIRE AND SIMILAR.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofac6b171c42eef049b06",
+     "line": 4423,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'LL HAVE TO LOWER IT TO USE MY TAZER, THOUGH.]",
+     "current": "  Yiffany: [不过要用电击枪的话，我得把它放下来。]"
+    },
+    {
+     "row_id": "CAT:Obfd5d74a7c67ec82fd00",
+     "line": 4424,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SOUNDS LIKE YOU'VE GOT A GOOD HANDLE ON IT!]",
+     "current": "  Tomcat: [听起来你已经掌握得不错了！]"
+    },
+    {
+     "row_id": "CAT:O7ead6009a760a838f064",
+     "line": 4425,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I THINK SO. YIFFANY OUT.]",
+     "current": "  Yiffany: [我也这么觉得。伊吠妮完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa75f9bf643dc1302",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialFap",
+   "header_line": 4306,
+   "controls": [
+    {
+     "line": 4306,
+     "source": "<TomcatItems.SpecialFap>",
+     "current": "<TomcatItems.SpecialFap>"
+    },
+    {
+     "line": 4314,
+     "source": "### Zener Items ###",
+     "current": "### Zener Items ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWc9b502d06760c3e98651be2d",
+     "line": 4307,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEY TOMCAT, SCAN THIS CRYSTAL THE BREEDER GAVE ME?]",
+     "current": "  Yiffany: [嘿，雄猫，扫描一下育种者给我的这块水晶？]"
+    },
+    {
+     "row_id": "SFW900c0db13b22d74344830dbe",
+     "line": 4308,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LOOKS LIKE IT'S A JAKOV'S OBSCURA CRYSTAL.]",
+     "current": "  Tomcat: [看起来是一枚雅科夫的Obscura水晶。]"
+    },
+    {
+     "row_id": "SFWbce38c2fe62894df1db4fdc9",
+     "line": 4309,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TECHNICALLY, A FIELD ATTENUATED PRISM. IF YOU'VE]",
+     "current": "  Tomcat: [严格说，是场衰减棱镜。要是你有一只很喜欢你的生物，就可以抚摸它们，给水晶充能！它产生的效果因生物而异！]"
+    },
+    {
+     "row_id": "SFWc98fcad6b13e3e77c31efee2",
+     "line": 4310,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GOT A CREATURE WHO LIKES YOU A LOT, YOU CAN PET THEM TO]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe6da198014e50c787a1dadf3",
+     "line": 4311,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[CHARGE UP YOUR CRYSTAL WITH POWER! THE EFFECT IT HAS]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWbceb3af7af25d46bc16b4050",
+     "line": 4312,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[VARIES PER CREATURE!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC290cf7270ee68e5f",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialKeycard0",
+   "header_line": 4301,
+   "controls": [
+    {
+     "line": 4301,
+     "source": "<TomcatItems.SpecialKeycard0>",
+     "current": "<TomcatItems.SpecialKeycard0>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O8c930c6f30d4eb18afdd",
+     "line": 4302,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IN ORDER TO USE A KEYCARD, ALL YOU HAVE TO DO IS]",
+     "current": "  Tomcat: [要使用门卡，只需要带着卡走向能量门就行。]"
+    },
+    {
+     "row_id": "CAT:O1c1221b9a0e792b6b87d",
+     "line": 4303,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WALK INTO AN ENERGY DOOR WHILE HOLDING ONE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ocf5d1daf6e7846490b5f",
+     "line": 4304,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU CAN OPEN DOORS UP TO THE LEVEL DISPLAYED ON THEM!]",
+     "current": "  Tomcat: [门卡上标着等级，等级不超过它的门都能打开！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf17f3e7ace13c492",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialKeycard4",
+   "header_line": 4313,
+   "controls": [
+    {
+     "line": 4313,
+     "source": "<TomcatItems.SpecialKeycard4>",
+     "current": "<TomcatItems.SpecialKeycard4>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O568359b36c79daa60a0b",
+     "line": 4314,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN ORDER TO USE A KEYCARD, ALL YOU HAVE TO DO IS]",
+     "current": "  Tomcat: [要用门卡的话，你只要拿着一张走进能量门就行。]"
+    },
+    {
+     "row_id": "CAT:O24109df10e74505b50de",
+     "line": 4315,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WALK INTO AN ENERGY DOOR WHILE HOLDING ONE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obd59153df257ac321a56",
+     "line": 4316,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU CAN OPEN DOORS UP TO THE LEVEL DISPLAYED ON THEM!]",
+     "current": "  Tomcat: [你能打开等级不超过门上所标数字的门！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5952f8f6e6829e90",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialLeftmark",
+   "header_line": 4211,
+   "controls": [
+    {
+     "line": 4211,
+     "source": "<TomcatItems.SpecialLeftmark>",
+     "current": "<TomcatItems.SpecialLeftmark>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW140cb0237451286b77c0ee20",
+     "line": 4212,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OOOOOH, HOW YOU FEELING? YOUR BODY TEMP JUST SPIKED!]",
+     "current": "  Tomcat: [哦哟，感觉如何？你体温突然飙升了！]"
+    },
+    {
+     "row_id": "SFW20664a50ae6da4f849fbeb5c",
+     "line": 4213,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I...I'M FINE...I THINK?] ",
+     "current": "  Yiffai: [我……我没事……大概吧？] "
+    },
+    {
+     "row_id": "SFWecf9e33c519b2bdba500660f",
+     "line": 4214,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I RAN INTO THIS GLOWING ORB AND IT LEFT A MARK ON ME.]",
+     "current": "  Yiffai: [我碰到个发光的球体，它在我身上留了个印记。]"
+    },
+    {
+     "row_id": "SFWc9e3ffdd1983d4b56142fb90",
+     "line": 4215,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAYBE THAT HAS SOMETHING TO DO WITH THE ESPERS!]",
+     "current": "  Tomcat: [说不定那跟超能力者有关！]"
+    },
+    {
+     "row_id": "SFW0eaf84cbb54279017ce1b11b",
+     "line": 4216,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ESPERS??]",
+     "current": "  Yiffai: [超能力者？？]"
+    },
+    {
+     "row_id": "SFWa2981d8ec429dc93c73e936d",
+     "line": 4217,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH, THE PREVIOUS AGENTS LEFT BEHIND CLUES THAT THERE]",
+     "current": "  Tomcat: [对，之前的特工留下的线索表明，这颗星球很久以前住着有超能力的生物。]"
+    },
+    {
+     "row_id": "SFW43b497549e518a800f42cdae",
+     "line": 4218,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WERE BEINGS WITH ESP ON THAT PLANET LONG AGO.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWde0c5e76569214524f9029c1",
+     "line": 4219,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THESE ESP SENSITIVE BEINGS, THE ESPERS, SURELY LEFT BEHIND]",
+     "current": "  Tomcat: [这些拥有超感知觉的超能力者，肯定留下了一些古代科技！]"
+    },
+    {
+     "row_id": "SFW9e525fbee46f66842f2447d8",
+     "line": 4220,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SOME OF THEIR ANCIENT TECHNOLOGY!]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe9cdc4a27090bc866b6719ac",
+     "line": 4221,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOW THAT YOU MENTION IT, I DO FEEL STRONGER...]",
+     "current": "  Yiffai: [你这么一说，我确实感觉更强了……]"
+    },
+    {
+     "row_id": "SFW793682254aed8f7cfe37a129",
+     "line": 4222,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IF YOU FIND ANY MORE ARTIFACTS, GIVE ME A HOLLER]",
+     "current": "  Tomcat: [再找到什么遗物，就叫我一声，咱们一起解开这个谜团！]"
+    },
+    {
+     "row_id": "SFWf09f577c7b4f267caaaeb3cb",
+     "line": 4223,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND WE CAN TRY TO SOLVE THIS MYSTERY TOGETHER!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC77c24f0ada1e4704",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialLeftmark",
+   "header_line": 4178,
+   "controls": [
+    {
+     "line": 4178,
+     "source": "<TomcatItems.SpecialLeftmark>",
+     "current": "<TomcatItems.SpecialLeftmark>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWbbb369e5bf535f5312db7cce",
+     "line": 4179,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH WOW, YOUR BODY TEMPERATURE JUST SKYROCKETED, GIRL!]",
+     "current": "  Tomcat: [哦哇，你的体温刚飙上去了，姑娘！]"
+    },
+    {
+     "row_id": "SFWc8955b6c8cb045aa7ccda44a",
+     "line": 4180,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHAT'D YOU SEE, A GHOST OR MAYBE A KOBOLD OR-]",
+     "current": "  Tomcat: [你看见什么了，鬼，还是狗头人，还——]"
+    },
+    {
+     "row_id": "SFW207a20c17097b85b21ee5232",
+     "line": 4181,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[N-NOTHING LIKE THAT. I JUST PICKED UP A GLOWING ORB OF] ",
+     "current": "  Yiffany: [不、不是那种。我只是捡到一颗不知是什么的发光球体。它在我身上留下了某种印记……] "
+    },
+    {
+     "row_id": "SFWce3fd8f22ab4ca94d61be227",
+     "line": 4182,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SOME SORT. IT LEFT SOME KIND OF MARK ON ME...]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWce2e021d7bae431b68b78282",
+     "line": 4183,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEEEEY, THAT MIGHT BE SOMETHING TO DO WITH THE ESPERS.]",
+     "current": "  Tomcat: [嘿————，那也许和超能力者有关。]"
+    },
+    {
+     "row_id": "SFWba0ce3af44f406a2d4f0e782",
+     "line": 4184,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ESPERS? PEOPLE WITH EXTRASENSORY PERCEPTION?]",
+     "current": "  Yiffany: [超能力者？就是有超感官知觉的人？]"
+    },
+    {
+     "row_id": "SFW98cafa488c3b41e1169c52e3",
+     "line": 4185,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, SOME OF THE AGENTS BEFORE YOU MENTIONED THAT]",
+     "current": "  Tomcat: [对，你之前的一些特工提到过，有超感官能力的存在曾经住在那颗星球上。]"
+    },
+    {
+     "row_id": "SFWbf3abb4de5a409c559d39a0b",
+     "line": 4186,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEINGS WITH ESP POWERS ONCE LIVED ON THAT PLANET.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWc559d0d4a6aef202c936209c",
+     "line": 4187,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MAYBE THEY LEFT BEHIND SOME OF THEIR TECHNOLOGY?]",
+     "current": "  Tomcat: [也许他们留下了一些技术？]"
+    },
+    {
+     "row_id": "SFW09e81ce72e05f4b853acdd6d",
+     "line": 4188,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOW THAT YOU MENTION IT, I DO FEEL STRONGER...]",
+     "current": "  Yiffany: [你这么一说，我确实觉得更强了……]"
+    },
+    {
+     "row_id": "SFW79a9b2e59a2873aaf4b647e8",
+     "line": 4189,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU FIND ANY MORE ARTIFACTS, GIVE ME A HOLLER]",
+     "current": "  Tomcat: [要是再找到什么造物，喊我一声，我们可以一起试着解开这个谜！]"
+    },
+    {
+     "row_id": "SFW7cf11b5e9d220eddb921dd74",
+     "line": 4190,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AND WE CAN TRY SOLVE THIS MYSTERY TOGETHER!]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW3c27f34e89586dc1b00ac476",
+     "line": 4191,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[RIGHT, YIFFANY OUT!]",
+     "current": "  Yiffany: [好，伊吠妮完毕！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0103ab5223453e39",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.SpecialPsycards",
+   "header_line": 4275,
+   "controls": [
+    {
+     "line": 4275,
+     "source": "<TomcatItems.SpecialPsycards>",
+     "current": "<TomcatItems.SpecialPsycards>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW9f226782bec7e3729e592143",
+     "line": 4276,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOW, THESE LITTLE CARDS KINDA TICKLE!]",
+     "current": "  Yiffai: [哇，这些小卡片弄得我有点痒！]"
+    },
+    {
+     "row_id": "SFW7681d0615a920c287412c31c",
+     "line": 4277,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[PUP, WHATEVER YOU JUST BOUGHT... ]",
+     "current": "  Tomcat: [小狗狗，不管你刚才买的是什么……]"
+    },
+    {
+     "row_id": "SFW92d324016da5136e877b4e28",
+     "line": 4278,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS JUST A WHITE HOT POINT OF LIGHT ON MY SCANNER.]",
+     "current": "  Tomcat: [在我的扫描仪上，就是个白得发烫的光点。]"
+    },
+    {
+     "row_id": "SFW50733622fced793194d6ac2b",
+     "line": 4279,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A NICE KOBOLD MAN IN THE FOREST SAID THESE HAVE POWERS!]",
+     "current": "  Yiffai: [森林里一位好心的科博德先生说它们有异能！]"
+    },
+    {
+     "row_id": "SFW1c6594b2455c1f96dce0a39a",
+     "line": 4280,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[... WELL, WHATEVER THEY ARE, THERE'S SOMETHING TO THEM.]",
+     "current": "  Tomcat: [……好吧，不管是什么，肯定有点门道。]"
+    },
+    {
+     "row_id": "SFWdae29fe8e018647fbc46b6c5",
+     "line": 4281,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WITH THAT MUCH ENERGY... YOU SHOULD BE BURSTING INTO]",
+     "current": "  Tomcat: [这么多能量……你光是握着它们就该浑身起火！]"
+    },
+    {
+     "row_id": "SFW615c50f7a61afdbcf8d5ee71",
+     "line": 4282,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[FLAMES JUST HOLDING THEM.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW3b11c04c6f8910c37c88d078",
+     "line": 4283,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOW, THAT SOUNDS AWESOME! GUESS I'LL TRY USING A PSY] ",
+     "current": "  Yiffai: [哇，听着真棒！那我试着用精神力，欣赏一场烟花秀！] "
+    },
+    {
+     "row_id": "SFW8eb4e624785dbd9b99d7145a",
+     "line": 4284,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[POWER AND WATCH THE FIREWORKS!]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWef938b8b1518ce6e276c4538",
+     "line": 4285,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[G-GOOD LUCK, PUP!]",
+     "current": "  Tomcat: [祝、祝你好运，小狗崽！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC87a1127b4e5bcb85",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialPsycards",
+   "header_line": 4245,
+   "controls": [
+    {
+     "line": 4245,
+     "source": "<TomcatItems.SpecialPsycards>",
+     "current": "<TomcatItems.SpecialPsycards>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW6db8e8a9376050b045510a2f",
+     "line": 4246,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UGH, I HOPE THAT SKEEVY KOBOLD DIDN'T JUST SCAM ME...]",
+     "current": "  Yiffany: [唉，希望没被那个恶心的科博德坑了……]"
+    },
+    {
+     "row_id": "SFW20375dcce06b2563c4702347",
+     "line": 4247,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TOMCAT, CAN I GET A SCAN ON THESE CARDS?]",
+     "current": "  Yiffany: [雄猫，能帮我扫描一下这些卡吗？]"
+    },
+    {
+     "row_id": "SFWd891dc25d932c3030a81b115",
+     "line": 4248,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GIRL, WHATEVER YOU JUST BOUGHT... ]",
+     "current": "  Tomcat: [姑娘，你刚买的那东西……]"
+    },
+    {
+     "row_id": "SFWbab6b8f92caf8ad2e5c0460c",
+     "line": 4249,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IS JUST A WHITE HOT POINT OF LIGHT ON MY SCANNER.]",
+     "current": "  Tomcat: [在我的扫描仪上只是一个白热的光点。]"
+    },
+    {
+     "row_id": "SFWde335ea0c0ee38897483e0a6",
+     "line": 4250,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITH THAT MUCH ENERGY... YOU SHOULD BE BURSTING INTO]",
+     "current": "  Tomcat: [能量这么高……光是拿着它，你就应该会浑身冒火。]"
+    },
+    {
+     "row_id": "SFWdc61a3864d92280be55ab7ae",
+     "line": 4251,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[FLAMES JUST HOLDING IT.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW10700bfc66ab94c95a12a7bc",
+     "line": 4252,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HOW... CONFIDENCE INSPIRING. WELL, I BOUGHT EM] ",
+     "current": "  Yiffany: [还真是……让人信心十足啊。好吧，反正都买了，那我就用精神力来试试它们吧。] "
+    },
+    {
+     "row_id": "SFW8eab776c7b31c37af5704f93",
+     "line": 4253,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO I GUESS I'LL JUST TRY THEM OUT WITH MY PSY POWERS.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC48a4bc82fca232b0",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.SpecialTorch",
+   "header_line": 4293,
+   "controls": [
+    {
+     "line": 4293,
+     "source": "<TomcatItems.SpecialTorch>",
+     "current": "<TomcatItems.SpecialTorch>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW715e57e1c3189b9725232d26",
+     "line": 4294,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT FLASHLIGHT - OR TORCH, AS BOSSU CALLS IT - WILL]",
+     "current": "  Tomcat: [那把手电筒——波苏习惯叫它torch——]"
+    },
+    {
+     "row_id": "SFWbd6fad37e2507f17bf27ffc2",
+     "line": 4295,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ILLUMINATE LOW-LIGHT AREAS AUTOMATICALLY.]",
+     "current": "  Tomcat: [会自动照亮昏暗的地方。]"
+    },
+    {
+     "row_id": "SFWbb5bd90f1aa4b0e06465963f",
+     "line": 4296,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I DON'T HAVE TO DO ANYTHING SPECIAL TO USE IT, RIGHT?]",
+     "current": "  Yiffany: [用它不需要特别操作，对吧？]"
+    },
+    {
+     "row_id": "SFW7c81fa846ac166fb3aa50aba",
+     "line": 4297,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAAT'S RIGHT, JUST LEAVE IT ON AND LET IT WORK ITS MAGIC!]",
+     "current": "  Tomcat: [没——错，开着就行，它自己会发挥作用！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1ab56d6909194ab4",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.StatCheese",
+   "header_line": 3956,
+   "controls": [
+    {
+     "line": 3956,
+     "source": "<TomcatItems.StatCheese>",
+     "current": "<TomcatItems.StatCheese>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O6030524ddeff17e10ddb",
+     "line": 3957,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT MIGHT BE WEIRD TO EAT RANDOMLY DROPPED CHEESE]",
+     "current": "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，肯定能卖一大笔LECT！]"
+    },
+    {
+     "row_id": "CAT:Oa20352f97e5b393395ff",
+     "line": 3958,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT TRUST ME, IF THAT WERE FOR SALE AT ANY SHOP]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O31b4ecb7360e40f30b1d",
+     "line": 3959,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'D COMMAND TOP LECT!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O70577fd6c6f5d93ff7b3",
+     "line": 3960,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHO KNOWS, MAYBE IT'D EVEN MAKE YOU STRONGER, TOO!]",
+     "current": "  Tomcat: [说不定还会让你变强呢！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfd4d78fd0a3514ea",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatCheese",
+   "header_line": 3916,
+   "controls": [
+    {
+     "line": 3916,
+     "source": "<TomcatItems.StatCheese>",
+     "current": "<TomcatItems.StatCheese>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Odc34cac63219e58a3b8e",
+     "line": 3917,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT MIGHT BE WEIRD TO EAT RANDOMLY DROPPED CHEESE]",
+     "current": "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，那可得花一大笔LECT才能买到！]"
+    },
+    {
+     "row_id": "CAT:O2c1499398a3b46f47067",
+     "line": 3918,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT TRUST ME, IF THAT WERE FOR SALE AT ANY SHOP]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obb2e7753fd9c2e18401c",
+     "line": 3919,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT'D COMMAND TOP LECT!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O5c284b9d977df27ed23e",
+     "line": 3920,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHO KNOWS, MAYBE IT'D EVEN MAKE YOU STRONGER, TOO!]",
+     "current": "  Tomcat: [谁知道呢，说不定它还能让你变得更强壮！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8ed015a4cd151b1f",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatCream",
+   "header_line": 3903,
+   "controls": [
+    {
+     "line": 3903,
+     "source": "<TomcatItems.StatCream>",
+     "current": "<TomcatItems.StatCream>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Odae55e27ab3ae6c455a1",
+     "line": 3904,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH WOW! YOU HAVE GOT TO TRY THIS!]",
+     "current": "  Yiffany: [哇哦！你一定得尝尝这个！]"
+    },
+    {
+     "row_id": "CAT:Ocf045e98a90633bdbeb5",
+     "line": 3905,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EWWW IS THAT... IS IT REALLY...]",
+     "current": "  Tomcat: [呃，好恶心，那是……真的是……]"
+    },
+    {
+     "row_id": "CAT:O748ccc35036032a14053",
+     "line": 3906,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT'S SO THICK AND CREAMY! MMMMH!]",
+     "current": "  Yiffany: [好浓稠，好绵滑！嗯——！]"
+    },
+    {
+     "row_id": "CAT:O4322047a802e27215290",
+     "line": 3907,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REALLY GOING TO TOWN ON THAT STUFF HUH?]",
+     "current": "  Mauser: [你吃那东西还真是卖力啊？]"
+    },
+    {
+     "row_id": "CAT:O67fb06db76c059036948",
+     "line": 3908,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, IT'S STILL WARM!]",
+     "current": "  Yiffany: [是啊，还热乎着呢！]"
+    },
+    {
+     "row_id": "CAT:O6aaa4307487d9cb45735",
+     "line": 3909,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AND WHEN I'VE HAD MY FILLL, I WON'T BE MOVED OVER]",
+     "current": "  Yiffany: [而且等我吃饱了，我就不会像某些人一样被调去坐办公室！]"
+    },
+    {
+     "row_id": "CAT:Oe05da6c65ec64189e714",
+     "line": 3910,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO DESK DUTY LIKE SOME PEOPLE WERE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O5a815bac1fb4659b7d93",
+     "line": 3911,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEY COME ON THAT'S JU-]",
+     "current": "  Mauser: [喂，别这样，那只是——]"
+    },
+    {
+     "row_id": "CAT:Oe04944eaef4b9fa1b2ff",
+     "line": 3912,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU CAN'T JUST CALL ME OUT LIKE THAT!]",
+     "current": "  Tomcat: [你不能就这么揭我的短啊！]"
+    },
+    {
+     "row_id": "CAT:Oe85f01dcde34dc0aebf8",
+     "line": 3913,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WAIT, YOU WERE ALSO MO-]",
+     "current": "  Mauser: [等等，你当时也被调——]"
+    },
+    {
+     "row_id": "CAT:Oc28fcfad150deb37aac7",
+     "line": 3914,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOTHING! RECON DELIVERED, CALL ENDING!!]",
+     "current": "  Tomcat: [没什么！情报汇报完毕，结束通话！！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc47dff4af8e62e7c",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.StatCream",
+   "header_line": 3945,
+   "controls": [
+    {
+     "line": 3945,
+     "source": "<TomcatItems.StatCream>",
+     "current": "<TomcatItems.StatCream>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O514b48f84bbbc9852602",
+     "line": 3946,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MMMH, THIS CREAM IS SO... CREAMY!]",
+     "current": "  Yiffai: [嗯唔，这奶油真是……浓稠香滑！]"
+    },
+    {
+     "row_id": "CAT:O67c83b4b2ffbc1093d94",
+     "line": 3947,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S GREAT STUFF! SHOULD I BRING SOME BACK FOR YOU, TOM?]",
+     "current": "  Yiffai: [这东西真不错！阿雄，要我给你带点回去吗？]"
+    },
+    {
+     "row_id": "CAT:Oc062ab9db183a1875638",
+     "line": 3948,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH, YUCK NO THANKS.]",
+     "current": "  Tomcat: [呃，恶心，免了。]"
+    },
+    {
+     "row_id": "CAT:Oc81d2523c3cb31c4b33d",
+     "line": 3949,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I LIKE MY CREAM TO BE MADE FROM DAIRY SOURCES?]",
+     "current": "  Tomcat: [我喜欢的奶油，得是奶制品做的，好吗？]"
+    },
+    {
+     "row_id": "CAT:O440a71a36187854f00f9",
+     "line": 3950,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HUH?]",
+     "current": "  Yiffai: [啊？]"
+    },
+    {
+     "row_id": "CAT:O4a8cb064bf93cbb2adc6",
+     "line": 3951,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LIZARDS AREN'T KNOWN FOR BEING A SOURCE OF MI-]",
+     "current": "  Tomcat: [蜥蜴可不是什么会产奶的——]"
+    },
+    {
+     "row_id": "CAT:O540ea65bf62e483eaa65",
+     "line": 3952,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S NOTHING YIFFAI WE'LL JUST SCHEDULE YOU FOR A WORKSHOP]",
+     "current": "  Mauser: [没事，伊吠，等你回来，我们给你安排一堂讲形态类型和两性异形的课。]"
+    },
+    {
+     "row_id": "CAT:O86dcd2d9adf1b07a9b8b",
+     "line": 3953,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ON MORPHIC TYPES AND DIMORPHISM WHEN YOU GET BACK.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O309373905dff60387860",
+     "line": 3954,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SOUNDS NEAT! OKAY!]",
+     "current": "  Yiffai: [听着不错！好啊！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5e0cdd319089fe83",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatCream",
+   "header_line": 3821,
+   "controls": [
+    {
+     "line": 3821,
+     "source": "<TomcatItems.StatCream>",
+     "current": "<TomcatItems.StatCream>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWf2ae993f4008c4fe8ec96060",
+     "line": 3822,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S A BOTTLE OF CREAM, NO CLUE WHY THE KOBO HAD IT]",
+     "current": "  Tomcat: [那是瓶奶油，不知道那只狗头人为什么带着，]"
+    },
+    {
+     "row_id": "SFWf0f626ee0edf1a338a55b4e4",
+     "line": 3823,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT IF IT'S LASTED THIS LONG BEING CARRIED AROUND]",
+     "current": "  Tomcat: [不过要是带在身上这么久都没坏，]"
+    },
+    {
+     "row_id": "SFW7e3749a4eb7305b5483f26c5",
+     "line": 3824,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT WON'T HURT YOU TO DRINK IT DOWN!]",
+     "current": "  Tomcat: [喝下去应该也没事！]"
+    },
+    {
+     "row_id": "SFW108d1de07123b21ec522d25c",
+     "line": 3825,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN FACT, MAYBE IT'LL EVEN MAKE YOU STRONGER!]",
+     "current": "  Tomcat: [说不定还会让你变得更强呢！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC959cea4cd47a5799",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatFishtaco",
+   "header_line": 3884,
+   "controls": [
+    {
+     "line": 3884,
+     "source": "<TomcatItems.StatFishtaco>",
+     "current": "<TomcatItems.StatFishtaco>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1f855df614098112c5c0",
+     "line": 3885,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH, A FISH TACO! THOSE SWIPERS HAVE GOOD TASTE!]",
+     "current": "  Tomcat: [哦，鱼肉塔可！那些挥爪挺有品味！]"
+    },
+    {
+     "row_id": "CAT:Oa0f9368daed0e2f03aee",
+     "line": 3886,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHEN WAS THE LAST TIME YOU HAD ONE OF THOSE IN YOUR MAW?]",
+     "current": "  Tomcat: [你上回嘴里尝到这个，是什么时候？]"
+    },
+    {
+     "row_id": "CAT:O975b195a8c93956ff1c4",
+     "line": 3887,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[COSMO COLLEGE. SECOND YEAR. SUMMER VACATION, 19XX.]",
+     "current": "  Yiffany: [Cosmo学院。大二。19XX年的暑假。]"
+    },
+    {
+     "row_id": "CAT:O32c5af6d147404aca73b",
+     "line": 3888,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHAT? SERIOUS? YOU'VE NEVER TOLD ME ABOUT THA-]",
+     "current": "  Tomcat: [什么？真的？你从没跟我说过这——]"
+    },
+    {
+     "row_id": "CAT:O3f8da024a5a58e708cfa",
+     "line": 3889,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[USED TO BE THIS AMAZING TACO TRUCK BY THE BEACH.]",
+     "current": "  Yiffany: [以前海滩边有一辆特别棒的塔可餐车。]"
+    },
+    {
+     "row_id": "CAT:O6c46a3463878c0ad785a",
+     "line": 3890,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WENT THERE PRACTICALLY EVERY DAY!]",
+     "current": "  Yiffany: [几乎每天都去那儿！]"
+    },
+    {
+     "row_id": "CAT:Ob6652c192efab5679ed3",
+     "line": 3891,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH RIGHT, OF COURSE... SOUNDS... YUM...!]",
+     "current": "  Tomcat: [哦，对，当然……听着……挺好吃的……！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9e4ca0da90704ebf",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.StatFishtaco",
+   "header_line": 3839,
+   "controls": [
+    {
+     "line": 3839,
+     "source": "<TomcatItems.StatFishtaco>",
+     "current": "<TomcatItems.StatFishtaco>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWb64430c0f9eaa3b0825f50e2",
+     "line": 3840,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH, A FISH TACO! THOSE SWIPERS HAVE GOOD TASTE!]",
+     "current": "  Tomcat: [哦，鱼肉塔可！那些挥爪挺有品味！]"
+    },
+    {
+     "row_id": "SFWa2b2dc41714a169a71b2b9bd",
+     "line": 3841,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOT ONLY WILL THAT HEAL A BIT OF YOUR VITALITY]",
+     "current": "  Tomcat: [它不但能恢复一点体力，]"
+    },
+    {
+     "row_id": "SFWe88a5a70d795c62b28d3cd63",
+     "line": 3842,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT IT'LL ALSO INCREASE YOUR LUK STAT! LUCKY!]",
+     "current": "  Tomcat: [还能提升你的幸运属性！真幸运！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc7481298bbab9c25",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatMelon",
+   "header_line": 3928,
+   "controls": [
+    {
+     "line": 3928,
+     "source": "<TomcatItems.StatMelon>",
+     "current": "<TomcatItems.StatMelon>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O67237cbed657a20797a4",
+     "line": 3929,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S A HEARTY BIT OF MELON YOU PICKED UP THERE]",
+     "current": "  Tomcat: [你捡到的那块瓜，分量可真足]"
+    },
+    {
+     "row_id": "CAT:Of814514a6a175235eda6",
+     "line": 3930,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AFTER GORGING ON THAT I WOULDN'T BE SURPRISED]",
+     "current": "  Tomcat: [吃完这么大一块，要是你也多长出一层防身瓜皮，我可一点也不会奇怪！]"
+    },
+    {
+     "row_id": "CAT:O3d3165f10c318a28b4d7",
+     "line": 3931,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU GOT A BIT MORE OF A DEFENSIVE RIND TOO!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0bdc4e61bd650e79",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatNut",
+   "header_line": 3806,
+   "controls": [
+    {
+     "line": 3806,
+     "source": "<TomcatItems.StatNut>",
+     "current": "<TomcatItems.StatNut>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW7a59b9005d3f1fa7e6eaa260",
+     "line": 3807,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE NUTS HAVE A SUPER HARD SHELL ON THEM]",
+     "current": "  Tomcat: [这些坚果的壳超级硬，]"
+    },
+    {
+     "row_id": "SFWce63072cc74acd0d8ac363fd",
+     "line": 3808,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT EATING THEM SHOULD INCREASE YOUR DEFENSE!]",
+     "current": "  Tomcat: [不过吃下去应该能提升你的防御力！]"
+    },
+    {
+     "row_id": "SFWd6e06ebb8e1f618b40e1eccd",
+     "line": 3809,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...JUST WATCH YOUR TEETH, ALRIGHT?]",
+     "current": "  Tomcat: [……只是小心别硌坏牙，好吗？]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC998369aa2823bcca",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.StatNut",
+   "header_line": 3844,
+   "controls": [
+    {
+     "line": 3844,
+     "source": "<TomcatItems.StatNut>",
+     "current": "<TomcatItems.StatNut>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWc4b335a1b9b7d1588ec9f4b8",
+     "line": 3845,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE NUTS HAVE A SUPER HARD SHELL ON THEM]",
+     "current": "  Tomcat: [这些坚果的壳超级硬，]"
+    },
+    {
+     "row_id": "SFW99419962eaa093946e8aaa8a",
+     "line": 3846,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT EATING THEM SHOULD INCREASE YOUR DEFENSE!]",
+     "current": "  Tomcat: [不过吃下去应该能提升你的防御力！]"
+    },
+    {
+     "row_id": "SFWedc675b1e2f45420a43c807b",
+     "line": 3847,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...JUST WATCH YOUR TEETH, ALRIGHT?]",
+     "current": "  Tomcat: [……只是小心别硌坏牙，好吗？]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC546e06cb0db8f471",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.StatPretzel",
+   "header_line": 3941,
+   "controls": [
+    {
+     "line": 3941,
+     "source": "<TomcatItems.StatPretzel>",
+     "current": "<TomcatItems.StatPretzel>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oab35e89761ec257dbb80",
+     "line": 3942,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DON'T GET TWISTED UP IN A KNOT OVER THAT SNACK!]",
+     "current": "  Tomcat: [可别为这点零食纠结得打了结！]"
+    },
+    {
+     "row_id": "CAT:O09248657fa8f128a909a",
+     "line": 3943,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHY THE DWARVES HAVE THEM I DON'T REALLY KNOW...]",
+     "current": "  Tomcat: [至于矮人为什么会有这东西，我也不太清楚……]"
+    },
+    {
+     "row_id": "CAT:O1957f62e9babb5239cf7",
+     "line": 3944,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT MAYBE IT'S THE KEY TO BEING STRONG LIKE THEM!]",
+     "current": "  Tomcat: [不过说不定，吃了它就能像他们一样强壮！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe1a779c61c9843af",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.Statcoin",
+   "header_line": 4589,
+   "controls": [
+    {
+     "line": 4589,
+     "source": "<TomcatItems.Statcoin>",
+     "current": "<TomcatItems.Statcoin>"
+    },
+    {
+     "line": 4619,
+     "source": "### MapData Items ###",
+     "current": "### MapData Items ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1bb1392ddd0081a65977",
+     "line": 4590,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOOOAH THERE KIDDO, DO YOU KNOW WHAT YOU JUST PICKED UP?]",
+     "current": "  Tomcat: [哇哦，小家伙，你知道刚捡到的是什么吗？]"
+    },
+    {
+     "row_id": "CAT:O32beb6fd1b5f932adcb8",
+     "line": 4591,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[UHH... SOME SORT OF... COIN?]",
+     "current": "  Yiffai: [呃……某种……硬币？]"
+    },
+    {
+     "row_id": "CAT:O0277ff5d9be0988bd1b9",
+     "line": 4592,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT IS SOME SUPER ILLEGAL STUFF IN YOUR PAW RIGHT NOW]",
+     "current": "  Tomcat: [你现在手里拿的，可是严重违禁品]"
+    },
+    {
+     "row_id": "CAT:Of0c28dfb2c513f9935a6",
+     "line": 4593,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S BLACK MARKET BIOCRYPTO, AND IT'S ALREADY TRYING]",
+     "current": "  Tomcat: [这是黑市生物加密货币，而且已经开始试图跟你的身体建立接口！]"
+    },
+    {
+     "row_id": "CAT:Oa383d405e3d334ce719d",
+     "line": 4594,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO INTERFACE WITH YOU ON A PHYSICAL LEVEL!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od2ff186ed6ad313724ef",
+     "line": 4595,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[W-WHA? IT IS??? HOW DO I GET RID OF IT??!?]",
+     "current": "  Yiffai: [什、什么？真的吗？？怎么把它弄掉啊？？！]"
+    },
+    {
+     "row_id": "CAT:O4f6f4ee1105e4bc01942",
+     "line": 4596,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAHAHA, RELAX! THE EASY WAY TO GET RID OF IT IS TO USE IT]",
+     "current": "  Tomcat: [哈哈哈，别慌！想处理掉，最简单就是用掉它。]"
+    },
+    {
+     "row_id": "CAT:O3dcb8cad8c09fe356ddf",
+     "line": 4597,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOUGH WHO KNOWS WHAT KIND OF \"USL\" APP IT HAS ONBOARD.]",
+     "current": "  Tomcat: [不过谁知道，它里面装的是什么“USL”程序呢。]"
+    },
+    {
+     "row_id": "CAT:Oa7e69b9c9ee32fb6e51d",
+     "line": 4598,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[\"U-USL\"?!? USE IT?!?! YOU JUST TOLD ME IT WAS ILLEGAL!]",
+     "current": "  Yiffai: [“U、USL”？！用它？！？你刚说它违法！]"
+    },
+    {
+     "row_id": "CAT:O5235f0bf107f29edd815",
+     "line": 4599,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[RELAX, AN AGENT ON A TOP SECRET OMEGA PROTOCOL MISSION]",
+     "current": "  Mauser: [放轻松，执行绝密欧米伽协议任务的特工有权动用手头的一切手段，就算这些手段……通常不合法也一样。]"
+    },
+    {
+     "row_id": "CAT:O851616d1de09099dc3a7",
+     "line": 4600,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAS JURISDICTION TO USE ANY MEANS AT THEIR DISPOSAL]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O156c510acc68674bbf0c",
+     "line": 4601,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[EVEN IF IT'S OUTSIDE OF... NORMAL LEGALITY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofcc211714e6721f21c1a",
+     "line": 4602,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOAH, REALLY? I HAVE THAT RIGHT NOW?]",
+     "current": "  Yiffai: [哇，真的？我现在就有这种权限？]"
+    },
+    {
+     "row_id": "CAT:Oedbb75277cb8cb2cefa3",
+     "line": 4603,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YUP, THAT'S RIGHT. IT'S JUST LIKE SQUEAKS SAID.]",
+     "current": "  Tomcat: [对，没错，就像小吱吱说的。]"
+    },
+    {
+     "row_id": "CAT:O845c1ce698655ec9dc08",
+     "line": 4604,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I COULD GO OUT AND STEAL, OR PARK MY HOVERBIKE ANYWHERE]",
+     "current": "  Yiffai: [那我就能出门偷东西，悬浮摩托想停哪儿停哪儿，甚至干点真正下流的事……]"
+    },
+    {
+     "row_id": "CAT:Off49a225d1fdb499916d",
+     "line": 4605,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OR EVEN DO SOMETHING REALLY NAUGHTY...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3be1ac2b1a8f8f484368",
+     "line": 4606,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TECHNICALLY, YES. BUT FOR NOW THE MAIN CONCERN IS SEEING]",
+     "current": "  Tomcat: [理论上是。不过眼下主要得看看，硬币上的通用脚本语言应用配合你的P.A.W.使用时，能做些什么。]"
+    },
+    {
+     "row_id": "CAT:Oaefa5d8f76dcad8db362",
+     "line": 4607,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT THE UNIVERSAL SCRIPTING LANGUAGE APP ON THE COIN]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O7ddb8e647d6f60baa254",
+     "line": 4608,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DOES WHEN YOU USE IT WITH YOUR P.A.W.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O98e06b061a921847829f",
+     "line": 4609,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH! SO IT'LL RUN ON BASICALLY ANYTHING! I GET IT.]",
+     "current": "  Yiffai: [哦！所以它基本上啥设备都能跑！懂了。]"
+    },
+    {
+     "row_id": "CAT:O414477548154e49642c9",
+     "line": 4610,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SMART KID, JUST BE CAREFUL, NEVER KNOW WHAT BACKALLEY]",
+     "current": "  Tomcat: [聪明，小家伙。不过小心，谁知道那上面可能藏着什么来路不明的游戏程序或恶心玩意儿……]"
+    },
+    {
+     "row_id": "CAT:Of49538cab70d16661c26",
+     "line": 4611,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GAMES OR DISGUSTING NONSENSE COULD BE ON THOSE...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O86e842b4d6c07a0a6baf",
+     "line": 4612,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH! IF YOU END UP WITH SOMETHING REALLY IMMORAL...]",
+     "current": "  Mauser: [对！要是真搞到什么特别不道德的东西……]"
+    },
+    {
+     "row_id": "CAT:O52c408acc0c4af2d542b",
+     "line": 4613,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...BRING A COPY BACK, OKAY?]",
+     "current": "  Mauser: [……带份副本回来，好吗？]"
+    },
+    {
+     "row_id": "CAT:O4b7b0800210a8884b874",
+     "line": 4614,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...]",
+     "current": "  Tomcat: [……]"
+    },
+    {
+     "row_id": "CAT:Ocd0d9fcdc78a3b98209a",
+     "line": 4615,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...]",
+     "current": "  Yiffai: [……]"
+    },
+    {
+     "row_id": "CAT:O1318bb12aba406788394",
+     "line": 4616,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...BYE.]",
+     "current": "  Yiffai: [……再见。]"
+    },
+    {
+     "row_id": "CAT:Oe9885a7e1e66fa9ea69d",
+     "line": 4617,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[N-NO! I WAS JOKING!! IT WAS A JO-]",
+     "current": "  Mauser: [不、不！我开玩笑的！！那是玩——]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1485d12c7f7f2860",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.TazerRapier",
+   "header_line": 4261,
+   "controls": [
+    {
+     "line": 4261,
+     "source": "<TomcatItems.TazerRapier>",
+     "current": "<TomcatItems.TazerRapier>"
+    },
+    {
+     "line": 4267,
+     "source": "### Cosmo ###",
+     "current": "### Cosmo ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7474b978d98369e780e5",
+     "line": 4262,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE DON'T SEE ELFIN TAZER TECH IN 3P SYSTEMS OFTEN.]",
+     "current": "  Tomcat: [3P星系里可不常见精灵的电击武器技术。]"
+    },
+    {
+     "row_id": "CAT:Oc4490de2a314fda092cc",
+     "line": 4263,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOW DOES THAT BLADE FEEL?]",
+     "current": "  Tomcat: [那把剑使着怎么样？]"
+    },
+    {
+     "row_id": "CAT:Oe0b2f859ca4346a06487",
+     "line": 4264,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LIGHT. DELICATE BUT PRECISE, I GUESS. EASY HANDLING.]",
+     "current": "  Yiffai: [很轻。纤细但精准吧，挺顺手。]"
+    },
+    {
+     "row_id": "CAT:O1123b7b6b0a9114aa4fb",
+     "line": 4265,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SOUNDS LIKE YOU'RE ALREADY GETTING THE HANG OF IT!]",
+     "current": "  Tomcat: [听起来你已经摸到窍门了！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCae76be512589a7df",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.TazerTrainee",
+   "header_line": 4059,
+   "controls": [
+    {
+     "line": 4059,
+     "source": "<TomcatItems.TazerTrainee>",
+     "current": "<TomcatItems.TazerTrainee>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oe6fac8d45b8744c57828",
+     "line": 4060,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH WOW, IS THAT A ROOKIE'S LIGHTTAZER YOU GOT THERE?]",
+     "current": "  Tomcat: [哇，你拿到的是新人的光电击枪？]"
+    },
+    {
+     "row_id": "CAT:O382ee0935f1cf552493a",
+     "line": 4061,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, CAN'T WAIT TO FIND OUT WHOSE IT IS HAHA!]",
+     "current": "  Yiffany: [是啊，真想赶紧知道是谁的，哈哈！]"
+    },
+    {
+     "row_id": "CAT:O8328ac6799cf03e3027c",
+     "line": 4062,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU JUST KNOW THAT BOSSU IS GONNA CHEW OUT THE LITTLE BR-]",
+     "current": "  Yiffany: [波苏肯定会骂惨那个小混——]"
+    },
+    {
+     "row_id": "CAT:Ofdd5581717be23237118",
+     "line": 4063,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[PRETTY SURE THAT'S YOUR LITTLE BROTHERS LIGHTTAZER.]",
+     "current": "  Tomcat: [我很确定，那是你弟弟的光电击枪。]"
+    },
+    {
+     "row_id": "CAT:O7b46f3da7734e84605d5",
+     "line": 4064,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Yiffany: [……]"
+    },
+    {
+     "row_id": "CAT:Oe96abf697bbb84a5aeaa",
+     "line": 4065,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...YOU'RE KIDDING, RIGHT?]",
+     "current": "  Yiffany: [……你在开玩笑吧？]"
+    },
+    {
+     "row_id": "CAT:O8aca8ee60760913cc9b1",
+     "line": 4066,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOOOOPE, SERIAL NUMBER ID-10-T-455. THAT'S YIFFAI'S.]",
+     "current": "  Tomcat: [没——开玩笑，序列号ID-10-T-455。伊吠的。]"
+    },
+    {
+     "row_id": "CAT:Ofc50086293b617d1b615",
+     "line": 4067,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DAMMIT, MY SQUAD WON'T LET ME HEAR THE END OF THIS.]",
+     "current": "  Yiffany: [可恶，队里那帮人肯定要笑我一辈子。]"
+    },
+    {
+     "row_id": "CAT:Od71afefaeee707796a6f",
+     "line": 4068,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LOOK CAN YOU, I DUNNO, DELAY THAT REPORT FOR NOW?]",
+     "current": "  Yiffany: [那个，你能不能，呃，先缓缓，别交报告？]"
+    },
+    {
+     "row_id": "CAT:O1db07906286c7b26e218",
+     "line": 4069,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NO PURROMISES GIRL, BUT I'LL DO WHAT I CAN DO.]",
+     "current": "  Tomcat: [姑娘，我不敢打包票，不过会尽力帮忙。]"
+    },
+    {
+     "row_id": "CAT:Of5b8cc24155fa975182b",
+     "line": 4070,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'RE THE BEST, I OWE YOU ONE!]",
+     "current": "  Yiffany: [你最棒了，欠你个人情！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCec153bc2ac9442d3",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.ThrowKnife",
+   "header_line": 4018,
+   "controls": [
+    {
+     "line": 4018,
+     "source": "<TomcatItems.ThrowKnife>",
+     "current": "<TomcatItems.ThrowKnife>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7de883d322dacf1b8790",
+     "line": 4019,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEY LOOK, A NON- TAZER BLADE!]",
+     "current": "  Yiffany: [嘿，看啊，一把不是电击枪的刀！]"
+    },
+    {
+     "row_id": "CAT:O68df4bd3e19e2641c665",
+     "line": 4020,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT'S SUPER DELICATE AND SUPER SHARP SO YOU'LL ONLY GET]",
+     "current": "  Tomcat: [它又脆又锋利，所以你拿它扎一下就报废了。我看还是扔出去更合适。]"
+    },
+    {
+     "row_id": "CAT:Occ89e668c7c6b6e4bdfe",
+     "line": 4021,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ONE GOOD STAB FROM IT. SEEMS BETTER AS A PROJECTILE TO ME.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0c64a2ecfd11a2ace447",
+     "line": 4022,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEST SAVED FOR ANY- THING GIVING YOU A HARD TIME, I'D SAY.]",
+     "current": "  Tomcat: [依我看，最好留着对付难缠的家伙。]"
+    },
+    {
+     "row_id": "CAT:Ob9c70fe7afd527a02657",
+     "line": 4023,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GOTYA. SO NEXT TIME YOU GIVE ME GRUFF I'LL JUST...]",
+     "current": "  Yiffany: [懂了。下次你再找我茬，我就……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC64e07efc93477031",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.TribalBody",
+   "header_line": 4170,
+   "controls": [
+    {
+     "line": 4170,
+     "source": "<TomcatItems.TribalBody>",
+     "current": "<TomcatItems.TribalBody>"
+    },
+    {
+     "line": 4179,
+     "source": "### Pirate ###",
+     "current": "### Pirate ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O8790a1328976ea2e50d7",
+     "line": 4171,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEY TOMCAT, WHAT'S THIS VEST-THINGIE?]",
+     "current": "  Yiffai: [嘿，雄猫，这件像背心的东西是什么？]"
+    },
+    {
+     "row_id": "CAT:Ocb3fb89c4ce11b2b31af",
+     "line": 4172,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS TO BE A TRADITIONAL BATTLE GARB DEVELOPED BY]",
+     "current": "  Tomcat: [这似乎是图托恩本土的一种犬科物种制作的传统战服，而且完好无损！异星考古部一定会——]"
+    },
+    {
+     "row_id": "CAT:O64a6de6be7369c59cae3",
+     "line": 4173,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A CANID SPECIES NATIVE TO TUTONE, AND IT'S IN PERFECT]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4087c8116df7d881312e",
+     "line": 4174,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CONDITION! THE XENO-ARCHAEOLOGY DEPARTMENT WILL-]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9323a7471d7ba2540a55",
+     "line": 4175,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAH, THIS WILL PROTECT ME PRETTY GOOD *AND* EVERYONE]",
+     "current": "  Yiffai: [哈，这既能好好保护我，*又*能让大家看见我的屁股！太棒了！]"
+    },
+    {
+     "row_id": "CAT:O067a5d74028e46932eef",
+     "line": 4176,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CAN STILL SEE MY BUTT! THAT'S AWESOME!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O7a5314da16a4cba4ba8b",
+     "line": 4177,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[T-THAT TOO, PUP. THAT TOO...]",
+     "current": "  Tomcat: [也、也是，小狗。也是……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC852279e1d4f46a57",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.TribalBody",
+   "header_line": 4155,
+   "controls": [
+    {
+     "line": 4155,
+     "source": "<TomcatItems.TribalBody>",
+     "current": "<TomcatItems.TribalBody>"
+    },
+    {
+     "line": 4165,
+     "source": "### Pirate ###",
+     "current": "### Pirate ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Of55c68478f1600f0016e",
+     "line": 4156,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HEY TOMCAT, I JUST FOUND SOME STRANGE VEST.]",
+     "current": "  Yiffany: [嘿，雄猫，我刚找到件奇怪的背心。]"
+    },
+    {
+     "row_id": "CAT:Ob7a0fee57438eb2ad415",
+     "line": 4157,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I SEE THAT! OUR DATABASE IS SHORT ON DETAILS BUT]",
+     "current": "  Tomcat: [看见啦！数据库里资料不多，不过这似乎是图托恩本土的一种犬科物种设计的传统战服。]"
+    },
+    {
+     "row_id": "CAT:O6c0f3a0f1fb5dff27285",
+     "line": 4158,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SEEMS TO BE A TRADITIONAL BATTLE GARB DEVELOPED BY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of5e697c2f3db837a5993",
+     "line": 4159,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[A CANID SPECIES NATIVE TO TUTONE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O78bb152858d951aeb3de",
+     "line": 4160,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT MEANS IT MIGHT BE WELL-SUITED TO COMBAT SITUATIONS]",
+     "current": "  Yiffany: [也就是说，它可能很适合应付这颗星球上的战斗。我记住了。完毕。]"
+    },
+    {
+     "row_id": "CAT:Ob9f2ff23a25f7f62f7cb",
+     "line": 4161,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ON THIS PLANET. I'LL KEEP THAT IN MIND. OVER.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1981677d7c8b28ecb53e",
+     "line": 4162,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[JUST TRY AND KEEP IT IN ONE PIECE]",
+     "current": "  Tomcat: [尽量别把它弄坏就好，就当是为了异星考古部吧……]"
+    },
+    {
+     "row_id": "CAT:O07f730d103828a3380a1",
+     "line": 4163,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[FOR THE XENO-ARCHAEOLOGY DEPARTMENT...]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6e4d979cdf3f0678",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.TribalBody",
+   "header_line": 4065,
+   "controls": [
+    {
+     "line": 4065,
+     "source": "<TomcatItems.TribalBody>",
+     "current": "<TomcatItems.TribalBody>"
+    },
+    {
+     "line": 4074,
+     "source": "### Pirate ###",
+     "current": "### Pirate ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW93964b22e121f11340e2ba2a",
+     "line": 4066,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEY TOMCAT, WHAT'S THIS VEST-THINGIE?]",
+     "current": "  Yiffai: [嘿，雄猫，这件像背心的东西是什么？]"
+    },
+    {
+     "row_id": "SFW767bb9716f59b9d6741deb32",
+     "line": 4067,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS TO BE A TRADITIONAL BATTLE GARB DEVELOPED BY]",
+     "current": "  Tomcat: [这似乎是图托恩本土的一种犬科物种制作的传统战服，而且完好无损！异星考古部一定会——]"
+    },
+    {
+     "row_id": "SFW30abc5ed64e0006e966af700",
+     "line": 4068,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A CANID SPECIES NATIVE TO TUTONE, AND IT'S IN PERFECT]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWedd48843cad27bda742663ce",
+     "line": 4069,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CONDITION! THE XENO-ARCHAEOLOGY DEPARTMENT WILL-]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW6941f3257d43114d7fe79fef",
+     "line": 4070,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAH, THIS WILL PROTECT ME PRETTY GOOD *AND* EVERYONE]",
+     "current": "  Yiffai: [哈，这既能好好保护我，*又*能让大家]"
+    },
+    {
+     "row_id": "SFW171869b9e4c20cd1c953d733",
+     "line": 4071,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WILL THINK I LOOK COOL! THAT'S AWESOME!]",
+     "current": "  Yiffai: [觉得我很酷！太棒了！]"
+    },
+    {
+     "row_id": "SFW31cd96bb1d04bd85afbe982e",
+     "line": 4072,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[T-THAT TOO, PUP. THAT TOO...]",
+     "current": "  Tomcat: [也、也是，小狗。也是……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC278181acbd1aa2e3",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.TribalHead",
+   "header_line": 4057,
+   "controls": [
+    {
+     "line": 4057,
+     "source": "<TomcatItems.TribalHead>",
+     "current": "<TomcatItems.TribalHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWbd0789e98403fcccff245b2c",
+     "line": 4058,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THIS HAT... I'VE NEVER SEEN ANYTHING LIKE IT.]",
+     "current": "  Yiffai: [这顶帽子……我从没见过这样的。]"
+    },
+    {
+     "row_id": "SFW504bd178a384c4994d02dc43",
+     "line": 4059,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S A HEADDRESS YOU LITTLE PUPPEROO. IT LOOKS LIKE THE]",
+     "current": "  Tomcat: [那叫头饰，小狗崽。看起来像是那些机械Fenfen戴的那种，不过这是真货。]"
+    },
+    {
+     "row_id": "SFW776fd3d68cd725087e4bfdc6",
+     "line": 4060,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REAL DEAL VERSION OF WHAT THOSE MECHA- NICAL FENFENS WORE.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe012689b115df57847cb4928",
+     "line": 4061,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT GIVES OFF A STR- ANGE SENSATION. LIKE I'M EXTRA LUCKY!]",
+     "current": "  Yiffai: [它给人一种奇怪的感觉。好像我格外幸运！]"
+    },
+    {
+     "row_id": "SFWb50fd837ed0c22f0638081fb",
+     "line": 4062,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAHA, WELL... DON'T LET IT GO TO YOUR HEAD.]",
+     "current": "  Tomcat: [哈哈，好吧……别得意忘形了。]"
+    },
+    {
+     "row_id": "SFW6b802b1a73af58416e5e5119",
+     "line": 4063,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOT IT.]",
+     "current": "  Yiffai: [明白。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa18713a7eccf6b9f",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.UpgradeChip",
+   "header_line": 4582,
+   "controls": [
+    {
+     "line": 4582,
+     "source": "<TomcatItems.UpgradeChip>",
+     "current": "<TomcatItems.UpgradeChip>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O60e11a24b669edca4f6c",
+     "line": 4583,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOAH, WHAT IS THAT YOU JUST PICKED UP??]",
+     "current": "  Tomcat: [哇，你刚捡起来的是什么？？]"
+    },
+    {
+     "row_id": "CAT:O0616bbe35aacf4d41218",
+     "line": 4584,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I... I DON'T KNOW! SOME SORT OF COMPUTER CHIP?]",
+     "current": "  Yiffai: [我……我不知道！某种电脑芯片？]"
+    },
+    {
+     "row_id": "CAT:O673ef9e2b46c6b416735",
+     "line": 4585,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS TO REACT WHENEVER I PUT IT NEAR MY GEAR.]",
+     "current": "  Yiffai: [它似乎每当我把它放到装备附近就会有反应。]"
+    },
+    {
+     "row_id": "CAT:O686391fb86c733581527",
+     "line": 4586,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DEFINITELY HOLD ON TO THAT. MAYBE YOU CAN FIND SOMEONE]",
+     "current": "  Tomcat: [一定要留着它。也许你能在那颗星球上找到某个人，能告诉你它是干什么用的。]"
+    },
+    {
+     "row_id": "CAT:O2525fd37432127390787",
+     "line": 4587,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ON THAT PLANET THAT CAN TELL YOU WHAT IT'S FOR.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfaf8c5f0dfa262b8",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.VitHam",
+   "header_line": 3835,
+   "controls": [
+    {
+     "line": 3835,
+     "source": "<TomcatItems.VitHam>",
+     "current": "<TomcatItems.VitHam>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O9f29112e3415f6459e64",
+     "line": 3836,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HUH... THAT CHUNK OF HAM YOU PICKED UP...]",
+     "current": "  Tomcat: [嗯……你捡到的那块火腿……]"
+    },
+    {
+     "row_id": "CAT:Oe70d4c30f45e57bd32d8",
+     "line": 3837,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHAT ABOUT IT? IS THERE SOMETHING WRONG?]",
+     "current": "  Yiffany: [怎么了？有什么问题吗？]"
+    },
+    {
+     "row_id": "CAT:Oa3598469c39f7519ed10",
+     "line": 3838,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH NO, IT JUST LOOKS DELICIOUS!]",
+     "current": "  Tomcat: [哦，不！它看起来好好吃！]"
+    },
+    {
+     "row_id": "CAT:Odcf73aa7f3e00ca94fe3",
+     "line": 3839,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OF COURSE, YOU'D BE VIOLATING TWELVE DIFFERENT REGS]",
+     "current": "  Tomcat: [当然，要是你也给*我*留一块的话，你会违反整整十二条规定。]"
+    },
+    {
+     "row_id": "CAT:O5197299a23b61d8a27c0",
+     "line": 3840,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU SAVED *ME* A PIECE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc7bc03187c4b35e1e71a",
+     "line": 3841,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[... YOU WANT ME TO...]",
+     "current": "  Yiffany: [……你是想让我……]"
+    },
+    {
+     "row_id": "CAT:O10e07841fcbcace2e9c5",
+     "line": 3842,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BRING AN UNDECLARED BIOSAMPLE OFFWORLD? NO, NEVER!]",
+     "current": "  Tomcat: [把没申报的生物样本带离星球？不，绝对不行！]"
+    },
+    {
+     "row_id": "CAT:O0c97256c9136885a6c5c",
+     "line": 3843,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHO WOULD EVEN SUGGEST SUCH A THING! HA HA!]",
+     "current": "  Tomcat: [谁会出这种主意啊！哈哈！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8a36b1bfaf210607",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.VitMeat",
+   "header_line": 3804,
+   "controls": [
+    {
+     "line": 3804,
+     "source": "<TomcatItems.VitMeat>",
+     "current": "<TomcatItems.VitMeat>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW92533739978b51424b27dd43",
+     "line": 3805,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH THAT'S A REALLY HUGE CHUNK OF MEAT!]",
+     "current": "  Tomcat: [哦，那真是好大的一块肉！]"
+    },
+    {
+     "row_id": "SFW442d9d90d5cd5732a7d2a558",
+     "line": 3806,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SHOULD RECOVER A DECENT CHUNK OF YOUR VIT, TOO!]",
+     "current": "  Tomcat: [它应该还能给你恢复不少体力！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfd771791a8d61ef8",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.VitMeat",
+   "header_line": 3771,
+   "controls": [
+    {
+     "line": 3771,
+     "source": "<TomcatItems.VitMeat>",
+     "current": "<TomcatItems.VitMeat>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW5a743fc3467386fb8be54514",
+     "line": 3772,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH THAT'S A REALLY HUGE CHUNK OF MEAT!]",
+     "current": "  Tomcat: [哦，那真是好大的一块肉！]"
+    },
+    {
+     "row_id": "SFWe73c0622966fdc8aefc36d11",
+     "line": 3773,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SHOULD RECOVER A DECENT CHUNK OF YOUR VIT, TOO!]",
+     "current": "  Tomcat: [它应该还能给你恢复不少体力！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC404ef824a928cf77",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.Vitamin",
+   "header_line": 4428,
+   "controls": [
+    {
+     "line": 4428,
+     "source": "<TomcatItems.Vitamin>",
+     "current": "<TomcatItems.Vitamin>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW623199cfccff4295435a34a3",
+     "line": 4429,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOOD JOB FINDING A VITAMIN! CHOMP ONE OF THOSE]",
+     "current": "  Tomcat: [找到维生素了，干得好！吃上一颗，]"
+    },
+    {
+     "row_id": "SFW7481b5b028ddb0a16e3a7d98",
+     "line": 4430,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND IT'LL INCREASE YOUR MAX HEALTH.]",
+     "current": "  Tomcat: [就能提升你的生命上限。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCde8682ffd4c1a8db",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.ZenerCircle",
+   "header_line": 4480,
+   "controls": [
+    {
+     "line": 4480,
+     "source": "<TomcatItems.ZenerCircle>",
+     "current": "<TomcatItems.ZenerCircle>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O0720307d00338d41590d",
+     "line": 4481,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO... ABOUT THOSE 'ESPER' POWERS...]",
+     "current": "  Yiffany: [所以……说起那些“超能力”……]"
+    },
+    {
+     "row_id": "CAT:O9a64d7adf5c971b49c7e",
+     "line": 4482,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I GUESS THIS MEANS YOU JUST GRABBED ANOTHER OF THOSE]",
+     "current": "  Tomcat: [看来你又拿到了一颗那种总部探测不到的球体，是吧……]"
+    },
+    {
+     "row_id": "CAT:Ofd0567a589391632a928",
+     "line": 4483,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ORBS WE CAN'T DETECT FROM HQ, HUH...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oa937c8fccbe42b500276",
+     "line": 4484,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE THERE ANY REPORTS OF OTHER POWERS?]",
+     "current": "  Yiffany: [有其他能力的报告吗？]"
+    },
+    {
+     "row_id": "CAT:Obe1d69e92fa2e097c10e",
+     "line": 4485,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ASIDE FROM WHAT YOU'VE REPORTED SO FAR? WELL...]",
+     "current": "  Tomcat: [除了你已经报告过的那些？嗯……]"
+    },
+    {
+     "row_id": "CAT:Of7a470fa63fbe95986e8",
+     "line": 4486,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ONE AGENT SAID HE COULD SUMMON A BALL OF PURE ENERGY]",
+     "current": "  Tomcat: [有个特工说，他能召出一团纯能量球，还能像炸弹一样扔出去。]"
+    },
+    {
+     "row_id": "CAT:Oc51735d5a25520f76306",
+     "line": 4487,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT HE COULD THROW LIKE A BOMB.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O48ed0e32b742e8e4575a",
+     "line": 4488,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HE SAID IT WAS SIMILAR TO OTHER ABILITIES IN THAT]",
+     "current": "  Tomcat: [他说这和其他能力一样，按“UP”+“攻击”就能发动。]"
+    },
+    {
+     "row_id": "CAT:O4d642cf44c256e1de5e1",
+     "line": 4489,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[PRESSING \"UP\"+\"ATTACK\" WOULD ACTIVATE IT.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC50aaeb34473d05f7",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.ZenerSquare",
+   "header_line": 4503,
+   "controls": [
+    {
+     "line": 4503,
+     "source": "<TomcatItems.ZenerSquare>",
+     "current": "<TomcatItems.ZenerSquare>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa4d499ce49d090305e1e",
+     "line": 4504,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO, SAY I MANAGED TO PICK UP ANOTHER ORB THAT ISN'T]",
+     "current": " Yiffany: [那假如我又捡到一颗在近场数据里完全看不到的球体……]"
+    },
+    {
+     "row_id": "CAT:O068aa2c179c649c312a8",
+     "line": 4505,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[VISIBLE IN THE NEAR FIELD DATA AT ALL...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O024cdcd40dd9b4cf1959",
+     "line": 4506,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHAT SORT OF THINGS SHOULD I EXPECT TO HAPPEN?]",
+     "current": " Yiffany: [我该做好发生什么事的准备？]"
+    },
+    {
+     "row_id": "CAT:Od7104dcb96add0b8cb54",
+     "line": 4507,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH GEE, WHERE TO BEGIN WITH THAT?]",
+     "current": " Tomcat: [哎呀，这该从哪儿说起呢？]"
+    },
+    {
+     "row_id": "CAT:O32f27d61851c97113f92",
+     "line": 4508,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHEN WE BEGAN RECEIVING REPORTS FROM AGENTS ABOUT]",
+     "current": " Tomcat: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]"
+    },
+    {
+     "row_id": "CAT:O89256b9ee0167fdffc7d",
+     "line": 4509,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SUPPOSED \"PSY POWERS\", WE BROUGHT IN PSYCHIATRISTS!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O73110714653df68023c1",
+     "line": 4510,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT WAS HARD TO FATHOM THE CRAZY THINGS THAT AGENTS]",
+     "current": " Tomcat: [特工们告诉我们的那些怪事，实在难以想象……流星……能量弹……]"
+    },
+    {
+     "row_id": "CAT:O3d48a25226926ef5d4e4",
+     "line": 4511,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TOLD US... SHOOTING STARS... ENERGY BLASTS...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ocbd9eee3ec3a8832b4c6",
+     "line": 4512,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ONE CANINE FELLA EVEN SWORE THAT HE COULD TURN FERAL!]",
+     "current": " Tomcat: [有个犬族的家伙甚至发誓，他能变成野兽！]"
+    },
+    {
+     "row_id": "CAT:O142c1c012784701b5b51",
+     "line": 4513,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WHAT? TURN FERAL??]",
+     "current": " Yiffany: [什、什么？变成野兽？？]"
+    },
+    {
+     "row_id": "CAT:Oed822c3e8a06d41f358e",
+     "line": 4514,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, SAID HE GOT IN TOUCH WITH A SIDE OF HIMSELF THAT]",
+     "current": " Tomcat: [对，他说自己接触到了自身从来不知道的一面。到处乱跑，挖洞，]"
+    },
+    {
+     "row_id": "CAT:O39c274c876d01d217c0f",
+     "line": 4515,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HE NEVER KNEW. RUNNIN' AROUND, DIGGIN' HOLES]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6e2f3eaba72e4fb4c00e",
+     "line": 4516,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EVEN IF OTHER AGENTS STORIES TURN OUT TO BE TRUE]",
+     "current": " Tomcat: [就算其他特工的故事都是真的，他的说法也绝不可能是真的！]"
+    },
+    {
+     "row_id": "CAT:Oddc07f0c19b9d1c7af21",
+     "line": 4517,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE'S NO WAY HIS STORY WOULD BE REAL!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc15b6a7aab40f68982c3",
+     "line": 4518,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[Y-YEAH... THAT CAN'T BE A THING...HAHA...!!]",
+     "current": " Yiffany: [对、对啊……哪可能有这种事……哈哈……！！]"
+    },
+    {
+     "row_id": "CAT:Of11a2e5e4f5d688cfc73",
+     "line": 4519,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...DIGGING HOLES, HUH...]",
+     "current": " Yiffany: [……挖洞，是吧……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5ea9400ea3c3c9b2",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "TomcatItems.ZenerWaves",
+   "header_line": 4491,
+   "controls": [
+    {
+     "line": 4491,
+     "source": "<TomcatItems.ZenerWaves>",
+     "current": "<TomcatItems.ZenerWaves>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O9557c88e98b259a5a08c",
+     "line": 4492,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[KKKSSSSHK... A -SSS- AGENT YIFFANY!]",
+     "current": "  Tomcat: [咔嘶嘶……特——嘶——特工伊吠妮！]"
+    },
+    {
+     "row_id": "CAT:O33ba4c6c4108ec79b082",
+     "line": 4493,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HELLO? TOMCAT? I JUST PICKED UP ONE OF THOSE ORBS!]",
+     "current": "  Yiffany: [喂？雄猫？我刚捡到一颗那种球！]"
+    },
+    {
+     "row_id": "CAT:O3f141f76d46f93305db2",
+     "line": 4494,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I - SSSSHK - CAN SEE THAT, AND - ZZZSHKT - DOING]",
+     "current": "  Tomcat: [我——嘶嘶咔——看见了，你——滋咔——这么做让——咔嘶——这通话——滋滋咔沙——断了。]"
+    },
+    {
+     "row_id": "CAT:Oc5ea2ecaa46e87e686c5",
+     "line": 4495,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IS - KSH - MAKING THIS CA- ZZZZKSHSHHH - OUT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O7b2a777298acdfb37716",
+     "line": 4496,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WAIT! I THINK I CAN...! THERE... IT SHOULD BE]",
+     "current": "  Yiffany: [等、等等！我好像能……！好了……现在应该控制住了。]"
+    },
+    {
+     "row_id": "CAT:O4cadb48050590302de7e",
+     "line": 4497,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UNDER CONTROL, NOW.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O46295a09d7da8eaeaed1",
+     "line": 4498,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WELL, WHATEVER THAT ENERGY IS, YOUR P.A.W *HATES* IT.]",
+     "current": "  Tomcat: [不管那是什么能量，你的P.A.W.都*很讨厌*它。]"
+    },
+    {
+     "row_id": "CAT:Of064151cd3d61ba7aa04",
+     "line": 4499,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I WOULDN'T BE SURPRISED IF IT AFFECTED OTHER]",
+     "current": "  Tomcat: [它要是还会影响其他机器，甚至金属物品，我也不奇怪！]"
+    },
+    {
+     "row_id": "CAT:O9c77353cc80fa8d54e87",
+     "line": 4500,
+     "speaker": "Tomcat",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MACHINES, OR EVEN METALLIC OBJECTS TOO!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofba45d8a5d60fa6d2bce",
+     "line": 4501,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[METALLIC OBJECTS, HUH... INTERESTING.]",
+     "current": "  Yiffany: [金属物体啊……有意思。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa486dda7e7ae640b",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "TomcatItems.ZenerWaves",
+   "header_line": 4494,
+   "controls": [
+    {
+     "line": 4494,
+     "source": "<TomcatItems.ZenerWaves>",
+     "current": "<TomcatItems.ZenerWaves>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2f3112c4b6ab29c5a813",
+     "line": 4495,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[KKKSSSSHK... A -SSS- AGENT YIFFAI!]",
+     "current": "  Tomcat: [咔嘶嘶……特——嘶——特工伊吠！]"
+    },
+    {
+     "row_id": "CAT:O12e53bdb002b5db41ff0",
+     "line": 4496,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HELLO? TOMCAT? I JUST PICKED UP ONE OF THOSE ORBS!]",
+     "current": "  Yiffai: [喂？雄猫？我刚捡到那种球体了！]"
+    },
+    {
+     "row_id": "CAT:Obe021cf4753ecbba2d96",
+     "line": 4497,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I - SSSSHK - CAN SEE THAT, AND - ZZZSHKT - DOING]",
+     "current": "  Tomcat: [我——嘶嘶咔——看见了，你——滋咔——这么做，让——咔嘶——这通话——滋滋咔沙——断了。]"
+    },
+    {
+     "row_id": "CAT:O005acff5336b76fdebd9",
+     "line": 4498,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS - KSH - MAKING THIS CA- ZZZZKSHSHHH - OUT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofbe246d16d1496345d72",
+     "line": 4499,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[W-WAIT! I THINK I CAN...! THERE... IT SHOULD BE]",
+     "current": "  Yiffai: [等、等等！我想我能……！好了……现在应该已经控制住了。]"
+    },
+    {
+     "row_id": "CAT:Oa475dd78a9d6867893e8",
+     "line": 4500,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[UNDER CONTROL, NOW.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O40fe9d218acd503e0ddc",
+     "line": 4501,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WELL, WHATEVER THAT ENERGY IS, YOUR P.A.W *HATES* IT.]",
+     "current": "  Tomcat: [不管那是什么能量，你的P.A.W.都*很讨厌*它。]"
+    },
+    {
+     "row_id": "CAT:Ode54222a2e042280155c",
+     "line": 4502,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I WOULDN'T BE SURPRISED IF IT AFFECTED OTHER]",
+     "current": "  Tomcat: [它要是还会影响其他机器，甚至连金属物品也不例外，我也不奇怪！]"
+    },
+    {
+     "row_id": "CAT:O72d3195907c3b1958fe5",
+     "line": 4503,
+     "speaker": "Tomcat",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MACHINES, OR EVEN METALLIC OBJECTS TOO!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6025fc0ed4478d0f83a1",
+     "line": 4504,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[METALLIC OBJECTS, HUH... INTERESTING.]",
+     "current": "  Yiffai: [金属物体啊……有意思。]"
+    }
+   ]
+  }
+ ]
+}

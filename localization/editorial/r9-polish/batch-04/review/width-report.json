@@ -1,0 +1,386 @@
+{
+ "batch": "batch-04",
+ "box_px": 240,
+ "rows": [
+  {
+   "row_id": "CAT:O3afdccc791e26827d676",
+   "scene_id": "SC77ea58a1063412b5",
+   "current_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Obfbe9a4bdd9340fca56d",
+   "scene_id": "SCae78e1dc49c532a6",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oaaeb46661c5d0f2852fc",
+   "scene_id": "SCae78e1dc49c532a6",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "SFWce6e6170cacb490fc0ff0ebd",
+   "scene_id": "SC5f1b4d2abe382e83",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O2b64371d1a28bac17bdb",
+   "scene_id": "SC285c0b1b69cb5e65",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O465792bc2c9866c8797b",
+   "scene_id": "SC5639e750c29c987c",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O24f651d1e290f8fd0b56",
+   "scene_id": "SC5ee9848171010cf1",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Of3b574a35d8096437f00",
+   "scene_id": "SC701bdd2f929e1031",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O2e9427e1ca032962fa33",
+   "scene_id": "SC701bdd2f929e1031",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Obc58fc7a21f62eb73bed",
+   "scene_id": "SC9b346fa87d3daf54",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "SFWaa18c075537d157fccf4f83f",
+   "scene_id": "SCa2facc632d881e70",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O51bdc27f600fb3594edd",
+   "scene_id": "SC841b41204fa79f67",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O552d526566426cfb09a7",
+   "scene_id": "SCf912c0ed47334e10",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O5a18c20cf3f32c7828aa",
+   "scene_id": "SCf912c0ed47334e10",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ocf5abdb54d51b1b4dd31",
+   "scene_id": "SC2bb5df69804fef2f",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O73fda3f8e160fd4f32a6",
+   "scene_id": "SC2bb5df69804fef2f",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ocf122c9f09fbcfda3e23",
+   "scene_id": "SC2bb5df69804fef2f",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O55b7df2f3a0708d891e3",
+   "scene_id": "SCb714b8ec1b957c4e",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ob9524d26104bc0456aae",
+   "scene_id": "SCb714b8ec1b957c4e",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O7ce21b12341a1ba3f641",
+   "scene_id": "SCb714b8ec1b957c4e",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW613c659a0ca5ce2d987283b7",
+   "scene_id": "SC568f82ccb29b4fa0",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW5b0e27baf02479b9fced70dc",
+   "scene_id": "SC568f82ccb29b4fa0",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW2fb5fe9d099481d20c013deb",
+   "scene_id": "SC581aac8836b915da",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW573d909b03b592779485f9ad",
+   "scene_id": "SC581aac8836b915da",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW5f8a5ceb0952154ab8c78294",
+   "scene_id": "SCad11a1122fdc124a",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O12e9b7a2ed969091d6c6",
+   "scene_id": "SC8bbefad7d6e7d322",
+   "current_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Of3d8eac24c3a65588c13",
+   "scene_id": "SC8bbefad7d6e7d322",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O5e4eb683155190dd7050",
+   "scene_id": "SC8bbefad7d6e7d322",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ofd7cff01ebda750d92b8",
+   "scene_id": "SCa7d938dbd9e09fd0",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O221a9c23356a19a9799e",
+   "scene_id": "SC0a2f7b908b7beb68",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O744849e7c9deb8c4c9e8",
+   "scene_id": "SC0a2f7b908b7beb68",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O65bd6f7b60afd023fb3a",
+   "scene_id": "SC590c465e89cd507f",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O40193b545ac070b573e2",
+   "scene_id": "SCc84763bc1dd8de7b",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Od208c9cc13707f70779e",
+   "scene_id": "SC0455d784def8c84b",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O9a641edef3adc4f62a71",
+   "scene_id": "SC0455d784def8c84b",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ofe0b0d238dde37a0e6db",
+   "scene_id": "SC9297d69003500efa",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O25e0212f398a186ad2cc",
+   "scene_id": "SC9297d69003500efa",
+   "current_wraps": 1,
+   "ds_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Ob2ac12ffcf46943bf3fa",
+   "scene_id": "SCbbaaeb5b391ca914",
+   "current_wraps": 1,
+   "ds_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oa6cc1ec27c9bc959d259",
+   "scene_id": "SCbbaaeb5b391ca914",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O33729688ce4ddcf7c35b",
+   "scene_id": "SC270bba253f60b683",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O2c7062e3dd39a403386a",
+   "scene_id": "SC55c4a209986bb4f7",
+   "current_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Occ36c36d2b0aa020f33a",
+   "scene_id": "SC55c4a209986bb4f7",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "ds_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oc4410cc1434bfd3877c8",
+   "scene_id": "SC9db33b8f4dd22532",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Of5810f2e97164e8b7a18",
+   "scene_id": "SC9db33b8f4dd22532",
+   "current_wraps": 1,
+   "gemini_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "SFW3d32f8a28c3f230c479e5517",
+   "scene_id": "SC3a980f6abca651ae",
+   "current_wraps": 1,
+   "gemini_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "SFWb7fcbdd38e27e729f16b0169",
+   "scene_id": "SC3a980f6abca651ae",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O93fa12dc32fc9eb16c0d",
+   "scene_id": "SC3d40dc4f2e053d40",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Odadb5aa2cc23c4df71ad",
+   "scene_id": "SC3d40dc4f2e053d40",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O0c4ed02a9a1bf4c8922c",
+   "scene_id": "SCdb35125cff9a0e0b",
+   "current_wraps": 2,
+   "ds_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O3e5e25ee5a75819994b1",
+   "scene_id": "SC6681188910c28840",
+   "current_wraps": 3,
+   "gemini_wraps": 3,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:Oa7308118fad528f5f568",
+   "scene_id": "SC8a74554bc2226565",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O139baccbe4571e62632d",
+   "scene_id": "SC0b2a2d5c9e9c6c62",
+   "current_wraps": 2,
+   "gemini_wraps": 2,
+   "ds_wraps": 1,
+   "over_3": false
+  },
+  {
+   "row_id": "CAT:O173bafb8e31fb1d7a84d",
+   "scene_id": "SC4e01d6e7fed031ca",
+   "current_wraps": 1,
+   "ds_wraps": 1,
+   "over_3": false
+  }
+ ],
+ "over_limit": []
+}

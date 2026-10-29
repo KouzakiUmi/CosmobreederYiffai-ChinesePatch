@@ -1,0 +1,4992 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-05-part01",
+ "batch_group": "batch-05",
+ "part": 1,
+ "parts": 3,
+ "title": "图鉴与首领资料（图鉴与装备）（第 1／3 部分）",
+ "roots": [
+  "BossuDex"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC9a50ee5c19b72be6",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicArcher",
+   "header_line": 3207,
+   "controls": [
+    {
+     "line": 3207,
+     "source": "<BossuDex.ClassicArcher>",
+     "current": "<BossuDex.ClassicArcher>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O0941d5049655f792da9c",
+     "line": 3208,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE ELVES OF SCEAFYA MAY ALL BE FEMALE]",
+     "current": "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]"
+    },
+    {
+     "row_id": "CAT:O64bc6ee90092105f0d45",
+     "line": 3209,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY AREN'T ALL IMMORTAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O368f0c6b832db07dde15",
+     "line": 3210,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AS THEY CAN BREED WITH ANY MALE OF ANY SPECIES]",
+     "current": "  Bossu: [由于她们能与任何物种的任何雄性繁殖，她们便带上了越来越多的有朽特征。]"
+    },
+    {
+     "row_id": "CAT:O5d7534b3ebf97ec93472",
+     "line": 3211,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY'VE TAKEN ON MORE AND MORE MORTAL CHARACTERISTICS]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obb92b4d9b14ed7b26515",
+     "line": 3212,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WAIT, SO THAT MEANS SOME OF THEM *ARE* IMMORTAL?]",
+     "current": "  Yiffai: [等等，所以这意味着她们中有些*是*不朽的？]"
+    },
+    {
+     "row_id": "CAT:O6b9a3bb37d35006c7838",
+     "line": 3213,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[INDEED, AS FAR AS WE CAN TELL.]",
+     "current": "  Bossu: [的确，就我们所能看出的而言。]"
+    },
+    {
+     "row_id": "CAT:Oa1653f2947a34fce64cf",
+     "line": 3214,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANY ELF THAT IS OUT IN THE OPEN AND ENGAGING IN COMBAT]",
+     "current": "  Bossu: [任何一个在开阔处并且正在交战的精灵，无疑会是个年幼者。顶多一百岁。]"
+    },
+    {
+     "row_id": "CAT:O6773af071e74dc1a0850",
+     "line": 3215,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WILL NO DOUBT BE A YOUNGSTER. A HUNDRED YEARS OLD AT MOST.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3f0bb9507c699f222176",
+     "line": 3216,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S... WOW...]",
+     "current": "  Yiffai: [这……哇……]"
+    },
+    {
+     "row_id": "CAT:O7b3e5dd3eb4b1a9bb8d1",
+     "line": 3217,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DON'T GIVE IN TO AWE. YOU'LL NEED TO BE ON YOUR TOES]",
+     "current": "  Bossu: [先别光顾着惊叹。保持警惕，才能挡住那些年轻精灵的攻击。]"
+    },
+    {
+     "row_id": "CAT:O02ef3c113db923b0bf4a",
+     "line": 3218,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IN ORDER TO REPEL THE YOUNG ELVES' ATTACKS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6fda860e5fad296df668",
+     "line": 3219,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[RIGHT, GOTTA FOCUS.]",
+     "current": "  Yiffai: [对，得集中精神。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb00e0afe598df446",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicArcher",
+   "header_line": 3092,
+   "controls": [
+    {
+     "line": 3092,
+     "source": "<BossuDex.ClassicArcher>",
+     "current": "<BossuDex.ClassicArcher>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW3fd827e0e89e9eeb832ac5ac",
+     "line": 3093,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE ELVES OF SCEAFYA MAY ALL BE FEMALE]",
+     "current": "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]"
+    },
+    {
+     "row_id": "SFW1544df1f43d4562a78c5db39",
+     "line": 3094,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT THEY AREN'T ALL IMMORTAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe70dd3a9d267e1e2c9920d31",
+     "line": 3095,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY'VE TAKEN ON MORE AND MORE MORTAL CHARACTERISTICS]",
+     "current": "  Bossu: [几百年过去，]"
+    },
+    {
+     "row_id": "SFW5cea39eb7b8a706521df83f7",
+     "line": 3096,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AS THE CENTURIES HAVE GONE BY.]",
+     "current": "  Bossu: [她们身上逐渐多了凡俗生灵的特征。]"
+    },
+    {
+     "row_id": "SFW572570bb009714c4332d0ac1",
+     "line": 3097,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WAIT, SO THAT MEANS SOME OF THEM *ARE* IMMORTAL?]",
+     "current": "  Yiffany: [等等，所以这意味着她们中有些*是*不朽的？]"
+    },
+    {
+     "row_id": "SFW79ec1ce25523c784aed0c8a7",
+     "line": 3098,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[INDEED, AS FAR AS WE CAN TELL.]",
+     "current": "  Bossu: [没错，至少据我们目前了解是这样。]"
+    },
+    {
+     "row_id": "SFW18df94316a203990f187d1af",
+     "line": 3099,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY ELF THAT IS OUT IN THE OPEN AND ENGAGING IN COMBAT]",
+     "current": "  Bossu: [任何一个在开阔处并且正在交战的精灵，无疑会是个年幼者。顶多一百岁。]"
+    },
+    {
+     "row_id": "SFW5d94d5020e0a5a970415cb9d",
+     "line": 3100,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WILL NO DOUBT BE A YOUNGSTER. A HUNDRED YEARS OLD AT MOST.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe157a1fadc108bc4088056b8",
+     "line": 3101,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S... WOW...]",
+     "current": "  Yiffany: [这……哇……]"
+    },
+    {
+     "row_id": "SFW0baa1d12e27075ea192340c8",
+     "line": 3102,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DON'T GIVE IN TO AWE. YOU'LL NEED TO BE ON YOUR TOES]",
+     "current": "  Bossu: [别光顾着惊叹。要时刻保持警觉，才能击退那些年轻精灵的攻击。]"
+    },
+    {
+     "row_id": "SFWaa96fab984366df6c3275620",
+     "line": 3103,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN ORDER TO REPEL THE YOUNG ELVES' ATTACKS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW16504d6a5069ed2133341c80",
+     "line": 3104,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[RIGHT, GOTTA FOCUS.]",
+     "current": "  Yiffany: [对，得专注。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbb24ffbfac0746d8",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicArcher",
+   "header_line": 3139,
+   "controls": [
+    {
+     "line": 3139,
+     "source": "<BossuDex.ClassicArcher>",
+     "current": "<BossuDex.ClassicArcher>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW6e7ffa47864e257d741d96fe",
+     "line": 3140,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE ELVES OF SCEAFYA MAY ALL BE FEMALE]",
+     "current": "  Bossu: [斯凯菲亚的精灵虽说全是女性，却并非个个都能长生不老。]"
+    },
+    {
+     "row_id": "SFW0cc7383cc2bfddc06602bbc5",
+     "line": 3141,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY AREN'T ALL IMMORTAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW7fd49308950e0c5f571069ce",
+     "line": 3142,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY'VE TAKEN ON MORE AND MORE MORTAL CHARACTERISTICS]",
+     "current": "  Bossu: [她们身上凡人的特征越来越多，]"
+    },
+    {
+     "row_id": "SFWf116b4cccfb60b3418c9b385",
+     "line": 3143,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AS THE CENTURIES HAVE GONE BY.]",
+     "current": "  Bossu: [几百年来一直如此。]"
+    },
+    {
+     "row_id": "SFW316e1a82b58dc7cf800f1a31",
+     "line": 3144,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WAIT, SO THAT MEANS SOME OF THEM *ARE* IMMORTAL?]",
+     "current": "  Yiffai: [等等，所以这意味着她们中有些*是*不朽的？]"
+    },
+    {
+     "row_id": "SFWd6259d665bdaa2871112074f",
+     "line": 3145,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[INDEED, AS FAR AS WE CAN TELL.]",
+     "current": "  Bossu: [据我们掌握的情况，确实如此。]"
+    },
+    {
+     "row_id": "SFWf8f58f26fc64c61547c6f6f4",
+     "line": 3146,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANY ELF THAT IS OUT IN THE OPEN AND ENGAGING IN COMBAT]",
+     "current": "  Bossu: [那些公开现身、参加战斗的精灵，肯定都还年轻，最多也就一百岁。]"
+    },
+    {
+     "row_id": "SFWa5c7504173bd4555381b9838",
+     "line": 3147,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WILL NO DOUBT BE A YOUNGSTER. A HUNDRED YEARS OLD AT MOST.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWedb6ed050a91358da387f4e3",
+     "line": 3148,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S... WOW...]",
+     "current": "  Yiffai: [这……哇……]"
+    },
+    {
+     "row_id": "SFWf6bf20d3bd9472ffc686f02c",
+     "line": 3149,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DON'T GIVE IN TO AWE. YOU'LL NEED TO BE ON YOUR TOES]",
+     "current": "  Bossu: [别光顾着惊叹。打起精神，才能挡住那些年轻精灵的攻击。]"
+    },
+    {
+     "row_id": "SFW6d73310851f1937d6c8d3fff",
+     "line": 3150,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IN ORDER TO REPEL THE YOUNG ELVES' ATTACKS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWa2f9e8c5bc97bb959cdc4afc",
+     "line": 3151,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[RIGHT, GOTTA FOCUS.]",
+     "current": "  Yiffai: [对，得专注。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf8c62480a20fd0e4",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicBarker",
+   "header_line": 3040,
+   "controls": [
+    {
+     "line": 3040,
+     "source": "<BossuDex.ClassicBarker>",
+     "current": "<BossuDex.ClassicBarker>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O92bb23b881e2650164ec",
+     "line": 3041,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LOTS OF THOSE RED FURRED FERAL CANINES AROUND, HUH?]",
+     "current": "  Bossu: [周围这种红毛野犬还真不少，是吧？]"
+    },
+    {
+     "row_id": "CAT:O5441e716c7777d1df758",
+     "line": 3042,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE FEISTY FELLAS ARE CALLED \"BARKERS\".]",
+     "current": "  Bossu: [那些带劲儿的家伙叫「吠犬」。]"
+    },
+    {
+     "row_id": "CAT:O5d1b3acd9ae6c23aa31a",
+     "line": 3043,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EEP! YOU'D THINK THEY MISTOOK ME FOR ONE OF THEIR OWN!]",
+     "current": "  Yiffany: [呜！简直像它们把我当成同类了！]"
+    },
+    {
+     "row_id": "CAT:O53b4cf8138c14d0e92ba",
+     "line": 3044,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WELL, THERE IS MORE THAN A PASSING RESEMBLANCE...]",
+     "current": "  Bossu: [嗯，还真不止一点点像……]"
+    },
+    {
+     "row_id": "CAT:Oc7eab5b7e4bf1ae4a1c3",
+     "line": 3045,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH COME ON! YOU'RE REALLY GOING TO MAKE THAT JOKE?]",
+     "current": "  Yiffany: [得了吧！你真要开这种玩笑？]"
+    },
+    {
+     "row_id": "CAT:Offacc0e60caebbdecca6",
+     "line": 3046,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAHA, IN ANY CASE IT LOOKS LIKE YOU MAY HAVE ARRIVED]",
+     "current": "  Bossu: [哈哈，不管怎样，看来你正好赶上了它们的繁殖季中期。]"
+    },
+    {
+     "row_id": "CAT:O94e6dc95ca5395716cc9",
+     "line": 3047,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN THE MIDDLE OF THEIR BREEDING SEASON.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Odbcb7a0849e370955f9b",
+     "line": 3048,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DON'T GET TAKEN OUT BY AN OVERLY AGGRESSIVE BARKER!]",
+     "current": "  Bossu: [别被过于凶猛的吠犬放倒！]"
+    },
+    {
+     "row_id": "CAT:Odaefef7908bae16febfb",
+     "line": 3049,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...UNLESS THEY'RE PAYING FOR DINNER, OF COURSE.]",
+     "current": "  Bossu: [……除非它们负责请你吃晚饭，当然。]"
+    },
+    {
+     "row_id": "CAT:Oa20ae53b4378ff4a981b",
+     "line": 3050,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAR HAR...]",
+     "current": "  Yiffany: [哈、哈……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC203f504ddad4428c",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicBugFlier",
+   "header_line": 3077,
+   "controls": [
+    {
+     "line": 3077,
+     "source": "<BossuDex.ClassicBugFlier>",
+     "current": "<BossuDex.ClassicBugFlier>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O000059a9bccb01172eaa",
+     "line": 3078,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WHAT'S UP WITH THESE ROBO BUGS THAT KEEP COMING AT ME?]",
+     "current": "  Yiffany: [这、这些一直朝我冲过来的机器虫是怎么回事？]"
+    },
+    {
+     "row_id": "CAT:Oda9ef6373a46d45c5e34",
+     "line": 3079,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'D THINK THEY'D RUN OUT MATERIALS BY NOW!]",
+     "current": "  Yiffany: [按理说它们的材料早该用光了吧！]"
+    },
+    {
+     "row_id": "CAT:O5b0a6357201513684e9a",
+     "line": 3080,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MUCH OF THE ROBOTIC MATERIAL IN THAT OLD SPACE STATION]",
+     "current": "  Bossu: [那座老太空站里的许多机械，都配有纳米机械回收系统。]"
+    },
+    {
+     "row_id": "CAT:Of451268f917c1335a33b",
+     "line": 3081,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE BUILT WITH NANOMECHANICAL RECYCLING SYSTEMS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obfa0b0ba2acf2312e6a9",
+     "line": 3082,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NA-NO-MY-WHAT ANAL?]",
+     "current": "  Yiffany: [纳——米——机……什么鸡？]"
+    },
+    {
+     "row_id": "CAT:O83fd9a0441b46dc75151",
+     "line": 3083,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BASICALLY THEY'RE DESIGNED TO SELF REPAIR ENDLESSLY.]",
+     "current": "  Bossu: [简单说，它们被设计成能无限自我修复。]"
+    },
+    {
+     "row_id": "CAT:O26a3f0cec5b86b5e904b",
+     "line": 3084,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT USED TO BE A POPULAR LOW- MAINTENANCE DESIGN]",
+     "current": "  Bossu: [这种低维护设计以前很受欢迎，直到后来人们发现，等它们过时以后，也没办法把它们拆开。]"
+    },
+    {
+     "row_id": "CAT:Ocf01f56c24cf5f771def",
+     "line": 3085,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UNTIL IT WAS REALIZED THAT THEY COULDN'T BE TAKEN]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0d8bf9979aaea2bf9468",
+     "line": 3086,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[APART WHEN THEY BECAME OBSOLETE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9404ef39ae67fd3db122",
+     "line": 3087,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY REPAIR THEM- SELVES FASTER THAN WE CAN BREAK EM!]",
+     "current": "  Bossu: [它们自我修复的速度比我们破坏的还快！]"
+    },
+    {
+     "row_id": "CAT:O49332bbe010db8b1b1d7",
+     "line": 3088,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AHH, SO THAT'S WHY I'VE NEVER SEEN THESE KIND OF]",
+     "current": "  Yiffany: [啊，难怪我从小到大都没见过这种机器人……]"
+    },
+    {
+     "row_id": "CAT:Oe31aff21e4cfdaed306f",
+     "line": 3089,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ROBOTS WHILE GROWING UP...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of7c7443674eea58a5741",
+     "line": 3090,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...NEATO!]",
+     "current": "  Yiffany: [……真酷！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfeff53e003014bf2",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicBugFlier",
+   "header_line": 3139,
+   "controls": [
+    {
+     "line": 3139,
+     "source": "<BossuDex.ClassicBugFlier>",
+     "current": "<BossuDex.ClassicBugFlier>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ocdcbf1db74a509c2b16c",
+     "line": 3140,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BOSSU! THIS IS AGENT YIFFAI, REQUESTING SUPPORT!]",
+     "current": "  Yiffai: [波苏！我是特工伊吠，请求支援！]"
+    },
+    {
+     "row_id": "CAT:Oebaa9ca90d8f126b1f45",
+     "line": 3141,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BOSSU HERE, WHAT'S THE PROBLEM, AGENT?]",
+     "current": "  Bossu: [波苏 在此，出什么问题了，特工？]"
+    },
+    {
+     "row_id": "CAT:Of1ab72ec2ab954f539c0",
+     "line": 3142,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'VE ENCOUNTERED A HAYWIRE DRONE THAT SEEMS TO NEVER]",
+     "current": "  Yiffai: [我碰上一架失控的无人机，即使在我把它们打爆之后，它们还是不停地刷出来。]"
+    },
+    {
+     "row_id": "CAT:O7f6c1327c129ca5e1f8b",
+     "line": 3143,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[STOP SPAWNING AFTER I'VE DESTROYED THEM.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od114635ebb3c96e6842d",
+     "line": 3144,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MUCH OF THE ROBOTIC MATERIAL IN THAT OLD SPACE STATION]",
+     "current": "  Bossu: [那座旧太空站里的大量机械材料，都配有纳米机械回收系统。]"
+    },
+    {
+     "row_id": "CAT:O542309a556a65c740daa",
+     "line": 3145,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ARE BUILT WITH NANOMECHANICAL RECYCLING SYSTEMS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of27f3e065fcd10fc8bf4",
+     "line": 3146,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NA-NO-MY-WHAT ANAL?]",
+     "current": "  Yiffai: [纳——米——机……什么鸡？]"
+    },
+    {
+     "row_id": "CAT:Ob2fe310119bbb9e54ba4",
+     "line": 3147,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEH, YOUR SISTER USED TO SAY THAT TOO.]",
+     "current": "  Bossu: [嘿，你姐姐以前也这么说。]"
+    },
+    {
+     "row_id": "CAT:O839f127d3ee8d4146516",
+     "line": 3148,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BASICALLY THEY'RE DESIGNED TO SELF REPAIR ENDLESSLY.]",
+     "current": "  Bossu: [简单说，它们被设计成能无休止地自我修复。]"
+    },
+    {
+     "row_id": "CAT:O542bc075ab6828e161c6",
+     "line": 3149,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT USED TO BE A POPULAR LOW- MAINTENANCE DESIGN]",
+     "current": "  Bossu: [这种低维护设计以前很受欢迎，直到人们发现，等它们过时了，根本没法拆开。]"
+    },
+    {
+     "row_id": "CAT:O0c852763ae1cd9f5f3a6",
+     "line": 3150,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[UNTIL IT WAS REALIZED THAT THEY COULDN'T BE TAKEN]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O56ecf16232e965817ffb",
+     "line": 3151,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[APART WHEN THEY BECAME OBSOLETE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oa6e0c0668f558ad6bd70",
+     "line": 3152,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY REPAIR THEM- SELVES FASTER THAN WE CAN BREAK EM!]",
+     "current": "  Bossu: [它们自我修复得比我们拆得还快！]"
+    },
+    {
+     "row_id": "CAT:O38ffb951acd345126cde",
+     "line": 3153,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT SOUNDS REALLY ANNOYING!]",
+     "current": "  Yiffai: [听起来真是够烦人的！]"
+    },
+    {
+     "row_id": "CAT:Odf8a6bfb453df09b67b6",
+     "line": 3154,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT WAS. THAT'S WHY YOU DON'T SEE SUCH MACHINERY BACK]",
+     "current": "  Bossu: [确实烦。所以你在老家还待在地面上、没上天时，看不到这种机器。]"
+    },
+    {
+     "row_id": "CAT:Oa166bffe5ca42c89e6c2",
+     "line": 3155,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AT HOME WHILE TERRA- BOUND.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Odbe10e893b4d9cc59e91",
+     "line": 3156,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO IT'S POINTLESS TO TRY DESTROY THEM ALL...]",
+     "current": "  Yiffai: [那想把它们全毁掉也是白费力气……]"
+    },
+    {
+     "row_id": "CAT:O59eab8bdcaaecbd66c8a",
+     "line": 3157,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOOD TO KNOW! YIFFAI OUT.]",
+     "current": "  Yiffai: [长见识了！伊吠通话完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC36a4246a3fd4b93d",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicBugSpiker",
+   "header_line": 2739,
+   "controls": [
+    {
+     "line": 2739,
+     "source": "<BossuDex.ClassicBugSpiker>",
+     "current": "<BossuDex.ClassicBugSpiker>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc8227e39ed2d2509f0dc",
+     "line": 2740,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE SILVERY SPIKED ROBOS ARE CALLED \"SPIKERS\"]",
+     "current": "  Bossu: [那些银色带刺的机器人叫做\"SPIKERS\"]"
+    },
+    {
+     "row_id": "CAT:Oce8b532f9d24c0ca1366",
+     "line": 2741,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY'RE ARE A BIT OF A NUISANCE, AREN'T THEY?]",
+     "current": "  Bossu: [它们还真有点烦人，不是吗？]"
+    },
+    {
+     "row_id": "CAT:Ob01ce1e481fa6d8e9eea",
+     "line": 2742,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHILE THOSE LOOK LIKE BUGS CRAWLING ON THE GROUND]",
+     "current": "  Bossu: [虽说那些家伙看起来像在地上爬的虫子，它们其实是一具精巧的机械仿体。]"
+    },
+    {
+     "row_id": "CAT:O9b3fbdd0be264e6c90d9",
+     "line": 2743,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY ARE ACTUALLY A CLEVER MECHA FASCIMILE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O03e3dd501c014a46ede9",
+     "line": 2744,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE DON'T HAVE ENOUGH DATA TO SAY WHO MADE THEM]",
+     "current": "  Bossu: [我们没有足够的资料判断是谁制造了它们，所以在那之前，先小心它们的刺吧。]"
+    },
+    {
+     "row_id": "CAT:O11e084d75edf366c4559",
+     "line": 2745,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO JUST WATCH OUT FOR THEIR SPIKES IN THE MEANTIME.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf6586c40fbe9c116",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicBulber",
+   "header_line": 3151,
+   "controls": [
+    {
+     "line": 3151,
+     "source": "<BossuDex.ClassicBulber>",
+     "current": "<BossuDex.ClassicBulber>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O570fcd7fadb2cef2b531",
+     "line": 3152,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[A VICIOUS, REGROWING PLANT CALLED THE \"BULBER\"]",
+     "current": "  Bossu: [一种名为「球茎怪」的凶恶、会反复再生的植物，会朝任何靠近的陌生动物开火。]"
+    },
+    {
+     "row_id": "CAT:Oadd1e1a5698f07e8a5e4",
+     "line": 3153,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WILL SHOOT AT ANY UNKNOWN FAUNA THAT COMES NEARBY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc6af055e86e94fdaf72b",
+     "line": 3154,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT INCLUDES YOU, AGENT, SO BEST TO TAKE CARE.]",
+     "current": "  Bossu: [也包括你，特工，所以最好多加小心。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC536952495ec81fad",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicBumper",
+   "header_line": 2791,
+   "controls": [
+    {
+     "line": 2791,
+     "source": "<BossuDex.ClassicBumper>",
+     "current": "<BossuDex.ClassicBumper>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Odd2734eb0348b62880c1",
+     "line": 2792,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE MACHINES BUMPING UP AND DOWN INCESSANTLY]",
+     "current": "  Bossu: [那些不停上下弹跳的机器，是某种目前出现了故障的巡逻机器人。]"
+    },
+    {
+     "row_id": "CAT:O91c19e8033fbe1d86f25",
+     "line": 2793,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ARE SOME SORT OF PATROL DROIDS THAT ARE CURRENTLY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O426b165cf2266271d9b5",
+     "line": 2794,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MALFUNCTIONING.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oadacf59d7e101412450b",
+     "line": 2795,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY SHOULDN'T POSE A THREAT, JUST TRY TO AVOID THEM.]",
+     "current": "  Bossu: [应该不构成威胁，尽量避开就好。]"
+    },
+    {
+     "row_id": "CAT:Od6b03d9386ce4fdd019b",
+     "line": 2796,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT? CAN'T I DESTROY THEM?]",
+     "current": "  Yiffai: [什么？我不能把它们毁掉吗？]"
+    },
+    {
+     "row_id": "CAT:O89028897be28ec9f3f6c",
+     "line": 2797,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DON'T BE SO BRASH. SOMETIMES AVOIDING CONFLICT IS BEST.]",
+     "current": "  Bossu: [别这么莽撞。有时避开冲突才是上策。]"
+    },
+    {
+     "row_id": "CAT:O22adcabe27aab83755c6",
+     "line": 2798,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[R-RIGHT, I'LL TRY TO BE MINDFUL...]",
+     "current": "  Yiffai: [对、对，我会多留意的……]"
+    },
+    {
+     "row_id": "CAT:O5f8f8b1e63eac7e8f170",
+     "line": 2799,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GOOD LAD.]",
+     "current": "  Bossu: [好小伙子。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbd0a2701a22721fa",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicCannonFloor",
+   "header_line": 2782,
+   "controls": [
+    {
+     "line": 2782,
+     "source": "<BossuDex.ClassicCannonFloor>",
+     "current": "<BossuDex.ClassicCannonFloor>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O3adcb0072a438547ee3a",
+     "line": 2783,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BOSSU, THERE ARE SOME TURRETS HERE THAT ARE SIMILAR TO]",
+     "current": "  Yiffany: [波苏，这里的这些炮塔，跟我们在家乡训练时用的那种炮塔很像！]"
+    },
+    {
+     "row_id": "CAT:O6cdb0dc508866835c0da",
+     "line": 2784,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE TURRETS WE USED FOR TRAINING BACK HOME!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O76d5b36acf3be1f0496c",
+     "line": 2785,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT MODEL OF TURRET HAS BEEN STANDARD ISSUE FOR]",
+     "current": "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]"
+    },
+    {
+     "row_id": "CAT:Oac7cc314fdcde52ed321",
+     "line": 2786,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE LAST COUPLE OF CENTURIES OR SO.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc391c2a52f62c3dbe25c",
+     "line": 2787,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WOAH, YOU'RE KIDDING!]",
+     "current": "  Yiffany: [哇，你是在开玩笑吧！]"
+    },
+    {
+     "row_id": "CAT:O9e1f7523517bc11d46af",
+     "line": 2788,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "CAT:O02003a2ccdce10ba7318",
+     "line": 2789,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SELF DEFENSE WEAPONS. THEY ALMOST NEVER BREAK DOWN,]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe937d8ceb412e05fe78e",
+     "line": 2790,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AS YOU CAN SEE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O060b6e83ed09e7e9bb58",
+     "line": 2791,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THANKFULLY A FEW WHACKS SEEMS TO STOP THEM STILL...]",
+     "current": "  Yiffany: [还好敲上几下好像还能让它们停下来……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0bb58fe0fcf2b7ae",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicCannonWall",
+   "header_line": 2846,
+   "controls": [
+    {
+     "line": 2846,
+     "source": "<BossuDex.ClassicCannonWall>",
+     "current": "<BossuDex.ClassicCannonWall>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O8298253fd2994b58603d",
+     "line": 2847,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEY BOSSU? THE TURRETS HERE SEEM KINDA FAMILIAR.]",
+     "current": "  Yiffai: [嘿，波苏？这里的炮塔好像有点眼熟。]"
+    },
+    {
+     "row_id": "CAT:O40e9829de52785d39dd1",
+     "line": 2848,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DIDN'T WE USE SOMETHING SIMILAR, BACK IN... UMM...]",
+     "current": "  Yiffai: [我们是不是也用过类似的，在……嗯……]"
+    },
+    {
+     "row_id": "CAT:O12a87c07b1f4ba9c7d4d",
+     "line": 2849,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BACK IN TRAINING, THAT'S RIGHT YIFFAI.]",
+     "current": "  Bossu: [在训练的时候，没错，伊吠。]"
+    },
+    {
+     "row_id": "CAT:O58381d3999442b060805",
+     "line": 2850,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT MODEL OF TURRET HAS BEEN STANDARD ISSUE FOR]",
+     "current": "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]"
+    },
+    {
+     "row_id": "CAT:O2aa377c97eed22b0110f",
+     "line": 2851,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE LAST COUPLE OF CENTURIES OR SO.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe629c13de5e376d72bb0",
+     "line": 2852,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A COUPLE OF CENTURIES?? NO WAY!!]",
+     "current": "  Yiffai: [两个世纪？？不可能吧！！]"
+    },
+    {
+     "row_id": "CAT:Oc94ae161f9bc5ffcaf89",
+     "line": 2853,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YES WAY. NOBODY'S BOTHERED TRYING TO REPLACE THOSE OLD]",
+     "current": "  Bossu: [当然有可能。没人费心去换那些老旧的自卫武器。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "CAT:O885a9f73eacc339dfc5a",
+     "line": 2854,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SELF DEFENSE WEAPONS. THEY ALMOST NEVER BREAK DOWN,]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe701ffa6e9a392bb0b87",
+     "line": 2855,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AS YOU CAN SEE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O5a1f9e4104cb28c64f90",
+     "line": 2856,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY BREAK DOWN PRETTY EASILY IF I HIT THEM ENOUGH...]",
+     "current": "  Yiffai: [只要我多敲几下，它们坏得还挺容易……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC02fc9006b921bf57",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicCeilingTurret",
+   "header_line": 3159,
+   "controls": [
+    {
+     "line": 3159,
+     "source": "<BossuDex.ClassicCeilingTurret>",
+     "current": "<BossuDex.ClassicCeilingTurret>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O5f600ae5ab4c4abda1ac",
+     "line": 3160,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE CEILING MOUNTED TURRETS HAVE GONE ALL HAYWIRE]",
+     "current": "  Bossu: [那些装在天花板上的炮塔全都失控了，大概是电力系统损坏得太厉害的缘故]"
+    },
+    {
+     "row_id": "CAT:O421a74375eac64f17426",
+     "line": 3161,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[PROBABLY DUE TO ALL THE ELECTRICAL SYSTEM DAMAGE]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ob910cf30863f56b0e64d",
+     "line": 3162,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH SO THEY AREN'T SUPPOSED TO BE SPINNING AROUND AND]",
+     "current": "  Yiffai: [哦，所以它们本来不该那样转来转去，还那样乱开枪的？]"
+    },
+    {
+     "row_id": "CAT:O6347a31dc1e65951d472",
+     "line": 3163,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SHOOTING INDISCRIMINATELY LIKE THAT?]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obcc93f4b3dab0965822e",
+     "line": 3164,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DEFINITELY NOT. TRY NOT TO STAY UNDER THEM FOR TOO LONG.]",
+     "current": "  Bossu: [绝对不是。尽量别在它们下面待太久。]"
+    },
+    {
+     "row_id": "CAT:O7ded23f3652defeda7ec",
+     "line": 3165,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REMEMBER YOUR OBSTACLE COURSE TRAINING!]",
+     "current": "  Bossu: [想想你在障碍训练课上学的东西！]"
+    },
+    {
+     "row_id": "CAT:Ofae81cd00d4f84252689",
+     "line": 3166,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OF COURSE, OF COURSE! YIFFAI OUT!]",
+     "current": "  Yiffai: [当然，当然！伊吠下线！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc7497cb2ed284765",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicCrawly",
+   "header_line": 3344,
+   "controls": [
+    {
+     "line": 3344,
+     "source": "<BossuDex.ClassicCrawly>",
+     "current": "<BossuDex.ClassicCrawly>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O5c5f0905be474d0a9f43",
+     "line": 3345,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT A STRANGE CREATURE...]",
+     "current": "  Bossu: [好奇怪的生物……]"
+    },
+    {
+     "row_id": "CAT:Od57c696087129205d266",
+     "line": 3346,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS TO BE STUCK TO THE TERRAIN SOMEHOW]",
+     "current": "  Bossu: [它好像不知怎么黏在地形上了，而且只朝一个方向循环移动？]"
+    },
+    {
+     "row_id": "CAT:Ob5ec4f5c05452f6f1ccb",
+     "line": 3347,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND ONLY MOVES CYCLICALLY IN ONE DIRECTION? ]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2879c091a61153450565",
+     "line": 3348,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NO RECORDS OF ANYTHING LIKE THEM HERE AT HQ]",
+     "current": "  Bossu: [总部这边没有关于它们的任何记录，但它们看起来没什么威胁。]"
+    },
+    {
+     "row_id": "CAT:O0ed2ac1c3310213099a4",
+     "line": 3349,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY DON'T SEEM TOO THREATENING.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf096caa44f045c89",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicDriller",
+   "header_line": 3055,
+   "controls": [
+    {
+     "line": 3055,
+     "source": "<BossuDex.ClassicDriller>",
+     "current": "<BossuDex.ClassicDriller>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Obe556b284687ca06d598",
+     "line": 3056,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AS A NANOMECHANICAL ROBOT, THE 'DRILLER' UNITS WILL]",
+     "current": "  Bossu: [作为一种纳米机械机器人，那些'DRILLER'单元会持续自我修复。它们会不知疲倦地钻掘。]"
+    },
+    {
+     "row_id": "CAT:O2bb3712b495a0d259a5a",
+     "line": 3057,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CONTINUOUSLY REPAIR THEMSELVES. THEY'LL BURROW TIRELESSLY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1c1f07dac9e87e14897e",
+     "line": 3058,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH! SO THAT'S WHY THEY KEEP COMING BACK?]",
+     "current": "  Yiffai: [哦！所以它们才会一直回来？]"
+    },
+    {
+     "row_id": "CAT:O8c00073a220ad7fbcea7",
+     "line": 3059,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT HOW DO I GET THROUGH THEM, THEN?!]",
+     "current": "  Yiffai: [可那我要怎么穿过去？！]"
+    },
+    {
+     "row_id": "CAT:O501f09c7008d9f4f7633",
+     "line": 3060,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE DRILLER UNITS WILL ONLY OPERATE WITHIN A SET ZONE]",
+     "current": "  Bossu: [那些DRILLER单元只会在一个划定区域内活动]"
+    },
+    {
+     "row_id": "CAT:Of38abc1b10f8b0ae3fbc",
+     "line": 3061,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I SUGGEST WAITING FOR AN OPENING, OR MAKING ONE.]",
+     "current": "  Bossu: [我建议等一个空隙，或者自己开一个。]"
+    },
+    {
+     "row_id": "CAT:O580aa11e10f71a43bcee",
+     "line": 3062,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'LL BE SAFE ONCE YOU'RE PAST THE MINING ZONE.]",
+     "current": "  Bossu: [一旦过了采矿区，你就安全了。]"
+    },
+    {
+     "row_id": "CAT:O8b41ba5bb79d95f182b0",
+     "line": 3063,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ALRIGHT THEN, LET'S MAKE A RUN FOR IT!]",
+     "current": "  Yiffai: [那好，咱们跑过去！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9bbf1f307dac7c56",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicDwarf",
+   "header_line": 2986,
+   "controls": [
+    {
+     "line": 2986,
+     "source": "<BossuDex.ClassicDwarf>",
+     "current": "<BossuDex.ClassicDwarf>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O415be81c7b3258ed132a",
+     "line": 2987,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOW BOSSU, THAT DUDE WAS RIPPED! AND...]",
+     "current": "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]"
+    },
+    {
+     "row_id": "CAT:O585683ee840628bb888b",
+     "line": 2988,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE HAVE NO PAST REPORTS OF DWARVES IN THE AREA]",
+     "current": "  Bossu: [之前没有矮人出现在这片区域的报告，但它们确实很擅长嗅出稀有矿脉。]"
+    },
+    {
+     "row_id": "CAT:O014c1d7c10476b2a87ae",
+     "line": 2989,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY DO TEND TO SNIFF OUT RARE ORE DEPOSITS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O73707d117905dadbe639",
+     "line": 2990,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOW ARE THEY SO BIG AND TALL BUT ALSO... SHORT?!]",
+     "current": "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]"
+    },
+    {
+     "row_id": "CAT:O685b0b438a20ada06f69",
+     "line": 2991,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...AND ...AND ALSO SO HUNG!!]",
+     "current": "  Yiffai: [……而且……而且鸡巴还那么大！！]"
+    },
+    {
+     "row_id": "CAT:O6b884c8e91b76360670d",
+     "line": 2992,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S A TRAIT UNIQUE AMONG THE CANIDS: GIGANTIC DWARFISM]",
+     "current": "  Bossu: [这是犬科独有的特征：巨型侏儒症。]"
+    },
+    {
+     "row_id": "CAT:Ob55c6939b4a70b2747f2",
+     "line": 2993,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MIND THEIR STRENGTH. A SINGLE PUNCH COULD SEND]",
+     "current": "  Bossu: [当心它们的力气。一拳就能把你打得倒栽葱飞出去。]"
+    },
+    {
+     "row_id": "CAT:O35eec51d090ba41feffa",
+     "line": 2994,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU FLYING HEAD OVER HEELS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ob3b8a65ffe660369513a",
+     "line": 2995,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JEEZE, THINK I'D RATHER GO HEAD DOWN A-]",
+     "current": "  Yiffai: [天啊……那我宁愿脑袋朝下再——]"
+    },
+    {
+     "row_id": "CAT:O949580443ea012495622",
+     "line": 2996,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AGENT YIFFAI. DO TRY NOT TO GET DISTRACTED.]",
+     "current": "  Bossu: [伊吠特工。尽量别分心。]"
+    },
+    {
+     "row_id": "CAT:O625fa7b1d687c06a8e3c",
+     "line": 2997,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[R-RIGHT SIR! YIFFAI OUT!]",
+     "current": "  Yiffai: [是、是，长官！伊吠通话完毕！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa0ee2bc475820f52",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicDwarf",
+   "header_line": 2913,
+   "controls": [
+    {
+     "line": 2913,
+     "source": "<BossuDex.ClassicDwarf>",
+     "current": "<BossuDex.ClassicDwarf>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW64c7f9f2fa7edb22fc6b31ab",
+     "line": 2914,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GRR. JUST RAN INTO A DWARF DOWN HERE.]",
+     "current": "  Yiffany: [啧。刚在下面碰上个矮人。]"
+    },
+    {
+     "row_id": "SFWe03f20d81fda4ab5f282cc78",
+     "line": 2915,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE HAVE NO PAST REPORTS OF DWARVES IN THE AREA]",
+     "current": "  Bossu: [过去没有这片区域出现矮人的报告，不过他们确实很会嗅出稀有矿藏。]"
+    },
+    {
+     "row_id": "SFW728898d2cb81109777ffba0c",
+     "line": 2916,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT THEY DO TEND TO SNIFF OUT RARE ORE DEPOSITS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWa3af09c6e8c6e6afd3636277",
+     "line": 2917,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SOUNDS LIKE YOU HAVE EXPERIENCE WITH THEM?]",
+     "current": "  Bossu: [听起来你跟他们打过交道？]"
+    },
+    {
+     "row_id": "SFWe3387784ef366349fea8c4d3",
+     "line": 2918,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DUDE I MET AT A BAR. ALWAYS MOPING ABOUT ALL THE]",
+     "current": "  Yiffany: [酒吧认识过一个。他老是为输光的那些黄金和珠宝唉声叹气……]"
+    },
+    {
+     "row_id": "SFW9bde358ca839a1efaf08a7cb",
+     "line": 2919,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GOLD AND JEWELS HE'D GAMBLED AWAY...]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWb08b3824b9a578c8aaff89ca",
+     "line": 2920,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OH. WELL THAT HARDLY SEEMS PERTINENT TO-]",
+     "current": "  Bossu: [哦。不过这跟眼下的事没什么——]"
+    },
+    {
+     "row_id": "SFW460519510c59992ebce52ca8",
+     "line": 2921,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ALWAYS GOING ON ABOUT DIGGING DEEPER AND GREEDIER]",
+     "current": "  Yiffany: [总是在念叨着挖得更深、更贪婪，]"
+    },
+    {
+     "row_id": "SFWb7d3cce2368c1bfc14d8c9b9",
+     "line": 2922,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AND NEVER SHUTTING UP ABOUT THE DRUMS! EVER LOUDER!]",
+     "current": "  Yiffany: [还没完没了地说着鼓声！越来越响！]"
+    },
+    {
+     "row_id": "SFWb998e035ee524b354d5c79c8",
+     "line": 2923,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Bossu: [……]"
+    },
+    {
+     "row_id": "SFWef9cae630d8c3b208fdebe05",
+     "line": 2924,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HMPH... YIFFANY OUT.]",
+     "current": "  Yiffany: [哼……伊吠妮通话完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6ae22544100436f5",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicDwarfThrower",
+   "header_line": 2999,
+   "controls": [
+    {
+     "line": 2999,
+     "source": "<BossuDex.ClassicDwarfThrower>",
+     "current": "<BossuDex.ClassicDwarfThrower>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Of1cbdef33f59003e9d19",
+     "line": 3000,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOW BOSSU, THAT DUDE WAS RIPPED! AND...]",
+     "current": "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]"
+    },
+    {
+     "row_id": "CAT:Oa696b99ee3f92a47dce7",
+     "line": 3001,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE HAVE NO PAST REPORTS OF DWARVES IN THE AREA]",
+     "current": "  Bossu: [之前没有矮人出现在这片区域的报告，但它们确实很擅长嗅出稀有矿脉。]"
+    },
+    {
+     "row_id": "CAT:O7b26a18cd0955ac845fd",
+     "line": 3002,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY DO TEND TO SNIFF OUT RARE ORE DEPOSITS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3e5ae5dc2cd84613f2e8",
+     "line": 3003,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOW ARE THEY SO BIG AND TALL BUT ALSO... SHORT?!]",
+     "current": "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]"
+    },
+    {
+     "row_id": "CAT:Ob27aacda9267ab4da899",
+     "line": 3004,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...AND ...AND ALSO SO HUNG!!]",
+     "current": "  Yiffai: [……而且……而且鸡巴还那么大！！]"
+    },
+    {
+     "row_id": "CAT:Ocee7c9b32819adad3a63",
+     "line": 3005,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S A TRAIT UNIQUE AMONG THE CANIDS: GIGANTIC DWARFISM]",
+     "current": "  Bossu: [这是犬科独有的特征：巨型侏儒症。]"
+    },
+    {
+     "row_id": "CAT:O117b0d9e8514ef00020d",
+     "line": 3006,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MIND THEIR STRENGTH. A SINGLE PUNCH COULD SEND]",
+     "current": "  Bossu: [当心它们的力气。一拳就能把你打得倒栽葱飞出去。]"
+    },
+    {
+     "row_id": "CAT:Oc2f8d61ca042c4d3be73",
+     "line": 3007,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU FLYING HEAD OVER HEELS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O213ce6f2bdc0eec30d63",
+     "line": 3008,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JEEZE, THINK I'D RATHER GO HEAD DOWN A-]",
+     "current": "  Yiffai: [天啊……那我宁愿脑袋朝下再——]"
+    },
+    {
+     "row_id": "CAT:O7b6f366c7136f2163bff",
+     "line": 3009,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AGENT YIFFAI. DO TRY NOT TO GET DISTRACTED.]",
+     "current": "  Bossu: [伊吠特工。尽量别分心。]"
+    },
+    {
+     "row_id": "CAT:O9a36b2364093df338ca2",
+     "line": 3010,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[R-RIGHT SIR! YIFFAI OUT!]",
+     "current": "  Yiffai: [是、是，长官！伊吠通话完毕！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0c2699e2e3c30b1b",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicDwarfThrower",
+   "header_line": 2951,
+   "controls": [
+    {
+     "line": 2951,
+     "source": "<BossuDex.ClassicDwarfThrower>",
+     "current": "<BossuDex.ClassicDwarfThrower>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWd2c307ddde049355feb88b17",
+     "line": 2952,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOW BOSSU, THAT DUDE WAS RIPPED! AND...]",
+     "current": "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]"
+    },
+    {
+     "row_id": "SFW2ee9695ece6b2141a65e2555",
+     "line": 2953,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE HAVE NO PAST REPORTS OF DWARVES IN THE AREA]",
+     "current": "  Bossu: [之前没有矮人出现在这片区域的报告，但它们确实很擅长嗅出稀有矿脉。]"
+    },
+    {
+     "row_id": "SFW616e30326141bfd8e9aeeeb8",
+     "line": 2954,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THEY DO TEND TO SNIFF OUT RARE ORE DEPOSITS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW80f845104544e17a3cbade68",
+     "line": 2955,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOW ARE THEY SO BIG AND TALL BUT ALSO... SHORT?!]",
+     "current": "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]"
+    },
+    {
+     "row_id": "SFW7fdde42b4c5bc75d4c8377cb",
+     "line": 2956,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT'S A TRAIT UNIQUE AMONG THE CANIDS: GIGANTIC DWARFISM]",
+     "current": "  Bossu: [这是犬科独有的特征：巨型侏儒症。]"
+    },
+    {
+     "row_id": "SFW7d3d415fcba4c5e91855ce85",
+     "line": 2957,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MIND THEIR STRENGTH. A SINGLE PUNCH COULD SEND]",
+     "current": "  Bossu: [当心它们的力气。一拳就能把你打得倒栽葱飞出去。]"
+    },
+    {
+     "row_id": "SFWe1bf7dde042e9b38a2408cd0",
+     "line": 2958,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU FLYING HEAD OVER HEELS.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC46fe33beaab2503d",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicFenfen",
+   "header_line": 3123,
+   "controls": [
+    {
+     "line": 3123,
+     "source": "<BossuDex.ClassicFenfen>",
+     "current": "<BossuDex.ClassicFenfen>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O93747cb50f2482f26380",
+     "line": 3124,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[COME IN. BOSSU?]",
+     "current": "  Yiffai: [波苏，我进来了。]"
+    },
+    {
+     "row_id": "CAT:O78f189f7c18c5738e817",
+     "line": 3125,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I HOPE NOT, MY BOY.]",
+     "current": "  Bossu: [希望你别进来，孩子。]"
+    },
+    {
+     "row_id": "CAT:O04ac6de0bf590f7e53d4",
+     "line": 3126,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT?]",
+     "current": "  Yiffai: [什么？]"
+    },
+    {
+     "row_id": "CAT:Ocebc18e2fdb80d2ff281",
+     "line": 3127,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOTHING. WHAT SEEMS TO BE THE PROBLEM?]",
+     "current": "  Bossu: [没什么。遇到什么问题了？]"
+    },
+    {
+     "row_id": "CAT:O93648470be272fe86a97",
+     "line": 3128,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'VE COME ACROSS A BI- PEDAL CANID SPECIES THAT SEEMS]",
+     "current": "  Yiffai: [我遇到了一种双足的犬科物种，它好像完全无视我所有的沟通尝试！]"
+    },
+    {
+     "row_id": "CAT:O14f56682dfea08af1dbe",
+     "line": 3129,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO BE IGNORING ALL MY ATTEMPTS AT COMMUNICATION!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0cca3e9dd0db11549850",
+     "line": 3130,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOT ONLY THAT, THEY'RE THROWING ROCKS AT ME!!]",
+     "current": "  Yiffai: [而且它们还朝我扔石头！！]"
+    },
+    {
+     "row_id": "CAT:O0214174cd6f73a2de989",
+     "line": 3131,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY MAY LOOK ORGANIC, BUT BELIEVE IT OR NOT THOSE ARE]",
+     "current": "  Bossu: [它们看着像有机生物，可你信不信，那些是图托恩某个物种的机械复制品——Fenfen。]"
+    },
+    {
+     "row_id": "CAT:O6f054d883f979f49e293",
+     "line": 3132,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MECHANICAL COPIES OF A TUTONE SPECIES, THE FENFEN.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O633d0efb1169b5aff2f0",
+     "line": 3133,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU MEAN LIKE... A DRONE, OR A TURRET?]",
+     "current": "  Yiffai: [你是说……像无人机，或者炮塔那样？]"
+    },
+    {
+     "row_id": "CAT:Oe051304ad4b668a4276a",
+     "line": 3134,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[RIGHT. IF ANY FLESH AND FUR VARIETIES OF THAT SPECIES ARE]",
+     "current": "  Bossu: [对。要是那物种还有血肉皮毛的真货留在这颗星球上，也还没有特工碰到过它们。]"
+    },
+    {
+     "row_id": "CAT:Oa2f69c324c0999964566",
+     "line": 3135,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[STILL ON THE PLA- NET, NO AGENTS HAVE RUN INTO THEM YET.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O72c46d5d58897e28ada1",
+     "line": 3136,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REPORTS OF FENFEN OUTFITS STREWN ABOUT ARE ALL WE HAVE.]",
+     "current": "  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]"
+    },
+    {
+     "row_id": "CAT:O429870245653e6c57714",
+     "line": 3137,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S CRAZY...]",
+     "current": "  Yiffai: [太离谱了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC176bd1d1147dcec8",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicFlamer",
+   "header_line": 2964,
+   "controls": [
+    {
+     "line": 2964,
+     "source": "<BossuDex.ClassicFlamer>",
+     "current": "<BossuDex.ClassicFlamer>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7955489532c488358c6e",
+     "line": 2965,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE 'FLAMER' IS A MEMBER OF THE DRACONID FAMILY.]",
+     "current": "  Bossu: [“喷火兽”属于龙形科的一员。]"
+    },
+    {
+     "row_id": "CAT:O2598d1f71c4de67b2e98",
+     "line": 2966,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY DIG NESTS IN STONE, THEN LAY IN WAIT FOR PREY.]",
+     "current": "  Bossu: [它们在石中挖巢，然后静候猎物。]"
+    },
+    {
+     "row_id": "CAT:O8a15fd7e8b283db33bb7",
+     "line": 2967,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEWARE A TERRITORIAL FLAMER; THEY WILL ZEALOUSLY]",
+     "current": "  Bossu: [当心领地意识强的喷火兽；它们会狂热地朝见到的任何闯入者喷火。]"
+    },
+    {
+     "row_id": "CAT:O13093f1f79a55258150f",
+     "line": 2968,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SPIT FIRE AT ANY INTERLOPERS THEY SEE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O88350b47886266724faf",
+     "line": 2969,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GOT IT, BOSSU. I'LL BE CAREFUL.]",
+     "current": "  Yiffany: [明白，波苏。我会小心的。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6c6396e08a205b23",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicFlyDrone",
+   "header_line": 2811,
+   "controls": [
+    {
+     "line": 2811,
+     "source": "<BossuDex.ClassicFlyDrone>",
+     "current": "<BossuDex.ClassicFlyDrone>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O3fe88f4c76d3d2dc4ffa",
+     "line": 2812,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AGENT, WATCH OUT FOR THE FLYING DRONES IN THE AREA.]",
+     "current": "  Bossu: [特工，当心这一带的飞行无人机。]"
+    },
+    {
+     "row_id": "CAT:O11327ebec55e53484400",
+     "line": 2813,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I JUST DESTROYED ONE OF THEM!]",
+     "current": "  Yiffai: [我刚干掉了一架！]"
+    },
+    {
+     "row_id": "CAT:O3d1c218d453e325fa0c6",
+     "line": 2814,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AHH GOOD GOING! SEEMS LIKE THE-]",
+     "current": "  Bossu: [啊，干得好！看来——]"
+    },
+    {
+     "row_id": "CAT:O07b2c3b2e1eda4aaec28",
+     "line": 2815,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT WAS NO MATCH FOR ME! I WENT HIYAA, THEN ATAA, AN-]",
+     "current": "  Yiffai: [它根本不是我的对手！我先嗨呀，再啊哒，还-]"
+    },
+    {
+     "row_id": "CAT:O0866e30cd6dc804a6ff1",
+     "line": 2816,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[CALM DOWN, YIFFAI.]",
+     "current": "  Bossu: [冷静点，伊吠。]"
+    },
+    {
+     "row_id": "CAT:Oecc1570bb32811a4f084",
+     "line": 2817,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[O-OH SORRY, I'LL BEHAVE...]",
+     "current": "  Yiffai: [啊、啊，抱歉，我不闹了……]"
+    },
+    {
+     "row_id": "CAT:O9ea156094bfc60df845f",
+     "line": 2818,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AHEM, AS I WAS SAYING...]",
+     "current": "  Bossu: [咳嗯，我刚才说到……]"
+    },
+    {
+     "row_id": "CAT:O467b99057b1796a2077d",
+     "line": 2819,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY'RE ON AN AUTO-ENGAGE ROUTINE. BEST BE PREPARED]",
+     "current": "  Bossu: [它们运行的是自动交战程序。万一你不得不靠近它们，最好有所准备！]"
+    },
+    {
+     "row_id": "CAT:O0363851d33520c1550cf",
+     "line": 2820,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IF YOU HAVE TO GET NEAR THEM!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfee63ea33946f198",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicFlybomb",
+   "header_line": 3020,
+   "controls": [
+    {
+     "line": 3020,
+     "source": "<BossuDex.ClassicFlybomb>",
+     "current": "<BossuDex.ClassicFlybomb>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O9f5dd3fddc00368e8de8",
+     "line": 3021,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE ROTUND HOVERING DRONES ARE SIMILAR TO THE ONES]",
+     "current": "  Bossu: [那些圆滚滚的悬浮无人机，和你见过在泽罗尼亚周围飞的那种很像。不过，这一型号还配备了爆炸载荷。]"
+    },
+    {
+     "row_id": "CAT:O0a5b3945fcff46a2bd73",
+     "line": 3022,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU SAW FLYING AROUND ZERONIA. HOWEVER, THIS MODEL]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc945cab6cb93826c0065",
+     "line": 3023,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS ALSO EQUIPPED WITH AN EXPLOSIVE PAYLOAD.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O58284d64123231a4cd29",
+     "line": 3024,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU MAY WISH TO ENGAGE THEM WITH RANGED ATTACKS.]",
+     "current": "  Bossu: [你或许可以用远程攻击来对付它们。]"
+    },
+    {
+     "row_id": "CAT:O1494a025333c3f8fc2bc",
+     "line": 3025,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S A GOOD IDEA! THANKS BOSSU! OVER.]",
+     "current": "  Yiffai: [好主意！多谢波苏！完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC09028b606f1f544b",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicGhoster",
+   "header_line": 3284,
+   "controls": [
+    {
+     "line": 3284,
+     "source": "<BossuDex.ClassicGhoster>",
+     "current": "<BossuDex.ClassicGhoster>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1368f37e163f9f4873c7",
+     "line": 3285,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE GHOSTLY HEADS THAT RISE FROM THE GROUND...]",
+     "current": "  Bossu: [那些从地里冒出来的幽灵头颅……]"
+    },
+    {
+     "row_id": "CAT:Obbda620c56e9d49dd41f",
+     "line": 3286,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LET'S CALL THEM \"GHOSTERS\" FOR NOW.]",
+     "current": "  Bossu: [暂且叫它们「幽灵者」吧。]"
+    },
+    {
+     "row_id": "CAT:Obaa89eb917c4867c0b47",
+     "line": 3287,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REALLY? THAT'S THE BEST YOU CAN DO?]",
+     "current": "  Yiffany: [真的吗？你就只能想出这个了？]"
+    },
+    {
+     "row_id": "CAT:Of3264f01e3c9c8a050c5",
+     "line": 3288,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[L-LOOK, THE IMPORTANT THING IS THAT THESE ENEMIES]",
+     "current": "  Bossu: [你、你看，重要的是这些敌人似乎在无休止地涌现。]"
+    },
+    {
+     "row_id": "CAT:Oae1676b6609076269b7d",
+     "line": 3289,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SEEM TO BE SPAWNING ENDLESSLY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O5efbd3492bc7aae253bf",
+     "line": 3290,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT'S ALMOST LIKE THEY'RE MANIFESTATIONS OF]",
+     "current": "  Bossu: [它们简直就像是被扰乱的灵能的化身……]"
+    },
+    {
+     "row_id": "CAT:Oc2d579e0d3acf654de46",
+     "line": 3291,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DISTURBED PSYCHIC ENERGY...]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4f91ec4e352430882278",
+     "line": 3292,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EITHER WAY, BE CAREFUL, AGENT!]",
+     "current": "  Bossu: [不管怎样，小心点，特工！]  "
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2df2a934a81fcf00",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicJellyfish",
+   "header_line": 3125,
+   "controls": [
+    {
+     "line": 3125,
+     "source": "<BossuDex.ClassicJellyfish>",
+     "current": "<BossuDex.ClassicJellyfish>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Odb4931725a302877f84b",
+     "line": 3126,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SAAAY BOSSU, I'M NOT A MERMAID, AM I?]",
+     "current": "  Yiffany: [我说啊 波苏，我不是人鱼，对吧？]"
+    },
+    {
+     "row_id": "CAT:Odfa1c616e1d7bf2bb3d3",
+     "line": 3127,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BECAUSE I'M DEFIN- ITELY SEEING JELLY FISH AROUND HERE.]",
+     "current": "  Yiffany: [因为我在这附近确实看到水母了。]"
+    },
+    {
+     "row_id": "CAT:O74a589a54a137f4033ed",
+     "line": 3128,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE STRANGE HAPPE- NINGS ON TUTONE HAVE LEAD TO]",
+     "current": "  Bossu: [图托恩上发生的怪事，导致有人目击到非实体的水母]"
+    },
+    {
+     "row_id": "CAT:Obf074c9887619160b56e",
+     "line": 3129,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SIGHTINGS OF NON- PHYSICAL JELLY FISH]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4e67ae5432bca5144197",
+     "line": 3130,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY SEEM PLENTY PHYSICAL TO ME, OW...]",
+     "current": "  Yiffany: [对我来说它们可实体得很，哎哟……]"
+    },
+    {
+     "row_id": "CAT:O6dd08ce5f236489d9d70",
+     "line": 3131,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ON THE CONTRARY, IF YOU'RE TO BELIEVE THE REPORTS...]",
+     "current": "  Bossu: [恰恰相反，如果你相信那些报告的话……]"
+    },
+    {
+     "row_id": "CAT:Oca08132b3ca0fcf25df3",
+     "line": 3132,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY CREATURE FLASHING OMINOUSLY PURPLE ON TUTONE]",
+     "current": "  Bossu: [在图托恩上闪着不祥紫光的任何生物，其实都是灵能躁动形成的幻影。]"
+    },
+    {
+     "row_id": "CAT:O0754e0b69aef2f801269",
+     "line": 3133,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IS ACTUALLY AN APPARITION OF PSYCHIC TURMOIL.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2f0529bdc602ba5f2475",
+     "line": 3134,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HOW YOU DEAL WITH THEM, WE CANNOT SAY FROM HERE.]",
+     "current": "  Bossu: [至于该怎么应付它们，我们在这边可说不准。]"
+    },
+    {
+     "row_id": "CAT:O65cd7dc680b731eda571",
+     "line": 3135,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HMM, PSYCHIC, YOU SAY.]",
+     "current": "  Yiffany: [唔，你说是灵能啊。]"
+    },
+    {
+     "row_id": "CAT:O29a1a9bc70ac6e36fdd0",
+     "line": 3136,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GUESS I'LL HAVE TO FIGURE IT OUT MYSELF...]",
+     "current": "  Yiffany: [看来只能我自己想办法搞清楚了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2fc4d040f52d9594",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicJellyfish",
+   "header_line": 3125,
+   "controls": [
+    {
+     "line": 3125,
+     "source": "<BossuDex.ClassicJellyfish>",
+     "current": "<BossuDex.ClassicJellyfish>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWab74b9d79595e6b56cf2c6f4",
+     "line": 3126,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BOSSU, REQUESTING IMMEDIATE UPDATE ON CONDITIONS]",
+     "current": "  Yiffai: [波苏，请立刻确认我的身体状态，确认我没变成水生生物！]"
+    },
+    {
+     "row_id": "SFWcb5d996c9687d6bf5b360c0c",
+     "line": 3127,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO VERIFY THAT I AM NOT AN AQUATIC BEING.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWba623e6105806e3ce3b40293",
+     "line": 3128,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DON'T WORRY YIFFAI, YOU ARE STILL 100% DOG.]",
+     "current": "  Bossu: [放心，伊吠，你还是100%的狗。]"
+    },
+    {
+     "row_id": "SFW6a1756d9f6939e5750ad2633",
+     "line": 3129,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE STRANGE HAPPE- NINGS ON TUTONE HAVE LEAD TO]",
+     "current": "  Bossu: [图托恩的异变导致有人目击到没有实体的水母，可能正是它们让你怀疑起自己来了。]"
+    },
+    {
+     "row_id": "SFWd3873285709b8f2bb9e6c863",
+     "line": 3130,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SIGHTINGS OF NON- PHYSICAL JELLY FISH] ",
+     "current": ""
+    },
+    {
+     "row_id": "SFWf6556f2e2d7703a9429b7728",
+     "line": 3131,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHICH MIGHT BE CAUSING YOU TO THINK OTHERWISE.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW9dd081848f9516546525af9f",
+     "line": 3132,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY SEEM PLENTY PHYSICAL TO ME, OW...]",
+     "current": "  Yiffai: [我可觉得它们实在得很，哎哟……]"
+    },
+    {
+     "row_id": "SFW6055ad0fc865c3cc213ecea5",
+     "line": 3133,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ON THE CONTRARY, IF YOU'RE TO BELIEVE THE REPORTS...]",
+     "current": "  Bossu: [恰恰相反，如果那些报告可信的话……]"
+    },
+    {
+     "row_id": "SFWd62b66008dbc8c0a05abe2d9",
+     "line": 3134,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANY CREATURE FLASHING OMINOUSLY PURPLE ON TUTONE]",
+     "current": "  Bossu: [图托恩上任何闪着不祥紫光的生物，其实都是灵能动荡产生的幻象。]"
+    },
+    {
+     "row_id": "SFW96217f3adb4f9e4dc136b308",
+     "line": 3135,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS ACTUALLY AN APPARITION OF PSYCHIC TURMOIL.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW7beae928290b54c438a1e3e3",
+     "line": 3136,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOW YOU DEAL WITH THEM, WE CANNOT SAY FROM HERE.]",
+     "current": "  Bossu: [至于你该怎么应付它们，我们从这边说不准。]"
+    },
+    {
+     "row_id": "SFWd8b5ab372387af0a73b0e6b2",
+     "line": 3137,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HMM, PSYCHIC, YOU SAY.]",
+     "current": "  Yiffai: [嗯，你是说灵能啊。]"
+    },
+    {
+     "row_id": "SFW569d446d59b9462d5008947b",
+     "line": 3138,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GUESS I'LL HAVE TO FIGURE IT OUT MYSELF...]",
+     "current": "  Yiffai: [看来只能我自己想办法搞清楚了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCcc1017cf7ebd30ac",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicKobold",
+   "header_line": 3052,
+   "controls": [
+    {
+     "line": 3052,
+     "source": "<BossuDex.ClassicKobold>",
+     "current": "<BossuDex.ClassicKobold>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O826c24a313d7f09f7b17",
+     "line": 3053,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BOSSU, REPORTING A GREEN LIZARD TAIL SIGHTING.]",
+     "current": "  Yiffany: [波苏，报告发现一条绿色蜥蜴尾巴。]"
+    },
+    {
+     "row_id": "CAT:O947cfbbbbaee7f3947fe",
+     "line": 3054,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AHH YOU'VE RUN INTO SOME KOBOLDS DOWN THERE, HAVE YOU?]",
+     "current": "  Bossu: [啊，你在下面碰上科博德了是吧？]"
+    },
+    {
+     "row_id": "CAT:O7367b35764161f4e0204",
+     "line": 3055,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THIS ISN'T THE FIRST TIME I'VE HAD CONTACT WITH THEM]",
+     "current": "  Yiffany: [我跟它们打交道不是头一回了，但没想到它们会出现在这颗星球上！]"
+    },
+    {
+     "row_id": "CAT:O2f5a534f2f8ccc1844dc",
+     "line": 3056,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT I WASN'T EXPECTING THEM TO BE ON THIS PLANET!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe0aa7e76dfc1f8da1973",
+     "line": 3057,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE LIZARDS ARE A SLY BUNCH, KNOWN FOR PIRACY AND SLAVING]",
+     "current": "  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到 lect 的事，他们都干！]"
+    },
+    {
+     "row_id": "CAT:Od599a1ac1128eb1f1fa0",
+     "line": 3058,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AND ANYTHING ELSE THAT HAS A LECT PAYOFF AT THE END!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O422deacf720938629a08",
+     "line": 3059,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EARLY REPORTS WERE THAT MANY OF YOUR FELLOW AGENTS HAD]",
+     "current": "  Bossu: [早先的报告说，你的不少同僚特工已经被科博德抓去了。能救就救他们回来，哪怕这得先做点交易，才能保证特工的安全。]"
+    },
+    {
+     "row_id": "CAT:O634a4159fb762c3558b6",
+     "line": 3060,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEEN CAPTURED BY KOBOLDS. RESCUE THEM IF YOU CAN, EVEN IF]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O085191463ea03d2c5b60",
+     "line": 3061,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT REQUIRES DOING BUSINESS IN ORDER TO ENSURE AGENT SAFETY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9e50713623276cb3e456",
+     "line": 3062,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UNDERSTOOD, I'LL KEEP AN EYE OUT FOR SLAVER SHOPS.]",
+     "current": "  Yiffany: [明白，我会留意那些奴隶商店。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb6f36febbdf9e0cd",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicMine",
+   "header_line": 3065,
+   "controls": [
+    {
+     "line": 3065,
+     "source": "<BossuDex.ClassicMine>",
+     "current": "<BossuDex.ClassicMine>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oee7354e31cf62666ff01",
+     "line": 3066,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WOAH! DID YOU PICK UP THAT EXPLOSION AT HQ?!]",
+     "current": "  Yiffai: [哇哦！总部那边有接到那声爆炸吗？！]"
+    },
+    {
+     "row_id": "CAT:Oa0269f1397b535ef1499",
+     "line": 3067,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[INDEED, IT APPEARS THE MINES OF TUTONE HAVE BEEN MINED.]",
+     "current": "  Bossu: [确实，看来图托恩的矿区，处处都是“雷区”。]"
+    },
+    {
+     "row_id": "CAT:O51bbf635a96c12cb2f4e",
+     "line": 3068,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...? WELL SURE, BUT WHAT'S THAT GOTTA DO WITH EXPLOSIONS?]",
+     "current": "  Yiffai: [……？挖矿有那么多忌讳？可这跟爆炸有什么关系？]"
+    },
+    {
+     "row_id": "CAT:Of7e3b1d609c2cb601640",
+     "line": 3069,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE EXPLOSIONS FROM THE MINES.]",
+     "current": "  Bossu: [我是说，雷区里的雷炸了。]"
+    },
+    {
+     "row_id": "CAT:Oe81782a65b516d3cfb78",
+     "line": 3070,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH! IT WAS IN THE MINES, BUT-]",
+     "current": "  Yiffai: [对啊！矿区里炸了，可是——]"
+    },
+    {
+     "row_id": "CAT:Oe81cc78aa97885e0f5de",
+     "line": 3071,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT BOSSU MEANS IS THAT THOSE OLD MINERS PLACED]",
+     "current": "  Mauser: [波苏是说，那些老矿工在自家的矿井里埋了地雷，意思是：“这是我的矿，谁也别碰！”]"
+    },
+    {
+     "row_id": "CAT:Oc55856c16103acb09a06",
+     "line": 3072,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MINES IN THEIR MINES, AS A WAY TO SAY \"THAT'S MINE!\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2d626bedb667308b3b31",
+     "line": 3073,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHAT...?! I'LL JUST AVOID THEM, OKAY?! Y-YIFFAI OUT!]",
+     "current": "  Yiffai: [什么……？！那我就躲开它们，行吧？！伊、伊吠通话完毕！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC751bba20914410de",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicMineCeilingZero",
+   "header_line": 2941,
+   "controls": [
+    {
+     "line": 2941,
+     "source": "<BossuDex.ClassicMineCeilingZero>",
+     "current": "<BossuDex.ClassicMineCeilingZero>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa929385ff8b5e04b77a7",
+     "line": 2942,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS LIKE PROXIMITY MINES ALL OVER THE AREA ]",
+     "current": "  Bossu: [看样子，这片区域到处的感应地雷，都因持续震动而激活了触发装置。]"
+    },
+    {
+     "row_id": "CAT:O499152681d0b313d4fa9",
+     "line": 2943,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAD THEIR TRIGGERS ACTIVATED DUE TO THE CONSTANT TREMORS]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obb1fa08fd9b0f5444a6b",
+     "line": 2944,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DARN... IS THERE ANY WAY I CAN DEAL WITH THEM?]",
+     "current": "  Yiffai: [可恶……有什么办法对付它们吗？]"
+    },
+    {
+     "row_id": "CAT:Ob38aa954cd6d98844614",
+     "line": 2945,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE ARE TWO WAYS TO DO SO.]",
+     "current": "  Bossu: [有两种办法。]"
+    },
+    {
+     "row_id": "CAT:Ob5b407f5c59009e9979e",
+     "line": 2946,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GREAT! I'M LISTENING.]",
+     "current": "  Yiffai: [太好了！我听着呢。]"
+    },
+    {
+     "row_id": "CAT:O6de66901fdb3c4a6c751",
+     "line": 2947,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU CAN EITHER GET NEAR THEM SO THAT THEY DESTRUCT]",
+     "current": "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]"
+    },
+    {
+     "row_id": "CAT:Ob67b78bc27f63b5ac4f8",
+     "line": 2948,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OR STRIKE THEM TO CAUSE THEM TO EX- PLODE. YOUR CHOICE]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O46caef2e350ae5c496e2",
+     "line": 2949,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...]",
+     "current": "  Yiffai: [……]"
+    },
+    {
+     "row_id": "CAT:O2e5d344a50cc69e60bed",
+     "line": 2950,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'RE NOT SERIOUS, ARE YOU...]",
+     "current": "  Yiffai: [你不是认真的吧……]"
+    },
+    {
+     "row_id": "CAT:Ocdfc12236059fb8552e7",
+     "line": 2951,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOUGHT YOU WOULDN'T MINE A LIL HUMOR FOR A CHANGE.]",
+     "current": "  Bossu: [还以为偶尔开个玩笑，不会踩到你的雷呢。]"
+    },
+    {
+     "row_id": "CAT:Ocd0d0ecf37e241811ad6",
+     "line": 2952,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...]",
+     "current": "  Yiffai: [……]"
+    },
+    {
+     "row_id": "CAT:Of5e1bbd1484d5a12fa67",
+     "line": 2953,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I SAID-]",
+     "current": "  Bossu: [我说——]"
+    },
+    {
+     "row_id": "CAT:Of8ad2578dbe81801c8eb",
+     "line": 2954,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LINE'S BREAKING UP, GOTTA GO!]",
+     "current": "  Yiffai: [信号断断续续，先挂了！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC03c43e680b4ff75e",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicMineCeilingZero",
+   "header_line": 2871,
+   "controls": [
+    {
+     "line": 2871,
+     "source": "<BossuDex.ClassicMineCeilingZero>",
+     "current": "<BossuDex.ClassicMineCeilingZero>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW91ac07c470c358f9feea3c12",
+     "line": 2872,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SEEMS LIKE PROXIMITY MINES ALL OVER THE AREA ]",
+     "current": "  Bossu: [看来这片区域的感应地雷都被持续的震动激活了引信。]"
+    },
+    {
+     "row_id": "SFW6762c46396557fc70620fbd9",
+     "line": 2873,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAD THEIR TRIGGERS ACTIVATED DUE TO THE CONSTANT TREMORS]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWd3cfabcd4bfda92f939cb5d2",
+     "line": 2874,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ISN'T THERE SOME WAY TO DEACTIVATE THEM AGAIN?]",
+     "current": "  Yiffany: [就没办法把它们再关掉吗？]"
+    },
+    {
+     "row_id": "SFWf3ba9b2cf06707dbc65bfc9e",
+     "line": 2875,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE ARE TWO WAYS TO DO SO.]",
+     "current": "  Bossu: [有两种办法。]"
+    },
+    {
+     "row_id": "SFW021ac10e402650e95f985929",
+     "line": 2876,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REALLY? GREAT! TELL ME HOW!]",
+     "current": "  Yiffany: [真的？太好了！快告诉我怎么做！]"
+    },
+    {
+     "row_id": "SFWd96bb58052321c0b20d85e5b",
+     "line": 2877,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU CAN EITHER GET NEAR THEM SO THAT THEY DESTRUCT]",
+     "current": "  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选]"
+    },
+    {
+     "row_id": "SFW9360984753e96a52f8f12e07",
+     "line": 2878,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OR STRIKE THEM TO CAUSE THEM TO EX- PLODE. YOUR CHOICE]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe6932d9df2da2459857d8ec9",
+     "line": 2879,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Yiffany: [……]"
+    },
+    {
+     "row_id": "SFW3c0385107b32a2c4d0d39b95",
+     "line": 2880,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I REMEMBER WHEN I GOT ACTUAL_HINTS FROM THIS LINE...]",
+     "current": "  Yiffany: [以前这条线还能给点真正_有用的提示……]"
+    },
+    {
+     "row_id": "SFW314d1eb6ca510fbf70765406",
+     "line": 2881,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAHA, DON'T WORRY AGENT. I KNOW YOU CAN HANDLE IT.]",
+     "current": "  Bossu: [哈哈，别担心，特工。我相信你能搞定。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbe1d43bc532dc353",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicMineWall",
+   "header_line": 3033,
+   "controls": [
+    {
+     "line": 3033,
+     "source": "<BossuDex.ClassicMineWall>",
+     "current": "<BossuDex.ClassicMineWall>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ofab9b63bd2f0c1a6b0c5",
+     "line": 3034,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BOSSU, I'VE JUST DETONATED AN EXPLOSIVE DEVICE.]",
+     "current": "  Yiffany: [波苏，我刚引爆了一枚爆炸装置。]"
+    },
+    {
+     "row_id": "CAT:O8e4027e6254cd7d51f37",
+     "line": 3035,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE MINES OF TUTONE APPEAR TO BE FILLED WITH BOOBY-TRAPS]",
+     "current": "  Bossu: [图托恩的矿区里似乎布满了诡雷，也许是为了保护残存无几的矿脉。]"
+    },
+    {
+     "row_id": "CAT:O278ad59bb293fb47c5f7",
+     "line": 3036,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[PERHAPS TO PROTECT WHAT SCANT VEINS YET REMAIN.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O470b99b3ad4fb9058ef9",
+     "line": 3037,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I RECOMMEND GIVING BLINKING DEVICES A WIDE BERTH, OR]",
+     "current": "  Bossu: [我建议离闪烁的装置远一些，或者在远处引爆它们。]"
+    },
+    {
+     "row_id": "CAT:O540226d79faf5907ab58",
+     "line": 3038,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DETONATING THEM FROM AFAR.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O838629f38f6773f7801f",
+     "line": 3039,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GOT IT, BOSSU.]",
+     "current": "  Yiffany: [明白了，波苏。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCded62a4b2c94a01d",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicOrber",
+   "header_line": 3118,
+   "controls": [
+    {
+     "line": 3118,
+     "source": "<BossuDex.ClassicOrber>",
+     "current": "<BossuDex.ClassicOrber>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW457f66396b0a0a4f3c54b280",
+     "line": 3119,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A ROLLING BALL OF GRAVITY DEFYING TENTACLES]",
+     "current": "  Bossu: [一团无视重力、滚来滚去的触手]"
+    },
+    {
+     "row_id": "SFWc9111ff249a226b41256ae56",
+     "line": 3120,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT MAY SEEM HYPNOTIC AT FIRST]",
+     "current": "  Bossu: [乍看之下会让人着迷，]"
+    },
+    {
+     "row_id": "SFW19e77dde6f42cae6ee210137",
+     "line": 3121,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT THE \"ORBER\" WILL ONLY CAUSE YOU A BIT OF PAIN.]",
+     "current": "  Bossu: [可这「光球」只会让你有点疼。]"
+    },
+    {
+     "row_id": "SFW80aca7a1fa2bec95aca7b959",
+     "line": 3122,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[COME ON, I'M A PRO! I WON'T GET DISTRACTED!]",
+     "current": "  Yiffai: [拜托，我可是专业的！才不会分心！]"
+    },
+    {
+     "row_id": "SFW8f8a49f6b0ff8b36b7d9e322",
+     "line": 3123,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[FOR THE SAKE OF YOUR VIT BAR, I HOPE NOT, AGENT.]",
+     "current": "  Bossu: [为了你的体力条着想，我也希望如此，特工。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3d677634b0b2a050",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicSpaceHead",
+   "header_line": 3245,
+   "controls": [
+    {
+     "line": 3245,
+     "source": "<BossuDex.ClassicSpaceHead>",
+     "current": "<BossuDex.ClassicSpaceHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWaba102e0a32276b19e15c652",
+     "line": 3246,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT GIANT FLOATING HEAD RESEMBLES A GHOSTER]",
+     "current": "  Bossu: [那巨大的漂浮头颅很像「幽灵者」，但似乎是一股更大的灵能扰动。]"
+    },
+    {
+     "row_id": "SFW02b289a142abc782650e9727",
+     "line": 3247,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT SEEMS TO BE AN EVEN LARGER PSYCHIC DISTURBANCE.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWd4858957e4a3f82860234283",
+     "line": 3248,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU MUST BE GETTING NEAR WHATEVER HAS BEEN CAUSING]",
+     "current": "  Bossu: [你一定正在接近导致图托恩异常现象的源头，特工。小心！]"
+    },
+    {
+     "row_id": "SFW42fc1c486eec80e424883bb6",
+     "line": 3249,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE ANOMALIES ON TUTONE, AGENT. BE CAREFUL!]  ",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC91e39fc45d57fee5",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicSpaceHead",
+   "header_line": 3292,
+   "controls": [
+    {
+     "line": 3292,
+     "source": "<BossuDex.ClassicSpaceHead>",
+     "current": "<BossuDex.ClassicSpaceHead>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW4e7a173d118105ae5a5609b0",
+     "line": 3293,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT GIANT FLOATING HEAD RESEMBLES A GHOSTER]",
+     "current": "  Bossu: [那巨大的漂浮头颅很像「幽灵者」，但似乎是更大的灵能扰动。]"
+    },
+    {
+     "row_id": "SFW70f20713f0f947739519487b",
+     "line": 3294,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT SEEMS TO BE AN EVEN LARGER PSYCHIC DISTURBANCE.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWbb095a209410894ba642be28",
+     "line": 3295,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU MUST BE GETTING NEAR WHATEVER HAS BEEN CAUSING]",
+     "current": "  Bossu: [你一定正接近那个一直在引发]"
+    },
+    {
+     "row_id": "SFWe8d99a8751c9ac2f368e4701",
+     "line": 3296,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE ANOMALIES ON TUTONE, AGENT. BE CAREFUL!]  ",
+     "current": "  Bossu: [图托恩上异常的源头，特工。小心！]  "
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4d8c57a7ad3905f7",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicSpikeball",
+   "header_line": 3168,
+   "controls": [
+    {
+     "line": 3168,
+     "source": "<BossuDex.ClassicSpikeball>",
+     "current": "<BossuDex.ClassicSpikeball>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ob727de40e97ec2c611bd",
+     "line": 3169,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WATCH OUT FOR THOSE PRICKLY DRONES PATHING AROUND]",
+     "current": "  Bossu: [小心那些四处巡逻的带刺无人机]"
+    },
+    {
+     "row_id": "CAT:Oeb2288e8c81f08713cd7",
+     "line": 3170,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY'RE LITERALLY IMPOSSIBLE TO DESTROY!]",
+     "current": "  Bossu: [它们根本就不可能被摧毁！]"
+    },
+    {
+     "row_id": "CAT:Ob502fba8e84f0f537434",
+     "line": 3171,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[LITERALLY? YOU MEAN THAT... FIGURATIVELY RIGHT?]",
+     "current": "  Yiffai: [字面意思？你是说……打比方吧？]"
+    },
+    {
+     "row_id": "CAT:O0531a2747230d09f91ef",
+     "line": 3172,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BECAUSE I JUST FINISHED TAK-]",
+     "current": "  Yiffai: [因为我刚刚才干掉——]"
+    },
+    {
+     "row_id": "CAT:Of10a0e1555a1cc078c50",
+     "line": 3173,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WAIT, YOU MANAGED TO DESTROY ONE OF THEM??]",
+     "current": "  Bossu: [等等，你居然摧毁了一只？？]"
+    },
+    {
+     "row_id": "CAT:O0cd513cc60fbfd23e8f3",
+     "line": 3174,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE HAVE NO RECORDS OF ANY WAY TO INCAPACITATE THOSE]",
+     "current": "  Bossu: [我们没有记录表明，有什么办法能瘫痪那些刺球，更别说摧毁它们了！]"
+    },
+    {
+     "row_id": "CAT:O6dd3682ee7d1f8a03a05",
+     "line": 3175,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SPIKEBALLS, MUCH LESS DESTROY THEM!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oabe048e1c2fbc0c22a03",
+     "line": 3176,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IF I DIDN'T KNOW BETTER, I'D SUSPECT YOU OF CHEATING...]",
+     "current": "  Bossu: [要不是我心里有数，我真要怀疑你作弊了……]"
+    },
+    {
+     "row_id": "CAT:Oad72fbb3a9053219a984",
+     "line": 3177,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[H-HAHA, WELL, UHHH, YOU SEE...]",
+     "current": "  Yiffai: [哈、哈哈，那个，呃，你听我说……]"
+    },
+    {
+     "row_id": "CAT:O79c0170a9ead5a303e07",
+     "line": 3178,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...GOTTA GO, BYE!!]",
+     "current": "  Yiffai: [……有事先走，拜！！]"
+    },
+    {
+     "row_id": "CAT:Of3615d401680235a3459",
+     "line": 3179,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...]",
+     "current": "  Bossu: [……]"
+    },
+    {
+     "row_id": "CAT:Of6c425aa882e23a31252",
+     "line": 3180,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...ABSOLUTELY SHAMEFUL...]",
+     "current": "  Bossu: [……真是太不像话了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC99af28f8ddc2906b",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicSpikeball",
+   "header_line": 3101,
+   "controls": [
+    {
+     "line": 3101,
+     "source": "<BossuDex.ClassicSpikeball>",
+     "current": "<BossuDex.ClassicSpikeball>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Od2e7c3556bff4031d1b3",
+     "line": 3102,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WATCH OUT FOR THOSE PRICKLY DRONES PATHING AROUND]",
+     "current": "  Bossu: [小心那些四处巡逻的带刺无人机]"
+    },
+    {
+     "row_id": "CAT:Odd7e2d9bf5a555428b30",
+     "line": 3103,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY'RE LITERALLY IMPOSSIBLE TO DESTROY!]",
+     "current": "  Bossu: [它们是真的打不坏！]"
+    },
+    {
+     "row_id": "CAT:Ob557f8c94d72bee6b80e",
+     "line": 3104,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LITERALLY? YOU MEAN THAT... FIGURATIVELY RIGHT?]",
+     "current": "  Yiffany: [真的？你是说……只是夸张一下吧？]"
+    },
+    {
+     "row_id": "CAT:O3643a808790ca558ec3a",
+     "line": 3105,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BECAUSE I JUST FINISHED TAK-]",
+     "current": "  Yiffany: [因为我刚刚才干掉——]"
+    },
+    {
+     "row_id": "CAT:O54878ca2a6ce667889e8",
+     "line": 3106,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WAIT, YOU MANAGED TO DESTROY ONE OF THEM??]",
+     "current": "  Bossu: [等等，你居然摧毁了一只？？]"
+    },
+    {
+     "row_id": "CAT:O782e10ba2448cc437480",
+     "line": 3107,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE HAVE NO RECORDS OF ANY WAY TO INCAPACITATE THOSE]",
+     "current": "  Bossu: [我们没有记录表明，有什么办法能瘫痪那些刺球，更别提摧毁它们了！]"
+    },
+    {
+     "row_id": "CAT:Ob86f8f60771d094465da",
+     "line": 3108,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SPIKEBALLS, MUCH LESS DESTROY THEM!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od88929632d6a64cee23e",
+     "line": 3109,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF I DIDN'T KNOW BETTER, I'D SUSPECT YOU OF CHEATING...]",
+     "current": "  Bossu: [要不是我心里有数，我真要怀疑你作弊了……]"
+    },
+    {
+     "row_id": "CAT:O79d72b0a7eafbf28730d",
+     "line": 3110,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[H-HAHA, WELL, UHHH, YOU SEE...]",
+     "current": "  Yiffany: [哈、哈哈，嗯，呃，你看……]"
+    },
+    {
+     "row_id": "CAT:Ocf032c28eea538de6055",
+     "line": 3111,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...GOTTA GO, BYE!!]",
+     "current": "  Yiffany: [……得走了，拜拜！！]"
+    },
+    {
+     "row_id": "CAT:O2f47100681594922ae89",
+     "line": 3112,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Bossu: [……]"
+    },
+    {
+     "row_id": "CAT:O87793ecc0ff83f3b8764",
+     "line": 3113,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...ABSOLUTELY SHAMEFUL...]",
+     "current": "  Bossu: [……真是太不像话了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfae065df9d829e6c",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicSpikebot",
+   "header_line": 2955,
+   "controls": [
+    {
+     "line": 2955,
+     "source": "<BossuDex.ClassicSpikebot>",
+     "current": "<BossuDex.ClassicSpikebot>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW01c279ac5b41aa55ec6a42b2",
+     "line": 2956,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE LITTLE WHEELED DRONES WERE ONCE USED TO FERRY]",
+     "current": "  Bossu: [这些小型轮式无人机原本用来在矿井里运送矿石和工具。不过，这些机器已经过改装，装上了粗陋的尖刺，还加入了搜寻入侵者的程序。]"
+    },
+    {
+     "row_id": "SFW83cf8115acbba69c7989f3ce",
+     "line": 2957,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ORE AND TOOLS IN THE MINES, BUT THESE UNITS HAVE BEEN]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW6bfe7a28eefb56ce5eac7d14",
+     "line": 2958,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MODDED WITH CRUDE SPIKES AND INTRUDER- SEEKING LOGIC.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW8c8bf9a9fe3397af44018f48",
+     "line": 2959,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO SOMEONE *REALLY* DOESN'T LIKE PEOPLE SNIFFING AROUND]",
+     "current": "  Yiffany: [看来，有人*真的*不想让外人]"
+    },
+    {
+     "row_id": "SFW7cee9fcb43ff129b000791df",
+     "line": 2960,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE MINES HERE.]",
+     "current": "  Yiffany: [到这里的矿井探个究竟。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa226bce097a955f8",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicSqueaker",
+   "header_line": 2747,
+   "controls": [
+    {
+     "line": 2747,
+     "source": "<BossuDex.ClassicSqueaker>",
+     "current": "<BossuDex.ClassicSqueaker>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O98c14bff4eea72e7f0d2",
+     "line": 2748,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU COME ACROSS ANY NEAR-SIGHTED BROWN FUR CRITTERS]",
+     "current": "  Bossu: [要是碰到近视的棕毛小动物，那些小家伙叫作「吱吱怪」。]"
+    },
+    {
+     "row_id": "CAT:Oa17ad0510e2cb1ef1cb0",
+     "line": 2749,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE LITTLE FELLAS ARE CALLED \"SQUEAKERS\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oa8f9b80bf54eaeedf6d4",
+     "line": 2750,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY DON'T PUT UP MUCH OF A FIGHT, BUT THEY ARE KNOWN]",
+     "current": "  Bossu: [它们不怎么能打，不过出了名地会专偷那些比自己慢半拍的家伙的东西。]"
+    },
+    {
+     "row_id": "CAT:O5b583ce768e15fff28cb",
+     "line": 2751,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO STEAL FROM THOSE THAT ARE SOMEWHAT SLOWER THAN THEY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of7cd76a5f47df4796da8",
+     "line": 2752,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[PHYSICALLY AND MENTALLY SLOWER, THAT IS.]",
+     "current": "  Bossu: [我是说，动作和脑子都慢半拍的。]"
+    },
+    {
+     "row_id": "CAT:Ofa11f9b2f8182e38878b",
+     "line": 2753,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...]",
+     "current": "  Yiffany: [……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd87d2287f39ac987",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicSwiper",
+   "header_line": 2783,
+   "controls": [
+    {
+     "line": 2783,
+     "source": "<BossuDex.ClassicSwiper>",
+     "current": "<BossuDex.ClassicSwiper>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O65655ae0ad8b2cec78a9",
+     "line": 2784,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AHH, WE RECEIVED PARTIAL DATA ABOUT \"SWIPERS\" ALREADY!]",
+     "current": "  Bossu: [啊，我们已经收到了部分“挥爪”的资料！]"
+    },
+    {
+     "row_id": "CAT:O99ae14a562a47839ea35",
+     "line": 2785,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GIANT STRIPED FELINES, WITH BRIGHT PINK FUR.]",
+     "current": "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]"
+    },
+    {
+     "row_id": "CAT:O2a24c349f73c5455b2a2",
+     "line": 2786,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THESE LARGE BRUTES ARE KNOWN FOR THEIR POWERFUL CLAWS]",
+     "current": "  Bossu: [这些大块头以强有力的爪子和强劲的后腿闻名。]"
+    },
+    {
+     "row_id": "CAT:O12d579c60705c023a6a1",
+     "line": 2787,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND ALSO FOR THE STRENGTH OF THEIR HIND LEGS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O750ad0eef22e69791a20",
+     "line": 2788,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HOWEVER, THEY'RE QUITE LAZY SO THE ONLY TIME YOU WILL]",
+     "current": "  Bossu: [不过它们相当懒，所以你只有在它们交配时，才会看到那双腿发力！]"
+    },
+    {
+     "row_id": "CAT:O1eb78af5908d295a6b8a",
+     "line": 2789,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SEE THEM WORK THOSE LEGS IS DURING MATING!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4f216ab8e3236078",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicSwiper",
+   "header_line": 2732,
+   "controls": [
+    {
+     "line": 2732,
+     "source": "<BossuDex.ClassicSwiper>",
+     "current": "<BossuDex.ClassicSwiper>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWd2cdecd7d672983894f2fdb8",
+     "line": 2733,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AHH, WE RECEIVED PARTIAL DATA ABOUT \"SWIPERS\" ALREADY!]",
+     "current": "  Bossu: [啊，我们已经收到了部分“挥爪”的资料！]"
+    },
+    {
+     "row_id": "SFW1f485e5df58f0c588dfa8553",
+     "line": 2734,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GIANT STRIPED FELINES, WITH BRIGHT PINK FUR.]",
+     "current": "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]"
+    },
+    {
+     "row_id": "SFWb4d62462c32d758271eb1b3c",
+     "line": 2735,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THESE LARGE BRUTES ARE KNOWN FOR THEIR POWERFUL CLAWS]",
+     "current": "  Bossu: [这些大块头以强劲的利爪闻名]"
+    },
+    {
+     "row_id": "SFWbd16bf22c98c96b3e352e3eb",
+     "line": 2736,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TRY NOT TO ATTACK THEM HEAD ON]",
+     "current": "  Bossu: [尽量别从正面攻击它们，]"
+    },
+    {
+     "row_id": "SFW2c767ba0faf59aa0faa1405e",
+     "line": 2737,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OR YOU MAY BE ON THE RECEIVING END OF THEIR SWIPES!]",
+     "current": "  Bossu: [不然你可就要挨它们的爪子了！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7cbaa892b91bca38",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicThorner",
+   "header_line": 3312,
+   "controls": [
+    {
+     "line": 3312,
+     "source": "<BossuDex.ClassicThorner>",
+     "current": "<BossuDex.ClassicThorner>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7e3df3a88dba265e03db",
+     "line": 3313,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AN EVOLVED FORM OF THE VINER, THE \"THORNER\"]",
+     "current": "  Bossu: [藤蔓怪的进化形态——「荆棘怪」，能射出与它同名的刺。]"
+    },
+    {
+     "row_id": "CAT:Ofdcc0d63026fed33cb07",
+     "line": 3314,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IS CAPABLE OF SHOOTING OUT IT'S NAMESAKE THORNS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oac665c7a2568488e42ae",
+     "line": 3315,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TRY TO FIND A WAY TO DODGE THE THORNS]",
+     "current": "  Bossu: [先想办法躲开这些刺，再去正面攻击它们！]"
+    },
+    {
+     "row_id": "CAT:Oc4d6ce9a9d46504d05dc",
+     "line": 3316,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BEFORE YOU ATTEMPT TO ATTACK THEM HEAD ON!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCdd47cd9cedefd19d",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicThorner",
+   "header_line": 3244,
+   "controls": [
+    {
+     "line": 3244,
+     "source": "<BossuDex.ClassicThorner>",
+     "current": "<BossuDex.ClassicThorner>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oaab5ac6f7aaac3465064",
+     "line": 3245,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AN EVOLVED FORM OF THE VINER, THE \"THORNER\"]",
+     "current": "  Bossu: [藤蔓怪的进化形态——「荆棘怪」，能射出与它同名的刺。]"
+    },
+    {
+     "row_id": "CAT:Ob541751b81445affd0e8",
+     "line": 3246,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IS CAPABLE OF SHOOTING OUT IT'S NAMESAKE THORNS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8d5abe5c3b3e7e52b811",
+     "line": 3247,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TRY TO FIND A WAY TO DODGE THE THORNS]",
+     "current": "  Bossu: [先想办法躲开这些刺，再去正面攻击它们！]"
+    },
+    {
+     "row_id": "CAT:Oebddc7f113d2d34070d8",
+     "line": 3248,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEFORE YOU ATTEMPT TO ATTACK THEM HEAD ON!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC86c4c6277617752f",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicTribulb",
+   "header_line": 3318,
+   "controls": [
+    {
+     "line": 3318,
+     "source": "<BossuDex.ClassicTribulb>",
+     "current": "<BossuDex.ClassicTribulb>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7e0fa0a36b01b7f54c13",
+     "line": 3319,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A MORE VICIOUS FORM OF THE BULBER, THE \"TRIBULB\"]",
+     "current": "  Bossu: [球茎怪更凶猛的形态——「三球茎怪」，会毫无预警地向你射击。]"
+    },
+    {
+     "row_id": "CAT:O41657199864abe900024",
+     "line": 3320,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WILL SHOOT AT YOU WITHOUT WARNING.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ode02b4a18150ca3ee575",
+     "line": 3321,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAKE SURE TO PUT PLENTY OF SPACE BETWEEN YOU]",
+     "current": "  Bossu: [务必让你和三球茎怪之间留出足够大的距离。]"
+    },
+    {
+     "row_id": "CAT:O40e74966416104a14f59",
+     "line": 3322,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND THE TRIBULB.]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC004e98d9aff02289",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicViner",
+   "header_line": 3256,
+   "controls": [
+    {
+     "line": 3256,
+     "source": "<BossuDex.ClassicViner>",
+     "current": "<BossuDex.ClassicViner>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O437e852becaf5ee7ca8a",
+     "line": 3257,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THIS FAST GROWING PLANT WILL USE ITS ENTIRE ENERGY STORE]",
+     "current": "  Bossu: [这种疯长的植物会耗尽全部储能，只为把猎物围困起来。]"
+    },
+    {
+     "row_id": "CAT:O328c85b776813d02508f",
+     "line": 3258,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN ORDER TO BLOCK IN PREY.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4294d4d6978980b1694b",
+     "line": 3259,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AFTER OTHER CREAT- URES HAVE TAKEN THE PREY OUT]",
+     "current": "  Bossu: [等其他生物先把猎物解决掉，它就会从剩下的部分里尽量吸取能量。]"
+    },
+    {
+     "row_id": "CAT:O40a28fd4f51d2e4c0774",
+     "line": 3260,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT WILL TAKE WHAT ENERGY IT CAN FROM WHAT'S LEFT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe793fb515df5430c4feb",
+     "line": 3261,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TAKE IT DOWN WITH- OUT BEING BOXED IN, IN ORDER TO SURVIVE]",
+     "current": "  Bossu: [干掉它，但别被围住，才能活下来]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3b0f76128c2a6465",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicWyvern",
+   "header_line": 2988,
+   "controls": [
+    {
+     "line": 2988,
+     "source": "<BossuDex.ClassicWyvern>",
+     "current": "<BossuDex.ClassicWyvern>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Od80b27f552d4d8d94722",
+     "line": 2989,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BOSSU, I'VE JUST ENCOUNTERED A FLYING DRACONID.]",
+     "current": "  Yiffany: [波苏，我刚遇到了一只飞行的龙人。]"
+    },
+    {
+     "row_id": "CAT:Ob497c3f126d40ee9da3b",
+     "line": 2990,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOT SURPRISING. THE PREVIOUS MISSION REPORTED MULTIPLE]",
+     "current": "  Bossu: [并不意外。上次任务报告里有多起双足飞龙目击记录。那些狡猾的家伙肌肉发达，在空中也极其灵活。]"
+    },
+    {
+     "row_id": "CAT:Ob380fb6e70b98120e9ba",
+     "line": 2991,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WYVERN SIGHTINGS. THOSE CRAFTY CREATURES ARE WELL]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obeb22d815d680115eebe",
+     "line": 2992,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MUSCLED AS WELL AS EXTREMELY AGILE IN THE AIR.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3086af88c3c340d46255",
+     "line": 2993,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY TACTICS REPORTED BY THE PREVIOUS TEAM?]",
+     "current": "  Yiffany: [上一支队伍报告过什么战术吗？]"
+    },
+    {
+     "row_id": "CAT:O488e7fcf58b490344c0e",
+     "line": 2994,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE NOTES SAY WYVERNS ARE PRONE TO DISTRACTION AT THE]",
+     "current": "  Bossu: [记录上说，双足飞龙在高潮时容易分神。]"
+    },
+    {
+     "row_id": "CAT:O607a8907e8992d69601b",
+     "line": 2995,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MOMENT OF ORGASM, SO A 'TEASER' AGENT SHOULD]",
+     "current": "  Bossu: [所以负责“挑逗”的特工必须被牢牢绑住，]"
+    },
+    {
+     "row_id": "CAT:O8c92c6a7b0f0e6ca8268",
+     "line": 2996,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BE BOUND SECURELY WHILE THEIR COMRADES-]",
+     "current": "  Bossu: [而这名特工的队友则——]"
+    },
+    {
+     "row_id": "CAT:Ob3d22a06579aa146b640",
+     "line": 2997,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BOSSU. I'M SOLO, REMEMBER?]",
+     "current": "  Yiffany: [波苏。我是单独行动，记得吗？]"
+    },
+    {
+     "row_id": "CAT:Oa45a58ed5b4b94640c54",
+     "line": 2998,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AHEM. THEN I SUGGEST YOU EVADE THEIR SWOOPING AND]",
+     "current": "  Bossu: [咳。那我建议你避开它们的俯冲，有机会就出手。]"
+    },
+    {
+     "row_id": "CAT:Oe147c07877e0d58a3331",
+     "line": 2999,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[STRIKE WHENEVER YOU ARE ABLE.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofb4c3ae02e7843cc968d",
+     "line": 3000,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SIGH... THAAANKS BOSSU. YIFFANY OUT.]",
+     "current": "  Yiffany: [唉……谢——谢啦波苏。伊吠妮完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC85c26ce8e54ee7d9",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicWyvern",
+   "header_line": 2985,
+   "controls": [
+    {
+     "line": 2985,
+     "source": "<BossuDex.ClassicWyvern>",
+     "current": "<BossuDex.ClassicWyvern>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWcdf0aecd9bd08fa67d404257",
+     "line": 2986,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JEEZE, THESE YELLOW DRACO-GUYS NEVER LET UP!]",
+     "current": "  Yiffai: [天啊，这些黄色龙家伙真没完没了！]"
+    },
+    {
+     "row_id": "SFWe7f38aa173b0fadb88c43113",
+     "line": 2987,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT WOULD BE A WYVERN, YIFFAI. THE PREVIOUS]",
+     "current": "  Bossu: [那是双足飞龙，伊吠。之前的任务中报告过多次目击。]"
+    },
+    {
+     "row_id": "SFWb6ffed2834b33c03769f58a4",
+     "line": 2988,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MISSION REPORTED MULTIPLE SIGHTINGS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW194ab7e7bd8792d5401a25e0",
+     "line": 2989,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DID THEY SAY ANYTHING ABOUT HOW TO TAKE THEM DOWN?]",
+     "current": "  Yiffai: [有说怎么打倒它们吗？]"
+    },
+    {
+     "row_id": "SFW9bf15a86b322cfaf09811f32",
+     "line": 2990,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE NOTES SAY WYVERNS ARE PRONE TO DISTRACTION AT THE]",
+     "current": "  Bossu: [记录说，双足飞龙容易分心，尤其是在]"
+    },
+    {
+     "row_id": "SFW57d509fa803c3a171f842907",
+     "line": 2991,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MOMENT OF THEIR OWN ATTACK.]",
+     "current": "  Bossu: [它们自己发动攻击的那一刻。]"
+    },
+    {
+     "row_id": "SFW210745a952a21c96dd083d2a",
+     "line": 2992,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO TRY TO CATCH THEM IN THE MIDDLE OF A DIVE.]",
+     "current": "  Bossu: [所以尽量趁它们俯冲时出手。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC907d0a8b4bf67bcf",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicXCannonCeiling",
+   "header_line": 2815,
+   "controls": [
+    {
+     "line": 2815,
+     "source": "<BossuDex.ClassicXCannonCeiling>",
+     "current": "<BossuDex.ClassicXCannonCeiling>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O91d102738973ddc79752",
+     "line": 2816,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE BULLETS THOSE SELF REPAIRING CANNONS FIRE]",
+     "current": "  Bossu: [那些自我修复的加农炮发射的子弹，是用一种塑化金属制成的。]"
+    },
+    {
+     "row_id": "CAT:O2788d9f59cb7efb95d34",
+     "line": 2817,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE MADE OUT OF A PLASTICIZED METAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O81b80ce87870c49c3cc8",
+     "line": 2818,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHILE SLOW AND BOUNCY, THE BULLETS WILL BE DANGEROUS.]",
+     "current": "  Bossu: [虽说又慢又会弹跳，这些子弹依然危险。]"
+    },
+    {
+     "row_id": "CAT:O656d2ae88cacfb2bad4d",
+     "line": 2819,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT BOSSU, WHY ARE THERE CANNONS HERE ANYWAYS?]",
+     "current": "  Yiffany: [可是波苏，这里为什么会有加农炮啊？]"
+    },
+    {
+     "row_id": "CAT:O180000daf9083e4fed8a",
+     "line": 2820,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THIS IS WAY OUT OF THE PPP TERRITORY NOW!]",
+     "current": "  Yiffany: [这里已经远远超出 PPP 的领地范围了！]"
+    },
+    {
+     "row_id": "CAT:Oe05bfaf92f0f6aeeb3bf",
+     "line": 2821,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]"
+    },
+    {
+     "row_id": "CAT:O81dddf5430b2e23894a0",
+     "line": 2822,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BY THE LIZARD SPACE PIRATES THAT YOU'VE RUN INTO.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O11a8254b198500a15638",
+     "line": 2823,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY MUST'VE ATTEMPTED TO ESTABLISH A BASE]",
+     "current": "  Bossu: [他们一定试着在那些各式各样的废墟上面盖起一处基地。]"
+    },
+    {
+     "row_id": "CAT:Ofee5c1f8fd038d6f1a10",
+     "line": 2824,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BY BUILDING ON TOP OF THE VARIOUS RUINS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O28231535e5be95759070",
+     "line": 2825,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, BUT IT LOOKS LIKE SOMETHING SCARED THEM OFF...]",
+     "current": "  Yiffany: [是啊，不过像是有什么把它们吓跑了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCadd3f1c2ea5b2cd3",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "BossuDex.ClassicXCannonCeiling",
+   "header_line": 2858,
+   "controls": [
+    {
+     "line": 2858,
+     "source": "<BossuDex.ClassicXCannonCeiling>",
+     "current": "<BossuDex.ClassicXCannonCeiling>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc178dbf7c91d6c6e0b02",
+     "line": 2859,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE BULLETS THOSE SELF REPAIRING CANNONS FIRE]",
+     "current": "  Bossu: [那些自我修复的加农炮发射的子弹，是用一种塑化金属制成的。]"
+    },
+    {
+     "row_id": "CAT:O3de651caa7ac95425ac3",
+     "line": 2860,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ARE MADE OUT OF A PLASTICIZED METAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obf040d88e60031a03962",
+     "line": 2861,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHILE SLOW AND BOUNCY, THE BULLETS WILL BE DANGEROUS.]",
+     "current": "  Bossu: [虽说又慢又会弹跳，这些子弹依然危险。]"
+    },
+    {
+     "row_id": "CAT:Ocbc5e4950a13f152356e",
+     "line": 2862,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHY ARE THERE CANNONS HERE TO BEGIN WITH?]",
+     "current": "  Yiffai: [这里一开始为什么会有加农炮？]"
+    },
+    {
+     "row_id": "CAT:Ob0e7622b60ee1b85b055",
+     "line": 2863,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I DON'T REMEMBER SEEING THIS AREA IN THE BRIEFING]",
+     "current": "  Yiffai: [我不记得简报里提到过这个区域]"
+    },
+    {
+     "row_id": "CAT:O793858188a6f925814cb",
+     "line": 2864,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]",
+     "current": "  Bossu: [信不信由你，那些是更近期造出来的，出自你们遇到的那些蜥蜴太空海盗之手。]"
+    },
+    {
+     "row_id": "CAT:Oc9677749b8ecb4b22ea1",
+     "line": 2865,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BY THE LIZARD SPACE PIRATES THAT YOU'VE RUN INTO.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2e1bc48785aa06c6f49b",
+     "line": 2866,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THEY MUST'VE ATTEMPTED TO ESTABLISH A BASE]",
+     "current": "  Bossu: [他们一定试着在那些各式各样的废墟上建起一处基地。]"
+    },
+    {
+     "row_id": "CAT:Ob15697bd7a4e414b1205",
+     "line": 2867,
+     "speaker": "Bossu",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BY BUILDING ON TOP OF THE VARIOUS RUINS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O5c16b1751bb1060a1d70",
+     "line": 2868,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YEAH, BUT IT LOOKS LIKE SOMETHING SCARED THEM OFF...]",
+     "current": "  Yiffai: [是啊，不过像是有什么把它们吓跑了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9d161b4b01135e77",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicXCannonWall",
+   "header_line": 2840,
+   "controls": [
+    {
+     "line": 2840,
+     "source": "<BossuDex.ClassicXCannonWall>",
+     "current": "<BossuDex.ClassicXCannonWall>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O10a5a7bb6bb76f742b54",
+     "line": 2841,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE BULLETS THOSE SELF REPAIRING CANNONS FIRE]",
+     "current": "  Bossu: [那些自我修复的加农炮发射的子弹，是用一种塑化金属制成的。]"
+    },
+    {
+     "row_id": "CAT:O264faff452f30345adb8",
+     "line": 2842,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE MADE OUT OF A PLASTICIZED METAL.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O543f14e1249fd78bc779",
+     "line": 2843,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHILE SLOW AND BOUNCY, THE BULLETS WILL BE DANGEROUS.]",
+     "current": "  Bossu: [虽说又慢又会弹跳，这些子弹依然危险。]"
+    },
+    {
+     "row_id": "CAT:O07a5a7938d3a1688b3bd",
+     "line": 2844,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT BOSSU, WHY ARE THERE CANNONS HERE ANYWAYS?]",
+     "current": "  Yiffany: [可是波苏，这里为什么会有加农炮啊？]"
+    },
+    {
+     "row_id": "CAT:O8089e7ce7ea7a5bf25ff",
+     "line": 2845,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THIS IS WAY OUT OF THE PPP TERRITORY NOW!]",
+     "current": "  Yiffany: [这里已经远远超出 PPP 的领地范围了！]"
+    },
+    {
+     "row_id": "CAT:O62e1db4986cfb82e9055",
+     "line": 2846,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]",
+     "current": "  Bossu: [信不信由你，那些是更近期造出来的，出自你们遇到的那些蜥蜴太空海盗之手。]"
+    },
+    {
+     "row_id": "CAT:Oe1df8dfe50d6e4898a28",
+     "line": 2847,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BY THE LIZARD SPACE PIRATES THAT YOU'VE RUN INTO.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6bc1dc63965365c62cb2",
+     "line": 2848,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THEY MUST'VE ATTEMPTED TO ESTABLISH A BASE]",
+     "current": "  Bossu: [他们一定试着在那些各式各样的废墟上建起一处基地。]"
+    },
+    {
+     "row_id": "CAT:Oe1aa5d937ac1352c997f",
+     "line": 2849,
+     "speaker": "Bossu",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BY BUILDING ON TOP OF THE VARIOUS RUINS.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2d73e939c4de3d7906c8",
+     "line": 2850,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YEAH, BUT IT LOOKS LIKE SOMETHING SCARED THEM OFF...]",
+     "current": "  Yiffany: [是啊，不过像是有什么把它们吓跑了……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4638eb14a860d6e2",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "BossuDex.ClassicXeno",
+   "header_line": 3218,
+   "controls": [
+    {
+     "line": 3218,
+     "source": "<BossuDex.ClassicXeno>",
+     "current": "<BossuDex.ClassicXeno>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW4d1020d54db5399256fa0eb9",
+     "line": 3219,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WARNING, AGENT.]",
+     "current": "  Bossu: [特工，注意。]"
+    },
+    {
+     "row_id": "SFW37de777798db8f079eaf8242",
+     "line": 3220,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT ANOMALY ISN'T PART OF TUTONE'S BIOME.]",
+     "current": "  Bossu: [那个异常生物不属于图托恩的生态。]"
+    },
+    {
+     "row_id": "SFW5a33c2fa145bb926c253f024",
+     "line": 3221,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN FACT, IT ISN'T FROM ANY BIOME THAT WE HAVE ON RECORD.]",
+     "current": "  Bossu: [事实上，它不属于任何已记录的生态群落。]"
+    },
+    {
+     "row_id": "SFW8a6115bb9c9af838ead9eb3d",
+     "line": 3222,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WHAT?]",
+     "current": "  Yiffany: [什、什么？]"
+    },
+    {
+     "row_id": "SFWaf7b7f28c29757f30808f9f9",
+     "line": 3223,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SEEMS TO BE AN OPPORTUNISTIC CREATURE]",
+     "current": "  Bossu: [这似乎是一种伺机而动的生物]"
+    },
+    {
+     "row_id": "SFWea66f556b6d3391a607260a6",
+     "line": 3224,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[LOOKING FOR NEW HOSTS ON TUTONE.]",
+     "current": "  Bossu: [在图托恩寻找新的宿主。]"
+    },
+    {
+     "row_id": "SFW16b9f21c77b887496f6db1ab",
+     "line": 3225,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...YOU DON'T MEAN...]",
+     "current": "  Yiffany: [……你该不会是说……]"
+    },
+    {
+     "row_id": "SFW32ea403ba93a3d3078da395f",
+     "line": 3226,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S RIGHT. BEST TO NOT STUDY THAT PARTICULAR FAUNA.]",
+     "current": "  Bossu: [没错。这种动物最好别去研究。]"
+    },
+    {
+     "row_id": "SFWa5ae68b1e074d893fa8cb1cf",
+     "line": 3227,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UNDERSTOOD, PRECAUTIONS WILL BE TAKEN.]",
+     "current": "  Yiffany: [明白，我会采取预防措施。]"
+    }
+   ]
+  }
+ ]
+}

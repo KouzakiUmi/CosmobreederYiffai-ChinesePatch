@@ -1,0 +1,32 @@
+{
+ "batch": "batch-04",
+ "decisions": 40,
+ "applied": 19,
+ "operations": 19,
+ "targets": 3,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "7609486addeb8766664ab6370bbbf5745a674475242e544ab4414d59cef265e2",
+   "after_resource_sha256": "5369eace1209688788972fdf6ba6e034a6865204d415bacbb797508770287192",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "88ead364267ca6edb079326ba88716690f10b760a55658d582a232d0b7bc0c88",
+   "after_resource_sha256": "6e971ed1b289c6d52ab4ad298d5302ec6e234371ef6488b23d997636b2a45bc8",
+   "targets_changed": 7
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "b1dceb9c2940043e384736821ce282ae2a2a05e60d39bcf6a127d783a5eb9bab",
+   "after_resource_sha256": "33491902e713371fb882f5d395dd0f651f0cc7a4360dbb96f2f2ad3965b9f82a",
+   "targets_changed": 9
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-04-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate15"
+}

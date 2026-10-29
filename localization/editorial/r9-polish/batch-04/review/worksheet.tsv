@@ -1,0 +1,54 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O0c4ed02a9a1bf4c8922c	SCdb35125cff9a0e0b	ds	A	  Yiffai: 我……我很抱歉……伊、伊吠，先走了！		  Yiffai: 我……我很抱歉……伊、伊吠……完毕！	ds:P04-002:A
+CAT:O12e9b7a2ed969091d6c6	SC8bbefad7d6e7d322	ds	B	  Tomcat: [我这边只落得一阵心惊！你的生命体征乱了套，无线电又怎么也呼不通！]		  Tomcat: [我这边唯一接到的只有一阵心惊——无线电怎么都呼不通，你的生命体征还乱了套！]	ds:P04-016:B
+CAT:O139baccbe4571e62632d	SC0b2a2d5c9e9c6c62	ds+gemini	B,needs_evidence	  Mauser: [啊、啊？谁在说话？伊吠？！]	  Mauser: [啊、啊？谁在说话？伊吠妮？！]	  Mauser: [咦、咦？谁啊？伊吠？！]	gemini:P04-018:needs_evidence ds:P04-017:B
+CAT:O173bafb8e31fb1d7a84d	SC4e01d6e7fed031ca	ds	C	  Mauser: […… 我待会儿再打……]		  Mauser: [……我待会儿再打……]	ds:P04-034:C
+CAT:O221a9c23356a19a9799e	SC0a2f7b908b7beb68	ds	B	  Mauser: [报告显示，这里曾经有许多仓储站，但如今只剩这一个了。]		  Mauser: [报告显示，这里曾经有许多仓库，但如今只剩这一个了。]	ds:P04-008:B
+CAT:O24f651d1e290f8fd0b56	SC5ee9848171010cf1	ds	B	  Mauser: [你每次碰到那些东西都该用上]		  Mauser: [你每次碰到那些东西都该用上。]	ds:P04-029:B
+CAT:O25e0212f398a186ad2cc	SC9297d69003500efa	ds	B	  Yiffai: [那、那你这么一说……]		  Yiffai: [那、那……你这么一说……]	ds:P04-023:B
+CAT:O2b64371d1a28bac17bdb	SC285c0b1b69cb5e65	ds	B	  Yiffany: [我当然没事，别担心我，小家伙。]		  Yiffany: [我当然没事，别担心我，小不点。]	ds:P04-013:B
+CAT:O2c7062e3dd39a403386a	SC55c4a209986bb4f7	ds	B	  Tomcat: [是啊，这边这位芝士球看着快晕过去了，也许我也该开始监测一下/他/的生命体征了……]		  Tomcat: [是啊，这边这位奶酪球看着快晕过去了，也许我也该开始监测一下/他/的生命体征了……]	ds:P04-007:B
+CAT:O2e9427e1ca032962fa33	SC701bdd2f929e1031	ds+gemini	B	  Mauser: [别在意！我是你这次出击的主联络官]	  Mauser: [不过没关系！我是你这次行动的主要联络员]	  Mauser: [别在意！这次出击的主要联络人就是我]	gemini:P04-003:B ds:P04-006:B
+CAT:O33729688ce4ddcf7c35b	SC270bba253f60b683	ds	B	  Mauser: [什——什么？可我的研究明明写着……]		  Mauser: [什、什么？可我的研究明明说……]	ds:P04-019:B
+CAT:O3afdccc791e26827d676	SC77ea58a1063412b5	ds	B	  Tomcat: [我们用卫星 R18 把它设成了跟随模式，所以你应该能传送进你的飞船了，亲爱的。]		  Tomcat: [我们用卫星 R18 把它设成了跟随模式，所以你应该能直接传送进你的飞船了，丫头。]	ds:P04-014:B
+CAT:O3e5e25ee5a75819994b1	SC6681188910c28840	gemini	B	  Mauser: [……如果你还挥着台PPP电台到处叫人，我不觉得这套伪装会有多好用。]	  Mauser: [……如果你还挥着PPP无线电到处叫人，我不觉得这套伪装会有多好用。]		gemini:P04-008:B
+CAT:O40193b545ac070b573e2	SCc84763bc1dd8de7b	ds+gemini	A,B	  Yiffany: [它在说：“按 SELECT 选择你的超能力，然后同时按下 UP+攻击，激活你选定的能力！”]	  Yiffany: [它在说：“按 SELECT 选择你的超能力，然后同时按下 UP+ATTACK，激活你选定的能力！”]	  Yiffany: [它在说：“按 SELECT 选你的超能力，再同时按 UP+ATTACK 激活！”]	gemini:P04-006:A ds:P04-027:B
+CAT:O465792bc2c9866c8797b	SC5639e750c29c987c	gemini	B	  Mauser: [该打给雄猫！她才是装备专家。]	  Mauser: [你该呼叫雄猫！她才是装备专家。]		gemini:P04-010:B
+CAT:O51bdc27f600fb3594edd	SC841b41204fa79f67	ds	C	  Tomcat: [嘿，跨星际装备获取都是游戏的一部分！要好好利用！]		  Tomcat: [嘿，行星际的装备获取本来就是游戏的一部分！要好好利用！]	ds:P04-039:C
+CAT:O552d526566426cfb09a7	SCf912c0ed47334e10	ds+gemini	A,B	  Mauser: [你已经进入艾斯坎默！矮人的家园！]	  Mauser: [你已经进入艾斯卡姆尔！矮人的家园！]	  Mauser: [你已经进入艾斯卡姆尔！矮人的家园！]	gemini:P04-004:B ds:P04-001:A
+CAT:O55b7df2f3a0708d891e3	SCb714b8ec1b957c4e	ds	B	    Yiffai: [我印象里被告知，我是唯一在活动的特工？]		    Yiffai: [我记得有人说过，我是唯一还在活动的特工？]	ds:P04-015:B
+CAT:O5a18c20cf3f32c7828aa	SCf912c0ed47334e10	ds	B	  Tomcat: [最好信我！那底下可有的是历史！]		  Tomcat: [你最好信！那底下可有的是历史！]	ds:P04-024:B
+CAT:O5e4eb683155190dd7050	SC8bbefad7d6e7d322	ds+gemini	A,B	  Yiffany: [说什么要"SELECT"波形，然后再用“UP & 攻击”发动能力，好把障碍物挪开……]	  Yiffany: [说什么要“SELECT”波形，然后再用“UP & ATTACK”发动能力，好把障碍物挪开……]	  Yiffany: [说什么要“SELECT”波形，然后再用“UP+ATTACK”发动能力，好把障碍物挪开……]	gemini:P04-005:A ds:P04-028:B
+CAT:O65bd6f7b60afd023fb3a	SC590c465e89cd507f	ds	B	  Mauser: [喂——伊吠，你在外面没事吧？]		  Mauser: [哇，伊吠，你在外面没事吧？]	ds:P04-022:B
+CAT:O73fda3f8e160fd4f32a6	SC2bb5df69804fef2f	ds+gemini	B	    Tomcat: [再说了，看来你找到了一个反重力脚环。]	    Tomcat: [再说了，看来你找到了一个反重力踝环。]	    Tomcat: [再说了，看来你找到了一个反重力踝环。]	gemini:P04-013:B ds:P04-005:B
+CAT:O744849e7c9deb8c4c9e8	SC0a2f7b908b7beb68	ds	C	  Yiffai: [特工资料有说，为什么只剩这一个吗？]		  Yiffai: [有特工的情报能说明为什么只剩这一个吗？]	ds:P04-038:C
+CAT:O7ce21b12341a1ba3f641	SCb714b8ec1b957c4e	gemini	C	    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]	     Mauser: [如果发现其他还在活动的特工，我会通知你。不过眼下，这片区域可能还有被俘特工需要你帮忙。]		gemini:P04-020:C
+CAT:O93fa12dc32fc9eb16c0d	SC3d40dc4f2e053d40	ds	B	  Mauser: [什、什么？你这话意、意思是什么……？]		  Mauser: [什、什么？你、你这话是什么意思……？]	ds:P04-021:B
+CAT:O9a641edef3adc4f62a71	SC0455d784def8c84b	ds	B	  Mauser: [你没带吗？每个标准COSMO套件里都有一把铲子！]		  Mauser: [你没带吗？每个标准宇宙套件里都有一把铲子！]	ds:P04-010:B
+CAT:Oa6cc1ec27c9bc959d259	SCbbaaeb5b391ca914	ds	B	  Yiffany: [往东边走，收到！伊吠妮通话结束。]		  Yiffany: [往东边走，收到！伊吠妮通话完毕。]	ds:P04-009:B
+CAT:Oa7308118fad528f5f568	SC8a74554bc2226565	gemini	B	  Mauser: [……你挥着台PPP电台到处叫人，不觉得这样可能会暴露身份吗？]	  Mauser: [……你挥着PPP无线电到处叫人，不觉得这样可能会暴露身份吗？]		gemini:P04-009:B
+CAT:Oaaeb46661c5d0f2852fc	SCae78e1dc49c532a6	ds	B	  Yiffai: [好好好！我会试着更有点战策性的。]		  Yiffai: [好好好！我会试着更有战、战略性的。]	ds:P04-026:B
+CAT:Ob2ac12ffcf46943bf3fa	SCbbaaeb5b391ca914	ds	needs_evidence	  Yiffany: [毛鼠，请回答……什么？]		  Yiffany: [毛鼠，请回答……什么？]	ds:P04-031:needs_evidence
+CAT:Ob9524d26104bc0456aae	SCb714b8ec1b957c4e	gemini	B	    Tomcat: [再说了，看来你找到了一个反重力脚环。]	    Tomcat: [再说了，看来你找到了一个反重力踝环。]		gemini:P04-014:B
+CAT:Obc58fc7a21f62eb73bed	SC9b346fa87d3daf54	ds	C	  Yiffany: [就几个偷了我装备的小矮子。]		  Yiffany: [就几个偷了我装备的小不点。]	ds:P04-036:C
+CAT:Obfbe9a4bdd9340fca56d	SCae78e1dc49c532a6	gemini	B	  Tomcat: [就是啊，小狗崽，穿大人的裤子，就得稳着点来。]	  Tomcat: [就是啊，小狗崽，拿出大人样穿上裤子，稳着点来。]		gemini:P04-017:B
+CAT:Oc4410cc1434bfd3877c8	SC9db33b8f4dd22532	ds	B	  Tomcat: [穿上世上最可爱的小裙子，狗狗翘臀！]		  Tomcat: [穿上世上最可爱的小裙子，小狗屁股！]	ds:P04-012:B
+CAT:Occ36c36d2b0aa020f33a	SC55c4a209986bb4f7	ds+gemini	B	  Tomcat: [行吧姑娘，你去找几块老旧易碎的砖块，试试那条反重力裙子，这边这只快晕过去的鼠鼠就交给我吧。]	  Tomcat: [行吧姑娘，你去找几块老旧易碎的砖块，试试那条反重力裙子，这边这只快晕过去的老鼠就交给我吧。]	  Tomcat: [行吧姑娘，你去找几块旧碎砖试那条反重力裙子，这只快晕过去的毛鼠归我]	gemini:P04-007:B ds:P04-011:B
+CAT:Ocf122c9f09fbcfda3e23	SC2bb5df69804fef2f	gemini	C	    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些被俘的特工需要你帮忙。]	     Mauser: [如果发现其他还在活动的特工，我会通知你。不过眼下，这片区域可能还有被俘特工需要你帮忙。]		gemini:P04-019:C
+CAT:Ocf5abdb54d51b1b4dd31	SC2bb5df69804fef2f	ds	B	    Tomcat: [得了吧小姑娘，一点小震动不该把你吓成这样！]		    Tomcat: [得了吧小姑娘，一点小震动不该把你震得发慌！]	ds:P04-025:B
+CAT:Od208c9cc13707f70779e	SC0455d784def8c84b	ds	C	  Mauser: [那周围果然有不少泥土，不是吗？]		  Mauser: [这一带泥土可真不少，不是吗？]	ds:P04-032:C
+CAT:Odadb5aa2cc23c4df71ad	SC3d40dc4f2e053d40	ds	C	  Yiffany: [嗯，它们看着跟这一带矮矮小小的Fenfen们用的某些符号很像。]		  Yiffany: [嗯，它们看着跟这一带矮矮小小的 Fenfen 族用的符号很像。]	ds:P04-037:C
+CAT:Of3b574a35d8096437f00	SC701bdd2f929e1031	ds+gemini	A,B	  Mauser: [……呼叫干员伊吠！请回答！]	  Mauser: [……呼叫特工伊吠！请回答！]	  Mauser: [……呼叫伊吠特工！请回答！]	gemini:P04-001:A ds:P04-004:B
+CAT:Of3d8eac24c3a65588c13	SC8bbefad7d6e7d322	ds	B	  Yiffany: [不-不是，没那种事。只是……听起来像是……]		  Yiffany: [不、不是，没那种事。只是……听起来像是……]	ds:P04-020:B
+CAT:Of5810f2e97164e8b7a18	SC9db33b8f4dd22532	gemini	A	  Yiffai: [呃——，这个嘛……"]	  Yiffai: [呃——，这个嘛……]		gemini:P04-011:A
+CAT:Ofd7cff01ebda750d92b8	SCa7d938dbd9e09fd0	ds	B	  Yiffai: [我……我感觉还好，你有接收到那些吗？]		  Yiffai: [我……我还好，刚才那些你们收到了吗？]	ds:P04-035:B
+CAT:Ofe0b0d238dde37a0e6db	SC9297d69003500efa	ds	B	  Yiffai: [……说得好像那套装备、那艘补给齐全的飞船都还在我手里似的……]		  Yiffai: [……说得好像那套装备、那艘补给齐全的飞船我真有似的……]	ds:P04-018:B
+SFW2fb5fe9d099481d20c013deb	SC581aac8836b915da	gemini	B	    Tomcat: [再说了，看来你找到了一个反重力脚环。]	    Tomcat: [再说了，看来你找到了一个反重力踝环。]		gemini:P04-015:B
+SFW3d32f8a28c3f230c479e5517	SC3a980f6abca651ae	gemini	A	  Yiffai: [呃——，这个嘛……"]	  Yiffai: [呃——，这个嘛……]		gemini:P04-012:A
+SFW573d909b03b592779485f9ad	SC581aac8836b915da	gemini	C	    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些被俘的特工需要你帮忙。]	     Mauser: [如果发现其他还在活动的特工，我会通知你。不过眼下，这片区域可能还有被俘特工需要你帮忙。]		gemini:P04-021:C
+SFW5b0e27baf02479b9fced70dc	SC568f82ccb29b4fa0	gemini	C	    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]	     Mauser: [如果发现其他还在活动的特工，我会通知你。不过眼下，这片区域可能还有被俘特工需要你帮忙。]		gemini:P04-022:C
+SFW5f8a5ceb0952154ab8c78294	SCad11a1122fdc124a	ds	needs_evidence	  Mauser: [G...D JOB DEF...ING TH...A...ET...AI!]		  Mauser: [G...D JOB DEF...ING TH...A...ET...AI!]	ds:P04-030:needs_evidence
+SFW613c659a0ca5ce2d987283b7	SC568f82ccb29b4fa0	gemini	B	    Tomcat: [再说了，看来你找到了一个反重力脚环。]	    Tomcat: [再说了，看来你找到了一个反重力踝环。]		gemini:P04-016:B
+SFWaa18c075537d157fccf4f83f	SCa2facc632d881e70	gemini	A	  Mauser: [……呼叫干员伊吠！请回答！]	  Mauser: [……呼叫特工伊吠！请回答！]		gemini:P04-002:A
+SFWb7fcbdd38e27e729f16b0169	SC3a980f6abca651ae	ds	C	  Mauser: [行，你去试吧，我在这边付赌钱。]		  Mauser: [行，你去试吧，我在这边认赔。]	ds:P04-033:C
+SFWce6e6170cacb490fc0ff0ebd	SC5f1b4d2abe382e83	ds	A	  Bossu: [我们不能冒险让你再次被击落……甚至出更糟的事。]		  Bossu: [我们不能冒险让你再次被击落……甚至出更糟的事。]	ds:P04-003:A

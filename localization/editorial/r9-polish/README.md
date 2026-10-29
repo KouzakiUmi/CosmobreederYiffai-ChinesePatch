@@ -32,6 +32,9 @@
 | batch-01 | `The0`、`Area0_Macsen1/2/Bar`、`Area0_Prison1`、`MauserHints_AreaA` | 137 | 358 | 23,277 | 已并入 candidate13 |
 | batch-02 | `Tomcat` | 56 | 566 | 36,041 | 已并入 candidate15 |
 | batch-03 | `Bossu` | 53 | 437 | 29,033 | 已并入 candidate14 |
+| batch-04 | `Mauser` | 81 | 871 | 58,922 | 已并入 candidate16 |
+| batch-05 | `BossuDex`（图鉴） | 149 | 1,253 | 83,198 | 分 3 个 part，待开 |
+| batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part，待开 |
 
 每批工单在 `batch-NN/orders/`：`ORDER.md`（规范）· `batch-NN.reader.md`（正文）· `batch-NN.json`（结构化）· `reference-excerpt.md`（本批人物与术语摘录，按批重写）。
 
@@ -56,6 +59,14 @@
 
 三批共补 21 条 `R9M-*`（batch-01 3 条、batch-02 2 条、batch-03 16 条），绝大多数是「同文的姊妹行」：工单要求每条发现只挂本场 row，同文异场的位置只能写进 note，落台账时按 row 逐条展开。批量落库后再回读归档核对，是发现这类遗漏的唯一可靠办法。
 
+## 四之四、参照摘录写错会让两路一致地错
+
+batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」，提案质量很高：行数齐、理由足、覆盖 4 个 row。但方向是反的——UI 道具名就是「脚环」，正文也是「脚环」多。
+
+根源是我在 `reference-excerpt.md` 里把 `anti-grav anklet` 定为「反重力踝环」。两路照做，交叉核对也发现不了，因为**两路错得一样**。
+
+教训：参照摘录里的每一条术语都要先回查全库用法与 UI 名，再写进工单；写错比不写危害更大，它会把两路的一致性变成一致错。
+
 ## 五、流程与产物
 
 1. `tools/build_batch.py <batch> --snapshot <snap>` 生成批次工单（可复现，带 corpus manifest SHA 与基线候选）。
@@ -64,19 +75,19 @@
 4. 主代理逐条核验后写 `batch-NN/review/decisions.tsv`；`tools/build_ledger.py <batch>` 生成该批来源锁定台账并 dry-run，`tools/verify_round.py <batch>` 出 gate。
 5. 在 `localization/optimization/r28/r9polish/component.json` 的 `batches` 数组登记该批（台账／gate／decisions 三项），再构建候选与跑 17 步回归。
 
-## 五之二、三批合计
+## 五之二、四批合计
 
-| 项 | batch-01 | batch-02 | batch-03 | 合计 |
-| --- | --- | --- | --- | --- |
-| 场次／行 | 137／358 | 56／566 | 53／437 | 246／1,361 |
-| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 256 |
-| 裁决 | 35 | 38 | 35 | 108 |
-| 　采纳 | 32 | 24 | 28 | **84** |
-| 　驳回 | 2 | 11 | 5 | 18 |
-| 　留置 | 1 | 3 | 2 | 6 |
-| 主代理补 | 3 | 2 | 16 | 21 |
+| 项 | batch-01 | batch-02 | batch-03 | batch-04 | 合计 |
+| --- | --- | --- | --- | --- | --- |
+| 场次／行 | 137／358 | 56／566 | 53／437 | 81／871 | 327／2,232 |
+| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 22＋39 | 317 |
+| 裁决 | 35 | 38 | 35 | 40 | 148 |
+| 　采纳 | 32 | 24 | 28 | 19 | **103** |
+| 　驳回 | 2 | 11 | 5 | 14 | 32 |
+| 　留置 | 1 | 3 | 2 | 7 | 13 |
+| 主代理补 | 3 | 2 | 16 | 1 | 22 |
 
-驳回率从 batch-01 的 6% 升到 batch-02 的 29%：batch-02 的两路都大量重提已裁决术语（`agent`／`torch`／`MARK IV`），并且互相把对方的方向当成误译。
+驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%。batch-02 是两路重提已裁决术语（`agent`／`torch`／`MARK IV`）并互相当成误译；batch-04 的 14 条里有 6 条来自我写错的参照摘录，属系统性误判而非模型问题。
 
 ## 六、构建与回归
 
@@ -87,15 +98,17 @@
 | candidate13 | 15 个（新增 `r9polish`），`full_component_set=true` | batch-01，32 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate14 | 同上 | batch-01 + batch-03，60 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate15 | 同上 | batch-01 + batch-03 + batch-02，84 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate16 | 同上 | 再加 batch-04，共 103 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate13 归档：jar `fb533645…61587`（45,842,131 B）· pak `046158e7…af8ca8`（13,588,668 B）。
 candidate15 归档：jar `2ff30bbd…bcb29`（45,842,088 B）· pak `9c2c7377…0ca585`（13,588,593 B），明细见 [`build-manifest.json`](../../builds/r9-polish-candidate15/build-manifest.json)。
+candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16/build-manifest.json)。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 
 ## 七、边界
 
-- 已落地 batch-01／02／03（246 场／1,361 行），约占全库 2,989 场的 8.2%；**其余批次未精校，「第 1 轮」不因此视为完成**。
+- 已落地 batch-01／02／03／04（327 场／2,232 行），约占全库 2,989 场的 10.9%；**其余批次未精校，「第 1 轮」不因此视为完成**。
 - 三项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）。
 - 不覆盖任何历史证据；未安装、未启动游戏、未访问存档；未生成 `acceptance.json`。
 - CPU 回归与静态复核不等于实机验收：男线 `DragonHint` 既有 4 行折行（240px／12px 实测）是否翻页或溢出，仍需实机确认。

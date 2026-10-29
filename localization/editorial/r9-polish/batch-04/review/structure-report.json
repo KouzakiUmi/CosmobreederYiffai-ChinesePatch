@@ -1,0 +1,146 @@
+{
+ "batch": "batch-04",
+ "routes": {
+  "gemini": {
+   "findings": 22,
+   "coverage": 81,
+   "problems": [
+    "P04-003 width +36px on CAT:O2e9427e1ca032962fa33",
+    "P04-019 prefix drift on CAT:Ocf122c9f09fbcfda3e23",
+    "P04-020 prefix drift on CAT:O7ce21b12341a1ba3f641",
+    "P04-021 prefix drift on SFW573d909b03b592779485f9ad",
+    "P04-022 prefix drift on SFW5b0e27baf02479b9fced70dc"
+   ],
+   "severity": {
+    "A": 6,
+    "B": 11,
+    "needs_evidence": 1,
+    "C": 4
+   },
+   "categories": {
+    "term": 9,
+    "voice": 2,
+    "gameplay": 2,
+    "relationship": 1,
+    "format": 6,
+    "idiom": 1,
+    "source_uncertainty": 1
+   },
+   "status": {
+    "proposal": 21,
+    "needs_evidence": 1
+   },
+   "rows_proposed": 39
+  },
+  "ds": {
+   "findings": 39,
+   "coverage": 81,
+   "problems": [
+    "P04-002 cross-scene row CAT:O9e0e7cd658a4c2373215",
+    "P04-004 cross-scene row SFWaa18c075537d157fccf4f83f",
+    "P04-004 cross-scene row SFWca78c14f8701e3706136cbb7",
+    "P04-005 cross-scene row CAT:Ob9524d26104bc0456aae",
+    "P04-005 cross-scene row CAT:O7d82c6da03c06130a9b3",
+    "P04-005 cross-scene row SFW613c659a0ca5ce2d987283b7",
+    "P04-005 cross-scene row SFW7877a8f87ea5cc6f9066ece6",
+    "P04-005 cross-scene row SFW2fb5fe9d099481d20c013deb",
+    "P04-005 cross-scene row SFWd08a0aec9e003766f641b368",
+    "P04-006 cross-scene row SFWd87acca4d7443c07a8bbf677",
+    "P04-007 cross-scene row CAT:O477feaf8f8b8b307bb21",
+    "P04-009 cross-scene row SFW201d515c8d1b36dd32504d6a",
+    "P04-010 cross-scene row CAT:Ob1a5ceb731ae10efc0d8",
+    "P04-013 cross-scene row CAT:O2fba0d2e26b2ab5f080d",
+    "P04-015 cross-scene row SFW59320fc1a62ad539e294d4bf",
+    "P04-016 cross-scene row CAT:O216df714b8194b4ef49f",
+    "P04-016 width +60px on CAT:O12e9b7a2ed969091d6c6",
+    "P04-020 cross-scene row CAT:Occ1b5f3e99e5f92dfd9e",
+    "P04-020 cross-scene row CAT:Oabfba2b52eadb774b18f",
+    "P04-020 cross-scene row CAT:Oaba93f6fd12608bffbf9",
+    "P04-020 cross-scene row CAT:Obf55559414f1ddc35e14",
+    "P04-022 cross-scene row CAT:O785a973eee42825dfde9",
+    "P04-025 cross-scene row CAT:O6b5d027f0d96753aa19c",
+    "P04-026 cross-scene row SFW38d2d8f81cb188e20d5a2d11",
+    "P04-027 cross-scene row CAT:O5e4eb683155190dd7050",
+    "P04-030 cross-scene row SFW03012fac0a4548ecbc283a53",
+    "P04-030 cross-scene row SFW89828a6ab567ab16a388d671",
+    "P04-032 cross-scene row CAT:O392e7d2ad5b6c2a2a92e",
+    "P04-034 cross-scene row CAT:Ob8742a390e1c68865c5d",
+    "P04-039 width +36px on CAT:O51bdc27f600fb3594edd"
+   ],
+   "severity": {
+    "A": 3,
+    "B": 27,
+    "needs_evidence": 2,
+    "C": 7
+   },
+   "categories": {
+    "term": 10,
+    "meaning": 1,
+    "format": 5,
+    "voice": 9,
+    "relationship": 2,
+    "continuity": 6,
+    "idiom": 3,
+    "gameplay": 1,
+    "source_uncertainty": 2
+   },
+   "status": {
+    "proposal": 37,
+    "needs_evidence": 2
+   },
+   "rows_proposed": 71
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 53,
+  "rows_both_routes": 8,
+  "rows_identical_text": 2,
+  "rows_conflicting_text": 6,
+  "only_gemini": 14,
+  "only_ds": 31,
+  "conflicts": [
+   {
+    "row_id": "CAT:Of3b574a35d8096437f00",
+    "scene_id": "SC701bdd2f929e1031",
+    "current": "  Mauser: [……呼叫干员伊吠！请回答！]",
+    "gemini": "  Mauser: [……呼叫特工伊吠！请回答！]",
+    "ds": "  Mauser: [……呼叫伊吠特工！请回答！]"
+   },
+   {
+    "row_id": "CAT:O2e9427e1ca032962fa33",
+    "scene_id": "SC701bdd2f929e1031",
+    "current": "  Mauser: [别在意！我是你这次出击的主联络官]",
+    "gemini": "  Mauser: [不过没关系！我是你这次行动的主要联络员]",
+    "ds": "  Mauser: [别在意！这次出击的主要联络人就是我]"
+   },
+   {
+    "row_id": "CAT:O5e4eb683155190dd7050",
+    "scene_id": "SC8bbefad7d6e7d322",
+    "current": "  Yiffany: [说什么要\"SELECT\"波形，然后再用“UP & 攻击”发动能力，好把障碍物挪开……]",
+    "gemini": "  Yiffany: [说什么要“SELECT”波形，然后再用“UP & ATTACK”发动能力，好把障碍物挪开……]",
+    "ds": "  Yiffany: [说什么要“SELECT”波形，然后再用“UP+ATTACK”发动能力，好把障碍物挪开……]"
+   },
+   {
+    "row_id": "CAT:O40193b545ac070b573e2",
+    "scene_id": "SCc84763bc1dd8de7b",
+    "current": "  Yiffany: [它在说：“按 SELECT 选择你的超能力，然后同时按下 UP+攻击，激活你选定的能力！”]",
+    "gemini": "  Yiffany: [它在说：“按 SELECT 选择你的超能力，然后同时按下 UP+ATTACK，激活你选定的能力！”]",
+    "ds": "  Yiffany: [它在说：“按 SELECT 选你的超能力，再同时按 UP+ATTACK 激活！”]"
+   },
+   {
+    "row_id": "CAT:Occ36c36d2b0aa020f33a",
+    "scene_id": "SC55c4a209986bb4f7",
+    "current": "  Tomcat: [行吧姑娘，你去找几块老旧易碎的砖块，试试那条反重力裙子，这边这只快晕过去的鼠鼠就交给我吧。]",
+    "gemini": "  Tomcat: [行吧姑娘，你去找几块老旧易碎的砖块，试试那条反重力裙子，这边这只快晕过去的老鼠就交给我吧。]",
+    "ds": "  Tomcat: [行吧姑娘，你去找几块旧碎砖试那条反重力裙子，这只快晕过去的毛鼠归我]"
+   },
+   {
+    "row_id": "CAT:O139baccbe4571e62632d",
+    "scene_id": "SC0b2a2d5c9e9c6c62",
+    "current": "  Mauser: [啊、啊？谁在说话？伊吠？！]",
+    "gemini": "  Mauser: [啊、啊？谁在说话？伊吠妮？！]",
+    "ds": "  Mauser: [咦、咦？谁啊？伊吠？！]"
+   }
+  ]
+ }
+}

@@ -54,7 +54,7 @@
 | Lect | Lect | 货币，保留英文 |
 | OTP / one time pad | OTP／一次性密码本 | 原文有双关（重复使用表块），按句处理 |
 | teleportal | 传送门 | 区域间传送 |
-| anti-grav anklet | 反重力踝环 | 装备名 |
+| anti-grav anklet | 反重力脚环（UI 道具名即「脚环」） | 全库正文以「脚环」为主；「踝环」是少数写法，不据此反改 |
 | keycard / key | 门卡／钥匙 | 开门与开镣铐不是同一物 |
 | security door | 安保门 | |
 | shaft | 竖井／出入竖井 | 矿井结构 |
