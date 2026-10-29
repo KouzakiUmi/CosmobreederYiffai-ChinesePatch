@@ -1,0 +1,56 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P05b-101	ds	A	format	SCcba3ef8792e37240	CAT:Od65baabc30d343ed6f34	apply	  Bossu: [有报道称，吸足灵能的「跳跃者」会变成「牛蛙」，能从远处朝目标喷泡泡，也能用长舌头伤人。]	工单四之二点名超限：原译 62 字实测 4 行。取 DS 版（Gemini 版压到 32 字，「有报道称」削成「据报」，图鉴资料口吻丢得过多）。保留报道来源、灵能吸收条件、变形结果、远程泡泡、长舌伤人五项，只去掉「一只」「只要…就」「甚至还能用新长出来的修长」。224px／240px 实测均 3 行。
+ds:P05b-102	ds	A	format	SC3a9d5c967ef75eca	CAT:O829863279bb55814844e	apply	  Bossu: [这些轮式小无人机曾用来运送矿井里的矿石和工具，但已被改装，加上了简陋尖刺和搜寻入侵者的逻辑。]	工单四之二点名超限：原译 59 字实测 4 行。取 DS 版（Gemini 版把「矿石和工具」并成「矿井运输」，丢掉运送对象这个具体事实）。保留时间对比、运送对象、尖刺、搜敌逻辑四项，224px／240px 实测均 3 行。
+gemini:P05b-102	gemini	A	term	SCcf775d50518b2323	CAT:Oc2b7948077102e9eef2f	apply	  Bossu: [那些银色带刺的机器人叫做「刺虫」。]	正文把条目名 SPIKERS 原样留作英文、用半角双引号、句末无标点。词典条目名是「刺虫」，两路这次独立得出同一结论。
+gemini:P05b-104	gemini	A	term	SCcb7d60767094d0c1	CAT:O92e36425c795c5a40b5f	apply	  Bossu: [作为一种纳米机械机器人，那些「钻探者」单元会持续自我修复。它们会不知疲倦地钻掘。]	正文残留未译条目名 DRILLER，词典条目名是「钻探者」。取 Gemini 版而非 DS 版：DS 把「纳米机械机器人」缩成「纳米机械体」，丢掉原文 ROBOT 那一层。
+gemini:P05b-105	gemini	A	term	SCcb7d60767094d0c1	CAT:O4afe981d246566c2effd	apply	  Bossu: [的确，特工。「钻探者」单元只在预定范围内活动，不会越界。]	同场第二次 DRILLER 未译；与上一条同一术语。
+gemini:P05b-106	gemini	A	term	SC390bee8a49306aa9	SFW5fe97bce50fdf703794c4a44	apply	  Bossu: [作为一种纳米机械机器人，那些「钻探者」单元会持续自我修复。它们会不知疲倦地钻掘。]	女版同句；与上一条同改。
+gemini:P05b-107	gemini	A	term	SC390bee8a49306aa9	SFW96fcd436dc8d303fb470be4f	apply	  Bossu: [的确，特工。「钻探者」单元只会在它们预定的边界之内运作。]	女版同场；与上两条同改。
+ds:P05b-108	ds	A	term	SC22000b29b74a37c9	CAT:O850e5e85f7d25926e88d	apply	  Bossu: [啊，那似乎是「阻挡者」的缩小版。]	BLOCKER 未译。词典条目名是「阻挡者」；同时补行末句号。与 part03 同类行同一口径。
+ds:P05b-106	ds	A	meaning	SCf220ad115895cc8e	CAT:O2efd47e2bce33a316b21	apply	  Bossu: [听见了。看来图托恩的矿，都"认了主"。]	本行残留未译的 mine。取 DS 版「认了主」而非 Gemini 版「都埋了地雷」：原文 THE MINES HAVE BEEN MINED 的双关是本场笑点支点，下一行伊吠才会误解成「矿井里当然有矿」。直译「埋了地雷」把误解提前拆掉，后面毛鼠的解释就成废话。同批 MineWall 女版已用「认了主」。
+R9M-701	R9M-701	A	meaning	SCf220ad115895cc8e	CAT:O19a64d3545f4e849130e	apply	  Bossu: [我说的是"雷"炸了。]	本行同样残留 mine。原文 THE EXPLOSIONS FROM THE MINES 是波苏把 mine 拨回「地雷」那一层；用「"雷"炸了」既清掉英文，又保住「他说的不是矿」这层反转。两路的「地雷炸了」都说破了，波苏的机锋没了。
+R9M-702	R9M-702	B	term	SCf85bf54dd38c63d4	SFW9d77dbbdc02ceee322e5d387	apply	  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到 LECT 的事，他们都干！]	词典条目名即大写 LECT；batch-03 已定「LECT 与其它货币名并列时两侧留半角空格」。本行源文 LECT 大写但译成小写 lect 且紧贴汉字，一并归位。
+R9M-703	R9M-703	B	term	SCdd1003a024a00fd3	SFWf5e2d63876c039cc8f63fe79	apply	  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，还干任何到头来能赚到 LECT 的营生！]	男线同场同句的另一种措辞，LECT 紧贴汉字且行尾带两个半角空格；一并归位。
+ds:P05b-111	ds	B	term	SC54121e70d4d54642	SFW58fcacb717e1d3c1e0d0f53b	apply	  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]	同一场里物种名先作 Fenfen 后作 FENFEN。全库 124 处作 Fenfen、仅 3 处全大写；两侧保留半角空格（与本作其它外来名一致）。中文条目名待裁。
+ds:P05b-104	ds	B	meaning	SC1ed8b1131ee2b80b	CAT:Odcf4e4e895a30ca6a957	apply	  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非个个都能长生不死。]	原文 MAY 是总部掌握的推测，现译「虽说全是雌性」把推测升成断言。同 root 另三版同句作「也许…」，与 part01、part03 的同类修正同一口径。
+ds:P05b-105	ds	B	meaning	SC8a64100509cd1232	CAT:Oa299621be2e312a2d893	apply	  Bossu: [斯凯菲亚的精灵也许全是雌性，却并不个个长生不老。]	同上一处；女版两场都要改，否则男改女不改。
+ds:P05b-103	ds	B	meaning	SCe9f5656bf5b59b65	SFWa39a9d33f4a69ccb44eca74d	apply	  Bossu: [它们从字面上说就不可能被摧毁！]	LITERALLY 是本场笑点关键词：下行伊吠立刻反问 LITERALLY?／FIGURATIVELY RIGHT?，中文只写「根本就不可能」就把这个对举拆掉了。补「从字面上说」即可，语气强度不变。
+gemini:P05b-101	gemini	B	format	SC0d0a5f0289b723af	SFWe2912d7e0113891885a0b1eb	apply	  Bossu: [波苏在此，出什么问题了，特工？]	「波苏 在此」中间夹半角空格，是 R1 把 `[BOSSU 在此…]` 换成中文名后留下的排版残留。只删空格，与 part01 同一改法。
+gemini:P05b-118	gemini	B	format	SCb84957d4bbe46c64	CAT:Oafa2c8f4181a40861975	apply	  Yiffai: [对啊！那是在矿坑里，但是——]	被打断处的半角短横改全角破折号；全批其它被打断处一律用「——」。
+gemini:P05b-120	gemini	C	format	SC1bfee9d188c714cf	CAT:O9ff19728e3075adbd1c4	apply	  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]	两条英文合并在本行，句子在此完结而缺句号；同 root 另一版已作「你自己选。」。
+gemini:P05b-121	gemini	C	format	SCe9f5656bf5b59b65	SFW61ed973476ffe97340e5e182	apply	  Bossu: [小心那些四处巡逻的带刺无人机。]	整句到此为止，下一行是新句子；中文无句末标点会与下一行粘成一串。
+gemini:P05b-123	gemini	C	format	SC9ede255817e3dec1	CAT:O2072f53beec326800614	apply	  Bossu: [要是你遇见近视的棕毛小动物，那些小家伙叫作「吱吱怪」。]	本行是完整句子，下一行换说话人，中文缺句末标点。
+gemini:P05b-125	gemini	C	format	SC22000b29b74a37c9	CAT:O66f75236f0ade5bd8183	apply	  Bossu: [它应该也一样对物理伤害免疫。]	本行是完整句子，下一行是新句；缺句末标点。
+ds:P05b-117	ds	C	format	SC51e58355ec29489c	CAT:Oc1e29058d884edf3ce2e	apply	  Bossu: [干掉它，但别被围住，才能活下来。]	本场收尾行缺句号，与同 root 其它场收尾不一致。Gemini 亦报（P05b-126），同处。
+ds:P05b-118	ds	C	format	SCdb81ad56e11ce1c1	CAT:O07cc193f119910e57da1	apply	  Yiffai: [我不记得简报里提到过这个区域。]	本行是完整句子，下一行换波苏说话；缺句末标点。Gemini 亦报（P05b-127），同处。
+ds:P05b-119	ds	C	format	SC8d856f259bdafc17	CAT:O9f345ddefcefdc2e1260	apply	  Yiffai: [我不记得简报里提到过这个区域。]	女版同句同改。Gemini 亦报（P05b-128），同处。
+gemini:P05b-109	gemini	C	format	SC88fb3f2b7b4acd86	SFWf25c39e15833ca1e59294c34	apply	  Bossu: [不管怎样，小心点，特工！]	行尾残留两个半角空格，会参与行宽测量。只删空格。
+ds:P05b-107	ds	B	term	SCcf775d50518b2323	CAT:Oc2b7948077102e9eef2f	reject		与本表 gemini:P05b-102 同一行同一处改动；DS 版多加了「的」（「银色的带刺机器人」），中文里「银色带刺」不加「的」更紧、也少两个字宽。按 Gemini 版落地。
+ds:P05b-109	ds	B	term	SCcb7d60767094d0c1	CAT:O92e36425c795c5a40b5f	reject		与本表 gemini:P05b-104 同一行；DS 版把「纳米机械机器人」缩成「纳米机械体」，丢掉原文 ROBOT 那一层，取 Gemini 版。
+ds:P05b-110	ds	B	term	SC390bee8a49306aa9	SFW5fe97bce50fdf703794c4a44	reject		同上：女版同句，取 Gemini 版。
+gemini:P05b-103	gemini	A	format	SCcba3ef8792e37240	CAT:Od65baabc30d343ed6f34	reject		与本表 ds:P05b-101 同一处超限压缩；Gemini 版压到 32 字，「有报道称」削成「据报」，图鉴资料口吻损失过多，取 DS 版。
+gemini:P05b-122	gemini	A	format	SC3a9d5c967ef75eca	CAT:O829863279bb55814844e	reject		与本表 ds:P05b-102 同一处超限压缩；Gemini 版把「矿石和工具」并成「矿井运输」，丢掉运送对象这个具体事实，取 DS 版。
+gemini:P05b-113	gemini	A	format	SCf220ad115895cc8e	CAT:O2efd47e2bce33a316b21	reject		与本表 ds:P05b-106 同一行；Gemini 版直译「都埋了地雷」会把伊吠的误解提前拆掉，取 DS 版「认了主」。
+gemini:P05b-114	gemini	A	format	SCf220ad115895cc8e	CAT:O19a64d3545f4e849130e	reject		与本表 R9M-701 同一行；Gemini 版「地雷炸了」把波苏的机锋说破，取「我说的是"雷"炸了」。
+gemini:P05b-108	gemini	B	continuity	SC54121e70d4d54642	SFW58fcacb717e1d3c1e0d0f53b	reject		与本表 ds:P05b-111 同一行；Gemini 版把 Fenfen 改成紧贴汉字，全库 Fenfen 两侧留半角空格，取 DS 版。
+gemini:P05b-110	gemini	B	format	SC86ba5caa7762044d	CAT:O8a72fe0a3efd2de5d5aa	reject		本行已作「跳跃者」，术语正确；提案只把弯引号改直角引号，而引号体例属跨批裁决，本批不动。
+gemini:P05b-115	gemini	B	format	SCf220ad115895cc8e	CAT:O4ce17e34926e486d759d	reject		本行句内引号「“这矿是我家的，谁也别碰！”」的体例属跨批裁决，本批不动。
+gemini:P05b-116	gemini	B	format	SCb84957d4bbe46c64	CAT:O211d32bcfc1ea166f9a9	reject		本行「都"认了主"」的引号体例属跨批裁决。措辞与男线另一场（CAT:O2efd47e2bce33a316b21）保持一致的判断已在 ds:P05b-106 落地，本条只涉及标点体例，不另立操作。
+gemini:P05b-117	gemini	B	format	SCb84957d4bbe46c64	CAT:O3ff7c6da1113e0f47ee0	reject		与本表 R9M-702 同一行同一处（半角问号＋空格），已按行落地。
+gemini:P05b-119	gemini	B	format	SCb84957d4bbe46c64	CAT:O58d4ef1a57096949cd79	reject		本行引号体例属跨批裁决，本批不动。
+gemini:P05b-112	gemini	B	format	SCf85bf54dd38c63d4	SFW9d77dbbdc02ceee322e5d387	reject		与本表 R9M-702 同一行；Gemini 版写成「Lect」小写，词典条目名是大写 LECT，取 R9M-702 的写法。
+ds:P05b-112	ds	C	term	SCf85bf54dd38c63d4	SFW9d77dbbdc02ceee322e5d387	reject		与本表 R9M-702 同一行同一处（LECT 排版）。DS 版作「捞到LECT的事」紧贴汉字，全库与前作 batch-03 的定法是两侧留半角空格，取 R9M-702 的写法。
+ds:P05b-113	ds	C	format	SC0d0a5f0289b723af	SFWe2912d7e0113891885a0b1eb	reject		与本表 gemini:P05b-101 同一行同一处（删「波苏 在此」的半角空格），已按行落地。
+ds:P05b-114	ds	C	format	SCb84957d4bbe46c64	CAT:Oafa2c8f4181a40861975	reject		与本表 gemini:P05b-118 同一行同一处（半角短横改破折号），已按行落地。
+ds:P05b-115	ds	C	format	SCe9f5656bf5b59b65	SFW61ed973476ffe97340e5e182	reject		与本表 gemini:P05b-121 同一行同一处，已按行落地。
+ds:P05b-116	ds	C	format	SC22000b29b74a37c9	CAT:O66f75236f0ade5bd8183	reject		与本表 gemini:P05b-125 同一行同一处，已按行落地。
+ds:P05b-120	ds	C	format	SC1bfee9d188c714cf	CAT:O9ff19728e3075adbd1c4	reject		与本表 gemini:P05b-120 同一行同一处，已按行落地。
+ds:P05b-121	ds	C	format	SC9ede255817e3dec1	CAT:O2072f53beec326800614	reject		与本表 gemini:P05b-123 同一行同一处，已按行落地。
+ds:P05b-122	ds	C	format	SC88fb3f2b7b4acd86	SFWf25c39e15833ca1e59294c34	reject		与本表 gemini:P05b-109 同一行同一处，已按行落地。
+gemini:P05b-124	gemini	A	term	SC22000b29b74a37c9	CAT:O850e5e85f7d25926e88d	reject		与本表 ds:P05b-108 同一行同一处（Blocker→阻挡者并补句号）；Gemini 版多加直角引号，本批不改引号体例，取 DS 版。
+gemini:P05b-126	gemini	B	format	SC51e58355ec29489c	CAT:Oc1e29058d884edf3ce2e	reject		与本表 ds:P05b-117 同一行同一处，已按行落地。
+gemini:P05b-127	gemini	B	format	SCdb81ad56e11ce1c1	CAT:O07cc193f119910e57da1	reject		与本表 ds:P05b-118 同一行同一处，已按行落地。
+gemini:P05b-128	gemini	B	format	SC8d856f259bdafc17	CAT:O9f345ddefcefdc2e1260	reject		与本表 ds:P05b-119 同一行同一处，已按行落地。
+gemini:P05b-111	gemini	B	format	SCdd1003a024a00fd3	SFWf5e2d63876c039cc8f63fe79	reject		与本表 R9M-703 同一行，只删行尾空格。本表 R9M-703 一并处理 LECT 排版，本条不另立操作。
+ds:P05b-123	ds	needs_evidence	source_uncertainty	SCc39f2393aa7808ee	CAT:O552f8ae2a529ef475b11	hold		原文 ACTUAL_HINTS 带下划线，不像正常英文，也不在本批保护标记清单内。不确定是源文件占位符残留（应译成「真正有用的提示」）还是游戏会替换的标记（必须原样保留），全 root 共 6 处同文。未提案。
+R9M-704	R9M-704	C	format	SC86ba5caa7762044d	CAT:O8a72fe0a3efd2de5d5aa	hold		全批「“”」与「「」」两套引号并存，属跨 part 格式裁决。本批只在既有行内保持原体例，不做全局统一——单批统一只会让批与批之间更不一致。

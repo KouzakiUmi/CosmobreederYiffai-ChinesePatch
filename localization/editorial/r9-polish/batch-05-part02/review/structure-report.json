@@ -22,25 +22,98 @@
    "rows_proposed": 28
   },
   "ds": {
-   "findings": 0,
-   "coverage": 0,
-   "problems": [
-    "missing findings.jsonl",
-    "missing coverage.jsonl"
-   ],
-   "severity": {},
-   "categories": {},
-   "status": {},
-   "rows_proposed": 0
+   "findings": 23,
+   "coverage": 50,
+   "problems": [],
+   "severity": {
+    "B": 10,
+    "C": 12,
+    "needs_evidence": 1
+   },
+   "categories": {
+    "format": 12,
+    "meaning": 4,
+    "term": 6,
+    "source_uncertainty": 1
+   },
+   "status": {
+    "proposal": 22,
+    "needs_evidence": 1
+   },
+   "rows_proposed": 23
   }
  },
  "cross": {
-  "rows_with_proposal": 28,
-  "rows_both_routes": 0,
-  "rows_identical_text": 0,
-  "rows_conflicting_text": 0,
-  "only_gemini": 28,
-  "only_ds": 0,
-  "conflicts": []
+  "rows_with_proposal": 31,
+  "rows_both_routes": 19,
+  "rows_identical_text": 10,
+  "rows_conflicting_text": 9,
+  "only_gemini": 9,
+  "only_ds": 3,
+  "conflicts": [
+   {
+    "row_id": "CAT:Oc2b7948077102e9eef2f",
+    "scene_id": "SCcf775d50518b2323",
+    "current": "  Bossu: [那些银色带刺的机器人叫做“SPIKERS”]",
+    "gemini": "  Bossu: [那些银色带刺的机器人叫做「刺虫」。]",
+    "ds": "  Bossu: [那些银色的带刺机器人叫做「刺虫」。]"
+   },
+   {
+    "row_id": "CAT:Od65baabc30d343ed6f34",
+    "scene_id": "SCcba3ef8792e37240",
+    "current": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]",
+    "gemini": "  Bossu: [据报「跳跃者」吸足灵能会化为「牛蛙」，能远射泡泡，并以长舌伤人。]",
+    "ds": "  Bossu: [有报道称，「跳跃者」吸够灵能就会变成「牛蛙」，能从远处喷吐泡泡，还会用新长出的修长舌头伤人。]"
+   },
+   {
+    "row_id": "CAT:O92e36425c795c5a40b5f",
+    "scene_id": "SCcb7d60767094d0c1",
+    "current": "  Bossu: [作为一种纳米机械机器人，那些'DRILLER'单元会持续自我修复。它们会不知疲倦地钻掘。]",
+    "gemini": "  Bossu: [作为一种纳米机械机器人，那些「钻探者」单元会持续自我修复。它们会不知疲倦地钻掘。]",
+    "ds": "  Bossu: [作为一种纳米机械体，那些「钻探者」单元会持续自我修复，还会不知疲倦地钻掘。]"
+   },
+   {
+    "row_id": "SFW5fe97bce50fdf703794c4a44",
+    "scene_id": "SC390bee8a49306aa9",
+    "current": "  Bossu: [作为一种纳米机械机器人，那些'DRILLER'单元会持续自我修复。它们会不知疲倦地钻掘。]",
+    "gemini": "  Bossu: [作为一种纳米机械机器人，那些「钻探者」单元会持续自我修复。它们会不知疲倦地钻掘。]",
+    "ds": "  Bossu: [作为一种纳米机械体，那些「钻探者」单元会持续自我修复，还会不知疲倦地钻掘。]"
+   },
+   {
+    "row_id": "SFW58fcacb717e1d3c1e0d0f53b",
+    "scene_id": "SC54121e70d4d54642",
+    "current": "  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]",
+    "gemini": "  Bossu: [我们只有那些关于Fenfen服装散落各处的报告。]",
+    "ds": "  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]"
+   },
+   {
+    "row_id": "SFW9d77dbbdc02ceee322e5d387",
+    "scene_id": "SCf85bf54dd38c63d4",
+    "current": "  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到 lect 的事，他们都干！]",
+    "gemini": "  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到Lect的事，他们都干！]",
+    "ds": "  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，凡是最后能捞到LECT的事，他们都干！]"
+   },
+   {
+    "row_id": "CAT:O2efd47e2bce33a316b21",
+    "scene_id": "SCf220ad115895cc8e",
+    "current": "  Bossu: [听见了。看来图托恩的矿井里都埋了mine。]",
+    "gemini": "  Bossu: [听见了。看来图托恩的矿井里都埋了地雷。]",
+    "ds": "  Bossu: [听见了。看来图托恩的矿，都\"认了主\"。]"
+   },
+   {
+    "row_id": "CAT:O829863279bb55814844e",
+    "scene_id": "SC3a9d5c967ef75eca",
+    "current": "  Bossu: [那些小小的轮式无人机曾经用来运送矿井里的矿石和工具，但这些单元已经被加上简陋尖刺和搜寻入侵者的逻辑，经过了改装。]",
+    "gemini": "  Bossu: [这些轮式无人机原用于矿井运输，现已被改装上粗糙尖刺与搜敌逻辑。]",
+    "ds": "  Bossu: [这些轮式小无人机曾用来运送矿井里的矿石和工具，但已被改装，加上了简陋尖刺和搜寻入侵者的逻辑。]"
+   },
+   {
+    "row_id": "CAT:O850e5e85f7d25926e88d",
+    "scene_id": "SC22000b29b74a37c9",
+    "current": "  Bossu: [啊，那似乎是Blocker的缩小版]",
+    "gemini": "  Bossu: [啊，那似乎是「阻挡者」的缩小版。]",
+    "ds": "  Bossu: [啊，那像是「阻挡者」的缩小版。]"
+   }
+  ]
  }
 }
