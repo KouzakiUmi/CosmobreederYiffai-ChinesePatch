@@ -1,0 +1,5 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O48ed0e32b742e8e4575a	SCde8682ffd4c1a8db	gemini	A	  Tomcat: [他说这和其他能力一样，按“UP”+“攻击”就能发动。]	  Tomcat: [他说这和其他能力一样，按 UP+ATTACK 就能发动。]		gemini:P06a-104:A
+SFWc8955b6c8cb045aa7ccda44a	SC77c24f0ada1e4704	gemini	B	  Tomcat: [你看见什么了，鬼，还是狗头人，还——]	  Tomcat: [你看见什么了，鬼，还是科博德，还——]		gemini:P06a-102:B
+SFWf2ae993f4008c4fe8ec96060	SC5e0cdd319089fe83	gemini	B	  Tomcat: [那是瓶奶油，不知道那只狗头人为什么带着，]	  Tomcat: [那是瓶奶油，不知道那只科博德为什么带着，]		gemini:P06a-103:B
+SFWfbb3a40e26235475f2eb0739	SCcf94f585c1e0205e	gemini	B	  Yiffai: [对、对……不能当PUPLOCK船长……]	  Yiffai: [对、对……不能当帕普洛克船长……]		gemini:P06a-101:B

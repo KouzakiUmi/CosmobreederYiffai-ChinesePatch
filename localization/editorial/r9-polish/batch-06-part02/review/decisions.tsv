@@ -1,0 +1,44 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P06b-101	ds	A	format	SC98f7cfffc1d98d81	CAT:Ob2dee70046f920c2187b	apply	  Tomcat: [严格说，是场衰减棱镜。有只生物很喜欢你的话，抚摸它就能给水晶充能！效果因生物而异！]	工单四之二点名超限：原译 56 字实测 4 行。取 DS 版——Gemini 版把「如果你有一只很喜欢你的生物」的条件从句并成「抚摸亲近你的生物」，条件被压扁。保留场衰减棱镜技术名、抚摸充能的条件、效果因生物而异三项。240px／224px 均 3 行。
+ds:P06b-102	ds	A	format	SC402d4d6938e5e2f8	CAT:O5b04f565832c0afe4716	apply	  Yiffany: [光是握着它，我就能想象它原主：高大强壮的海盗，清楚要什么也肯去夺，必要时还来粗的……呵……]	工单四之二点名超限：原译 68 字实测 4 行。取 DS 版——Gemini 版删掉「光是握着它，我就能想象」的第一人称与「海盗」，叙述视角被压成旁白。保留握持带出的想象、海盗身份、想要就夺、来粗的调侃四层。240px／224px 均 3 行。
+ds:P06b-103	ds	A	format	SC1b7d7674505bff42	CAT:Ob0a366ecee3d12369186	apply	  Tomcat: [收到的报告说，战斗中特工按“SELECT”选能力，再同时按“UP”+“ATTACK”使出相应能力。]	工单四之二点名超限：原译 54 字实测 4 行。取 DS 版——Gemini 版去掉按键原有引号并删「特工」，按键标记的引号位置不该动。保留报告来源、战斗时机、两段按键与相应能力。240px／224px 均 3 行。
+ds:P06b-116	ds	B	term	SCc7219f770fd727bd	CAT:O55642f0cd75514b5487f	apply	  Tomcat: [就————是这样，只要没选中你那些古怪能力，再按 UP+ATTACK，你就能轻松荡过任何缺口。]	UP+ATTACK 是按键名，硬约束要求原样保留；本行把 ATTACK 译成「攻击」，而同场上一行已作 UP+ATTACK。全库另有 3 处同类，不在本批范围，见 R9M-801。
+ds:P06b-113	ds	B	term	SCc7219f770fd727bd	CAT:Oc4e268d6c7f9606c176e	apply	  Tomcat: [我看见你捡到一把钩爪了。]	词典条目名是「钩爪」（正文 5 处），同场下一行也作「射出钩子」；「钩锁」只有 2 处，是生成时引入的偏差。
+ds:P06b-115	ds	B	term	SCee370120c1add128	SFWef3ed480dcecf1e20feb726f	apply	  Tomcat: [不错嘛！伙计，你弄到个超能护腕。]	词典条目名是「超能护腕」（正文 6 处）；「助推护腕」4 处是另一套自造写法。下一行说的是宇宙育种者制服的标准配备，讲的是护腕本身而不是助推。
+ds:P06b-114	ds	B	term	SCd2d37898261b3679	SFW5237a81d29f62b4324b94509	apply	  Tomcat: [那是瓶奶油，不知道那只科博德为什么带着，]	KOBO 旧译「狗头人」残留。全库 99 处作「科博德」，batch-02 已把同 root 四处改为「科博德」，两路本批也都独立报出这一行。本行与 part01、part03 的同类行一并归位。
+ds:P06b-120	ds	C	term	SC697e41200820bfc3	CAT:O6d2d0938707e2671f7ee	apply	  Tomcat: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]	HEAVY EQUIPMENT 在同 root 另两处作「重型装备」，「重型设备」只此一处；中文里装备与机械分属两义。
+ds:P06b-112	ds	C	format	SCb95ded726391ead1	SFWbc5cc86ccd1e5b602060afce	apply	  Tomcat: [别忘了从P.A.W.菜单装备新装具，]	终端设备名 P.A.W. 带句点；本批 11 处中 10 处带点，全库 126/135。只补一个点。
+ds:P06b-119	ds	B	meaning	SC02a295fdd4ce3288	CAT:Oc91c83e4cdc8b678f7ca	apply	  Tomcat: [你能打开不超过门上所标等级的门！]	原文 UP TO THE LEVEL DISPLAYED ON THEM 的 ON THEM 指门；现译「门卡上标的等级」把等级挪到卡上，与上一行「带着卡走向能量门」的流程对不上。同 root 另一场作「门上所标数字」，此处对齐。
+ds:P06b-121	ds	B	meaning	SC7c140d8789921bd4	CAT:O58a8bc357f215af96425	apply	  Tomcat: [那些矮人可不含糊，整天挥着矿镐，仿佛镐永远用不完。]	原文 A SEEMINGLY ENDLESS SUPPLY 的 supply 指镐的供应，不是力气；现译「有用不完的力气」把 supply 换成 strength，下一行「以你的臂力，一柄镐只能扔一次」就失去对照——正因为镐子管够才轮得到谈臂力。
+ds:P06b-118	ds	B	meaning	SC7c140d8789921bd4	CAT:Oc9f59822d5eac630e893	apply	  Yiffany: [正好练习把你这醉鬼扔出去。]	「把你喝醉了扔出去」结构读不通（把＋小句＋动词）；原文 TOSSING YOUR DRUNK ASS OUT 的 drunk 修饰的是人。改「你这醉鬼」，粗鲁口气不变。
+ds:P06b-117	ds	B	meaning	SC3d2188fd9a93a192	CAT:O6e42a687b7b5142545d6	apply	  Yiffany: [你的冒险精神呢？总不会比我当幼犬时吞咬胶玩具更糟吧。]	「小时候还是幼犬时」同义重复；「吞嚼咬玩具」三个动词粘连，且小时候／幼犬时时间概念也重复。压成「当幼犬时吞咬胶玩具」，去重但保留自嘲。
+ds:P06b-109	ds	B	format	SCf1afacab8b490ab5	CAT:O43db1d3f119b3d993d43	apply	  Tomcat: [帮你退热？可我没检测到发情阻断剂——]	被截断处用半角短横，12px 渲染成一个孤立小横；全批其它被打断处一律用全角破折号。
+ds:P06b-110	ds	B	format	SCf8a6dc40532003a9	CAT:O744b79c1c011adbde147	apply	  Yiffai: [好、好吃？？我根本不知道它从哪来的！]	结巴处的半角连字符「好-好吃」在中文里应作顿号，与本作其它结巴写法（「这、这些」「那、那个」）一致。
+ds:P06b-111	ds	B	format	SCf8a6dc40532003a9	CAT:Oce244fa1bcbdab27de40	apply	  Yiffai: [呃，行、行吧……]	同上一处：结巴的「行-行吧」改顿号。
+gemini:P06b-111	gemini	B	format	SCd3fafd3fc4ec71b5	CAT:O4870d76097f0ff06c40b	reject		与本表 ds:P06b-105 同一行同一处（行尾空格），两路同报，取 DS 条落地。
+gemini:P06b-112	gemini	B	format	SC31c3eb95087c123b	SFWef357f51c8946f52fae37937	reject		与本表 ds:P06b-106 同一行同一处（行尾空格），取 DS 条落地。
+gemini:P06b-113	gemini	B	format	SC9e41563e4f4e174d	SFWfc9037c0f28620c6852ab2a8	reject		与本表 ds:P06b-107 同一行同一处（行尾空格），取 DS 条落地。
+gemini:P06b-119	gemini	B	format	SC5ef5b1f865e8f630	SFW3343802ef63d663f3660bc5a	reject		与本表 ds:P06b-108 同一行同一处（行尾空格），取 DS 条落地。
+ds:P06b-104	ds	C	format	SCa8a95fb3ce5d53c6	CAT:Oe5a231cc4d9e633eee60	apply	  Tomcat: [谁都需要偶尔放松一下嘛！]	行尾残留一个半角空格。
+ds:P06b-105	ds	C	format	SCd3fafd3fc4ec71b5	CAT:O4870d76097f0ff06c40b	apply	  Yiffany: [还真是……让人信心十足啊。好吧，反正都买了，那我就用精神力来试试它们吧。]	行尾残留一个半角空格。
+ds:P06b-106	ds	C	format	SC31c3eb95087c123b	SFWef357f51c8946f52fae37937	apply	  Tomcat: [别忘了常打电话！]	行尾残留一个半角空格。
+ds:P06b-107	ds	C	format	SC9e41563e4f4e174d	SFWfc9037c0f28620c6852ab2a8	apply	  Yiffai: [我……我没事……大概吧？]	行尾残留一个半角空格。
+ds:P06b-108	ds	C	format	SC5ef5b1f865e8f630	SFW3343802ef63d663f3660bc5a	apply	  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]	行尾残留两个半角空格。
+gemini:P06b-101	gemini	B	format	SCa8a95fb3ce5d53c6	CAT:O541f42c80f4fbc6cf597	apply	  Tomcat: [慢慢看卡片背面吧，小狗。]	本行是完整句子，下一行换说话人，中文缺句末标点。
+gemini:P06b-103	gemini	B	format	SCaf06e84aa78a2053	CAT:Ofe8ac30ba26b1884a093	apply	  Tomcat: [也许这就是你老是打起来的原因。]	整句到此为止而缺句号。
+gemini:P06b-104	gemini	B	format	SCaf06e84aa78a2053	CAT:O768cea2d479d12e9f8ce	apply	  Tomcat: [别忘了你身上有光电击枪。]	本行是完整句子，缺句末标点。
+gemini:P06b-106	gemini	B	format	SC482bb4b337f47c4b	CAT:Oc87bcb7acc3b7f1ff8cd	apply	  Tomcat: [……不然我可要笑话你只穿半套。]	本行是完整句子，缺句末标点。
+gemini:P06b-107	gemini	B	format	SC7448d19afd51c44b	SFWc5e23ee896f111f0f005b6ce	apply	  Tomcat: [……不然我可要笑话你只穿半套。]	女版同句同改。
+gemini:P06b-108	gemini	B	format	SCb2a956e8d103a5be	CAT:O3e4c08e080f8e8cd30d9	apply	  Tomcat: [你拿到的茶叶泡得真讲究。]	整句到此为止而缺句号。
+gemini:P06b-115	gemini	B	format	SC74fe42a6bc7eef00	CAT:O208326367675789a3353	apply	  Tomcat: [你捡到的那块瓜可真够大的。]	整句到此为止而缺句号。
+gemini:P06b-116	gemini	B	format	SCc271c5bf873cfb2f	CAT:Oa8d620d683abd5b7dbde	apply	  Tomcat: [你手上拿的可是一颗火辣辣椒。]	整句到此为止而缺句号。
+gemini:P06b-118	gemini	B	format	SC1c0e8e24cfeaa003	SFW24e4b6642bae0225a07bfe07	apply	  Tomcat: [就算其他特工的故事都是真的，]	本行是未完分句，下一行接着说完，中文缺逗号承接。只补逗号，不动措辞。
+gemini:P06b-102	gemini	B	format	SCf1afacab8b490ab5	CAT:O43db1d3f119b3d993d43	reject		与本表 ds:P06b-109 同一行同一处（半角短横改破折号），已按行落地。
+gemini:P06b-114	gemini	B	term	SCd2d37898261b3679	SFW5237a81d29f62b4324b94509	reject		与本表 ds:P06b-114 同一行同一处（狗头人→科博德），两路独立得出同一结论，取 DS 的措辞落地。
+gemini:P06b-105	gemini	B	format	SC482bb4b337f47c4b	CAT:O93e4739a3588fc5358e3	reject		与本表 ds:P06b-105 同一行（KoboHead 那行的行尾空格），已由 DS 条落地；本条不另立操作。
+gemini:P06b-110	gemini	A	gameplay	SCc7219f770fd727bd	CAT:O55642f0cd75514b5487f	reject		与本表 ds:P06b-116 同一行同一处（UP+攻击→UP+ATTACK），已按行落地。
+gemini:P06b-109	gemini	A	format	SC98f7cfffc1d98d81	CAT:Ob2dee70046f920c2187b	reject		与本表 ds:P06b-101 同一处超限压缩；Gemini 版把条件从句压扁，取 DS 版。
+gemini:P06b-117	gemini	A	format	SC402d4d6938e5e2f8	CAT:O5b04f565832c0afe4716	reject		与本表 ds:P06b-102 同一处超限压缩；Gemini 版删掉第一人称与「海盗」，取 DS 版。
+gemini:P06b-120	gemini	A	format	SC1b7d7674505bff42	CAT:Ob0a366ecee3d12369186	reject		与本表 ds:P06b-103 同一处超限压缩；Gemini 版去掉按键引号并删「特工」，取 DS 版。
+R9M-801	R9M	B	gameplay	SCc7219f770fd727bd	CAT:O55642f0cd75514b5487f	hold		UP+ATTACK 被译成「UP+攻击」全库共 5 处；本表已改本批范围内的一处（ds:P06b-116）。另处分布在 Mauser.AreaB_map10、Tomcat.AreaC_map64（两行）与 TomcatItems.SpecialHookshot 的女版，都不在 batch-06 的 root 里，登记待后续批次一并归位，避免只改一半。
+R9M-802	R9M	C	format	SC98f7cfffc1d98d81	CAT:Ob2dee70046f920c2187b	hold		全批「“”」与「「」」两套引号并存，属跨 part 格式裁决。本批只在既有点位保留原体例，不做全局统一。

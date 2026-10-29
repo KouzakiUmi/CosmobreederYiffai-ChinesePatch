@@ -1,0 +1,44 @@
+{
+ "batch": "batch-06-part01",
+ "routes": {
+  "gemini": {
+   "findings": 4,
+   "coverage": 65,
+   "problems": [],
+   "severity": {
+    "B": 3,
+    "A": 1
+   },
+   "categories": {
+    "format": 1,
+    "term": 2,
+    "gameplay": 1
+   },
+   "status": {
+    "proposal": 4
+   },
+   "rows_proposed": 5
+  },
+  "ds": {
+   "findings": 0,
+   "coverage": 0,
+   "problems": [
+    "missing findings.jsonl",
+    "missing coverage.jsonl"
+   ],
+   "severity": {},
+   "categories": {},
+   "status": {},
+   "rows_proposed": 0
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 4,
+  "rows_both_routes": 0,
+  "rows_identical_text": 0,
+  "rows_conflicting_text": 0,
+  "only_gemini": 4,
+  "only_ds": 0,
+  "conflicts": []
+ }
+}

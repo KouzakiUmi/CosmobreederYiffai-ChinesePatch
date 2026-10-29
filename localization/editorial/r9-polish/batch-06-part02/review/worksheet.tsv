@@ -1,0 +1,21 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O208326367675789a3353	SC74fe42a6bc7eef00	gemini	B	  Tomcat: [你捡到的那块瓜可真够大的]	  Tomcat: [你捡到的那块瓜可真够大的。]		gemini:P06b-115:B
+CAT:O3e4c08e080f8e8cd30d9	SCb2a956e8d103a5be	gemini	B	  Tomcat: [你拿到的茶叶泡得真讲究]	  Tomcat: [你拿到的茶叶泡得真讲究。]		gemini:P06b-108:B
+CAT:O43db1d3f119b3d993d43	SCf1afacab8b490ab5	gemini	B	  Tomcat: [帮你退热？可我没检测到发情阻断剂-]	  Tomcat: [帮你退热？可我没检测到发情阻断剂——]		gemini:P06b-102:B
+CAT:O4870d76097f0ff06c40b	SCd3fafd3fc4ec71b5	gemini	B	  Yiffany: [还真是……让人信心十足啊。好吧，反正都买了，那我就用精神力来试试它们吧。] 	  Yiffany: [还真是……让人信心十足啊。好吧，反正都买了，那我就用精神力来试试它们吧。]		gemini:P06b-111:B
+CAT:O541f42c80f4fbc6cf597	SCa8a95fb3ce5d53c6	gemini	B	  Tomcat: [慢慢看卡片背面吧，小狗]	  Tomcat: [慢慢看卡片背面吧，小狗。]		gemini:P06b-101:B
+CAT:O55642f0cd75514b5487f	SCc7219f770fd727bd	gemini	A	  Tomcat: [就————是这样，只要没选中你那些古怪能力，再按 UP+攻击，你就能轻松荡过任何缺口。]	  Tomcat: [就————是这样，只要没选中你那些古怪能力，再按 UP+ATTACK，你就能轻松荡过任何缺口。]		gemini:P06b-110:A
+CAT:O5b04f565832c0afe4716	SC402d4d6938e5e2f8	gemini	A	  Yiffany: [光是握着它，我就能想象它原来属于的那个高大强壮的海盗。那种清楚自己想要什么，而且就会动手去夺的人，必要时还会来粗的……呵……]	  Yiffany: [光握着它就能想象前主人：高大强壮、想要就夺，必要时还来粗的……呵……]		gemini:P06b-117:A
+CAT:O768cea2d479d12e9f8ce	SCaf06e84aa78a2053	gemini	B	  Tomcat: [别忘了你身上有光电击枪]	  Tomcat: [别忘了你身上有光电击枪。]		gemini:P06b-104:B
+CAT:O93e4739a3588fc5358e3	SC482bb4b337f47c4b	gemini	B	  Tomcat: [听着，这种东西我再也不评论了]	  Tomcat: [听着，这种东西我再也不评论了。]		gemini:P06b-105:B
+CAT:Oa8d620d683abd5b7dbde	SCc271c5bf873cfb2f	gemini	B	  Tomcat: [你手上拿的可是一颗火辣辣椒]	  Tomcat: [你手上拿的可是一颗火辣辣椒。]		gemini:P06b-116:B
+CAT:Ob0a366ecee3d12369186	SC1b7d7674505bff42	gemini	A	  Tomcat: [收到的报告说，在战斗中，特工能按“SELECT”选择能力，然后同时按“UP”+“ATTACK”，就能使出对应的能力。]	  Tomcat: [报告称战斗中按 SELECT 选能力，再同按 UP+ATTACK 即可使出。]		gemini:P06b-120:A
+CAT:Ob2dee70046f920c2187b	SC98f7cfffc1d98d81	gemini	A	  Tomcat: [严格说，是场衰减棱镜。如果你有一只很喜欢你的生物，可以抚摸它来给你的水晶充上力量！它产生的效果因生物而异！]	  Tomcat: [严格讲是场衰减棱镜。抚摸亲近你的生物能给水晶充能，效果因生物而异！]		gemini:P06b-109:A
+CAT:Oc87bcb7acc3b7f1ff8cd	SC482bb4b337f47c4b	gemini	B	  Tomcat: [……不然我可要笑话你只穿半套]	  Tomcat: [……不然我可要笑话你只穿半套。]		gemini:P06b-106:B
+CAT:Ofe8ac30ba26b1884a093	SCaf06e84aa78a2053	gemini	B	  Tomcat: [也许这就是你老是打起来的原因]	  Tomcat: [也许这就是你老是打起来的原因。]		gemini:P06b-103:B
+SFW24e4b6642bae0225a07bfe07	SC1c0e8e24cfeaa003	gemini	B	  Tomcat: [就算其他特工的故事都是真的]	  Tomcat: [就算其他特工的故事都是真的，]		gemini:P06b-118:B
+SFW3343802ef63d663f3660bc5a	SC5ef5b1f865e8f630	gemini	B	  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]  	  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]		gemini:P06b-119:B
+SFW5237a81d29f62b4324b94509	SCd2d37898261b3679	gemini	B	  Tomcat: [那是瓶奶油，不知道那只狗头人为什么带着，]	  Tomcat: [那是瓶奶油，不知道那只科博德为什么带着，]		gemini:P06b-114:B
+SFWc5e23ee896f111f0f005b6ce	SC7448d19afd51c44b	gemini	B	  Tomcat: [……不然我可要笑话你只穿半套]	  Tomcat: [……不然我可要笑话你只穿半套。]		gemini:P06b-107:B
+SFWef357f51c8946f52fae37937	SC31c3eb95087c123b	gemini	B	  Tomcat: [别忘了常打电话！] 	  Tomcat: [别忘了常打电话！]		gemini:P06b-112:B
+SFWfc9037c0f28620c6852ab2a8	SC9e41563e4f4e174d	gemini	B	  Yiffai: [我……我没事……大概吧？] 	  Yiffai: [我……我没事……大概吧？]		gemini:P06b-113:B
