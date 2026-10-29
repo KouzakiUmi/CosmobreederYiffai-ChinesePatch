@@ -1,0 +1,91 @@
+{
+ "batch": "batch-05-part03",
+ "routes": {
+  "gemini": {
+   "findings": 20,
+   "coverage": 50,
+   "problems": [
+    "coverage SC2ea0ca051866975b missing rows 1"
+   ],
+   "severity": {
+    "B": 8,
+    "A": 3,
+    "C": 9
+   },
+   "categories": {
+    "term": 9,
+    "format": 11
+   },
+   "status": {
+    "proposal": 20
+   },
+   "rows_proposed": 20
+  },
+  "ds": {
+   "findings": 27,
+   "coverage": 50,
+   "problems": [
+    "P05c-103 cross-scene row SFWc04f9c85ef1239f6c652706e",
+    "P05c-105 cross-scene row CAT:O0c10e334cb4b99352c88",
+    "P05c-105 cross-scene row CAT:O3e46e393283fa9b6a801",
+    "P05c-105 cross-scene row CAT:Oe28e0416ea4cd397e7c7",
+    "P05c-107 cross-scene row CAT:O016dfddd78a53a28315d",
+    "P05c-122 cross-scene row CAT:Oe8390f2ba6e9527ea456",
+    "P05c-122 cross-scene row SFWb5e4d1e156ca29cfd8b70e17"
+   ],
+   "severity": {
+    "A": 3,
+    "B": 24
+   },
+   "categories": {
+    "meaning": 3,
+    "format": 12,
+    "term": 7,
+    "continuity": 1,
+    "idiom": 4
+   },
+   "status": {
+    "proposal": 27
+   },
+   "rows_proposed": 35
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 35,
+  "rows_both_routes": 12,
+  "rows_identical_text": 8,
+  "rows_conflicting_text": 4,
+  "only_gemini": 8,
+  "only_ds": 15,
+  "conflicts": [
+   {
+    "row_id": "CAT:O6a441ed4e465d53414e1",
+    "scene_id": "SCe041bcb2aac8daaa",
+    "current": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]",
+    "gemini": "  Bossu: [据报「跳跃者」吸足灵能会变「牛蛙」，能远喷泡泡或用长舌伤人。]",
+    "ds": "  Bossu: [有报道称，吸足灵能的「跳跃者」会变成「牛蛙」，能从远处朝目标喷泡泡，也能用长舌头伤人。]"
+   },
+   {
+    "row_id": "CAT:Ofb481ed7de5a55002a18",
+    "scene_id": "SC3a3a119fd7820329",
+    "current": "  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]",
+    "gemini": "  Bossu: [我们只有那些关于Fenfen服装散落各处的报告。]",
+    "ds": "  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]"
+   },
+   {
+    "row_id": "CAT:Of1c8f9cb526700a44f48",
+    "scene_id": "SC7738d5683df9b077",
+    "current": "  Bossu: [“喷火兽”属于龙兽科的一员。]",
+    "gemini": "  Bossu: [「喷火者」属于龙类的一员。]",
+    "ds": "  Bossu: [“喷火者”属于龙类的一员。]"
+   },
+   {
+    "row_id": "CAT:Oc7f0070dd59c5752f4c3",
+    "scene_id": "SC14a6bdcb7cbb5e2a",
+    "current": "  Bossu: [暂且就把它们叫“跳跳兽”吧。]",
+    "gemini": "  Bossu: [暂且就把它们叫「跳跃者」吧。]",
+    "ds": "  Bossu: [暂且就把它们叫“跳跃者”吧。]"
+   }
+  ]
+ }
+}

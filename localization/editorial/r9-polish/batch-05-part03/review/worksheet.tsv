@@ -1,0 +1,36 @@
+row_id	scene_id	routes	severities	current	gemini_zh	ds_zh	findings
+CAT:O07f26b9210ed19bf7a37	SC126cbdcbb22257b0	ds	B	  Yiffany: [酒吧认识过一个。他老是为输光的那些黄金和珠宝唉声叹气……]		  Yiffany: [酒吧认识过一个。他老是为赌输的那些黄金和珠宝唉声叹气……]	ds:P05c-127:B
+CAT:O082400a1a8bda600d198	SC3011f2ede9bd4f18	gemini	B	  Bossu: [之前有些特工的报告提到过，Blocker对“精神”攻击较为脆弱。]	  Bossu: [之前有些特工的报告提到过，阻挡者对“精神”攻击较为脆弱。]		gemini:P05c-102:B
+CAT:O093f9bd3100328387cf4	SC37328493f75dcf8d	ds	B	  Bossu: [被牢牢绑住，让同伴埋伏在附近。]		  Bossu: [被牢牢绑住，同伴则埋伏在附近。]	ds:P05c-126:B
+CAT:O0c10e334cb4b99352c88	SCaf4aa1fa18c98fd1	gemini	B	  Bossu: [那看来是一只Blocker。]	  Bossu: [那看来是一只阻挡者。]		gemini:P05c-103:B
+CAT:O12d6e85c7e089bcb4dd6	SC14a6bdcb7cbb5e2a	gemini	B	  Bossu: [的确。你要是有什么对付这类家伙的办法，最好也拿去用在跳跳兽身上。]	  Bossu: [的确。你要是有什么对付这类家伙的办法，最好也拿去用在跳跃者身上。]		gemini:P05c-111:B
+CAT:O152354ab88dd9adae275	SC553c64bb4bea4bc3	ds	B	  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，还干任何到最后能赚到LECT的营生！]  		  Bossu: [那些蜥蜴狡猾得很，干海盗和贩奴的勾当出了名，还干任何到头来能赚到 LECT 的营生！]	ds:P05c-118:B
+CAT:O1bb4879b9e1f724e2849	SC7738d5683df9b077	ds+gemini	B	  Bossu: [要当心领地意识强的喷火兽，它们会拼命朝任何闯进来的家伙喷火。]	  Bossu: [要当心领地意识强的喷火者，它们会拼命朝任何闯进来的家伙喷火。]	  Bossu: [要当心领地意识强的喷火者，它们会拼命朝任何闯进来的家伙喷火。]	gemini:P05c-109:B ds:P05c-113:B
+CAT:O21ef44fdf2e5f0271bc2	SCd989e3ef96634b81	ds+gemini	B,C	  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选]	  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选。]	  Bossu: [你可以靠近它们，诱使它们自爆，或者打它们，让它们爆炸。你自己选。]	gemini:P05c-113:C ds:P05c-120:B
+CAT:O25871effa77ad5bdc2c5	SCfa5abde862c1f019	ds	A	  Bossu: [斯凯菲亚的精灵虽说全是雌性，却并非全都长生不死。]		  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非全都长生不死。]	ds:P05c-101:A
+CAT:O37b51f1ec51d96dcdd08	SC230a3742479654b5	ds	B	  Yiffai: [波苏，是这些炮变强了，还是我变弱了？]		  Yiffai: [波苏，是这些加农炮变强了，还是我变弱了？]	ds:P05c-107:B
+CAT:O3e46e393283fa9b6a801	SCaf4aa1fa18c98fd1	gemini	B	  Bossu: [之前有些特工的报告提到过，Blocker对“精神”攻击较为脆弱]	  Bossu: [之前有些特工的报告提到过，阻挡者对“精神”攻击较为脆弱。]		gemini:P05c-104:B
+CAT:O69f017199f0a64757e1b	SCc6e80f7ac92f301a	ds	B	  Yiffai: [说、说得也是……我还以为它们就是想打架]		  Yiffai: [说、说得也是……我还以为它们就是想打架。]	ds:P05c-104:B
+CAT:O6a441ed4e465d53414e1	SCe041bcb2aac8daaa	ds+gemini	A	  Bossu: [有报道称，一只「跳跃者」只要吸收了足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]	  Bossu: [据报「跳跃者」吸足灵能会变「牛蛙」，能远喷泡泡或用长舌伤人。]	  Bossu: [有报道称，吸足灵能的「跳跃者」会变成「牛蛙」，能从远处朝目标喷泡泡，也能用长舌头伤人。]	gemini:P05c-105:A ds:P05c-106:A
+CAT:O7562468c9c7e5dcb99a4	SC83d08b32fb4a539f	ds	B	  Bossu: [那些装在天花板上的炮台全都失控了，大概是因为电力系统受损。]		  Bossu: [那些装在天花板上的炮塔全都失控了，大概是因为电力系统受损。]	ds:P05c-108:B
+CAT:O7b750d29eb54635b03ca	SC2a0fa100af83e70d	ds	B	  Yiffai: [它们这样往我身上扑，倒更像是要把我撞倒，而不是把我弄上-]		  Yiffai: [它们这样往我身上扑，倒更像是要把我撞倒，而不是把我弄上——]	ds:P05c-102:B
+CAT:O8c616a92219aed7662b4	SC83d08b32fb4a539f	ds	B	  Yiffany: [当然，当然！伊吠妮撤了！]		  Yiffany: [当然，当然！伊吠妮通话完毕！]	ds:P05c-109:B
+CAT:O9fe6271f3979738aa046	SC3011f2ede9bd4f18	ds+gemini	B	  Bossu: [那看来是一只Blocker。]	  Bossu: [那看来是一只阻挡者。]	  Bossu: [那看来是一只阻挡者。]	gemini:P05c-101:B ds:P05c-105:B
+CAT:Oa6d18b09a8386995abec	SC3a3a119fd7820329	ds+gemini	B,C	  Yiffany: [嘿 波苏，我发现了几只小小的拟人犬家伙，但它们身上有点非常古怪的地方……]	  Yiffany: [嘿，波苏，我发现了几只小小的拟人犬家伙，但它们身上有点非常古怪的地方……]	  Yiffany: [嘿，波苏，我发现了几只小小的拟人犬家伙，但它们身上有点非常古怪的地方……]	gemini:P05c-106:C ds:P05c-110:B
+CAT:Oabd418e018976095f395	SCfac2344cdaea3f1b	ds+gemini	B,C	  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧]	  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]	  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]	gemini:P05c-114:C ds:P05c-121:B
+CAT:Oaf5bc145532722948306	SC2a0fa100af83e70d	ds	B	  Yiffai: [事实上，我还记录过它们起跳前会低吼]		  Yiffai: [事实上，我还记录过它们起跳前会低吼。]	ds:P05c-103:B
+CAT:Oc7f0070dd59c5752f4c3	SC14a6bdcb7cbb5e2a	ds+gemini	A	  Bossu: [暂且就把它们叫“跳跳兽”吧。]	  Bossu: [暂且就把它们叫「跳跃者」吧。]	  Bossu: [暂且就把它们叫“跳跃者”吧。]	gemini:P05c-110:A ds:P05c-115:A
+CAT:Od2cc19423522ce03cf14	SC0f4c8c4a3af6b954	ds	B	  Bossu: [看来这片区域的感应地雷，都被持续的震动激活了引信。]		  Bossu: [看来这片区域的感应地雷，引信都被持续的震动激活了。]	ds:P05c-119:B
+CAT:Od72b8bf1eaba1dc8db7a	SC402bf1e2fe40a8bd	ds+gemini	B,C	  Bossu: [它应该也一样对物理伤害免疫]	  Bossu: [它应该也一样对物理伤害免疫。]	  Bossu: [它应该也一样对物理伤害免疫。]	gemini:P05c-119:C ds:P05c-123:B
+CAT:Oe28e0416ea4cd397e7c7	SC402bf1e2fe40a8bd	gemini	B	  Bossu: [啊，那似乎是Blocker的缩小版]	  Bossu: [啊，那似乎是阻挡者的缩小版。]		gemini:P05c-118:B
+CAT:Oe8390f2ba6e9527ea456	SC56eac4767b4dbc1a	gemini	C	  Bossu: [小心那些四处巡逻的带刺无人机]	  Bossu: [小心那些四处巡逻的带刺无人机。]		gemini:P05c-116:C
+CAT:Oeb08b46de7a471930845	SCaf4aa1fa18c98fd1	ds	B	  Bossu: [我们当时把这些报告当作不可靠的给驳回了，但是……]		  Bossu: [我们当时觉得这些报告不可靠，没有采信，但是……]	ds:P05c-124:B
+CAT:Of1c8f9cb526700a44f48	SC7738d5683df9b077	ds+gemini	A,B	  Bossu: [“喷火兽”属于龙兽科的一员。]	  Bossu: [「喷火者」属于龙类的一员。]	  Bossu: [“喷火者”属于龙类的一员。]	gemini:P05c-108:A ds:P05c-112:B
+CAT:Of2eca1e7830ec0889d46	SCad3275825d2c4971	ds	B	  Bossu: [它们简直就像是被扰乱的灵能的化身……]		  Bossu: [它们简直就像灵能扰动化出的实体……]	ds:P05c-114:B
+CAT:Of339f5abe9ca663acf16	SC2ea0ca051866975b	ds+gemini	B,C	  Bossu: [小心那些四处巡逻的带刺无人机]	  Bossu: [小心那些四处巡逻的带刺无人机。]	  Bossu: [小心那些四处巡逻的带刺无人机。]	gemini:P05c-115:C ds:P05c-122:B
+CAT:Ofb481ed7de5a55002a18	SC3a3a119fd7820329	ds+gemini	B	  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]	  Bossu: [我们只有那些关于Fenfen服装散落各处的报告。]	  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]	gemini:P05c-107:B ds:P05c-111:B
+SFW108334757bc419a688eb6bdf	SC81615de25860505a	ds	B	  Yiffany: [这、这些一直朝我冲过来的机器虫是怎么回事？]		  Yiffany: [这、这些一直朝我扑过来的机器虫是怎么搞的？]	ds:P05c-125:B
+SFW21077e81213c5d4b82446ec3	SCec58e954ab659019	ds	B	  Bossu: [图托恩上发生的怪事，导致有人目击到非实体的水母]		  Bossu: [图托恩上发生的怪事，导致有人目击到非实体的水母。]	ds:P05c-117:B
+SFW8c9e4f266f5170d665e6fc6e	SC259a5b414528c4fe	gemini	C	  Bossu: [它似乎是种善于趁虚而入的生物]	  Bossu: [它似乎是种善于趁虚而入的生物，]		gemini:P05c-120:C
+SFWb5e4d1e156ca29cfd8b70e17	SC242d9e3c6d253668	gemini	C	  Bossu: [小心那些四处巡逻的带刺无人机]	  Bossu: [小心那些四处巡逻的带刺无人机。]		gemini:P05c-117:C
+SFWfd2c4208f624717be854fef7	SCec58e954ab659019	ds+gemini	B,C	  Yiffany: [我说啊 波苏，我不是人鱼，对吧？]	  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]	  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]	gemini:P05c-112:C ds:P05c-116:B
