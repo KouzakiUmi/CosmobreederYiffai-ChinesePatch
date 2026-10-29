@@ -1,0 +1,5771 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-07-part01",
+ "batch_group": "batch-07",
+ "part": 1,
+ "parts": 2,
+ "title": "结局与开场演出（结局与平行版本）（第 1／2 部分）",
+ "roots": [
+  "vsn/f_EndingBad/script",
+  "vsn/f_EndingGood/script",
+  "vsn/f_EndingIntoShmup/script",
+  "vsn/f_GameOverArea0/script",
+  "vsn/f_GameOverAreaA/script",
+  "vsn/f_GameOverAreaB/script",
+  "vsn/f_GameOverAreaC/script",
+  "vsn/f_GameOverAreaE/script",
+  "vsn/f_GameStart/script",
+  "vsn/m_EndingBad/script",
+  "vsn/m_EndingGood/script",
+  "vsn/m_EndingIntoShmup/script",
+  "vsn/m_GameOverArea0/script",
+  "vsn/m_GameOverAreaA/script",
+  "vsn/m_GameOverAreaB/script",
+  "vsn/m_GameOverAreaC/script",
+  "vsn/m_GameOverAreaE/script",
+  "vsn/m_GameStart/script"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC05c3dd2092871dea",
+   "mode": "sfw",
+   "logical_path": "vsn/f_EndingBad/script.vsn",
+   "root": "vsn/f_EndingBad/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: ClassicQueenFightB",
+     "current": "music: ClassicQueenFightB"
+    },
+    {
+     "line": 2,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 3,
+     "source": "fadein(1.0, 4): BadEnd01A",
+     "current": "fadein(1.0, 4): BadEnd01A"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 9,
+     "source": "fadecut(0.266, 2): BadEnd02",
+     "current": "fadecut(0.266, 2): BadEnd02"
+    },
+    {
+     "line": 10,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 15,
+     "source": "fadecut(0.266, 2): BadEnd03",
+     "current": "fadecut(0.266, 2): BadEnd03"
+    },
+    {
+     "line": 16,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 21,
+     "source": "snap: Black",
+     "current": "snap: Black"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWb83e7d2af8d239fab7423802",
+     "line": 5,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "Oh no you don't! I've got you in my sights, 'queen'!",
+     "current": "text: 休想！我已经瞄准你了，所谓的“女王”！"
+    },
+    {
+     "row_id": "SFW8f9faa2b2b93ff971cbd5da5",
+     "line": 6,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "You're not getting away this time!",
+     "current": "text: 这次你别想逃！"
+    },
+    {
+     "row_id": "SFW5c7e629c8ca50d1f3f74f472",
+     "line": 7,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "Grab on tight, sister, I'll show you how I can fly!",
+     "current": "text: 抓紧了，姐姐，让你见识一下我的驾驶技术！"
+    },
+    {
+     "row_id": "SFW48b4dcb97a70fd68d3f89440",
+     "line": 11,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "Once we put the turbo engines on, then...",
+     "current": "text: 只要启动涡轮引擎，到时候……"
+    },
+    {
+     "row_id": "SFW4b12b7384b23ca3bd27cf0aa",
+     "line": 12,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "...we'll...",
+     "current": "text: ……我们就能……"
+    },
+    {
+     "row_id": "SFW8c3abac9e8d87e1135886bf4",
+     "line": 13,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "...turbo engines... offline...",
+     "current": "text: ……涡轮引擎……离线……"
+    },
+    {
+     "row_id": "SFWdafa366c2127ab614736959a",
+     "line": 17,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "N-no... After all that, Traeh got away...?",
+     "current": "text: 不、不会吧……折腾了这么久，还是让Traeh逃走了……？"
+    },
+    {
+     "row_id": "SFWeeebc0983625593a058ef2eb",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "At the rate that rock was movin', she'll be outta the solar system soon...",
+     "current": "text: 照那块石头移动的速度，她很快就会离开太阳系了……"
+    },
+    {
+     "row_id": "SFW3792bf37dd49e22e3112048d",
+     "line": 19,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "Darnit! If only we'd gotten the mechanic at the hangar to fix up your ship!",
+     "current": "text: 可恶！要是当时找机库的机械师修好你的飞船就好了！"
+    },
+    {
+     "row_id": "SFWf29e6ceff7ae458e4161297e",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "...well, I guess that's it then, sis...?",
+     "current": "text: ……唉，我想也只能这样了，姐姐……？"
+    },
+    {
+     "row_id": "SFW6333ffe5b9a28deaa804cc3b",
+     "line": 23,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "At least we saved Tutone, right? ",
+     "current": "text: 至少我们救了图托恩，对吧？ "
+    },
+    {
+     "row_id": "SFWb79e8e3eb950e22373028256",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "And as long as Traeh doesn't find another energy source...",
+     "current": "text: 而且只要Traeh找不到别的能量来源……"
+    },
+    {
+     "row_id": "SFW7e76091d6caec9df9c57efc6",
+     "line": 25,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/101",
+     "source": "...the galaxy will stay safe...?",
+     "current": "text: ……银河系就会一直安全下去……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa2d5d1f6d5944926",
+   "mode": "nsfw",
+   "logical_path": "vsn/f_EndingGood/script.vsn",
+   "root": "vsn/f_EndingGood/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneE",
+     "current": "music: CutsceneE"
+    },
+    {
+     "line": 2,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 3,
+     "source": "fadein(1.0, 4): Ending01",
+     "current": "fadein(1.0, 4): Ending01"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 11,
+     "source": "fadecut(0.266, 2): Ending02",
+     "current": "fadecut(0.266, 2): Ending02"
+    },
+    {
+     "line": 12,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 17,
+     "source": "fadecut(0.266, 2): Ending03",
+     "current": "fadecut(0.266, 2): Ending03"
+    },
+    {
+     "line": 18,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 23,
+     "source": "fadecut(0.266, 2): Ending04A",
+     "current": "fadecut(0.266, 2): Ending04A"
+    },
+    {
+     "line": 24,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 29,
+     "source": "snap: Ending04B",
+     "current": "snap: Ending04B"
+    },
+    {
+     "line": 33,
+     "source": "snap: Ending04C",
+     "current": "snap: Ending04C"
+    },
+    {
+     "line": 39,
+     "source": "snap: Ending04D",
+     "current": "snap: Ending04D"
+    },
+    {
+     "line": 43,
+     "source": "snap: Ending04E",
+     "current": "snap: Ending04E"
+    },
+    {
+     "line": 47,
+     "source": "fadecut(0.266, 2): Ending05",
+     "current": "fadecut(0.266, 2): Ending05"
+    },
+    {
+     "line": 48,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 53,
+     "source": "fadecut(0.266, 2): Black",
+     "current": "fadecut(0.266, 2): Black"
+    },
+    {
+     "line": 54,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 63,
+     "source": "fademusic(0.0, 1.0)",
+     "current": "fademusic(0.0, 1.0)"
+    },
+    {
+     "line": 64,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Of28962646a30bb2f30da",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Nooo! Curse you damn Yiffai siblings!",
+     "current": "text: 不——！诅咒你们这该死的伊吠姐弟！"
+    },
+    {
+     "row_id": "CAT:Od2b282ee14234cadc6c6",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "I was supposed to rule the world... no... the Galaxy!",
+     "current": "text: 我本该统治世界的……不……是整个银河！ "
+    },
+    {
+     "row_id": "CAT:O261be934e39fce0c0ccc",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "And now... now...!",
+     "current": "text: 而现在……现在……！"
+    },
+    {
+     "row_id": "CAT:O80475490fe47332a65a4",
+     "line": 8,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "...............!!!",
+     "current": "text: ...............!!!"
+    },
+    {
+     "row_id": "CAT:Od4455cc164860d2b9c53",
+     "line": 9,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "GAAAAARRRRRRRGGGGGGGHGHHHH!",
+     "current": "text: 嘎啊啊啊——呜噢噢噢——呃呃呃！"
+    },
+    {
+     "row_id": "CAT:O3d698609a6418af33b67",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Wow sis, did we really just... save a whole planet?",
+     "current": "text: 哇，老姐，我们刚刚真的……拯救了一整颗星球？"
+    },
+    {
+     "row_id": "CAT:O12987d71a89056374c88",
+     "line": 14,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Yeah lil bro, I think we did! Par for the course on my missions, really.",
+     "current": "text: 是啊，小弟，我想是的！在我执行的任务里这都算家常便饭了。"
+    },
+    {
+     "row_id": "CAT:O5bef5a80aaf025967f0f",
+     "line": 15,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Buuut pretty impressive for my baby bro's first real mission, so good going!",
+     "current": "text: 不过——对我家小弟的第一次真正任务来说，已经很厉害了，干得漂亮！"
+    },
+    {
+     "row_id": "CAT:Ocf334183a7064dfc73d1",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "The heroes of Tutone! They return!",
+     "current": "text: 图托恩的英雄们！他们回来了！"
+    },
+    {
+     "row_id": "CAT:O643276aba067e4c9fe99",
+     "line": 20,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Traeh has been defeated, her psychic disturbances are no more and her minions flee!",
+     "current": "text: Traeh已经被击败，她的灵能扰动不复存在，她的爪牙正在逃窜！"
+    },
+    {
+     "row_id": "CAT:O5f008977140c8380ca20",
+     "line": 21,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Cheers for the heroes!",
+     "current": "text: 为英雄们欢呼吧！"
+    },
+    {
+     "row_id": "CAT:Ofcaf4f3ba3ebc9a993e5",
+     "line": 25,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "YIP! YIP! HOORAY!",
+     "current": "text: YIP！YIP！好耶！"
+    },
+    {
+     "row_id": "CAT:O41a605e9b487a5783c75",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "YIP! YIP! HOORAY!",
+     "current": "text: YIP！YIP！好耶！"
+    },
+    {
+     "row_id": "CAT:O57a4e52c797a3263d838",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "BLESSED BE THE COSMOBREEDERS, SAVIORS OF OUR PLANET!",
+     "current": "text: 愿宇宙育种者受颂，我们星球的救星！"
+    },
+    {
+     "row_id": "CAT:O63eccd2485abcad04d3d",
+     "line": 30,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Wow, good going you two! Clearing out a whole planet of baddies...",
+     "current": "text: 哇，你们俩真棒！把整颗星球的坏蛋都清了个遍……"
+    },
+    {
+     "row_id": "CAT:Oa20a109f9b56a07e7853",
+     "line": 31,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "That's definitely gonna help the local fauna get back on track!",
+     "current": "text: 这肯定能帮当地动物族群重回正轨！"
+    },
+    {
+     "row_id": "CAT:O8393772061427b6ff474",
+     "line": 34,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "I knew you two could do it. Never had a doubt in my mind.",
+     "current": "text: 我就知道你们俩能行。我从没怀疑过。"
+    },
+    {
+     "row_id": "CAT:Oa8125b4b105236951d68",
+     "line": 35,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Not even when one of you went AWOL and stopped responding to all communica-",
+     "current": "text: 就连你们中有人擅离职守、不再回应任何通——"
+    },
+    {
+     "row_id": "CAT:O9b102edb47da0d82ef05",
+     "line": 36,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "-Ahem...",
+     "current": "text: -嗯哼……"
+    },
+    {
+     "row_id": "CAT:Oa03a6fd6435340e73f54",
+     "line": 37,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "This will definitely be a good report to have filed away, Agents!",
+     "current": "text: 这份报告绝对值得归档留存，特工们！"
+    },
+    {
+     "row_id": "CAT:Oa1b9076fadb1ae699809",
+     "line": 40,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Nice one, grrrrl! You and your pup brother really cleaned up down there!",
+     "current": "text: 真有你的，姑——娘！你和你那小狗崽弟弟，把下面的坏蛋收拾得够彻底！"
+    },
+    {
+     "row_id": "CAT:O84ff961632ed382a8b6d",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Just don't forget about us at HQ when all the fame goes to your heads, alright?",
+     "current": "text: 等名声让你们飘飘然的时候，可别忘了我们总部的人，好吗？"
+    },
+    {
+     "row_id": "CAT:O378ddc367c0dcd45230b",
+     "line": 44,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "HOORAH FOR YIFFANY AND YIFFAI! STAR COSMOBREEDERS!",
+     "current": "text: 为伊吠妮和伊吠欢呼！明星宇宙育种者！"
+    },
+    {
+     "row_id": "CAT:O8ab1961c6882e2ad8dfb",
+     "line": 45,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "H O O R A Y ! ! !",
+     "current": "text: 好 耶 ！ ！ ！"
+    },
+    {
+     "row_id": "CAT:O54310133683eb09acefb",
+     "line": 49,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Heh, how about that, sis? We made a pretty good team, didn't we?",
+     "current": "text: 嘿，瞧见没，老姐？我们配合得挺不错，不是吗？"
+    },
+    {
+     "row_id": "CAT:O190c6fd296b57b703b78",
+     "line": 50,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "Wellll... you did alright, bro.",
+     "current": "text: 嗯——……你还行啦，老弟。 "
+    },
+    {
+     "row_id": "CAT:Oac2505879521dbda2d20",
+     "line": 51,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "...for a pup.",
+     "current": "text: ……就一只小崽子而言。 "
+    },
+    {
+     "row_id": "CAT:O217c8ef12644fc162c93",
+     "line": 55,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[SO ENDS THE REPORT ON PLANET TUTONE.]",
+     "current": "text: [图托恩星球的报告到此结束。]"
+    },
+    {
+     "row_id": "CAT:Of2fe5c5e0569abc89ad4",
+     "line": 56,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[A PLANET WITH A TUMULTUOUS HISTORY, FACING THE GREATEST CHALLENGES OF ITS TIME]",
+     "current": "text: [这颗历经动荡的星球，面临着这个时代最严峻的挑战，]"
+    },
+    {
+     "row_id": "CAT:O396f7b35d356aa3ef852",
+     "line": 57,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[SAVED BY THE VALIANT EFFORTS OF TWO BRAVE COSMOBREEDERS:]",
+     "current": "text: [最终由两位勇敢的宇宙育种者奋力拯救：]"
+    },
+    {
+     "row_id": "CAT:O809514c7c67bbbb6524d",
+     "line": 58,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[YIFFANY YIFFAI, ELDER SISTER AND SEASONED VETERAN WITH UNMATCHED COMBAT SKILL]",
+     "current": "text: [姐姐伊吠妮·伊吠，身经百战，战技无人能及；]"
+    },
+    {
+     "row_id": "CAT:O75cd8b6da7823140cbda",
+     "line": 59,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[AND YIFFAI YIFFAI, THE YOUNGER BROTHER PRODIGY WITH UNENDING ENTHUSIASM]",
+     "current": "text: [弟弟伊吠·伊吠，天赋出众，热情不竭。]"
+    },
+    {
+     "row_id": "CAT:O67d0e21024372bc9cc46",
+     "line": 60,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[WITH THE TWO OF THEM TEAMED UP, THERE'S NO MISSION THAT THEY CAN'T HANDLE]",
+     "current": "text: [两人携手，没有他们应付不来的任务]"
+    },
+    {
+     "row_id": "CAT:O7d47a8f4843f68747af5",
+     "line": 61,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/161",
+     "source": "[AND THE PPP IS PROUD TO HAVE THEM AS AGENTS.]                      -SIGNED, BOSSU",
+     "current": "text: [PPP以拥有这两位特工为荣。]                      -署名，波苏"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9ddff3d06e1707d8",
+   "mode": "nsfw",
+   "logical_path": "vsn/f_GameOverArea0/script.vsn",
+   "root": "vsn/f_GameOverArea0/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneX",
+     "current": "music: CutsceneX"
+    },
+    {
+     "line": 2,
+     "source": "snap: ClassicGameOverArea0A",
+     "current": "snap: ClassicGameOverArea0A"
+    },
+    {
+     "line": 3,
+     "source": "waitForCue!",
+     "current": "waitForCue!"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 11,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    },
+    {
+     "line": 12,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 15,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 16,
+     "source": "fadein(1.0, 4): ClassicGameOverArea0B",
+     "current": "fadein(1.0, 4): ClassicGameOverArea0B"
+    },
+    {
+     "line": 17,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 23,
+     "source": "cut(0.06): ClassicGameOverArea0C",
+     "current": "cut(0.06): ClassicGameOverArea0C"
+    },
+    {
+     "line": 24,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 31,
+     "source": "cut(0.06): ClassicGameOverArea0D",
+     "current": "cut(0.06): ClassicGameOverArea0D"
+    },
+    {
+     "line": 32,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 39,
+     "source": "cut(0.06): ClassicGameOverArea0E",
+     "current": "cut(0.06): ClassicGameOverArea0E"
+    },
+    {
+     "line": 40,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 45,
+     "source": "cut(0.06): ClassicGameOverArea0F",
+     "current": "cut(0.06): ClassicGameOverArea0F"
+    },
+    {
+     "line": 46,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 51,
+     "source": "cut(0.06): ClassicGameOverArea0G",
+     "current": "cut(0.06): ClassicGameOverArea0G"
+    },
+    {
+     "line": 52,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 59,
+     "source": "cut(0.06): ClassicGameOverArea0H",
+     "current": "cut(0.06): ClassicGameOverArea0H"
+    },
+    {
+     "line": 60,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 66,
+     "source": "cut(0.06): ClassicGameOverArea0I1",
+     "current": "cut(0.06): ClassicGameOverArea0I1"
+    },
+    {
+     "line": 67,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 71,
+     "source": "cut(0.06): ClassicGameOverArea0I2",
+     "current": "cut(0.06): ClassicGameOverArea0I2"
+    },
+    {
+     "line": 72,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 76,
+     "source": "cut(0.06): ClassicGameOverArea0J",
+     "current": "cut(0.06): ClassicGameOverArea0J"
+    },
+    {
+     "line": 77,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 83,
+     "source": "cut(0.06): ClassicGameOverArea0K",
+     "current": "cut(0.06): ClassicGameOverArea0K"
+    },
+    {
+     "line": 84,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 91,
+     "source": "cut(0.06): ClassicGameOverArea0L",
+     "current": "cut(0.06): ClassicGameOverArea0L"
+    },
+    {
+     "line": 92,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 98,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 99,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 102,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 103,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2c920f0cd463e7512b00",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Ow ow ow ow...",
+     "current": "text: 哎哟哎哟哎哟哎哟……"
+    },
+    {
+     "row_id": "CAT:O28f4349af224016cb91d",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Alllriiiight, time to put agent training to use and enter data recording mode...",
+     "current": "text: 好——该用上特工训练，进入数据记录模式了……"
+    },
+    {
+     "row_id": "CAT:O0b39b9381edb18020c7b",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "...on the off chance that some big hot creature stumbles upon little ol' me",
+     "current": "text: ……万一有个又大又性感的生物，恰巧撞见尾巴高高翘着的小小的我 <3"
+    },
+    {
+     "row_id": "CAT:Ob354a3bfe240860d088a",
+     "line": 8,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "with my tail raised up in the air <3",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O353750690d336fde7783",
+     "line": 9,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Senses and memory set to high as this place gets a little...",
+     "current": "text: 感官和记忆都全开，因为这里有点……"
+    },
+    {
+     "row_id": "CAT:O59bfda655fe0def15835",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": ". . . d i m . . .",
+     "current": "text: ……昏 暗……"
+    },
+    {
+     "row_id": "CAT:Od170f8e698aa2c5aaddf",
+     "line": 18,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Well, sadly I didn't wake up to anything pounding under my tail.",
+     "current": "text: 可惜，醒来时并没有谁在我尾巴下面猛干。"
+    },
+    {
+     "row_id": "CAT:O06a02a50aacb52130589",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Instead, the only thing that was getting pounded was my head. It hurt!",
+     "current": "text: 结果只有脑袋在被捶似的跳痛。疼死了！"
+    },
+    {
+     "row_id": "CAT:Ofa4cf5e367b402b79b22",
+     "line": 20,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Took me a bit to realize that I had an audience as I was groggily coming to.",
+     "current": "text: 我迷迷糊糊醒来，过了会儿才发现有人围观。"
+    },
+    {
+     "row_id": "CAT:O054bd8aa021f28cd378e",
+     "line": 21,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "It was a couple of those little pipsqueaks, like the one that stole my gear!",
+     "current": "text: 是几个小矮子，跟偷我装备的那个一样！"
+    },
+    {
+     "row_id": "CAT:Oaacca877bea4fd370980",
+     "line": 25,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Unlike the brat that ran away with my stuff, these two peeping squeakers",
+     "current": "text: 跟偷走我东西的小混蛋不同，这两只偷看的吱吱怪好像都不敢太靠近我！"
+    },
+    {
+     "row_id": "CAT:Oa4b2bef13244cfe6b2c1",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "were almost scared to get too close to me!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8c60e7017d6e95e46e56",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "But, if there was one trick that I knew to get rid of a terrible headache",
+     "current": "text: 不过，要说有什么妙招能治好剧烈的头痛，那就是做爱包治百病。"
+    },
+    {
+     "row_id": "CAT:Ob5c18d4cff1948722740",
+     "line": 28,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "it's that love making cures all.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9c2e017dae3af1cf270b",
+     "line": 29,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "So I tried to make that clear to the little guys!",
+     "current": "text: 所以我就想让小家伙们明白这个道理！"
+    },
+    {
+     "row_id": "CAT:O89d1eb4ecbc0b3919919",
+     "line": 33,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "One little flash of the goods and they were cured of their shyness.",
+     "current": "text: 稍微亮了亮宝贝，他们就一点不害羞了。"
+    },
+    {
+     "row_id": "CAT:Oa523a8f095da779e17d0",
+     "line": 34,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "I barely had time to roll onto my hands and knees before they were at my hips.",
+     "current": "text: 我才刚翻身四肢着地，他们就扑到我胯边了。"
+    },
+    {
+     "row_id": "CAT:Oc0e5a157f7fc731b2780",
+     "line": 35,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Almost seemed like they were about to fight over who got to go first!",
+     "current": "text: 他们简直快为谁先来打起来了！"
+    },
+    {
+     "row_id": "CAT:O56a28f8a14fc771f6586",
+     "line": 36,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "That's when I diplomatically grabbed one of the frisky fellas and guided him along",
+     "current": "text: 于是我圆滑地拉过一个躁动的家伙，引着他过来，让他排队等着干我尾巴底下时，先见识我的嘴上功夫。"
+    },
+    {
+     "row_id": "CAT:Oa06891ba4ff4524f08bc",
+     "line": 37,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "to show him what my mouth could do while he waited for a turn under my tail.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Of817f4b043c078788a8b",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "It was a pretty good warmup, I'd say. These little fellas thrust real fast",
+     "current": "text: 要我说，热身相当不错。这些小家伙抽插飞快，不过确实不怎么持久，可他们几乎没有贤者时间，太棒了！"
+    },
+    {
+     "row_id": "CAT:O572386313453a3116582",
+     "line": 42,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "and didn't really last that long",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O62856329dbbb6ea4604c",
+     "line": 43,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "but they had almost no cooldown, it was great!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2a26416df45350a94f23",
+     "line": 47,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "As soon as one of them was done humping away under my tail and filling me up",
+     "current": "text: 一有谁在我尾巴底下抽插完、把我灌满，他们就换个位置，哪怕也已经在我嘴里射过。"
+    },
+    {
+     "row_id": "CAT:O91fd610679d66241aeee",
+     "line": 48,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "they'd swap places, no matter if they had also fin- ished in my mouth as well.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oda1abc66b9659986861b",
+     "line": 49,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "They didn't seem to lose any vigor or potency either!",
+     "current": "text: 他们的精力和性能力似乎都丝毫不减！"
+    },
+    {
+     "row_id": "CAT:Oaf97ebae8ecea0d69a2e",
+     "line": 53,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "...at least until the tenth round or so, when they just collapsed on me.",
+     "current": "text: ……至少撑到了十来轮，他们才瘫在我身上。"
+    },
+    {
+     "row_id": "CAT:Oa84ecf30c030b934b0a0",
+     "line": 54,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "My headache was long gone by then but I had another annoyance to take care of",
+     "current": "text: 那时头早不疼了，可我还有另一处难受要解决，我开始觉得，得来个比那帮小矮子更大的才能解决。"
+    },
+    {
+     "row_id": "CAT:O211939b044399714ad33",
+     "line": 55,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "and I was beginning to think it needed something a little larger than the pipsqueaks.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1f1376ea05f72e469db7",
+     "line": 56,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Almost like they were read- ing my thoughts, the squeak- ers suddenly woke up and ran",
+     "current": "text: 像是读懂了我的心思，那些吱吱怪突然醒来就跑，连个告别吻都不给我！这算什么嘛？"
+    },
+    {
+     "row_id": "CAT:O5b75d2ccaf755f7eb568",
+     "line": 57,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "without even giving me a kiss goodbye! How about that?",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od4886491995badcdb185",
+     "line": 61,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Fortunately for me, it seemed like the thing that made them run off",
+     "current": "text: 幸好，把他们吓跑的，似乎是只一直在暗处徘徊的壮硕猫男。"
+    },
+    {
+     "row_id": "CAT:O62a85bdc7558410d2fd9",
+     "line": 62,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "was a big hunk of a cat that had been prowling out in the shadows.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4c4949ecf97948275e07",
+     "line": 63,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "All the squeaking and slap- ping of furious lovemaking must've piqued his interest",
+     "current": "text: 激烈交欢的吱叫和拍肉声，一定勾起了他的兴趣；我都不用考虑打架，就知道他来干什么了！"
+    },
+    {
+     "row_id": "CAT:O94d2441ac29b2944effe",
+     "line": 64,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "because I didn't even have to think about fighting, I knew what he was coming for!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9d7cc719802475187619",
+     "line": 68,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "...and hopefully, what I'd be cumming for!",
+     "current": "text: ……也希望，能让我爽到高潮！ "
+    },
+    {
+     "row_id": "CAT:O4fb9e0f07067fd9a4e85",
+     "line": 69,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "That giant barbed cat wasted no time with silly foreplay or any of that nonsense",
+     "current": "text: 那只带倒刺的大猫，才不浪费时间搞无聊前戏"
+    },
+    {
+     "row_id": "CAT:O27a0bb4849f7b0098311",
+     "line": 73,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "He just grabbed me by the hips and started poking and prodding away <3",
+     "current": "text: 他直接抓住我的胯，就开始一下下地往里戳 <3"
+    },
+    {
+     "row_id": "CAT:O6b959340c4143a7922d9",
+     "line": 74,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "All I had to do was lift my hips a little to help, aaaand...",
+     "current": "text: 我只需要稍稍抬起屁股配合，然后——……"
+    },
+    {
+     "row_id": "CAT:O4f65d4920bb0dfe90621",
+     "line": 78,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Wham! He was thrusting away like there was no tomorrow!",
+     "current": "text: 啪！他像不要命似的拼命抽插！"
+    },
+    {
+     "row_id": "CAT:O31da0beec7d1bf380c87",
+     "line": 79,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Those thick hindquarters of his weren't just for looks, you know.",
+     "current": "text: 他那粗壮的后腿和臀部，可不只是摆设。"
+    },
+    {
+     "row_id": "CAT:O987ecff341b20822099f",
+     "line": 80,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "I swear he was bottoming out inside of me on the first thrust!",
+     "current": "text: 我发誓，他第一下就顶到我最深处了！"
+    },
+    {
+     "row_id": "CAT:O86805e7ed48d9a346745",
+     "line": 81,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "It was exaaaaaactly what I needed after that little warm up with the pipsqueaks.",
+     "current": "text: 跟那些小不点热完身后，我要的正是这个。"
+    },
+    {
+     "row_id": "CAT:O5ff63ef49bd86551e623",
+     "line": 85,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "My moaning mixed with the growls of love quickly brought more of the felines",
+     "current": "text: 我的呻吟混着求欢低吼，很快引来更多猫科家伙，这可把我乐坏了，省得再去找他们！"
+    },
+    {
+     "row_id": "CAT:O2dd19269fa005d834a36",
+     "line": 86,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "which was great news to me, I didn't have to hunt any more down!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8caaf8682fcc3cfd6038",
+     "line": 87,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "All I had to do was hold on while these lovely boys filled me up and again",
+     "current": "text: 我只需撑住，任这些可爱家伙把我灌满，一次又一次"
+    },
+    {
+     "row_id": "CAT:O4124ceffc8aa448c98b1",
+     "line": 88,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "and again...",
+     "current": "text: 一次又一次……"
+    },
+    {
+     "row_id": "CAT:O4a9ccf650a65d6b350f4",
+     "line": 89,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "...and again...!",
+     "current": "text: ……再来一次……！"
+    },
+    {
+     "row_id": "CAT:Oa376edc8d46ef0c879d6",
+     "line": 93,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "They took good care of me, those kitties. I never went hungry or unsatisfied!",
+     "current": "text: 那些猫咪把我照顾得可好了，从不让我饿着，也没让我欲求不满！"
+    },
+    {
+     "row_id": "CAT:O4aa8692a7e7b478002b3",
+     "line": 94,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "Every now and again they would even let me wander off nearby to play with those",
+     "current": "text: 他们偶尔还会让我到附近转转，去陪那些吱吱叫的小家伙玩。我就是这么好心，懂吧？"
+    },
+    {
+     "row_id": "CAT:Oaec3253bde0ab116aa0d",
+     "line": 95,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "little squeaker fellas. I'm nice like that,you know?",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2067a683f39f5a40e1e4",
+     "line": 96,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "There was nothing to do but sit pretty and wait for rescue.",
+     "current": "text: 也没别的可干，只好乖乖坐着等人来救。"
+    },
+    {
+     "row_id": "CAT:O5cda33492239b12fb905",
+     "line": 100,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/173",
+     "source": "...and think about who might be the father this time... hehe...!",
+     "current": "text: ……再想想这次孩子的爸爸会是谁……嘿嘿……！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa4f1ced2b88fd910",
+   "mode": "nsfw",
+   "logical_path": "vsn/f_GameOverAreaA/script.vsn",
+   "root": "vsn/f_GameOverAreaA/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneX",
+     "current": "music: CutsceneX"
+    },
+    {
+     "line": 2,
+     "source": "snap: ClassicGameOverAreaAA",
+     "current": "snap: ClassicGameOverAreaAA"
+    },
+    {
+     "line": 3,
+     "source": "waitForCue!",
+     "current": "waitForCue!"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 9,
+     "source": "cut(0.06): ClassicGameOverAreaAB",
+     "current": "cut(0.06): ClassicGameOverAreaAB"
+    },
+    {
+     "line": 10,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 16,
+     "source": "cut(0.06): ClassicGameOverAreaAC",
+     "current": "cut(0.06): ClassicGameOverAreaAC"
+    },
+    {
+     "line": 17,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 21,
+     "source": "cut(0.06): ClassicGameOverAreaAD",
+     "current": "cut(0.06): ClassicGameOverAreaAD"
+    },
+    {
+     "line": 22,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 29,
+     "source": "cut(0.06): ClassicGameOverAreaAE",
+     "current": "cut(0.06): ClassicGameOverAreaAE"
+    },
+    {
+     "line": 30,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 37,
+     "source": "cut(0.06): ClassicGameOverAreaAF",
+     "current": "cut(0.06): ClassicGameOverAreaAF"
+    },
+    {
+     "line": 38,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 44,
+     "source": "cut(0.06): ClassicGameOverAreaAG",
+     "current": "cut(0.06): ClassicGameOverAreaAG"
+    },
+    {
+     "line": 45,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 51,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 52,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 57,
+     "source": "cut(0.06): ClassicGameOverAreaAH",
+     "current": "cut(0.06): ClassicGameOverAreaAH"
+    },
+    {
+     "line": 58,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 63,
+     "source": "snap: ClassicGameOverAreaAH3",
+     "current": "snap: ClassicGameOverAreaAH3"
+    },
+    {
+     "line": 64,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 67,
+     "source": "snap: ClassicGameOverAreaAH4",
+     "current": "snap: ClassicGameOverAreaAH4"
+    },
+    {
+     "line": 68,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 71,
+     "source": "snap: ClassicGameOverAreaAH5",
+     "current": "snap: ClassicGameOverAreaAH5"
+    },
+    {
+     "line": 72,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 75,
+     "source": "snap: ClassicGameOverAreaAH2",
+     "current": "snap: ClassicGameOverAreaAH2"
+    },
+    {
+     "line": 76,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 79,
+     "source": "cut(0.06): ClassicGameOverAreaAI",
+     "current": "cut(0.06): ClassicGameOverAreaAI"
+    },
+    {
+     "line": 80,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 86,
+     "source": "cut(0.06): ClassicGameOverAreaAJ",
+     "current": "cut(0.06): ClassicGameOverAreaAJ"
+    },
+    {
+     "line": 87,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 92,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 93,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 98,
+     "source": "cut(0.06): ClassicGameOverAreaAK",
+     "current": "cut(0.06): ClassicGameOverAreaAK"
+    },
+    {
+     "line": 99,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 105,
+     "source": "cut(0.06): ClassicGameOverAreaAL",
+     "current": "cut(0.06): ClassicGameOverAreaAL"
+    },
+    {
+     "line": 106,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 112,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 113,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 119,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 120,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O02027190d47bd8db1a65",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "You'd think I'd have learned better than to risk a bump on the head",
+     "current": "text: 干了这么多年育种工作，按说我早该学乖，别再冒险撞到脑袋了。"
+    },
+    {
+     "row_id": "CAT:O6796857e1865fdd33447",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "after all these years of 'breeding.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3c8fa83218e66ab728bf",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...But you'd be wrong! That's not how you make a good impression!",
+     "current": "text: ……那你就错了！那可不是留下好印象的办法！"
+    },
+    {
+     "row_id": "CAT:O6e0d7168a765860a7622",
+     "line": 11,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Oof, that was a rough hit though. Gonna take a while to warm back up",
+     "current": "text: 嘶，那一下可真狠。得缓一会儿才能恢复状态，再继续我的救援工作。"
+    },
+    {
+     "row_id": "CAT:Of6a10c2f3d354ddfebfe",
+     "line": 12,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "and get back to all this rescuing business.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2fc798d418d51d7bebf5",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Just gotta remember what I was doing before getting roughed up.",
+     "current": "text: 只要想起被折腾之前我在干什么就好。"
+    },
+    {
+     "row_id": "CAT:O7789a8f4920cb39107a1",
+     "line": 14,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Lessee, pretty sure I was on my way over to th-",
+     "current": "text: 让我想想，我记得当时正要去那——"
+    },
+    {
+     "row_id": "CAT:O2ff50158f903fd5a344f",
+     "line": 18,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "-hey! Ow! That's my BUTT, you jerk!",
+     "current": "text: —喂！疼！那是我的屁股，混蛋！"
+    },
+    {
+     "row_id": "CAT:O7f89b06fef2b1c7e0bc6",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "As soon as I get back on my feet, I'm gonna turn you into jelly!",
+     "current": "text: 等我站起来，就把你打成果冻！"
+    },
+    {
+     "row_id": "CAT:O482415dee828fbd8b38c",
+     "line": 23,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Orrrr maybe you're already jelly?",
+     "current": "text: 还——是说，你已经软成一滩果冻了？ "
+    },
+    {
+     "row_id": "CAT:O8058bb4e5df1b6398ec2",
+     "line": 24,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...",
+     "current": "text: ……"
+    },
+    {
+     "row_id": "CAT:O606543a1e8b8d92e87d6",
+     "line": 25,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...my butt isn't that fat, is it? You must've already been jelly!",
+     "current": "text: ……我屁股没那么肥吧？你本来就软成一摊了吧！"
+    },
+    {
+     "row_id": "CAT:Oc1c90dccd96d1eb6ead8",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Weird to see one of you Slimers are spread out like this. Usually you only",
+     "current": "text: 真少见，你们史莱姆居然摊成这样。一般只有想困住谁的时候，才会分裂开来。"
+    },
+    {
+     "row_id": "CAT:O1c73d7fd0249283b81de",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "break up if you're gonna try trap someone.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od7a91b427d92cce66872",
+     "line": 31,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Oh! Duh! That's EXACTLY what you were doing!",
+     "current": "text: 哦！真笨！你刚才干的就是这个！ "
+    },
+    {
+     "row_id": "CAT:O62606326263244fec406",
+     "line": 32,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "If only my head wasn't so fuzzy after getting it bumped earlier",
+     "current": "text: 要不是刚才脑袋撞得晕晕乎乎的，我本来能趁事态还没失控就逃出去——呀啊啊！！"
+    },
+    {
+     "row_id": "CAT:O3acdd36defb0852969b4",
+     "line": 33,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "I could've ran before this started to get out of haaaaaYYYYYOH!!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc11b9a178f860f42e4df",
+     "line": 34,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "F-fu...damn! You're a rowdy bastard, just going for it right away...",
+     "current": "text: 操、操……该死！你这混蛋真野，一上来就直奔主题……"
+    },
+    {
+     "row_id": "CAT:Oeedb9cf792a7ed61920a",
+     "line": 35,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...ohmygosh...",
+     "current": "text: ……天哪……"
+    },
+    {
+     "row_id": "CAT:O6848a9f7ae22d76267b5",
+     "line": 39,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "D-damn slimy rascal, you're good at this, aren't ya? F-fine, I'll give you a try.",
+     "current": "text: 该、该死的黏滑坏蛋，还挺有两下子？好、好吧，让你试试。"
+    },
+    {
+     "row_id": "CAT:O75cd807e244f06d53a8a",
+     "line": 40,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Just gotta get my hands free so I can show you how to angle properly...",
+     "current": "text: 先把手挣出来，我再教你怎么找准角度……"
+    },
+    {
+     "row_id": "CAT:O4a4d94b1d93e4e6ab1a9",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Mmmf, there... Tricky to slip out of you Slimers, but I ain't no rookie!",
+     "current": "text: 唔，好了……想从你们史莱姆体内抽出来可不容易，但我可不是新手！"
+    },
+    {
+     "row_id": "CAT:O4a0b085ac919f12b4984",
+     "line": 42,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Ahh yeah see, just get down a bit more... Yeah... just about...",
+     "current": "text: 啊，对，就是这样，再往下一点……对……就快……"
+    },
+    {
+     "row_id": "CAT:O9a298c1c02fbd3a2b205",
+     "line": 46,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Gah! Not quite that low! Woooooah boy. What is this, 3PC Academy all over again?",
+     "current": "text: 呀！别那么下面！哇啊，乖乖。这是又回3PC学院了？"
+    },
+    {
+     "row_id": "CAT:O72c9bf7d618cccfccd10",
+     "line": 47,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "I'm a pro, so it's not like I can't handle a bit of undertail action or anything",
+     "current": "text: 我可是专业的，来点后入式的也不在话下，但你好歹该先打个招呼吧！"
+    },
+    {
+     "row_id": "CAT:O61b32346a7cc58bd44de",
+     "line": 48,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "but a bit of warning would've been nice!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oceb3078e62d43f81dc73",
+     "line": 49,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Let's see if we can't tire out your non-existing bones now, shall we?",
+     "current": "text: 来看看，能不能把你那不存在的骨头都折腾散架？"
+    },
+    {
+     "row_id": "CAT:O2cfa065138fbca0c353a",
+     "line": 53,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...",
+     "current": "text: ……"
+    },
+    {
+     "row_id": "CAT:O3b8e78051bd8ee51c0f0",
+     "line": 54,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...okay you have more stamina than I thought.",
+     "current": "text: ……好吧，你比我想的更持久。"
+    },
+    {
+     "row_id": "CAT:O1b140ebef68ae2ac669f",
+     "line": 55,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "...ow...",
+     "current": "text: ……疼……"
+    },
+    {
+     "row_id": "CAT:O53eb52207e80ebb4e45d",
+     "line": 59,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Hah... Hah... I think I need a moment to recover from that.",
+     "current": "text: 哈……哈……我得缓一会儿才能恢复。"
+    },
+    {
+     "row_id": "CAT:Obbcae1460c02613effdc",
+     "line": 60,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "My head feels plenty fine now, but darn did you do a number on my poor hips.",
+     "current": "text: 脑袋是没事了，可怜的胯却被你折腾惨了。"
+    },
+    {
+     "row_id": "CAT:O711383e99db5979acdd2",
+     "line": 61,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "You can't just bounce a girl around for that long! But at least you're satisfied.",
+     "current": "text: 哪有把姑娘颠来颠去这么久的！不过至少你满足了。"
+    },
+    {
+     "row_id": "CAT:O16ce3b0452ea4f52c7af",
+     "line": 65,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "I just need a minute for my spine to straighten out again here.",
+     "current": "text: 给我一分钟，让脊椎重新挺直就行。 "
+    },
+    {
+     "row_id": "CAT:O48948e04cf4f742cf72a",
+     "line": 69,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "A nice, quiet minute with nothing interrupting me.",
+     "current": "text: 安安静静歇一会儿，什么也不来打扰。"
+    },
+    {
+     "row_id": "CAT:O441b0c18c32c969c790b",
+     "line": 73,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Yeah, that sounds like it should be all I need...",
+     "current": "text: 嗯，听起来这样就够了……"
+    },
+    {
+     "row_id": "CAT:O4b3a8f7cbcdd0f1b5850",
+     "line": 77,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "..and then back to rescuing all these other agents I can go!",
+     "current": "text: ……然后就能继续救其他特工啦！"
+    },
+    {
+     "row_id": "CAT:O5dce76e5f2c05ed14959",
+     "line": 81,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Awwwwww heck. Hecking heck heck heckeroos!",
+     "current": "text: 啊——见鬼。真见鬼，见鬼见鬼，见了个大头鬼！"
+    },
+    {
+     "row_id": "CAT:O785f9a2965879b4f4edd",
+     "line": 82,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Don't you wobbly eye me, you hecking Flayer! I ain't falling for it!",
+     "current": "text: 别拿那晃眼的招数对付我，混账剥心魔！我才不上当！"
+    },
+    {
+     "row_id": "CAT:O846a6aeb60301bb2b19d",
+     "line": 83,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "You think I'm some rookie whose brain is gonna melt just because you're staring",
+     "current": "text: 你以为我是那种被你使劲瞪着看，就会脑袋融化的菜鸟？想得美！我的脑子可不是你的午间零食！"
+    },
+    {
+     "row_id": "CAT:Oe71c11ee2aabc4a9fa71",
+     "line": 84,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "at me too real hard? Think again! My mind isn't your midday snack!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oe3a19790694ab7e52fc6",
+     "line": 88,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "Gyah, putting those tentacles to use too are ya? Well it'sh no ushe.",
+     "current": "text: 呀啊，你连触手也用上了？哼，没用的。"
+    },
+    {
+     "row_id": "CAT:O9eeff8cc7b6c9b80dcc6",
+     "line": 89,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "ShI'mn owt ohnnah get maeh mindh yeathen...",
+     "current": "text: 窝才不会让你把脑纸吃掉……"
+    },
+    {
+     "row_id": "CAT:O6a6e2a729478a4ee6fde",
+     "line": 90,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "ooOOoooohhoHHhHh...!",
+     "current": "text: 哦哦噢噢啊啊啊……！"
+    },
+    {
+     "row_id": "CAT:O9ccb7cef6a45f4b5cef3",
+     "line": 94,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[EDITOR'S NOTE: Agent Yiffany Yiffai did indeed succumb to the Mind Flayer.]",
+     "current": "text: [编者注：特工伊吠妮·伊吠确实败给了剥心魔。]"
+    },
+    {
+     "row_id": "CAT:Ocae28da83b7708e1429e",
+     "line": 95,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[Despite her impressive resiliance to the Flayer's hypnotic eye, the Agent]",
+     "current": "text: [这名特工虽对剥心魔的催眠眼展现出惊人的抵抗力，]"
+    },
+    {
+     "row_id": "CAT:O4e427bb1f3d7496d3d57",
+     "line": 96,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[was still not able to overcome the namesake flaying of the mind.]",
+     "current": "text: [仍未能抵御那令剥心魔得名的心智剥离。]"
+    },
+    {
+     "row_id": "CAT:Oc0a688827663fa49a237",
+     "line": 100,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[The rest of the Agent's experience seems to consist of them having been]",
+     "current": "text: [此后，这名特工似乎先被抽干心智，]"
+    },
+    {
+     "row_id": "CAT:O97567834bd9e5dba83c5",
+     "line": 101,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[mentally drained and then passed off to another local fauna of Tutone.]",
+     "current": "text: [再被交给图托恩的另一种本土生物。]"
+    },
+    {
+     "row_id": "CAT:O084645f5143d4d9041fd",
+     "line": 102,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[In a sort of symbiotic cooperation, Flayers seem to mentally drain a victim]",
+     "current": "text: [两者似乎有着某种共生关系：剥心魔先抽干受害者的心智，]"
+    },
+    {
+     "row_id": "CAT:Of4cd394abe8237db6c0b",
+     "line": 103,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[before allowing another creature to keep the victim as an energy source.]",
+     "current": "text: [再交由另一种生物圈养，充作能量来源。]"
+    },
+    {
+     "row_id": "CAT:O33a09ffe391842c649e7",
+     "line": 107,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[With mental incapacitation complete, the victim is nestled into a tentacle bed]",
+     "current": "text: [待受害者心智彻底失能，便会被安置进触手床中]"
+    },
+    {
+     "row_id": "CAT:O73111cc2ebd907235bd3",
+     "line": 108,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[where constant sexual gratification keeps them placated.]",
+     "current": "text: [持续不断的性满足让受害者安分下来。]"
+    },
+    {
+     "row_id": "CAT:O3d87c9e9c47d6d3711f9",
+     "line": 109,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[These are extraordinary findings that the Agent will no doubt appreciate]",
+     "current": "text: [这些非凡的发现，想必会让该特工十分欣喜，]"
+    },
+    {
+     "row_id": "CAT:Ofa6dfe84d7b5b44296f4",
+     "line": 110,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[as soon as their mental facilities are returned to them!]",
+     "current": "text: [等她恢复心智能力后！]"
+    },
+    {
+     "row_id": "CAT:O86eca48226ca570a70aa",
+     "line": 114,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[We have many additional agents heading to Tutone to investigate further]",
+     "current": "text: [我们正增派多名特工前往图托恩，展开进一步调查]"
+    },
+    {
+     "row_id": "CAT:O4cb30aadaebdae0cc998",
+     "line": 115,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[so that we can return Yiffany, one of our most prized Agents,]",
+     "current": "text: [以便让我们最珍视的特工之一，伊吠妮，]"
+    },
+    {
+     "row_id": "CAT:Of30e7e09c1d0f16cabb5",
+     "line": 116,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[to her previous state.]",
+     "current": "text: [恢复到原先的状态。]"
+    },
+    {
+     "row_id": "CAT:Oa39945aad2f6f988b45b",
+     "line": 117,
+     "speaker": "narrator",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/179",
+     "source": "[Until Yiffany is capable once more, her file will be placed on hold. -EDITOR]",
+     "current": "text: [伊吠妮恢复行动能力前，本档案暂缓更新。——编者]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3c3f4d5a75f1ea83",
+   "mode": "sfw",
+   "logical_path": "vsn/f_GameStart/script.vsn",
+   "root": "vsn/f_GameStart/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: Shmup",
+     "current": "music: Shmup"
+    },
+    {
+     "line": 3,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 4,
+     "source": "fadein(1.0, 4): ClassicGameStart01A",
+     "current": "fadein(1.0, 4): ClassicGameStart01A"
+    },
+    {
+     "line": 7,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 9,
+     "source": "queue: ClassicGameStart01AToB",
+     "current": "queue: ClassicGameStart01AToB"
+    },
+    {
+     "line": 10,
+     "source": "sfxcue: ClassicGameStart01AToB {",
+     "current": "sfxcue: ClassicGameStart01AToB {"
+    },
+    {
+     "line": 11,
+     "source": "  play [ClassicTitleZap] at [2]",
+     "current": "  play [ClassicTitleZap] at [2]"
+    },
+    {
+     "line": 12,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 13,
+     "source": "queue: ClassicGameStart01B",
+     "current": "queue: ClassicGameStart01B"
+    },
+    {
+     "line": 14,
+     "source": "wait: 0.600",
+     "current": "wait: 0.600"
+    },
+    {
+     "line": 17,
+     "source": "fadecut(0.266, 2): ClassicGameStart01C",
+     "current": "fadecut(0.266, 2): ClassicGameStart01C"
+    },
+    {
+     "line": 21,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 22,
+     "source": "cut(0.06): ClassicGameStart01D",
+     "current": "cut(0.06): ClassicGameStart01D"
+    },
+    {
+     "line": 26,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 27,
+     "source": "cut(0.06): ClassicGameStart01E",
+     "current": "cut(0.06): ClassicGameStart01E"
+    },
+    {
+     "line": 31,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 32,
+     "source": "cut(0.06): ClassicGameStart01F",
+     "current": "cut(0.06): ClassicGameStart01F"
+    },
+    {
+     "line": 39,
+     "source": "queue: ClassicGameStart01FToG",
+     "current": "queue: ClassicGameStart01FToG"
+    },
+    {
+     "line": 40,
+     "source": "sfxcue: ClassicGameStart01FToG {",
+     "current": "sfxcue: ClassicGameStart01FToG {"
+    },
+    {
+     "line": 41,
+     "source": "  play [YiffaiPsyAbility] at [28]",
+     "current": "  play [YiffaiPsyAbility] at [28]"
+    },
+    {
+     "line": 42,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 43,
+     "source": "queue: ClassicGameStart01G",
+     "current": "queue: ClassicGameStart01G"
+    },
+    {
+     "line": 45,
+     "source": "queue: ClassicGameStart01G",
+     "current": "queue: ClassicGameStart01G"
+    },
+    {
+     "line": 46,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 47,
+     "source": "music: ShmupBoss",
+     "current": "music: ShmupBoss"
+    },
+    {
+     "line": 51,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 52,
+     "source": "fadecut(0.266, 2): ClassicGameStart01E2",
+     "current": "fadecut(0.266, 2): ClassicGameStart01E2"
+    },
+    {
+     "line": 53,
+     "source": "sfxcue: ClassicGameStart01E2 {",
+     "current": "sfxcue: ClassicGameStart01E2 {"
+    },
+    {
+     "line": 54,
+     "source": "  play [YiffaiChargeAttack] at [0, 10]",
+     "current": "  play [YiffaiChargeAttack] at [0, 10]"
+    },
+    {
+     "line": 55,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 59,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 60,
+     "source": "fadecut(0.266, 2): ClassicGameStart01H",
+     "current": "fadecut(0.266, 2): ClassicGameStart01H"
+    },
+    {
+     "line": 61,
+     "source": "sfxcue: ClassicGameStart01H {",
+     "current": "sfxcue: ClassicGameStart01H {"
+    },
+    {
+     "line": 62,
+     "source": "  play [EnemyKilled, EnemyHit] at [0, 8, 16, 24, 32, 40]",
+     "current": "  play [EnemyKilled, EnemyHit] at [0, 8, 16, 24, 32, 40]"
+    },
+    {
+     "line": 63,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 67,
+     "source": "queue: ClassicGameStart01HToI",
+     "current": "queue: ClassicGameStart01HToI"
+    },
+    {
+     "line": 68,
+     "source": "sfxcue: ClassicGameStart01HToI {",
+     "current": "sfxcue: ClassicGameStart01HToI {"
+    },
+    {
+     "line": 69,
+     "source": "  play [EnemyKilled] at [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88]",
+     "current": "  play [EnemyKilled] at [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88]"
+    },
+    {
+     "line": 70,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 71,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 72,
+     "source": "music: Silence",
+     "current": "music: Silence"
+    },
+    {
+     "line": 73,
+     "source": "queue: ClassicGameStart01I",
+     "current": "queue: ClassicGameStart01I"
+    },
+    {
+     "line": 74,
+     "source": "sfxcue: ClassicGameStart01I {",
+     "current": "sfxcue: ClassicGameStart01I {"
+    },
+    {
+     "line": 75,
+     "source": "  play [ClassicLowVitality] at [100]",
+     "current": "  play [ClassicLowVitality] at [100]"
+    },
+    {
+     "line": 76,
+     "source": "  play [ScreenShakeEvent] at [128]",
+     "current": "  play [ScreenShakeEvent] at [128]"
+    },
+    {
+     "line": 77,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 78,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 81,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 82,
+     "source": "music: CutsceneB",
+     "current": "music: CutsceneB"
+    },
+    {
+     "line": 83,
+     "source": "fadecut(0.266, 2): ClassicGameStart01J",
+     "current": "fadecut(0.266, 2): ClassicGameStart01J"
+    },
+    {
+     "line": 88,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 89,
+     "source": "fadecut(0.266, 2): ClassicGameStart01K",
+     "current": "fadecut(0.266, 2): ClassicGameStart01K"
+    },
+    {
+     "line": 92,
+     "source": "queue: ClassicGameStart01KToL",
+     "current": "queue: ClassicGameStart01KToL"
+    },
+    {
+     "line": 95,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 96,
+     "source": "cut(0.06): ClassicGameStart01KToL2",
+     "current": "cut(0.06): ClassicGameStart01KToL2"
+    },
+    {
+     "line": 97,
+     "source": "sfxcue: ClassicGameStart01KToL2 {",
+     "current": "sfxcue: ClassicGameStart01KToL2 {"
+    },
+    {
+     "line": 98,
+     "source": "  play [LeverActivate] at [1]",
+     "current": "  play [LeverActivate] at [1]"
+    },
+    {
+     "line": 99,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 100,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 101,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 103,
+     "source": "queue: ClassicGameStart01KToL3",
+     "current": "queue: ClassicGameStart01KToL3"
+    },
+    {
+     "line": 106,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 107,
+     "source": "cut(0.06): ClassicGameStart01L",
+     "current": "cut(0.06): ClassicGameStart01L"
+    },
+    {
+     "line": 109,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 111,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 112,
+     "source": "fadecut(0.266, 2): ClassicGameStart01M",
+     "current": "fadecut(0.266, 2): ClassicGameStart01M"
+    },
+    {
+     "line": 115,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 116,
+     "source": "fadecut(0.266, 2): ClassicGameStart01N",
+     "current": "fadecut(0.266, 2): ClassicGameStart01N"
+    },
+    {
+     "line": 121,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 122,
+     "source": "fadecut(0.266, 2): ClassicGameStart01O",
+     "current": "fadecut(0.266, 2): ClassicGameStart01O"
+    },
+    {
+     "line": 126,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 127,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW55ec2cc0f1538f978c6ba7ff",
+     "line": 6,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "[STARDATE XXXX:XXXX:XXXX.XX] [PLANET TUTONE, 5555 SYSTEM] [MAGNETOSHEATH ENTRY POINT]",
+     "current": "text: [星历XXXX:XXXX:XXXX.XX] [5555星系，图托恩星] [磁鞘进入点]"
+    },
+    {
+     "row_id": "SFW20173bb325cbf83ed5f0867a",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "...entry successful, en route to descend at 40N, 74W in T-minus XXXX unisecs.",
+     "current": "text: ……成功进入，正前往40N、74W下降点，距下降还有XXXX标准秒。"
+    },
+    {
+     "row_id": "SFW31e060775c8ea9013a4e4105",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Engine temp stable at 2640 degrees, plasma, oxygen and battery levels good.",
+     "current": "text: 引擎温度稳定在2640度，等离子、氧气和电量均正常。"
+    },
+    {
+     "row_id": "SFW7543a5a4badb2b478971bb9d",
+     "line": 19,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "This is Cosmobreeder Yiffany, can I get a mission update, Bossu?",
+     "current": "text: 这里是宇宙育种者伊吠妮。波苏，能更新下任务情报吗？"
+    },
+    {
+     "row_id": "SFW9fb48dccc4890b290aec1c55",
+     "line": 23,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "That's commanding officer Bossu, Yiffany. Don't forget that!",
+     "current": "text: 要叫波苏指挥官，伊吠妮。别忘了！"
+    },
+    {
+     "row_id": "SFW0e945627c9c3a44ee5fa8d16",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "We here at HQ are all thankful that you took this mission on short notice.",
+     "current": "text: 总部上下都很感谢你临时接下这次任务。"
+    },
+    {
+     "row_id": "SFW5e034eef0eda69e89b5e5e2c",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Oh yeah, no problem! If my little bro is all tangled up in it like you say he is",
+     "current": "text: 当然，没问题！要是我弟真像你说的那样卷进去了，那救他的机会，我说什么也不会错过！"
+    },
+    {
+     "row_id": "SFWaf834f7e8408f4645eea8df9",
+     "line": 29,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "then I wouldn't miss being the one to rescue him for the world!",
+     "current": ""
+    },
+    {
+     "row_id": "SFW34af21103d355d55438c02fc",
+     "line": 33,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "It's sad that your brother Yiffai's first deployment ended up this way",
+     "current": "text: 真遗憾，你弟弟伊吠的首次任务竟会变成这样，"
+    },
+    {
+     "row_id": "SFWeb43ef79fa3bec54086cc1ed",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "but there were more experienced agents on the same mission as he was.",
+     "current": "text: 可同一趟任务里，还有比他更有经验的特工。"
+    },
+    {
+     "row_id": "SFWea6e3e06cf9d32e5009a84c0",
+     "line": 35,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "You know the drill. Tutone is having a mass exodus of fauna",
+     "current": "text: 流程你都清楚。图托恩正在发生动物大规模外逃，"
+    },
+    {
+     "row_id": "SFW0176bbc22784d20def056100",
+     "line": 36,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "and your job is to find out why!",
+     "current": "text: 你的任务就是查明原因！"
+    },
+    {
+     "row_id": "SFW2da552cb2c982bf45937a8c9",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "On top of that, you should also look for your missing fellow agents.",
+     "current": "text: 除此之外，你还得寻找失踪的特工同伴。"
+    },
+    {
+     "row_id": "SFW983326629084e0dfe18a0bb0",
+     "line": 44,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Just make...sur...ou...on your...oes...or....",
+     "current": "text: 只要确……保……你……多加……小……心……"
+    },
+    {
+     "row_id": "SFWe5817e1d44bb04bedd37d61e",
+     "line": 48,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Oh? What's this? Another little spacebug entering my domain?",
+     "current": "text: 哦？这是什么？又一只小太空虫闯进了我的领地？"
+    },
+    {
+     "row_id": "SFW98b5f0e1b943edd91874d335",
+     "line": 49,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Enjoy your crash landing like your other little interlopers did, puppy!",
+     "current": "text: 小狗，跟先前那些小入侵者一样，好好享受坠机吧！"
+    },
+    {
+     "row_id": "SFW68a91924093511e9a8b2ec4e",
+     "line": 56,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "What? Just who the heck are you?",
+     "current": "text: 什么？你到底是谁？"
+    },
+    {
+     "row_id": "SFW18034fa490db505ce31a4d7a",
+     "line": 57,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "And where the heck did all these ships come from?",
+     "current": "text: 还有，这些飞船到底打哪儿来的？"
+    },
+    {
+     "row_id": "SFW884511dea7a815ab5ead9d0e",
+     "line": 64,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Alright this is a little ruffer than I was expecting!",
+     "current": "text: 好吧，这可比我预想的颠得厉害！"
+    },
+    {
+     "row_id": "SFW0db4f8f815de4f7747f3cbbb",
+     "line": 65,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "If you can hear me Bossu my engine's been hit! Making emergency descent!",
+     "current": "text: 波苏，听见了吗？引擎中弹！正在紧急下降！"
+    },
+    {
+     "row_id": "SFW9b332b19f303691376b425a6",
+     "line": 79,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "...ow.",
+     "current": "text: ……好疼。"
+    },
+    {
+     "row_id": "SFW7cfdeb9461d4ef6b89b6d43e",
+     "line": 84,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Well, I guess that's what I get for not taking things serious up there.",
+     "current": "text: 唉，这大概就是我在上头掉以轻心的报应。"
+    },
+    {
+     "row_id": "SFWff91d04643d155adc3078532",
+     "line": 85,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Gotta remember that there were some experienced agents that went missing",
+     "current": "text: 得记住，失踪的还有好些经验丰富的特工，可不止我家小弟！"
+    },
+    {
+     "row_id": "SFWf685dc3bf83b8fac98984c54",
+     "line": 86,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "not just my baby bro!",
+     "current": ""
+    },
+    {
+     "row_id": "SFWf999d09230556df50c59f8e3",
+     "line": 90,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "This ol' ship should be good to go for low orbit maneuvers at least.",
+     "current": "text: 这老飞船至少还能在低轨道上机动。"
+    },
+    {
+     "row_id": "SFW5b41a50809dc924e53f7e9bb",
+     "line": 93,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "I oughtta get more than just my flight jacket on, and maybe take a look around...",
+     "current": "text: 我该多穿点，不能光披飞行夹克，再四处看看……"
+    },
+    {
+     "row_id": "SFW3ea1a7636fb7a4c5bb5c5992",
+     "line": 104,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Hey, wait a minute!!",
+     "current": "text: 喂，等等啊！！"
+    },
+    {
+     "row_id": "SFW29730e225971463e85f742f9",
+     "line": 108,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "What the heck do you think you're doing you little thief?!?",
+     "current": "text: 你这小贼，搞什么鬼呢？！？"
+    },
+    {
+     "row_id": "SFWa5e632e02343b7a8342bc2da",
+     "line": 113,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Seriously? Escaping down some dingy dark little hole?",
+     "current": "text: 不是吧？竟然钻进又脏又黑的小洞逃跑？"
+    },
+    {
+     "row_id": "SFWd4962daeb7a36a5ca750fdfa",
+     "line": 117,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Maaaan, this is NOT how I like my missions to start out!",
+     "current": "text: 天哪，我可不想任务一开始就这么倒霉！"
+    },
+    {
+     "row_id": "SFW614ef022c20deb4640128493",
+     "line": 118,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Some big haired punk and her floozies shooting me down...",
+     "current": "text: 居然被一个顶着大蓬头发的小混混和她那帮轻浮跟班打下来了……"
+    },
+    {
+     "row_id": "SFWa25ec5cfdf8654a9b96f8df3",
+     "line": 119,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "...and then some little brat stealing my gear!",
+     "current": "text: ……接着又有个小混蛋偷走了我的装备！"
+    },
+    {
+     "row_id": "SFW835f9ff4458e1cef02f8dd0e",
+     "line": 123,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Whatever, this is as good a place to start exploring as any.",
+     "current": "text: 管它呢，从这儿开始探索也没什么不好。"
+    },
+    {
+     "row_id": "SFW580a64d5890424794bf43a53",
+     "line": 124,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/119",
+     "source": "Who knows, maybe there'll be some interesting creatures to find down here too!",
+     "current": "text: 谁知道呢，说不定下面也有些有趣的生物可找！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5feb59441112a3a5",
+   "mode": "nsfw",
+   "logical_path": "vsn/m_EndingBad/script.vsn",
+   "root": "vsn/m_EndingBad/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: ClassicQueenFightB",
+     "current": "music: ClassicQueenFightB"
+    },
+    {
+     "line": 2,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 3,
+     "source": "fadein(1.0, 4): BadEnd01B",
+     "current": "fadein(1.0, 4): BadEnd01B"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 9,
+     "source": "fadecut(0.266, 2): BadEnd02",
+     "current": "fadecut(0.266, 2): BadEnd02"
+    },
+    {
+     "line": 10,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 15,
+     "source": "fadecut(0.266, 2): BadEnd03",
+     "current": "fadecut(0.266, 2): BadEnd03"
+    },
+    {
+     "line": 16,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 21,
+     "source": "snap: Black",
+     "current": "snap: Black"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O117bcaefa072291fadb7",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "What? Trying to spirit away again?",
+     "current": "text: 什么？又想溜走？"
+    },
+    {
+     "row_id": "CAT:Ofd5da574de74fa39dd4d",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "Come on! There's no way you're getting away like that!",
+     "current": "text: 少来！你休想就这么逃走！"
+    },
+    {
+     "row_id": "CAT:O1a509beee313a97ed4b5",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "Hang on lil bro, I'm about to show you some real flying!",
+     "current": "text: 抓紧了，弟弟，马上让你见识什么才叫真正的驾驶技术！"
+    },
+    {
+     "row_id": "CAT:O3c28475106938fd3b34d",
+     "line": 11,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "Watch me put this baby into overdrive, and then I'll-",
+     "current": "text: 看我让这宝贝全速运转，然后我就——"
+    },
+    {
+     "row_id": "CAT:O5036b52b62ceb69cb7d0",
+     "line": 12,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "...I'll...",
+     "current": "text: ……我就……"
+    },
+    {
+     "row_id": "CAT:O7e9fe4d553a7e824ef42",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "...this baby is having... problems!",
+     "current": "text: ……这宝贝出了点……问题！"
+    },
+    {
+     "row_id": "CAT:Oaeff1ab036bdd1716858",
+     "line": 17,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "No!!!! She got away!!!",
+     "current": "text: 不！！！！她逃走了！！！"
+    },
+    {
+     "row_id": "CAT:O80d6eae7914480b6cd98",
+     "line": 18,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "There's no way to catch up to her now, she's out of sight completely!",
+     "current": "text: 现在根本追不上她了，已经完全看不见她了！"
+    },
+    {
+     "row_id": "CAT:O5e20e7f97f4ccf359023",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "Darn it all!! If only this ship was fully repaired with all its parts!",
+     "current": "text: 真是可恶！！要是这艘飞船的零件都配齐、彻底修好了就好了！"
+    },
+    {
+     "row_id": "CAT:Oec7b80d497643337e2b0",
+     "line": 22,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "...I guess there's nothing else we can do, baby bro.",
+     "current": "text: ……我想我们也没别的办法了，小弟。"
+    },
+    {
+     "row_id": "CAT:O19e5da8c77e0555f7ea2",
+     "line": 23,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "Just have to hope that Traeh doesn't manage to get her energy back...",
+     "current": "text: 只能希望Traeh没法恢复她的能量了……"
+    },
+    {
+     "row_id": "CAT:Obbbbce728ed8b07ba5e0",
+     "line": 24,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "...",
+     "current": "text: ……"
+    },
+    {
+     "row_id": "CAT:Of60bc636d032cd423113",
+     "line": 25,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/353",
+     "source": "...and hope that the galaxy is safe...",
+     "current": "text: ……也希望银河系平安无事……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc9710272ec73d1ea",
+   "mode": "nsfw",
+   "logical_path": "vsn/m_EndingGood/script.vsn",
+   "root": "vsn/m_EndingGood/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneE",
+     "current": "music: CutsceneE"
+    },
+    {
+     "line": 2,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 3,
+     "source": "fadein(1.0, 4): Ending01",
+     "current": "fadein(1.0, 4): Ending01"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 11,
+     "source": "fadecut(0.266, 2): Ending02",
+     "current": "fadecut(0.266, 2): Ending02"
+    },
+    {
+     "line": 12,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 17,
+     "source": "fadecut(0.266, 2): Ending03",
+     "current": "fadecut(0.266, 2): Ending03"
+    },
+    {
+     "line": 18,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 23,
+     "source": "fadecut(0.266, 2): Ending04A",
+     "current": "fadecut(0.266, 2): Ending04A"
+    },
+    {
+     "line": 24,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 29,
+     "source": "snap: Ending04B",
+     "current": "snap: Ending04B"
+    },
+    {
+     "line": 33,
+     "source": "snap: Ending04C",
+     "current": "snap: Ending04C"
+    },
+    {
+     "line": 39,
+     "source": "snap: Ending04D",
+     "current": "snap: Ending04D"
+    },
+    {
+     "line": 43,
+     "source": "snap: Ending04E",
+     "current": "snap: Ending04E"
+    },
+    {
+     "line": 47,
+     "source": "fadecut(0.266, 2): Ending05",
+     "current": "fadecut(0.266, 2): Ending05"
+    },
+    {
+     "line": 48,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 53,
+     "source": "fadecut(0.266, 2): Black",
+     "current": "fadecut(0.266, 2): Black"
+    },
+    {
+     "line": 54,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 64,
+     "source": "fademusic(0.0, 1.0)",
+     "current": "fademusic(0.0, 1.0)"
+    },
+    {
+     "line": 65,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O6825b01ad3488536b4d1",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Nooo! Curse you damn Yiffai siblings!",
+     "current": "text: 不要啊！诅咒你们，该死的伊吠姐弟！"
+    },
+    {
+     "row_id": "CAT:O21b33995ac3dfa89f5a9",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "I was supposed to rule the world... no... the Galaxy!",
+     "current": "text: 我本该统治世界的……不……是整个银河！ "
+    },
+    {
+     "row_id": "CAT:Oa00c5fb5f29f14f42dec",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "And now... now...!",
+     "current": "text: 而现在……现在……！"
+    },
+    {
+     "row_id": "CAT:O1fbeba711dae9e7aaa17",
+     "line": 8,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "...............!!!",
+     "current": "text: ...............!!!"
+    },
+    {
+     "row_id": "CAT:O6078859bc8be8d902bef",
+     "line": 9,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "GAAAAARRRRRRRGGGGGGGHGHHHH!",
+     "current": "text: 嘎啊啊啊——呜噢噢噢——呃呃呃！"
+    },
+    {
+     "row_id": "CAT:O0fa99ff48d48ea608ac0",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Wow sis, did we really just... save a whole planet?",
+     "current": "text: 哇，姐姐，我们刚才真的……救了整整一颗星球？"
+    },
+    {
+     "row_id": "CAT:Ob28429964723dac3561e",
+     "line": 14,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Yeah lil bro, I think we did! Par for the course on my missions, really.",
+     "current": "text: 是啊，小弟，我想是的！在我执行的任务里这都算家常便饭了。"
+    },
+    {
+     "row_id": "CAT:O54234ac109b921f28612",
+     "line": 15,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Buuut pretty impressive for my baby bro's first real mission, so good going!",
+     "current": "text: 不——过嘛，对我家小弟的第一次真正任务来说已经相当厉害了，干得漂亮！"
+    },
+    {
+     "row_id": "CAT:Oab7b3eccb1b913826c6a",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "The heroes of Tutone! They return!",
+     "current": "text: 图托恩的英雄们！他们回来了！"
+    },
+    {
+     "row_id": "CAT:O6ed526ee5a682118892d",
+     "line": 20,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Traeh has been defeated, her psychic disturbances are no more and her minions flee!",
+     "current": "text: Traeh已被击败，她的灵能扰动不复存在，她的手下四散逃窜！"
+    },
+    {
+     "row_id": "CAT:O7ee48d8b77204623dff7",
+     "line": 21,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Cheers for the heroes!",
+     "current": "text: 为英雄们欢呼！"
+    },
+    {
+     "row_id": "CAT:Oc74cf3415c2328aed16f",
+     "line": 25,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "YIP! YIP! HOORAY!",
+     "current": "text: YIP！YIP！好耶！"
+    },
+    {
+     "row_id": "CAT:Ob5408578a115bcd2e8c7",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "YIP! YIP! HOORAY!",
+     "current": "text: YIP！YIP！好耶！"
+    },
+    {
+     "row_id": "CAT:O01fb3208c607fdd28333",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "BLESSED BE THE COSMOBREEDERS, SAVIORS OF OUR PLANET!",
+     "current": "text: 愿宇宙育种者受颂，我们星球的救星！"
+    },
+    {
+     "row_id": "CAT:O3a14cd93f9f05c8ef0b4",
+     "line": 30,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Wow, good going you two! Clearing out a whole planet of baddies...",
+     "current": "text: 哇，你们俩真棒！把整颗星球的坏蛋都清理干净了……"
+    },
+    {
+     "row_id": "CAT:Oc07d82a9be0ca676d388",
+     "line": 31,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "That's definitely gonna help the local fauna get back on track!",
+     "current": "text: 这肯定能帮当地的动物们重回正轨！"
+    },
+    {
+     "row_id": "CAT:Oae2a9771bd475225bdf7",
+     "line": 34,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "I knew you two could do it. Never had a doubt in my mind.",
+     "current": "text: 我就知道你们俩能做到。我心里从没怀疑过。"
+    },
+    {
+     "row_id": "CAT:O361cbb952eb5904befc1",
+     "line": 35,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Not even when one of you went AWOL and stopped responding to all communica-",
+     "current": "text: 就连你们中有人擅离职守、不再回应任何通——"
+    },
+    {
+     "row_id": "CAT:O18305b5ce35391c77571",
+     "line": 36,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "-Ahem...",
+     "current": "text: -嗯哼……"
+    },
+    {
+     "row_id": "CAT:O5d6f7672eb65e1df73b9",
+     "line": 37,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "This will definitely be a good report to have filed away, Agents!",
+     "current": "text: 这份报告绝对值得归档留存，特工们！"
+    },
+    {
+     "row_id": "CAT:Oa2da3f9d64e07470c9f4",
+     "line": 40,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Nice one, grrrrl! You and your pup brother really cleaned up down there!",
+     "current": "text: 干得漂亮，姑娘！你和你那小狗崽弟弟，真把下面的坏蛋收拾干净了！"
+    },
+    {
+     "row_id": "CAT:O7dfda798c1f3b66b92e6",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Just don't forget about us at HQ when all the fame goes to your heads, alright?",
+     "current": "text: 不过就算出了名、得意起来，也别忘了总部的我们啊，好吗？"
+    },
+    {
+     "row_id": "CAT:O2ea0dc0ea303881853a9",
+     "line": 44,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "HOORAH FOR YIFFANY AND YIFFAI! STAR COSMOBREEDERS!",
+     "current": "text: 为伊吠妮和伊吠欢呼！明星级宇宙育种者！"
+    },
+    {
+     "row_id": "CAT:O632ae267f9e120b91982",
+     "line": 45,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "H O O R A Y ! ! !",
+     "current": "text: 好 耶 ！ ！ ！"
+    },
+    {
+     "row_id": "CAT:O8256780a5a837039503d",
+     "line": 49,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Heh, how about that, sis? We made a pretty good team, didn't we?",
+     "current": "text: 嘿，瞧见没，姐姐？我们配合得挺不错，不是吗？"
+    },
+    {
+     "row_id": "CAT:O46789b09b042745268ca",
+     "line": 50,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "Wellll... you did alright, bro.",
+     "current": "text: 嗯——……你还行啦，老弟。 "
+    },
+    {
+     "row_id": "CAT:Oe2246084d871da1830bb",
+     "line": 51,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "...for a pup.",
+     "current": "text: ……就一只小崽子而言。 "
+    },
+    {
+     "row_id": "CAT:O13c960410aeedf0216d0",
+     "line": 55,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[SO ENDS THE REPORT ON PLANET TUTONE.]",
+     "current": "text: [图托恩星球的报告至此结束。]"
+    },
+    {
+     "row_id": "CAT:Od89b74d4501b0d1a8bfd",
+     "line": 56,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[A PLANET WITH A TUMULTUOUS HISTORY, FACING THE GREATEST CHALLENGES OF ITS TIME]",
+     "current": "text: [一颗历史动荡、正面临其时代最严峻挑战的星球]"
+    },
+    {
+     "row_id": "CAT:O5374e2b1dbca32f6c126",
+     "line": 57,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[SAVED BY THE VALIANT EFFORTS OF TWO BRAVE COSMOBREEDERS:]",
+     "current": "text: [因两位勇敢的宇宙育种者的英勇努力而获救：]"
+    },
+    {
+     "row_id": "CAT:O9445e86e4a5f516eec61",
+     "line": 58,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[YIFFANY YIFFAI, ELDER SISTER AND SEASONED VETERAN WITH UNMATCHED COMBAT SKILL]",
+     "current": "text: [伊吠妮·伊吠，姐姐，久经沙场的老兵，拥有无与伦比的战斗技巧]"
+    },
+    {
+     "row_id": "CAT:O001b813441e2c84c891f",
+     "line": 59,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[AND YIFFAI YIFFAI, THE YOUNGER BROTHER PRODIGY WITH UNENDING ENTHUSIASM]",
+     "current": "text: [以及伊吠·伊吠，热情永不枯竭的天才弟弟]"
+    },
+    {
+     "row_id": "CAT:Ob447c31d8cb9bb297c42",
+     "line": 60,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[WITH THE TWO OF THEM TEAMED UP, THERE'S NO MISSION THAT THEY CAN'T HANDLE]",
+     "current": "text: [两人联手，没有他们应付不了的任务]"
+    },
+    {
+     "row_id": "CAT:O014c38c7ec9610db4cad",
+     "line": 61,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/359",
+     "source": "[AND THE PPP IS PROUD TO HAVE THEM AS AGENTS.]                      -SIGNED, BOSSU",
+     "current": "text: [PPP以拥有他们两位特工为荣。]                      ——署名：波苏"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC394405c5c61c5988",
+   "mode": "nsfw",
+   "logical_path": "vsn/m_GameOverArea0/script.vsn",
+   "root": "vsn/m_GameOverArea0/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneX",
+     "current": "music: CutsceneX"
+    },
+    {
+     "line": 2,
+     "source": "snap: ClassicGameOverArea0A",
+     "current": "snap: ClassicGameOverArea0A"
+    },
+    {
+     "line": 3,
+     "source": "waitForCue!",
+     "current": "waitForCue!"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 10,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    },
+    {
+     "line": 11,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 16,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 17,
+     "source": "fadein(1.0, 4): ClassicGameOverArea0B",
+     "current": "fadein(1.0, 4): ClassicGameOverArea0B"
+    },
+    {
+     "line": 18,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 24,
+     "source": "cut(0.06): ClassicGameOverArea0C",
+     "current": "cut(0.06): ClassicGameOverArea0C"
+    },
+    {
+     "line": 25,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 31,
+     "source": "cut(0.06): ClassicGameOverArea0H",
+     "current": "cut(0.06): ClassicGameOverArea0H"
+    },
+    {
+     "line": 32,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 36,
+     "source": "cut(0.06): ClassicGameOverArea0G",
+     "current": "cut(0.06): ClassicGameOverArea0G"
+    },
+    {
+     "line": 37,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 44,
+     "source": "cut(0.06): ClassicGameOverArea0D",
+     "current": "cut(0.06): ClassicGameOverArea0D"
+    },
+    {
+     "line": 45,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 50,
+     "source": "cut(0.06): ClassicGameOverArea0D2",
+     "current": "cut(0.06): ClassicGameOverArea0D2"
+    },
+    {
+     "line": 51,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 56,
+     "source": "cut(0.06): ClassicGameOverArea0I",
+     "current": "cut(0.06): ClassicGameOverArea0I"
+    },
+    {
+     "line": 57,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 63,
+     "source": "cut(0.06): ClassicGameOverArea0E",
+     "current": "cut(0.06): ClassicGameOverArea0E"
+    },
+    {
+     "line": 64,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 70,
+     "source": "cut(0.06): ClassicGameOverArea0J",
+     "current": "cut(0.06): ClassicGameOverArea0J"
+    },
+    {
+     "line": 71,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 79,
+     "source": "cut(0.06): ClassicGameOverArea0F",
+     "current": "cut(0.06): ClassicGameOverArea0F"
+    },
+    {
+     "line": 80,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 87,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 88,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 94,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 95,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2a6ca029526e6ca9cf50",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Ow, I didn't expect to take such a rough bump.",
+     "current": "text: 嗷，没想到会挨这么重的一下。"
+    },
+    {
+     "row_id": "CAT:Obe184f28d26fde62e54d",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Guess I can use this chance to practice writing an end-of-capture report!",
+     "current": "text: 正好借机练习写获释后的被俘经历报告！"
+    },
+    {
+     "row_id": "CAT:O1c790ea6ecde62eb9f64",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Lessee, just gotta start paying attention and see if anything notable happens",
+     "current": "text: 我看看……只要从现在开始留心，看看这段短短的……结束前，会发生什么值得记录的事。"
+    },
+    {
+     "row_id": "CAT:O8ea28decb6f05ea4edca",
+     "line": 8,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "between now and the end of this short...",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oaee1dcba07b366ac8bf1",
+     "line": 12,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...little...",
+     "current": "text: ……稍微……"
+    },
+    {
+     "row_id": "CAT:O1328ba32c5865a8e7681",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...napzzzz...z...",
+     "current": "text: ……睡觉……呼……噜……"
+    },
+    {
+     "row_id": "CAT:O84d6d27e71df1ef6dc12",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Would you look at that? Must've slept for quite a while since I was all groggy",
+     "current": "text: 瞧瞧这事！我肯定睡了挺久，醒来还迷迷糊糊的，一醒来就发现自己正被套上拘束具！"
+    },
+    {
+     "row_id": "CAT:O507a42891a8b11de6197",
+     "line": 20,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "and woke to find myself being locked into some restraints!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0c7e16060c68bd51c8a2",
+     "line": 21,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Not only that, but the jerks that were locking me into these cuffs...",
+     "current": "text: 不光如此，那些把我锁进镣铐的混蛋……"
+    },
+    {
+     "row_id": "CAT:O6f5b76065b49781fd8b9",
+     "line": 22,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...looked just like that shorty that stole my gear to begin with!!",
+     "current": "text: ……居然跟一开始偷我装备的矮子长得一模一样！！"
+    },
+    {
+     "row_id": "CAT:O45ddd0d9b52ea6d44fb7",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "As soon as they got me chained up in some sort of ramshackle den of theirs",
+     "current": "text: 他们刚把我锁进那破破烂烂的窝里，就开始轮流操我。都不先请我吃顿饭！"
+    },
+    {
+     "row_id": "CAT:O054abfd5d6f3e84758aa",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "they started to take turns rutting me. Didn't even get me dinner first or anything!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O9f11860750ebc2ab91b7",
+     "line": 28,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "With the shorties being so small it wasn't much of a workout for a pro like me",
+     "current": "text: 这些小矮子个头太小，对我这种老手根本算不上运动，不过我看得出，这些吱吱怪都急着发泄呢。"
+    },
+    {
+     "row_id": "CAT:O627e56d7ab36b74a7cc1",
+     "line": 29,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "but I could tell that these squeakers were pretty desperate for some release.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O760e94c13d66e796b76d",
+     "line": 33,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "It was actually kinda fun to see the little fellas go to town on my tail...heh!",
+     "current": "text: 看这些小家伙对着我尾巴底下猛干，还挺有意思……嘿！"
+    },
+    {
+     "row_id": "CAT:O104917e5465a83e5688c",
+     "line": 34,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "One after another they took turns, must've been at least a dozen of them...",
+     "current": "text: 他们一个接一个轮着来，少说也有十几个……"
+    },
+    {
+     "row_id": "CAT:O3f3582d00219206dc926",
+     "line": 38,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "The little guys only bred me one at a time but you could tell they were pent up",
+     "current": "text: 小家伙们一次只来一个，可光听他们吱吱喳喳，就知道都憋坏了。"
+    },
+    {
+     "row_id": "CAT:O628b9883272661606f16",
+     "line": 39,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "by all the squeaking and chittering they were doing.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O103f7adf70dad199625e",
+     "line": 40,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Every now and again one would get squeaked at for delaying the line",
+     "current": "text: 时不时就有一个因耽误排队，被吱吱叫着催促，还在射就被催着赶走了！"
+    },
+    {
+     "row_id": "CAT:O9631300463388ff9f0e7",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "and they'd get hurried along while still squirting!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Obc8dda1a7f77e0665e2f",
+     "line": 46,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Being the center of so much attention was actually kinda fun.",
+     "current": "text: 被这么多家伙团团围着，其实还挺好玩。"
+    },
+    {
+     "row_id": "CAT:O46f0843438ad9267c262",
+     "line": 47,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Learned a lot about their breeding habits",
+     "current": "text: 我学到了不少他们的交配习性，可惜没更大的个体供研究，我还真有点失望！"
+    },
+    {
+     "row_id": "CAT:O2ceac7a36524a318f658",
+     "line": 48,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "but I was almost dis- appointed that there were no larger specimens to study!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1f4a8db55c2d68175508",
+     "line": 52,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Almost, until I noticed that I was alone in the cell.",
+     "current": "text: 差点就是了，直到我发现牢房只剩我一个。 "
+    },
+    {
+     "row_id": "CAT:Oc1e95d2a7186b2b23c08",
+     "line": 53,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "The little guys had left while I was getting lost in my thoughts, rude, right?",
+     "current": "text: 那帮小个子趁我走神时溜了，很没礼貌吧？"
+    },
+    {
+     "row_id": "CAT:O716eb56024fd6a580eb2",
+     "line": 58,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I was just about to break out of there when my ears picked up the soft sounds of",
+     "current": "text: 我正准备逃出去，耳朵却捕捉到有人沿着石地悄悄靠近的轻微声响。"
+    },
+    {
+     "row_id": "CAT:O71da3e4147999bba56b6",
+     "line": 59,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "someone creeping along the stones.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O123877ac5383db8c04ab",
+     "line": 60,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...along with some low growling...",
+     "current": "text: ……还伴着几声低吼……"
+    },
+    {
+     "row_id": "CAT:O8d8d4afe55eccca55209",
+     "line": 65,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Suddenly, out of the shadows came a giant beast of a creature!",
+     "current": "text: 突然，一头巨兽从阴影里走了出来！ "
+    },
+    {
+     "row_id": "CAT:O852ef17c8e145f374312",
+     "line": 66,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "A muscled feline that could have probably torn me in half!",
+     "current": "text: 那只肌肉发达的大猫，恐怕能把我撕成两半！"
+    },
+    {
+     "row_id": "CAT:O2b1a1b35cc1779210f17",
+     "line": 67,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "But only because I was chained up!",
+     "current": "text: 可那也只是因为我被锁住了！"
+    },
+    {
+     "row_id": "CAT:O4075e2dcf60d7eeefa2e",
+     "line": 68,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Fortunately for him it was clear fighting wasn't what he had in mind.",
+     "current": "text: 算他走运，显然他没打算跟我打架。"
+    },
+    {
+     "row_id": "CAT:O8cb4461f95254b380951",
+     "line": 72,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I let him grab me however he wanted, since I was feeling kinda rowdy too, you know?",
+     "current": "text: 我任他想怎么抓就怎么抓，毕竟我也有点躁动了，懂吧？"
+    },
+    {
+     "row_id": "CAT:Of172df5908e4697edd21",
+     "line": 73,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Those little punks earlier were barely a warm up and I needed more!",
+     "current": "text: 之前那群小混蛋连热身都不够，我还没过瘾呢！"
+    },
+    {
+     "row_id": "CAT:O53cf28e2f209349d79fe",
+     "line": 74,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I tried to make it sound like I was having a rough time handling him, though...",
+     "current": "text: 不过，我故意哼得好像很难应付他似的……"
+    },
+    {
+     "row_id": "CAT:O00d15791892862b17509",
+     "line": 75,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "You know, pretending like those giant pliable barbs of his were driving me crazy",
+     "current": "text: 你懂的，装作在他用壮实的腰臀狠狠往我里面撞时，被他那些又大又软的倒刺弄得快疯了……"
+    },
+    {
+     "row_id": "CAT:O600f6cf883555f743b83",
+     "line": 76,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "as he plowed into me roughly with those great haunches of his...",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O418ffbc1fe7a7b7695f5",
+     "line": 81,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I was so busy pretending like I was losing myself in the sexual moment",
+     "current": "text: 我光顾着装出沉醉在性爱里的样子，差点没注意又有几只色猫围了过来。"
+    },
+    {
+     "row_id": "CAT:O4487ec09b129e656c977",
+     "line": 82,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "that I almost didn't notice the additional lusty cats circling around.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc86870a45d985ef66077",
+     "line": 83,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I... I figured it was probably a great opportunity to study the species more...",
+     "current": "text: 我……我想这大概是进一步研究这物种的好机会…… "
+    },
+    {
+     "row_id": "CAT:O9bbd805bfa0eac9ac462",
+     "line": 84,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Besides, it's not like I was in any rush!",
+     "current": "text: 再说，我又不赶时间！"
+    },
+    {
+     "row_id": "CAT:O2bbd3b3ca56f8a56ab94",
+     "line": 85,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "I knew I could break out of that cell and escape those brutes whenever I wanted to.",
+     "current": "text: 我知道，只要想逃，随时都能破牢而出，甩掉那些蛮兽。"
+    },
+    {
+     "row_id": "CAT:O380f4ed0d11facd4e06b",
+     "line": 89,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "Uhh if you're viewing this report, I guess it means I lost track of time",
+     "current": "text: 呃，你要是在看这份报告，想必是我忘了时间，然后有人正好撞见了逃到一半的我，是吧？"
+    },
+    {
+     "row_id": "CAT:O0be3bc3ab177662232fc",
+     "line": 90,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "and someone stumbled across me mid-escape, huh?",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Od8c12721adddea8c585c",
+     "line": 91,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...",
+     "current": "text: ……"
+    },
+    {
+     "row_id": "CAT:O10b33577a49de9fedaba",
+     "line": 92,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/371",
+     "source": "...you believe me, right?",
+     "current": "text: ……你信我的，对吧？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC42b1851d50303cc3",
+   "mode": "nsfw",
+   "logical_path": "vsn/m_GameOverAreaC/script.vsn",
+   "root": "vsn/m_GameOverAreaC/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneX",
+     "current": "music: CutsceneX"
+    },
+    {
+     "line": 2,
+     "source": "snap: ClassicGameOverAreaCA",
+     "current": "snap: ClassicGameOverAreaCA"
+    },
+    {
+     "line": 3,
+     "source": "waitForCue!",
+     "current": "waitForCue!"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 9,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    },
+    {
+     "line": 10,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 15,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 16,
+     "source": "fadein(1.0, 4): ClassicGameOverAreaCB",
+     "current": "fadein(1.0, 4): ClassicGameOverAreaCB"
+    },
+    {
+     "line": 17,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 24,
+     "source": "cut(0.06): ClassicGameOverAreaCC",
+     "current": "cut(0.06): ClassicGameOverAreaCC"
+    },
+    {
+     "line": 25,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 34,
+     "source": "cut(0.06): ClassicGameOverAreaCD",
+     "current": "cut(0.06): ClassicGameOverAreaCD"
+    },
+    {
+     "line": 35,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 43,
+     "source": "cut(0.06): ClassicGameOverAreaCE",
+     "current": "cut(0.06): ClassicGameOverAreaCE"
+    },
+    {
+     "line": 44,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 51,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    },
+    {
+     "line": 52,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 53,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 59,
+     "source": "cut(0.06): ClassicGameOverAreaCG",
+     "current": "cut(0.06): ClassicGameOverAreaCG"
+    },
+    {
+     "line": 60,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 65,
+     "source": "cut(0.06): ClassicGameOverAreaCH",
+     "current": "cut(0.06): ClassicGameOverAreaCH"
+    },
+    {
+     "line": 66,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 72,
+     "source": "cut(0.06): ClassicGameOverAreaCI",
+     "current": "cut(0.06): ClassicGameOverAreaCI"
+    },
+    {
+     "line": 73,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 79,
+     "source": "cut(0.06): ClassicGameOverAreaCJ",
+     "current": "cut(0.06): ClassicGameOverAreaCJ"
+    },
+    {
+     "line": 80,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 87,
+     "source": "cut(0.06): ClassicGameOverAreaCK",
+     "current": "cut(0.06): ClassicGameOverAreaCK"
+    },
+    {
+     "line": 88,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 95,
+     "source": "cut(0.06): ClassicGameOverAreaCL",
+     "current": "cut(0.06): ClassicGameOverAreaCL"
+    },
+    {
+     "line": 96,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 101,
+     "source": "cut(0.06): Black",
+     "current": "cut(0.06): Black"
+    },
+    {
+     "line": 102,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 107,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 108,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O575d7a58016694fc7108",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Ouch! That last blow really ruffled my fluff!",
+     "current": "text: 嗷！刚才那一下真把我的毛都打乱了！"
+    },
+    {
+     "row_id": "CAT:Od56dfa1666915dc69b95",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "But everyone's counting on me, so I gotta get back up and keep fighting!",
+     "current": "text: 可大家都指望着我呢，我得爬起来接着战斗！"
+    },
+    {
+     "row_id": "CAT:O501d4b8fe69fa8291b36",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Nnhg... just... need a moment... to lay here and catch my breath...",
+     "current": "text: 嗯呃……只要……在这躺一小会儿……喘口气……"
+    },
+    {
+     "row_id": "CAT:Oc26f685bc9d54199f16c",
+     "line": 11,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...but... so... so dizzy...",
+     "current": "text: ……可……好……好晕……"
+    },
+    {
+     "row_id": "CAT:Of8f8b08265c8e37af3c0",
+     "line": 12,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...huh?",
+     "current": "text: ……嗯？ "
+    },
+    {
+     "row_id": "CAT:O16672624743fc95986bd",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Who are you...?",
+     "current": "text: 你是谁……？"
+    },
+    {
+     "row_id": "CAT:O2e564fbc64811b075cee",
+     "line": 18,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Hopefully the data recorders got all this. I seem to have been 'acquired' by",
+     "current": "text: 希望记录器都录下来了。我似乎被这片区域两种原生双足物种之一——哥布林“收归己有”了。"
+    },
+    {
+     "row_id": "CAT:O4587273ee63fe5dce2da",
+     "line": 19,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "one of the two bipedal species native to this area, the Gobins.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O657f7d4c5534c5cea79d",
+     "line": 20,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "As the big male carried me into the woods, I was still too dazed to put up a fight.",
+     "current": "text: 那大块头雄性把我抱进树林时，我还晕得无力反抗。"
+    },
+    {
+     "row_id": "CAT:Ob5d4748fbf27e98de3c4",
+     "line": 21,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I tried to tell him that I was on a really important mission, but either",
+     "current": "text: 我想告诉他，我在执行重大任务，可他要么听不懂银河通用语……要么就是根本不在乎……"
+    },
+    {
+     "row_id": "CAT:O09997d6d67b147e187a1",
+     "line": 22,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "he didn't speak galactic... or he just didn't care...",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Ofaf9cc35b342640e9b0b",
+     "line": 26,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Once he got me back to the Gobin village, I was in for a really rude welcome!",
+     "current": "text: 他把我带回哥布林村后，那欢迎仪式可真粗暴！"
+    },
+    {
+     "row_id": "CAT:O66237c1649708640f8a9",
+     "line": 27,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "They immediately took turns passing me around and breeding me on the spot!!",
+     "current": "text: 他们当场就把我传来传去，轮流操了起来！！"
+    },
+    {
+     "row_id": "CAT:Ode8d3bf758594d19c0ef",
+     "line": 28,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "They were so big, and they just used me like I was a toy.",
+     "current": "text: 他们那么大，把我当玩具一样随意玩弄。 "
+    },
+    {
+     "row_id": "CAT:O9f421f1f2ed272b338a3",
+     "line": 29,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Just jamming their hot Gobin cocks all the way up into my tummy, again and again!",
+     "current": "text: 一遍又一遍，把滚烫的哥布林鸡巴直捅到我肚子里！ "
+    },
+    {
+     "row_id": "CAT:O2c807d38f2abb436191e",
+     "line": 30,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "It was... Ugh... Rough... tiring... But kinda nice, at first...",
+     "current": "text: 那感觉……呃……粗暴……累人……可起初还挺舒服……"
+    },
+    {
+     "row_id": "CAT:O15da30ca6d6fa71a4680",
+     "line": 31,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "The others pawwed through my equipment, jabbering about it and sorting it.",
+     "current": "text: 其他家伙用爪子翻拣我的装备，叽里呱啦地分着类。"
+    },
+    {
+     "row_id": "CAT:Oc5cef692f89b744afd4c",
+     "line": 32,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I didn't see any of that gear again. I think they sold it to space pirates...",
+     "current": "text: 那些装备我再也没见过，估计被卖给太空海盗了……"
+    },
+    {
+     "row_id": "CAT:O819ca4b22e772dbe269e",
+     "line": 36,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Once they had their fill, they put me in a hanging cage at edge of the village.",
+     "current": "text: 他们尽兴后，把我关进村边悬吊的笼子里。"
+    },
+    {
+     "row_id": "CAT:O7e537ac99d2a34232244",
+     "line": 37,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "After that? I'm not sure how long they kept me... A week? Two...?",
+     "current": "text: 再后来？我也不知被关了多久……一周？两周……？"
+    },
+    {
+     "row_id": "CAT:O2f66acd963fa472f32f2",
+     "line": 38,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I don't think I ever got more than an hour of rest between rough breedings.",
+     "current": "text: 两次粗暴交配之间，我大概从没休息超过一小时。 "
+    },
+    {
+     "row_id": "CAT:Oae9116f31e7aefc7081b",
+     "line": 39,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "The morning patrols... the afternoon patrols... I was free use for everyone!",
+     "current": "text: 早班巡逻……午班巡逻……谁都能随便用我！"
+    },
+    {
+     "row_id": "CAT:Ob5e32190d413d86dc78d",
+     "line": 40,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "At least we'll have *plenty* of data on the male Gobin's breeding habits now,",
+     "current": "text: 至少现在，雄性哥布林的配种习性数据可*管够*了，全是我……啊……辛苦收集的！一寸……呃……*粗大*的一寸！"
+    },
+    {
+     "row_id": "CAT:O8312797373f8140f131a",
+     "line": 41,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "collected by me... ah...! painstakingly...! inch by... ugh... *thick* inch!",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2888cb259c546099b8f3",
+     "line": 45,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Look, I'm a bottom agent right? I knew what I was signing up for...",
+     "current": "text: 听着，我是个下位特工，好吧？我知道自己报名来干嘛……"
+    },
+    {
+     "row_id": "CAT:O0b06d414809698a785b9",
+     "line": 46,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...but jeez, even I've got my limits! This was all too much!",
+     "current": "text: ……可天哪，我也有极限！这实在太过了！"
+    },
+    {
+     "row_id": "CAT:Obb6bcc14dac49c0a2cea",
+     "line": 47,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I wanted to escape, but all those Gobin cocks really took the fight out of me...",
+     "current": "text: 我想逃，可那些哥布林的鸡巴把我操得没力气反抗了……"
+    },
+    {
+     "row_id": "CAT:O5c32e2dd9cf9735c6b7b",
+     "line": 48,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...and they kept a real close eye on me in my cage, too.",
+     "current": "text: ……他们还把笼里的我看得死死的。 "
+    },
+    {
+     "row_id": "CAT:O6d7c7bafc13760bb6bc4",
+     "line": 49,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Even the slightest untoward movement was an invitation for another rough pounding!",
+     "current": "text: 稍有不安分，就会招来又一顿粗暴猛干！"
+    },
+    {
+     "row_id": "CAT:O11a891b1d54bea0feb65",
+     "line": 54,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "So... as much as I'd like to say that I executed a brilliant escape plan...",
+     "current": "text: 所以……我很想说，是我施展了绝妙逃脱计划……"
+    },
+    {
+     "row_id": "CAT:Oeafda9bcf4dd205cd063",
+     "line": 55,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...it was really just dumb luck, the way it happened.",
+     "current": "text: ……其实事情就那么发生了，全靠瞎猫碰上死耗子。"
+    },
+    {
+     "row_id": "CAT:O89be2c7fce59af929339",
+     "line": 56,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "The Gobins watching me were urgently called away one night.",
+     "current": "text: 有天夜里，看守我的哥布林被紧急叫走了。 "
+    },
+    {
+     "row_id": "CAT:O75de25126b64add68c6e",
+     "line": 57,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I think maybe one of their raids wasn't going well, but I'm not sure...",
+     "current": "text: 也许是他们哪次劫掠不太顺利，我也不确定……"
+    },
+    {
+     "row_id": "CAT:Ob7ced5ed9907a17f2087",
+     "line": 61,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Somehow, I scrambled down the nearest tree. My legs were shaking.",
+     "current": "text: 不知怎么的，我从最近的树上爬了下来，双腿直打颤。"
+    },
+    {
+     "row_id": "CAT:O4c4b691aefe043c0de93",
+     "line": 62,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I had no gear, no comms, stranded in the middle of an alien forest...",
+     "current": "text: 没装备、没通讯，我被困在外星森林深处……"
+    },
+    {
+     "row_id": "CAT:O543cae7561182325374b",
+     "line": 63,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "My only hope was to somehow make my way back to the hangar and regroup.",
+     "current": "text: 唯一的希望，就是设法回机库重整旗鼓。"
+    },
+    {
+     "row_id": "CAT:Oe7e0a7c0eb634e305356",
+     "line": 67,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...but I didn't make it far before I was intercepted. Not by Gobins, thankfully.",
+     "current": "text: ……可没跑多远就被拦住了。幸好不是哥布林。"
+    },
+    {
+     "row_id": "CAT:Obbcd3e1af72df9343b0e",
+     "line": 68,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "It was a tall Elf lady. Someone who could speak my language, at least.",
+     "current": "text: 那是个高挑的精灵女子。至少终于有人会说我的语言了。"
+    },
+    {
+     "row_id": "CAT:Od87eb83d613b213a4543",
+     "line": 69,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "But when I tried to explain about my super important rescue mission...",
+     "current": "text: 可我试着解释自己那超级重要的救援任务时…… "
+    },
+    {
+     "row_id": "CAT:O4de9712e9d11cff2e7b5",
+     "line": 70,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...she just kept... cooing at me...?",
+     "current": "text: ……她却一直……柔声哄我……？"
+    },
+    {
+     "row_id": "CAT:O4ef2a28edbc9b6661979",
+     "line": 74,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I didn't have the strength to resist her as she led me away to the other elves",
+     "current": "text: 她领我去找其他精灵时，我已没力气反抗，很快，我就在幽静的林间泉水里，被他们围着伺候洗澡。"
+    },
+    {
+     "row_id": "CAT:Of6ef1523970dc6e975d1",
+     "line": 75,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "and soon I found myself fussed over and bathed in a quiet forest spring.",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O724ee9708436e9e09a1e",
+     "line": 76,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "The elves ignored my weak protests, responding only with sweet nothings...",
+     "current": "text: 精灵们无视我软弱的抗议，只说着甜言蜜语……"
+    },
+    {
+     "row_id": "CAT:O4f350f3e057c902e3e56",
+     "line": 77,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "'There there little one, just relax...' and so on.",
+     "current": "text: “乖，乖，小家伙，放松就好……”之类的。"
+    },
+    {
+     "row_id": "CAT:Odc2421d59e6126a83f5c",
+     "line": 81,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "After my rough and messy Gobin captivity, this was all so relaxing...",
+     "current": "text: 被哥布林粗暴地折腾了那么久，这一切太放松了……"
+    },
+    {
+     "row_id": "CAT:O08521470667c58262605",
+     "line": 82,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...I guess I just kinda... melted... and let the elves do... hmmf...",
+     "current": "text: ……我好像就这么……酥软了……任由精灵们……嗯唔……"
+    },
+    {
+     "row_id": "CAT:Ob40fbbe37a2dbbaa3290",
+     "line": 83,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "...whatever they wanted with me.",
+     "current": "text: ……随他们怎么摆弄我。"
+    },
+    {
+     "row_id": "CAT:O155945b62d841ce781fe",
+     "line": 84,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "My head swam. I felt... intoxicated...?",
+     "current": "text: 我头晕目眩，感觉……像醉了……？"
+    },
+    {
+     "row_id": "CAT:O784865470fe8823896b4",
+     "line": 85,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Was it something in the water here...? Or an Elfin PSY power...?",
+     "current": "text: 是这里的水有问题……？还是精灵的精神力……？"
+    },
+    {
+     "row_id": "CAT:Od496442add3bab55efcc",
+     "line": 89,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Everything's a bit of a blur after that.",
+     "current": "text: 后来的事都记得有些模糊了。"
+    },
+    {
+     "row_id": "CAT:Od84ff835cc5bb271fb3a",
+     "line": 90,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "I just did as I was told, and it kept feeling better and better...",
+     "current": "text: 我只是乖乖照做，却越来越舒服……"
+    },
+    {
+     "row_id": "CAT:Oa4e4f6464c2f59130377",
+     "line": 91,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "'Come here puppy, into my lap... good puppy,' they cooed...",
+     "current": "text: 她们柔声哄道：‘过来，小狗，来我腿上……乖狗狗。’"
+    },
+    {
+     "row_id": "CAT:O41a0371b25e9145e14da",
+     "line": 92,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "The few times my mission poked through the mind haze, I couldn't focus for long...",
+     "current": "text: 偶尔从迷糊中记起任务，也集中不了多久……"
+    },
+    {
+     "row_id": "CAT:Oc99014a2ddfac9b6bc2d",
+     "line": 93,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "'Shush, little one. Open your legs... lift your tail...'",
+     "current": "text: ‘嘘，小家伙。张开腿……抬起尾巴……’"
+    },
+    {
+     "row_id": "CAT:Obc9f10b0459d11db92b6",
+     "line": 97,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Now that I've collected my thoughts, everything has become totally clear.",
+     "current": "text: 如今整理好思绪，一切都彻底明白了。"
+    },
+    {
+     "row_id": "CAT:O7d9e5f688e08c1975f51",
+     "line": 98,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "It was foolish for me, a dumb little puppy, to think I could save the planet...",
+     "current": "text: 我这只傻小狗竟想拯救星球，真是愚蠢……"
+    },
+    {
+     "row_id": "CAT:O9f7024d6dca38ad66eab",
+     "line": 99,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "My place is to follow along quietly and to serve my mistresses.",
+     "current": "text: 我就该安静跟随，侍奉我的女主人们。"
+    },
+    {
+     "row_id": "CAT:O27857f6923e1243c4660",
+     "line": 103,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "If you're watching this, know that the galaxy is in safe hands now.",
+     "current": "text: 看到这段录像的人请放心，银河如今有人守护了。"
+    },
+    {
+     "row_id": "CAT:Oe340d6bfa6373e781bf5",
+     "line": 104,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Trust in the proud Elf rangers of Sceafya and their wise leader...",
+     "current": "text: 相信斯凯菲亚骄傲的精灵游侠，以及他们睿智的领袖吧……"
+    },
+    {
+     "row_id": "CAT:O8b9529096d318227e59e",
+     "line": 105,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/389",
+     "source": "Her peerless grace, my queen! High Lady Enelye!",
+     "current": "text: 风华绝代的陛下，我的女王！恩莉耶大人！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8fcba06da26bb88f",
+   "mode": "nsfw",
+   "logical_path": "vsn/m_GameOverAreaE/script.vsn",
+   "root": "vsn/m_GameOverAreaE/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: CutsceneB",
+     "current": "music: CutsceneB"
+    },
+    {
+     "line": 2,
+     "source": "snap: ClassicGameOverAreaEA",
+     "current": "snap: ClassicGameOverAreaEA"
+    },
+    {
+     "line": 3,
+     "source": "waitForCue!",
+     "current": "waitForCue!"
+    },
+    {
+     "line": 4,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 10,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 11,
+     "source": "fadecut(0.266, 2): Black",
+     "current": "fadecut(0.266, 2): Black"
+    },
+    {
+     "line": 12,
+     "source": "rewind!",
+     "current": "rewind!"
+    },
+    {
+     "line": 17,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 18,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc4e1b1dbb4e988aa7119",
+     "line": 5,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[Agent Yiffai did not return from his mission on Planet Tutone.]",
+     "current": "text: [特工伊吠前往图托恩星执行任务后，未能归来。]"
+    },
+    {
+     "row_id": "CAT:O182753531efd7e8854d2",
+     "line": 6,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[He was last active on EXILE, a small asteroid orbiting the planet.]",
+     "current": "text: [他最后在流放地活动，那是一颗绕行星运行的小行星。]"
+    },
+    {
+     "row_id": "CAT:O3d513b6310797cab0193",
+     "line": 7,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[Based on his final recordings, it is unlikely that the agent survived...]",
+     "current": "text: [根据最后的影像记录，该特工恐已遇难……]"
+    },
+    {
+     "row_id": "CAT:O8ed78a9e355042af604a",
+     "line": 8,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[...but, as no remains have been recovered, his precise fate remains unclear.]",
+     "current": "text: [……但由于尚未寻获遗骸，他的确切下落仍不明。]"
+    },
+    {
+     "row_id": "CAT:Odefe4e0b3761df253353",
+     "line": 13,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[All agent communications from Tutone have since ceased.]",
+     "current": "text: [此后，图托恩所有特工的通讯都中断了。]"
+    },
+    {
+     "row_id": "CAT:Oc98ec26f2da09267efa5",
+     "line": 14,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[Our mission logs indicate that some dark 'queen' might be in search of]",
+     "current": "text: [任务日志显示，某位黑暗“女王”可能正在寻找]"
+    },
+    {
+     "row_id": "CAT:O67df409ad2717d103b2f",
+     "line": 15,
+     "speaker": "narrator",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/395",
+     "source": "[a new host body, and may be seeking to expand her influence beyond Tutone...]",
+     "current": "text: [一具新宿主，或许还想把势力扩张到图托恩之外……]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9dd5254e6df8337b",
+   "mode": "sfw",
+   "logical_path": "vsn/m_GameStart/script.vsn",
+   "root": "vsn/m_GameStart/script.vsn",
+   "header_line": null,
+   "controls": [
+    {
+     "line": 1,
+     "source": "music: Shmup",
+     "current": "music: Shmup"
+    },
+    {
+     "line": 3,
+     "source": "fade(9, 0, 1)",
+     "current": "fade(9, 0, 1)"
+    },
+    {
+     "line": 4,
+     "source": "fadein(1.0, 4): ClassicGameStart01A",
+     "current": "fadein(1.0, 4): ClassicGameStart01A"
+    },
+    {
+     "line": 7,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 9,
+     "source": "queue: ClassicGameStart01AToB",
+     "current": "queue: ClassicGameStart01AToB"
+    },
+    {
+     "line": 10,
+     "source": "sfxcue: ClassicGameStart01AToB {",
+     "current": "sfxcue: ClassicGameStart01AToB {"
+    },
+    {
+     "line": 11,
+     "source": "  play [ClassicTitleZap] at [2]",
+     "current": "  play [ClassicTitleZap] at [2]"
+    },
+    {
+     "line": 12,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 13,
+     "source": "queue: ClassicGameStart01B",
+     "current": "queue: ClassicGameStart01B"
+    },
+    {
+     "line": 14,
+     "source": "wait: 0.600",
+     "current": "wait: 0.600"
+    },
+    {
+     "line": 17,
+     "source": "fadecut(0.266, 2): ClassicGameStart01C",
+     "current": "fadecut(0.266, 2): ClassicGameStart01C"
+    },
+    {
+     "line": 21,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 22,
+     "source": "cut(0.06): ClassicGameStart01D",
+     "current": "cut(0.06): ClassicGameStart01D"
+    },
+    {
+     "line": 26,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 27,
+     "source": "cut(0.06): ClassicGameStart01E",
+     "current": "cut(0.06): ClassicGameStart01E"
+    },
+    {
+     "line": 31,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 32,
+     "source": "cut(0.06): ClassicGameStart01F",
+     "current": "cut(0.06): ClassicGameStart01F"
+    },
+    {
+     "line": 38,
+     "source": "queue: ClassicGameStart01FToG",
+     "current": "queue: ClassicGameStart01FToG"
+    },
+    {
+     "line": 39,
+     "source": "sfxcue: ClassicGameStart01FToG {",
+     "current": "sfxcue: ClassicGameStart01FToG {"
+    },
+    {
+     "line": 40,
+     "source": "  play [YiffaiPsyAbility] at [28]",
+     "current": "  play [YiffaiPsyAbility] at [28]"
+    },
+    {
+     "line": 41,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 42,
+     "source": "queue: ClassicGameStart01G",
+     "current": "queue: ClassicGameStart01G"
+    },
+    {
+     "line": 44,
+     "source": "queue: ClassicGameStart01G",
+     "current": "queue: ClassicGameStart01G"
+    },
+    {
+     "line": 45,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 46,
+     "source": "music: ShmupBoss",
+     "current": "music: ShmupBoss"
+    },
+    {
+     "line": 50,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 51,
+     "source": "fadecut(0.266, 2): ClassicGameStart01E2",
+     "current": "fadecut(0.266, 2): ClassicGameStart01E2"
+    },
+    {
+     "line": 52,
+     "source": "sfxcue: ClassicGameStart01E2 {",
+     "current": "sfxcue: ClassicGameStart01E2 {"
+    },
+    {
+     "line": 53,
+     "source": "  play [YiffaiChargeAttack] at [0, 10]",
+     "current": "  play [YiffaiChargeAttack] at [0, 10]"
+    },
+    {
+     "line": 54,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 58,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 59,
+     "source": "fadecut(0.266, 2): ClassicGameStart01H",
+     "current": "fadecut(0.266, 2): ClassicGameStart01H"
+    },
+    {
+     "line": 60,
+     "source": "sfxcue: ClassicGameStart01H {",
+     "current": "sfxcue: ClassicGameStart01H {"
+    },
+    {
+     "line": 61,
+     "source": "  play [EnemyKilled, EnemyHit] at [0, 8, 16, 24, 32, 40]",
+     "current": "  play [EnemyKilled, EnemyHit] at [0, 8, 16, 24, 32, 40]"
+    },
+    {
+     "line": 62,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 66,
+     "source": "queue: ClassicGameStart01HToI",
+     "current": "queue: ClassicGameStart01HToI"
+    },
+    {
+     "line": 67,
+     "source": "sfxcue: ClassicGameStart01HToI {",
+     "current": "sfxcue: ClassicGameStart01HToI {"
+    },
+    {
+     "line": 68,
+     "source": "  play [EnemyKilled] at [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88]",
+     "current": "  play [EnemyKilled] at [0, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88]"
+    },
+    {
+     "line": 69,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 70,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 71,
+     "source": "music: Silence",
+     "current": "music: Silence"
+    },
+    {
+     "line": 72,
+     "source": "queue: ClassicGameStart01I",
+     "current": "queue: ClassicGameStart01I"
+    },
+    {
+     "line": 73,
+     "source": "sfxcue: ClassicGameStart01I {",
+     "current": "sfxcue: ClassicGameStart01I {"
+    },
+    {
+     "line": 74,
+     "source": "  play [ClassicLowVitality] at [100]",
+     "current": "  play [ClassicLowVitality] at [100]"
+    },
+    {
+     "line": 75,
+     "source": "  play [ScreenShakeEvent] at [128]",
+     "current": "  play [ScreenShakeEvent] at [128]"
+    },
+    {
+     "line": 76,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 77,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 80,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 81,
+     "source": "music: CutsceneB",
+     "current": "music: CutsceneB"
+    },
+    {
+     "line": 82,
+     "source": "fadecut(0.266, 2): ClassicGameStart01J",
+     "current": "fadecut(0.266, 2): ClassicGameStart01J"
+    },
+    {
+     "line": 86,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 87,
+     "source": "fadecut(0.266, 2): ClassicGameStart01K",
+     "current": "fadecut(0.266, 2): ClassicGameStart01K"
+    },
+    {
+     "line": 90,
+     "source": "queue: ClassicGameStart01KToL",
+     "current": "queue: ClassicGameStart01KToL"
+    },
+    {
+     "line": 93,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 94,
+     "source": "cut(0.06): ClassicGameStart01KToL2",
+     "current": "cut(0.06): ClassicGameStart01KToL2"
+    },
+    {
+     "line": 95,
+     "source": "sfxcue: ClassicGameStart01KToL2 {",
+     "current": "sfxcue: ClassicGameStart01KToL2 {"
+    },
+    {
+     "line": 96,
+     "source": "  play [LeverActivate] at [1]",
+     "current": "  play [LeverActivate] at [1]"
+    },
+    {
+     "line": 97,
+     "source": "}",
+     "current": "}"
+    },
+    {
+     "line": 98,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 99,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 101,
+     "source": "queue: ClassicGameStart01KToL3",
+     "current": "queue: ClassicGameStart01KToL3"
+    },
+    {
+     "line": 104,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 105,
+     "source": "cut(0.06): ClassicGameStart01L",
+     "current": "cut(0.06): ClassicGameStart01L"
+    },
+    {
+     "line": 107,
+     "source": "sync!",
+     "current": "sync!"
+    },
+    {
+     "line": 109,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 110,
+     "source": "fadecut(0.266, 2): ClassicGameStart01M",
+     "current": "fadecut(0.266, 2): ClassicGameStart01M"
+    },
+    {
+     "line": 113,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 114,
+     "source": "fadecut(0.266, 2): ClassicGameStart01N",
+     "current": "fadecut(0.266, 2): ClassicGameStart01N"
+    },
+    {
+     "line": 119,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 120,
+     "source": "fadecut(0.266, 2): ClassicGameStart01O",
+     "current": "fadecut(0.266, 2): ClassicGameStart01O"
+    },
+    {
+     "line": 124,
+     "source": "wait: 0.2",
+     "current": "wait: 0.2"
+    },
+    {
+     "line": 125,
+     "source": "fadeout(1.0, 1.0, 4)",
+     "current": "fadeout(1.0, 1.0, 4)"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW049f5dbed6db91a3bd37db31",
+     "line": 6,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "[STARDATE XXXX:XXXX:XXXX.XX] [PLANET TUTONE, 5555 SYSTEM] [MAGNETOSHEATH ENTRY POINT]",
+     "current": "text: [星历XXXX:XXXX:XXXX.XX] [5555星系，图托恩星] [磁鞘进入点]"
+    },
+    {
+     "row_id": "SFW5b486143545b014debe4e709",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "...entry successful, en route to descend at 40N, 74W in T-minus XXXX unisecs.",
+     "current": "text: ……成功进入，正前往40N、74W下降点，距下降还有XXXX标准秒。"
+    },
+    {
+     "row_id": "SFW2f63499deb2a5b251cb04dc0",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Engine temp stable at 2640 degrees, plasma, oxygen and battery levels good.",
+     "current": "text: 引擎温度稳定在2640度，等离子、氧气和电量正常。"
+    },
+    {
+     "row_id": "SFW513360ea0cad37fa1ea160ea",
+     "line": 19,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "This is Cosmobreeder Yiffai, requesting mission update from CO Bossu, over!",
+     "current": "text: 这里是宇宙育种者伊吠，请求波苏指挥官更新任务情报，完毕！"
+    },
+    {
+     "row_id": "SFW88aa7aff33a1c9fa240d758b",
+     "line": 23,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Now listen up here agent Yiffai, you may have graduated top of your class",
+     "current": "text: 听好了，伊吠特工，你虽然以全班第一毕业，但凡还有别的选择，我们都不会派你执行这次任务。"
+    },
+    {
+     "row_id": "SFWed2ad5337c3fd4bb153a2ebf",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "but we wouldn't have sent you on this mission if we had any other choice.",
+     "current": ""
+    },
+    {
+     "row_id": "SFWf30a1e89c6fd95d0d7b01d7e",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Oh come on, still worried because this is my first mission? I'll be on my toes!",
+     "current": "text: 拜托，还因为这是我第一次出任务而担心？我会保持警惕的！"
+    },
+    {
+     "row_id": "SFW1121b336216902a7d8488c30",
+     "line": 29,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Especially if my sister was among the agents that disappeared mid-mission.",
+     "current": "text: 尤其姐姐可能就在那些任务中失踪的特工里。"
+    },
+    {
+     "row_id": "SFW22fc619dab79a415c2bd0f79",
+     "line": 33,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "That's right, we can't be too careful. You're the only capable agent we had left.",
+     "current": "text: 没错，再谨慎也不为过。你是我们仅剩的能干特工了。"
+    },
+    {
+     "row_id": "SFW7b6fffdba977cf70b3f30636",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Just remember, Tutone is having a mass exodus of fauna",
+     "current": "text: 记住，图托恩正在发生动物大规模外逃，"
+    },
+    {
+     "row_id": "SFW0d9ddd8cfaa40f94dbdeb143",
+     "line": 35,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "and your job is to find out why!",
+     "current": "text: 你的任务就是查明原因！"
+    },
+    {
+     "row_id": "SFWd28ac63a8695c730ab1a96a9",
+     "line": 36,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "On top of that, you should also look for your missing fellow agents.",
+     "current": "text: 除此之外，你还得寻找失踪的特工同伴。"
+    },
+    {
+     "row_id": "SFW7d58588a259dba42aff67ad1",
+     "line": 43,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Just make...sur...ou...on your...oes...or....",
+     "current": "text: 只要确……保……你……多加……小……心……"
+    },
+    {
+     "row_id": "SFWc2cac2677155bd5e4cf28f46",
+     "line": 47,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Oh? What's this? Another little spacebug entering my domain?",
+     "current": "text: 哦？这是什么？又一只小太空虫闯进了我的领地？"
+    },
+    {
+     "row_id": "SFWb7524a6319649fb94479c2df",
+     "line": 48,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Enjoy your crash landing like your other little interlopers did, puppy!",
+     "current": "text: 小狗，跟其他小入侵者一样，好好享受坠机吧！"
+    },
+    {
+     "row_id": "SFW18d9726cace7e2ee6db533be",
+     "line": 55,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Who the heck are you calling a pup?!?",
+     "current": "text: 你到底叫谁小狗呢？！？"
+    },
+    {
+     "row_id": "SFWd864a814eab3417beef64c8a",
+     "line": 56,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "And how the heck did these ships sneak up on me?",
+     "current": "text: 还有，这些船到底怎么偷偷摸到我身边的？"
+    },
+    {
+     "row_id": "SFW97174dfa7912c8c5964578be",
+     "line": 63,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Gah! There's too many of them! I need to make an emergency landing!",
+     "current": "text: 啊！敌人太多了！我得紧急迫降！"
+    },
+    {
+     "row_id": "SFW3e71e72194e99bd7ca02f7f5",
+     "line": 64,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Commander! If you can hear me, I can't wait for permission, sorry!",
+     "current": "text: 指挥官！如果你听得见，抱歉，我等不及批准了！"
+    },
+    {
+     "row_id": "SFW066eecd4fe0c9f157f40c864",
+     "line": 78,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "...ow.",
+     "current": "text: ……疼。"
+    },
+    {
+     "row_id": "SFW1fe8e4180caf1d8c0e3e7b46",
+     "line": 83,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Geeeeeze, those buggy buggers did a number on my paint job! ",
+     "current": "text: 天啊啊，那帮臭虫把我的涂装毁惨了！ "
+    },
+    {
+     "row_id": "SFW2a3903c2be2cee8874b92a2d",
+     "line": 84,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Don't they know that repairs and touch ups come out of my paycheck? The jerks...",
+     "current": "text: 她们难道不知道维修和翻新都得从我的工资里扣？混蛋……"
+    },
+    {
+     "row_id": "SFWb3e7ef56b594bb9822f940a4",
+     "line": 88,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Post orbital thrusters are hecked up, but this jalopy of mine should still fly.",
+     "current": "text: 后轨道推进器坏了，不过我这老破船应该还能飞。"
+    },
+    {
+     "row_id": "SFW9d87ba77bf49732937c5a20c",
+     "line": 91,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Just need to get into this sneaking suit now that I'm terra bound, and...",
+     "current": "text: 既然落地了，先穿上这身潜行服，然后……"
+    },
+    {
+     "row_id": "SFWe88488e2d0fe11db3cc86e61",
+     "line": 102,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "What in the whatwhat!!",
+     "current": "text: 这都什么跟什么啊！！"
+    },
+    {
+     "row_id": "SFW26a8a13603ea81c1ad9d09f1",
+     "line": 106,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Who the heck are you!?! And what are you doing with my gear!?!",
+     "current": "text: 你到底是谁？！？拿我的装备干什么？！？"
+    },
+    {
+     "row_id": "SFW88c007cb682c8595956a3e03",
+     "line": 111,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "That little punk just took my stuff and jumped down this hole!",
+     "current": "text: 那个小混蛋抢了我的东西，跳进这个洞了！"
+    },
+    {
+     "row_id": "SFWe755961f059547d98bfa7502",
+     "line": 115,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "...now that I think about it, though...",
+     "current": "text: ……不过，现在仔细想想……"
+    },
+    {
+     "row_id": "SFW920d6cca887ef13c08d63964",
+     "line": 116,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "...I don't really remember where I was supposed to start my search...",
+     "current": "text: ……我不太记得该从哪里开始搜寻了……"
+    },
+    {
+     "row_id": "SFW1ffab8633fddeef59d514cee",
+     "line": 117,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "...and it's starting to storm!",
+     "current": "text: ……还开始刮暴风雨了！"
+    },
+    {
+     "row_id": "SFW11bae4bc22abe3d8a825ce86",
+     "line": 121,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "Alright! No time to worry about it! Just gotta go for it!",
+     "current": "text: 好！没空发愁了！直接上就是！"
+    },
+    {
+     "row_id": "SFW52ecbd386be411273ac60ac6",
+     "line": 122,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/233",
+     "source": "The local fauna and the safety of my fellow agents is depending on me!",
+     "current": "text: 当地动物和特工同伴的安危，都指望我了！"
+    }
+   ]
+  }
+ ]
+}
