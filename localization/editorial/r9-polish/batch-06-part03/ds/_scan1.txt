@@ -1,0 +1,36 @@
+CAT:O81c19ef7fa9738bb6e3b L4350 SCb614c415a982f2e2 ['ZH_TRAIL']
+  SRC="[I...I'M FINE...I THINK?]"
+  CUR='  Yiffai: [我……我没事……大概吧？] '
+SFW07ed289a99d011d0144fb026 L4201 SCac703fc5683db815 ['ZH_TRAIL', 'EN_TRAIL']
+  SRC='[N-NOTHING LIKE THAT. I JUST PICKED UP A GLOWING ORB OF] '
+  CUR='  Yiffany: [不、不是那种。我只是捡到一颗不知是什么的发光球体。它在我身上留下了某种印记……] '
+CAT:O7349c9c1c2d138c18952 L4390 SCc628ffe48ea2eae1 ['DBLSPACE_PREFIX']
+  SRC='[PRESS "DOWN"+"JUMP" WHILE IN THE AIR TO DIVE. IF YOU HIT]'
+  CUR='  Tomcat:  [在空中按"下"+"跳跃"就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]'
+CAT:Od392f870abe3a0abdaef L4446 SCa9114272b58ad08b ['HYPHEN']
+  SRC='[THAT SURE IS A FLASHLIGHT YOU JUST GOT. HEY, DO YOU-]'
+  CUR='  Tomcat: [你刚拿到的还真是支手电筒啊。嘿，你是不是-]'
+CAT:O594e072fbdb493d95aa7 L4449 SCa9114272b58ad08b ['HYPHEN']
+  SRC='[YEAH BUT REMEMBER AT THE ACADEMY WHEN THAT GIRL-]'
+  CUR='  Tomcat: [是啊，可你还记得在学院时那个女孩-]'
+SFWd89a9cadf69ad64f379305c7 L3850 SC8cff10bbe01476b9 ['CJK_SPACE']
+  SRC='[D U D E . . .]'
+  CUR='  Tomcat: [兄 弟 ……]'
+CAT:Oddeadbb5ae399319e1aa L4125 SC993a5c42d33b6d89 ['ZH_TRAIL']
+  SRC='[R-ROGER THAT...]'
+  CUR='  Yiffai: [收、收到……] '
+SFW50a9aed327bfdb5590de707d L4024 SC1e72de7771f036e0 ['ZH_TRAIL', 'EN_TRAIL']
+  SRC='[R-ROGER THAT...] '
+  CUR='  Yiffai: [收、收到……] '
+SFW54db094aaf8a74226233db28 L4042 SC3e6a941b432ebacd ['ZH_TRAIL', 'EN_TRAIL']
+  SRC="[WHAT'S WITH THOSE CYBERNETIC CLONES ANYWAYS. CREEPY!] "
+  CUR='  Yiffany: [话说，那些机械克隆体什么来头？真吓人！] '
+SFW2802027dc07b681976ed2f92 L3798 SC02b55d34dcb3cebf ['HYPHEN']
+  SRC="[T-TASTY?? I DON'T EVEN KNOW WHERE IT CAME FROM!]"
+  CUR='  Yiffai: [好-好吃？？我根本不知道它从哪来的！]'
+CAT:Od5549c41462c259fb1be L4552 SCa1157ae0945fd818 ['DBLSPACE_PREFIX']
+  SRC='[YOU ABSOLUTE DWEEB ASS, YOU!]'
+  CUR='  Tomcat:  [你这个超级大傻蛋！]'
+CAT:O98025f059a1cd52bd349 L4524 SC2e1ad8301df37781 ['ZH_TRAIL']
+  SRC="[Y-YEAH... THAT CAN'T BE A THING...HAHA...!!]"
+  CUR='  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]  '

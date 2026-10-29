@@ -50,20 +50,65 @@ PLAN = [
     # —— C：结构 ——
     ('ds', 'P06a-S1-102', 'apply',
      '终端设备名 `P.A.W.` 带句点；全库 126/135 带点，本批多处也带点，此行漏了。只补一个点。'),
-    ('ds', 'P06a-S1-101', 'reject',
-     '主张把「卡片正面还是哪儿」改成「还是什么」。原句「是正面还是哪儿」在中文里是可读的口语选择问句，改后反而更生硬；属风格偏好，不作修正。'),
     ('ds', 'P06a-S2-102', 'reject',
      '主张把「一个白热的光点」改成「白得发烫的光点」。WHITE HOT 在此是扫描仪显示上的白炽点，「白热」是既有译法且读得通；改后把物理描述换成触觉比喻，属风格偏好。'),
     ('ds', 'P06a-S2-105', 'apply',
      '本行是完整独立陈述而句末无标点；下一行「吃完这么大一块……」是另起一句（英文 AFTER GORGING ON THAT... 亦另起），不补会把两句黏成一句。'),
     ('ds', 'P06a-S2-106', 'apply',
      '「……严重违禁品」句末缺标点，直接接下一行「这是黑市生物加密货币」，读起来像一句没说完的话被掐断；补句号恢复「定罪→解释是什么」两步递进。'),
-    ('ds', 'P06a-S2-107', 'apply',
-     '同一个 OMEGA 词素在库内两种写法：词典条目名作「欧米茄」（欧米茄哥布林，词典 13 处），协议名却作「欧米伽」（仅 3 处）。全库「欧米茄」22 处对「欧米伽」3 处。按条目名与多数写法定为「欧米茄」。'),
+    # —— 上半段其余 18 条补齐 ——
+    ('ds', 'P06a-S1-106', 'apply',
+     '原文 UP TO THE LEVEL DISPLAYED ON THEM 的 ON THEM 指门；现译「门卡上标着等级」把等级挪到卡上，与上一行「带着卡走向能量门」的流程对不上。与 batch-06-part02 的 ds:P06b-119 是同一处缺陷的男版。'),
+    ('ds', 'P06a-S1-117', 'apply',
+     '词典条目名是「小圆盾」（BUCKLER → 小圆盾）；现译「能量圆盾」把条目名里的「小」丢了。只补一个字。'),
+    ('ds', 'P06a-S1-103', 'apply',
+     '「漂亮的精灵新头冠」把形容词安在「精灵」上，读起来像买了一顶「精灵」；原文是 NEW ELF HEADDRESS，新的是头冠。调换语序即可。'),
+    ('ds', 'P06a-S1-116', 'apply',
+     '本作把可解谜的古代造物统一作「遗物」（正文 5 处）；「造物」4 处是另一种写法，且「造物」在中文里偏指造物主所造之物，与本义（拾得的古物）有偏差。'),
+    ('ds', 'P06a-S1-118', 'apply',
+     '原文 THE REST OF MY UNIFORM 指这一身制服的其余部分；现译「我的其他制服」变成了另外几套制服，与「没跟它放在一起」对不上。'),
+    ('ds', 'P06a-S1-122', 'apply',
+     '原文 SOME OF YOUR FELLOW AGENTS（你之前的几位同僚特工）；现译「你之前的一些特工」读成「你以前有过的特工」，把所属关系说反了。'),
+    ('ds', 'P06a-S2-109', 'apply',
+     '原文 OH NO 在此不是惊呼而是转折否认：上一句问「有什么问题吗」，本句答「哦，没事！它就是看着好好吃」。现译「哦，不！」变成惊叫，与后半句接不上。'),
+    ('ds', 'P06a-S1-101', 'apply',
+     '「只有一个办法能知道」是英语 ONLY ONE WAY TO FIND OUT 的直搬；中文里 FIND OUT 在这里是「弄清楚／试了才知道」，改「弄清楚」更顺，句意不变。'),
+    ('ds', 'P06a-S1-104', 'apply',
+     '行尾的 `"不"` 用了半角双引号，全批中文引号一律用全角；只换引号，不动措辞。'),
+    ('ds', 'P06a-S1-107', 'apply', '本行是完整独立陈述而句末无标点；下一行换说话人。'),
+    ('ds', 'P06a-S1-108', 'apply', '本行是完整句子，下一行换说话人，缺句末标点。'),
+    ('ds', 'P06a-S1-109', 'apply', '整句到此为止而缺句号。'),
+    ('ds', 'P06a-S1-110', 'apply', '女版同句同改。'),
+    ('ds', 'P06a-S1-111', 'apply', '整句到此为止而缺句号。'),
+    ('ds', 'P06a-S1-112', 'apply',
+     '本行是未完分句的收尾（「更专注一些，」），但下一行是新句子而非续句，中文用逗号会与下一行黏连。'),
+    ('ds', 'P06a-S1-113', 'apply', '整句到此为止而缺句号。'),
+    ('ds', 'P06a-S1-114', 'apply', '本行是完整句子，缺句末标点。'),
+    ('ds', 'P06a-S1-119', 'apply', '整句到此为止而缺句号。'),
+    ('ds', 'P06a-S1-120', 'apply',
+     '「要是你有一只很喜欢你的生物，就可以抚摸它们」单复数不一致（一只→它们）；改成「抚摸它」即可，同时把「有一只」压成「有只」与 gemini 版同批行一致。'),
+    ('ds', 'P06a-S1-121', 'apply', '「嘿————，」破折号后多一个逗号，全批同类处不带逗号。'),
+    ('ds', 'P06a-S1-105', 'reject',
+     '主张把「船件」改成「飞船零件」。全库「船件」4 处、「飞船零件」0 处；「船件」是本作既有说法且读得通，改成词组反而更长。属风格偏好，不作修正。'),
+    ('ds', 'P06a-S2-108', 'reject',
+     '主张把「小狗」改成「小狗崽」。原文此处是 THAT TOO, PUP，PUP 在全库作「小狗」120 处、「小狗崽」33 处，两者都是既有译法；本行紧接瓦片身体那段调侃，「小狗」并无不妥。属风格偏好。'),
+    ('ds', 'P06a-S2-107', 'reject',
+     '与本表 gemini:P06a-104 同一行同一处（“UP”+“攻击”→UP+ATTACK），两路同报、改法逐字相同，取 gemini 条落地。'),
     ('gemini', 'P06a-101', 'reject',
      '主张把 PUPLOCK 音译成「帕普洛克船长」。全库仅此一处、词典无条目；PUPLOCK 是 pup（小狗）＋ Captain Harlock 的双关，音译会把 pup 那层丢掉，而那是笑点本身。已转为留置 R9M-901，与本批改动一并等待创译裁决。'),
+    ('ds', 'P06a-S1-115', 'reject',
+     '与本表 gemini:P06a-102 同一行同一处（狗头人→科博德），两路同报，取 gemini 条落地。'),
     ('gemini', 'P06a-102', 'apply',
      'KOBO 旧译「狗头人」残留，同 P06a-103；本行原文 KOBOLD 与上一处 KOBO 是同一词，一并改为「科博德」。'),
+]
+
+# 主代理自持的改动：路由的 findings 里没有对应条目（DS 的一段结果在一次并发重写中丢了
+# 这条，但决定已经做出且已随 candidate21 落地），这里直接固定旧值与新值，保证重跑
+# build_ledger 时台账稳定。
+SELF = [
+    ('R9M-903', 'A', 'term', 'SCe1a779c61c9843af', 'CAT:O5235f0bf107f29edd815',
+     '  Mauser: [放轻松，执行绝密欧米茄协议任务的特工有权动用手头的一切手段，就算这些手段……通常不合法也一样。]',
+     '同一个 OMEGA 词素在库内两种写法：词典条目名作「欧米茄」（欧米茄哥布林，词典 13 处），协议名却作「欧米伽」（仅 3 处）。全库「欧米茄」22 处对「欧米伽」3 处。按条目名与多数写法定为「欧米茄」。'),
 ]
 
 HOLD = [
@@ -102,6 +147,14 @@ def main():
                                 f.get('category', ''), scene_id, rid,
                                 decision, final, reason)))
 
+    for fid, sev, cat, scene_id, rid, final, reason in SELF:
+        if rid not in ROWS:
+            raise SystemExit('unknown row ' + rid)
+        scene_id, row = ROWS[rid]
+        if row['current'] == final:
+            raise SystemExit('no-op ' + rid)
+        lines.append('	'.join((fid, 'R9M', sev, cat, scene_id, rid, 'apply', final, reason)))
+
     for fid, sev, cat, scene_id, rid, reason in HOLD:
         if rid not in ROWS:
             raise SystemExit('unknown row ' + rid)
@@ -109,7 +162,7 @@ def main():
 
     (BASE / 'review/decisions.tsv').write_text('\n'.join(lines) + '\n', encoding='utf8')
     print(json.dumps({'decisions': len(lines) - 1,
-                      'apply': sum(1 for p in PLAN if p[2] == 'apply'),
+                      'apply': sum(1 for p in PLAN if p[2] == 'apply') + len(SELF),
                       'reject': sum(1 for p in PLAN if p[2] == 'reject'),
                       'hold': len(HOLD)}, ensure_ascii=False))
 

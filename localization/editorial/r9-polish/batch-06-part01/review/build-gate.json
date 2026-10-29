@@ -3,49 +3,76 @@
  "status": "verified_for_application",
  "scope": "batch-06-part01 applied Chinese rewrites; not a full proofread or real-machine acceptance",
  "base_candidate": "localization/builds/r9-polish-candidate20",
- "decisions_total": 15,
+ "decisions_total": 38,
  "apply_findings": [
+  "R9M-903",
+  "ds:P06a-S1-101",
   "ds:P06a-S1-102",
+  "ds:P06a-S1-103",
+  "ds:P06a-S1-104",
+  "ds:P06a-S1-106",
+  "ds:P06a-S1-107",
+  "ds:P06a-S1-108",
+  "ds:P06a-S1-109",
+  "ds:P06a-S1-110",
+  "ds:P06a-S1-111",
+  "ds:P06a-S1-112",
+  "ds:P06a-S1-113",
+  "ds:P06a-S1-114",
+  "ds:P06a-S1-116",
+  "ds:P06a-S1-117",
+  "ds:P06a-S1-118",
+  "ds:P06a-S1-119",
+  "ds:P06a-S1-120",
+  "ds:P06a-S1-121",
+  "ds:P06a-S1-122",
   "ds:P06a-S2-103",
   "ds:P06a-S2-105",
   "ds:P06a-S2-106",
-  "ds:P06a-S2-107",
+  "ds:P06a-S2-109",
   "gemini:P06a-102",
   "gemini:P06a-103",
   "gemini:P06a-104"
  ],
- "operations": 8,
+ "operations": 28,
  "ledger": "localization/translations/editorial-r9-batch-06-part01-repairs.jsonl",
- "ledger_sha256": "d53d205fddc7dfca73dd478e30a98b38729af14d99f960e78992efb202cf9c02",
- "decisions_sha256": "836294b01e7b622f9f24371f91b47239bf4a17a881dee21fde3698db5cc8d2e0",
+ "ledger_sha256": "20ef2c68c3075d4d3f4d7c04cad944ba32f65177d5daad4462c4465933d9a079",
+ "decisions_sha256": "899cc06dc9dd57f63d0a373b601b9266579378ba1fa951d3e055ccdc5ce53c02",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "f7306e3357a428b211cc5bd979e7a6bee3c0637257a972c5d6d6b4c9723cde2d"
  },
  "dry_run": {
   "engine": "localization/tools/editorial_repairs.py:apply_entries",
-  "operations_applied": 8,
+  "operations_applied": 28,
   "resources": [
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "8a755e62deaba79bbd4e3c4e7d83689a19b938b7928013301f635e6a6e810000",
-    "after_resource_sha256": "7b52e14ecf9e114425ba570017c4dc4aeee4c53087cebc1f86eb9735655e0d54",
-    "targets_changed": 2
+    "after_resource_sha256": "1dc96aaa53cabd35b5c99bacd754b673e87b2164cf6cdae95c072cc166fdd759",
+    "targets_changed": 8
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "5d66563b09e79d6cb981414859e707405445cee87d51e1233f4142daefea491d",
+    "after_resource_sha256": "b40326c05e55dc14758d17941ff1d0b87b28efe6287568c1bbad05939fa92c00",
+    "targets_changed": 1
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "a6e571a6180053677153488018b79c416e83d181baa45d781dfc62e9d6e46fc4",
-    "after_resource_sha256": "92b983c31f33c3723345535582af7e0cfa69af1e66b30873683a6009ca575dd5",
-    "targets_changed": 4
+    "after_resource_sha256": "ab4c4ab5abf2eb1223b2fd7c153592d2bfe4cd2a186102ecd4863a4f10217fec",
+    "targets_changed": 7
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "dd8e74706e52392155aa7bd40e0b5e9f2cd541f0d8fb123cf5155c41e2a01734",
-    "after_resource_sha256": "0148a2b0a9cfd08a2d05c8c3308ad4408f98b4cdb6808854a729969a5720fcf6",
-    "targets_changed": 2
+    "after_resource_sha256": "8e6d65846828f31727d8ff1bacd1bb149b1bda312e249042b378821e7bd7c30e",
+    "targets_changed": 12
    }
   ]
  },
