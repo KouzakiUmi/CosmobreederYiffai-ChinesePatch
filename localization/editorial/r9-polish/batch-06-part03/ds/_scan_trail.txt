@@ -1,9 +1,0 @@
-SCf6a3230e9ad0488c CAT:O26571691e60f21218a94 L4406 ZH_trail=True EN_trail=False
-  SRC="[WOW, THAT SOUNDS AWESOME! GUESS I'LL TRY USING A PSY]"
-  CUR='  Yiffai: [哇，听着真棒！那我试着用精神力，欣赏一场烟花秀！] '
-SCb614c415a982f2e2 CAT:O81c19ef7fa9738bb6e3b L4350 ZH_trail=True EN_trail=False
-  SRC="[I...I'M FINE...I THINK?]"
-  CUR='  Yiffai: [我……我没事……大概吧？] '
-SC2e1ad8301df37781 CAT:O98025f059a1cd52bd349 L4524 ZH_trail=True EN_trail=False
-  SRC="[Y-YEAH... THAT CAN'T BE A THING...HAHA...!!]"
-  CUR='  Yiffai: [对、对啊……哪可能有这种事……哈哈……！！]  '

@@ -4,6 +4,30 @@ gemini:P06d-107	gemini	A	format	SC88df48b156a94b0d	CAT:Of4a50a13f617be9d9f7c	app
 gemini:P06d-108	gemini	A	format	SC215cc09d5afb4b7e	SFW66ffceafa7b0c482215c99f8	apply	  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]	女版同句同改，与上一条同一处压缩与同一术语修正。240px／224px 均 3 行。
 gemini:P06d-105	gemini	A	gameplay	SC1e5e2f54d5e86cf6	SFW259abf4ec3ecb785b89bcaf6	apply	  Tomcat:  [在空中按"DOWN"+"JUMP"就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]	DOWN 与 JUMP 是按键名，硬约束要求原样保留；本行译成「"下"+"跳跃"」，玩家照着按不到键。同 root 与全库另 7 处 JUMP 都保留英文。
 gemini:P06d-102	gemini	B	format	SC7d2c91802ff55751	CAT:Of0a96809438a0f37171c	apply	  Tomcat: [哦抱歉，我不是有意不敬——]	被打断处用半角连字符，12px 渲染成一个孤立小横；全批其它被打断处一律用全角破折号。
+ds:P06d-S-101	ds	B	format	SCd2210497c5398b29	SFW29dcde4ba289d9863048a48a	apply	  Tomcat: [哇，不害臊是吧，姑娘？你绝对见不到我去——]	被打断处用半角连字符，与同批其它打断处一致改全角破折号。
+ds:P06d-S-109	ds	A	meaning	SC18adb5c64c9f45fd	SFWc98704fe09986df840cfe574	apply	  Yiffany: [波苏肯定会骂惨那个小——]	原文 CHEW OUT THE LITTLE BR- 在 BR- 处被截断，译文却把「小混」写成完整词再补破折号，读者会以为漏字。改为截在「小」后。
+ds:P06d-S-111	ds	B	idiom	SC6e787946094c6316	CAT:Oafe1ddd5e582e18cfb0b	apply	  Tomcat: [呵，真温馨。需要搭把手就吹一声。]	原文 IF YOU NEED A LIFT 的 LIFT 在此是「搭把手／捎一段」，不是「搭便车」这个名词化说法；后文说的是吹哨子喊人帮忙。
+ds:P06d-S-112	ds	B	meaning	SC4672bd631332fe23	CAT:O719321a2bb31b3e1783c	apply	  Yiffai: [你是说，那石头可能让我灵能变强？]	原文 COULD BE MAKING ME A STRONGER PSYCHIC 是推测，现译「能增强我的灵能」把推测变成断言；补「可能」。
+ds:P06d-S-116	ds	B	term	SCb0333c2793da348c	CAT:Ofe5d8fcf68921bcc6f25	apply	  Tomcat: [3P 系统里很少见到精灵的电击武器技术。]	ELFIN TAZER TECH 说的是这类电击技术，不是某一把枪；且 3P SYSTEMS 是星系名，译文前后空格与全批外来名体例不一致。
+ds:P06d-S-117	ds	B	term	SC8bd8784a269343aa	CAT:O528d05bb27e3d8a7cde6	apply	  Tomcat: [小狗，你用的可*不是*标准无线电！]	RADIO 在本作指无线电台这一整套通讯设备，正文既有裁决作「无线电」（99 处）；「收音机」是收讯机，与后文「呼叫波苏」的功能不符。
+ds:P06d-S-118	ds	C	term	SCe55965f16aa08f68	CAT:O4c68735eff5fe7c7a15f	reject		主张把「力量印记」砍成「力印记」。原文 POWERMARK 是一个词，译为「力量印记」完整传达 POWER；「力印记」在中文里不成词。
+ds:P06d-S-119	ds	B	meaning	SC6378c021cd497a10	CAT:Oc85510988128a39b4dca	reject		主张把「破处蜥蜴」改成「破人处的蜥蜴」。原译「破处」是既有玩笑说法且读得通，改后反而生造短语、也更拗口。
+ds:P06d-S-120	ds	B	meaning	SC4672bd631332fe23	CAT:Ob152e48072a5711c8ba9	reject		主张把「据说这颗星球上的超能力者很重视它们」拆成「据说而已。星球上的……」原文 SUPPOSEDLY 引出的是后半句内容，拆成两句会把「据说」悬空，读成对前半句的否定。
+ds:P06d-S-121	ds	B	format	SCcd9c68685aafab3d	CAT:O6e63af1094cae0ebc183	apply	  Tomcat: [我看到了！重型设备不是我的专长，不过旧机库有当地机械师能给你建议。]	原译「我们在旧机库请了一位当地机械师，他可以给你进一步的建议」把两段英文压成一句，主语从机械师滑到「他」；译文保留信息但理顺指代。
+ds:P06d-S-122	ds	B	idiom	SC6113d3d06a127cc8	CAT:O4b6a4374e037fc658e57	apply	  Tomcat: [看来你刚……弄到的项链能听懂 Fenfen 语。之前的 Fenfen 记录，不妨再翻翻。]	「听懂Fenfen语」「你已记录过的Fenfen记述」两处 Fenfen 紧贴汉字，本作外来名两侧留半角空格（全库 124 处如此）。只调空格与句序。
+ds:P06d-S-123	ds	C	term	SC25645bfd72c28ab1	CAT:O4f0131a3f2cf4f0cd0e6	apply	  Yiffany: [所以，其他特工拥有的那些“超能力者”的能力……]	「“超能力者”能力」两个「能力」相连读不通，加「的」断开。
+ds:P06d-S-124	ds	B	format	SC42867a219e8c266c	CAT:O4e5274cce1d633d29212	apply	  Tomcat: [没错！用它给特定怪物最后一击，它就会被送回机库，好更深入地研究生态！]	「那家伙就会被送回机库」的指代在上一行是「特定怪物」，单数；「研究它们的生态」又跳回复数。理顺单复数。
+ds:P06d-S-114	ds	C	term	SCd1e375c5b73c0e71	SFW0d6036e986dfdb771b0d5a58	apply	  Tomcat: [毕竟一套鳞装可能要花上几千 LECT，]	LECT 词典条目名即大写，且 batch-03 已定「与其它货币名并列时两侧留半角空格」；本行作「几千Lect」紧贴汉字。
+ds:P06d-S-104	ds	B	format	SC9e2eefc7c60bc111	CAT:O70b645807d6bf1e99e8f	apply	  Yiffany: [不、不是那种。我只是捡到一颗不知是什么的发光球体。它在我身上留下了某种印记……]	行尾残留一个半角空格。
+ds:P06d-S-105	ds	B	format	SCcba5a2942f043795	CAT:Obad2402625889a627d67	apply	  Tomcat: [听说只要你够快通关这个试玩版，就能得到好东西！嘿！嘿！嘿！]	行尾残留一个半角空格。
+ds:P06d-S-113	ds	B	format	SC05b1c7cc38ae135d	CAT:O8dae904490cc204eabc9	apply	  Yiffany: [话说，那些机械克隆体什么来头？真吓人！]	行尾残留一个半角空格。
+ds:P06d-S-102	ds	B	format	SC7d2c91802ff55751	CAT:Of0a96809438a0f37171c	reject		与本表 gemini:P06d-102 同一行同一处，取 gemini 条落地。
+ds:P06d-S-103	ds	A	gameplay	SC1e5e2f54d5e86cf6	SFW259abf4ec3ecb785b89bcaf6	reject		与本表 gemini:P06d-105 同一行同一处（DOWN+JUMP）。DS 版另把后半句压得更短，但该行在 240px 下本就 3 行、不需要压缩，取改动更小的 gemini 版。
+ds:P06d-S-106	ds	A	format	SCf53d685d88a5cdcb	SFWf290409796e2e3d366cf56e5	reject		与本表 gemini:P06d-103 同一处超限压缩。DS 版压到 27 字，把「如果你有一只很喜欢你的生物」的条件与主语并掉；gemini 版保留条件从句，取之。
+ds:P06d-S-107	ds	A	format	SC88df48b156a94b0d	CAT:Of4a50a13f617be9d9f7c	reject		与本表 gemini:P06d-107 同一处超限压缩。DS 版仍写「欧米伽」，未随本条一并统一为「欧米茄」。
+ds:P06d-S-108	ds	A	format	SC215cc09d5afb4b7e	SFW66ffceafa7b0c482215c99f8	reject		同上：与本表 gemini:P06d-108 同一行，DS 版未统一「欧米茄」。
+ds:P06d-S-110	ds	A	gameplay	SC25645bfd72c28ab1	CAT:O1b37c6453c9c87c3f4d8	reject		与本表 gemini:P06d-109 同一行，该行在 224px 下原本超限；改由 R9M-905 一并处理按键与行宽。
+ds:P06d-S-115	ds	A	format	SCeb14ae6ce4edf9e8	CAT:O01caa83dbebce9e302e8	reject		与本表 gemini:P06d-103 同族（同一场景的另一版），该版由 gemini 条统一处理。
 gemini:P06d-101	gemini	B	format	SCc4c2b7eda0f9ae23	SFW611fa16540e8dfd8f4e9db01	reject		主张把「看起来 S、S……」改成「看起来可、可爱……」。该行原文是 LOOK S-S...，首字母重复对应的是 S 打头的词；男线同句（CAT:Oc82fdcb15e39e8e56ef3）已定译「看着性、性感……」。本条是按上一句 CUTE 反推的，与源文首字母不符，不改。
 gemini:P06d-104	gemini	A	meaning	SC7f5787288a86d66c	CAT:O5c53187910b3a07aac9c	reject		方向相反：本条主张 THEM 指门卡，改成「卡上所标数字」。同 root 男线（part01 的 CAT:Ocf5d1daf6e7846490b5f、part02 的 CAT:Oc91c83e4cdc8b678f7ca）已据 ON THEM 判为门上所标等级，且上一行明说「带着卡走向能量门」。本行现译「门上所标数字」是对的，不改。
 gemini:P06d-106	gemini	B	format	SC0b48d23b79eca6dd	SFW769f22d071d1749baac0c2dd	reject		主张把「兄 弟 ……」改成「老——兄……」。原文是 D U D E . . .，逐字加空格、末尾接省略点；译文「兄 弟 ……」正是对这条排版的镜像还原，改掉反而不忠实。DS 路在 part03 独立判为不报，两路一致。

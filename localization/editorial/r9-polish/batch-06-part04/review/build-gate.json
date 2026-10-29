@@ -3,33 +3,47 @@
  "status": "verified_for_application",
  "scope": "batch-06-part04 applied Chinese rewrites; not a full proofread or real-machine acceptance",
  "base_candidate": "localization/builds/r9-polish-candidate21",
- "decisions_total": 11,
+ "decisions_total": 35,
  "apply_findings": [
   "R9M-905",
+  "ds:P06d-S-101",
+  "ds:P06d-S-104",
+  "ds:P06d-S-105",
+  "ds:P06d-S-109",
+  "ds:P06d-S-111",
+  "ds:P06d-S-112",
+  "ds:P06d-S-113",
+  "ds:P06d-S-114",
+  "ds:P06d-S-116",
+  "ds:P06d-S-117",
+  "ds:P06d-S-121",
+  "ds:P06d-S-122",
+  "ds:P06d-S-123",
+  "ds:P06d-S-124",
   "gemini:P06d-102",
   "gemini:P06d-103",
   "gemini:P06d-105",
   "gemini:P06d-107",
   "gemini:P06d-108"
  ],
- "operations": 6,
+ "operations": 20,
  "ledger": "localization/translations/editorial-r9-batch-06-part04-repairs.jsonl",
- "ledger_sha256": "cc11de8d36f7c4fa87317b7cd6aff5a7428fb3c6b089c4989359529eb6c89919",
- "decisions_sha256": "76517b3ea4a39d649f8a57e88a36783b9f78b24a148961e387f75fe8a94cd1d2",
+ "ledger_sha256": "67611de1891ec7249fde36aa28631b6bd5827554b4e1ed8798658db678225678",
+ "decisions_sha256": "f9663e72ec0e51ed3162d7b222a93a1310a461749a034cb884e157120df8bac0",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "f7306e3357a428b211cc5bd979e7a6bee3c0637257a972c5d6d6b4c9723cde2d"
  },
  "dry_run": {
   "engine": "localization/tools/editorial_repairs.py:apply_entries",
-  "operations_applied": 6,
+  "operations_applied": 20,
   "resources": [
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "1dc96aaa53cabd35b5c99bacd754b673e87b2164cf6cdae95c072cc166fdd759",
-    "after_resource_sha256": "1d05886d5ce4947436efdc512181120fdde43554ac23c089115e47e7bf0d3f57",
-    "targets_changed": 2
+    "after_resource_sha256": "664a9ba5e93a643ef4a2e798fc7bfc12cbbf8c58562e10d018c17d4524b9f636",
+    "targets_changed": 5
    },
    {
     "archive": "cosmobreeder-multi.jar",
@@ -42,8 +56,15 @@
     "archive": "patch.pak",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "ab4c4ab5abf2eb1223b2fd7c153592d2bfe4cd2a186102ecd4863a4f10217fec",
-    "after_resource_sha256": "b6c5849bcd822e3519e1f05684e78995c7f10f50740da2fb507e52ac76fd7d61",
-    "targets_changed": 3
+    "after_resource_sha256": "e26fc1058c33df1067f946ce02a7af315e3433d2ec9bc2bd91f0cc667ca0ac6d",
+    "targets_changed": 9
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "8e6d65846828f31727d8ff1bacd1bb149b1bda312e249042b378821e7bd7c30e",
+    "after_resource_sha256": "00ca796df885b40c4c2c7e69cc2797000f604c510cc81486682c107a2ef70a77",
+    "targets_changed": 5
    }
   ]
  },

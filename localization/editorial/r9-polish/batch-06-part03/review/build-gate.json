@@ -2,7 +2,7 @@
  "schema": "cosmo-editorial-r9-build-gate/v1",
  "status": "verified_for_application",
  "scope": "batch-06-part03 applied Chinese rewrites; not a full proofread or real-machine acceptance",
- "base_candidate": "localization/builds/r9-polish-candidate22",
+ "base_candidate": "localization/builds/r9-polish-candidate23",
  "decisions_total": 62,
  "apply_findings": [
   "ds:P06c-S2-104",
@@ -49,7 +49,7 @@
  ],
  "operations": 41,
  "ledger": "localization/translations/editorial-r9-batch-06-part03-repairs.jsonl",
- "ledger_sha256": "3f6608961a67d6b4afee64d7a8034f269fb5b05fb9ae558e6b8141ab5652025c",
+ "ledger_sha256": "d4749e22fc7739acbdb5dd84a6e9f42fbc272e9dddfec70ceffc92c188556577",
  "decisions_sha256": "a84084abfd8a3c43d964b826bda6b8836f44d2e72e63283d46cd6bc5ceb2c960",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
@@ -62,8 +62,8 @@
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadf/1",
-    "before_resource_sha256": "1d05886d5ce4947436efdc512181120fdde43554ac23c089115e47e7bf0d3f57",
-    "after_resource_sha256": "2ab6dd08a16b0e8c7c3b757850098e0c3f9ab36414f992f5dc1aa301bc1566ef",
+    "before_resource_sha256": "664a9ba5e93a643ef4a2e798fc7bfc12cbbf8c58562e10d018c17d4524b9f636",
+    "after_resource_sha256": "c2205e7b0dc11e2a460a814794e20aaedc04fdf8962e759e82384084dce3c5c6",
     "targets_changed": 8
    },
    {
@@ -76,15 +76,15 @@
    {
     "archive": "patch.pak",
     "archive_entry": "datadf/1",
-    "before_resource_sha256": "b6c5849bcd822e3519e1f05684e78995c7f10f50740da2fb507e52ac76fd7d61",
-    "after_resource_sha256": "96438067cd6662425746f97bdcf3b2e18e989fadf23ee21fe0e8b25ed0cb63ec",
+    "before_resource_sha256": "e26fc1058c33df1067f946ce02a7af315e3433d2ec9bc2bd91f0cc667ca0ac6d",
+    "after_resource_sha256": "4400ea0f8a9d3e5ebf70717443a9e122e8cb51a5b69ce1817deb3a81ebd8b4ca",
     "targets_changed": 13
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadm/1",
-    "before_resource_sha256": "8e6d65846828f31727d8ff1bacd1bb149b1bda312e249042b378821e7bd7c30e",
-    "after_resource_sha256": "dac9c7ac42b0b038816ca9cb758680ed44ef0ae1afdfe58f25d1872f0ca48d7e",
+    "before_resource_sha256": "00ca796df885b40c4c2c7e69cc2797000f604c510cc81486682c107a2ef70a77",
+    "after_resource_sha256": "b08248f2ee702bcbb7add0ab8b07234ebc6f65b47638c1002f6df05efbe9e247",
     "targets_changed": 18
    }
   ]
