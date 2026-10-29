@@ -34,7 +34,7 @@
 | batch-03 | `Bossu` | 53 | 437 | 29,033 | 已并入 candidate14 |
 | batch-04 | `Mauser` | 81 | 871 | 58,922 | 已并入 candidate16 |
 | batch-05 | `BossuDex`（图鉴） | 149 | 1,253 | 83,198 | 分 3 个 part，依次并入 candidate17／19／18 |
-| batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part；part01～02 已落地，part03～04 审校中 |
+| batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part；part01／02／04 已落地，part03 审校中 |
 
 每批工单在 `batch-NN/orders/`：`ORDER.md`（规范）· `batch-NN.reader.md`（正文）· `batch-NN.json`（结构化）· `reference-excerpt.md`（本批人物与术语摘录，按批重写）。
 
@@ -75,20 +75,21 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 4. 主代理逐条核验后写 `batch-NN/review/decisions.tsv`；`tools/build_ledger.py <batch>` 生成该批来源锁定台账并 dry-run，`tools/verify_round.py <batch>` 出 gate。
 5. 在 `localization/optimization/r28/r9polish/component.json` 的 `batches` 数组登记该批（台账／gate／decisions 三项），再构建候选与跑 17 步回归。
 
-## 五之二、五批合计
+## 五之二、十批合计
 
-| 项 | -01 | -02 | -03 | -04 | 05-part01 | 05-part02 | 05-part03 | 合计 |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 场次／行 | 137／358 | 56／566 | 53／437 | 81／871 | 49／419 | 50／419 | 50／415 | 476／3,485 |
-| — | | | | | | | | |
-| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 22＋39 | 13＋33 | 28＋23 | 20＋27 | 461 |
-| 裁决 | 35 | 38 | 35 | 40 | 56 | 55 | 56 | 315 |
-| 　采纳 | 32 | 24 | 28 | 19 | 41 | 26 | 36 | **206** |
-| 　驳回 | 2 | 11 | 5 | 14 | 11 | 27 | 18 | 88 |
-| 　留置 | 1 | 3 | 2 | 7 | 4 | 2 | 2 | 21 |
-| 主代理补 | 3 | 2 | 16 | 1 | 6 | 4 | 1 | 33 |
+| 项 | -01 | -02 | -03 | -04 | 05-p01 | 05-p02 | 05-p03 | 06-p01 | 06-p02 | 06-p04 | 合计 |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 场次／行 | 137／358 | 56／566 | 53／437 | 81／871 | 49／419 | 50／419 | 50／415 | 65／434 | 65／441 | 65／441 | 671／4,801 |
+| 两路发现 | 18＋22 | 63＋71 | 44＋38 | 22＋39 | 13＋33 | 28＋23 | 20＋27 | 4＋31 | 28＋23 | 9＋— | 496 |
+| 裁决 | 35 | 38 | 35 | 40 | 56 | 55 | 56 | 38 | 55 | 11 | 419 |
+| 　采纳 | 32 | 24 | 28 | 19 | 41 | 26 | 36 | 28 | 30 | 6 | **270** |
+| 　驳回 | 2 | 11 | 5 | 14 | 11 | 27 | 18 | 8 | 11 | 4 | 111 |
+| 　留置 | 1 | 3 | 2 | 7 | 4 | 2 | 2 | 2 | 2 | 1 | 26 |
+| 主代理补 | 3 | 2 | 16 | 1 | 6 | 4 | 1 | 3 | 2 | 1 | 39 |
 
-驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%，batch-05 三个 part 分别为 20%、49%、32%。驳回变多不等于审校变差：part02／part03 的驳回里有一大半是两路同报同一行、只取一路措辞，这类在早期批次里根本没被计数。真正判错的类型仍在变少。
+驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%，batch-06-part02 的 26%。驳回变多不等于审校变差：后期批次的驳回里有一大半是两路同报同一行、只取一路措辞，这类在早期批次里根本没被计数。真正判错的类型仍在变少。
+
+batch-06-part01 的 4 条是 Gemini 路一整批的产量，而 DS 路两段合起来报了 31 条。同一个模型在不同批次上的产出量能差到一个量级，所以「两路一致」不能当作覆盖率的证据——真正的判据是每条改动有没有可指认的出处。
 
 ## 五之三、batch-05-part01 的两个教训
 
@@ -113,14 +114,18 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 candidate13 归档：jar `fb533645…61587`（45,842,131 B）· pak `046158e7…af8ca8`（13,588,668 B）。
 candidate15 归档：jar `2ff30bbd…bcb29`（45,842,088 B）· pak `9c2c7377…0ca585`（13,588,593 B），明细见 [`build-manifest.json`](../../builds/r9-polish-candidate15/build-manifest.json)。
 candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16/build-manifest.json)。
+| candidate20 | 同上 | 再加 batch-06-part02，共 236 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate21 | 同上 | 再加 batch-06-part01（补全 28 处） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate22 | 同上 | 再加 batch-06-part04，共 270 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
+
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 
 ## 七、边界
 
-- 已落地 batch-01～04 与 batch-05 全部三个 part（476 场／3,485 行），约占全库 2,989 场的 15.9%；**batch-06 与各区零散 root 未精校，「第 1 轮」不因此视为完成**。
-- 三项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）。
+- 已落地 batch-01～04、batch-05 全部三个 part 与 batch-06 的 part01／02／04（671 场／4,801 行），约占全库 2,989 场的 22.4%；**batch-06-part03 与各区零散 root 未精校，「第 1 轮」不因此视为完成**。
+- 四项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关，音译会丢掉 pup 那一层）。
 - 引号体例（`“”` 与 `「」` 并存）也仍待终裁：各批只在行内保持原体例，未做全局统一，累计约 110 对 `“”` 对 39 对 `「」`。
 - `FENFEN` 的中文条目名未定：词典 SFW 版作「芬芬」、NSFW 版作「Fenfen」，正文 124 处作 Fenfen。目前只统一英文写法，未新造中文名。
 - 不覆盖任何历史证据；未安装、未启动游戏、未访问存档；未生成 `acceptance.json`。
