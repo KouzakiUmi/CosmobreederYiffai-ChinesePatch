@@ -1,0 +1,22 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P09-0201	gemini	B	term	SC534b27bb191911f5	CAT:Oa8a4fb600f3df8be180f	apply	    * 先是有人偷了我的钩爪，害我只能靠这两条小短腿走路……	hookshot 词典条目名是「钩爪」。两路同报。
+gemini:P09-0202	gemini	B	term	SC86a162ee3099dd1b	CAT:Oce75ea694f62d58630e2	apply	      * 仓库B的南部有一门不错的飞船炮！	DEPOT B 的既定中文名是「仓库B」。两路同报。
+gemini:P09-0203	gemini	A	format	SCb56f05146b2c3c81	CAT:O30d1a527e4168b74118e	apply	  * [飞刀描述]	道具描述模板里英文名没译全；同一模板的上一件已作「[镐子描述]」。两路同报。
+gemini:P09-0204	gemini	B	idiom	SC3e48a3eb51cded0c	SFW7431b039c7c08aa6ee629a6a	apply	  * 说不定就能感到一股力量流遍全身……	「并且你也许会感到某种力量流经你」把 and you might feel... 逐词搬下来，中文不成话；女线同一句是自然写法。
+ds:P09-S2-102	ds	B	idiom	SCfd1d3fdb486e196e	CAT:Oc9b378982137fe4fe315	apply	  * 可没开发《宇宙育种者伊吠》那么苦，不过也挺累人！	「没开发《宇宙育种者伊吠》苦」把 not nearly as hard as 的比较标记丢了，读成「没开发游戏很苦」，意思反了。
+ds:P09-S2-106	ds	B	term	SC2f7aaefb84a19bd6	CAT:O49678a2f22762b2c863e	apply	  * 用不着你的电击器了！接下来交给我！	同一件武器在本场作「电击枪」，与已定的「驯兽／见习电击枪」系列不一致，且原文是 tazer 不是 gun。
+ds:P09-S2-107	ds	B	term	SCe85d31ce43973a39	CAT:Oe7391a2b189ab368554f	apply	  * 我可是派驻这颗星球的资深精英特工。	同一句里 senior top agent 译成「资深上位特工」，而男线另一版作「资深精英」；本行改与已定口径一致。
+ds:P09-S2-108	ds	B	term	SC5a2ee864f08aee86	SFW882feb4f046a6fb624dc834d	apply	    * 不穿宇宙服就往外跑，你胆子可真大！ 	spacesuit 在本场受 `inCosmoSuit()` 限定，应为已定的「宇宙服」。
+ds:P09-S2-109	ds	B	idiom	SCa256d2b7a4a5d415	CAT:O087f2da7ac2be0bbd0c9	apply	  * 拜拜啦！我知道咱们后会有「肉」！	meat／meet 的双关在「我们还会再见」里没了；改用既能听成见面又能听成肉的说法。
+ds:P09-S2-111	ds	B	term	SC86a162ee3099dd1b	CAT:O44fe1f3207210c575287	apply	      * 你得是魔术师或者超能力者才够得着它！	psychic 在本作是「超能力者」，不是「通灵者」。
+ds:P09-S2-112	ds	B	term	SC96baa13ee76df1af	CAT:O937a1a082b33efffad54	apply	    * 只要你收集到足够的芯片，我就能侵入电网，让这个修理舱重新上线。	repair bay 本场另作「维修区」，同一处设施两个名字；统一为「修理舱」。
+ds:P09-S2-114	ds	C	idiom	SC674c1f273752aad2	CAT:Ofc61bbaf58bb7350abf8	apply	  * 这儿这个小色狼不值钱，拿走吧！就跟他一样 ;3！	「就像他那样做的」缺中心语，读不成句；原文指照他那个样子办。
+ds:P09-S2-104	ds	B	term	SC534b27bb191911f5	CAT:Oa8a4fb600f3df8be180f	reject		同一行同一处（钩索／钩爪），取另一条。
+ds:P09-S2-113	ds	A	format	SCb56f05146b2c3c81	CAT:O30d1a527e4168b74118e	reject		同一行同一处（ThrowKnife），取另一条。
+ds:P09-S2-110	ds	B	term	SC86a162ee3099dd1b	CAT:Oce75ea694f62d58630e2	reject		同一行同一处（B号仓库／仓库B），两路同报，取另一条。
+R9M-CAT:O22f07ef3a60a3d751fce	R9M	C	format	SC0444d990ee0d8a7a	CAT:O22f07ef3a60a3d751fce	apply	    * 之前还来过一个跟你一样的太空伙计，嘴里嘀咕着说把武器落在这儿正北边了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ob95ef78e84ba798884ae	R9M	C	format	SC534b27bb191911f5	CAT:Ob95ef78e84ba798884ae	apply	    * 我的运气还真是好啊，是吧？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O3a126abecb8fa91d92e8	R9M	C	format	SC96fdc8a6cb5c73de	CAT:O3a126abecb8fa91d92e8	apply	  * 听着，闲聊虽然不错……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+ds:P09-S2-101	ds	C	format	SC0444d990ee0d8a7a	CAT:O22f07ef3a60a3d751fce	reject		与本表 R9M-CAT:O22f07ef3a60a3d751fce 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S2-103	ds	C	format	SC534b27bb191911f5	CAT:Ob95ef78e84ba798884ae	reject		与本表 R9M-CAT:Ob95ef78e84ba798884ae 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S2-105	ds	C	format	SC96fdc8a6cb5c73de	CAT:O3a126abecb8fa91d92e8	reject		与本表 R9M-CAT:O3a126abecb8fa91d92e8 同一行同一处（行尾空格），取先落地的条目。

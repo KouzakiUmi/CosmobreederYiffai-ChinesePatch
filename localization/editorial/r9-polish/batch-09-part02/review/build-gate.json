@@ -1,0 +1,62 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-09-part02 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate32",
+ "decisions_total": 21,
+ "apply_findings": [
+  "R9M-CAT:O22f07ef3a60a3d751fce",
+  "R9M-CAT:O3a126abecb8fa91d92e8",
+  "R9M-CAT:Ob95ef78e84ba798884ae",
+  "ds:P09-S2-102",
+  "ds:P09-S2-106",
+  "ds:P09-S2-107",
+  "ds:P09-S2-108",
+  "ds:P09-S2-109",
+  "ds:P09-S2-111",
+  "ds:P09-S2-112",
+  "ds:P09-S2-114",
+  "gemini:P09-0201",
+  "gemini:P09-0202",
+  "gemini:P09-0203",
+  "gemini:P09-0204"
+ ],
+ "operations": 15,
+ "ledger": "localization/translations/editorial-r9-batch-09-part02-repairs.jsonl",
+ "ledger_sha256": "de442596791f64e2cdfa38a875d16c0905b7b9d7005a14b8dbef7576cd179928",
+ "decisions_sha256": "ca31e5267fda3c862287a2987e41bfda4b38a85efa27a7d6a7bc3242c009b56e",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "f7306e3357a428b211cc5bd979e7a6bee3c0637257a972c5d6d6b4c9723cde2d"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 15,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "df4403f37c8be4c4c10cb850de64b091a34c12d200c70924cb87048d736bdae4",
+    "after_resource_sha256": "7dfb62755ee86050f1407079da8b99f81e30473f44d6dfa3e36d2177f45c8351",
+    "targets_changed": 2
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "a94cb8c5828aef6e1a81d6070fe3dee2a9f62d67c1cdf8c7af3479db38ba357e",
+    "after_resource_sha256": "08f27b4c8c83f164e33a3d265f8637d7cf30d7f916c1a5cc999741794c517ad9",
+    "targets_changed": 6
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "1e2061105012c62564a3e707a76226b880158e0f800b3b3b0c0125ada3923f4c",
+    "after_resource_sha256": "75a28f736a5687e73629c0477d93585c8ff28ecff6667bdf9ea8ec009a307182",
+    "targets_changed": 7
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}
