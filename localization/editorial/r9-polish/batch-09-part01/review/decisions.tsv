@@ -1,0 +1,48 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P09-0103	gemini	A	gameplay	SCcbd8001b2437757e	CAT:O4e3087ad0e05d3fdbc5b	apply	  * 你知道吗，野兽形态下按 DOWN+ATTACK 就能刨土！	按键名被汉化成「DOWN+攻击」，玩家实机上找不到这个键；同批 UP+ATTACK／DOWN+JUMP／SELECT 都原样保留。两路同报。
+gemini:P09-0106	gemini	B	term	SC0bffef4b72d95f38	CAT:Ob8a81f1ca525d381e5dd	apply	    * 先是有人偷了我的钩爪，害我只能靠这两条小短腿走路……	hookshot 词典条目名是「钩爪」。两路同报。
+ds:P09-S-113	ds	B	term	SCbe209d409e1ae3c7	SFW28a835036fdc1c8adcc1fbb1	apply	    * 不穿宇宙服就往外跑，你胆子可真大！ 	宇航服与 R9 已定的 Cosmosuit＝宇宙服 不一致；本作触发条件就是 inCosmoSuit()。
+ds:P09-S-114	ds	B	term	SCc50d167569027719	CAT:O7756d6a8664d0f0f0101	apply	  * 太空行走最糟的，就是得穿宇宙服。	同上一处，另一行。
+ds:P09-S-117	ds	B	term	SCde7a7e36a57b61d6	CAT:Oae1f2ace4da36045c5e8	apply	  * 你听说过近来有些人搞到的那些精神力吗？	PSY 是「精神力」，同批另一行已作「精神力」；「超能力者」对应的是 Esper。
+ds:P09-S-119	ds	B	term	SC456a58bc9e361917	CAT:O61d1350e13c7c55f075e	apply	  * 这就是驯兽电击枪！跟见习电击枪可大不一样！	同句前半已作「驯兽电击枪」，后半却作「学员电击枪」；词典 TazerTrainee.name 是「见习」。
+ds:P09-S-122	ds	B	term	SC87c3d069f4408f43	CAT:O7680fc134078537c5d92	apply	  Tomcat: [已经在查。宇宙服的降落伞无法使用……]	Cosmosuit＝宇宙服；「星际服」是第三种写法。
+ds:P09-S-115	ds	C	idiom	SCbe209d409e1ae3c7	SFW3f0f2a74094052bb9864fb7e	apply	    * 去收拾他们，小老虎！	tiger 这里是打气的昵称，不是军衔；「猛将」与本线的见习生／菜鸟撞车。
+ds:P09-S-116	ds	C	term	SC641ef6993c22289c	CAT:O6227c472917bee4afd04	apply	  * 这块上等好肉能让你立马恢复活力！	「恢复精神」与 PSY＝精神力 撞车；同批 VitMeat／VitHam 都用「活力」。
+ds:P09-S-118	ds	C	term	SC1881e5dc92d1413c	CAT:Ob3bb876aaa1a280e0c74	apply	      * 仓库B的南部有一门不错的飞船炮！	导航图条目 DEPOT B 的既定中文名是「仓库B」，batch-04 毛鼠无线电同。
+ds:P09-S-123	ds	C	idiom	SC825b40cfb66cb6e7	CAT:O0229f180a4b093160ee5	apply	  * 要打开我的镣铐得用钥匙。你有钥匙，对吧？	「锁铐」不是规范写法；同批对同一个词用「镣铐」。
+ds:P09-S-124	ds	C	format	SC40ff77e3e93f0d95	CAT:O7615bce7f009d721daf0	apply	  * [小刀描述]	测试串里英文名没译全；词典 ThrowKnife.name 是「小刀」。
+gemini:P09-0101	gemini	B	term	SC08a5d057fb802adb	CAT:O22c62a348c39eebba16b	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0102	gemini	B	term	SCb65765856218e448	CAT:O259fad048cd760de9f58	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0104	gemini	B	term	SC38535819ad3530f2	CAT:O6563124433db6bdd42ca	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0105	gemini	B	term	SCc26b26da5ae43800	CAT:O94f5e0114c732d3220a6	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0107	gemini	B	term	SC9d80579fc9a0aea3	CAT:Od701187ddb1bd5bbae06	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0108	gemini	B	term	SC518c48583cc66f7a	CAT:O3a2701c72c0fd577e45a	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0109	gemini	B	term	SC115b86f7a94e2952	CAT:Of9135c0f9142438cad94	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0110	gemini	B	term	SCc1165299ba0c5462	CAT:Odc0b4852767438459c44	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+gemini:P09-0111	gemini	B	term	SCff1475334e6f3378	CAT:O1d6ba611a5f404454bd8	reject		REJECT：英文原文这一行的货币名本身大小写就不统一（有的行是 lect，有的是 Lect），中文大小写是照源的，不是缺陷。要求一律改大写会与原文分叉。
+ds:P09-S-104	ds	A	gameplay	SCcbd8001b2437757e	CAT:O4e3087ad0e05d3fdbc5b	reject		同一行同一处（DOWN+攻击），取另一条。
+ds:P09-S-107	ds	B	term	SC0bffef4b72d95f38	CAT:Ob8a81f1ca525d381e5dd	reject		同一行同一处（钩索／钩爪），取另一条。
+R9M-CAT:Ofd27419fe778d6d6f71f	R9M	C	format	SCe5be0917031fc97f	CAT:Ofd27419fe778d6d6f71f	apply	  * ……可它没法像爽口的 ICECOLA 那样让你凉快下来！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Of1f0c9a948f9a9ded9a5	R9M	C	format	SC7fe532ba356c55d8	CAT:Of1f0c9a948f9a9ded9a5	apply	  * 我终于不用再热得发烫，可以做点生意了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O4c03bb4cb1fe699dab18	R9M	C	format	SCce43c200ee69de3b	CAT:O4c03bb4cb1fe699dab18	apply	  * 总算不用烤得冒烟，可以做生意了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O0c5829f21725045175d3	R9M	C	format	SC6ae142a4617e6f7e	CAT:O0c5829f21725045175d3	apply	    * 之前还来过一个跟你一样的太空伙计，嘴里嘀咕着说把武器落在这儿正北边了！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oaf18357904b4351a8c57	R9M	C	format	SC6d28d2f1393a3621	CAT:Oaf18357904b4351a8c57	apply	  * 快、快点，你*必须*把我从这里弄出去！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ob3cab683d83d490af9cf	R9M	C	format	SC0bffef4b72d95f38	CAT:Ob3cab683d83d490af9cf	apply	    * 我的运气还真是好啊，是吧？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oec9c4c449b0bd26d8a9a	R9M	C	format	SC4d91dbed05afab8d	CAT:Oec9c4c449b0bd26d8a9a	apply	  * 唔噗……唔、唔 登噗！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oe0ab89d8568ea9f1a979	R9M	C	format	SCd49f99c756de0999	CAT:Oe0ab89d8568ea9f1a979	apply	  * 你、你这是干嘛啊？！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O8326faa835c2c1d5dcb6	R9M	C	format	SCcaee6a8801762fdd	CAT:O8326faa835c2c1d5dcb6	apply	  * 还是说……哼……懂了。你想先隔着栏杆来个口交。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ob84dea37cca98775c571	R9M	C	format	SC4af4755fea7bf285	CAT:Ob84dea37cca98775c571	apply	    * 森林里今晚夜色不错，是吧？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O0af8ad0e79032e8bb53b	R9M	C	format	SC59aee2351f011d4c	CAT:O0af8ad0e79032e8bb53b	apply	    * 咦……什么都没发生？我确定我把所有东西都调试过了。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O389e084186818e585e16	R9M	C	format	SC59aee2351f011d4c	CAT:O389e084186818e585e16	apply	    * 加上我亲自做的改动，说不定比原来更好用！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+ds:P09-S-101	ds	C	format	SCe5be0917031fc97f	CAT:Ofd27419fe778d6d6f71f	reject		与本表 R9M-CAT:Ofd27419fe778d6d6f71f 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-102	ds	C	format	SC7fe532ba356c55d8	CAT:Of1f0c9a948f9a9ded9a5	reject		与本表 R9M-CAT:Of1f0c9a948f9a9ded9a5 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-103	ds	C	format	SCce43c200ee69de3b	CAT:O4c03bb4cb1fe699dab18	reject		与本表 R9M-CAT:O4c03bb4cb1fe699dab18 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-105	ds	C	format	SC6ae142a4617e6f7e	CAT:O0c5829f21725045175d3	reject		与本表 R9M-CAT:O0c5829f21725045175d3 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-106	ds	C	format	SC6d28d2f1393a3621	CAT:Oaf18357904b4351a8c57	reject		与本表 R9M-CAT:Oaf18357904b4351a8c57 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-108	ds	C	format	SC0bffef4b72d95f38	CAT:Ob3cab683d83d490af9cf	reject		与本表 R9M-CAT:Ob3cab683d83d490af9cf 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-109	ds	C	format	SC4d91dbed05afab8d	CAT:Oec9c4c449b0bd26d8a9a	reject		与本表 R9M-CAT:Oec9c4c449b0bd26d8a9a 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-110	ds	C	format	SCd49f99c756de0999	CAT:Oe0ab89d8568ea9f1a979	reject		与本表 R9M-CAT:Oe0ab89d8568ea9f1a979 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-111	ds	C	format	SCcaee6a8801762fdd	CAT:O8326faa835c2c1d5dcb6	reject		与本表 R9M-CAT:O8326faa835c2c1d5dcb6 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-112	ds	C	format	SC4af4755fea7bf285	CAT:Ob84dea37cca98775c571	reject		与本表 R9M-CAT:Ob84dea37cca98775c571 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-120	ds	C	format	SC59aee2351f011d4c	CAT:O0af8ad0e79032e8bb53b	reject		与本表 R9M-CAT:O0af8ad0e79032e8bb53b 同一行同一处（行尾空格），取先落地的条目。
+ds:P09-S-121	ds	C	format	SC59aee2351f011d4c	CAT:O389e084186818e585e16	reject		与本表 R9M-CAT:O389e084186818e585e16 同一行同一处（行尾空格），取先落地的条目。
