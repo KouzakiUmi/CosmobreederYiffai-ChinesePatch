@@ -1,0 +1,37 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini-s1:P08-04A01	gemini-s1	B	term	SC23fcdb3817e041e0	CAT:Ocf9a9ce01e88618f9a9e	apply	lang(Fox): 所有重大纷争，都由我们中最睿智的超能力者所组成的议会来化解。	本行作「理事会」，而同一场另两行与全库口径都是「议会」（Fenfen council）。两路同报。
+ds:P08-S4-101	ds	B	term	SC23fcdb3817e041e0	CAT:Ocf9a9ce01e88618f9a9e	reject		与本表 gemini-s1:P08-04A01 同一行同一处（理事会／议会），两路同报，取另一条落地。
+gemini-s1:P08-04A02	gemini-s1	B	format	SC23fcdb3817e041e0	CAT:Oc6df3a1ef2b826e167cc	apply	lang(Fox): 也许我们议会中剩下的超能力者长老若能更快应对，	条件从句「也许……若能更快应对」与下一行「就本可以阻止……」是同一句，本行末尾缺承接逗号。
+ds:P08-S4-104	ds	B	meaning	SC2b98992a00a6ce52	CAT:O796e7031b77ebfd43322	apply	text: 要是早知道真家伙居然能舒服成这样，我早就争着早点出任务了！	「争着早点出任、任务了」把 get sent on a mission 拆成了两个不成立的词，「出任」不接「任务」。
+ds:P08-S4-105	ds	B	term	SCdf603b6c82695577	CAT:O4248cbd4635a9605a925	apply	text: 润滑：充足。肉棒：可部分卷握。凸粒：柔软且可活动。	nubs 在本行作「肉突」，同一场另一行与前面批次已定的写法都是「凸粒」。
+ds:P08-S4-106	ds	B	term	SC8a7eb1951fe9843f	CAT:Oc89256d39848f16878b5	apply	text: 再过一会儿，你的肉结就会胀大，把你锁在我体内，这样我就能观察你交配后的行为了。这很重要！	bulbus glandis 在本行作「龟头球」，同一场另有「肉结」「结」两种写法；batch-08-part03 落地的是「肉结」。统一为「肉结」。
+ds:P08-S4-103	ds	C	voice	SCb9a3af2c476d7f1b	CAT:O543809c794607242ef96	apply	lang(Fox): Traeh吩咐什么，它便做什么！	与前一批同一句（They did as Traeh commanded）。前批落在 jar 一侧，本行是 pak 一侧的同句拷贝，「其」同样没有先行词。按前批已定的措辞改为「它」。
+ds:P08-S4-107	ds	B	term	SC8a7eb1951fe9843f	CAT:Oa1ed80c76f803c9f1ef4	reject		REJECT：主张把「变成野兽了」改成「变成兽形了」，理由是同一句在 part03 已落地。但 part03 落地的是「野兽」不是「兽形」——那条改的正是「野性兽人」→「野兽」。本行已是「野兽」，与 part03 一致，改了反而分叉。
+R9M-CAT:Ode9fa16a69758a9dbc0a	R9M	C	format	SC0bbcef2ad0f68b4d	CAT:Ode9fa16a69758a9dbc0a	apply	auto(8.0): 穿行群星，探寻未知，这就是冒险的人生。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oe434cd59d06182d1a8a3	R9M	C	format	SC23fcdb3817e041e0	CAT:Oe434cd59d06182d1a8a3	apply	lang(Fox): 凭借我们高度敏锐的感官与力量，我们总能找到解决之道，这些方案	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O82532579c8547cceec05	R9M	C	format	SC3556c0b1a26b76d9	CAT:O82532579c8547cceec05	apply	lang(Fox): 以免黑暗力量吞噬更多超能力者。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oae1d46bebd67fc27daf7	R9M	C	format	SC3556c0b1a26b76d9	CAT:Oae1d46bebd67fc27daf7	apply	lang(Fox): 无法克服这股灵能扰动、给出致命一击，	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O1034dec3adb82375dc02	R9M	C	format	SC4eeb4a129d950b80	CAT:O1034dec3adb82375dc02	apply	text: ……不过下次，殿下？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O63bd8c43c1d519baf987	R9M	C	format	SC2edbe680e56cd1d2	CAT:O63bd8c43c1d519baf987	apply	text: 最美的骑士啊，汝打算如何做到？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Odb9fa07b4f272be0631e	R9M	C	format	SC3384501696d551cc	CAT:Odb9fa07b4f272be0631e	apply	text: 就算他们的鸡巴伸出来又……射了，我也没停下哪怕一顶！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O22d13c16bf1a78d11535	R9M	C	format	SC409a3c3b6d9fba50	CAT:O22d13c16bf1a78d11535	apply	text: ……等、等等，不对！你要听我的报告，对、对吧？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Ob8eb67fe831f104585c7	R9M	C	format	SCad124eb3e41e68a7	CAT:Ob8eb67fe831f104585c7	apply	lang(Fox): 以免黑暗力量吞噬更多超能力者。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O998546f2ddd6608c5a79	R9M	C	format	SCad124eb3e41e68a7	CAT:O998546f2ddd6608c5a79	apply	lang(Fox): 无法克服这股灵能扰动、给出致命一击，	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oc1f5ad2ac35cc0641dd8	R9M	C	format	SCb9a3af2c476d7f1b	CAT:Oc1f5ad2ac35cc0641dd8	apply	lang(Fox): 一路来到了Traeh监牢的最深处。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O4173727f7c3cad086599	R9M	C	format	SCb9a3af2c476d7f1b	CAT:O4173727f7c3cad086599	apply	lang(Fox): 究竟是黑暗灵能在作祟，还是单纯出于好奇，已经无从知晓，	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Od30286b601f604e0a209	R9M	C	format	SCb9a3af2c476d7f1b	CAT:Od30286b601f604e0a209	apply	lang(Fox): 力量与痛苦流遍了这位可怜的探险者全身，	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O3507bc012cce3bdf16bb	R9M	C	format	SC2b98992a00a6ce52	CAT:O3507bc012cce3bdf16bb	apply	text: 找到了，我那可靠的佩刃。	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O170ba53233f055ca4b0d	R9M	C	format	SC2b98992a00a6ce52	CAT:O170ba53233f055ca4b0d	apply	text: 唔，让我想起以前用的入门玩具了……	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O7b7b722981893bf095a9	R9M	C	format	SC2b98992a00a6ce52	CAT:O7b7b722981893bf095a9	apply	text: 说不定你梦里也是我在玩弄你呢！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O0bb76032caa790002742	R9M	C	format	SCdf603b6c82695577	CAT:O0bb76032caa790002742	apply	text: 有点紧张也很正常，对、对吧？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oa63ffa0de4142ac4cd90	R9M	C	format	SCdf603b6c82695577	CAT:Oa63ffa0de4142ac4cd90	apply	text: 那就别突、突然乱动，知道吗？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O4289bbc10ea1a60201fc	R9M	C	format	SCdf603b6c82695577	CAT:O4289bbc10ea1a60201fc	apply	text: 我的电击枪可就在手边！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Od19ff6303b15c1c0627c	R9M	C	format	SCdf603b6c82695577	CAT:Od19ff6303b15c1c0627c	apply	text: 我只是欣赏它们硬中带软这一点，精妙得很！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O91e4bf998178847da80c	R9M	C	format	SCdf603b6c82695577	CAT:O91e4bf998178847da80c	apply	text: ……我、我是说……	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O0617c9a186b2eafd03ca	R9M	C	format	SCdf603b6c82695577	CAT:O0617c9a186b2eafd03ca	apply	text: ——喂、喂！！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O471664eb0c7c4b5a703d	R9M	C	format	SCdf603b6c82695577	CAT:O471664eb0c7c4b5a703d	apply	text: 天哪，你刚刚是不是……好暖……！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:O17262d24e8d4829614d2	R9M	C	format	SCdf603b6c82695577	CAT:O17262d24e8d4829614d2	apply	text: 刚才真够好玩的！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oc5f313cdf525c22cd842	R9M	C	format	SCdf603b6c82695577	CAT:Oc5f313cdf525c22cd842	apply	text: 有了它，我就能靠超能滑行一溜烟冲出去了！	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+R9M-CAT:Oc2d298dc237b67262e38	R9M	C	format	SC8a7eb1951fe9843f	CAT:Oc2d298dc237b67262e38	apply	text: 该不会是因、因为我刚才说的话吧？	中文行尾多出半角空格，英文原文行尾没有（按 catalog 的 unit 原文核对）。只删空格。
+ds:P08-S4-102	ds	B	term	SCdebb4125f9c246cd	SFW829c434763172065cd188166	reject		同场 lighttazer 三种写法并存，主张统一为「光电击枪」。但该武器中文名未终裁，选边等于替全局定名。本批不改，见 R9M-1401。
+R9M-1401	R9M	B	term	SCdebb4125f9c246cd	SFW829c434763172065cd188166	hold		DS 报本行 lighttazer 作「光刃电击器」，同场与另几批作「光电击枪」，主张同场统一。但 LIGHTTAZER 的中文名至今未终裁、库内三种写法并存，选任何一种都等于替全局定名。本批不改。
