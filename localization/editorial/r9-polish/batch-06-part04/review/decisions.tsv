@@ -1,0 +1,12 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P06d-103	gemini	A	format	SCf53d685d88a5cdcb	SFWf290409796e2e3d366cf56e5	apply	  Tomcat: [确切说是场衰减棱镜。若有生物很喜欢你，抚摸即可为水晶充能！效果因生物而异！]	工单四之二点名超限：原译 55 字实测 4 行。保留场衰减棱镜技术名、生物好感条件、抚摸充能、效果因生物而异四项，只压虚词与重复指代。240px／224px 均 3 行。
+gemini:P06d-107	gemini	A	format	SC88df48b156a94b0d	CAT:Of4a50a13f617be9d9f7c	apply	  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]	工单四之二点名超限：原译 57 字实测 4 行。保留影响生物的加密币、严重违法、绝密欧米茄协议、你自己定夺四项条件与语气，只压连接词。顺带把协议名的少数写法「欧米伽」并入库内标准「欧米茄」（词典条目名 13 处、全库 22 对 3）。240px／224px 均 3 行。
+gemini:P06d-108	gemini	A	format	SC215cc09d5afb4b7e	SFW66ffceafa7b0c482215c99f8	apply	  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]	女版同句同改，与上一条同一处压缩与同一术语修正。240px／224px 均 3 行。
+gemini:P06d-105	gemini	A	gameplay	SC1e5e2f54d5e86cf6	SFW259abf4ec3ecb785b89bcaf6	apply	  Tomcat:  [在空中按"DOWN"+"JUMP"就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]	DOWN 与 JUMP 是按键名，硬约束要求原样保留；本行译成「"下"+"跳跃"」，玩家照着按不到键。同 root 与全库另 7 处 JUMP 都保留英文。
+gemini:P06d-102	gemini	B	format	SC7d2c91802ff55751	CAT:Of0a96809438a0f37171c	apply	  Tomcat: [哦抱歉，我不是有意不敬——]	被打断处用半角连字符，12px 渲染成一个孤立小横；全批其它被打断处一律用全角破折号。
+gemini:P06d-101	gemini	B	format	SCc4c2b7eda0f9ae23	SFW611fa16540e8dfd8f4e9db01	reject		主张把「看起来 S、S……」改成「看起来可、可爱……」。该行原文是 LOOK S-S...，首字母重复对应的是 S 打头的词；男线同句（CAT:Oc82fdcb15e39e8e56ef3）已定译「看着性、性感……」。本条是按上一句 CUTE 反推的，与源文首字母不符，不改。
+gemini:P06d-104	gemini	A	meaning	SC7f5787288a86d66c	CAT:O5c53187910b3a07aac9c	reject		方向相反：本条主张 THEM 指门卡，改成「卡上所标数字」。同 root 男线（part01 的 CAT:Ocf5d1daf6e7846490b5f、part02 的 CAT:Oc91c83e4cdc8b678f7ca）已据 ON THEM 判为门上所标等级，且上一行明说「带着卡走向能量门」。本行现译「门上所标数字」是对的，不改。
+gemini:P06d-106	gemini	B	format	SC0b48d23b79eca6dd	SFW769f22d071d1749baac0c2dd	reject		主张把「兄 弟 ……」改成「老——兄……」。原文是 D U D E . . .，逐字加空格、末尾接省略点；译文「兄 弟 ……」正是对这条排版的镜像还原，改掉反而不忠实。DS 路在 part03 独立判为不报，两路一致。
+gemini:P06d-109	gemini	A	gameplay	SC25645bfd72c28ab1	CAT:O1b37c6453c9c87c3f4d8	reject		按键名确实被译成「“上”+“攻击”」，本条成立；但该行在 224px 下原本就折成 4 行，只换按键仍会超限。改由 R9M-905 一并处理按键与行宽。
+R9M-905	R9M	A	gameplay	SC25645bfd72c28ab1	CAT:O1b37c6453c9c87c3f4d8	apply	  Tomcat: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]	按键名被译成「“上”+“攻击”」，须恢复英文；同时该行在 224px 下原本就折成 4 行（240px 是 3 行），是既有超限行，一并压回。保留「报告说」的传闻限定、战斗时机、两段按键三项，只压连接词。两档实测均 3 行。
+R9M-904	R9M	B	format	SCc4c2b7eda0f9ae23	SFW611fa16540e8dfd8f4e9db01	hold		本行与男线 CAT:Oc82fdcb15e39e8e56ef3 同句，但源文两版上一句用词不同（女版 CUTE、男版 SEXY），而本句两版都写 LOOK S-S...。按源文字面应与男线一致作「性、性感」，但女版上文说「可爱」，字面与内容自相矛盾。这是源文内部不一致，需与 CROSS 体例一并裁决，本批不改。
