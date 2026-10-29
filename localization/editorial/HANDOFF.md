@@ -14,13 +14,13 @@
 | R6 | 层一致性与术语回改（Bumper→弹跳机等） | [r6-consistency](r6-consistency/README.md) |
 | R7 | 用运行代码＋渲染判定剩余条目 | [r7-render](r7-render/README.md) |
 | R8 | 谜题提示改“相邻”，补字形 | [r8-puzzle](r8-puzzle/README.md) |
-| R9 | 全正文精校 batch-01～04（双路：Gemini 3.8 Flash 自适应 + DS(OD)），103 处落地 | [r9-polish](r9-polish/README.md) |
+| R9 | 全正文精校 batch-01～04 与 batch-05 全部三个 part（双路：Gemini 3.8 Flash 自适应 + DS(OD)），206 处落地 | [r9-polish](r9-polish/README.md) |
 
-当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ **16（+batch-04，最新）**。
+当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ **19（+05-part02，最新）**。
 
 - candidate12：13 个组件，四步编译 exit 0，55 类。
-- candidate13～16：15 个组件（新增 `r9polish`），四步编译 exit 0，55 类；**17 步 CPU 回归全部 exit 0**。
-- 候选 8–16 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）。
+- candidate13～19：15 个组件（新增 `r9polish`），四步编译 exit 0，55 类；**17 步 CPU 回归全部 exit 0**。
+- 候选 8–19 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）。
 - 各轮候选**均未生成 `acceptance.json`**：正式封签需绑定与本次归档 SHA 一致的上游资源/字体/方法复核，字体已多轮变化，旧复核记录无法套用。
 
 ## 二、遗留
@@ -28,9 +28,9 @@
 | 项 | 状态 |
 | --- | --- |
 | P01-035 `MAGs` | 唯一仍未决的留置项。已证：该句只在 NSFW 版存在（SFW 版整句不同）、全库无 MAG 物品、无弹药系统，现译“弹匣”无据；但“杂志”与“磁靴”两解均无法证实 |
-| 全正文系统精校 | **进行中**：R9 batch-01～04 已落地（327 场／2,232 行，约 10.9%）；batch-05／06 工单已就绪未开，见下节 |
+| 全正文系统精校 | **进行中**：R9 batch-01～04 与 batch-05 三个 part 已落地（476 场／3,485 行，约 15.9%）；batch-06 的 4 个 part 工单已就绪，见下节 |
 | 全库口径待终裁 | `LIGHTTAZER` 命名（光能电击刃／光电击枪／轻型电击枪三种）、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心） |
-| candidate16 封签 | 未做 |
+| candidate19 封签 | 未做 |
 
 ## 三、进行中：全正文系统精校（双路，路由已定）
 
@@ -41,7 +41,7 @@
 | A | `gemini/gemini-3.8-flash` | `tiered`（自适应） | 非 ACP 入口；`antigravity-acp` 按用户要求禁用 |
 | B | `opendesign-corouter-plan/deepseek-v4.1-flash` | `high` | OpenDesign 套餐路由（DS(OD)）；旧记录里「没有 opendesign provider」已过时 |
 
-已落地三批：
+已落地七批：
 
 | 批次 | 范围 | 场次／行 | 两路发现 | 裁决 | 台账 |
 | --- | --- | --- | --- | --- | --- |
@@ -49,10 +49,15 @@
 | batch-03 | 波苏指挥线 | 53／437 | 44 / 38 | 35（apply 28／reject 5／hold 2） | 28 个操作，并入 candidate14 |
 | batch-02 | 雄猫支援线 | 56／566 | 63 / 71 | 38（apply 24／reject 11／hold 3） | 24 个操作，并入 candidate15 |
 | batch-04 | 毛鼠支援线与装备说明 | 81／871 | 22 / 39 | 40（apply 19／reject 14／hold 7） | 19 个操作，并入 candidate16 |
+| batch-05-part01 | 图鉴与首领资料（part 1／3） | 49／419 | 13 / 33 | 56（apply 41／reject 11／hold 4） | 41 个操作，并入 candidate17 |
+| batch-05-part03 | 图鉴与首领资料（part 3／3） | 50／415 | 20 / 27 | 56（apply 36／reject 18／hold 2） | 36 个操作，并入 candidate18 |
+| batch-05-part02 | 图鉴与首领资料（part 2／3） | 50／419 | 28 / 23 | 55（apply 26／reject 27／hold 2） | 26 个操作，并入 candidate19 |
 
-batch-05（`BossuDex` 149 场，分 3 part）与 batch-06（`TomcatItems` 260 场，分 4 part）的工单、参照摘录与分段已生成，可直接派单。
+batch-06 的 4 个 part（`TomcatItems`，各约 65 场／435 行），工单、参照摘录与分段均已生成，可直接派单。
 
-组件 `r9polish` 按 `batch-01 → batch-03 → batch-02` 顺序应用，每批 gate 绑定它之前的构建，串行校验整资源 SHA。三处 4 折行（batch-02 的既有合句）已压回 3 行。
+组件 `r9polish` 按 `batch-01 → batch-03 → batch-02 → batch-04 → batch-05-part01 → batch-05-part03 → batch-05-part02` 顺序应用，每批 gate 绑定它之前的构建，串行校验整资源 SHA。已知超限行已压回 3 行：batch-02 三处、batch-05-part01 两处、part02 两处、part03 一处。
+
+**参照摘录的术语表已改为带出处。** part01 的摘录曾把 Squeaker／Spiker／Driller 写成「吱吱兽／刺甲机／钻掘机」，而 `datav/dictionary.json` 的条目名是「吱吱怪／刺虫／钻探者」，三个错写法在库里零出现；一路照表执行、一路没照表，才暴露出冲突。三份摘录现已全部改为引用词典条目名，工单第 11 条要求任何术语改动必须给出依据所在行。
 
 Grok 复查本轮未用（用户要求双路）；`xai-oauth/grok-4.6`、`grok-4.7` 仍可用于后续独立复核。
 
