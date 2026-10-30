@@ -37,7 +37,7 @@
 | batch-06 | `TomcatItems`（道具） | 260 | 1,753 | 117,974 | 分 4 个 part，依次并入 candidate20／19／23／21（最终 candidate24） |
 | batch-07 | `vsn/*` 结局与开场（结局与平行版本） | 23 | 776 | — | 分 2 个 part，依次并入 candidate25／26 |
 | batch-08 | `vsn/*` 剧情场景脚本 | 78 | 2,356 | 197,641 | 分 5 个 part，依次并入 candidate27／28／29／30／31 |
-| batch-09 | 区域场景与条件分支（关卡救援与分支） | 913 | 1,597 | 115,212 | 分 4 个 part；part01 并入 candidate32，part02 审校中 |
+| batch-09 | 区域场景与条件分支（关卡救援与分支） | 913 | 1,597 | 115,212 | 分 4 个 part；part01／02 并入 candidate32／33，part03／04 待做 |
 | batch-10 | 界面与系统文本（UI 与其他） | 295 | 1,159 | 50,366 | 待拆约 3 个 part |
 | batch-11 | 其余零散条目（风格与文笔） | 109 | 505 | 24,187 | 约 1 个 part |
 
@@ -157,6 +157,7 @@ candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16
 | candidate30 | 同上 | 再加 batch-08-part04，共 491 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate31 | 同上 | 再加 batch-08-part05，共 518 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate32 | 同上 | 再加 batch-09-part01，共 542 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate33 | 同上 | 再加 batch-09-part02，共 557 个行级操作 | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
@@ -164,7 +165,7 @@ candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17
 
 ## 七、边界
 
-- 已落地 batch-01～07 与 batch-08-part01～03（1,065 场／8,772 行），约占全库 2,989 场的 28.4%；**batch-09 其余三个 part、界面系统与零散条目未精校，「第 1 轮」不因此视为完成**。
+- 已落地 batch-01～09（1,293 场／9,170 行），约占全库 2,989 场的 43.3%；**batch-09 其余两个 part、界面系统（batch-10）与零散条目（batch-11）未精校，「第 1 轮」不因此视为完成**。
 - 四项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关，音译会丢掉 pup 那一层）。
 - 引号体例（`“”` 与 `「」` 并存）也仍待终裁：各批只在行内保持原体例，未做全局统一，累计约 110 对 `“”` 对 39 对 `「」`。
 - `FENFEN` 的中文条目名未定：词典 SFW 版作「芬芬」、NSFW 版作「Fenfen」，正文 124 处作 Fenfen。目前只统一英文写法，未新造中文名。
