@@ -95,6 +95,36 @@ def long_word_at(rows, idx, bigrams):
                 best = max(best, len(candidate))
     return best
 
+# Characters that do not form a word on their own: breaking before or after
+# them reads as a normal line break, not as a cut word. `的` in particular
+# combines with almost everything, which is why a frequency floor cannot
+# separate a real word from a function-word join.
+FUNCTION_CHARS = set('的了着过是在和与就都也还而且但如果因为所以把被给让从对向')
+CONTENT_PAIR = 30
+
+
+def cuts_a_content_word(candidate, drawn):
+    """Does the candidate separate two characters that form a real word?
+
+    A break before/after a function character is acceptable. Breaking between
+    two content characters is only acceptable when that pair was already split
+    in the original layout.
+    """
+    flat = candidate.replace(BREAK, '')
+    redrawn = wrap(candidate)
+    for i in range(len(redrawn) - 1):
+        left, right = redrawn[i], redrawn[i + 1]
+        if not left or not right:
+            continue
+        pair = left[-1] + right[0]
+        if pair[0] in FUNCTION_CHARS or pair[1] in FUNCTION_CHARS:
+            continue
+        if any(row[-1] + next_row[0] == pair
+               for row, next_row in zip(drawn, drawn[1:]) if row and next_row):
+            continue
+        return True
+    return False
+
 
 def repair(body, bigrams):
     """Insert a break that kills the split without changing the row count."""
@@ -119,6 +149,13 @@ def repair(body, bigrams):
             if len(redrawn) != len(drawn):
                 continue
             if splits_of(candidate, bigrams, SOLID_PAIR):
+                continue
+            # A frequency floor cannot tell a real word from a function-word
+            # join: `印记` may fall below it while `么的` clears it, and then a
+            # "repair" cuts a real word to avoid breaking before `的`. So also
+            # reject any candidate that newly separates an adjacent character
+            # pair, whatever its frequency.
+            if cuts_a_content_word(candidate, drawn):
                 continue
             return candidate
     return None
