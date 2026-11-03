@@ -65,8 +65,13 @@ def main():
     tests = json.loads((testdir / 'results.json').read_text('utf8'))
     if tests.get('status') != 'passed_cpu_only_not_real_clip_CRT_input':
         raise SystemExit('tests did not pass: %s' % tests.get('status'))
-    if len(tests.get('steps') or []) != 17 or any(s.get('exit_code') for s in tests['steps']):
+    steps = tests.get('steps') or []
+    # Pin the shape, not only the count: a missing `exit_code` must not read as 0.
+    if len(steps) != 17 or any(s.get('exit_code') != 0 for s in steps):
         raise SystemExit('the 17-step CPU suite must pass')
+    names = [s.get('name') for s in steps]
+    if len(set(names)) != len(names) or names[0] != 'compile-tests' or names[-1] != 'compact-pixels':
+        raise SystemExit('unexpected regression step list: %r' % (names,))
     if tests.get('candidate_sha256') != archives['cosmobreeder-multi.jar']:
         raise SystemExit('tests were not run against this jar')
     if not tests.get('test_sources_unchanged_after_run'):
@@ -75,8 +80,14 @@ def main():
         raise SystemExit('tests record game/save access')
 
     component = json.loads((ROOT / 'localization/optimization/r28/r9polish/component.json').read_text('utf8'))
+    batches = component.get('batches') or []
+    names = [b['batch'] for b in batches]
+    # Without this, emptying component.json would let the read-back "pass" with
+    # zero operations and still seal the candidate.
+    if len(names) < 30 or len(set(names)) != len(names):
+        raise SystemExit('component batch list looks truncated or has duplicates: %d' % len(names))
     gates = []
-    for batch in component['batches']:
+    for batch in batches:
         gate_path = ROOT / batch['gate']
         gate = json.loads(gate_path.read_text('utf8'))
         if gate.get('status') != 'verified_for_application':
@@ -91,6 +102,8 @@ def main():
     if code != 0:
         raise SystemExit('read-back failed: ' + output[-300:])
     readback = json.loads(output[output.index('{'):])
+    if readback.get('problem_count') != 0 or not readback.get('operations_checked'):
+        raise SystemExit('read-back did not report a clean run: %r' % readback)
 
     record = {
         'status': 'passed_cpu_and_independent_review_not_real_clip_CRT_input',
