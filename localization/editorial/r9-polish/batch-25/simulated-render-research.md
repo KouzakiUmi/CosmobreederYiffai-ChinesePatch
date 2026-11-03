@@ -295,22 +295,28 @@ SnapAnimation(name)   再次启动，解除冻结
 工具：`scene_frame.py` / `asset_render.py` / `real_scene.py` / `scene_render.py`。
 产出：`out/layout/scenes/` 77 张。
 
-### 第二级：像素级（差 shader）
+### 第二级：像素级（shader 已实现，仍差调色与 UV 相位）
 
-在合成后对文字层跑 `vsn_term_shade.frag` 的等价运算（这是纯片元函数，可读源码用
-Python 复算：按 `texture_size` 做扫描线调制）。需要先确定 `texture_size` uniform
-的真实取值。
+`tools/asset_render.shade_terminal` 已按 `vsn_term_shade.frag` 复算，`texture_size`
+取真实值 256×224，`real_scene.compose` 也已改成「先着色文字层再合成」。
 
-风险：shader 逻辑若依赖 GPU 浮点行为，Python 复算会有细微差异。要如实标注。
+仍差两项：
 
-### 第三级：等价实机（要离屏跑真引擎）
+- **调色**。`fade` 的第一个参数是目标 palette，配色随场景变化；现在固定用
+  palette 10 的中色。要做对必须读 `palettemap.json` 里该场景的编号，再取
+  `AllPalettes.png` 对应列。
+- **UV 翻转相位**。shader 的 8 行周期依赖 `v_texCoords` 方向，该次 draw 的最终
+  翻转状态没有核全，报告里按 `v_top=1, v_bottom=0` 假设。
 
-用 libGDX 的离屏 framebuffer 起一个无窗口实例，喂同一批资源，让**真实渲染管线**
-出图。这是唯一能称「等价」的路径。代价是搭一套 headless 启动，且必须解决
-无窗口下 GL 上下文的问题（可能需 EGL/OSMesa 或虚拟显示）。
+风险：Python 复算与 GPU 浮点/过滤行为可能有细微差异，应如实标注。
 
-前置判断（可先做）：`cosmobreeder-multi.jar` 是否用 `LwjglApplication` 而非
-`HeadlessApplication`；有无 `Framebuffer` 用法可复用。
+### 第三级：等价实机（需改造，设施已定位）
+
+用隐藏 GLFW 窗口 + 现有 FBO 池跑真实管线出图。详见 §6.4：可复用 `PRG/Yc`、
+`PRG/arL`、`PRG/Ym`，`GL11.glReadPixels` 可回读；但要把 `PRG/aqK.R` 置 false
+并加一个注入场景状态、固定时间推进、读回后退出的 launcher。
+
+工作量：单场景单时刻 1–3 工程日；批量任意台词再 2–5 日。
 
 ## 八、给后续维护者的提醒
 
