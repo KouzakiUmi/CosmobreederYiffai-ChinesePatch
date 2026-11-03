@@ -34,6 +34,9 @@
 | batch-12-part02 | verified_for_application | 13 | 13 | 13 | 16 | 0 | localization/builds/r9-polish-candidate40 |
 | batch-12-part03 | verified_for_application | 12 | 12 | 12 | 11 | 0 | localization/builds/r9-polish-candidate41 |
 | batch-13 | verified_for_application | 17 | 17 | 17 | 25 | 0 | localization/builds/r9-polish-candidate42 |
+| batch-15 | verified_for_application | 15 | 15 | 15 | 9 | 0 | localization/builds/r9-polish-candidate43 |
+| batch-14 | verified_for_application | 21 | 21 | 21 | 45 | 0 | localization/builds/r9-polish-candidate44 |
+| batch-16 | verified_for_application | 3 | 3 | 3 | 0 | 0 | localization/builds/r9-polish-candidate45 |
 
 ## 二、候选与回归
 
@@ -70,6 +73,9 @@
 | r9-polish-candidate41 | localization/optimization/r28/integration/tests/candidate41/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
 | r9-polish-candidate42 | localization/optimization/r28/integration/tests/candidate42/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
 | r9-polish-candidate43 | localization/optimization/r28/integration/tests/candidate43/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
+| r9-polish-candidate44 | localization/optimization/r28/integration/tests/candidate44/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
+| r9-polish-candidate45 | localization/optimization/r28/integration/tests/candidate45/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
+| r9-polish-candidate46 | localization/optimization/r28/integration/tests/candidate46/results.json | passed_cpu_only_not_real_clip_CRT_input | 是 |
 
 ## 三、对不上的地方
 
