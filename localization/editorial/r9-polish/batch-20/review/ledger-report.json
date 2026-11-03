@@ -1,0 +1,228 @@
+{
+ "batch": "batch-20",
+ "decisions": 148,
+ "applied": 148,
+ "operations": 148,
+ "targets": 31,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "c3a42291fa5e2f4d2e50a2f9c09bfb1b97ad29834598126a722b48eb227536f8",
+   "after_resource_sha256": "5dc3bb1c14e57713317ebf76cc0a25c0b6b09839badbf37015636ae49ce7a622",
+   "targets_changed": 8
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "962a50b14ad77ac837e76b8187276ff18c92eb66d74c95d00308a07f5d67d9f5",
+   "after_resource_sha256": "4f9acb1b8ff101732357b60bf5e3b32e4d597a4986980889db1e2ace62a3ffc6",
+   "targets_changed": 8
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datav/1",
+   "before_resource_sha256": "69495beda1ff86ba6df60ae9189dfa40efa8b897ff3294e8ce93172e2c0c5f6f",
+   "after_resource_sha256": "a57398fe700797b83d40cf88c640d53f121cd49399e1896a61bd5da95e83fce8",
+   "targets_changed": 17
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/11",
+   "before_resource_sha256": "2c83ee67bf73e4229685a41f3f3a909b1cf081c977ae94064308712de6a51c04",
+   "after_resource_sha256": "fd8aac05e3c735267eb186f3adfd51d59c8ae97ea43405ae554d8f21735dd1b9",
+   "targets_changed": 3
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/125",
+   "before_resource_sha256": "8b80f8ac6acf4a3e97d7b1076526fa1e7df73b4a4ff9669b6f9a3ce0f2c55645",
+   "after_resource_sha256": "b46c1acdb6f2a2e3f1242b5b4fe68a9214c28f553508c4ac0d7f8258c9621e3d",
+   "targets_changed": 3
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/131",
+   "before_resource_sha256": "0a17960755fb69f2d50ee3759805f36ad6ddcdd40df0f62bdbea791a1ac0063b",
+   "after_resource_sha256": "678c786482fca9e927e93c6db27f2a89536da5e2c6198be10385b337afc4a825",
+   "targets_changed": 2
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/137",
+   "before_resource_sha256": "ffb2deaf471898c255deb000b6763404872459f0f53c7db66941efffdc891561",
+   "after_resource_sha256": "dd83e3593cd22abafd6bc0ab69e2a3d895c105c67cf5877eca9b38293c5fb4dd",
+   "targets_changed": 3
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/143",
+   "before_resource_sha256": "e1b8b8d416b49af806b4255c10c4c95487c2c89d4d66bb3208b84e98ffe4f536",
+   "after_resource_sha256": "0d9d66d09917657260d3c0dffc6f53c037e800eac0ca994f2597192ac908744c",
+   "targets_changed": 6
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/149",
+   "before_resource_sha256": "0d637eaa5c62a3f9ffe906157d51bda1f297ccf7316aed1afe269422da58e8e9",
+   "after_resource_sha256": "6918bd4c547a0243037a8544faa5f69454be4d19ce78741827a2312b22376cad",
+   "targets_changed": 2
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/155",
+   "before_resource_sha256": "de4e17272d41ef54658001298c9784e2c999736b1ba9faaf9985d79a790473a7",
+   "after_resource_sha256": "e8ef34d9f69bc3bfc9ba80865c841f1148c2c52a9a7859a5c469116bda2c03f8",
+   "targets_changed": 3
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/17",
+   "before_resource_sha256": "b4efaa15155fca46fae9205a9ff82bfdd37112d1c96ce3c0a2df04687b655b38",
+   "after_resource_sha256": "28784ec76ecae4a00e63083a8a4469dabf64c61f2f7d9b9dd51f6b511a808c7c",
+   "targets_changed": 2
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/23",
+   "before_resource_sha256": "c2bc8979ef445c301124b4c83a1a333249ba7f6f85b88c87acd03b68c770f3a0",
+   "after_resource_sha256": "b3f6265cec623c4afdce2c6b037efb940f06974bbc03839ca006771b9b7280e0",
+   "targets_changed": 3
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/29",
+   "before_resource_sha256": "929ce55c2ec52d9c07c64de6fb84194f3bbbde558ebff31aa8f032d6e823521c",
+   "after_resource_sha256": "887811c6cbb35ad92a5b038afefe4b267e79fa6a74eace4248eeca421566bb05",
+   "targets_changed": 6
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/35",
+   "before_resource_sha256": "a47a6d53f9dd32c28c4802871238a6bc511b0d74702b74820acdcc6a555ab485",
+   "after_resource_sha256": "f0056cc1d6925b6c264b799767cc3552385ba63b0f80a3b313d8aff444cfad56",
+   "targets_changed": 2
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/41",
+   "before_resource_sha256": "410644eadd977cc81c09040143ca82c3cdafe73f264b31b897a26a1ca2ce6b53",
+   "after_resource_sha256": "c02f7aa1e2ff9a7ba1704519090f2aba42e2a5fc3377fc2617896d13b9586b4c",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "9a307197521ed3a3438a469e3a1860ee9f2e359663cab6967d42a6dee4c2ab1c",
+   "after_resource_sha256": "98f6e448e618a5c65726038cb5499accbbb2a457fc7f8e66485b812f81509853",
+   "targets_changed": 9
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "aa205065207ded2c8fa09857b605cdf25f601c19c3113f67bc1bb7b8a7555427",
+   "after_resource_sha256": "e6eaba3fdea4818bea1e5be89c5c1981bb758a992053cee59bba3e4abbbfdc56",
+   "targets_changed": 8
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datav/1",
+   "before_resource_sha256": "bfd928c9d1110be7124d5c770f9ff538dd82119b644aab53a4e82dd16be09d72",
+   "after_resource_sha256": "72b4806a4fddda44c0a7a1d1a5261160c0b37c61d58c1a4c5093ae80a7f3e743",
+   "targets_changed": 21
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/17",
+   "before_resource_sha256": "c5c21f75efd822c3cad4724f0fccde26d1cd6bee2dcf69fb07b6f9e2fd3d05b2",
+   "after_resource_sha256": "edeacc1ab78fa9a9e368d6f72b8f58f31ed34cf25f4083d65e7a3421a44c5465",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/263",
+   "before_resource_sha256": "d4950c119341f730e88e91cf1ea246e3c9117e423ece0907cdd9bdb2b05ba773",
+   "after_resource_sha256": "d3b42c5d9d82573c0504839e3f556a707a2328fa3ec4a78112fba86b4998935f",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/269",
+   "before_resource_sha256": "dbf5200375888382a9a5d5b48e81206ab07b211f628afeb1d8d9e84f12814f68",
+   "after_resource_sha256": "e8c7867c8324f8ea84fc92b53da298536613e192ff73c92deff68914934b05e7",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/275",
+   "before_resource_sha256": "cfcd8b33f8e27bf20af7a6de0a456e9e89049ac2fbbaf20db755005434a533bb",
+   "after_resource_sha256": "d085c9eb711c7bc8770a70e7e54fac3123cba52d325d647a1817175dea5a873f",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/281",
+   "before_resource_sha256": "17dec922bf63dc51075c364bd98bc637c0a8c364a132128cde7138319c8eb5f4",
+   "after_resource_sha256": "0d93e8cd4f5eef871c24db6bef72463c9830915afcca99ab840118059ecbb268",
+   "targets_changed": 6
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/287",
+   "before_resource_sha256": "d74daf0070be5cf6064bc7674209392acfc7f7655e6d5a26a9ee5a4d0f4b9209",
+   "after_resource_sha256": "3ca66455ab936f09292c7353e4d45af4f8816e4f567d4c1d89453298b346044c",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/293",
+   "before_resource_sha256": "f411942b331de3cde706c514a04781b0ba62062e2920b9b7ec02a29b38a65ee9",
+   "after_resource_sha256": "3b3e8a3502e6e0bf9ef67bbb829fae1e9f64f0abe8d21df7424d991d97913227",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/65",
+   "before_resource_sha256": "d92772a5155a00e867deb5df91d4b818f62b1bf1c95ca853fa650b8ca0529a50",
+   "after_resource_sha256": "e17ff0523e1736e907dfb5b932cd3fc046c8ee97a5769d1dbf30eaa6da1361d5",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/71",
+   "before_resource_sha256": "e4b61ea2b3b400f92804a6f582832efab95a2b4e86e2011f60a83c36eea86ea1",
+   "after_resource_sha256": "af5e32152f33d965392d227d0bacd4f17e2462122052ad17fda60bc5f93a4364",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/77",
+   "before_resource_sha256": "9cff3896d76f1912bf2b4bcb227c76be99a41fca9dcf28b23ec679f6bb7b0f39",
+   "after_resource_sha256": "63768b93bfaea4c2a9134437e48c1d13e93bcdcb994a00a94a28b05f1190d6a8",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/83",
+   "before_resource_sha256": "c31734621c2b046bc0f2ce5bb7917cd0a2a1f12555e4ab515096de99807c2d65",
+   "after_resource_sha256": "f7aad70a781dbc1b9c464e0542fcc985accf09319aebef4ac40838334861dd15",
+   "targets_changed": 6
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/89",
+   "before_resource_sha256": "e388e803ef44edfa045720d2497846a76c02d297d743180bafee587a0cd0e238",
+   "after_resource_sha256": "74a425ebb676b194da061d21c5ca1bc3060c5a732eb6e7a0205839bb4b691647",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "vsn/95",
+   "before_resource_sha256": "04fe32b7048a7fdd33a551b4c199c2b6bccbd521f9e0edc2aacbbc38da6cc01b",
+   "after_resource_sha256": "95a9a8323c6e47c01faabaf8797b0bb15ee46bc08fd5ed61a0dd4fffcaee2a39",
+   "targets_changed": 3
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-20-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate48"
+}

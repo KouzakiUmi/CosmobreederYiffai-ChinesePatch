@@ -19,6 +19,7 @@ from codec import decrypt_file
 from editorial_repairs import apply_entries
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import r9_targets as targets  # noqa: E402
+from text_rules import effective_final  # noqa: E402  (shared with the ledger builder)
 
 SNAPSHOT_BASE = {
     'snapshot-02': 'r8-puzzle-candidate12',
@@ -32,20 +33,6 @@ COLUMNS = ('finding_id', 'route', 'severity', 'category', 'scene_id', 'row_id',
 
 def file_sha(path):
     return sha256(path.read_bytes()).hexdigest()
-
-
-def effective_final(text, current):
-    """Restore the row's own trailing newline into a decision text.
-
-    Interface rows live as one JSON string, so a value can end with a newline.
-    A TSV cell cannot carry it, so the trailing-space passes record the text
-    without it and the row's own newline is put back here. Dialogue rows are
-    unaffected: their text never ends with a newline.
-    """
-    newline = chr(10)
-    if isinstance(current, str) and current.endswith(newline) and not text.endswith(newline):
-        return text + newline
-    return text
 
 
 def load_decisions(path):

@@ -1,0 +1,71 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-21",
+ "batch_group": "batch-21",
+ "part": 1,
+ "parts": 1,
+ "title": "中文引号（续）：多行角色卡值里的直引号（多行值通道已就绪）",
+ "roots": [
+  "datav"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate49",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate49",
+ "current_zh_baseline": "r9-polish-candidate49",
+ "scenes": [
+  {
+   "scene_id": "SC21-sfw-datav_1",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P21:cosmobreeder-multi.jar:datav/1:ui.card.CosmoCardRedbull.desc.Front",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "矿井的|古代居民，|这矿井如今|称为艾斯卡姆尔。|红牛会赶走|任何闯入|\"他的\"领地的人。|他渴望|独角兽|归来|……     \n",
+     "target": "矿井的|古代居民，|这矿井如今|称为艾斯卡姆尔。|红牛会赶走|任何闯入|“他的”领地的人。|他渴望|独角兽|归来|……     \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC21-nsfw-datav_1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P21:patch.pak:datav/1:ui.card.CosmoCardDragon.desc.Front",
+     "line": null,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "传说称，|如今名为|\"艾斯卡姆尔\"的|矿井，|曾是巨大|可怖野兽的|家园。它们的|火焰吐息|把地下|变成了|熔岩与硫磺。\n",
+     "target": "传说称，|如今名为|“艾斯卡姆尔”的|矿井，|曾是巨大|可怖野兽的|家园。它们的|火焰吐息|把地下|变成了|熔岩与硫磺。\n"
+    },
+    {
+     "row_id": "P21:patch.pak:datav/1:ui.card.CosmoCardRedbull.desc.Front",
+     "line": null,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "矿井的|古代居民，|这矿井如今|称为艾斯卡姆尔。|红牛会赶走|任何闯入|\"他的\"领地的人。|他渴望|独角兽|归来|……\n",
+     "target": "矿井的|古代居民，|这矿井如今|称为艾斯卡姆尔。|红牛会赶走|任何闯入|“他的”领地的人。|他渴望|独角兽|归来|……\n"
+    }
+   ]
+  }
+ ]
+}

@@ -21,6 +21,7 @@ from editorial_repairs import apply_entries
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import r9_targets as targets  # noqa: E402
+from text_rules import SYMBOL_FOR_NEWLINE, effective_final, expand_newlines  # noqa: E402,F401
 
 SNAPSHOT_BASE = {
     'snapshot-02': 'r8-puzzle-candidate12',
@@ -42,27 +43,6 @@ def bodies(entry_archive, candidate):
     return [re.sub(r'(?:\r\n|\r|\n)\Z', '', p) for p in parts], sha256(raw).hexdigest()
 
 
-SYMBOL_FOR_NEWLINE = '␊'
-
-
-def expand_newlines(text):
-    """`␊` in a decision cell stands for a real newline in the value."""
-    return text.replace(SYMBOL_FOR_NEWLINE, chr(10)) if isinstance(text, str) else text
-
-
-def effective_final(text, current):
-    """Expand the newline sentinel; keep the row's own trailing newline.
-
-    Decisions now carry real newlines as `␊`, so a value that legitimately spans
-    several lines (or ends with one) can be edited. Rows whose current text ends
-    with a newline but whose decision does not are still treated as "the trailing
-    newline is part of the value and was not the thing being changed".
-    """
-    text = expand_newlines(text)
-    newline = chr(10)
-    if isinstance(current, str) and current.endswith(newline) and not text.endswith(newline):
-        return text + newline
-    return text
 
 
 def load_decisions(path):
@@ -151,7 +131,11 @@ def main():
         return
     default_name = 'editorial-r9-polish-repairs.jsonl' if a.batch == 'batch-01' else ('editorial-r9-%s-repairs.jsonl' % a.batch)
     out_path = a.out or (LOC / 'translations' / default_name)
-    out_path.write_text(''.join(json.dumps(op, ensure_ascii=False, sort_keys=False) + '\n'
+    # JSONL is one operation per line, and Python's `splitlines()` also breaks on
+    # U+2028 — so a raw U+2028 inside a value would corrupt the ledger on the next
+    # read. Store the sentinel instead; `text_rules` expands it.
+    out_path.write_text(''.join(json.dumps(op, ensure_ascii=False, sort_keys=False)
+                                .replace('\u2028', '\\u2028') + '\n'
                                 for op in ops), encoding='utf8')
     summary['ledger'] = out_path.relative_to(ROOT).as_posix()
     summary['base_candidate'] = candidate.relative_to(ROOT).as_posix()

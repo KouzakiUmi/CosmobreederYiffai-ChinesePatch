@@ -33,7 +33,7 @@
  "decisions_sha256": "820e85b461a65b5676492aa1805077d42235365ebdf8d9722ce1cacf7f2c3658",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
-  "sha256": "d42ff0928a30122d7aaa06fb3b2235275ba67ce2e8ee5d7c41a6b7c65e07131e"
+  "sha256": "0b76aa5a89fc871b39bfc3f014d7314e63b7b10a72b6e238409177ee170fc219"
  },
  "dry_run": {
   "engine": "localization/tools/editorial_repairs.py:apply_entries",

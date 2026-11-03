@@ -34,9 +34,17 @@ def _markers(text):
     return markers
 
 
-def _safe_string(text, *, json_value=False):
-    allowed = '\r\n' if json_value else '\t'
-    if not isinstance(text, str) or any(ord(c) < 32 and c not in allowed or c in '\x85\u2028\u2029' for c in text):
+LINE_BREAK = '\u2028'
+
+
+def _safe_string(text, *, json_value=False, line_row=False):
+    # `line_row` admits U+2028 only. The engine treats it as an explicit line
+    # break (`PixelLayout`), but this toolchain does not split rows on it, so
+    # row numbering — and every ledger that references a row number — stays
+    # intact. LF stays banned for exactly that reason: inserting one renumbers
+    # every following row and invalidates the ledgers.
+    allowed = '\r\n' if json_value else ('\t' + LINE_BREAK if line_row else '\t')
+    if not isinstance(text, str) or any(ord(c) < 32 and c not in allowed or c in '\x85\u2029' for c in text):
         _fail('string/control/newline violation')
 
 
@@ -156,9 +164,16 @@ def apply_entry(archive: str, entry: str, data: bytes, operations: list[dict]):
             if not isinstance(op[field], list) or not op[field] or any(not isinstance(x, str) or not x for x in op[field]):
                 _fail('missing provenance: ' + field)
         old, new = op['old'], op['new']
-        _safe_string(old, json_value=kind == 'json'); _safe_string(new, json_value=kind == 'json')
+        _safe_string(old, json_value=kind == 'json', line_row=kind == 'line')
+        _safe_string(new, json_value=kind == 'json', line_row=kind == 'line')
         if kind == 'json' and any(old.count(c) != new.count(c) for c in '\r\n'):
             _fail('JSON newline count drift')
+        if kind == 'line' and new.count(LINE_BREAK) != old.count(LINE_BREAK):
+            # A row may gain explicit breaks so a continuation line stops opening
+            # on punctuation, but the breaks must be the only structural change:
+            # removing them has to give back the old text verbatim.
+            if new.replace(LINE_BREAK, '') != old:
+                _fail('line break insertion must not alter the text')
         if old == new: _fail('no-op operation')
         if kind == 'line':
             n = op['line']
