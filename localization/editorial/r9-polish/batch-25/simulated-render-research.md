@@ -145,19 +145,69 @@ PRG/JB  （常量池含 "TomcatItems"，作为字符串键传进 aEg 构造器�
 
 `asset_render.py` 两个都保留并注明，避免把某一个当成唯一正确答案。
 
-### 6.2 时间状态
+### 6.2 时间状态：`fade` 的第一个参数不是秒
 
-`fade(9, 0, 1)`、`fadein(0.5, 4)` 这类命令有动画进度。取哪一帧（首帧？淡入完成？）
-没有确定，现工具固定取帧 0。
+`fade(9, 0, 1)` 曾被我读成「淡入 9 秒」，**错了**。`PRG/amS$a` 的字节码把脚本的
+第二项传给 `PRG/amI` 的 double 字段，第一、三项转成 int；而
+`PRG/amK.a(double, double, int, int)` 的四个参数是「当前时间、时长、目标 palette、
+插值模式」。所以 `fade(9, 0, 1)` = **目标 palette 9、时长 0、模式 1**。
+
+`amI` 的字段也印证：`double a`、`int b`、`int c`——只有一个 double，即时长。
+
+`fadein(0.5, 4)` 展开为
+`SnapAnimation(name) → VSFreeze → VSFade(0.5, 0, 4) → VSWait(0.5) → SnapAnimation(name)`，
+淡入结束后**重新开始**该动画。
+
+因此「取哪一帧」的规则应基于脚本语义而不是数字直觉：`text:` 行出现时前一个
+`fadein` 已完成，取该动画的稳定首帧；`fade` 的 palette 参数影响调色，不影响帧号。
+
+现工具固定取帧 0，对 `fadein` 后的台词是对的，但尚未实现 palette 调色。
 
 ### 6.3 外层合成
 
 出图是 256×224 内部目标。真实窗口还有缩放、黑边、letterbox。未做。
 
-### 6.4 headless 可行性
+### 6.4 headless 可行性：需改造，但设施齐全
 
-未评估。需要判断 libGDX 有无离屏 framebuffer 路径能在无窗口下跑完整管线。
-本会话没有做这个实验（不启动游戏是硬边界）。
+**总判：需改造。** 用隐藏 GLFW 窗口提供 GL 上下文、复用现有 framebuffer、回读 PNG，
+技术上可行；但现有入口没有「指定台词导出图片」的现成模式。
+
+| 目标 | 判档 |
+| --- | --- |
+| 原 shader + 原 FBO，隐藏窗口渲染 | **可行**（依赖层支持，未运行验证） |
+| 从现有入口直接无窗口导指定台词 | **需改造** |
+| 不创建任何窗口对象又跑真实 shader | **不可行**（换 EGL/OSMesa 是新后端工作） |
+
+主入口 `co.kemosho.cosmo.Main` → `PRG/jF.a` → `PRG/iF.a`，后者建 `PRG/aqg`
+（常量池含 `Lwjgl3Application`，直接调 `org.lwjgl.glfw.GLFW`）。全 jar 扫
+`HeadlessApplication` 无命中。`PRG/aqg` 还要求
+「OpenGL 2.0 or higher with the FBO extension」。LWJGL 3.3.1、GLFW 3.4.0。
+
+**可复用的设施**（只搜 `FrameBuffer` 明文会漏，库类被混淆了）：
+
+| 类 | 作用 |
+| --- | --- |
+| `PRG/arM<T extends PRG/arf>` | GL framebuffer 基类 |
+| `PRG/arL extends PRG/arM<PRG/ark>` | `(format,width,height,depth)` 构造器 |
+| `PRG/Yc` | FBO 池（`AtomicLong` 句柄 + 复用队列） |
+| `PRG/Ym implements PRG/SV` | 用该池；`jl` 经 `SV` 分层绘制 |
+
+底层 `GL11.glReadPixels` 存在，但没有现成 PNG 导出封装。
+
+**顺带印证第一步的采样假设**：`PRG/Yc.e()` 把过滤项设为 `PRG/ark$a.a`，该枚举
+初始化明确是 `Nearest`(9728)；`PRG/arL` 建附件时 wrap 设为 `ClampToEdge`。
+所以 FBO 默认采样确实是最近邻 + 边界夹取，与第一步 Python 实现一致。
+
+**隐藏窗口**：`PRG/aqg.a(aqj,long)` 偏移 3–6 就调
+`glfwWindowHint(131076, 0)`（`GLFW_VISIBLE`），即创建时本就隐藏。但随后
+`PRG/aqx.a(boolean)` 按配置字段 `R` 决定 `glfwShowWindow` 还是 `glfwHideWindow`，
+`R` 默认 true。要在外部改 `GLFW_VISIBLE` 不够——后端会重置 hints 并默认 show。
+
+最小方案：独立 launcher 在构造后端前把 `PRG/aqK.R` 置 false（同包访问或反射），
+注入场景状态、用确定时间推进、复用原 256×224 内部目标、读回后退出。
+
+工作量：单场景单时刻 **1–3 工程日**；批量定位任意台词再 **2–5 日**。
+本步只做了 `javap` 与常量池读取，未启动游戏。
 
 ## 七、可执行方案
 
