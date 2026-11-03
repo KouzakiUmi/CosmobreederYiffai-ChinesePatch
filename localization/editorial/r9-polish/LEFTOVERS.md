@@ -84,7 +84,7 @@ R9 三十五批已全部落地（candidate13～48）。本文件记录三类事�
 
 `story12.fnt` 的 ASCII 字形是 8px（`"` 7×5、`'` 6×5），汉字是 12px，中文句中用直引号会小一号并偏离基线。batch-19 把引号内含汉字的配对换成全角，改了 27 行。
 
-剩下 3 处**暂不改**：`ui.card.CosmoCardDragon.desc.Front`、`ui.card.CosmoCardRedbull.desc.Front`（jar 与 pak 各一份）。原因是这些**多行字典值**的换行无法通过 TSV 决策表回写——单元格装不下 LF，而 gate 的校验器按决策逐字比对回写值。要做得先加一条「多行值通道」（参照 `␊` 哨兵，但让校验器也展开），属于工具改动，不与文本批次混做。
+剩下 3 处**暂不改**：jar 侧 1 处（`ui.card.CosmoCardRedbull.desc.Front`）、pak 侧 2 处（`ui.card.CosmoCardDragon.desc.Front` 与 `ui.card.CosmoCardRedbull.desc.Front`）。原因是这些**多行字典值**的换行无法通过 TSV 决策表回写——单元格装不下 LF，而 gate 的校验器按决策逐字比对回写值。要做得先加一条「多行值通道」（参照 `␊` 哨兵，但让校验器也展开），属于工具改动，不与文本批次混做。
 
 ### 5. 对话折行把词切开（未处理，需要新机制）
 
@@ -96,7 +96,7 @@ R9 三十五批已全部落地（candidate13～48）。本文件记录三类事�
 
 ### 6. `Fenfen` 与「芬芬」（未处理，152 处）
 
-`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,proposed`，batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **152 处驼峰 `Fenfen`**，分布在 148 个位置（`datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77）。典型是 `ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」、剧情里的「听懂Fenfen语」。
+`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,,proposed`（`芬芬` 与 `proposed` 之间是一个空列），batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **152 处驼峰 `Fenfen`**，分布在 148 个位置（`datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77）。典型是 `ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」、剧情里的「听懂Fenfen语」。
 
 **说话人槽位 0 处**：早前记的「39 处落在 `Fenfen: [...]`」是错的，用 `ACTOR` 形状（`Name: [`）逐行匹配后为 0，`tools/probe_fenfen.py` 可复算。所以这批不涉及 actor，但仍需逐处判断引号/上下文（例如 `Fenfen故事` 要写成「芬芬故事」还是「芬芬的故事」），不是无脑替换。
 

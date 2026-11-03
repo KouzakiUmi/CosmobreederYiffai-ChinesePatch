@@ -229,19 +229,19 @@ candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17
 
 candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）；candidate44：jar `7aaf7df5…`（45,841,980 B）· pak `939f3731…`（13,588,075 B）；candidate45：jar `39dbdf11…`（45,841,965 B）· pak `806c608c…`（13,588,075 B）；candidate46：jar `fdc626a5…`（45,841,961 B）· pak `47e32c37…`（13,588,071 B）；candidate47：jar `06c9515b…`（45,841,949 B）· pak `33479da8…`（13,588,065 B）；candidate48：jar `dcedd6bf…` · pak `504af7bb…`。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
 
-构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
+构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)。candidate47 与 candidate48 各自带 `acceptance.json`（封签脚本 [`finalize_r9_acceptance.py`](../../optimization/r28/integration/finalize_r9_acceptance.py)），状态 `passed_cpu_and_independent_review_not_real_clip_CRT_input`。
 
 台账与候选的核对做法由 [`tools/verify_readback.py`](tools/verify_readback.py) 承担：构建后按 component.json 的批次顺序遍历全部台账，逐条读回候选归档的明文（行号或 JSON 指针）与台账 `new` 逐字节比较。candidate43 上 30 批 706 个操作全部相等（candidate39 是 26 批 649 个，candidate40／41／42 分别为 664／677／689 个），再确认 gate 的 `ledger_sha256`／`decisions_sha256` 与暂存区 blob 一致。
 
 ## 七、边界
 
-- 已落地 batch-01～16（2,698 场／12,552 行），约占全库 2,989 场的 90.3%（行 93.0%）。**但「第 1 轮」仍不因此视为完成**：剩下 291 场不在任何批次定义内（287 场脚本串、4 场图像，见 COVERAGE_AUDIT），且视觉层与实机层未验。
+- 已落地 batch-01～17 与 batch-19（2,698 场／12,552 行），约占全库 2,989 场的 90.3%（行 93.0%）。**但「第 1 轮」仍不因此视为完成**：剩下 291 场不在任何批次定义内（287 场脚本串、4 场图像，见 COVERAGE_AUDIT），且视觉层与实机层未验。
 - 批次定义本身的覆盖边界见 [COVERAGE_AUDIT](COVERAGE_AUDIT.md)：batch-01～11 合起来覆盖 2,175／2,989 场，剩下的 473 场是词典条目、50 场是 `MauserHints*` 提示语、287 场是脚本串、4 场是图像。**按当前批次定义完成，不等于全库逐行精校完成**；扩大范围要新开批次并另行确认。
 - 已发现但不在任何批次内的术语分叉与反向改动记在 [LEFTOVERS](LEFTOVERS.md)（例：`Tomcat*`／`TomcatItems*` 的 pak 侧仍有 8 处「狗头人」；batch-09-part02 曾把「电击枪」改成少数写法「电击器」；batch-10 里卡面值尾多出的换行受引擎换行计数保护，改不了）。
-- 四项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关，音译会丢掉 pup 那一层）。
+- 全库口径问题：`LIGHTTAZER` 已定案为「光击枪」（batch-17）；失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关，音译会丢掉 pup 那一层）仍待终裁。
 - 引号体例（`“”` 与 `「」` 并存）也仍待终裁：各批只在行内保持原体例，未做全局统一，累计约 110 对 `“”` 对 39 对 `「」`。
-- `FENFEN` 的中文条目名未定：词典 SFW 版作「芬芬」、NSFW 版作「Fenfen」，正文 124 处作 Fenfen。目前只统一英文写法，未新造中文名。
-- 不覆盖任何历史证据；未安装、未启动游戏、未访问存档；未生成 `acceptance.json`。
+- `FENFEN` 的中文名已按 glossary 提议统一为「芬芬」，但只改了 batch-16 的 3 处全大写 `FENFEN`；玩家可见文本里还有 152 处驼峰 `Fenfen` 未跟进（说话人槽位为 0，全在正文），见 LEFTOVERS 第六节。
+- 不覆盖任何历史证据；未安装、未启动游戏、未访问存档。
 - CPU 回归与静态复核不等于实机验收：男线 `DragonHint` 既有 4 行折行（240px／12px 实测）是否翻页或溢出，仍需实机确认。
 - 台账中的应用项只证明「更准、更连得上」，不证明全篇语义终审通过。
 - 后续批次按 [TRANSLATION_PLAN](../r1/TRANSLATION_PLAN.md) 第八节顺序推进，每批沿用同一双路与裁决流程；`R9M-003`（频率数字两侧空格）待全库排版口径统一后单独处理。
