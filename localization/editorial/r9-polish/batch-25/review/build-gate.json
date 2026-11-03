@@ -104,8 +104,8 @@
  ],
  "operations": 96,
  "ledger": "localization/translations/editorial-r9-batch-25-repairs.jsonl",
- "ledger_sha256": "d7499001cd16ca45aee7ba2d09f1fb8fb3724aa18422e1ee3627f27fe401b0ff",
- "decisions_sha256": "6bbaf40a586f5e60d75f05c7cc10e729cd8e6099aeeeba4148c443198c672b9f",
+ "ledger_sha256": "054cceb7f2d9f65af91a2a1ad7f7b880e1e8628b632fbcd538fdf9bf1ceb6276",
+ "decisions_sha256": "676a8e289888b739c6f259bb852e947aad962f6646d5c4eae53dc369dbfbc868",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "0b76aa5a89fc871b39bfc3f014d7314e63b7b10a72b6e238409177ee170fc219"
@@ -125,7 +125,7 @@
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
-    "after_resource_sha256": "2fc00f8f2ddbae92ea81d3bf5d9a87b0027d54b9bd9ecb4a61a46f03672c5a5d",
+    "after_resource_sha256": "56fb6bb597d4b88ece4c1193140ba071cb112bb5e0cb035addc7601efa44fef3",
     "targets_changed": 20
    },
    {

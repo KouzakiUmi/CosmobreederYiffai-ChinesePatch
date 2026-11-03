@@ -16,7 +16,7 @@
    "archive": "cosmobreeder-multi.jar",
    "archive_entry": "datadm/1",
    "before_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
-   "after_resource_sha256": "2fc00f8f2ddbae92ea81d3bf5d9a87b0027d54b9bd9ecb4a61a46f03672c5a5d",
+   "after_resource_sha256": "56fb6bb597d4b88ece4c1193140ba071cb112bb5e0cb035addc7601efa44fef3",
    "targets_changed": 20
   },
   {

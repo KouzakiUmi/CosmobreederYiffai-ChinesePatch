@@ -1023,7 +1023,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
-     "target": "  Bossu: [信不信由你，那些全是近期才造出来的，出自你们遇到的蜥蜴太空海盗。]"
+     "target": "  Bossu: [信不信由你，那些全是近期造的，出自你们遇到的蜥蜴太空海盗。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2845",
@@ -1035,7 +1035,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
-     "target": "  Bossu: [信不信由你，那些全是最近才造出来的，出自你们遇到的蜥蜴太空海盗。]"
+     "target": "  Bossu: [信不信由你，那些全是最近造的，出自你们遇到的蜥蜴太空海盗。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:3944",
