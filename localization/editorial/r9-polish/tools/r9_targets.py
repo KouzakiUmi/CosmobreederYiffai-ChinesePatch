@@ -109,6 +109,10 @@ def target_of(row, mode, candidate, root):
     archive = MODE_ARCHIVE[mode]
     if row.get('line') is not None:
         return archive, row['archive_entry'], 'line', 'line', row['line']
+    if row.get('pointer'):
+        # Scanned dictionary rows know their key; two keys can hold the same text,
+        # so searching by value would be ambiguous.
+        return archive, row.get('archive_entry') or 'datav/1', 'json', 'pointer', row['pointer']
     occ = occurrences().get(row['row_id'].replace('CAT:', ''))
     if occ:
         archive = OCC_ARCHIVE.get(occ.get('archive'), archive)

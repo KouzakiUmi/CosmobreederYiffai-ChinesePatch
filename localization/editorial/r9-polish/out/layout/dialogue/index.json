@@ -1,0 +1,306 @@
+{
+ "candidate": "r9-polish-candidate47",
+ "kind": "dialogue",
+ "samples": [
+  {
+   "scene": "vsn/m_AgentM06/script.vsn",
+   "entry": "vsn/239",
+   "line": 86,
+   "text": "在你出现之前，我眼看就要从这些可恶的面条里挣脱出来了。啊啊，而且我想，让你又能往成就清单上添一笔“救援”，对你这样的新特工来说，也更体面些，不是吗？",
+   "width": 888,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-01.png"
+  },
+  {
+   "scene": "vsn/m_AgentM04/script.vsn",
+   "entry": "vsn/227",
+   "line": 19,
+   "text": "这大概不用解释，打斗时我当然手下留情了。我壮得如此惊人，当然担心伤着那些可怜的矮人。他们显然对练肌肉也只是稍有兴趣，但可惜，他们跟我根本没法比。",
+   "width": 864,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-02.png"
+  },
+  {
+   "scene": "MauserHints_AreaB.AfterPsyStar",
+   "entry": "datadf/1",
+   "line": 3535,
+   "text": "    Mauser: [你说你听见一个声音在讲「按 SELECT 循环切换超能力，再用 UP+ATTACK 使用该能力」时，我还以为你神志不清、出不了任务了！]",
+   "width": 840,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-03.png"
+  },
+  {
+   "scene": "vsn/f_AgentF01/script.vsn",
+   "entry": "vsn/11",
+   "line": 38,
+   "text": "我一定伺候得很不错，因为没多久，群里的其他同伴都排起队等我的嘴。我上外星语言学课也许在睡觉，可只需一点‘外星舔语’，就能跟这些男生沟通啦！",
+   "width": 828,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-04.png"
+  },
+  {
+   "scene": "vsn/f_AgentF03/script.vsn",
+   "entry": "vsn/23",
+   "line": 62,
+   "text": "说真的，竟然没人撞见我和那群双足飞龙混蛋，真是奇迹。大概因为我基本没出声，这可多亏了我那出色的侦察训练。也可能是嘴里那根双足飞龙鸡巴……",
+   "width": 816,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-05.png"
+  },
+  {
+   "scene": "vsn/m_AgentM01/script.vsn",
+   "entry": "vsn/209",
+   "line": 49,
+   "text": "好吧好吧！！他们算是收我入群了，不过地位是最底层。有谁想干我，就抓着我的屁股，把我拉过去摆好姿势，把粗鸡巴滑进我尾巴底下，就开始猛干。",
+   "width": 804,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-06.png"
+  },
+  {
+   "scene": "vsn/m_AgentM06/script.vsn",
+   "entry": "vsn/239",
+   "line": 64,
+   "text": "几乎每一刻，都有精灵女仆在我身边照料我的需求。就连我想继续执行任务时，精灵们也紧紧跟在我身后，可以说，她们简直对伟大英雄的种子上了瘾！",
+   "width": 804,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-07.png"
+  },
+  {
+   "scene": "MauserHints_AreaB.AfterPsyStar",
+   "entry": "datadm/1",
+   "line": 3598,
+   "text": "    Mauser: [你说听见有声音叫你“按 SELECT 键循环切换超能力，再按 UP+ATTACK 发动能力”，我还以为你没法继续执行任务了！]",
+   "width": 780,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-08.png"
+  },
+  {
+   "scene": "vsn/m_AgentM03/script.vsn",
+   "entry": "vsn/221",
+   "line": 63,
+   "text": "是啦，你确实可以翻这份数据记录什么的；对，没错，你能看见我被双足飞龙夹着，不用手就射了，可那也改变不了，这根本不是我报名要干的事！",
+   "width": 780,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-09.png"
+  },
+  {
+   "scene": "MauserHints_AreaA.DragonHint noselect",
+   "entry": "datadm/1",
+   "line": 3525,
+   "text": "  Mauser: [在星球那么深的地方很难拿到干净的扫描结果，但我探测到了矿区更深处好几处安保门的信号。你的新门卡应该能为你放行。]",
+   "width": 756,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-10.png"
+  },
+  {
+   "scene": "vsn/m_AgentM04/script.vsn",
+   "entry": "vsn/227",
+   "line": 80,
+   "text": "重点是，你找到我时，我已被独自丢在这间牢房里，除了那把没电的电击枪，什么消遣也没有，只有那挥不去的渴望，想再被夸一句乖孩子。",
+   "width": 744,
+   "rows": 4,
+   "merged": false,
+   "png": "dialogue-11.png"
+  },
+  {
+   "scene": "vsn/m_AgentM03/script.vsn",
+   "entry": "vsn/221",
+   "line": 49,
+   "text": "我的腿脚太慢，逃不出那群包围我的双足飞龙，那些躁动的家伙似乎闻出了我满身的性爱气味，就是没搞懂那场性爱里至关重要的细节！",
+   "width": 720,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-12.png"
+  },
+  {
+   "scene": "Tomcat.AreaH_map02_a noselect",
+   "entry": "datadf/1",
+   "line": 2592,
+   "text": "  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
+   "width": 716,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-13.png"
+  },
+  {
+   "scene": "TomcatItems.SpecialFap",
+   "entry": "datadf/1",
+   "line": 4462,
+   "text": "  Tomcat: [严格说，是场衰减棱镜。要是你有一只很喜欢你的生物，就可以抚摸它们，给水晶充能！它产生的效果因生物而异！]",
+   "width": 708,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-14.png"
+  },
+  {
+   "scene": "Tomcat.FeralPickup noselect noamendfreq",
+   "entry": "datadm/1",
+   "line": 3808,
+   "text": "  Tomcat: [要是你看见一个跟你很像，但大一点、笨手笨脚点、装备还老被偷的家伙，能把无线电还给他吗？谢啦，小狗朋友！]",
+   "width": 708,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-15.png"
+  },
+  {
+   "scene": "vsn/m_ClassicWerepup/script.vsn",
+   "entry": "vsn/347",
+   "line": 11,
+   "text": "信我，像你我这样精力旺盛的小狗，这简直就是超能力！当然，我如今可没那么幼嫩可爱了，毕竟我现在可是二十一岁的成年男人了。",
+   "width": 708,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-16.png"
+  },
+  {
+   "scene": "Bossu.Kobo noselect noamendfreq",
+   "entry": "datadm/1",
+   "line": 2722,
+   "text": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "width": 700,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-17.png"
+  },
+  {
+   "scene": "BossuDex.ClassicSpikebot",
+   "entry": "datadm/1",
+   "line": 3028,
+   "text": "  Bossu: [那些小小的轮式无人机曾经用来运送矿井里的矿石和工具，但这些单元已经被加装了简陋尖刺和搜寻入侵者的逻辑。]",
+   "width": 700,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-18.png"
+  },
+  {
+   "scene": "vsn/f_ClassicWerepup/script.vsn",
+   "entry": "vsn/149",
+   "line": 67,
+   "text": "科博德交配习性的每个细节，都刻进了我脑子：从那根意外尖细的肉棒光滑的下侧，到他们抽插时把我拽过去，爪子挠过的触感……",
+   "width": 696,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-19.png"
+  },
+  {
+   "scene": "vsn/m_AgentM02/script.vsn",
+   "entry": "vsn/215",
+   "line": 29,
+   "text": "我想，是那一时反常的莽撞，让我犯了错，因为我刚开始主动猛干，就从我选中的猎物身上，逼出了格外雄、性、的反应……咳……",
+   "width": 696,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-20.png"
+  },
+  {
+   "scene": "vsn/m_AgentM06/script.vsn",
+   "entry": "vsn/239",
+   "line": 42,
+   "text": "一进他们的营地，我就立刻被关爱和礼物包围了。刚从箩筐里解开、才要安顿下来，他们就给我按摩肩膀，还让我变得……咳咳……",
+   "width": 696,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-21.png"
+  },
+  {
+   "scene": "Mauser.AreaA_map33_a",
+   "entry": "datadf/1",
+   "line": 2216,
+   "text": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些被俘的特工需要你帮忙。]",
+   "width": 688,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-22.png"
+  },
+  {
+   "scene": "Mauser.AreaA_map33_a",
+   "entry": "datadm/1",
+   "line": 2227,
+   "text": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "width": 688,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-23.png"
+  },
+  {
+   "scene": "Mauser.AreaA_map33_a",
+   "entry": "datadf/1",
+   "line": 2210,
+   "text": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些被俘的特工需要你帮忙。]",
+   "width": 688,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-24.png"
+  },
+  {
+   "scene": "Mauser.AreaA_map33_a",
+   "entry": "datadm/1",
+   "line": 2206,
+   "text": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "width": 688,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-25.png"
+  },
+  {
+   "scene": "MauserHints_AreaA.DragonHint noselect",
+   "entry": "datadf/1",
+   "line": 3462,
+   "text": "  Mauser: [地底那么深，很难扫描清楚。不过，我在矿井更深处探测到了几道安保门的信号。你的新门卡应该能让你通过。]",
+   "width": 684,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-26.png"
+  },
+  {
+   "scene": "vsn/f_ClassicWerepup/script.vsn",
+   "entry": "vsn/149",
+   "line": 105,
+   "text": "我知道他快了，因为他不光插得更快，也插得更浅，总不让那些凸粒全滑出来，一个劲地挑逗我里面，但我知道，他马上就要……",
+   "width": 684,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-27.png"
+  },
+  {
+   "scene": "vsn/m_AgentM08/script.vsn",
+   "entry": "vsn/251",
+   "line": 33,
+   "text": "好吧，同行神志不清，我也不该苛责，毕竟等那帮猛汉开始认真招呼俺后，我也满脑子都是一根接一根的鸡巴，别的啥都顾不上。",
+   "width": 684,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-28.png"
+  },
+  {
+   "scene": "MauserHints_AreaA.DragonHint noselect",
+   "entry": "datadf/1",
+   "line": 3413,
+   "text": "  Mauser: [地底那么深，很难扫描清楚。不过，我在矿井更深处探测到了几道安保门的信号。你的新门卡应该能让你通过。]",
+   "width": 684,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-29.png"
+  },
+  {
+   "scene": "vsn/m_ClassicWerepup/script.vsn",
+   "entry": "vsn/347",
+   "line": 20,
+   "text": "满十八岁才准实操训练，可等我终于能领用训练器材、积攒宝贵的VR训练时数时，我就在VR室里像你刚才那样，满屋跑跳蹬墙！",
+   "width": 680,
+   "rows": 3,
+   "merged": false,
+   "png": "dialogue-30.png"
+  }
+ ]
+}

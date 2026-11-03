@@ -1,0 +1,3740 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-18",
+ "batch_group": "batch-18",
+ "part": 1,
+ "parts": 1,
+ "title": "专名统一（续）：Fenfen → 芬芬",
+ "roots": [
+  "datadf",
+  "datadm",
+  "datav",
+  "vsn"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate47",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate47",
+ "current_zh_baseline": "r9-polish-candidate47",
+ "scenes": [
+  {
+   "scene_id": "SC15-sfw-datadf_1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2548",
+     "line": 2548,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [嗯，它们看着跟这一带矮矮小小的Fenfen们用的某些符号很像。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2550",
+     "line": 2550,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Mauser: [嗯，如果你哪天亲眼碰到这些Fenfen，也许你该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2553",
+     "line": 2553,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [或许值得把这一带Fenfen说过的话再过一遍。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:3027",
+     "line": 3027,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [它们看着也许像有机生物，但信不信由你，那些其实是图托恩物种Fenfen的机械复制品。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:3030",
+     "line": 3030,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [如果这颗星球上还有有血有肉、长着皮毛的Fenfen，目前也还没有特工遇到过。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:3590",
+     "line": 3590,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:4040",
+     "line": 4040,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [看着像那些机械Fenfen戴的东西，不过这回可是正品。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:4276",
+     "line": 4276,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [你刚……得到的那条项链，似乎能让你听懂Fenfen语。你也许想复查一下你已记录过的Fenfen记述。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-datadm_1",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:2549",
+     "line": 2549,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [嗯，它们看着跟这一带矮矮小小的Fenfen们用的某些符号很像。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:2551",
+     "line": 2551,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Mauser: [嗯，如果你哪天亲眼碰到这些Fenfen，也许你该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:2554",
+     "line": 2554,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [或许值得把这一带Fenfen说过的话再过一遍。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:3068",
+     "line": 3068,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [它们看着像有机生物，可你信不信，那些是图托恩某个物种的机械复制品——Fenfen。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:3073",
+     "line": 3073,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:3631",
+     "line": 3631,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们中的任何一个，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4059",
+     "line": 4059,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [那叫头饰，小狗崽。看起来像是那些机械Fenfen戴的那种，不过这是真货。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4309",
+     "line": 4309,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [看来你刚……弄到的项链能让你听懂Fenfen语。你也许想复查任何你已记录过的Fenfen记述。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_11",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/11/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "snap: FenfenIntroFemale"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:14",
+     "line": 14,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "cut(0.06): FenfenA01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "lang(Fox): 我们Fenfen，在这颗你们称为「图托恩」的星球上，已经生活了无数纪元。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "cut(0.06): FenfenA02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "lang(Fox): 安静谦逊，最适合形容我们Fenfen。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "cut(0.06): FenfenA03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "cut(0.06): FenfenA04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "lang(Fox): 她很轻易便获准接触我们Fenfen所封存的力量贮藏。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "snap: FenfenA05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/11:46",
+     "line": 46,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/11",
+     "source": "",
+     "current": "cut(0.06): FenfenA06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_125",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/125/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "snap: FenfenIntroMale"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:14",
+     "line": 14,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "cut(0.06): FenfenA01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "lang(Fox): 我们Fenfen，在你们称作“图托恩”的星球上已生活了无数岁月。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "cut(0.06): FenfenA02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "lang(Fox): 安静谦逊，最适合形容我们Fenfen。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "cut(0.06): FenfenA03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "cut(0.06): FenfenA04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "lang(Fox): 她很轻易便获准接触我们Fenfen所封存的力量贮藏。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "snap: FenfenA05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/125:46",
+     "line": 46,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/125",
+     "source": "",
+     "current": "cut(0.06): FenfenA06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_131",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/131/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB03S"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:29",
+     "line": 29,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "lang(Fox): 任何无法躲进我们曾称之为家的阴影之下的Fenfen"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "cut(0.06): FenfenB06"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/131:44",
+     "line": 44,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/131",
+     "source": "",
+     "current": "lang(Fox): 那种残暴，在我们Fenfen漫长的历史中闻所未闻"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_137",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/137/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:11",
+     "line": 11,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "lang(Fox): 当黑暗势力降临到全体Fenfen——无论老幼——头上时，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "lang(Fox): 如今要用来反抗那些妄图奴役我们Fenfen的敌人！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "lang(Fox): 有些如高贵的精灵，拿起古老兵器援助我们Fenfen……"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/137:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/137",
+     "source": "",
+     "current": "cut(0.06): FenfenC06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_143",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/143/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "cut(0.06): FenfenD01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:13",
+     "line": 13,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 和这片土地上原本爱好和平的Fenfen。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "cut(0.06): FenfenD02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 议会失去了一位代表重要力量的 Fenfen 核心成员，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "cut(0.06): FenfenD03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "cut(0.06): FenfenD04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 躲避Fenfen议会的力量。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:38",
+     "line": 38,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 但这并不意味着Fenfen迎来了凯旋时刻……"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "cut(0.06): FenfenD05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:43",
+     "line": 43,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 你降落的这颗星球，已不再是Fenfen宁静的家园，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/143:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/143",
+     "source": "",
+     "current": "lang(Fox): 至今，仍有许多Fenfen被那些妄图征服我们的残党囚禁"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_149",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/149/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:12",
+     "line": 12,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "lang(Fox): 当我们Fenfen努力重建家园、驱逐邪恶的残余势力时，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "lang(Fox): 又或许，命运还想对饱受苦难的我们Fenfen开一个更加阴险的玩笑，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:33",
+     "line": 33,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/149:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/149",
+     "source": "",
+     "current": "cut(0.06): FenfenE06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_155",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/155/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF03S"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "lang(Fox): ……即便是Fenfen中最智慧的头脑，也无法在如此众多的战线上同时作战。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "lang(Fox): 没了Fenfen议会的力量囚禁Traeh"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:32",
+     "line": 32,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "cut(0.06): FenfenF06"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/155:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/155",
+     "source": "",
+     "current": "lang(Fox): 还是说，你会成为Fenfen的救星，勇气与希望的明灯……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_17",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/17/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB03S"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:36",
+     "line": 36,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "lang(Fox): 任何无法躲进我们曾称之为家的阴影之下的Fenfen"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "cut(0.06): FenfenB06"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/17:43",
+     "line": 43,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "lang(Fox): 这种残酷在我们Fenfen的漫长历史上前所未见"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_23",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/23/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:11",
+     "line": 11,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "lang(Fox): 当黑暗势力降临到全体Fenfen——无论老幼——头上时，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "lang(Fox): 如今要对准那些企图征服我们Fenfen的人！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "lang(Fox): 其中一些，比如高贵的精灵，拿起了古老的武器来援助我们Fenfen……"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/23:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/23",
+     "source": "",
+     "current": "cut(0.06): FenfenC06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_29",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/29/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "cut(0.06): FenfenD01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:13",
+     "line": 13,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 与曾经和平、居住在这片土地上的Fenfen。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "cut(0.06): FenfenD02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 议会失去了一位代表重要力量的 Fenfen 核心成员，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "cut(0.06): FenfenD03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "cut(0.06): FenfenD04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 纷纷逃离Fenfen议会的力量。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:38",
+     "line": 38,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 这并不是说，对Fenfen而言这是一个凯旋的时刻……"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "cut(0.06): FenfenD05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:43",
+     "line": 43,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 你所登陆的这颗星球，已不再是Fenfen那宁静的家园，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/29:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/29",
+     "source": "",
+     "current": "lang(Fox): 至今仍有许多Fenfen被那些妄图征服者的残部俘虏着，"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_35",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/35/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:12",
+     "line": 12,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "lang(Fox): 当我们Fenfen奋力重建家园、驱逐邪恶残部时，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "lang(Fox): 又或许，命运对受苦的我们Fenfen还有更阴险的玩笑要开，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE03"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:33",
+     "line": 33,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/35:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/35",
+     "source": "",
+     "current": "cut(0.06): FenfenE06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_41",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/41/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF01"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF02"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF03S"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "lang(Fox): ……就连Fenfen中最睿智的人，也无法同时应付这么多方面的压力。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF04"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "lang(Fox): 一旦没有了Fenfen议会的力量来囚禁Traeh，"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:32",
+     "line": 32,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF05"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "cut(0.06): FenfenF06"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/41:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/41",
+     "source": "",
+     "current": "lang(Fox): 还是说，你会成为Fenfen的救主，一座勇气与希望的灯塔……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-datav_1",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ2.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ2.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ3.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ3.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:TribalHead.desc",
+     "line": null,
+     "pointer": "/TribalHead.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen神圣的|羽饰帽"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.translate.desc",
+     "line": null,
+     "pointer": "/ui.data.translate.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "翻译Fenfen语"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ6.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ6.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ4.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ4.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ2.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ2.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ1.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ1.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.card.CosmoCardWerepup.desc.Front",
+     "line": null,
+     "pointer": "/ui.card.CosmoCardWerepup.desc.Front",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "一名|超能力者与|典型Fenfen的|后代。狼崽|对变形能力|有着天然|亲和。这|帮助它在|动荡时期|避开了|捕捉。          \n"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ5.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ5.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ5.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ5.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ3.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ3.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:TazerTomahawk.desc",
+     "line": null,
+     "pointer": "/TazerTomahawk.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen的|传统武器。"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:SpecialNecklace.desc",
+     "line": null,
+     "pointer": "/SpecialNecklace.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "能翻译|Fenfen的话。"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.f_AgentFZ4.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ4.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ1.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ1.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]"
+    },
+    {
+     "row_id": "P18:cosmobreeder-multi.jar:datav/1:ui.data.m_AgentMZ6.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ6.desc",
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadf_1",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadf/1:2560",
+     "line": 2560,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [嗯，它们看着跟这一带矮矮小小的Fenfen们用的某些符号很像。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:2562",
+     "line": 2562,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Mauser: [嗯，如果你哪天亲眼碰到这些Fenfen，也许你该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:2565",
+     "line": 2565,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [或许值得把这一带Fenfen说过的话再过一遍。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:3069",
+     "line": 3069,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [它们看着也许像有机生物，但信不信由你，那些其实是图托恩物种Fenfen的机械复制品。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:3072",
+     "line": 3072,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [如果这颗星球上还有有血有肉、长着皮毛的Fenfen，目前也还没有特工遇到过。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:3074",
+     "line": 3074,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:3639",
+     "line": 3639,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:4148",
+     "line": 4148,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [看着像那些机械Fenfen戴的东西，不过这回可是正品。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:4428",
+     "line": 4428,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [你刚……得到的那条项链，似乎能让你听懂Fenfen语。你也许想复查一下你已记录过的Fenfen记述。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadm_1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadm/1:2578",
+     "line": 2578,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [嗯，它们看着跟这一带矮矮小小的Fenfen们用的某些符号很像。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:2580",
+     "line": 2580,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Mauser: [嗯，如果你哪天亲眼碰到这些Fenfen，也许你该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:2583",
+     "line": 2583,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [或许值得把这一带Fenfen说过的话再过一遍。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:3131",
+     "line": 3131,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [它们看着像有机生物，可你信不信，那些是图托恩某个物种的机械复制品——Fenfen。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:3136",
+     "line": 3136,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [我们只有那些关于 Fenfen 服装散落各处的报告。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:3701",
+     "line": 3701,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们中的任何一个，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:4162",
+     "line": 4162,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [那叫头饰，小狗崽。看起来像是那些机械Fenfen戴的那种，不过这是真货。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:4432",
+     "line": 4432,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [看来你刚……弄到的项链能听懂 Fenfen 语。之前的 Fenfen 记录，不妨再翻翻。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_17",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/17/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/17:49",
+     "line": 49,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/17",
+     "source": "",
+     "current": "text: 个子小，耳朵大……这肯定就是那些Fenfen中的一个了！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_263",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/263/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/263:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "snap: FenfenIntroMale"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:14",
+     "line": 14,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "cut(0.06): FenfenA01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "lang(Fox): 我们Fenfen，在你们称作“图托恩”的星球上已生活了无数岁月。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "cut(0.06): FenfenA02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "lang(Fox): 安静谦逊，最适合形容我们Fenfen。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "cut(0.06): FenfenA03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "cut(0.06): FenfenA04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "lang(Fox): 她顺利获准接触我们Fenfen储存的力量。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "snap: FenfenA05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/263:46",
+     "line": 46,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/263",
+     "source": "",
+     "current": "cut(0.06): FenfenA06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_269",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/269/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/269:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:29",
+     "line": 29,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "lang(Fox): 任何无法躲进我们曾称之为家的阴影之下的Fenfen"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "cut(0.06): FenfenB06"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/269:44",
+     "line": 44,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/269",
+     "source": "",
+     "current": "lang(Fox): 那种残暴，在我们Fenfen漫长的历史中闻所未闻"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_275",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/275/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/275:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:11",
+     "line": 11,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "lang(Fox): 当黑暗势力降临到全体Fenfen——无论老幼——头上时，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "lang(Fox): 如今要用来反抗那些妄图奴役我们Fenfen的敌人！"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "lang(Fox): 有些如高贵的精灵，拿起古老兵器援助我们Fenfen……"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/275:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/275",
+     "source": "",
+     "current": "cut(0.06): FenfenC06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_281",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/281/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/281:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "cut(0.06): FenfenD01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:13",
+     "line": 13,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 和这片土地上原本爱好和平的Fenfen。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "cut(0.06): FenfenD02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 议会失去了一位代表重要力量的 Fenfen 核心成员，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "cut(0.06): FenfenD03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "cut(0.06): FenfenD04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 仓皇逃离Fenfen议会的力量。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:38",
+     "line": 38,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 这并不是说，对Fenfen而言这是一个凯旋的时刻……"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "cut(0.06): FenfenD05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:43",
+     "line": 43,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 你降落的星球，已不再是Fenfen的和平家园，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/281:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/281",
+     "source": "",
+     "current": "lang(Fox): 至今，仍有许多Fenfen被那些妄图征服我们的残党囚禁"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_287",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/287/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/287:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:12",
+     "line": 12,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "lang(Fox): 当我们Fenfen努力重建家园、驱逐邪恶的残余势力时，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "lang(Fox): 又或许，命运还想对饱受苦难的我们Fenfen开一个更加阴险的玩笑，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:33",
+     "line": 33,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/287:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/287",
+     "source": "",
+     "current": "cut(0.06): FenfenE06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_293",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/293/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/293:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "snap: FenfenIntro01Male"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "lang(Fox): ……即便是Fenfen中最智慧的头脑，也无法在如此众多的战线上同时作战。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "lang(Fox): 没了Fenfen议会的力量囚禁Traeh"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:32",
+     "line": 32,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "cut(0.06): FenfenF06"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/293:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/293",
+     "source": "",
+     "current": "lang(Fox): 还是说，你会成为Fenfen的救星，勇气与希望的明灯……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_65",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/65/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/65:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "snap: FenfenIntroFemale"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:14",
+     "line": 14,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "cut(0.06): FenfenA01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "lang(Fox): 我们Fenfen，在这颗你们称为「图托恩」的星球上，已经生活了无数纪元。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "cut(0.06): FenfenA02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "lang(Fox): 安静谦逊，最适合形容我们Fenfen。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "cut(0.06): FenfenA03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "cut(0.06): FenfenA04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "lang(Fox): 她顺利获准接触我们Fenfen储存的力量。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "snap: FenfenA05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/65:46",
+     "line": 46,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/65",
+     "source": "",
+     "current": "cut(0.06): FenfenA06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_71",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/71/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/71:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:29",
+     "line": 29,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:35",
+     "line": 35,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "lang(Fox): 凡是没能藏进旧日家园阴暗处的Fenfen，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:41",
+     "line": 41,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "cut(0.06): FenfenB06"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/71:44",
+     "line": 44,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/71",
+     "source": "",
+     "current": "lang(Fox): 这种残酷在我们Fenfen的漫长历史上前所未见"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_77",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/77/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/77:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:11",
+     "line": 11,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "lang(Fox): 当黑暗势力降临到全体Fenfen——无论老幼——头上时，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "lang(Fox): 如今要对准那些企图征服我们Fenfen的人！"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "lang(Fox): 其中一些，比如高贵的精灵，拿起了古老的武器来援助我们Fenfen……"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/77:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/77",
+     "source": "",
+     "current": "cut(0.06): FenfenC06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_83",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/83/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/83:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "cut(0.06): FenfenD01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:13",
+     "line": 13,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 与曾经和平、居住在这片土地上的Fenfen。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "cut(0.06): FenfenD02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 议会失去了一位代表重要力量的 Fenfen 核心成员，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:27",
+     "line": 27,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "cut(0.06): FenfenD03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:34",
+     "line": 34,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "cut(0.06): FenfenD04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 在Fenfen议会的威势下四散逃窜。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:38",
+     "line": 38,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 不过，这可算不上Fenfen的凯旋时刻……"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:40",
+     "line": 40,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "cut(0.06): FenfenD05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:43",
+     "line": 43,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 你所登陆的这颗星球，已不再是Fenfen那宁静的家园，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/83:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/83",
+     "source": "",
+     "current": "lang(Fox): 至今仍有许多Fenfen被那些妄图征服者的残部俘虏着，"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_89",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/89/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/89:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:10",
+     "line": 10,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:12",
+     "line": 12,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "lang(Fox): 当我们Fenfen奋力重建家园、驱逐邪恶残部时，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:16",
+     "line": 16,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:18",
+     "line": 18,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "lang(Fox): 又或许，命运对受苦的我们Fenfen还有更阴险的玩笑要开，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:22",
+     "line": 22,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:33",
+     "line": 33,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/89:39",
+     "line": 39,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/89",
+     "source": "",
+     "current": "cut(0.06): FenfenE06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_95",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/95/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/95:1",
+     "line": 1,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "music: FenfenBGM"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:3",
+     "line": 3,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "snap: FenfenIntro01Female"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:9",
+     "line": 9,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF01"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:15",
+     "line": 15,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF02"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:20",
+     "line": 20,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF03"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:24",
+     "line": 24,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "lang(Fox): ……即便是Fenfen中最智慧的头脑，也无法在如此众多的战线上同时作战。"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:26",
+     "line": 26,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF04"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:28",
+     "line": 28,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "lang(Fox): 一旦没有了Fenfen理事会的力量来囚禁Traeh，"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:32",
+     "line": 32,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF05"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:37",
+     "line": 37,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "cut(0.06): FenfenF06"
+    },
+    {
+     "row_id": "P15:patch.pak:vsn/95:45",
+     "line": 45,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/95",
+     "source": "",
+     "current": "lang(Fox): 还是说，你会成为Fenfen的救主，一座勇气与希望的灯塔……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datav_1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.card.CosmoCardStarkill.desc.Front",
+     "line": null,
+     "pointer": "/ui.card.CosmoCardStarkill.desc.Front",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Traeh曾是|Fenfen议会的|长老，|被封在|水晶监狱|多年之后，|她的力量|只剩痕迹。|但是，即便|剩下的力量|已经很少……\n"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ3.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ3.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ2.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ2.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ClassicFenfen.popup",
+     "line": null,
+     "pointer": "/ClassicFenfen.popup",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:TribalHead.desc",
+     "line": null,
+     "pointer": "/TribalHead.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen神圣的|羽饰帽"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.translate.desc",
+     "line": null,
+     "pointer": "/ui.data.translate.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "翻译Fenfen语"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ6.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ6.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ4.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ4.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ2.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ2.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ1.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ1.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.card.CosmoCardWerepup.desc.Back",
+     "line": null,
+     "pointer": "/ui.card.CosmoCardWerepup.desc.Back",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen长老|Erauqs|是狼崽之母。|与一位|非超能力者丈夫|交合之后，|她发现|有些力量|可以在性交中|传递。|这消息|会有用吗|……？\n"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.card.CosmoCardWerepup.desc.Front",
+     "line": null,
+     "pointer": "/ui.card.CosmoCardWerepup.desc.Front",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "一名|超能力者与|典型Fenfen的|后代。狼崽|对变形能力|有着天然|亲和。这|帮助它在|动荡时期|避开了|捕捉。\n"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ5.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ5.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ5.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ5.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ3.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ3.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.card.CosmoCardDragon.desc.Back",
+     "line": null,
+     "pointer": "/ui.card.CosmoCardDragon.desc.Back",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "……不过那些|只是传说！|\n                |\nFenfen超能力者|Sevaw|靠召唤|一个幻影，|抵御周围|各种恶人。|幻影基于|他还是|小幼崽时|听来的|故事。     \n"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:TazerTomahawk.desc",
+     "line": null,
+     "pointer": "/TazerTomahawk.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen的|传统武器。"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:navmap.fenfen",
+     "line": null,
+     "pointer": "/navmap.fenfen",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "被囚的Fenfen"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:SpecialNecklace.desc",
+     "line": null,
+     "pointer": "/SpecialNecklace.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "能翻译|Fenfen的话。"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.f_AgentFZ4.desc",
+     "line": null,
+     "pointer": "/ui.data.f_AgentFZ4.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ1.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ1.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]"
+    },
+    {
+     "row_id": "P18:patch.pak:datav/1:ui.data.m_AgentMZ6.desc",
+     "line": null,
+     "pointer": "/ui.data.m_AgentMZ6.desc",
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]"
+    }
+   ]
+  }
+ ]
+}

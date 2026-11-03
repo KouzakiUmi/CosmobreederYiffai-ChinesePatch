@@ -1,0 +1,216 @@
+{
+ "candidate": "r9-polish-candidate47",
+ "kind": "data",
+ "samples": [
+  {
+   "key": "ui.data.f_AgentFZ1.desc",
+   "text": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]",
+   "rows": 3,
+   "widest": 136,
+   "png": "data-01.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ1.desc",
+   "text": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]",
+   "rows": 3,
+   "widest": 136,
+   "png": "data-02.png"
+  },
+  {
+   "key": "ui.data.m_AgentM08.desc",
+   "text": "沦为奴隶的狐族特工|智胜众人、大显身手，|直到一位陌生人现身……",
+   "rows": 3,
+   "widest": 132,
+   "png": "data-03.png"
+  },
+  {
+   "key": "ui.data.f_AgentFZ2.desc",
+   "text": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-04.png"
+  },
+  {
+   "key": "ui.data.f_AgentFZ3.desc",
+   "text": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-05.png"
+  },
+  {
+   "key": "ui.data.f_AgentFZ4.desc",
+   "text": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-06.png"
+  },
+  {
+   "key": "ui.data.f_AgentFZ5.desc",
+   "text": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-07.png"
+  },
+  {
+   "key": "ui.data.f_AgentFZ6.desc",
+   "text": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-08.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ2.desc",
+   "text": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-09.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ3.desc",
+   "text": "Fenfen故事第3部分。|$在你脑中回响着：|$[波浪之后是十字]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-10.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ4.desc",
+   "text": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-11.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ5.desc",
+   "text": "Fenfen故事第5部分。|$在你脑中回响着：|$[心形与十字不相邻]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-12.png"
+  },
+  {
+   "key": "ui.data.m_AgentMZ6.desc",
+   "text": "Fenfen故事第6部分。|$在你脑中回响着：|$[方块不是最后]",
+   "rows": 3,
+   "widest": 128,
+   "png": "data-13.png"
+  },
+  {
+   "key": "ui.data.f_GameOverAreaC.desc",
+   "text": "一块甜美的哥布林|肉如何变成精灵的|可抱玩物。",
+   "rows": 3,
+   "widest": 96,
+   "png": "data-14.png"
+  },
+  {
+   "key": "ui.data.m_GameOverAreaC.desc",
+   "text": "一块甜美的哥布林|肉如何变成精灵的|可抱玩物。",
+   "rows": 3,
+   "widest": 96,
+   "png": "data-15.png"
+  },
+  {
+   "key": "ui.end.BadEnding.l8",
+   "text": "                     那里……   ",
+   "rows": 2,
+   "widest": 224,
+   "png": "data-16.png"
+  },
+  {
+   "key": "ui.end.Tier4.l8",
+   "text": "*!                     宇宙-   ",
+   "rows": 2,
+   "widest": 224,
+   "png": "data-17.png"
+  },
+  {
+   "key": "ui.end.cr1",
+   "text": "           HARMARIST            ",
+   "rows": 2,
+   "widest": 224,
+   "png": "data-18.png"
+  },
+  {
+   "key": "ui.end.cr3",
+   "text": "    程序制作       音乐         ",
+   "rows": 2,
+   "widest": 224,
+   "png": "data-19.png"
+  },
+  {
+   "key": "ui.end.cr4",
+   "text": "      KITANESS      MR.SATURN   ",
+   "rows": 2,
+   "widest": 224,
+   "png": "data-20.png"
+  },
+  {
+   "key": "ui.end.BadEnding.l6",
+   "text": "                     Traeh还   ",
+   "rows": 2,
+   "widest": 220,
+   "png": "data-21.png"
+  },
+  {
+   "key": "ui.end.Tier1.l7",
+   "text": "*!                  不错的尝试！",
+   "rows": 2,
+   "widest": 220,
+   "png": "data-22.png"
+  },
+  {
+   "key": "ui.end.Tier4.l7",
+   "text": "                          真正的",
+   "rows": 2,
+   "widest": 220,
+   "png": "data-23.png"
+  },
+  {
+   "key": "ui.end.Tier2.l9",
+   "text": "                     跑得更快吗？",
+   "rows": 2,
+   "widest": 216,
+   "png": "data-24.png"
+  },
+  {
+   "key": "ui.end.Tier3.l9",
+   "text": "                     天生的高手！ !",
+   "rows": 2,
+   "widest": 216,
+   "png": "data-25.png"
+  },
+  {
+   "key": "ui.end.Tier4.l3",
+   "text": "*!                         哇！！",
+   "rows": 2,
+   "widest": 216,
+   "png": "data-26.png"
+  },
+  {
+   "key": "ui.end.Tier4.l9",
+   "text": "*!                      育种者！",
+   "rows": 2,
+   "widest": 216,
+   "png": "data-27.png"
+  },
+  {
+   "key": "ui.end.cr6",
+   "text": "    FMOD STUDIO由FIRELIGHT开发    ",
+   "rows": 2,
+   "widest": 216,
+   "png": "data-28.png"
+  },
+  {
+   "key": "ui.data.f_AgentF02.desc",
+   "text": "科博德真扑到这只兔子身上，|把她当奴隶骑了！",
+   "rows": 2,
+   "widest": 156,
+   "png": "data-29.png"
+  },
+  {
+   "key": "ui.data.f_ClassicWerepup.desc",
+   "text": "击败小狼崽之后，|回忆涌上心头，又迟疑起来。",
+   "rows": 2,
+   "widest": 156,
+   "png": "data-30.png"
+  }
+ ]
+}

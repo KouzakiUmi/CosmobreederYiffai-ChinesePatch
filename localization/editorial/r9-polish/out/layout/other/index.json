@@ -1,0 +1,132 @@
+{
+ "candidate": "r9-polish-candidate47",
+ "kind": "other",
+ "samples": [
+  {
+   "key": "ui.achievement.fail_buys.hint",
+   "text": "做 ___ 失败 5 次……",
+   "rows": 1,
+   "widest": 112,
+   "png": "other-01.png"
+  },
+  {
+   "key": "ui.achievement.die_12.hint",
+   "text": "在一个存档里死 12 次。",
+   "rows": 1,
+   "widest": 104,
+   "png": "other-02.png"
+  },
+  {
+   "key": "ui.achievement.die_15.hint",
+   "text": "在一个存档里死 15 次。",
+   "rows": 1,
+   "widest": 104,
+   "png": "other-03.png"
+  },
+  {
+   "key": "ui.achievement.die_18.hint",
+   "text": "在一个存档里死 18 次。",
+   "rows": 1,
+   "widest": 104,
+   "png": "other-04.png"
+  },
+  {
+   "key": "ui.achievement.die_high.hint",
+   "text": "在一个存档里死 9 次。",
+   "rows": 1,
+   "widest": 96,
+   "png": "other-05.png"
+  },
+  {
+   "key": "ui.achievement.die_low.hint",
+   "text": "在一个存档里死 3 次。",
+   "rows": 1,
+   "widest": 96,
+   "png": "other-06.png"
+  },
+  {
+   "key": "ui.achievement.die_med.hint",
+   "text": "在一个存档里死 6 次。",
+   "rows": 1,
+   "widest": 96,
+   "png": "other-07.png"
+  },
+  {
+   "key": "ui.achievement.low_percent_exile.hint",
+   "text": "前往 ____ 的路上|漏掉了秘密",
+   "rows": 2,
+   "widest": 88,
+   "png": "other-08.png"
+  },
+  {
+   "key": "ui.achievement.charge_kills.hint",
+   "text": "用蓄力|攻击击败敌人……",
+   "rows": 2,
+   "widest": 64,
+   "png": "other-09.png"
+  },
+  {
+   "key": "ui.achievement.no_healing.hint",
+   "text": "深入图托恩|而不使用 ___",
+   "rows": 2,
+   "widest": 64,
+   "png": "other-10.png"
+  },
+  {
+   "key": "ui.achievement.divekick_bounces.hint",
+   "text": "弹跳一千次……",
+   "rows": 1,
+   "widest": 56,
+   "png": "other-11.png"
+  },
+  {
+   "key": "ui.achievement.hack_the_world.hint",
+   "text": "和某只黑客幼犬|惹上麻烦……",
+   "rows": 2,
+   "widest": 56,
+   "png": "other-12.png"
+  },
+  {
+   "key": "ui.achievement.rub_lock.hint",
+   "text": "坚持就是钥匙",
+   "rows": 1,
+   "widest": 48,
+   "png": "other-13.png"
+  },
+  {
+   "key": "ui.achievement.psy_use_accumulated.hint",
+   "text": "喝着撑过|难关……",
+   "rows": 2,
+   "widest": 32,
+   "png": "other-14.png"
+  },
+  {
+   "key": "ui.achievement.vit_dmg_accumulated.hint",
+   "text": "吃着撑过|难关……",
+   "rows": 2,
+   "widest": 32,
+   "png": "other-15.png"
+  },
+  {
+   "key": "ui.gameOver.continue",
+   "text": "继续",
+   "rows": 1,
+   "widest": 16,
+   "png": "other-16.png"
+  },
+  {
+   "key": "ui.gameOver.end",
+   "text": "结束",
+   "rows": 1,
+   "widest": 16,
+   "png": "other-17.png"
+  },
+  {
+   "key": "ui.options.continue",
+   "text": "继续",
+   "rows": 1,
+   "widest": 16,
+   "png": "other-18.png"
+  }
+ ]
+}

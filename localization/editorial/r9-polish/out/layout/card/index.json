@@ -1,0 +1,342 @@
+{
+ "candidate": "r9-polish-candidate47",
+ "kind": "card",
+ "samples": [
+  {
+   "key": "ui.card.CosmoCardBarker.desc.Back",
+   "text": "名副其实，|吠犬长着|教科书式的|犬类性器。|中等长度，|结的大小|也舒服。|犬科血统的|特工不会|觉得别扭，|和这头|英俊野兽|在一起|很自在。\n",
+   "rows": 14,
+   "widest": 40,
+   "png": "card-01.png"
+  },
+  {
+   "key": "ui.card.CosmoCardBarker.desc.Front",
+   "text": "白天大部分|时间都在睡，|吠犬只有在|特工走得|太近、把它|吵醒时|才真有威胁。|一旦被惊动，|它们会扑击，|直到特工|离开。\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-02.png"
+  },
+  {
+   "key": "ui.card.CosmoCardBarker.name",
+   "text": "吠犬  <动物>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-03.png"
+  },
+  {
+   "key": "ui.card.CosmoCardBigbold.desc.Back",
+   "text": "另一处又大|又唬人的，|是大壮兽|所拥有的|那根天赋异禀的|雄性器官。|能应付|这野兽尺寸的|特工，|据说会从|种马鸡巴上|密布的凸粒里|得到|极大快感。\n",
+   "rows": 14,
+   "widest": 56,
+   "png": "card-04.png"
+  },
+  {
+   "key": "ui.card.CosmoCardBigbold.desc.Front",
+   "text": "大壮兽体型|巨大、唬人，|而且单挑|足以击败|大多数特工，|除非特工|绕开这|迟缓巨人的|慢速攻击|和喷出的|火焰。\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-05.png"
+  },
+  {
+   "key": "ui.card.CosmoCardBigbold.name",
+   "text": "大壮兽  <阿尔法>",
+   "rows": 1,
+   "widest": 80,
+   "png": "card-06.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDragon.desc.Back",
+   "text": "……不过那些|只是传说！|\n                |\nFenfen超能力者|Sevaw|靠召唤|一个幻影，|抵御周围|各种恶人。|幻影基于|他还是|小幼崽时|听来的|故事。     \n",
+   "rows": 14,
+   "widest": 128,
+   "png": "card-07.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDragon.desc.Front",
+   "text": "传说称，|如今名为|\"艾斯卡姆尔\"的|矿井，|曾是巨大|可怖野兽的|家园。它们的|火焰吐息|把地下|变成了|熔岩与硫磺。\n",
+   "rows": 11,
+   "widest": 64,
+   "png": "card-08.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDragon.name",
+   "text": "龙  <阿尔法>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-09.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDwarf.desc.Back",
+   "text": "粗壮鼓胀的|龟头球，|正是矮人|男性的特征。|不同于|四足兽形|犬科，矮人|需要用力|刺激生殖器，|即便结已|充血，|也要如此，|才能|满足。\n",
+   "rows": 14,
+   "widest": 48,
+   "png": "card-10.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDwarf.desc.Front",
+   "text": "英俊粗犷的|犬科，|以不断挖向|图托恩|更深处|闻名。矮人|会毫不犹豫|保卫自己的|矿区，|赶走|闯入者。\n",
+   "rows": 11,
+   "widest": 40,
+   "png": "card-11.png"
+  },
+  {
+   "key": "ui.card.CosmoCardDwarf.name",
+   "text": "矮人  <动物>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-12.png"
+  },
+  {
+   "key": "ui.card.CosmoCardElf.desc.Back",
+   "text": "尽管是|只有女性的|种族，精灵|却没有|种群衰退的|迹象。这要|归功于她们|能和几乎|任何种族|杂交。有时|甚至抓俘虏，|就是为了|这一件事|……\n",
+   "rows": 14,
+   "widest": 48,
+   "png": "card-13.png"
+  },
+  {
+   "key": "ui.card.CosmoCardElf.desc.Front",
+   "text": "隐居的|暗影住民。|精灵已放弃|星际贸易，|也几乎断绝|与其他世界的|一切联系，|宁愿住在|古老繁茂的|森林|家园。\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-14.png"
+  },
+  {
+   "key": "ui.card.CosmoCardElf.name",
+   "text": "精灵  <动物>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-15.png"
+  },
+  {
+   "key": "ui.card.CosmoCardEnelye.desc.Back",
+   "text": "尽管是|不老的存在，|恩莉耶|也无法免疫|凡俗的|肉体欲望。|一轮战斗后，|她（和大多数|精灵一样）|若觉得对手|配得上，|就享受一轮|交配。      |\n                |\n",
+   "rows": 15,
+   "widest": 128,
+   "png": "card-16.png"
+  },
+  {
+   "key": "ui.card.CosmoCardEnelye.desc.Front",
+   "text": "精灵的|高阶女士|恩莉耶，|魔法造诣|无人能及。|图托恩|近来的变故|没有吓倒她。|她让更年轻的|精灵在林中|练习战斗。\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-17.png"
+  },
+  {
+   "key": "ui.card.CosmoCardEnelye.name",
+   "text": "恩莉耶  <阿尔法>",
+   "rows": 1,
+   "widest": 80,
+   "png": "card-18.png"
+  },
+  {
+   "key": "ui.card.CosmoCardKobold.desc.Back",
+   "text": "赋予科博德的|唯一正面特质，|就是那根|带肉突的阴茎。|他们把它|像武库里|其他武器一样|随手使用。|它有令人|愉悦的锥度，|曾击溃|许多特工的|抵抗|……\n",
+   "rows": 14,
+   "widest": 56,
+   "png": "card-19.png"
+  },
+  {
+   "key": "ui.card.CosmoCardKobold.desc.Front",
+   "text": "银河里|常见的杂兵，|属于横跨|银河的|太空海盗。|科博德以|侵略性弥补|技巧不足，|因而总是|PPP 的|眼中钉。\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-20.png"
+  },
+  {
+   "key": "ui.card.CosmoCardKobold.name",
+   "text": "科博德  <动物>",
+   "rows": 1,
+   "widest": 72,
+   "png": "card-21.png"
+  },
+  {
+   "key": "ui.card.CosmoCardOmegobin.desc.Back",
+   "text": "他们活着|只为繁殖|和进食。|欧米茄哥布林|分裂成|一个个小|社会集群。|历史上|曾有一位|黑暗而强大的|统治者统一他们，|但这样的人物|早已从|已知历史中消失……\n",
+   "rows": 14,
+   "widest": 72,
+   "png": "card-22.png"
+  },
+  {
+   "key": "ui.card.CosmoCardOmegobin.desc.Front",
+   "text": "从树冠之间|阴暗地爬出，|欧米茄哥布林|是暴力、|粗鄙的种族。|他们非常偏爱|不加修饰的|手段来获取|食物和|娱乐|……\n",
+   "rows": 11,
+   "widest": 48,
+   "png": "card-23.png"
+  },
+  {
+   "key": "ui.card.CosmoCardOmegobin.name",
+   "text": "欧米茄哥布林 <动物>",
+   "rows": 1,
+   "widest": 88,
+   "png": "card-24.png"
+  },
+  {
+   "key": "ui.card.CosmoCardPigobin.desc.Back",
+   "text": "镶满宝石，|也缀满饰钉，|一如曾经|装点他的华服。|猪哥布林如今|只剩下|昔日贪婪食欲的|痕迹。|他打不破|身上的封印，|于是从任何|小小的消遣中|取得|乐趣。\n",
+   "rows": 14,
+   "widest": 56,
+   "png": "card-25.png"
+  },
+  {
+   "key": "ui.card.CosmoCardPigobin.desc.Front",
+   "text": "被称为|猪哥布林的|古代黑暗实体，|曾统治|统一的|欧米茄哥布林|帝国。被一位|早已被遗忘的|传说英雄封印后，|追随者很快|野化了。\n",
+   "rows": 11,
+   "widest": 64,
+   "png": "card-26.png"
+  },
+  {
+   "key": "ui.card.CosmoCardPigobin.name",
+   "text": "猪哥布林  <阿尔法>",
+   "rows": 1,
+   "widest": 88,
+   "png": "card-27.png"
+  },
+  {
+   "key": "ui.card.CosmoCardRedbull.desc.Back",
+   "text": "红牛虽懂得遮羞，|却认为|让旁人|（包括闯入者）|大方地|看见自己|整根硕大的|家伙，|其实是|表达|尊重。|可别|因此|分了神！\n",
+   "rows": 14,
+   "widest": 64,
+   "png": "card-28.png"
+  },
+  {
+   "key": "ui.card.CosmoCardRedbull.desc.Front",
+   "text": "矿井的|古代居民，|这矿井如今|称为艾斯卡姆尔。|红牛会赶走|任何闯入|\"他的\"领地的人。|他渴望|独角兽|归来|……\n",
+   "rows": 11,
+   "widest": 72,
+   "png": "card-29.png"
+  },
+  {
+   "key": "ui.card.CosmoCardRedbull.name",
+   "text": "红牛  <阿尔法>",
+   "rows": 1,
+   "widest": 72,
+   "png": "card-30.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSqueaker.desc.Back",
+   "text": "尽管尺寸|很小，|吱吱怪的阴茎|也不该被|低估。该种族|射精后|没有|不应期，|并能继续|无尽地|交媾，|一连|数小时！\n",
+   "rows": 13,
+   "widest": 48,
+   "png": "card-31.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSqueaker.desc.Front",
+   "text": "一种瘦小狡黠的|啮齿种族，|会偷没有防备的|特工的东西。|单独时|威胁不大，|但速度和|攻击性|可能给|新特工|带来麻烦。\n",
+   "rows": 11,
+   "widest": 56,
+   "png": "card-32.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSqueaker.name",
+   "text": "吱吱怪 <动物>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-33.png"
+  },
+  {
+   "key": "ui.card.CosmoCardStarkill.desc.Back",
+   "text": "……她仍然|对整个图托恩|及其人民|构成威胁。|只要一个|好奇的闯入者|碰她一下，|就够她|再次把|黑暗计划|付诸行动，|并再次|建立起|一支军队。",
+   "rows": 14,
+   "widest": 48,
+   "png": "card-34.png"
+  },
+  {
+   "key": "ui.card.CosmoCardStarkill.desc.Front",
+   "text": "Traeh曾是|Fenfen议会的|长老，|被封在|水晶监狱|多年之后，|她的力量|只剩痕迹。|但是，即便|剩下的力量|已经很少……\n",
+   "rows": 11,
+   "widest": 72,
+   "png": "card-35.png"
+  },
+  {
+   "key": "ui.card.CosmoCardStarkill.name",
+   "text": "星杀 <阿尔法>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-36.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSwiper.desc.Back",
+   "text": "挥爪的阴茎|长满朝前的|肉刺，|据说很受|不少特工欢迎。|这些肉刺|柔软可弯，|能给特工带来|令人兴奋的|刺激；|它粗壮的双腿|则能支撑|猛烈的抽插，|让人倍感|畅快。\n",
+   "rows": 15,
+   "widest": 56,
+   "png": "card-37.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSwiper.desc.Front",
+   "text": "又壮又慢|（对猫科来说|很不寻常）。|挥爪只有在|有人从正面|直接经过时|才危险。|它们会毫不犹豫|用爪子|清开面前的路|！\n",
+   "rows": 11,
+   "widest": 56,
+   "png": "card-38.png"
+  },
+  {
+   "key": "ui.card.CosmoCardSwiper.name",
+   "text": "挥爪  <动物>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-39.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerehund.desc.Back",
+   "text": "不同于其他|犬科，|狼犬阴茎的|茎身上有|多个区段，|会以类似结的|方式充血。|这也许与|同一突变有关。|该突变也|造就了狼犬|强大的|超能力|……\n",
+   "rows": 14,
+   "widest": 56,
+   "png": "card-40.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerehund.desc.Front",
+   "text": "一位强悍战士，|本没有|超能力的|天赋。狼犬|获得了在|兽形与拟人|之间来回|变化的力量，|多亏一位|超能力者|妻子。\n",
+   "rows": 11,
+   "widest": 56,
+   "png": "card-41.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerehund.name",
+   "text": "狼犬 <阿尔法>",
+   "rows": 1,
+   "widest": 64,
+   "png": "card-42.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerepup.desc.Back",
+   "text": "Fenfen长老|Erauqs|是狼崽之母。|与一位|非超能力者丈夫|交合之后，|她发现|有些力量|可以在性交中|传递。|这消息|会有用吗|……？\n",
+   "rows": 13,
+   "widest": 64,
+   "png": "card-43.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerepup.desc.Front",
+   "text": "一名|超能力者与|典型Fenfen的|后代。狼崽|对变形能力|有着天然|亲和。这|帮助它在|动荡时期|避开了|捕捉。\n",
+   "rows": 11,
+   "widest": 72,
+   "png": "card-44.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWerepup.name",
+   "text": "狼崽  <阿尔法>",
+   "rows": 1,
+   "widest": 72,
+   "png": "card-45.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWyvern.desc.Back",
+   "text": "滑溜、细长，|而且部分|可以缠卷。|双足飞龙的阴茎|构造得|便于轻易|插入许多|种族。就它们|看来，|宇宙育种者|也不例外！|所以|小心|！！\n",
+   "rows": 14,
+   "widest": 56,
+   "png": "card-46.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWyvern.desc.Front",
+   "text": "一种飞行爬行动物，|等待着|完美的时机|俯冲捕食。|若在俯冲|途中被攻击，|它就会|迷失方向，|并且|变得|脆弱。\n",
+   "rows": 11,
+   "widest": 72,
+   "png": "card-47.png"
+  },
+  {
+   "key": "ui.card.CosmoCardWyvern.name",
+   "text": "双足飞龙  <动物>",
+   "rows": 1,
+   "widest": 80,
+   "png": "card-48.png"
+  }
+ ]
+}
