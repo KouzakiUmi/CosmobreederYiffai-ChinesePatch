@@ -14,13 +14,13 @@
 | R6 | 层一致性与术语回改（Bumper→弹跳机等） | [r6-consistency](r6-consistency/README.md) |
 | R7 | 用运行代码＋渲染判定剩余条目 | [r7-render](r7-render/README.md) |
 | R8 | 谜题提示改“相邻”，补字形 | [r8-puzzle](r8-puzzle/README.md) |
-| R9 | 全正文精校三十三批（双路：DS(OD) ＋ Gemini 3.8 Flash／Grok 4.7；batch-10／11／12-part01 只有 DS 一路），745 个操作落地；含 batch-14 补漏与 batch-15／16 清理 | [r9-polish](r9-polish/README.md) |
+| R9 | 全正文精校三十四批（双路：DS(OD) ＋ Gemini 3.8 Flash／Grok 4.7；batch-10／11／12-part01 只有 DS 一路），758 个操作落地；含 batch-14 补漏与 batch-15～17 清理 | [r9-polish](r9-polish/README.md) |
 
 当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ 19（+05-part02）→ 20（+06-part02）→ 21（+06-part01）→ 23（+06-part04）→ 24（+06-part03）→ 25（+07-part01）→ 26（+07-part02）→ 27（+08-part01）→ 28（+08-part02）→ 29（+08-part03）→ 30（+08-part04）→ 31（+08-part05）→ 32（+09-part01）→ 33（+09-part02）→ 34（+09-part03）→ 35（+09-part04）→ 36（+10-part01）→ 37（+10-part02）→ 38（+10-part03）→ **39（+batch-11，最新）**。
 
-- candidate46：33 批 R9 台账共 745 个操作（含 40 个 JSON 指针操作：词典条目、任务日志字段、运行时 overlay），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。candidate43（30 批／706 操作）是它的前一跳。
-- 候选 13～46 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
-- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate46 上 745 个操作全部逐字节相等（2 个位置被后续批次再次编辑，按最后一次比对）。
+- candidate47：34 批 R9 台账共 758 个操作（含 40 个 JSON 指针操作：词典条目、任务日志字段、运行时 overlay），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。candidate46（33 批／745 操作）是它的前一跳。
+- 候选 13～47 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate47 上 758 个操作全部逐字节相等（2 个位置被后续批次再次编辑，按最后一次比对）。
 - 各轮候选**均未生成 `acceptance.json`**：正式封签需绑定与本次归档 SHA 一致的上游资源／字体／方法复核，字体已多轮变化，旧复核记录无法套用。
 
 ## 二、遗留
@@ -82,6 +82,7 @@
 | batch-15 | 术语与按键名残留清理 | — | 扫描 | 24（apply 15／reject 9，含 LIGHTTAZER／space suit 误报） | 15 个操作，并入 candidate44 |
 | batch-14 | 补漏 21 场 | 21／88 | 20 / 25 | 66（apply 21／reject 45） | 21 个操作，并入 candidate45 |
 | batch-16 | FENFEN 统一 | — | 扫描 | 3（apply 3） | 3 个操作，并入 candidate46 |
+| batch-17 | 术语补漏（干员／LIGHTTAZER） | — | 扫描 | 13（apply 13） | 13 个操作，并入 candidate47 |
 
 **已无未出工单的批次**：batch-01～11 全部落地（batch-11 是 `DefeatHints` 72 场＋`Starkill` 21 场＋`Static` 16 场，`ORDER.md` 由 `tools/make_batch11_order.py` 派生）。下一步只能扩范围（新批次）或做清理批次，两者都要先确认。
 

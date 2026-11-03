@@ -45,6 +45,7 @@
 | batch-14 | 补漏：batch-01 只定义未出单的 21 场 | 21 | 88 | 3,362 | 1 个 part（AreaA 提示 9、The0 9、Area0 三处 3），并入 candidate45，**完成** |
 | batch-15 | 术语与按键名残留清理 | —（清理批，不新增覆盖） | 325 行工单／24 行待改 | — | 扫描两个归档定位，采纳 15／驳回 9，并入 candidate44，**完成** |
 | batch-16 | 专名统一：FENFEN | —（清理批） | 3 | — | 对白 1＋物品值 2，并入 candidate46，**完成** |
+| batch-17 | 术语补漏：干员、LIGHTTAZER | —（清理批） | 13 | — | 干员 8＋LIGHTTAZER 5，并入 candidate47，**完成** |
 
 批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10`／`batch-12` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。`batch-12` 还有第四种形状：条目第二元素写 `None`，改用 `logical_path` 选资源、再用 `exclude_covered` 扣掉别的批次已占的场次——它的文本散在词典与任务日志里，没有共同的 root 可列。
 
@@ -88,6 +89,10 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 3. `tools/verify_batch.py <batch>` 做结构核验（覆盖、row 归属、前缀与标记守恒）并输出 worksheet；`tools/measure_width.py <batch>` 用真实 12px 字形表实测折行。
 4. 主代理逐条核验后写 `batch-NN/review/decisions.tsv`；`tools/build_ledger.py <batch>` 生成该批来源锁定台账并 dry-run，`tools/verify_round.py <batch>` 出 gate。
 5. 在 `localization/optimization/r28/r9polish/component.json` 的 `batches` 数组登记该批（台账／gate／decisions 三项），再构建候选与跑 17 步回归。
+
+## 五之一、排版层复核（2026-11-03）
+
+`tools/audit_containers.py` 用真实字模逐个量了硬切容器：角色卡 96 个值、成就 60 个、数据书／结局数据块 200 个，**0 个超限**（卡面按 15 行算——原版英文背面本身就是 13–14 段）。合句留下的 1,709 个空尾行里，1,701 个中文超过 240px、由 `StoryFont12` 自动折成两行填满，8 个是 `DefeatHints` 的短提示（228–236px，一行放得下，第二行空着也不接续对话）。所以排版层没有必修项，判据与数字见 [LEFTOVERS](LEFTOVERS.md) 第三节。
 
 ## 五之二、逐批合计（batch-01～11，二十六批）
 
@@ -216,10 +221,11 @@ candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16
 | candidate44 | 同上 | 再加 batch-15（残留清理），共 721 个操作（31 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate45 | 同上 | 再加 batch-14（补漏 21 场），共 742 个操作（32 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate46 | 同上 | 再加 batch-16（FENFEN 统一），共 745 个操作（33 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate47 | 同上 | 再加 batch-17（干员／LIGHTTAZER），共 758 个操作（34 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
-candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）；candidate44：jar `7aaf7df5…`（45,841,980 B）· pak `939f3731…`（13,588,075 B）；candidate45：jar `39dbdf11…`（45,841,965 B）· pak `806c608c…`（13,588,075 B）；candidate46：jar `fdc626a5…`（45,841,961 B）· pak `47e32c37…`（13,588,071 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）；candidate44：jar `7aaf7df5…`（45,841,980 B）· pak `939f3731…`（13,588,075 B）；candidate45：jar `39dbdf11…`（45,841,965 B）· pak `806c608c…`（13,588,075 B）；candidate46：jar `fdc626a5…`（45,841,961 B）· pak `47e32c37…`（13,588,071 B）；candidate47：jar `06c9515b…`（45,841,949 B）· pak `33479da8…`（13,588,065 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 

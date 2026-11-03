@@ -1,0 +1,200 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-17",
+ "batch_group": "batch-17",
+ "part": 1,
+ "parts": 1,
+ "title": "术语补漏：干员与 LIGHTTAZER",
+ "roots": [
+  "datadf",
+  "datadm",
+  "vsn"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate46",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate46",
+ "current_zh_baseline": "r9-polish-candidate46",
+ "scenes": [
+  {
+   "scene_id": "SC15-sfw-datadf_1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:487",
+     "line": 487,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你需要的只是这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:4672",
+     "line": 4672,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: 干员，别忘了观察你的对手。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:4754",
+     "line": 4754,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: 我们知道别的干员在那一片丢了装备。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-datadm_1",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:471",
+     "line": 471,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你只需要这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:1954",
+     "line": 1954,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [这里是干员伊吠！信号清晰！]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4802",
+     "line": 4802,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: 我们知道别的干员在那一片丢了装备。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_47",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/47/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/47:17",
+     "line": 17,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/47",
+     "source": "",
+     "current": "text: 瞧瞧，这是什么……我的光刃电击器！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadf_1",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadf/1:487",
+     "line": 487,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你需要的只是这把官方海盗光电击器！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadm_1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadm/1:470",
+     "line": 470,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你只需要这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:1964",
+     "line": 1964,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [这里是干员伊吠！信号清晰！]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:2049",
+     "line": 2049,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [记住，你的 \"DATA VIEW\" 程序会在你把干员救回来之后记录他们的数据。]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:2051",
+     "line": 2051,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Mauser: [我们这边也会自动记录副本，不过你可以在 P.A.W. 菜单查看干员数据！]"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:4949",
+     "line": 4949,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: 我们知道别的干员在那一片丢了装备。"
+    }
+   ]
+  }
+ ]
+}
