@@ -145,6 +145,35 @@ PRG/JB  （常量池含 "TomcatItems"，作为字符串键传进 aEg 构造器�
 
 `asset_render.py` 两个都保留并注明，避免把某一个当成唯一正确答案。
 
+### 调色板系统找到了，这解释了颜色矛盾
+
+`dataq/0` 是 UI 图集的索引：`{"/AllPalettes.png":1,"/frameTags.json":2,"/visitrack.json":7,"/sprites.png":6,"/metadata.json":3,"/palettemap.json":4,"/sprites.atlas":5}`。
+
+于是：
+
+| 条目 | 内容 |
+| --- | --- |
+| `dataq/1` | `AllPalettes.png`，**88×3** 的调色板表 |
+| `dataq/4` | `palettemap.json`，1566 条「动画名 → palette 编号」 |
+
+读 `AllPalettes.png` 的列：第 0 行是暗色、第 1 行是中色、第 2 行是高光。
+
+| 列 | 三行取值 |
+| --- | --- |
+| 0 | (0,0,0) / (0,88,248) / 透明 |
+| 9 | (0,64,88) / (0,136,136) / (0,232,216) |
+| 10 | (168,16,0) / **(248,184,0)** / (252,224,168) |
+
+**第 10 列的中色正是 shader 的 `inner_color`**——说明 shader 常量不是任意选的，
+它对应 palette 10 的中色。
+
+而 `fade(9,0,1)` 的第一个参数就是**目标 palette 编号**（见 §6.2），所以场景用哪个
+palette 会改变最终配色。我用固定常量渲染，等于假定了某个 palette，这就是颜色对不
+上的原因。
+
+`(255,155,0)` 在这张 88×3 表里**也找不到**，所以那张开场截图的取色路径仍未确定
+（可能经过 LUT 重映射或额外的色调运算）。这条没有解决。
+
 ### 6.2 时间状态：`fade` 的第一个参数不是秒
 
 `fade(9, 0, 1)` 曾被我读成「淡入 9 秒」，**错了**。`PRG/amS$a` 的字节码把脚本的
@@ -161,7 +190,47 @@ PRG/JB  （常量池含 "TomcatItems"，作为字符串键传进 aEg 构造器�
 因此「取哪一帧」的规则应基于脚本语义而不是数字直觉：`text:` 行出现时前一个
 `fadein` 已完成，取该动画的稳定首帧；`fade` 的 palette 参数影响调色，不影响帧号。
 
-现工具固定取帧 0，对 `fadein` 后的台词是对的，但尚未实现 palette 调色。
+`fadein(0.5,4)` 的完整展开（`PRG/amS$a.d(aAZ)` 偏移 32–115）：
+
+```
+SnapAnimation(name)   清空动画队列，以当前时刻启动
+VSFreeze              记录当前时刻为冻结时间
+VSFade(duration, 0, steps)
+VSWait(duration)      阻塞到 now+duration
+SnapAnimation(name)   再次启动，解除冻结
+```
+
+所以**淡入期间动画固定在起始画面，淡入结束后局部时间从 0 重新开始**。不能把淡入
+消耗的 0.5 秒算进正文的动画进度。
+
+`fade` 第三项 `steps` 是进度量化分段数，不是混合模式：`PRG/afL.a(double,int)`
+字节码就是 `int(steps*progress)/steps`（`i2d`→`dmul`→`d2i`→`i2d`→除）。已核。
+
+### 选帧算法（`PRG/SX.a(double)`）
+
+`jl.a(amU,SN,int,int,aAZ)` 偏移 45–51 把局部时间转 float32 再转 double，调
+`SX.a(double)` 选帧，偏移 83–88 取 `slices[name][index]`。**不要误用同类的
+`SX.b(float)`**，那是另一套按首帧 delay 等分的算法。
+
+`SX.a(double)` 的规则：
+
+1. 每个 delay 先 `int(delay*1000)`，再逐项累计成各帧结束毫秒（先截断再加）；
+2. 当前局部时间经 float32 往返，再 `int(local*1000)`；
+3. `loop=true` 对 `int(sum(delays)*1000)` 取余；`loop=false` 超末点停末帧；
+4. 半开区间 `[start,end)`，边界归下一帧；小于首结束点返回 0。
+
+字节码已核：`SX.a(double)` 里是 `dload`→`sipush 1000`→`dmul`→`d2i`→`irem`。
+
+### 排版验收该取哪一帧
+
+**没有对所有台词通用的固定帧号。** 建议统一采用：目标页仍显示、淡入已完成、该页
+文字已完整显示之后的**第一个 60Hz 采样时刻再留 1 tick**；循环背景按该时刻正常选帧。
+
+若要「刚开始看到这句」则取该页进入后首个 tick，保留逐字显示量（可能只有首字），
+不能当整句排版截图。
+
+现工具固定取帧 0，只适合「淡入后立刻」的场景，与上面的稳定帧规则不同——这是
+已知差异，未改。
 
 ### 6.3 外层合成
 

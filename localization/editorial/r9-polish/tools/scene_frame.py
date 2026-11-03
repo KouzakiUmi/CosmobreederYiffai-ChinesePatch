@@ -111,3 +111,41 @@ def animation_index(timing, sprite):
     if sprite and sprite in timing:
         return 0
     return 0
+
+
+def frame_index(timing, animation, local_seconds):
+    """Pick a frame the way `PRG/SX.a(double)` does.
+
+    Per-frame `delays` are dwell times in seconds. The engine truncates each one
+    to whole milliseconds *before* accumulating, then compares against the
+    local time truncated the same way. Loop wraps on the sum of delays, also
+    truncated. Boundaries are half-open, so an exact endpoint belongs to the
+    next frame; past the last endpoint the final frame holds.
+    """
+    meta = timing.get(animation)
+    if not meta:
+        return 0
+    delays = meta['delays']
+    ends, acc, total = [], 0, 0.0
+    for d in delays:
+        acc += int(d * 1000.0)
+        ends.append(acc)
+        total += d
+    tick = int(f32(local_seconds) * 1000.0)
+    if meta.get('loop'):
+        period = int(total * 1000.0)
+        if period > 0:
+            tick %= period
+    if tick < ends[0]:
+        return 0
+    if tick >= ends[-1]:
+        return len(delays) - 1
+    for i, end in enumerate(ends):
+        if end > tick:
+            return i
+    return len(delays) - 1
+
+
+def f32(x):
+    import struct
+    return struct.unpack('>f', struct.pack('>f', x))[0]

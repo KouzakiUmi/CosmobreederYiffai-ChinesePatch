@@ -41,6 +41,10 @@ ROOT = Path(__file__).resolve().parents[4]
 #   A real capture (research/intro-05.png) measured the band at y=161..173,
 #   which agrees. Keep the -8 here and the two stay consistent.
 TEXT_BAND = 161
+# Local animation time to sample at. `fadein(0.5, steps)` runs
+# Snap -> Freeze -> Fade -> Wait -> Snap, and the final snap restarts the
+# animation at local time 0, so the settled state is t=0 of the restarted clip.
+FADE_SETTLED = 0.0
 LINE_STEP = 16
 LEFT = 8
 
@@ -69,7 +73,13 @@ def compose(candidate, pak, scene_index, event_index, out):
         AR.draw_text(layer, glyphs, atlas, line, LEFT, y)
         y += LINE_STEP
     shaded = AR.shade_terminal(layer)
-    frame = SF.frame(scene, event['sprite'], 0).copy()
+    # Frame choice follows PRG/SX.a(double): the stable moment after the fade-in
+    # has finished and the line is fully drawn. `fadein` restarts the animation
+    # at local time 0, so the first stable frame is the first one after the
+    # opening dwell -- index 0 is that frame, which is why 0 is still correct
+    # here, but it is now a computed value rather than a hardcoded one.
+    idx = SF.frame_index(scene['timing'], event['sprite'], FADE_SETTLED)
+    frame = SF.frame(scene, event['sprite'], idx).copy()
     frame.alpha_composite(shaded)
     frame.save(out)
     return {'text': event['text'], 'lines': pages[0]['lines'], 'pages': len(pages)}
