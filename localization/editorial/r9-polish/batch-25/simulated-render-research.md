@@ -113,19 +113,37 @@ PRG/JB  （常量池含 "TomcatItems"，作为字符串键传进 aEg 构造器�
 
 ## 六、仍缺的（未做）
 
-### 6.1 shader 与时间状态
+### 6.1 shader：源码读到了，但配色对不上真实截图
 
-VSN 绘制把背景与文字分别渲染到 framebuffer，文字经 `vsn_term_shade`，
-再合成；必要时 `vsn_fade` + `fadelut` 调色。这些 shader 源码在 jar 里：
+`vsn_term_shade.frag` 的完整逻辑（`texture_size` 由 `PRG/jl` 设为 `(256.0, 224.0)`）：
 
-```
-shaders/vsn_term_shade.frag   （透明底上的终端着色）
-shaders/vsn_fade.frag         （调色板渐变）
-shaders/cosmo_term_shade.frag
-```
+- 红通道非零 → 文字像素，涂 `inner_color` = `(0.972, 0.721, 0.0)` = **(248,184,0)**；
+- 恰好是 `(0,0,1)` → 标记像素，涂 `glow_color` = `(0.313, 0.188, 0.0)` = **(80,48,0)**；
+- 其余像素取左、右、上三个邻居；不在每 8 行的扫描线空档时再取下方；任一邻居有红
+  就给 `glow_color`，否则全透明。
 
-**现工具没实现 shader**，所以出图是「布局正确、像素未过后期」，
-不能称为实机截图等价。
+已用 Python 复算并出图（`out/layout/scenes/shaded-sample.png`）。
+
+**但配色与真实截图不符，这是必须写明的矛盾：**
+
+| 颜色 | 来源 | 真实截图里出现次数 |
+| --- | --- | ---: |
+| `(248,184,0)` | shader `inner_color` | **0** |
+| `(80,48,0)` | shader `glow_color` | **0**（但场景 PNG 里有，是画师画的） |
+| `(255,155,0)` | 截图实测 | 8273 |
+| `(232,176,0)` | 截图实测 | 8207 |
+| `(88,57,0)` | 截图实测 | 7458 |
+
+`research/intro-05.png` 是真实截图，里面**完全没有**这两个 shader 常量。所以那张画面
+没有经过 `vsn_term_shade`。而且 `(255,155,0)` 不在 jar 的任何 PNG 里，说明它是运行时
+生成的——最可能是调色板重映射（`vsn_fade` + 某个 `*LUT.png`，jar 里有 16 个 LUT）。
+
+**这条路径没有复现。** 所以现在有两种颜色可用、但都不能当定论：
+
+- `INK_DRAWN` = shader 常量，适合「过了 vsn_term_shade 的图层」；
+- `INK_CAPTURED` = 截图实测值，适合「匹配开场那张的观感」。
+
+`asset_render.py` 两个都保留并注明，避免把某一个当成唯一正确答案。
 
 ### 6.2 时间状态
 

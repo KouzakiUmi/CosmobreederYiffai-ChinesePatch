@@ -24,11 +24,34 @@ from PIL import Image, ImageDraw
 
 ROOT = Path(__file__).resolve().parents[4]
 
-# Sampled from research/intro-*.png, which are real game screenshots:
-# background (2,2,0), amber ink (255,155,0) / (232,176,0), white (243,243,243).
-INK = (255, 155, 0, 255)
+# Colours come from two different sources, and they do not agree.
+#
+# `shaders/vsn_term_shade.frag` and `cosmo_term_shade.frag` define
+#   inner_color = vec4(0.972, 0.721, 0.0, 1.0)   -> (248, 184, 0)
+#   glow_color  = vec4(0.313, 0.188, 0.0, 1.0)   -> ( 80,  48, 0)
+#
+# A real capture (research/intro-05.png) contains NEITHER of those two colours;
+# it has (255,155,0), (232,176,0) and (88,57,0) instead, and the counts are
+# exact 0 for the shader constants. So that screen was not shaded by
+# vsn_term_shade. (80,48,0) does occur in scene pages, i.e. it is authored art.
+#
+# The amber the player actually sees on the pretitle is therefore produced
+# somewhere else -- most likely by the palette remap (`vsn_fade` + a `*LUT.png`
+# texture). That path is NOT reproduced here.
+#
+# Which value to use:
+#   INK_DRAWN  -- the shader constant; correct for a layer that goes through
+#                 vsn_term_shade, wrong for the pretitle capture.
+#   INK_CAPTURED -- measured off the real screenshot; use when matching that look.
+#
+# Neither is "the" answer until the remap path is settled. Rendering with
+# INK_DRAWN and calling it a real screenshot would be wrong.
+INK_DRAWN = (248, 184, 0, 255)
+GLOW = (80, 48, 0, 255)
+INK_CAPTURED = (255, 155, 0, 255)
+INK = INK_DRAWN
 PANEL = (2, 2, 0, 255)
-FRAME = (232, 176, 0, 255)
+FRAME = (248, 184, 0, 255)
 
 FONT_ENTRIES = {
     'story12': ('story12.fnt', 'r28-font/bbc2.png'),
@@ -109,3 +132,61 @@ def render_page(glyphs, atlas, lines, scale=1, pad=16, line_gap=6):
         draw_text(img, glyphs, atlas, line, pad, y, scale)
         y += 12 * scale + line_gap
     return img
+
+
+def shade_terminal(layer, texture_size=(256, 224), v_top=1.0, v_bottom=0.0):
+    """Reimplement `vsn_term_shade.frag` on a text layer.
+
+    Source of the constants: `shaders/vsn_term_shade.frag` in the jar. Source of
+    `texture_size`: `PRG/jl` sets the uniform to 256.0f / 224.0f at bytecode
+    offsets 108..132, and applies the shader to the *text* layer before
+    compositing -- so a correct render shades the text alone, then composites
+    over the background, which is what `real_scene.compose` does.
+
+    The rule, in order:
+      * pixel == (0,0,255,255)  -> glow
+      * pixel.red > 0           -> ink        (alpha is NOT consulted)
+      * otherwise sample left, right and v-; unless the row falls on the
+        periodic 8-row gap, also sample v+; glow if any sampled red > 0,
+        else fully transparent.
+
+    Sampling is nearest with clamp-to-edge, matching the atlas' declared
+    `Nearest, Nearest` / `repeat: none`. Linear filtering or sub-region UVs
+    would need a different sampler, so do not reuse this outside that setup.
+    """
+    from PIL import Image
+    import math
+    src = layer.convert('RGBA')
+    w, h = src.size
+    tw, th = map(float, texture_size)
+    if min(w, h, tw, th) <= 0 or v_top == v_bottom:
+        raise ValueError('invalid dimensions/UV interval')
+    pix = src.load()
+    out = Image.new('RGBA', (w, h))
+    dst = out.load()
+
+    def sample(u, v):
+        x = min(w - 1, max(0, math.floor(u * w)))
+        y = min(h - 1, max(0, math.floor(
+            (v - v_top) / (v_bottom - v_top) * h)))
+        return pix[x, y]
+
+    for y in range(h):
+        v = v_top + (v_bottom - v_top) * ((y + 0.5) / h)
+        for x in range(w):
+            u = (x + 0.5) / w
+            base = pix[x, y]
+            if base == (0, 0, 255, 255):
+                dst[x, y] = GLOW
+            elif base[0] > 0:
+                dst[x, y] = INK
+            else:
+                red = (sample(u - 1 / tw, v)[0]
+                       + sample(u + 1 / tw, v)[0]
+                       + sample(u, v - 1 / th)[0])
+                # int(mod(py + 1.0, 8.0)) != 0; a plain `y % 8` loses the
+                # half-pixel centre and the UV direction.
+                if int((v * th + 1.0) % 8.0) != 0:
+                    red += sample(u, v + 1 / th)[0]
+                dst[x, y] = GLOW if red > 0 else (0, 0, 0, 0)
+    return out

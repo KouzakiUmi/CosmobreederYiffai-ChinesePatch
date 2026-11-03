@@ -57,15 +57,20 @@ def compose(candidate, pak, scene_index, event_index, out):
         ('t', 'subtitle', 'x', 'x', 0, event['text'])])
     pages = [v for k, v in res.items()][0]['pages']
 
-    frame = SF.frame(scene, event['sprite'], 0).copy()
     glyphs, atlas = AR.load_font(str(candidate), 'story12')
+    # Draw text on its own layer first: `PRG/jl` shades the text framebuffer
+    # with vsn_term_shade and only then composites it over the background.
+    layer = Image.new('RGBA', SF.SCREEN, (0, 0, 0, 0))
     y = TEXT_BAND
     for line in pages[0]['lines']:
         if not line:
             y += LINE_STEP
             continue
-        AR.draw_text(frame, glyphs, atlas, line, LEFT, y)
+        AR.draw_text(layer, glyphs, atlas, line, LEFT, y)
         y += LINE_STEP
+    shaded = AR.shade_terminal(layer)
+    frame = SF.frame(scene, event['sprite'], 0).copy()
+    frame.alpha_composite(shaded)
     frame.save(out)
     return {'text': event['text'], 'lines': pages[0]['lines'], 'pages': len(pages)}
 
