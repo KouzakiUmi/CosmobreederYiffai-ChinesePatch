@@ -15,7 +15,7 @@
 | 组件清单 | `localization/optimization/r28/r9polish/component.json` | sha `51e6d0b6…`；33 批，台账／gate／decisions 33×3 个文件全部存在 |
 | 逐批 gate | `localization/editorial/r9-polish/batch-*/review/build-gate.json` | 33 份，`status=verified_for_application`；每份绑 `ledger_sha256`、`decisions_sha256`、`verifier.sha256` |
 | 逐批台账 | `localization/translations/editorial-r9-*-repairs.jsonl` | 33 份，合计 745 个操作 |
-| 逐批裁决表 | `localization/editorial/r9-polish/batch-*/review/decisions.tsv` | 33 份，合计 1,197 条决定 |
+| 逐批裁决表 | `localization/editorial/r9-polish/batch-*/review/decisions.tsv` | 33 份，合计 1179 条决定（采纳 745／驳回 398／留置 36；留置是合法取值） |
 | 测试源 pin | `results.json:test_source_sha256` | 16 项；封签时需与工作树逐一对齐 |
 | 构建源 pin | `build-manifest.json:source_sha256` | 需与工作树逐一对齐（构建脚本、组件、字体表） |
 
