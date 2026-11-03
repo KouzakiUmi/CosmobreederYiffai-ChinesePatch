@@ -20,11 +20,20 @@
 | 基线校验 | `cosmobreeder-multi.jar` 的 sha256 `cd37e445...`；官方补丁档另校验 `patch.pak` `2f9da7d4...`，不匹配拒绝写入 |
 | 发行基线 | `r27-story12-shaderfix-test5` |
 | 载荷 | 2 个源依赖差分：`cosmobreeder-multi.jar`（44.8MB → 45.6MB）、可选 `patch.pak`（12.5MB → 13.3MB） |
-| 当前版本 | alpha0.1（预发行 · 未签名） |
+| 当前版本 | alpha0.2（测试版 · 未签名 · 实机未验） |
 | 运行要求 | 独立 EXE 无需 Python；Python 运行版需要 Python 3.12 |
-| 翻译进度 | 译文快照 8,973 条，其中 8,146 条有草稿、827 条尚未翻译 |
+| 翻译进度 | R9 三十四批已落地：2,698 场／12,552 行（90.3% 场、93.0% 行）；剩余 291 场为不面向玩家的脚本串与位图 |
 
 ---
+
+## alpha0.2 更新（2026-11-03）
+
+安装器协议、界面与 alpha0.1 相同，换的是内容：文本精校从「批次定义内部分完成」推进到「可译文本全部过完」，并首次对排版层做了真实字模复核。
+
+- 文本：R9 三十四批全部落地（candidate47），2,698 场／12,552 行。新增的四批是补漏与清理——batch-14 补上 batch-01 只定义未出单的 21 场，batch-15／16／17 清术语残留（狗头人、吠叫者、探员、干员、宇航服、电击器、`UP+攻击`、高级芯片、卫星通讯、FENFEN、LIGHTTAZER）。
+- 排版：用候选归档里的真实字模按引擎规则量了硬切容器，角色卡 96、成就 60、数据书 200 个值**全部不超限**；合句留下的 1,709 个空尾行中 1,701 个由 240px 自动折行填满两行。
+- 封签：新增 [R9 封签脚本](<localization/optimization/r28/integration/finalize_r9_acceptance.py>)，绑定 17 步回归、34 份逐批 gate 与明文读回，写出 `acceptance.json` 供发行构建门禁使用。
+- 详见 [alpha0.2 发行说明](docs/RELEASE-alpha0.2.md)、[R9 README](localization/editorial/r9-polish/README.md)、[遗留项台账](localization/editorial/r9-polish/LEFTOVERS.md)。
 
 ## alpha0.1 更新（2026-10-25）
 
@@ -184,6 +193,18 @@ python tools/build_alpha_release.py --exe    # 同上并追加 Windows 独立 EX
 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest discover -s tests/release -v
+```
+
+R9 候选同样走这个入口，`--label` 只改产物文件名与说明文本，载荷清单里的 `version` 仍是安装器协议名 `alpha0.1`：
+
+```sh
+python tools/build_alpha_release.py --target localization/builds/r9-polish-candidate47 --output dist/alpha0.2 --label alpha0.2 --exe
+```
+
+封签先于打包（写 `acceptance.json`，构建器的 r28 门禁会校验它）：
+
+```sh
+python localization/optimization/r28/integration/finalize_r9_acceptance.py --candidate r9-polish-candidate47 --tests candidate47
 ```
 
 具有本地已验收r28目标时，仍使用同一个[原构建入口](<tools/build_alpha_release.py>)和[原安装器界面](<src/cosmobreeder_patch/__main__.py>)，不另起打包入口：

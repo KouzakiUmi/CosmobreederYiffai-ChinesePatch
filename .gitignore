@@ -81,6 +81,7 @@ docs/*
 !docs/SOURCE_BUILD.md
 !docs/DELTA_FORMAT.md
 !docs/RELEASE-alpha0.1.md
+!docs/RELEASE-alpha0.2.md
 
 # Native game material, binaries, extracted text and credentials.
 *.jar

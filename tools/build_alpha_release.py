@@ -57,12 +57,12 @@ def native_font_notices(target):
     return result
 
 
-def exe_command(payload, licenses, notices, output):
+def exe_command(payload, licenses, notices, output, label='alpha0.1'):
     work = output.resolve() / 'build'
     notice_args = [arg for notice in notices for arg in ('--add-data', str(notice.resolve()) + ':.')]
     return [sys.executable, '-m', 'PyInstaller', '--noconfirm', '--onefile', '--noupx',
             '--python-option', 'X utf8', '--hide-console', 'hide-early', *notice_args,
-            '--name', 'CosmobreederYiffai-alpha0.1-setup', '--paths', str(ROOT / 'src'),
+            '--name', 'CosmobreederYiffai-' + label + '-setup', '--paths', str(ROOT / 'src'),
             '--add-data', str(payload.resolve()) + ':payload',
             '--add-data', str(licenses.resolve()) + ':licenses', '--distpath', str(output.resolve()),
             '--workpath', str(work / 'work'), '--specpath', str(work / 'spec'),
@@ -75,6 +75,10 @@ def main():
     p.add_argument('--target', type=Path, default=ROOT / 'localization/builds/r27-story12-shaderfix-test5')
     p.add_argument('--output', type=Path, default=ROOT / 'dist/alpha0.1')
     p.add_argument('--exe', action='store_true')
+    # The manifest's `version` is the installer protocol name (`installer.py`
+    # accepts only 'alpha0.1'), so it must not follow the release label.
+    # `--label` only names the artifacts and the notes.
+    p.add_argument('--label', default='alpha0.1', help='release label used in artifact names')
     a = p.parse_args()
     if a.output.exists():
         raise ValueError('输出目录已存在，拒绝覆盖；请指定新的 --output')
@@ -143,9 +147,9 @@ def main():
         '已有旧补丁时，须先用旧补丁自己的安装器／备份还原原版，不能覆盖旧记录。\n'
         'EXE内置Python，无需另装Python；Python ZIP需要Python3.12。EXE未签名。\n'
         '本次仅构建和无安装验证，未执行真实安装／卸载、启动游戏或访问存档。\n\n'
-        '无安装校验命令：\n```text\nCosmobreederYiffai-alpha0.1-setup.exe --verify-payload\n'
-        'CosmobreederYiffai-alpha0.1-setup.exe --licenses\n```\n', encoding='utf-8')
-    with zipfile.ZipFile(a.output / 'CosmobreederYiffai-alpha0.1-python.zip', 'w', zipfile.ZIP_DEFLATED) as z:
+        '无安装校验命令：\n```text\nCosmobreederYiffai-' + a.label + '-setup.exe --verify-payload\n'
+        'CosmobreederYiffai-' + a.label + '-setup.exe --licenses\n```\n', encoding='utf-8')
+    with zipfile.ZipFile(a.output / ('CosmobreederYiffai-' + a.label + '-python.zip'), 'w', zipfile.ZIP_DEFLATED) as z:
         for f in (ROOT / 'src/cosmobreeder_patch').glob('*.py'):
             z.write(f, 'cosmobreeder_patch/' + f.name)
         for f in payload.iterdir():
@@ -164,9 +168,9 @@ def main():
         env = dict(os.environ, PYINSTALLER_CONFIG_DIR=str(work / 'cache'), PYTHONDONTWRITEBYTECODE='1')
         env.pop('PYTHONPATH', None)
         with open(work / 'pyinstaller.log', 'wb') as log:
-            subprocess.run(exe_command(payload, licenses, notices, a.output), cwd=ROOT,
+            subprocess.run(exe_command(payload, licenses, notices, a.output, a.label), cwd=ROOT,
                            env=env, stdout=log, stderr=subprocess.STDOUT, check=True)
-        exe = (a.output / 'CosmobreederYiffai-alpha0.1-setup.exe').resolve()
+        exe = (a.output / ('CosmobreederYiffai-' + a.label + '-setup.exe')).resolve()
         env['PATH'] = str(Path(os.environ.get('SystemRoot', 'C:/Windows')) / 'System32')
         for key in ('PYTHONPATH', 'PYTHONHOME', 'PYTHONUTF8', 'PYTHONIOENCODING'):
             env.pop(key, None)
