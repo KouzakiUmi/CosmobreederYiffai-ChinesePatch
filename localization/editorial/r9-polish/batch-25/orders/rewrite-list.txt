@@ -1,0 +1,383 @@
+01. sfw datadf/1:1639  [切: 这是]  宽=[240, 240, 72]
+    EN: * ...but you know, you Cosmobreeders have been good to me
+    ZH: ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！
+
+02. sfw datadf/1:2027  [切: 还在]  宽=[236, 224]
+    EN: Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]
+    ZH: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]
+
+03. sfw datadf/1:2764  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]
+
+04. sfw datadf/1:2775  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]
+
+05. sfw datadf/1:2786  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]
+
+06. sfw datadf/1:2797  [切: 太空]  宽=[236, 128]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]
+
+07. sfw datadf/1:3166  [切: 别的]  宽=[236, 240, 116]
+    EN: Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]
+    ZH: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]
+
+08. sfw datadf/1:3685  [切: 那儿]  宽=[236, 236]
+    EN: Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]
+    ZH: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]
+
+09. sfw datadf/1:4426  [切: 特工]  宽=[236, 240, 32]
+    EN: Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]
+    ZH: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]
+
+10. sfw datadf/1:4441  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+11. sfw datadf/1:4448  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+12. sfw datadf/1:4455  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+13. sfw datadf/1:4462  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+14. sfw datadf/1:4469  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+15. sfw datadf/1:4476  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+16. sfw datadf/1:4483  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+17. sfw datadf/1:4490  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+18. sfw datadf/1:4497  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+19. sfw datadf/1:4504  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+20. sfw datadf/1:4511  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+21. sfw datadf/1:4527  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+22. sfw datadf/1:4534  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+23. sfw datadf/1:4541  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+24. sfw datadf/1:4548  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+25. sfw datadf/1:4777  [切: 给我]  宽=[240, 216]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！
+
+26. sfw datadf/1:4995  [切: 给我]  宽=[240, 24]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，
+
+27. sfw datadm/1:1637  [切: 这是]  宽=[240, 240, 72]
+    EN: * ...but you know, you Cosmobreeders have been good to me
+    ZH: ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！
+
+28. sfw datadm/1:2206  [切: 能帮]  宽=[236, 240, 116]
+    EN: Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]
+    ZH: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]
+
+29. sfw datadm/1:2244  [切: 体征]  宽=[236, 228, 32]
+    EN: Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]
+    ZH: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]
+
+30. sfw datadm/1:2686  [切: 就会]  宽=[236, 240, 152]
+    EN: Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]
+    ZH: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]
+
+31. sfw datadm/1:2833  [切: 太空]  宽=[236, 128]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]
+
+32. sfw datadm/1:2845  [切: 太空]  宽=[236, 128]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]
+
+33. sfw datadm/1:3944  [切: 也许]  宽=[236, 240, 44]
+    EN: Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]
+    ZH: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]
+
+34. sfw datadm/1:4400  [切: 说的]  宽=[236, 240, 92]
+    EN: Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]
+    ZH: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]
+
+35. sfw datadm/1:4487  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+36. sfw datadm/1:4501  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+37. sfw datadm/1:4515  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+38. sfw datadm/1:4529  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+39. sfw datadm/1:4543  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+40. sfw datadm/1:4557  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+41. sfw datadm/1:4574  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+42. sfw datadm/1:4581  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+43. sfw datadm/1:4588  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+44. sfw datadm/1:4595  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+45. sfw datadm/1:4825  [切: 给我]  宽=[240, 216]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！
+
+46. sfw datadm/1:5043  [切: 给我]  宽=[240, 24]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，
+
+47. nsfw datadf/1:1637  [切: 这是]  宽=[240, 240, 72]
+    EN: * ...but you know, you Cosmobreeders have been good to me
+    ZH: ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！
+
+48. nsfw datadf/1:2030  [切: 还在]  宽=[236, 224]
+    EN: Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]
+    ZH: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]
+
+49. nsfw datadf/1:2592  [切: 数据]  宽=[236, 240, 152]
+    EN: Yiffany: [THE LOCAL FAUNA WILL PROVIDE US WITH IMPORTANT DATA]
+    ZH: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]
+
+50. nsfw datadf/1:2788  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]
+
+51. nsfw datadf/1:2799  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]
+
+52. nsfw datadf/1:2810  [切: 武器/到了]  宽=[236, 228, 32]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]
+
+53. nsfw datadf/1:3212  [切: 别的]  宽=[236, 240, 116]
+    EN: Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]
+    ZH: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]
+
+54. nsfw datadf/1:3733  [切: 那儿]  宽=[236, 236]
+    EN: Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]
+    ZH: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]
+
+55. nsfw datadf/1:3818  [切: 东西]  宽=[236, 212]
+    EN: Tomcat: [WELL THE DNA OF IT DOESN'T MATCH ANYTHING IN OUR]
+    ZH: [嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]
+
+56. nsfw datadf/1:4390  [切: 弹跳]  宽=[240, 240, 32]
+    EN: Tomcat:  [PRESS "DOWN"+"JUMP" WHILE IN THE AIR TO DIVE. IF YOU HIT]
+    ZH: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]
+
+57. nsfw datadf/1:4474  [切: 能力]  宽=[236, 236]
+    EN: Tomcat: [THE REPORTS WE RECEIVED SAID THAT, WHILE IN COMBAT]
+    ZH: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]
+
+58. nsfw datadf/1:4508  [切: 神力]  宽=[236, 224]
+    EN: Tomcat: [WHEN WE BEGAN RECEIVING REPORTS FROM AGENTS ABOUT]
+    ZH: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]
+
+59. nsfw datadf/1:4599  [切: 特工]  宽=[236, 240, 32]
+    EN: Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]
+    ZH: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]
+
+60. nsfw datadf/1:4614  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+61. nsfw datadf/1:4621  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+62. nsfw datadf/1:4628  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+63. nsfw datadf/1:4635  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+64. nsfw datadf/1:4642  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+65. nsfw datadf/1:4649  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+66. nsfw datadf/1:4656  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+67. nsfw datadf/1:4663  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+68. nsfw datadf/1:4670  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+69. nsfw datadf/1:4677  [切: 分的]  宽=[236, 140]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+
+70. nsfw datadf/1:4684  [切: 地图]  宽=[236, 116]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+
+71. nsfw datadf/1:4709  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+72. nsfw datadf/1:4716  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+73. nsfw datadf/1:4723  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+74. nsfw datadf/1:4730  [切: 我们]  宽=[236, 240, 68]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+
+75. nsfw datadf/1:4959  [切: 给我]  宽=[240, 216]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！
+
+76. nsfw datadf/1:5178  [切: 给我]  宽=[240, 24]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，
+
+77. nsfw datadm/1:1647  [切: 这是]  宽=[240, 240, 72]
+    EN: * ...but you know, you Cosmobreeders have been good to me
+    ZH: ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！
+
+78. nsfw datadm/1:2105  [切: 听起]  宽=[236, 236]
+    EN: Yiffai: [N-NAUGHTY? I DUNNO ABOUT THAT, BUT TH-THESE SOUND LIKE]
+    ZH: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]
+
+79. nsfw datadm/1:2227  [切: 能帮]  宽=[236, 240, 116]
+    EN: Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]
+    ZH: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]
+
+80. nsfw datadm/1:2265  [切: 体征]  宽=[236, 228, 32]
+    EN: Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]
+    ZH: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]
+
+81. nsfw datadm/1:2722  [切: 就会]  宽=[236, 240, 152]
+    EN: Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]
+    ZH: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]
+
+82. nsfw datadm/1:2876  [切: 太空]  宽=[236, 128]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]
+
+83. nsfw datadm/1:2888  [切: 太空]  宽=[236, 128]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]
+
+84. nsfw datadm/1:4040  [切: 也许]  宽=[236, 240, 44]
+    EN: Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]
+    ZH: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]
+
+85. nsfw datadm/1:4525  [切: 说的]  宽=[236, 240, 92]
+    EN: Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]
+    ZH: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]
+
+86. nsfw datadm/1:4623  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+87. nsfw datadm/1:4637  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+88. nsfw datadm/1:4651  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+89. nsfw datadm/1:4665  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+90. nsfw datadm/1:4679  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+91. nsfw datadm/1:4693  [切: 部分]  宽=[236, 152]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+
+92. nsfw datadm/1:4721  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+93. nsfw datadm/1:4728  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+94. nsfw datadm/1:4735  [切: 我们]  宽=[236, 240, 92]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+
+95. nsfw datadm/1:4972  [切: 给我]  宽=[240, 216]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！
+
+96. nsfw datadm/1:5191  [切: 给我]  宽=[240, 24]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，

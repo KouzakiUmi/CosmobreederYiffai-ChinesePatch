@@ -180,11 +180,15 @@ def apply_entry(archive: str, entry: str, data: bytes, operations: list[dict]):
         _safe_string(new, json_value=kind == 'json', line_row=kind == 'line')
         if kind == 'json' and any(old.count(c) != new.count(c) for c in '\r\n'):
             _fail('JSON newline count drift')
-        if kind == 'line' and new.count(LINE_BREAK) != old.count(LINE_BREAK):
-            # A row may gain explicit breaks so a continuation line stops opening
-            # on punctuation, but the breaks must be the only structural change:
-            # removing them has to give back the old text verbatim.
-            if new.replace(LINE_BREAK, '') != old:
+        if kind == 'line' and new.count(LINE_BREAK) > old.count(LINE_BREAK):
+            # A row may *gain* explicit breaks so a continuation line stops opening
+            # on punctuation. When it does, the breaks must be the only structural
+            # change: removing them has to give back the old text verbatim.
+            #
+            # A plain rewrite (same break count) is the ordinary case — every
+            # proofreading ledger since R1 is one — and must not be held to this
+            # test, or rewording a line would be rejected as "altering the text".
+            if new.replace(LINE_BREAK, '') != old.replace(LINE_BREAK, ''):
                 _fail('line break insertion must not alter the text')
         if old == new: _fail('no-op operation')
         if kind == 'line':

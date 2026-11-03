@@ -1,0 +1,144 @@
+01. x12  [切: 地图]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]
+    rows: [其他特工绘制了你当前所在区域各部分的地 / 图，有时还带标注。]
+
+02. x12  [切: 部分]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]
+    rows: [其他特工已经绘制出你目前所处区域各个部 / 分的地图，有时还带标注。]
+
+03. x10  [切: 分的]
+    EN: Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]
+    ZH: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]
+    rows: [其他特工绘制了你当前所在这片区域各部分 / 的地图，有时还带标注。]
+
+04. x8  [切: 我们]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]
+    rows: [我看到了！重型装备不是我的专长，不过我 / 们在旧机库雇了个本地机械师，可以给你进一 / 步的建议。]
+
+05. x6  [切: 我们]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+    rows: [我看到了！重型设备不是我的专长，但是我 / 们在旧机库请了一位当地机械师，他可以给你 / 进一步的建议。]
+
+06. x4  [切: 这是]
+    EN: * ...but you know, you Cosmobreeders have been good to me
+    ZH: ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！
+    rows: ……不过，你们这些宇宙育种者一直待我不错 / ，所以从我赚的钱里拿一小份吧，怎么样？这 / 是你应得的！
+
+07. x4  [切: 到了/武器]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]
+    rows: [其实并没有人真的接下更换那些老旧自卫武 / 器的工作。它们几乎从来不会坏，你也看到 / 了！]
+
+08. x4  [切: 给我]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，
+    rows: 很简单：你把在外头找到的那些花哨芯片带给 / 我，
+
+09. x3  [切: 太空]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]
+    rows: [信不信由你，那些是你们遇到的那些蜥蜴太 / 空海盗最近造出来的。]
+
+10. x2  [切: 还在]
+    EN: Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]
+    ZH: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]
+    rows: [是啊，我已经完全撤离出来了。震动似乎还 / 在持续，而且一些建筑结构进一步受损。]
+
+11. x2  [切: 到了/武器]
+    EN: Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]
+    ZH: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]
+    rows: [其实并没有人真的接下更换那些老旧自卫武 / 器的活儿。它们几乎从来不会坏，你也看到 / 了！]
+
+12. x2  [切: 别的]
+    EN: Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]
+    ZH: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]
+    rows: [它们原本是来自图托恩的普通青蛙，但似乎 / 有某种能量注入它们体内，给了它们一种特别 / 的韧性和攻击性……]
+
+13. x2  [切: 那儿]
+    EN: Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]
+    ZH: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]
+    rows: [行了行了，真好笑。姑娘，我知道你就在那 / 儿，为这通恶作剧电话笑得尾巴都要掉了。]
+
+14. x2  [切: 特工]
+    EN: Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]
+    ZH: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]
+    rows: [影响生物的加密币严——重违法！但这既是 / 绝密的欧米茄协议任务，就由你自己定夺，特 / 工！]
+
+15. x2  [切: 给我]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！
+    rows: 很简单：你把在外头找到的那些花哨芯片带给 / 我，我就替你黑开门！显然，这是双赢！
+
+16. x2  [切: 能帮]
+    EN: Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]
+    ZH: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]
+    rows: [如果我们看到其他仍在活动的特工，我会通 / 知你，不过眼下，这片区域可能还有一些你能 / 帮上忙的被俘特工。]
+
+17. x2  [切: 体征]
+    EN: Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]
+    ZH: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]
+    rows: [无线电呼叫怎么也接不通，偏偏你的生命体 / 征又乱了套，我唯一接收到的，只有一阵发 / 毛！]
+
+18. x2  [切: 就会]
+    EN: Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]
+    ZH: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]
+    rows: [那小子或许没怎么反抗，毕竟他那么娇小， / 身子又弱，但等PPP倾巢出动的时候，你们就 / 会后悔欺负那只小狗崽了！]
+
+19. x2  [切: 太空]
+    EN: Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]
+    ZH: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]
+    rows: [信不信由你，那些是你们遇到的那些蜥蜴太 / 空海盗近期造出来的。]
+
+20. x2  [切: 也许]
+    EN: Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]
+    ZH: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]
+    rows: [但往好处想，它已经煮了那么久，那漆黑液 / 体里不管是些什么东西，多半不会弄死你！也 / 许吧！]
+
+21. x2  [切: 说的]
+    EN: Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]
+    ZH: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]
+    rows: [他在下面擅离职守，倒也算是件好事，毕竟 / 我们原本安排了对他进行深入研究，以防他说 / 的都是真的……]
+
+22. x2  [切: 给我]
+    EN: * It's simple: You bring me those fancy chips you find out there,
+    ZH: 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！
+    rows: 很简单：把你在外头找到的那些花哨芯片带给 / 我，我就替你破解门锁！这不是双赢嘛！
+
+23. x1  [切: 数据]
+    EN: Yiffany: [THE LOCAL FAUNA WILL PROVIDE US WITH IMPORTANT DATA]
+    ZH: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]
+    rows: [我会用双方同意的接触和自愿给出的实物与 / 本地生物建立联结，之后它们就会提供重要数 / 据，这才配得上宇宙大使。]
+
+24. x1  [切: 东西]
+    EN: Tomcat: [WELL THE DNA OF IT DOESN'T MATCH ANYTHING IN OUR]
+    ZH: [嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]
+    rows: [嗯，它的基因对不上我们数据库里的任何东 / 西。但那何曾拦得住你往嘴里放东西？]
+
+25. x1  [切: 弹跳]
+    EN: Tomcat:  [PRESS "DOWN"+"JUMP" WHILE IN THE AIR TO DIVE. IF YOU HIT]
+    ZH: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]
+    rows: [在空中按 DOWN+JUMP 就能俯冲。如果你 / 撞到什么东西，就会弹起来。甚至还能连续弹 / 跳！]
+
+26. x1  [切: 能力]
+    EN: Tomcat: [THE REPORTS WE RECEIVED SAID THAT, WHILE IN COMBAT]
+    ZH: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]
+    rows: [报告说，战斗中特工能用“SELECT”选能 / 力，再同时按“UP”+“ATTACK”使出。]
+
+27. x1  [切: 神力]
+    EN: Tomcat: [WHEN WE BEGAN RECEIVING REPORTS FROM AGENTS ABOUT]
+    ZH: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]
+    rows: [当初我们开始收到特工们关于所谓的“精神 / 力异能”的报告时，还请了精神科医生！]
+
+28. x1  [切: 听起]
+    EN: Yiffai: [N-NAUGHTY? I DUNNO ABOUT THAT, BUT TH-THESE SOUND LIKE]
+    ZH: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]
+    rows: [淘、淘气？这个倒不太懂，不过这、这些听 / 起来倒是像很有用的研究途径。伊吠完毕！]
+
+29. x1  [切: 我们]
+    EN: Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]
+    ZH: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]
+    rows: [我看到了！重型装备不是我的专长，但是我 / 们在旧机库请了一位当地机械师，他可以给你 / 进一步的建议。]

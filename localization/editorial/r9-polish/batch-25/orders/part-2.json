@@ -1,0 +1,400 @@
+{
+ "part": 2,
+ "items": [
+  {
+   "id": 24,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4777,
+   "mode": "sfw",
+   "english": "* It's simple: You bring me those fancy chips you find out there,",
+   "current_zh": "很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+   "current_drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，我就替你黑开门！显然，这是双赢！"
+   ],
+   "split_pairs": [
+    "给我"
+   ]
+  },
+  {
+   "id": 25,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4995,
+   "mode": "sfw",
+   "english": "* It's simple: You bring me those fancy chips you find out there,",
+   "current_zh": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "current_drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "split_pairs": [
+    "给我"
+   ]
+  },
+  {
+   "id": 26,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 1637,
+   "mode": "sfw",
+   "english": "* ...but you know, you Cosmobreeders have been good to me",
+   "current_zh": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "current_drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "split_pairs": [
+    "这是"
+   ]
+  },
+  {
+   "id": 27,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2206,
+   "mode": "sfw",
+   "english": "Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]",
+   "current_zh": "[如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "current_drawn": [
+    "[如果我们看到其他仍在活动的特工，我会通",
+    "知你，不过眼下，这片区域可能还有一些你能",
+    "帮上忙的被俘特工。]"
+   ],
+   "split_pairs": [
+    "能帮"
+   ]
+  },
+  {
+   "id": 28,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2244,
+   "mode": "sfw",
+   "english": "Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]",
+   "current_zh": "[无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+   "current_drawn": [
+    "[无线电呼叫怎么也接不通，偏偏你的生命体",
+    "征又乱了套，我唯一接收到的，只有一阵发",
+    "毛！]"
+   ],
+   "split_pairs": [
+    "体征"
+   ]
+  },
+  {
+   "id": 29,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2686,
+   "mode": "sfw",
+   "english": "Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]",
+   "current_zh": "[那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "current_drawn": [
+    "[那小子或许没怎么反抗，毕竟他那么娇小，",
+    "身子又弱，但等PPP倾巢出动的时候，你们就",
+    "会后悔欺负那只小狗崽了！]"
+   ],
+   "split_pairs": [
+    "就会"
+   ]
+  },
+  {
+   "id": 30,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2833,
+   "mode": "sfw",
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]",
+   "current_zh": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+   "current_drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗近期造出来的。]"
+   ],
+   "split_pairs": [
+    "太空"
+   ]
+  },
+  {
+   "id": 31,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2845,
+   "mode": "sfw",
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]",
+   "current_zh": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "current_drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗最近造出来的。]"
+   ],
+   "split_pairs": [
+    "太空"
+   ]
+  },
+  {
+   "id": 32,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 3944,
+   "mode": "sfw",
+   "english": "Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]",
+   "current_zh": "[但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+   "current_drawn": [
+    "[但往好处想，它已经煮了那么久，那漆黑液",
+    "体里不管是些什么东西，多半不会弄死你！也",
+    "许吧！]"
+   ],
+   "split_pairs": [
+    "也许"
+   ]
+  },
+  {
+   "id": 33,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4400,
+   "mode": "sfw",
+   "english": "Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]",
+   "current_zh": "[他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+   "current_drawn": [
+    "[他在下面擅离职守，倒也算是件好事，毕竟",
+    "我们原本安排了对他进行深入研究，以防他说",
+    "的都是真的……]"
+   ],
+   "split_pairs": [
+    "说的"
+   ]
+  },
+  {
+   "id": 34,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4487,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 35,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4501,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 36,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4515,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 37,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4529,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 38,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4543,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 39,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4557,
+   "mode": "sfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "部分"
+   ]
+  },
+  {
+   "id": 40,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4574,
+   "mode": "sfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  },
+  {
+   "id": 41,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4581,
+   "mode": "sfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  },
+  {
+   "id": 42,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4588,
+   "mode": "sfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  },
+  {
+   "id": 43,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4595,
+   "mode": "sfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  },
+  {
+   "id": 44,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4825,
+   "mode": "sfw",
+   "english": "* It's simple: You bring me those fancy chips you find out there,",
+   "current_zh": "很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+   "current_drawn": [
+    "很简单：把你在外头找到的那些花哨芯片带给",
+    "我，我就替你破解门锁！这不是双赢嘛！"
+   ],
+   "split_pairs": [
+    "给我"
+   ]
+  },
+  {
+   "id": 45,
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 5043,
+   "mode": "sfw",
+   "english": "* It's simple: You bring me those fancy chips you find out there,",
+   "current_zh": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "current_drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "split_pairs": [
+    "给我"
+   ]
+  },
+  {
+   "id": 46,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 1637,
+   "mode": "nsfw",
+   "english": "* ...but you know, you Cosmobreeders have been good to me",
+   "current_zh": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "current_drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "split_pairs": [
+    "这是"
+   ]
+  },
+  {
+   "id": 47,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2030,
+   "mode": "nsfw",
+   "english": "Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]",
+   "current_zh": "[是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+   "current_drawn": [
+    "[是啊，我已经完全撤离出来了。震动似乎还",
+    "在持续，而且一些建筑结构进一步受损。]"
+   ],
+   "split_pairs": [
+    "还在"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1115 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-25",
+ "batch_group": "batch-25",
+ "part": 1,
+ "parts": 1,
+ "title": "排版润色：改文案让折行不切词",
+ "roots": [
+  "datadf",
+  "datadm"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate52",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate52",
+ "current_zh_baseline": "r9-polish-candidate52",
+ "scenes": [
+  {
+   "scene_id": "SC25-nsfw-datadf_1",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P25:patch.pak:datadf/1:1637",
+     "line": 1637,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+     "target": "  * ……不过，你们宇宙育种者一直待我不错啊，所以从我赚的那些钱里拿一小份吧，怎么样？这是你应得的！"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:2030",
+     "line": 2030,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+     "target": "  Yiffany: [是啊，我已完全撤离，震动似乎仍在持续。而且一些建筑结构进一步受损。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:2592",
+     "line": 2592,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
+     "target": "  Yiffany: [我会用双方同意的接触和自愿给出的实物，与本地生物联结。之后它们会提供重要数据，这才配得上宇宙大使。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:2788",
+     "line": 2788,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:2799",
+     "line": 2799,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的活儿。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:2810",
+     "line": 2810,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:3212",
+     "line": 3212,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+     "target": "  Bossu: [它们原本是来自图托恩的普通青蛙。但似乎有某种能量注入体内，给了它们特别的韧性和攻击性……]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:3733",
+     "line": 3733,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+     "target": "  Tomcat: [行了行了，真好笑。姑娘我知道你在那儿。为这通恶作剧电话笑得尾巴都要掉了。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:3818",
+     "line": 3818,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]",
+     "target": "  Tomcat: [嗯，它的基因对不上我们数据库里面的任何东西。但那何曾拦得住你往嘴里放东西？]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4390",
+     "line": 4390,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]",
+     "target": "  Tomcat: [在空中按 DOWN+JUMP 就能俯冲。如果撞到东西，就会弹起来，甚至还能连续弹跳！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4474",
+     "line": 4474,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
+     "target": "  Tomcat: [报告说，战斗中能用“SELECT”选能力，特工再同时按“UP”+“ATTACK”使出。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4508",
+     "line": 4508,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": " Tomcat: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]",
+     "target": " Tomcat: [当初我们一开始就收到了特工们关于所谓的“精神力异能”的报告，请了精神科医生！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4599",
+     "line": 4599,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+     "target": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己来定夺，特工！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4614",
+     "line": 4614,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4621",
+     "line": 4621,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前这片区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4628",
+     "line": 4628,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4635",
+     "line": 4635,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前这片区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4642",
+     "line": 4642,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4649",
+     "line": 4649,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前这片区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4656",
+     "line": 4656,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4663",
+     "line": 4663,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前这片区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4670",
+     "line": 4670,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4677",
+     "line": 4677,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前这片区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4684",
+     "line": 4684,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在区域各处地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4709",
+     "line": 4709,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备不是我的专长。不过，我们在旧机库雇了本地机械师，能进一步给你建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4716",
+     "line": 4716,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备不是我的专长。不过，我们在旧机库雇了本地机械师，能进一步给你建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4723",
+     "line": 4723,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备并非我的专长。不过，我们已在旧机库雇好了一名本地的机械师了。可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4730",
+     "line": 4730,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备并非我的专长。不过，我们已在旧机库雇好了一名本地的机械师了。可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:4959",
+     "line": 4959,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你黑开门！显然，这是双赢！"
+    },
+    {
+     "row_id": "P25:patch.pak:datadf/1:5178",
+     "line": 5178,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC25-nsfw-datadm_1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P25:patch.pak:datadm/1:1647",
+     "line": 1647,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+     "target": "  * ……不过啊，你们宇宙育种者一直待我不错，所以就从我赚到的钱里拿一小份吧，怎么样？这是你应得的！"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2105",
+     "line": 2105,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]",
+     "target": "  Yiffai: [淘、淘气？这个我不太懂。不过这、这些，听起来像很有用的研究途径。伊吠完毕！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2227",
+     "line": 2227,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+     "target": "    Mauser: [若见到其他仍在活动的特工，我会通知你，不过眼下，这片区域也许还有些被俘的特工，你能帮上他们的忙。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2265",
+     "line": 2265,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+     "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2722",
+     "line": 2722,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+     "target": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动，你们就会后悔欺负那只小狗崽了！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2876",
+     "line": 2876,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+     "target": "  Bossu: [信不信由你，那些全都是近期新造出来的，出自你们遇到的蜥蜴太空海盗。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:2888",
+     "line": 2888,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+     "target": "  Bossu: [信不信由你，那些全都是最近新造出来的，出自你们遇到的蜥蜴太空海盗。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4040",
+     "line": 4040,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+     "target": "  Tomcat: [但往好处想，它已经煮了那么久啦，所以，那漆黑的液体里不管有什么，多半弄不死你！也许吧！]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4525",
+     "line": 4525,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+     "target": "  Tomcat: [他在下面擅离职守，倒也算件好事，毕竟，我们原本就安排了对他深入研究，以防万一，他说的都是真的……]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4623",
+     "line": 4623,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4637",
+     "line": 4637,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4651",
+     "line": 4651,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4665",
+     "line": 4665,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4679",
+     "line": 4679,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4693",
+     "line": 4693,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你目前所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4721",
+     "line": 4721,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备并非我的专长。但是，我们已在旧机库请好了一位当地的机械师了。他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4728",
+     "line": 4728,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备并非我的专长。但是，我们已在旧机库请好了一位当地的机械师了。他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4735",
+     "line": 4735,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备并非我的专长。但是，我们已在旧机库请好了一位当地的机械师了。他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:4972",
+     "line": 4972,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+     "target": "  * 很简单：把你外头找到的那些花哨芯片给我，我就替你破解门锁！这不是双赢嘛！"
+    },
+    {
+     "row_id": "P25:patch.pak:datadm/1:5191",
+     "line": 5191,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC25-sfw-datadf_1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:1639",
+     "line": 1639,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+     "target": "  * ……不过你们这些宇宙育种者一直待我不错。所以，就从我赚的钱里拿一小份吧，怎么样？这是你应得的！"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:2027",
+     "line": 2027,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+     "target": "  Yiffany: [是啊，我已完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:2764",
+     "line": 2764,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:2775",
+     "line": 2775,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的活儿。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:2786",
+     "line": 2786,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+     "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器。它们几乎从来不会坏，你也看到了！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:2797",
+     "line": 2797,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+     "target": "  Bossu: [信不信由你，那些是你们遇到过的那些蜥蜴太空海盗最近造出来的。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:3166",
+     "line": 3166,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+     "target": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给它们一种特别的韧性和攻击性……]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:3685",
+     "line": 3685,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+     "target": "  Tomcat: [行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4426",
+     "line": 4426,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+     "target": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己来定夺，特工！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4441",
+     "line": 4441,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4448",
+     "line": 4448,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4455",
+     "line": 4455,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4462",
+     "line": 4462,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4469",
+     "line": 4469,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4476",
+     "line": 4476,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4483",
+     "line": 4483,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4490",
+     "line": 4490,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4497",
+     "line": 4497,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4504",
+     "line": 4504,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4511",
+     "line": 4511,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工绘制你当前所在区域各部分地图。有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4527",
+     "line": 4527,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备非我专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4534",
+     "line": 4534,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备非我专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4541",
+     "line": 4541,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备非我专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4548",
+     "line": 4548,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型装备非我专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4777",
+     "line": 4777,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你黑开门！显然，这是双赢！"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4995",
+     "line": 4995,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC25-sfw-datadm_1",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:1637",
+     "line": 1637,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+     "target": "  * ……不过，你们宇宙育种者一直待我不错啊，所以从我赚的那些钱里拿一小份吧，怎么样？这是你应得的！"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2206",
+     "line": 2206,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+     "target": "    Mauser: [我们若看到其他活动的特工，我会通知你。不过眼下，这片区域可能还有些被俘的特工，你能帮上忙。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2244",
+     "line": 2244,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+     "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2686",
+     "line": 2686,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+     "target": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又那么弱，但是等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2833",
+     "line": 2833,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+     "target": "  Bossu: [信不信由你，那些全都是近期才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2845",
+     "line": 2845,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+     "target": "  Bossu: [信不信由你，那些全都是最近才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:3944",
+     "line": 3944,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+     "target": "  Tomcat: [但往好处想，它实在是已经煮了那么久了，那漆黑液体里面不管是什么，多半弄不死你！也许吧！]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4400",
+     "line": 4400,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+     "target": "  Tomcat: [他在下面擅离职守，这倒也算是一件好事，毕竟我们原本就安排了对他进行深入的研究，以防他说的都是真的……]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4487",
+     "line": 4487,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4501",
+     "line": 4501,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4515",
+     "line": 4515,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4529",
+     "line": 4529,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4543",
+     "line": 4543,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4557",
+     "line": 4557,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+     "target": "  Tomcat: [其他特工已经绘制出了你眼下所处的区域，各个部分的地图，有时还带标注。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4574",
+     "line": 4574,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4581",
+     "line": 4581,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4588",
+     "line": 4588,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4595",
+     "line": 4595,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+     "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4825",
+     "line": 4825,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+     "target": "  * 很简单：把你外头找到的那些花哨芯片给我，我就替你破解门锁！这不是双赢嘛！"
+    },
+    {
+     "row_id": "P25:cosmobreeder-multi.jar:datadm/1:5043",
+     "line": 5043,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
+    }
+   ]
+  }
+ ]
+}

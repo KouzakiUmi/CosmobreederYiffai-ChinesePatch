@@ -1,0 +1,401 @@
+{
+ "part": 3,
+ "items": [
+  {
+   "id": 48,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2592,
+   "mode": "nsfw",
+   "english": "Yiffany: [THE LOCAL FAUNA WILL PROVIDE US WITH IMPORTANT DATA]",
+   "current_zh": "[我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
+   "current_drawn": [
+    "[我会用双方同意的接触和自愿给出的实物与",
+    "本地生物建立联结，之后它们就会提供重要数",
+    "据，这才配得上宇宙大使。]"
+   ],
+   "split_pairs": [
+    "数据"
+   ]
+  },
+  {
+   "id": 49,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2788,
+   "mode": "nsfw",
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]",
+   "current_zh": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "current_drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ]
+  },
+  {
+   "id": 50,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2799,
+   "mode": "nsfw",
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]",
+   "current_zh": "[其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+   "current_drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的活儿。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ]
+  },
+  {
+   "id": 51,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2810,
+   "mode": "nsfw",
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]",
+   "current_zh": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "current_drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ]
+  },
+  {
+   "id": 52,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3212,
+   "mode": "nsfw",
+   "english": "Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]",
+   "current_zh": "[它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+   "current_drawn": [
+    "[它们原本是来自图托恩的普通青蛙，但似乎",
+    "有某种能量注入它们体内，给了它们一种特别",
+    "的韧性和攻击性……]"
+   ],
+   "split_pairs": [
+    "别的"
+   ]
+  },
+  {
+   "id": 53,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3733,
+   "mode": "nsfw",
+   "english": "Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]",
+   "current_zh": "[行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+   "current_drawn": [
+    "[行了行了，真好笑。姑娘，我知道你就在那",
+    "儿，为这通恶作剧电话笑得尾巴都要掉了。]"
+   ],
+   "split_pairs": [
+    "那儿"
+   ]
+  },
+  {
+   "id": 54,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3818,
+   "mode": "nsfw",
+   "english": "Tomcat: [WELL THE DNA OF IT DOESN'T MATCH ANYTHING IN OUR]",
+   "current_zh": "[嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]",
+   "current_drawn": [
+    "[嗯，它的基因对不上我们数据库里的任何东",
+    "西。但那何曾拦得住你往嘴里放东西？]"
+   ],
+   "split_pairs": [
+    "东西"
+   ]
+  },
+  {
+   "id": 55,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4390,
+   "mode": "nsfw",
+   "english": "Tomcat:  [PRESS \"DOWN\"+\"JUMP\" WHILE IN THE AIR TO DIVE. IF YOU HIT]",
+   "current_zh": "[在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]",
+   "current_drawn": [
+    "[在空中按 DOWN+JUMP 就能俯冲。如果你",
+    "撞到什么东西，就会弹起来。甚至还能连续弹",
+    "跳！]"
+   ],
+   "split_pairs": [
+    "弹跳"
+   ]
+  },
+  {
+   "id": 56,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4474,
+   "mode": "nsfw",
+   "english": "Tomcat: [THE REPORTS WE RECEIVED SAID THAT, WHILE IN COMBAT]",
+   "current_zh": "[报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
+   "current_drawn": [
+    "[报告说，战斗中特工能用“SELECT”选能",
+    "力，再同时按“UP”+“ATTACK”使出。]"
+   ],
+   "split_pairs": [
+    "能力"
+   ]
+  },
+  {
+   "id": 57,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4508,
+   "mode": "nsfw",
+   "english": "Tomcat: [WHEN WE BEGAN RECEIVING REPORTS FROM AGENTS ABOUT]",
+   "current_zh": "[当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]",
+   "current_drawn": [
+    "[当初我们开始收到特工们关于所谓的“精神",
+    "力异能”的报告时，还请了精神科医生！]"
+   ],
+   "split_pairs": [
+    "神力"
+   ]
+  },
+  {
+   "id": 58,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4599,
+   "mode": "nsfw",
+   "english": "Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]",
+   "current_zh": "[影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+   "current_drawn": [
+    "[影响生物的加密币严——重违法！但这既是",
+    "绝密的欧米茄协议任务，就由你自己定夺，特",
+    "工！]"
+   ],
+   "split_pairs": [
+    "特工"
+   ]
+  },
+  {
+   "id": 59,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4614,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 60,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4621,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "分的"
+   ]
+  },
+  {
+   "id": 61,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4628,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 62,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4635,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "分的"
+   ]
+  },
+  {
+   "id": 63,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4642,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 64,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4649,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "分的"
+   ]
+  },
+  {
+   "id": 65,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4656,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 66,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4663,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "分的"
+   ]
+  },
+  {
+   "id": 67,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4670,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 68,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4677,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "分的"
+   ]
+  },
+  {
+   "id": 69,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4684,
+   "mode": "nsfw",
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]",
+   "current_zh": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "current_drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "split_pairs": [
+    "地图"
+   ]
+  },
+  {
+   "id": 70,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4709,
+   "mode": "nsfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  },
+  {
+   "id": 71,
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4716,
+   "mode": "nsfw",
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]",
+   "current_zh": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "current_drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "split_pairs": [
+    "我们"
+   ]
+  }
+ ]
+}

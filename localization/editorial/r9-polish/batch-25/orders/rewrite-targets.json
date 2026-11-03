@@ -1,0 +1,2015 @@
+{
+ "candidate": "r9-polish-candidate52",
+ "solid_pair": 30,
+ "budget_px": 240,
+ "rows": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 1639,
+   "mode": "sfw",
+   "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "body": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "widths": [
+    240,
+    240,
+    72
+   ],
+   "split_pairs": [
+    "这是"
+   ],
+   "english": "* ...but you know, you Cosmobreeders have been good to me"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 2027,
+   "mode": "sfw",
+   "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+   "body": "[是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+   "drawn": [
+    "[是啊，我已经完全撤离出来了。震动似乎还",
+    "在持续，而且一些建筑结构进一步受损。]"
+   ],
+   "widths": [
+    236,
+    224
+   ],
+   "split_pairs": [
+    "还在"
+   ],
+   "english": "Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 2764,
+   "mode": "sfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 2775,
+   "mode": "sfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的活儿。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 2786,
+   "mode": "sfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 2797,
+   "mode": "sfw",
+   "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "body": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗最近造出来的。]"
+   ],
+   "widths": [
+    236,
+    128
+   ],
+   "split_pairs": [
+    "太空"
+   ],
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 3166,
+   "mode": "sfw",
+   "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+   "body": "[它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+   "drawn": [
+    "[它们原本是来自图托恩的普通青蛙，但似乎",
+    "有某种能量注入它们体内，给了它们一种特别",
+    "的韧性和攻击性……]"
+   ],
+   "widths": [
+    236,
+    240,
+    116
+   ],
+   "split_pairs": [
+    "别的"
+   ],
+   "english": "Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 3685,
+   "mode": "sfw",
+   "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+   "body": "[行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+   "drawn": [
+    "[行了行了，真好笑。姑娘，我知道你就在那",
+    "儿，为这通恶作剧电话笑得尾巴都要掉了。]"
+   ],
+   "widths": [
+    236,
+    236
+   ],
+   "split_pairs": [
+    "那儿"
+   ],
+   "english": "Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4426,
+   "mode": "sfw",
+   "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+   "body": "[影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+   "drawn": [
+    "[影响生物的加密币严——重违法！但这既是",
+    "绝密的欧米茄协议任务，就由你自己定夺，特",
+    "工！]"
+   ],
+   "widths": [
+    236,
+    240,
+    32
+   ],
+   "split_pairs": [
+    "特工"
+   ],
+   "english": "Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4441,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4448,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4455,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4462,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4469,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4476,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4483,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4490,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4497,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4504,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4511,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4527,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4534,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4541,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4548,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4777,
+   "mode": "sfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，我就替你黑开门！显然，这是双赢！"
+   ],
+   "widths": [
+    240,
+    216
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadf/1",
+   "line": 4995,
+   "mode": "sfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "widths": [
+    240,
+    24
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 1637,
+   "mode": "sfw",
+   "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "body": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "widths": [
+    240,
+    240,
+    72
+   ],
+   "split_pairs": [
+    "这是"
+   ],
+   "english": "* ...but you know, you Cosmobreeders have been good to me"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2206,
+   "mode": "sfw",
+   "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "body": "[如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "drawn": [
+    "[如果我们看到其他仍在活动的特工，我会通",
+    "知你，不过眼下，这片区域可能还有一些你能",
+    "帮上忙的被俘特工。]"
+   ],
+   "widths": [
+    236,
+    240,
+    116
+   ],
+   "split_pairs": [
+    "能帮"
+   ],
+   "english": "Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2244,
+   "mode": "sfw",
+   "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+   "body": "[无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+   "drawn": [
+    "[无线电呼叫怎么也接不通，偏偏你的生命体",
+    "征又乱了套，我唯一接收到的，只有一阵发",
+    "毛！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "体征"
+   ],
+   "english": "Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2686,
+   "mode": "sfw",
+   "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "body": "[那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "drawn": [
+    "[那小子或许没怎么反抗，毕竟他那么娇小，",
+    "身子又弱，但等PPP倾巢出动的时候，你们就",
+    "会后悔欺负那只小狗崽了！]"
+   ],
+   "widths": [
+    236,
+    240,
+    152
+   ],
+   "split_pairs": [
+    "就会"
+   ],
+   "english": "Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2833,
+   "mode": "sfw",
+   "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+   "body": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+   "drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗近期造出来的。]"
+   ],
+   "widths": [
+    236,
+    128
+   ],
+   "split_pairs": [
+    "太空"
+   ],
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 2845,
+   "mode": "sfw",
+   "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "body": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗最近造出来的。]"
+   ],
+   "widths": [
+    236,
+    128
+   ],
+   "split_pairs": [
+    "太空"
+   ],
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 3944,
+   "mode": "sfw",
+   "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+   "body": "[但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+   "drawn": [
+    "[但往好处想，它已经煮了那么久，那漆黑液",
+    "体里不管是些什么东西，多半不会弄死你！也",
+    "许吧！]"
+   ],
+   "widths": [
+    236,
+    240,
+    44
+   ],
+   "split_pairs": [
+    "也许"
+   ],
+   "english": "Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4400,
+   "mode": "sfw",
+   "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+   "body": "[他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+   "drawn": [
+    "[他在下面擅离职守，倒也算是件好事，毕竟",
+    "我们原本安排了对他进行深入研究，以防他说",
+    "的都是真的……]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "说的"
+   ],
+   "english": "Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4487,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4501,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4515,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4529,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4543,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4557,
+   "mode": "sfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4574,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4581,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4588,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4595,
+   "mode": "sfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 4825,
+   "mode": "sfw",
+   "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+   "body": "很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+   "drawn": [
+    "很简单：把你在外头找到的那些花哨芯片带给",
+    "我，我就替你破解门锁！这不是双赢嘛！"
+   ],
+   "widths": [
+    240,
+    216
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "entry": "datadm/1",
+   "line": 5043,
+   "mode": "sfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "widths": [
+    240,
+    24
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 1637,
+   "mode": "nsfw",
+   "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "body": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "widths": [
+    240,
+    240,
+    72
+   ],
+   "split_pairs": [
+    "这是"
+   ],
+   "english": "* ...but you know, you Cosmobreeders have been good to me"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2030,
+   "mode": "nsfw",
+   "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+   "body": "[是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
+   "drawn": [
+    "[是啊，我已经完全撤离出来了。震动似乎还",
+    "在持续，而且一些建筑结构进一步受损。]"
+   ],
+   "widths": [
+    236,
+    224
+   ],
+   "split_pairs": [
+    "还在"
+   ],
+   "english": "Yiffany: [YEAH, I'VE FULLY EXTRACTED MYSELF. THE TREMORS SEEM TO]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2592,
+   "mode": "nsfw",
+   "current": "  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
+   "body": "[我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
+   "drawn": [
+    "[我会用双方同意的接触和自愿给出的实物与",
+    "本地生物建立联结，之后它们就会提供重要数",
+    "据，这才配得上宇宙大使。]"
+   ],
+   "widths": [
+    236,
+    240,
+    152
+   ],
+   "split_pairs": [
+    "数据"
+   ],
+   "english": "Yiffany: [THE LOCAL FAUNA WILL PROVIDE US WITH IMPORTANT DATA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2788,
+   "mode": "nsfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2799,
+   "mode": "nsfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的活儿。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 2810,
+   "mode": "nsfw",
+   "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "body": "[其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
+   "drawn": [
+    "[其实并没有人真的接下更换那些老旧自卫武",
+    "器的工作。它们几乎从来不会坏，你也看到",
+    "了！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "武器",
+    "到了"
+   ],
+   "english": "Bossu: [NOBODY'S REALLY TAKEN ON THE JOB OF REPLACING THOSE OLD]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3212,
+   "mode": "nsfw",
+   "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+   "body": "[它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
+   "drawn": [
+    "[它们原本是来自图托恩的普通青蛙，但似乎",
+    "有某种能量注入它们体内，给了它们一种特别",
+    "的韧性和攻击性……]"
+   ],
+   "widths": [
+    236,
+    240,
+    116
+   ],
+   "split_pairs": [
+    "别的"
+   ],
+   "english": "Bossu: [THEY WERE ONCE ORDINARY FROGS FROM TUTONE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3733,
+   "mode": "nsfw",
+   "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+   "body": "[行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
+   "drawn": [
+    "[行了行了，真好笑。姑娘，我知道你就在那",
+    "儿，为这通恶作剧电话笑得尾巴都要掉了。]"
+   ],
+   "widths": [
+    236,
+    236
+   ],
+   "split_pairs": [
+    "那儿"
+   ],
+   "english": "Tomcat: [YEAH HAR HAR, COME ON GIRL I KNOW YOU'RE THERE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 3818,
+   "mode": "nsfw",
+   "current": "  Tomcat: [嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]",
+   "body": "[嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]",
+   "drawn": [
+    "[嗯，它的基因对不上我们数据库里的任何东",
+    "西。但那何曾拦得住你往嘴里放东西？]"
+   ],
+   "widths": [
+    236,
+    212
+   ],
+   "split_pairs": [
+    "东西"
+   ],
+   "english": "Tomcat: [WELL THE DNA OF IT DOESN'T MATCH ANYTHING IN OUR]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4390,
+   "mode": "nsfw",
+   "current": "  Tomcat: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]",
+   "body": "[在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]",
+   "drawn": [
+    "[在空中按 DOWN+JUMP 就能俯冲。如果你",
+    "撞到什么东西，就会弹起来。甚至还能连续弹",
+    "跳！]"
+   ],
+   "widths": [
+    240,
+    240,
+    32
+   ],
+   "split_pairs": [
+    "弹跳"
+   ],
+   "english": "Tomcat:  [PRESS \"DOWN\"+\"JUMP\" WHILE IN THE AIR TO DIVE. IF YOU HIT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4474,
+   "mode": "nsfw",
+   "current": "  Tomcat: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
+   "body": "[报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
+   "drawn": [
+    "[报告说，战斗中特工能用“SELECT”选能",
+    "力，再同时按“UP”+“ATTACK”使出。]"
+   ],
+   "widths": [
+    236,
+    236
+   ],
+   "split_pairs": [
+    "能力"
+   ],
+   "english": "Tomcat: [THE REPORTS WE RECEIVED SAID THAT, WHILE IN COMBAT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4508,
+   "mode": "nsfw",
+   "current": " Tomcat: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]",
+   "body": "[当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]",
+   "drawn": [
+    "[当初我们开始收到特工们关于所谓的“精神",
+    "力异能”的报告时，还请了精神科医生！]"
+   ],
+   "widths": [
+    236,
+    224
+   ],
+   "split_pairs": [
+    "神力"
+   ],
+   "english": "Tomcat: [WHEN WE BEGAN RECEIVING REPORTS FROM AGENTS ABOUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4599,
+   "mode": "nsfw",
+   "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+   "body": "[影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
+   "drawn": [
+    "[影响生物的加密币严——重违法！但这既是",
+    "绝密的欧米茄协议任务，就由你自己定夺，特",
+    "工！]"
+   ],
+   "widths": [
+    236,
+    240,
+    32
+   ],
+   "split_pairs": [
+    "特工"
+   ],
+   "english": "Mauser: [BIO-AFFECTING CRY- PTO CURRENCIES ARE BIIIG TIME ILLEGAL]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4614,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4621,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4628,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4635,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4642,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4649,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4656,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4663,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4670,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4677,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在这片区域各部分",
+    "的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    140
+   ],
+   "split_pairs": [
+    "分的"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4684,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "body": "[其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工绘制了你当前所在区域各部分的地",
+    "图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    116
+   ],
+   "split_pairs": [
+    "地图"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4709,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4716,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4723,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4730,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，不过我",
+    "们在旧机库雇了个本地机械师，可以给你进一",
+    "步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    68
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 4959,
+   "mode": "nsfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，我就替你黑开门！显然，这是双赢！"
+   ],
+   "widths": [
+    240,
+    216
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadf/1",
+   "line": 5178,
+   "mode": "nsfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "widths": [
+    240,
+    24
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 1647,
+   "mode": "nsfw",
+   "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "body": "……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
+   "drawn": [
+    "……不过，你们这些宇宙育种者一直待我不错",
+    "，所以从我赚的钱里拿一小份吧，怎么样？这",
+    "是你应得的！"
+   ],
+   "widths": [
+    240,
+    240,
+    72
+   ],
+   "split_pairs": [
+    "这是"
+   ],
+   "english": "* ...but you know, you Cosmobreeders have been good to me"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2105,
+   "mode": "nsfw",
+   "current": "  Yiffai: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]",
+   "body": "[淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]",
+   "drawn": [
+    "[淘、淘气？这个倒不太懂，不过这、这些听",
+    "起来倒是像很有用的研究途径。伊吠完毕！]"
+   ],
+   "widths": [
+    236,
+    236
+   ],
+   "split_pairs": [
+    "听起"
+   ],
+   "english": "Yiffai: [N-NAUGHTY? I DUNNO ABOUT THAT, BUT TH-THESE SOUND LIKE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2227,
+   "mode": "nsfw",
+   "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "body": "[如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
+   "drawn": [
+    "[如果我们看到其他仍在活动的特工，我会通",
+    "知你，不过眼下，这片区域可能还有一些你能",
+    "帮上忙的被俘特工。]"
+   ],
+   "widths": [
+    236,
+    240,
+    116
+   ],
+   "split_pairs": [
+    "能帮"
+   ],
+   "english": "Mauser: [I'LL LET YOU KNOW IF WE SEE ANY OTHER ACTIVE AGENTS]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2265,
+   "mode": "nsfw",
+   "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+   "body": "[无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
+   "drawn": [
+    "[无线电呼叫怎么也接不通，偏偏你的生命体",
+    "征又乱了套，我唯一接收到的，只有一阵发",
+    "毛！]"
+   ],
+   "widths": [
+    236,
+    228,
+    32
+   ],
+   "split_pairs": [
+    "体征"
+   ],
+   "english": "Tomcat: [THE ONLY THING I CAUGHT WAS A CASE OF THE WILLIES]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2722,
+   "mode": "nsfw",
+   "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "body": "[那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
+   "drawn": [
+    "[那小子或许没怎么反抗，毕竟他那么娇小，",
+    "身子又弱，但等PPP倾巢出动的时候，你们就",
+    "会后悔欺负那只小狗崽了！]"
+   ],
+   "widths": [
+    236,
+    240,
+    152
+   ],
+   "split_pairs": [
+    "就会"
+   ],
+   "english": "Bossu: [THAT BOY MAY NOT HAVE PUT UP MUCH OF A FIGHT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2876,
+   "mode": "nsfw",
+   "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+   "body": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
+   "drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗近期造出来的。]"
+   ],
+   "widths": [
+    236,
+    128
+   ],
+   "split_pairs": [
+    "太空"
+   ],
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 2888,
+   "mode": "nsfw",
+   "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "body": "[信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
+   "drawn": [
+    "[信不信由你，那些是你们遇到的那些蜥蜴太",
+    "空海盗最近造出来的。]"
+   ],
+   "widths": [
+    236,
+    128
+   ],
+   "split_pairs": [
+    "太空"
+   ],
+   "english": "Bossu: [BELIEVE IT OR NOT, THOSE ARE OF MORE RECENT MAKE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4040,
+   "mode": "nsfw",
+   "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+   "body": "[但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
+   "drawn": [
+    "[但往好处想，它已经煮了那么久，那漆黑液",
+    "体里不管是些什么东西，多半不会弄死你！也",
+    "许吧！]"
+   ],
+   "widths": [
+    236,
+    240,
+    44
+   ],
+   "split_pairs": [
+    "也许"
+   ],
+   "english": "Tomcat: [BUT ON THE BRIGHT SIDE IT'S BEEN BOILED SO LONG]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4525,
+   "mode": "nsfw",
+   "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+   "body": "[他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
+   "drawn": [
+    "[他在下面擅离职守，倒也算是件好事，毕竟",
+    "我们原本安排了对他进行深入研究，以防他说",
+    "的都是真的……]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "说的"
+   ],
+   "english": "Tomcat: [IT'S ALMOST A GOOD THING THAT HE WENT AWOL DOWN THERE]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4623,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4637,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4651,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4665,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4679,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4693,
+   "mode": "nsfw",
+   "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "body": "[其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
+   "drawn": [
+    "[其他特工已经绘制出你目前所处区域各个部",
+    "分的地图，有时还带标注。]"
+   ],
+   "widths": [
+    236,
+    152
+   ],
+   "split_pairs": [
+    "部分"
+   ],
+   "english": "Tomcat: [OTHER AGENTS HAVE MAPPED OUT VARIOUS PARTS OF THE AREA]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4721,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4728,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型设备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4735,
+   "mode": "nsfw",
+   "current": "  Tomcat: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "body": "[我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
+   "drawn": [
+    "[我看到了！重型装备不是我的专长，但是我",
+    "们在旧机库请了一位当地机械师，他可以给你",
+    "进一步的建议。]"
+   ],
+   "widths": [
+    236,
+    240,
+    92
+   ],
+   "split_pairs": [
+    "我们"
+   ],
+   "english": "Tomcat: [I SAW! HEAVY EQUIPMENT ISN'T MY SPECIALTY, BUT]"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 4972,
+   "mode": "nsfw",
+   "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+   "body": "很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
+   "drawn": [
+    "很简单：把你在外头找到的那些花哨芯片带给",
+    "我，我就替你破解门锁！这不是双赢嘛！"
+   ],
+   "widths": [
+    240,
+    216
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  },
+  {
+   "archive": "patch.pak",
+   "entry": "datadm/1",
+   "line": 5191,
+   "mode": "nsfw",
+   "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
+   "body": "很简单：你把在外头找到的那些花哨芯片带给我，",
+   "drawn": [
+    "很简单：你把在外头找到的那些花哨芯片带给",
+    "我，"
+   ],
+   "widths": [
+    240,
+    24
+   ],
+   "split_pairs": [
+    "给我"
+   ],
+   "english": "* It's simple: You bring me those fancy chips you find out there,"
+  }
+ ]
+}
