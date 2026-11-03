@@ -1,0 +1,27 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P11-D001	ds	B	idiom	SCa191a26dfea10b1b	CAT:O9010771abd98e02c7a02	apply	  Tomcat: 那只是你自己吧……	「那只代表你自己」是 speak for yourself 的字面直搬，「那只」还会被读成指动物；改成口语的反驳。
+ds:P11-D002	ds	B	term	SC2bc179fce1763ce8	CAT:O98edb90efca757487399	apply	  Bossu: 那只大壮兽会清楚地表明他什么时候要喷火。	同一批的说明行都把 BIGBOLD 作「大壮兽」（本批另有 4 处），只有这行留英文 BOLD。
+ds:P11-D004	ds	B	relationship	SC63a7dda9230984d6	CAT:O069946674a43ed93f561	apply	  Tomcat: 起来！让你的姐姐看看怎么战斗	`datadm` 侧是姐、`datadf` 侧是弟弟，两侧称谓镜像；兄弟侧已作「让你弟弟见识见识」，姐侧不能写成「手足」。
+ds:P11-D005	ds	B	idiom	SC6ebc44af56315aae	CAT:O7ad57f1f82234f18d35b	apply	  Mauser: 在这种大仗之前，我本该先囤点食物的！	「我本来会…先囤好食物」把虚拟语气与语序都直搬；改后仍是同一条战前建议。
+ds:P11-D006	ds	B	term	SCa5a7c5707cdbcce9	CAT:Oee8233a83644a9ca58e2	apply	  Bossu: 特工，别忘了观察你的对手。	agent 在库内 471 处作「特工」，「干员」是少数写法；同批 D010 同理。
+ds:P11-D007	ds	C	idiom	SC0caba8df3a488243	SFWc0f61c2d8fd4110bfe1853e7	apply	  Tomcat: 那只是因为你缺少老练的战斗技巧！ 	「缺少一身老练的战斗功夫」量词与搭配都不通；英文源行尾有空格，译文的行尾空格照留。
+ds:P11-D008	ds	B	term	SC3b2099d5bd0f2c4e	CAT:O41324c2fa3ab4b645f8b	apply	  Mauser: 你被一只狼崽揍了！	werepup 在库内作「狼崽」；「小狗」与同批的「小狼崽」自相矛盾。
+ds:P11-D009	ds	C	idiom	SC9ff04682476e6650	CAT:Ob5cb66ca14707e884d5c	apply	  Bossu: 特工，别忘了你练过的本事。	「训练所学」是生造搭配；改后仍指同一件事（练过的本事）。
+ds:P11-D010	ds	B	term	SC71ff6e4858e8dd89	CAT:Oc4365e5925e3a4774344	apply	  Tomcat: 我们知道别的特工在那一片丢了装备。	同 P11-D006：agent 统一作「特工」。
+ds:P11-D011	ds	B	term	SC140ce911455b98f8	CAT:O4652dfce88771c179b02	apply	  Starkill: [...CCC宇宙育种者 ...伊吠SSH伊...]	失真广播里点名的是游戏自己的名字，库内一律作「伊吠」（Yiffai），「伊法」是错字。
+ds:P11-D003	ds	C	format	SC4f6819dbe96dc505	CAT:Ob16cb0bd61ba17d01514	reject		与主代理的行尾空格条目是同一行同一点（英文源行尾没有空格，中文多一个）；取机械条目，避免同一行两条决定。
+R9M-CAT:Ob16cb0bd61ba17d01514	R9M	C	format	SC4f6819dbe96dc505	CAT:Ob16cb0bd61ba17d01514	apply	  Bossu: 关键是务必避免撞上那只大壮兽。它造成的伤害比那里其他任何东西都大。	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O4d34499d0e4cf8a20392	R9M	C	format	SC770fec0c4f6b1250	CAT:O4d34499d0e4cf8a20392	apply	  Bossu: 关键是务必避免撞上那只大壮兽。它伤人比那里其他任何东西都更狠。	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O2d53955f7df0b676cb13	R9M	C	format	SC9927c6868832b955	CAT:O2d53955f7df0b676cb13	apply	  Mauser: 试试先解决掉他的帮手，来减轻压力。	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O489220ee5041766423c6	R9M	C	format	SCb6bad2ea37e20cc4	CAT:O489220ee5041766423c6	apply	  Mauser: 试试先解决掉他的帮手，来减轻压力。	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O44fed4e0e410f766e371	R9M	C	format	SCb8d1e335471472c2	CAT:O44fed4e0e410f766e371	apply	  Mauser: 也许有什么你能摧毁的东西……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O76377b50630c642c4c5f	R9M	C	format	SCd8c413283383ef17	CAT:O76377b50630c642c4c5f	apply	  Mauser: 也许有什么你能摧毁的东西……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:Oab5bf22402355b67d59e	R9M	C	format	SC6ebc44af56315aae	CAT:Oab5bf22402355b67d59e	apply	  Tomcat: 那只是因为你缺少老练的战斗技巧！	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:Of0f541b0c60a476f6c5f	R9M	C	format	SC3b2099d5bd0f2c4e	CAT:Of0f541b0c60a476f6c5f	apply	  Mauser: 也许得靠一大堆黑市食品，可是……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O267219933f47e5f8aad1	R9M	C	format	SC3b2099d5bd0f2c4e	CAT:O267219933f47e5f8aad1	apply	  Mauser: ……又不是每次都中毒……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:Oa8c0f5d2a6690cd9c391	R9M	C	format	SC9a33e92b188977b4	CAT:Oa8c0f5d2a6690cd9c391	apply	  Mauser: 也许得靠一大堆黑市食品，可是……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O1db1fc15adb677bc8474	R9M	C	format	SC9a33e92b188977b4	CAT:O1db1fc15adb677bc8474	apply	  Mauser: ……又不是每次都中毒……	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O152a28483c9ad0c42e63	R9M	C	format	SC18207fafb8047d3f	CAT:O152a28483c9ad0c42e63	apply	  Tomcat: 继续练下去就行了！	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O2366f0208880fc2bdf21	R9M	C	format	SCf3fcb11975b5ba08	CAT:O2366f0208880fc2bdf21	apply	  Tomcat: 继续练下去就行了！	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O70f7c059a1f2841be2fa	R9M	C	format	SC71ff6e4858e8dd89	CAT:O70f7c059a1f2841be2fa	apply	  Tomcat: 找到就是你的！	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。
+R9M-CAT:O5f572ee441bba96114af	R9M	C	format	SC7b318917be661f7a	CAT:O5f572ee441bba96114af	apply	  Tomcat: 找到就是你的！	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动前缀与行尾。

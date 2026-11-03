@@ -1,0 +1,32 @@
+{
+ "batch": "batch-11",
+ "decisions": 26,
+ "applied": 25,
+ "operations": 25,
+ "targets": 3,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "c0067132f7ebdbe3e0c374a72ae3abe9910d96bac089668908f14907545b8e1e",
+   "after_resource_sha256": "abbd8da0b292e83b01ff6f6b753b1855b5995179423cfbd2df01b67b99198c5e",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "86d4223d0eb65d8a2912e772ef85a51df93865744c07e248c252be699fa2fd28",
+   "after_resource_sha256": "c0d9a6dd1ffb389f7b908f947b02d4c51bd2d079b1cd180c1a7fd6554850d861",
+   "targets_changed": 12
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "b6200bbebd2cdd0260072ccfd689e860f27b2f807054af0293ef646097f8aa09",
+   "after_resource_sha256": "84d96a0d59574b8498ec7611741888ac415707b48842e23fa513483f964a8094",
+   "targets_changed": 12
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-11-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate38"
+}
