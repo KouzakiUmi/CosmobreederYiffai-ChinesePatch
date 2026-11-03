@@ -1,0 +1,4008 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-10-part03",
+ "batch_group": "batch-10",
+ "part": 3,
+ "parts": 3,
+ "title": "界面与系统文本（UI 与其他）（第 3／3 部分）",
+ "roots": [
+  "/patchDictionary/navmap",
+  "MauserHints",
+  "MauserHints_Area0",
+  "MauserHints_AreaB",
+  "MauserHints_AreaC",
+  "MauserHints_AreaE",
+  "MauserHints_AreaH",
+  "input",
+  "navmap",
+  "save",
+  "ui"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC01647aedd0d06944",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/patchDictionary/navmap.AreaC",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O13b12f364876afb26b19",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "STRANGE FLORA ACTIVITY",
+     "current": "异常植物活动"
+    },
+    {
+     "row_id": "CAT:O2221e8f93ad13686c25f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - SCE-WEST",
+     "current": "存档站 - SCE-WEST"
+    },
+    {
+     "row_id": "CAT:O9c10c87725daa9c10666",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - SCE-CENTER",
+     "current": "存档站 - SCE-CENTER"
+    },
+    {
+     "row_id": "CAT:Oa553c1d7e78724c8a630",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DARK ENERGY DETECTED",
+     "current": "探测到暗能量"
+    },
+    {
+     "row_id": "CAT:Oa9856d9d1e7edaade272",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - SCE-EAST",
+     "current": "存档站 - SCE-EAST"
+    },
+    {
+     "row_id": "CAT:Oafcc3510c9285348f348",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SCEAFYA",
+     "current": "斯凯菲亚"
+    },
+    {
+     "row_id": "CAT:Of5c879ac3921b5f4be88",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SCEAFYA",
+     "current": "斯凯菲亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0d7b00cbeeb34c42",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/patchDictionary/navmap.AreaE",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O01bd88deeef0861cabcc",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "EXILE",
+     "current": "流放地"
+    },
+    {
+     "row_id": "CAT:O16921a497947e63f5947",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "EXILE",
+     "current": "流放地"
+    },
+    {
+     "row_id": "CAT:O1b89507ae435b0b3f099",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - EXL-NORTH",
+     "current": "存档站 - EXL-NORTH"
+    },
+    {
+     "row_id": "CAT:O6b5cd71b8e8c92690770",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "EQUIPMENT REPAIR BAY",
+     "current": "装备维修舱"
+    },
+    {
+     "row_id": "CAT:O8c4831c54a740a800fb6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - EXL-SOUTH",
+     "current": "存档站 - EXL-SOUTH"
+    },
+    {
+     "row_id": "CAT:O9a3bc423814dda1af3a7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "LOCKED DOORS",
+     "current": "上锁的门"
+    },
+    {
+     "row_id": "CAT:O9a5e84f662b74944db5c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ANCIENT MECHANISM",
+     "current": "古代机关"
+    },
+    {
+     "row_id": "CAT:Oa602bc436700b0ae8017",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "END OF THE LINE",
+     "current": "线路尽头"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3d5d1976087d9ee7",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/patchDictionary/navmap.AreaH",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O84bec3f59550d115c7ec",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SAVE STATION - HANGAR",
+     "current": "存档站 - 机库"
+    },
+    {
+     "row_id": "CAT:O916db4e58f5a03002a6f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HANGAR",
+     "current": "机库"
+    },
+    {
+     "row_id": "CAT:Ob37be4e8cc8dcacc0c03",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HANGAR",
+     "current": "机库"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf6f15f111fcb96d9",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/patchDictionary/navmap.TestArea",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oda0801fc015ebdfadfa7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "TEST",
+     "current": "测试"
+    },
+    {
+     "row_id": "CAT:Oe3ea124cc2b3ef766ac8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "NAV MAP",
+     "current": "导航图"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC067d7faa5d40bda6",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/patchDictionary/navmap.menu",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O132bb05944c4af444b2c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HANGAR",
+     "current": "机库"
+    },
+    {
+     "row_id": "CAT:O1597297105a450d09760",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SCEA-CTR",
+     "current": "SCEA-CTR"
+    },
+    {
+     "row_id": "CAT:O180437ffd7888b244ed3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "--------",
+     "current": "--------"
+    },
+    {
+     "row_id": "CAT:O303dc8769928e64a726a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZER-WEST",
+     "current": "ZER-WEST"
+    },
+    {
+     "row_id": "CAT:O33d43d2a5158c71ff072",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "AYS-NORTH",
+     "current": "AYS-NORTH"
+    },
+    {
+     "row_id": "CAT:O7b376f80fca7d31ddba8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    },
+    {
+     "row_id": "CAT:O968bed359c8ce8303929",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "EXILE",
+     "current": "流放地"
+    },
+    {
+     "row_id": "CAT:Oad2e937a45bf5d752385",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SCEA-WEST",
+     "current": "SCEA-WEST"
+    },
+    {
+     "row_id": "CAT:Od7b8be1fa7f51aaeadd3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "SCEA-EAST",
+     "current": "SCEA-EAST"
+    },
+    {
+     "row_id": "CAT:Oe354d2294e15c2a1832a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "AYS-SOUTH",
+     "current": "AYS-SOUTH"
+    },
+    {
+     "row_id": "CAT:Ofd0089e56fa3c881b2f6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZER-EAST",
+     "current": "ZER-EAST"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbc2143ed432ded2f",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "input.xinput",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW02da35465b9a642044a61773",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT CLICK",
+     "current": "右摇杆按下"
+    },
+    {
+     "row_id": "SFW039c4bf37a761b10c2f18d43",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "START",
+     "current": "START"
+    },
+    {
+     "row_id": "SFW05fd659ba269de4cd0175ad1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DPAD RIGHT",
+     "current": "方向键右"
+    },
+    {
+     "row_id": "SFW0e5581390c8f0809261cb707",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT STICK LEFT",
+     "current": "左摇杆左"
+    },
+    {
+     "row_id": "SFW0ecd7a5a2aa4d647d02f00ed",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "A",
+     "current": "A"
+    },
+    {
+     "row_id": "SFW105601e11badbd9dfdbd025c",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DPAD DOWN",
+     "current": "方向键下"
+    },
+    {
+     "row_id": "SFW10bfbe268647bf4a719ae32a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "L Trigger",
+     "current": "L 扳机"
+    },
+    {
+     "row_id": "SFW14511c32053367c8436f9768",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT STICK RIGHT",
+     "current": "左摇杆右"
+    },
+    {
+     "row_id": "SFW36a18cfb63b1a342ef919b6d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT STICK DOWN",
+     "current": "右摇杆下"
+    },
+    {
+     "row_id": "SFW3bc4d2af51a352dcfb0d99b7",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT STICK LEFT",
+     "current": "右摇杆左"
+    },
+    {
+     "row_id": "SFW4e76e6b2835733f58821beac",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "GUIDE BUTTON",
+     "current": "指南键"
+    },
+    {
+     "row_id": "SFW4ebaf5446e460a90fca0f27e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT STICK UP",
+     "current": "右摇杆上"
+    },
+    {
+     "row_id": "SFW5bab019c86b0bd614efc0680",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT STICK DOWN",
+     "current": "左摇杆下"
+    },
+    {
+     "row_id": "SFW5f2207b75c5fb0e89e332ae2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DPAD UP",
+     "current": "方向键上"
+    },
+    {
+     "row_id": "SFW61056506ac092e59fe37d1b2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT BUMPER",
+     "current": "右肩键"
+    },
+    {
+     "row_id": "SFW67e515faebf6fa8da1105b94",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "R Trigger",
+     "current": "R 扳机"
+    },
+    {
+     "row_id": "SFW7f0689a605bfc96225651a8d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RIGHT STICK RIGHT",
+     "current": "右摇杆右"
+    },
+    {
+     "row_id": "SFW94015b69174152cfc777d196",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "X",
+     "current": "X"
+    },
+    {
+     "row_id": "SFWab3e5dc58203ca266528eca1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "Y",
+     "current": "Y"
+    },
+    {
+     "row_id": "SFWb3adec984d6e8ccf1630ffb2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SELECT",
+     "current": "SELECT"
+    },
+    {
+     "row_id": "SFWbb1cbb9c769c31b47d5b13ee",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "B",
+     "current": "B"
+    },
+    {
+     "row_id": "SFWc687dc817512a094a65bcf32",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT CLICK",
+     "current": "左摇杆按下"
+    },
+    {
+     "row_id": "SFWcff0b44bd715cb5d3509e48b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT BUMPER",
+     "current": "左肩键"
+    },
+    {
+     "row_id": "SFWed5fa4e6e54b061aa3e801c2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DPAD LEFT",
+     "current": "方向键左"
+    },
+    {
+     "row_id": "SFWee3734eb194d30ea54494885",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEFT STICK UP",
+     "current": "左摇杆上"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0ba547b5aa16905f",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "navmap.AreaB",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0621fcbce9ff7581feb7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SAVE STATION - DPB-WEST",
+     "current": "存档站 - DPB-WEST"
+    },
+    {
+     "row_id": "CAT:O1550a958e00d5a9b2210",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EASTERN PASSAGE",
+     "current": "东方通道"
+    },
+    {
+     "row_id": "CAT:O303920ff430e91a9c74b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "UNIQUE BIOSIGNS DETECTED",
+     "current": "探测到独特生物信号"
+    },
+    {
+     "row_id": "CAT:O58ec62daf8a93bca8592",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LARGE LIFEFORM DETECTED",
+     "current": "探测到大型生命体"
+    },
+    {
+     "row_id": "CAT:O69b3ac579704ac003f7e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    },
+    {
+     "row_id": "CAT:O71419fafd26863ef1e54",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SAVE STATION - DPB-EAST",
+     "current": "存档站 - DPB-EAST"
+    },
+    {
+     "row_id": "CAT:O80636a5fb7b1e962815f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SAVE STATION - DPB-NORTH",
+     "current": "存档站 - DPB-NORTH"
+    },
+    {
+     "row_id": "CAT:O83cad9c81b38e3c54b27",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb5bf60cc57f371ef",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.charge_kills",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc2cc8a2bfac0bcc12381",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WAIT FOR IT",
+     "current": "等着瞧"
+    },
+    {
+     "row_id": "CAT:Ocffef815e14d688ca3b8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DEFEAT ENEMIES WITH POWER|ATTACKS...",
+     "current": "用蓄力|攻击击败敌人……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbb67ed190694139a",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.die_15",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW6ea7213ada36d54734fe2431",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DIED 15 TIMES",
+     "current": "死了 15 次"
+    },
+    {
+     "row_id": "SFW960a864556ceacdfa99d3b41",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DIE 15 TIMES ON ONE FILE.",
+     "current": "在一个存档里死 15 次。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf7070f1a357983e0",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.die_18",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od290aacf8e1eeb32e75a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DIED 18 TIMES",
+     "current": "死了 18 次"
+    },
+    {
+     "row_id": "CAT:Oe850b0e93cbe2dc49262",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DIE 18 TIMES ON ONE FILE.",
+     "current": "在一个存档里死 18 次。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6f218852e8e191b2",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.die_low",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5ec8593d143137a4d670",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DIE 3 TIMES ON ONE FILE.",
+     "current": "在一个存档里死 3 次。"
+    },
+    {
+     "row_id": "CAT:O6b9a0672a6923a899e0a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "THIRD TIME'S THE CHARM!",
+     "current": "第三次就成了！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC447b5a90cbdbbe11",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.divekick_bounces",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O8b91770471f04fddab2c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BOUNCE A THOUSAND TIMES...",
+     "current": "弹跳一千次……"
+    },
+    {
+     "row_id": "CAT:O90d2d16b74b96fcf4075",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BOP THE BADDIES",
+     "current": "拍拍坏蛋"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC32933f2be70e05a5",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.fail_buys",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW8a4d7908ef149542c435b3aa",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FAIL TO DO ___ 5 TIMES...",
+     "current": "做 ___ 失败 5 次……"
+    },
+    {
+     "row_id": "SFW933f35a7e032603789b63d1f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "PROVE YOU NEED THE MONEY",
+     "current": "证明你需要这笔钱"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa2a44d4a2f0ac541",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.hack_the_world",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od35fc27ec6b8ae9acb6a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "GET INTO TROUBLE WITH A|CERTAIN HACKER PUP...",
+     "current": "和某只黑客幼犬|惹上麻烦……"
+    },
+    {
+     "row_id": "CAT:Off68387278d5a46e76d7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HELLO WORLD",
+     "current": "HELLO WORLD"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCcd45616510ceff37",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.hack_the_world",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW5ffd0093574fa7dfa5fe5ec9",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HELLO WORLD",
+     "current": "你好，世界"
+    },
+    {
+     "row_id": "SFWcdf3f139d3cfd12aa0cd5c5a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "GET INTO TROUBLE WITH A|CERTAIN HACKER PUP...",
+     "current": "和某只黑客幼犬|惹上麻烦……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC19fe530358a4e005",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement.no_healing",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1f48dd0108b4a1a9e3c6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "GET DEEP INTO TUTONE|WITHOUT USING ___",
+     "current": "深入图托恩|而不使用 ___"
+    },
+    {
+     "row_id": "CAT:Od39fd3caeb686871931d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "COSMO PRO",
+     "current": "宇宙专业"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf7f7156a86810305",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.achievement_popup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW16f9113bf490b5adba0bf1a0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "ACCESS CHEAT MENU BY PRESSING|@EmuButtons",
+     "current": "按 @EmuButtons|打开作弊菜单"
+    },
+    {
+     "row_id": "SFW38d129de41271b193d86d975",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "  NEW CODE AVAILABLE IN THE|         CHEAT MENU!",
+     "current": "  作弊菜单里|有新代码可用！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC22e0c4324aec8ffe",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O99373d9e2af92ebc4883",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OBSERVE",
+     "current": "观察"
+    },
+    {
+     "row_id": "CAT:O99c833ae9b07367d8e06",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EXIT",
+     "current": "退出"
+    },
+    {
+     "row_id": "CAT:Oa06fc2fc1332c9fe5cec",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PET",
+     "current": "抚摸"
+    },
+    {
+     "row_id": "CAT:Ob0ceb9f73d4ed6dbd3e6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "USE ITEM",
+     "current": "使用物品"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8c99ea1b97620c53",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW11a4fb87b7de28edc71dc78d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "PET",
+     "current": "抚摸"
+    },
+    {
+     "row_id": "SFW508d2311a6d6a6a8eb0680fc",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "USE ITEM",
+     "current": "使用物品"
+    },
+    {
+     "row_id": "SFW58887a5310ae4c030e7a1cb1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "OBSERVE",
+     "current": "观察"
+    },
+    {
+     "row_id": "SFWfcf6e4c537e5f071f079a6ec",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EXIT",
+     "current": "退出"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC47692804d6c441c2",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Barker.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O45da24fb05be7a9fe031",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    },
+    {
+     "row_id": "CAT:O883e27911cfb0928f34b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    },
+    {
+     "row_id": "CAT:Oa259c9fc12e12d9123c6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    },
+    {
+     "row_id": "CAT:Ofde90a0ab4759578b8d9",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCafc4c61c8a0f25d8",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Barker.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW2fc4277766689512a2300f6d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    },
+    {
+     "row_id": "SFW8af885f296684daf0b3b588b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    },
+    {
+     "row_id": "SFW99b26b582fd0c3fecddc108e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    },
+    {
+     "row_id": "SFWfca2a1019e78f50f0936a948",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC31409fd0d39f80f7",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Bigbold.affinity",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW2797a0fe7799c631b8d54ce5",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE BIGBOLD THUMPS HIS CAGE|SHAKING THE WHOLE HANGAR.|THAT'S A LITTLE SCARY!",
+     "current": "大壮兽捶着笼子，|把整座机库都震了。|有点吓人！"
+    },
+    {
+     "row_id": "SFW51bc5ac342f3f7facbf4996c",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE BIGBOLD RUMBLES HAPPILY|WHENEVER YOU'RE NEARBY.|WHAT A WONDERFUL PET!",
+     "current": "只要你在附近，|大壮兽就高兴地咕噜。|真是棒极了的宠物！"
+    },
+    {
+     "row_id": "SFW63a6c77688723e7dbdc579e0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE BIGBOLD'S NOSTRILS CURL|SMOKE, HIS LAUGHTER SPITTING|OUT LITTLE EMBERS.",
+     "current": "大壮兽的鼻孔|卷着烟，笑声里|喷出小火星。"
+    },
+    {
+     "row_id": "SFWae9c46eda63c302fcfdf8f21",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE BIGBOLD RELAXES IN HIS|CAGE. HE COULD BREAK OUT,|BUT HE'S TOO LAZY.",
+     "current": "大壮兽在笼子里|放松。他本可以挣脱，|但他太懒了。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf4bb684281b67773",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Dwarf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of5fa3b5cb8126d167b09",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DWARF",
+     "current": "矮人"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC90869035da22d7e4",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Dwarf.affinity",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW0975d285c2f0839c171fa1f4",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE DWARF WANTS NO TREASURE|BEYOND YOUR COMPANIONSHIP.|WHAT A WONDERFUL PET!",
+     "current": "矮人不要财宝，|只要你的陪伴。|真是棒极了的宠物！"
+    },
+    {
+     "row_id": "SFW2beee45f7aef1b5fd75bb511",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE DWARF WAGS HIS STUMPY|TAIL AS YOU APPROACH, EAGER|FOR YOUR ATTENTION.",
+     "current": "矮人在你走近时|摇着短尾巴，急切|想要你的关注。"
+    },
+    {
+     "row_id": "SFW7878ff58bb20f8b7b537a47f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE DWARF GRUMBLES ABOUT HIS|ACCOMMODATIONS, BUT OFFERS|YOU A GRUFF SMILE.",
+     "current": "矮人抱怨住处，|但给了你一个|粗声的笑。"
+    },
+    {
+     "row_id": "SFW80eabb371189ba6c3c8be8e1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE DWARF GLOWERS THROUGH|THE BARS, CHALLENGING YOU TO|MEET HIS GAZE.",
+     "current": "矮人透过栏杆怒视，|挑衅你|与他对视。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2211ecbfba9805cb",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Dwarf.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob5bbac22bd8e87a20a0a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    },
+    {
+     "row_id": "CAT:Obc5c084e4ce01bb99fc2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    },
+    {
+     "row_id": "CAT:Oc1fa45b3259bdb3a6d84",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    },
+    {
+     "row_id": "CAT:Oc57fd88b26f249aadf45",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9915756060774938",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Elf.affinity",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW124924897e6a5458fca983fc",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE ELF GAZES UPON YOU WITH|COOL DISDAIN. WHAT ARE YOU|TO A REGAL BEING LIKE HER?",
+     "current": "精灵用冷淡的轻蔑|看着你。对她这样的|高贵存在，你算什么？"
+    },
+    {
+     "row_id": "SFW34d7bb81ec8afc794ff863e0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE ELF PRACTICES FENCING,|INVITING YOU TO JOIN. SHE'LL|BEST YOU IN MERE SECONDS.",
+     "current": "精灵在练剑，|邀请你加入。她|几秒就能胜过你。"
+    },
+    {
+     "row_id": "SFW68d9d1457bbdacda30756aba",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE ELF'S TAIL TWITCHES. SHE|HAS AN ELFISH NAME FOR YOU.|YOU CAN'T PRONOUNCE IT.",
+     "current": "精灵的尾巴抽动。她|给你起了个精灵名字。|你念不出来。"
+    },
+    {
+     "row_id": "SFWa28784671dadad52f12b0cf1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE ELF SINGS A FRIENDSHIP|SONG IN STRANGE SWEET WORDS.|WHAT A WONDERFUL PET!",
+     "current": "精灵用奇怪而甜美的|词唱起友谊之歌。|真是棒极了的宠物！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6cd672a2f6e92cf0",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Elf.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0f03661d30b289f40416",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHE'S ACCEPTING TRIBUTES AND|WILL ALLOW YOU TO BRUSH HER.",
+     "current": "她接受贡品，而且|会允许你给她梳毛。"
+    },
+    {
+     "row_id": "CAT:O2ef565531a2973754ed6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHE'S ACCEPTING TRIBUTES BUT|WILL NOT GRANT AN AUDIENCE.",
+     "current": "她接受贡品，但|不会给予接见。"
+    },
+    {
+     "row_id": "CAT:O471cc7b0d2695a6b16d3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHE HAS ALL SHE DESIRES, AND|WILL NOT GRANT AN AUDIENCE.",
+     "current": "她已拥有一切所求，|不会给予接见。"
+    },
+    {
+     "row_id": "CAT:O7b1a717f8babac84cb39",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHE HAS ALL SHE DESIRES, BUT|WILL ALLOW YOU TO BRUSH HER.",
+     "current": "她已拥有一切所求，但|会允许你给她梳毛。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC96b2312ab4857a17",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Kobold",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob578e3a2f979b48a1c7a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KOBOLD",
+     "current": "科博德"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC58ccd1b993ca1ca5",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Kobold.affinity",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW15a19b12854acc3aec7db2c1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE KOBOLD SNARLS, BARING|HIS SHARP TEETH. HE WANTS|TO PUT *YOU* IN A CAGE!",
+     "current": "科博德咆哮着，|露出尖牙。他想|把*你*关进笼子！"
+    },
+    {
+     "row_id": "SFW28a02cdeb21454bb0c1e793e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE KOBOLD SNICKERS SOFTLY.|IS HE SCHEMING SOMETHING, OR|JUST HAPPY TO SEE YOU?!",
+     "current": "科博德轻声窃笑。|他在密谋什么，还是|只是见到你高兴？！"
+    },
+    {
+     "row_id": "SFWb62610a60cd111d1800a1671",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE KOBOLD CURLS UP,|BASKING IN YOUR PRESENCE.|WHAT A WONDERFUL PET!",
+     "current": "科博德蜷在你身边，|惬意地享受着你的陪伴。|真是个好宠物！"
+    },
+    {
+     "row_id": "SFWf58fb0e19d270c5744164ef6",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE KOBOLD TILTS HIS HEAD|IN CURIOSITY. HE'S STARTING|TO FAVOR YOUR SCENT.",
+     "current": "科博德好奇地|歪着头。他开始|偏爱你的气味。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC76d77e01bf5c03e5",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Omegobin",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6dad1b4a6e6ea5c8ab33",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OMEGOBIN",
+     "current": "欧米茄哥布林"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC23f51744e6ec8aa8",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Omegobin.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW11198f040b659e5079c34599",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    },
+    {
+     "row_id": "SFW810b9f72122d4d9e421f6834",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    },
+    {
+     "row_id": "SFW8830c3ec3ac8dac822654a13",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    },
+    {
+     "row_id": "SFWbb3dfb635ce19c58f1dc976a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb61df3ce031f43dd",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Squeaker.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1d497d5e5abc958eb790",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    },
+    {
+     "row_id": "CAT:O5b71cf1a28c03c4bd558",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    },
+    {
+     "row_id": "CAT:Obf96826f47193888c898",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    },
+    {
+     "row_id": "CAT:Of63238e94892cf6eade6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC35e4747ae6cf61f2",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Squeaker.needs",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW597c4e5ff8f09c88c5a89e9a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, AND|WOULD RATHER BE LEFT ALONE.",
+     "current": "他这会儿吃饱了，|宁可别人别来烦他。"
+    },
+    {
+     "row_id": "SFW7cfbff3092211d1e6ce10c4b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S WELL FED FOR NOW, BUT|STILL WANTS YOUR ATTENTION.",
+     "current": "他这会儿吃饱了，但|还是想要你的关注。"
+    },
+    {
+     "row_id": "SFW902fb1832f5434031e10c5b4",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, AND|IS EAGER FOR YOUR ATTENTION.",
+     "current": "他舔着嘴，而且|急切想要你的关注。"
+    },
+    {
+     "row_id": "SFWb8ff35df45ddba4b3f3ac1e3",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HE'S LICKING HIS CHOPS, BUT|DOESN'T WANT TO BE PET.",
+     "current": "他舔着嘴，但|不想被抚摸。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC84789d17b00f0f85",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Swiper",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5a134b514d9afefa557e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SWIPER",
+     "current": "挥爪"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCdca9ae7e45afa7b9",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.breeding.Swiper.affinity",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW55c663bd17549c6c9b846041",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE SWIPER PURRS POLITELY,|SHEATHING HIS MURDER MITTENS|AT YOUR APPROACH.",
+     "current": "你一走近，挥爪便|客气地打起呼噜，|收起那双凶爪。"
+    },
+    {
+     "row_id": "SFW8bb176e14d5c10704039997a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE SWIPER CURLS HIS TAIL|INTO A QUESTION MARK, AS IF|ASKING YOU 'WHAT NOW?'",
+     "current": "挥爪把尾巴卷成|问号，仿佛在问你|'现在怎样？'"
+    },
+    {
+     "row_id": "SFWaaedd2aa397476243ee7f3ab",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE SWIPER STUDIOUSLY AVOIDS|YOUR GAZE. YOU MIGHT AS WELL|NOT EXIST AT ALL...",
+     "current": "挥爪刻意避开|你的目光。你简直|像根本不存在……"
+    },
+    {
+     "row_id": "SFWad204455895f5b10dc757f9e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THE SWIPER GREETS YOU WITH|A LOW, ADORABLE MEOW.|WHAT A WONDERFUL PET!",
+     "current": "挥爪用一声低低的、|可爱的喵迎接你。|真是棒极了的宠物！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5ff67c2906d99e47",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardBarker",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4969ab04b3abd155a283",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BARKER   <FAUNA>",
+     "current": "吠犬  <动物>"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9bf3f6d0409a3a83",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardBigbold",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O41e37c4d17614cd907e2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BIGBOLD  <ALPHA>",
+     "current": "大壮兽  <阿尔法>"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2732d58d343c712f",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardBigbold.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O8b2646eb20923e4ae959",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "The Bigbold is  | large, imposing,| and more than   | capable of best-| ing most agents | in single combat| unless an agent | maneuvers around| the lumbering   | giant's slow at-| tacks and flames",
+     "current": "大壮兽体型|巨大、唬人，|而且单挑|足以击败|大多数特工，|除非特工|绕开这|迟缓巨人的|慢速攻击|和喷出的|火焰。\n"
+    },
+    {
+     "row_id": "CAT:O9b85a59761075e89f47e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Another large & | imposing part of| the Bigbold is  | the well endowed| malehood that   | they possess.   | Agents that are | able to handle  | the size of the | beast are known | to find a great | pleasure in the | nubs that stud  | the stud's cock.",
+     "current": "另一处又大|又唬人的，|是大壮兽|所拥有的|那根天赋异禀的|雄性器官。|能应付|这野兽尺寸的|特工，|据说会从|种马鸡巴上|密布的肉突里|得到|极大快感。\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC829d7781edba6e18",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardBigbold.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW80a5bc90d787d4057550b6e5",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "The Bigbold is  | large, imposing,| and more than   | capable of best-| ing most agents | in single combat| unless an agent | maneuvers around| the lumbering   | giant's slow at-| tacks and flames\n",
+     "current": "大壮兽体型|巨大、唬人，|而且单挑|足以击败|大多数特工，|除非特工|绕开这|迟缓巨人的|慢速攻击|和喷出的|火焰。\n"
+    },
+    {
+     "row_id": "SFWc72f0e472e0936222552f29a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "| | | | | | | | | | | | |\n",
+     "current": "| | | | | | | | | | | | |\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC021a968dd3397402",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardDragon.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O48e0a6d2a2232acd10f7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "...but those are| only legends!   |\n                |\nThe fenfen ESPer| Sevaw defended  | himself from the| various evil-   | doers around by | summoning up an | apparition based| on the stories  | that he heard   | while just a wee| little kit.",
+     "current": "……不过那些|只是传说！|\n                |\nFenfen超能力者|Sevaw|靠召唤|一个幻影，|抵御周围|各种恶人。|幻影基于|他还是|小幼崽时|听来的|故事。     \n"
+    },
+    {
+     "row_id": "CAT:Odf64f9c93d5b342e2ba5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Legends say that| the mines known | as \"Ayskammr\"   | once were home  | to large and    | fearsome beasts | whose breath of | fire rendered   | the underground | itself into lava| and brimstone.",
+     "current": "传说称，|如今名为|\"艾斯卡姆尔\"的|矿井，|曾是巨大|可怖野兽的|家园。它们的|火焰吐息|把地下|变成了|熔岩与硫磺。  \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9231f64847279bc2",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardDragon.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW9ba2d5173a429bec167e7fb8",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "| | | | | | | | | | | | |\n",
+     "current": "| | | | | | | | | | | | |\n"
+    },
+    {
+     "row_id": "SFWb5a8e7c399c9e8b525137b95",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "Legends say that| the mines known | as \"Ayskammr\"   | once were home  | to large and    | fearsome dragons| and the Fenfen  | Elder Sevaw used| those stories as| the basis for a | firey projection\n",
+     "current": "传说名为|“艾斯卡姆尔”的|矿井曾是|巨大而可怕的|龙的家园。|芬芬长老|Sevaw便|以这些传说|为基础，|创造了烈焰|投影。\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC380f375dfc1b8ea7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardElf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oeaf9eb582969d1dfb72d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ELF      <FAUNA>",
+     "current": "精灵  <动物>"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC53aac06e5c71ce21",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardElf.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2020f2e5563fe3463016",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Despite being a | species of only | females, Elves  | don't show any  | signs of a popu-| lation decline. | This is thanks  | to their ability| to interbreed   | with practically| any species.    | Sometimes, even | taking prisoners| for just that...",
+     "current": "尽管是|只有女性的|种族，精灵|却没有|种群衰退的|迹象。这要|归功于她们|能和几乎|任何种族|杂交。有时|甚至抓俘虏，|就是为了|这一件事|……\n"
+    },
+    {
+     "row_id": "CAT:Oe6d8afac1c85382ceb3e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Reclusive shadow| dwellers, Elves | have given up   | on interstellar | trade and indeed| almost all con- | tact with other | worlds, prefer- | ing to reside in| their ancient   | lush forest home",
+     "current": "隐居的|暗影住民。|精灵已放弃|星际贸易，|也几乎断绝|与其他世界的|一切联系，|宁愿住在|古老繁茂的|森林|家园。\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC82495adafc04ff45",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardEnelye.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O33d205e8c3d2c6695fbb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "High Lady of the| Elves, Enelye is| unmatched in her| magical prowess.| Undaunted by the| recent events on| Tutone, she has | allowed the more| youthful Elves  | to practice com-| bat in the woods",
+     "current": "精灵的|高阶女士|恩莉耶，|魔法造诣|无人能及。|图托恩|近来的变故|没有吓倒她。|她让更年轻的|精灵在林中|练习战斗。\n"
+    },
+    {
+     "row_id": "CAT:O465fc7ed2d94b0d91e1a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Despite being an| ageless entity, | Enelye is not   | immune to mund- | ane physical    | desires. After a| round of combat | she (like most  | elves) enjoys a | round of mating | if she's found  | her opponent to | be worthy.      |\n                |",
+     "current": "尽管是|不老的存在，|恩莉耶|也无法免疫|凡俗的|肉体欲望。|一轮战斗后，|她（和大多数|精灵一样）|若觉得对手|配得上，|就享受一轮|交配。      |\n                |\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC39e0ed684fb9a5dc",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardOmegobin.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW55b83874b401f82525e726fe",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "| | | | | | | | | | | | |\n",
+     "current": "| | | | | | | | | | | | |\n"
+    },
+    {
+     "row_id": "SFW80ed9fd89b5952abcd2f2f39",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "Dangerous,      | aggressive and  | primitive, the  | Omegobins were  | once united by a| dark & powerful | ruler. However, | such a figure   | has long since  | vanished from   | known history...\n",
+     "current": "危险、好斗|又原始的|欧米茄哥布林，|曾在一位|黑暗而强大的|统治者麾下|团结一心。|然而，此人|早已消失在|已知的历史|长河之中……\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf7c47b51ca066821",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardRedbull",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2c02639e013491d6e51f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "REDBULL  <ALPHA>",
+     "current": "红牛  <阿尔法>"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC34e9b3eac8d1a51a",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardSqueaker.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O58e511e31dd487ac79e2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A small and wily| rodent species  | that is known to| steal from unsu-| specting agents.| While not much  | of a threat when| solo their speed| and aggression  | may be trouble  | for new agents.",
+     "current": "一种瘦小狡黠的|啮齿种族，|会偷没有防备的|特工的东西。|单独时|威胁不大，|但速度和|攻击性|可能给|新特工|带来麻烦。 \n"
+    },
+    {
+     "row_id": "CAT:Od10556ef3579f09619cf",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "While dimunitive| in size, the    | Squeaker phallus| should not be   | underestimated. | The species has | no refractory   | period after    | ejaculations and| can continue to | rut endlessly   | for hours at a  | time!",
+     "current": "尽管尺寸|很小，|吱吱怪的阴茎|也不该被|低估。该种族|射精后|没有|不应期，|并能继续|无尽地|交媾，|一连|数小时！ \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC69b15ba325c6d92a",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardSqueaker.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW3bbdf33dcd2aaed2d7b67b14",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "| | | | | | | | | | | | |\n",
+     "current": "| | | | | | | | | | | | |\n"
+    },
+    {
+     "row_id": "SFW42318498dcfb8f0c7d746570",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "A small and wily| rodent species  | that is known to| steal from unsu-| specting agents.| While not much  | of a threat when| solo their speed| and aggression  | may be trouble  | for new agents. \n",
+     "current": "一种瘦小狡黠的|啮齿种族，|会偷没有防备的|特工的东西。|单独时|威胁不大，|但速度和|攻击性|可能给|新特工|带来麻烦。 \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbf533bd5bafe4ae9",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardStarkill.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O82a56ce805b52535c797",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Traeh, a former | elder of the    | Fenfen council, | had only traces | of her power re-| maining after   | being sealed in | a crystal prison| for years. But, | even with little| power left...",
+     "current": "Traeh曾是|Fenfen议会的|长老，|被封在|水晶监狱|多年之后，|她的力量|只剩痕迹。|但是，即便|剩下的力量|已经很少……   \n"
+    },
+    {
+     "row_id": "CAT:Of88eb855995c79b48222",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "...she still    | posed a threat  | to all of Tutone| and it's people.| Only a single   | touch by a curi-| ous interloper  | would be all she| needed in order | to once again   | put her dark    | plans to action | and build up an | army once more.",
+     "current": "……她仍然|对整个图托恩|及其人民|构成威胁。|只要一个|好奇的闯入者|碰她一下，|就够她|再次把|黑暗计划|付诸行动，|并再次|建立起|一支军队。 "
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc5d48724dedbf60c",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardSwiper",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of38f75c773187f8551eb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SWIPER   <FAUNA>",
+     "current": "挥爪  <动物>"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd1604a5e213330b8",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardSwiper.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6c840239cc755c02926d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Bulky and slow  | (unusual for a  | feline species) | the Swiper is   | only a danger if| passed directly | in their front. | They will not   | hesitate to claw| the way clear in| front of them!",
+     "current": "又壮又慢|（对猫科来说|很不寻常）。|挥爪只有在|有人从正面|直接经过时|才危险。|它们会毫不犹豫|用爪子|清开面前的路|！\n"
+    },
+    {
+     "row_id": "CAT:Oaf2dc898dc09544cf751",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "Covered with    | front-facing    | barbs, the penis| of the Swiper   | is known to have| many agents as  | fans. Soft and  | pliable, the    | barbs act to st-| imulate agents  | in exciting ways| while the cat's | thick legs allow| invigoratingly  | hard thrusting.",
+     "current": "挥爪的阴茎|长满朝前的|肉刺，|据说很受|不少特工欢迎。|这些肉刺|柔软可弯，|能给特工带来|令人兴奋的|刺激；|它粗壮的双腿|则能支撑|猛烈的抽插，|让人倍感|畅快。 \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC778967b657489a40",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardWerehund.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW5800ff7aa94b4997a5543573",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "| | | | | | | | | | | | |\n",
+     "current": "| | | | | | | | | | | | |\n"
+    },
+    {
+     "row_id": "SFWdc7c6c0e20e604ae80a997fe",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "A strong warrior| that had no nat-| ural affinity of| ESPer abilities,| the Werehund ga-| ined the power  | to transform    | back and forth  | from a feral to | an anthro thanks| to an ESPer wife\n",
+     "current": "一位强悍战士，|本没有|超能力的|天赋。狼犬|获得了在|兽形与拟人|之间来回|变化的力量，|多亏一位|超能力者|妻子。\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC720db0c0154bf46e",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.card.CosmoCardWerepup.desc",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW6cde82d3ec4c455797c44e6b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "werepup|\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n   back\n",
+     "current": "狼崽|\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n       |\n   背面\n"
+    },
+    {
+     "row_id": "SFW985f68acaddc1a8891203ea2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "The offspring of| an ESPer and a  | typical Fenfen, | the Werepup has | a natural affin-| ity for shape   | shifting powers | which has helped| it avoid capture| during turbulent| times.          \n",
+     "current": "一名|超能力者与|典型Fenfen的|后代。狼崽|对变形能力|有着天然|亲和。这|帮助它在|动荡时期|避开了|捕捉。          \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC566673d859a83715",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW57bcc8a0d01e93d18aeedd81",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LOAD CODESET",
+     "current": "载入代码组"
+    },
+    {
+     "row_id": "SFW6d3ad430ffd183067222fce4",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "CANCEL & RETURN TO GAME",
+     "current": "取消并返回游戏"
+    },
+    {
+     "row_id": "SFW94b9d9520b0676e8feafd06b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SAVE CHANGES AND RESET GAME",
+     "current": "保存更改并重置游戏"
+    },
+    {
+     "row_id": "SFWc0ad0992942a7d318b8297ff",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SAVE CODESET",
+     "current": "保存代码组"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC92eb9c16f7e02108",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats.alwaysOn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3714b622a431770bd82c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "AUTO LOAD YOUR SAVED CODESET|WHEN STARTING THE GAME.",
+     "current": "启动游戏时|自动载入已存的代码组。"
+    },
+    {
+     "row_id": "CAT:Oa0e02909d71cbdc3074e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ALWAYS ON MODE: FALSE",
+     "current": "始终开启模式：关闭"
+    },
+    {
+     "row_id": "CAT:Oc3972c16b3a6d41dc020",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ALWAYS ON MODE: TRUE",
+     "current": "始终开启模式：开启"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4bd52ee11ddd0bb1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats.cancelAndReturn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3461cffa39171f483e9f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DISCARD THE CHEAT CODES AND|RETURN TO THE GAME WITHOUT|RESETTING.",
+     "current": "丢弃这些作弊码，|不重置，就|返回游戏。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC44e7bb70bbbbd2b1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats.emptyPreset",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2c0aec33bf8ae343e7ce",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "THIS CODE ISN'T IH THE GAME|YET. IT WILL BE ADDED IN A|FUTURE VERSION.",
+     "current": "这代码还不在|游戏里。将在|未来版本加入。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC895a9afa9d5e33c3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats.enterCheat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od67ff90900a0a0790f7b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ENTER A CHEAT CODE USING|LEFT, RIGHT, AND CONFIRM.|PRESS BACK WHEN DONE.",
+     "current": "用左、右和确认|输入作弊码。|完成后按返回。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC43e0e7faf2cf663f",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.cheats.pasteCheat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O901c4549152d449e98da",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SELECT A CODE LINE TO PLACE|YOUR SELECTED CHEAT CODE.",
+     "current": "选择一行代码，放入|你选中的作弊码。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2d57a453ea29d544",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.exit",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWc9fc522291fdfff4bebb5f46",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EXIT MEMORIES MENU",
+     "current": "退出回忆菜单"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC87699368a000005b",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_AgentF03",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O8f8a542f2d29d6eef3a3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A SHY SCOUT LEARNS THE JOYS|OF DATA COLLECTION.",
+     "current": "害羞的侦察兵|体会到了数据采集的乐趣。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5c8525e545938d5d",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_AgentF04",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O640bb8846da952683d20",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "NOTHING CAN SATISFY|THIS NEEDY RACCUNNY!",
+     "current": "什么都满足不了|这只渴求的浣兔！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa453960effb5d140",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_AgentF07",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ofe9852221ac86a61c6a4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHE MAY BE SPOTTY BUT HER|DATA GATHERING SURE ISN'T!",
+     "current": "她也许一身斑点，但|采集数据可一点不马虎！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCca840849a7e0abab",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_ClassicBigbold",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O28e1fcfd3d9d56c689ee",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "THE FIRST ENCOUNTER WITH|A GREAT PIECE OF DATA!",
+     "current": "第一次遭遇|一份了不起的数据！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC695574fef93d348f",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_ClassicBigboldV2",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW5298c69aa4e8ba6bee15825a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FINISHING BUSINESS AFTER A|WINDING CHASE...",
+     "current": "漫长追逐之后，|该做个了结了……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCaff6e73d3da006ce",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_ClassicBossRedbull",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oa82e00c01c4d155c2e89",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "AN ILLUSORY VICTORY GRANTS|A BOUNCY BOON!",
+     "current": "虚幻的胜利带来|一份会弹的好处！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1c6bb8c065b63e86",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_ClassicWerepup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O200bab53d25e977893d4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "REMINISCING AND HESITATING |AFTER DEFEATING A SMALL PUP!",
+     "current": "击败小狼崽之后，|回忆涌上心头，又迟疑起来。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8de58fd4e19fed0b",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_ClassicWerepup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWf7946d01dbe6790d809b17da",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "MAKING FRIENDS WITH A PUPPY|AFTER GIVING HIM A WALLOP!",
+     "current": "击败小狼崽之后，|回忆涌上心头，又迟疑起来。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC74ce8b4d0ea95f1d",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_EndingGood",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O54f1a8f5f81331388117",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WITH THE EVIL VANQUISHED|OUR VICTORIOUS HEROES RETURN",
+     "current": "邪恶被消灭后|我们凯旋的英雄归来"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbe18d9e60f35a62b",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_GameOverAreaA",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O9acc36d1ae9aac35ada4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DEFEATED, BUT AT LEAST THEY|ARE STILL SOUND OF MIND...?",
+     "current": "战败了，但至少他们|神智还清醒……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCff66aeccebc5f999",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.f_GameOverAreaB",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O731ba8e10998a4e85c22",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EXPERT BITCHES CAN ONLY TAKE|SO MUCH TEASING BEFORE...",
+     "current": "再老练的母狗|也经不起一再撩拨…… "
+    }
+   ]
+  },
+  {
+   "scene_id": "SC433aa47e8a132ad2",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_AgentM03",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oa56e3dac0401e40cf538",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "IT'S NO LAUGHING MATTER|FOR THIS HYENA TOP AGENT!",
+     "current": "对这位鬣狗上位特工|可不是什么笑料！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC21fefe59ec8bd90b",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_AgentM08",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ofac15312bf142581e347",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "AGENT-TURNED-SLAVE VULPINE|SHOWS HE CAN OUTFOX EM ALL|UNTIL A STRANGER APPEARS...",
+     "current": "沦为奴隶的狐族特工|智胜众人、大显身手，|直到一位陌生人现身……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC284a76019b5c5f6c",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_AgentMZ1",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O24b1eeb2e2bf31dfc054",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PART 1 OF THE FENFEN STORY.|$IN YOUR MIND, THIS ECHOES:|$[STAR BETWEEN CROSS &SQUARE]",
+     "current": "Fenfen故事第1部分。|$在你脑中回响着：|$[星星在十字与方块之间]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6596e1ec9da191f3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_AgentMZ2",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od1d94e0cd631d8f7bbce",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PART 2 OF THE FENFEN STORY.|$IN YOUR MIND, THIS ECHOES:|$[TRIANGLE COMES FIRST]",
+     "current": "Fenfen故事第2部分。|$在你脑中回响着：|$[三角排在最前]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6b2861535638b4b7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_AgentMZ4",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O43fb7aeb11600ff9ac56",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PART 4 OF THE FENFEN STORY.|$IN YOUR MIND, THIS ECHOES:|$[CIRCLE IS AFTER TRIANGLE]",
+     "current": "Fenfen故事第4部分。|$在你脑中回响着：|$[圆圈在三角之后]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC00b51fe934566caf",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_ClassicEnelye",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oaa9be29c3c0255e55c64",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "THE HIGH LADY BESTOWS HER|BEAUTIFUL GIFT...",
+     "current": "高阶女士赐予了她的|美丽赠礼……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7c820434ca19a6e5",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_ClassicWerehund",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWcd394f24636889dd2dcf4eb2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LEARNING A VALUABLE LESSON|AND A NEAT NEW SKILL!",
+     "current": "学到宝贵的教训，|还有一项厉害的新技能！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3d48b3ab8dd93516",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_EndingGood",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O75b5358fea5de7ca165a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WITH THE EVIL VANQUISHED|OUR VICTORIOUS HEROES RETURN",
+     "current": "邪恶被消灭后|我们凯旋的英雄归来"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa6246df91b185936",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.data.m_GameOverAreaB",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O08baca952864196ac0bc",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WHAT'S IT LIKE TO BE CAUGHT|BY THE EVIL KOBOLD PIRATES?",
+     "current": "被邪恶的科博德海盗|抓住是什么感觉？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc8e7b48287cde7c6",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW11fffe1934ee5f566db4dab8",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "     TECHNOLOGIES PTY LTD.      ",
+     "current": "     科技私人有限公司。      "
+    },
+    {
+     "row_id": "SFW27912e7c4b434a1cf008269e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW29d2aab6a0d1d6088e6fc391",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "        DESIGN & GRAPHIC        ",
+     "current": "        设计与美术        "
+    },
+    {
+     "row_id": "SFW4b412d61afc5cf2c35ace287",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "    PROGRAM       MUSIC         ",
+     "current": "    程序制作       音乐         "
+    },
+    {
+     "row_id": "SFW4ef0d94ee90867f2faa6b2ca",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "    FMOD STUDIO BY FIRELIGHT    ",
+     "current": "   FMOD STUDIO，由 FIRELIGHT 开发   "
+    },
+    {
+     "row_id": "SFW5194bd5bca685932e773b879",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "           HARMARIST            ",
+     "current": "           HARMARIST            "
+    },
+    {
+     "row_id": "SFW5a3647a57760fec1a6c2a1ea",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWa0df7613c27fd07121415a6f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWa861edaadb089127d6dceb74",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "      KITANESS      MR.SATURN   ",
+     "current": "      KITANESS      MR.SATURN   "
+    },
+    {
+     "row_id": "SFWc2563677ab24d17e268a2871",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC04b2b885330c22bc",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.BadEnding",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O690bbbd2a7957dbd6baf",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TRAEH IS",
+     "current": "                     Traeh还   "
+    },
+    {
+     "row_id": "CAT:O8fa6eeff385fba0d26a6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "THERE...",
+     "current": "                     那里……   "
+    },
+    {
+     "row_id": "CAT:Obb31d2725a7094548d73",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "STILL OUT",
+     "current": "                     在外面  "
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9cadfe018ff5e006",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.Tier1",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O33cd0854ed88a9d8ac80",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "*!                  NICE TRY !",
+     "current": "*!                  不错的尝试！"
+    },
+    {
+     "row_id": "CAT:O671815346a2cc40e9c7b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "NOT BAD FOR",
+     "current": "                    对新手来说"
+    },
+    {
+     "row_id": "CAT:O92b0934f82374745d8c8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "*!                  TRAINEE",
+     "current": "*!                  见习"
+    },
+    {
+     "row_id": "CAT:Obcf74825197125c80c32",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RANK",
+     "current": "                    评级"
+    },
+    {
+     "row_id": "CAT:Oe97a5236ce079bedb87f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BEGINNER !",
+     "current": "                     还不错！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC77f7c7e2b099bbf4",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.Tier2",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW325f911b4b12d4371802f447",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW4f332068b339a7edd68be82b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                  GOOD JOB !",
+     "current": "*!                  干得漂亮 !"
+    },
+    {
+     "row_id": "SFW63487d54a15e7cf948c5ff57",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW805dceb64e746183c17af8bd",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWafba48b580d84f9af4c91c04",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                     GO FASTER?",
+     "current": "                     跑得更快吗？"
+    },
+    {
+     "row_id": "SFWb411d872444b0433eeab8388",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWd6ed335d8fbb2b8c16c54e9d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                  PRIVATE",
+     "current": "*!                  列兵"
+    },
+    {
+     "row_id": "SFWe9d094af7bb9b99629abce6b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                    BUT CAN YOU",
+     "current": "                    但你能"
+    },
+    {
+     "row_id": "SFWf3506d0d19a9137b4a918ee8",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                    RANK",
+     "current": "                    评级"
+    },
+    {
+     "row_id": "SFWf3c2c707eaa8e712a61d61ab",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC38ada8951dd95c49",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.Tier3",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW0f8e6a714d7e70dbe750e389",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                     NATURAL ! !",
+     "current": "                     天生的高手！ !"
+    },
+    {
+     "row_id": "SFW14f77422e6d1ac43784eb18d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                    RANK",
+     "current": "                    评级"
+    },
+    {
+     "row_id": "SFW2ee69dce04c3eb5e5493a2e8",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                  WOW! SPEEDY!",
+     "current": "*!                  哇！神速！"
+    },
+    {
+     "row_id": "SFW374e91cc680cb6fc9a4d33a6",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW45c842101f4706d53c31587f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                  HOTSHOT",
+     "current": "*!                  高手"
+    },
+    {
+     "row_id": "SFW5caea242c00c1e8fe1f06769",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW9df9ac954b500bc26bd5799b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWb3bf97b437b520a10f3e765a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe50b0ada971b1908d64f98f9",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe761c1dcc06783edd4e49522",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                      YOU'RE A",
+     "current": "                      你就是"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd403290852672266",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.Tier4",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O27b1bdfebe0e1dcaf8af",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A TRUE",
+     "current": "                          真正的"
+    },
+    {
+     "row_id": "CAT:O7d3be01575829f60e1c5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "YOU ARE",
+     "current": "                         你是"
+    },
+    {
+     "row_id": "CAT:O897422e9efb1fb53c719",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "*!                      BREEDER!",
+     "current": "*!                      育种者！"
+    },
+    {
+     "row_id": "CAT:Ob0d2961aebe8d83f390a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "*!                     COSMO-",
+     "current": "*!                     宇宙-   "
+    },
+    {
+     "row_id": "CAT:Off60821ac7c4740fa9e8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "*!                         WOW!!",
+     "current": "*!                         哇！！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0a4e99945784e808",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.end.Tier4",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW26f01af581352b01a6c07663",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW34bc1223569bf1024a3b114a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                      BREEDER!",
+     "current": "*!                      育种者！"
+    },
+    {
+     "row_id": "SFW3b889f19bb98fa1e2a03b36b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                         YOU ARE",
+     "current": "                         你是"
+    },
+    {
+     "row_id": "SFW3f7e993dc551944672fbfeed",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW546ae9383d7bdb4d7ba42517",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "                          A TRUE",
+     "current": "                          真正的"
+    },
+    {
+     "row_id": "SFW995e02bd256ce7e20bcbc06c",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFW9e25888aab394d465e6b8745",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWb19d2d4e98356b021b13e56b",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                     COSMO-   ",
+     "current": "*!                     宇宙-   "
+    },
+    {
+     "row_id": "SFWdf97e2bac8f828cb90fc08fa",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": ""
+    },
+    {
+     "row_id": "SFWfb4b79f24f8ef1b7a77938af",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "*!                         WOW!!",
+     "current": "*!                         哇！！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb5565dc4ad7763bb",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.item.cardview",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1868ad7d758df567e42b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "-----------",
+     "current": "-----------"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb10f100ef0920900",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.item.dataview",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc225c96753ede9487a4e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "-----------",
+     "current": "-----------"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfe62004f8a1c9b71",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.items",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O640bbef702360d7d0496",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "![NEEDS DESC]!",
+     "current": "![待补说明]!"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe4878c55b11b37ba",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.options",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O07f07bd8d393bcccb250",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RESET",
+     "current": "重置"
+    },
+    {
+     "row_id": "CAT:O15ad27e3030b300fb4e6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MUSIC VOLUME",
+     "current": "音乐音量"
+    },
+    {
+     "row_id": "CAT:O244d570ecba928fe3cfe",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CONTINUE",
+     "current": "继续"
+    },
+    {
+     "row_id": "CAT:O4ca5399050cc5508d45b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WINDOW FILTER",
+     "current": "窗口滤镜"
+    },
+    {
+     "row_id": "CAT:O55d0567a8a0c94550e66",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CHEATS MENU",
+     "current": "作弊菜单"
+    },
+    {
+     "row_id": "CAT:O6588a4e977b3fd1a2f18",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CONFIRM",
+     "current": "确认"
+    },
+    {
+     "row_id": "CAT:O65c82b13291e362d3285",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SOUND VOLUME",
+     "current": "音效音量"
+    },
+    {
+     "row_id": "CAT:O66ed4142e478872550a8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CONFIGURE GAMEPAD",
+     "current": "配置手柄"
+    },
+    {
+     "row_id": "CAT:O68e8f59ab45ae649a1c3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CANCEL",
+     "current": "取消"
+    },
+    {
+     "row_id": "CAT:O6a1fd1375732958b9cd4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CONFIRM",
+     "current": "确认"
+    },
+    {
+     "row_id": "CAT:O6fa7f3d58b5cf1ac1aa4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CONFIGURE KEYBOARD",
+     "current": "配置键盘"
+    },
+    {
+     "row_id": "CAT:O84493472be804cde9452",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WINDOW SCALE",
+     "current": "窗口缩放"
+    },
+    {
+     "row_id": "CAT:O84e0a19b981711b75ab6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WILL BE LOST!",
+     "current": "将会丢失！"
+    },
+    {
+     "row_id": "CAT:O889127dc0a450035fe99",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WINDOW MODE",
+     "current": "窗口模式"
+    },
+    {
+     "row_id": "CAT:O8e9b0832284331d0b88c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CANCEL",
+     "current": "取消"
+    },
+    {
+     "row_id": "CAT:Ob747e307cea32da56cc2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WINDOW SIZE",
+     "current": "窗口大小"
+    },
+    {
+     "row_id": "CAT:Obdddbc0850f35755cfcd",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ENTER CHEAT MENU",
+     "current": "进入作弊菜单"
+    },
+    {
+     "row_id": "CAT:Ocf0e68654b4f37fa48aa",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ON",
+     "current": "开"
+    },
+    {
+     "row_id": "CAT:Ocf8643200292ba59e341",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EXIT GAME",
+     "current": "退出游戏"
+    },
+    {
+     "row_id": "CAT:Odcc011073ac46fa2c20f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EXTRA SPRITES",
+     "current": "额外角色图像"
+    },
+    {
+     "row_id": "CAT:Oeabcd7bfdcf4332d5532",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CANCEL",
+     "current": "取消"
+    },
+    {
+     "row_id": "CAT:Ofa0756d1b08558a9a6d0",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "UNSAVED PROGRESS",
+     "current": "未保存的进度"
+    },
+    {
+     "row_id": "CAT:Ofa8a8f996bf4b11973cb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "- GAME CONFIGURATION -",
+     "current": "- 游戏配置 -"
+    },
+    {
+     "row_id": "CAT:Ofc276879084102fb5f68",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OFF",
+     "current": "关"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC85850fce131b4e90",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.options.fill",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4a9a23dfdf8810ddc337",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "INTEGER",
+     "current": "整数倍"
+    },
+    {
+     "row_id": "CAT:Od7730097f12c714f0135",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RATIO",
+     "current": "比例"
+    },
+    {
+     "row_id": "CAT:Oe29b43b08de20c3a8eb9",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "STRETCH",
+     "current": "拉伸"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb7a9ef517c635e2f",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.options.windowMode",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW86473055211bb35d816e8556",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FULL",
+     "current": "全屏"
+    },
+    {
+     "row_id": "SFWea50fedac3798d4dfa15037f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "WINDOW",
+     "current": "窗口"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC63cbc9f27dab7be3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.presetcheat.double_dmg_received",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc90786f22338f4640c16",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TAKE TWICE THE DAMAGE FROM|ENEMY ATTACKS!",
+     "current": "承受来自|敌人攻击的双倍伤害！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC60de0b83e0451e89",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.presetcheat.no_keys_needed",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oe9cbaebdaa5d31f93bec",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LOCKS OPEN UP WITHOUT A KEY!",
+     "current": "无需钥匙即可开锁！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8d48197af50e89f9",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.presetcheat.no_spend_lect",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oeb44876a25b64c3aaca4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DON'T USE UP LECT WHEN|BUYING ITEMS.",
+     "current": "购买物品时，|不消耗LECT。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb2b597302a257743",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.presetcheat.reveal_map_cells",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O49dccf7f7b86334692e3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "REVEAL ALL ROOMS ON THE MAP!",
+     "current": "显示地图上的所有房间！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCda472c75d5a91a5e",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.presetcheat.swap_charge_attack",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob072736f00fdd104728c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ALL ATTACKS GET POWERED UP!",
+     "current": "所有攻击威力都会提升！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2ce98bdeda28b7f0",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ui.save.agent",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW1abb6bc8f1bd76aad194607d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "YIFFAI",
+     "current": "伊吠"
+    },
+    {
+     "row_id": "SFWdca94456ddea95db22c24682",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "YIFFANY",
+     "current": "伊吠妮"
+    }
+   ]
+  }
+ ]
+}

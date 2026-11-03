@@ -1,0 +1,37 @@
+# R9 批次覆盖审计（截至 batch-11 出工单）
+
+用快照 `snapshot-03` 的 `scenes.json` 与 `tools/build_batch.py` 的 `BATCHES`（含 `kind` 过滤）静态比对，回答一个问题：**R9 定义的批次到底覆盖了全库哪些场，剩下的是什么**。这是静态计数，不涉及语义审校结论。
+
+复现方式（仓库根执行，需能写仓库的解释器）：
+
+```bash
+python - <<'PY'
+# 见本文件第三节的比对口径
+PY
+```
+
+## 一、总数
+
+| 项 | 场次 | 行数 |
+| --- | --- | --- |
+| 全库快照 `snapshot-03` | 2,989 | 13,494 |
+| 被 batch-01～11 roots 覆盖 | 2,175 | 11,719 |
+| 未被任何批次覆盖 | 814 | 1,775 |
+
+按批次：batch-01 158、batch-02 56、batch-03 53、batch-04 81、batch-05 149、batch-06 260、batch-07 23、batch-08 78、batch-09 913、batch-10 295、batch-11 109。
+
+## 二、未被覆盖的 814 场是什么
+
+| kind | 场次 | 行数 | 说明 |
+| --- | --- | --- | --- |
+| `ui` | 473 | 650 | **词典条目**（`datav/dictionary.json` 的条目级场，root 即条目名：`Bomb`、`AttackElixir`、`AnomalyAlpha`、`SpecialHookshot`、`CosmoBody` 等）。650 行中 488 行是 `dictionary_value` |
+| `code` | 287 | 929 | 脚本字符串，929 行在正式台账里均为 `untranslated`，非玩家可见正文 |
+| `dialogue` | 50 | 183 | `MauserHints`（4）、`MauserHints_Area0`（14）、`AreaB`（12）、`AreaC`（10）、`AreaE`（8）、`AreaH`（2）。R1 只把 `MauserHints_AreaA` 放进 batch-01 |
+| `image` | 4 | 13 | `assets/fixed/*.png`，属图像资源而非文本 |
+
+## 三、结论与边界
+
+1. **batch-11 落地后，正文（dialogue／vsn／ui 里 batch-10 定义的那部分）全部走过 R9**；剩下的 814 场里，只有 473 场词典条目与 50 场 `MauserHints` 是玩家可见文本，其余是脚本串与图像。
+2. 因此「全正文精校完成」这句话，按当前批次定义只能说「**已定义批次全部完成**」。词典条目与 `MauserHints` 若要进 R9，需要新开 batch-12 并扩大工单范围，**属范围扩张，需用户明确同意**；在此之前不得对外声称全文精校完毕。
+3. 词典条目并非没译：这 473 场的正式台账状态是 `draft`／`candidate`／`reused_candidate`，此前轮次（R2／R6）动过一部分术语；但**没有走过 R9 的逐行精校与来源锁定台账**。
+4. R8 已裁决过谜题提示措辞；`MauserHints_AreaA` 在 batch-01 内已精校，其余 `MauserHints*` 未精校。做 batch-12 时要先确认 R8 的裁决范围，避免重复裁决。
