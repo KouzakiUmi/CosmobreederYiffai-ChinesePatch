@@ -2774,50 +2774,6 @@
      "target": "  Tomcat: [只要进到对应的 P.A.W. 子菜单， 就能看到新内容！]"
     },
     {
-     "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4527",
-     "line": 4527,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4534",
-     "line": 4534,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4541",
-     "line": 4541,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4548",
-     "line": 4548,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4595",
      "line": 4595,
      "speaker": "",
@@ -3882,17 +3838,6 @@
      "source": "",
      "current": "    Bossu: [最近下面艾斯卡姆尔那波震动，把我们所有的卫星校准都打乱了。]",
      "target": "    Bossu: [最近下面艾斯卡姆尔那波震动， 把我们所有的卫星校准都打乱了。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadm/1:2206",
-     "line": 2206,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
-     "target": "    Mauser: [如果我们看到其他仍在活动的特工，我会 通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:2212",
@@ -5752,50 +5697,6 @@
      "source": "",
      "current": "  Tomcat: [只要导航到对应的P.A.W.子菜单，就能看到有什么新内容！]",
      "target": "  Tomcat: [只要导航到对应的P.A.W.子菜单， 就能看到有什么新内容！]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4574",
-     "line": 4574,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4581",
-     "line": 4581,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4588",
-     "line": 4588,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4595",
-     "line": 4595,
-     "speaker": "",
-     "variant": "sfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4617",
@@ -9350,50 +9251,6 @@
      "target": "  Yiffany: [真的？那些东西是在卡片正面还是哪儿？ 我从来不去看那一面……]"
     },
     {
-     "row_id": "P23:patch.pak:datadf/1:4709",
-     "line": 4709,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadf/1:4716",
-     "line": 4716,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadf/1:4723",
-     "line": 4723,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadf/1:4730",
-     "line": 4730,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadf/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]"
-    },
-    {
      "row_id": "P23:patch.pak:datadf/1:4777",
      "line": 4777,
      "speaker": "",
@@ -10524,17 +10381,6 @@
      "source": "",
      "current": "    Bossu: [最近下面艾斯卡姆尔那波震动，把我们所有的卫星校准都打乱了。]",
      "target": "    Bossu: [最近下面艾斯卡姆尔那波震动， 把我们所有的卫星校准都打乱了。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadm/1:2227",
-     "line": 2227,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
-     "target": "    Mauser: [如果我们看到其他仍在活动的特工，我会 通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:2233",
@@ -12680,39 +12526,6 @@
      "source": "",
      "current": "  Tomcat: [它不能帮你开门之类的，但它/确实/能让你多了解些当地动物！]",
      "target": "  Tomcat: [它不能帮你开门之类的，但它/确实/ 能让你多了解些当地动物！]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadm/1:4721",
-     "line": 4721,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadm/1:4728",
-     "line": 4728,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
-    },
-    {
-     "row_id": "P23:patch.pak:datadm/1:4735",
-     "line": 4735,
-     "speaker": "",
-     "variant": "nsfw",
-     "current_kind": "physical_line",
-     "archive_entry": "datadm/1",
-     "source": "",
-     "current": "  Tomcat: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备不是我的专长， 但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:4742",

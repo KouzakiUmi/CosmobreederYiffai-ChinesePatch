@@ -3,7 +3,7 @@
  "status": "verified_for_application",
  "scope": "batch-23 applied Chinese rewrites; not a full proofread or real-machine acceptance",
  "base_candidate": "localization/builds/r9-polish-candidate51",
- "decisions_total": 1180,
+ "decisions_total": 1163,
  "apply_findings": [
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:1031",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:1041",
@@ -247,10 +247,6 @@
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4499",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4506",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4513",
-  "R9M-P23:cosmobreeder-multi.jar:datadf/1:4527",
-  "R9M-P23:cosmobreeder-multi.jar:datadf/1:4534",
-  "R9M-P23:cosmobreeder-multi.jar:datadf/1:4541",
-  "R9M-P23:cosmobreeder-multi.jar:datadf/1:4548",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4595",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4610",
   "R9M-P23:cosmobreeder-multi.jar:datadf/1:4649",
@@ -339,7 +335,6 @@
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2156",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2160",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2192",
-  "R9M-P23:cosmobreeder-multi.jar:datadm/1:2206",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2212",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2231",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:2233",
@@ -516,10 +511,6 @@
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4545",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4552",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4559",
-  "R9M-P23:cosmobreeder-multi.jar:datadm/1:4574",
-  "R9M-P23:cosmobreeder-multi.jar:datadm/1:4581",
-  "R9M-P23:cosmobreeder-multi.jar:datadm/1:4588",
-  "R9M-P23:cosmobreeder-multi.jar:datadm/1:4595",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4617",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4642",
   "R9M-P23:cosmobreeder-multi.jar:datadm/1:4657",
@@ -836,10 +827,6 @@
   "R9M-P23:patch.pak:datadf/1:4679",
   "R9M-P23:patch.pak:datadf/1:4686",
   "R9M-P23:patch.pak:datadf/1:4698",
-  "R9M-P23:patch.pak:datadf/1:4709",
-  "R9M-P23:patch.pak:datadf/1:4716",
-  "R9M-P23:patch.pak:datadf/1:4723",
-  "R9M-P23:patch.pak:datadf/1:4730",
   "R9M-P23:patch.pak:datadf/1:4777",
   "R9M-P23:patch.pak:datadf/1:4792",
   "R9M-P23:patch.pak:datadf/1:4831",
@@ -941,7 +928,6 @@
   "R9M-P23:patch.pak:datadm/1:2179",
   "R9M-P23:patch.pak:datadm/1:2183",
   "R9M-P23:patch.pak:datadm/1:2213",
-  "R9M-P23:patch.pak:datadm/1:2227",
   "R9M-P23:patch.pak:datadm/1:2233",
   "R9M-P23:patch.pak:datadm/1:2252",
   "R9M-P23:patch.pak:datadm/1:2254",
@@ -1145,9 +1131,6 @@
   "R9M-P23:patch.pak:datadm/1:4695",
   "R9M-P23:patch.pak:datadm/1:470",
   "R9M-P23:patch.pak:datadm/1:4704",
-  "R9M-P23:patch.pak:datadm/1:4721",
-  "R9M-P23:patch.pak:datadm/1:4728",
-  "R9M-P23:patch.pak:datadm/1:4735",
   "R9M-P23:patch.pak:datadm/1:4742",
   "R9M-P23:patch.pak:datadm/1:475",
   "R9M-P23:patch.pak:datadm/1:4764",
@@ -1186,45 +1169,45 @@
   "R9M-P23:patch.pak:datadm/1:660",
   "R9M-P23:patch.pak:datadm/1:745"
  ],
- "operations": 1180,
+ "operations": 1163,
  "ledger": "localization/translations/editorial-r9-batch-23-repairs.jsonl",
- "ledger_sha256": "1fef74ccfe286ad3707f0501088786b818c586561d41fa0c7029b562390d8bad",
- "decisions_sha256": "15709c3b899eb0c80901c9df413a093da2f5ec0e200ed6c9d3108e18d2a9c4f6",
+ "ledger_sha256": "c84fb621e573744e6f760db9bdf2eefa8c631579e3856d342bc84495270600d8",
+ "decisions_sha256": "0ee606f7dea437fba193a85b4874ea63e1f1526be480f5e8f7465a35851d757f",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "0b76aa5a89fc871b39bfc3f014d7314e63b7b10a72b6e238409177ee170fc219"
  },
  "dry_run": {
   "engine": "localization/tools/editorial_repairs.py:apply_entries",
-  "operations_applied": 1180,
+  "operations_applied": 1163,
   "resources": [
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "944b94ce74e3179dca5a4667f185963d5dac3293815298ec354fba5238935780",
-    "after_resource_sha256": "e48bafbf0e0e1ac97f7801c0a5f776af508fc043b59325d58e2039d09a9789e1",
-    "targets_changed": 278
+    "after_resource_sha256": "e6b86c377dba7b0cb777531f395c8db5ea551ac0663e8753be4c613261db2925",
+    "targets_changed": 274
    },
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "18a8293c856bc0c4ed89241a03fc75f2087839ab67754fc1a71c9df04d0d8e7f",
-    "after_resource_sha256": "e97eb62430e36174524fe4aa790bdeea9ddb92aec20ac5c70fcd9a5912b9d1ec",
-    "targets_changed": 274
+    "after_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
+    "targets_changed": 269
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "2f0e46b42a2d8d9847d1129669218843ba082e703922e746d3847d6c1ddc9eb3",
-    "after_resource_sha256": "0017e9d420a254d92779a17bebfe99103f3b73b83fa6ecbac25de1a0f8fba44c",
-    "targets_changed": 322
+    "after_resource_sha256": "36d57bad5d33b6d44cf769b255340878528c84d0cc02c381557a2289c1ab68d7",
+    "targets_changed": 318
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "124fca1e357502f931e6e95e6ba34865af78b513a38e16418f9e6660ec754aca",
-    "after_resource_sha256": "13663676df8ab73153a4d8dcf39c844c8c9cbec710bf92716ace8ca8f5a5070f",
-    "targets_changed": 306
+    "after_resource_sha256": "789452855f93ee484c9554e515fc1b2f57ed3646ed9e7e589c6d036b176dacc3",
+    "targets_changed": 302
    }
   ]
  },

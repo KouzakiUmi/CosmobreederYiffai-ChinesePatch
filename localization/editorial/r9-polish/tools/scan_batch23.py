@@ -113,10 +113,18 @@ def repair(body, rows, splits, bigrams):
             removed = len(splits) - len(after)
             if removed <= 0:
                 continue
-            score = (removed, -len(introduced))
+            # No new split pair is the hard rule: trading one split for another
+            # is not an improvement, even if it removes more pairs overall. Only
+            # among candidates that introduce nothing does "removes more" rank.
+            score = (-len(introduced), removed)
             if best is None or score > best[0]:
                 best = (score, candidate, removed, introduced)
     if best is None:
+        return None
+    # A candidate that introduces a new split pair is not a repair. If nothing in
+    # the window is clean, leave the row alone rather than trade one split for
+    # another.
+    if best[3]:
         return None
     return best[1], best[2]
 
