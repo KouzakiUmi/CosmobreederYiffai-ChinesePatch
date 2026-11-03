@@ -1,0 +1,48 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-10-part02 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate36",
+ "decisions_total": 8,
+ "apply_findings": [
+  "R9M-CAT:O04381e49222535e1362a",
+  "R9M-CAT:O41ef0db5166c62d3b241",
+  "R9M-CAT:O5aad05b99f5851139777",
+  "R9M-CAT:O9195cfbd85338af0f1b0",
+  "ds:P10-0201",
+  "ds:P10-0202",
+  "ds:P10-0203",
+  "ds:P10-0204"
+ ],
+ "operations": 8,
+ "ledger": "localization/translations/editorial-r9-batch-10-part02-repairs.jsonl",
+ "ledger_sha256": "fea85ba432b8f08b7520d778123ee76ae0c155744a8f0dac7bf44daee14c3e16",
+ "decisions_sha256": "6dc60a9710919833d9bfe0e69f0836d6d48ad6c58229ea086c84607367411758",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "acdc64a4d8f984a1ac462c164dde33249d7bc01f6d61b2dede318e9cbdf8f903"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 8,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "2f2ca34e54811a823a8395788dd185a9493d3e82da957ebf41c781fe4da767ea",
+    "after_resource_sha256": "4eb9daa824a50b131095e2dca95e36d9bdc0d52ed04aa283e643a066e742131b",
+    "targets_changed": 2
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "62f9a5bd461405b13c3f77c143217abd980dc1fe2a69db9ad926125e193d7393",
+    "after_resource_sha256": "338b7e2ffb7e4e8d9bf6d5f6532aa1e87daa089ce097955c9da70911701b39b9",
+    "targets_changed": 6
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}

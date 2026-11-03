@@ -19,6 +19,9 @@ sys.path.insert(0, str(LOC / 'tools'))
 from codec import decrypt_file
 from editorial_repairs import apply_entries
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import r9_targets as targets  # noqa: E402
+
 SNAPSHOT_BASE = {
     'snapshot-02': 'r8-puzzle-candidate12',
     'snapshot-03': 'r9-polish-candidate13',
@@ -37,6 +40,20 @@ def bodies(entry_archive, candidate):
     if parts and parts[-1] == '':
         parts.pop()
     return [re.sub(r'(?:\r\n|\r|\n)\Z', '', p) for p in parts], sha256(raw).hexdigest()
+
+
+def effective_final(text, current):
+    """Restore the row's own trailing newline into a decision text.
+
+    Interface rows live as one JSON string, so a value can end with a newline.
+    A TSV cell cannot carry it, so the trailing-space passes record the text
+    without it and the row's own newline is put back here. Dialogue rows are
+    unaffected: their text never ends with a newline.
+    """
+    newline = chr(10)
+    if isinstance(current, str) and current.endswith(newline) and not text.endswith(newline):
+        return text + newline
+    return text
 
 
 def load_decisions(path):
@@ -68,9 +85,11 @@ def main():
     base = R9 / a.batch
     order = json.loads((base / 'orders' / (a.batch + '.json')).read_text('utf8'))
     rows = {}
+    scene_root = {}
     for scene in order['scenes']:
         for r in scene['rows']:
             rows[r['row_id']] = (scene['mode'], scene['scene_id'], r)
+            scene_root[r['row_id']] = scene['root']
     snapshot = order.get('corpus_snapshot', '').rsplit('/', 1)[-1]
     base_name = a.base or SNAPSHOT_BASE[snapshot]
     candidate = LOC / 'builds' / base_name
@@ -83,32 +102,35 @@ def main():
         if d['row_id'] not in rows:
             raise ValueError('unknown row_id %s' % d['row_id'])
         mode, scene_id, row = rows[d['row_id']]
-        archive = MODE_ARCHIVE[mode]
-        key = (archive, row['archive_entry'])
+        root = scene_root[d['row_id']]
+        archive, entry, kind, loc_name, locator = targets.target_of(row, mode, candidate, root)
+        key = (archive, entry)
         if key not in cache:
-            cache[key], shas[key] = bodies(key, candidate)
-        old = cache[key][row['line'] - 1]
+            cache[key], shas[key] = targets.resource_state(candidate, archive, entry, kind)
+        old = targets.old_text(cache[key], kind, locator, row)
         if old != row['current']:
             raise ValueError('baseline drift on %s: archive %r order %r'
                              % (d['row_id'], old, row['current']))
-        target = (archive, row['archive_entry'], row['line'])
+        target = (archive, entry, kind, str(locator))
+        new = effective_final(d['final_zh'], old)
         if target in grouped:
-            if grouped[target]['new'] != d['final_zh']:
+            if grouped[target]['new'] != new:
                 raise ValueError('conflicting decisions on %s' % d['row_id'])
             grouped[target]['finding_ids'] = sorted(set(grouped[target]['finding_ids'] + [d['finding_id']]))
             continue
-        grouped[target] = {
-            'archive': archive, 'archive_entry': row['archive_entry'], 'kind': 'line',
-            'before_resource_sha256': shas[key], 'old': old, 'new': d['final_zh'],
+        op = {
+            'archive': archive, 'archive_entry': entry, 'kind': kind,
+            'before_resource_sha256': shas[key], 'old': old, 'new': new,
             'finding_ids': [d['finding_id']], 'source_refs': [d['scene_id'], 'R9:' + a.batch],
-            'line': row['line'],
         }
+        op[loc_name] = locator
+        grouped[target] = op
     ops = []
-    for target, op in sorted(grouped.items(), key=lambda kv: (kv[0][0], kv[0][1], kv[0][2])):
+    for target, op in sorted(grouped.items(), key=lambda kv: (kv[0][0], kv[0][1], kv[0][2], kv[0][3])):
         op = dict(op)
         op['op_id'] = 'R9-%04d' % (len(ops) + 1)
         ops.append(op)
-    plain = {k: decrypt_file(zipfile.ZipFile(candidate / k[0]).read(k[1])) for k in cache}
+    plain = {k: targets.read_resource(candidate, k[0], k[1]) for k in cache}
     out, reports = apply_entries(plain, ops)
     summary = {'batch': a.batch, 'decisions': len(decisions), 'applied': len(applied),
                'operations': len(ops), 'targets': len(reports),

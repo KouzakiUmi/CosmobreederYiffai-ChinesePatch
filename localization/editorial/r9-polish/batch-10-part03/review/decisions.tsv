@@ -1,0 +1,18 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P10-0301	ds	A	continuity	SCa2a44d4a2f0ac541	CAT:Off68387278d5a46e76d7	apply	你好，世界	同一句在 sfw 侧已作「你好，世界」，nsfw 侧仍留英文，属跨侧分叉。
+ds:P10-0302	ds	C	term	SC19fe530358a4e005	CAT:Od39fd3caeb686871931d	apply	宇宙高手	同批把 HOTSHOT 定为「高手」；「宇宙专业」把等级读成专业，改成「宇宙高手」与同批定名一致。
+ds:P10-0303	ds	C	idiom	SC90869035da22d7e4	SFW7878ff58bb20f8b7b537a47f	apply	矮人抱怨住处，|但还是冲你|粗声笑了笑。	「给了你一个粗声的笑」是 English 语序直搬；三段结构与信息量不变。
+ds:P10-0304	ds	B	term	SC58ccd1b993ca1ca5	SFWb62610a60cd111d1800a1671	apply	科博德蜷在你身边，|惬意地享受着你的陪伴。|真是棒极了的宠物！	同一张繁殖卡的收尾句在库内 16 处作「真是棒极了的宠物！」；本行是 sfw 侧遗留的一处。
+ds:P10-0305	ds	B	term	SC2732d58d343c712f	CAT:O9b85a59761075e89f47e	apply	另一处又大|又唬人的，|是大壮兽|所拥有的|那根天赋异禀的|雄性器官。|能应付|这野兽尺寸的|特工，|据说会从|种马鸡巴上|密布的凸粒里|得到|极大快感。	nubs 在库内 9 处作「凸粒」、6 处作「肉突」；按多数统一，只换一处词、13 段与行尾换行都不动。
+ds:P10-0306	ds	A	meaning	SC8de58fd4e19fed0b	SFWf7946d01dbe6790d809b17da	apply	揍了小狼崽一顿之后，|和它交上了朋友！	后半句「回忆涌上心头，又迟疑起来」原文没有对应词，WALLOP 被漏译；与 batch-10-part02 的 P10-0201 是同一句的两侧，措辞取一致。
+ds:P10-0309	ds	C	format	SC38ada8951dd95c49	SFW0f8e6a714d7e70dbe750e389	apply	                     天生的高手！！	全角感叹号后面跟半角空格加半角「!」，卡面同一行混排两种标点；合并成全角。
+ds:P10-0307	ds	needs_evidence	source_uncertainty	SC04b2b885330c22bc	CAT:O690bbbd2a7957dbd6baf	reject		BadEnding 是把五行英文按特定显示行序拼成一句的排版块，而工单的行序是 row_id 排序；在不知道实际行序的情况下改任一段都可能把句子拆错，留置待渲染证据。
+ds:P10-0308	ds	A	meaning	SC9cadfe018ff5e006	CAT:O671815346a2cc40e9c7b	reject		Tier1 是六级阶级名按固定网格拼出的复合块：原文把 BEGINNER 放在独立一行，提案把它并进上一行并删掉「对…来说」框架，其余分片无法验证，改动风险大于收益，留置。
+R9M-CAT:O48e0a6d2a2232acd10f7	R9M	C	format	SC021a968dd3397402	CAT:O48e0a6d2a2232acd10f7	reject		该行的中文是多行 JSON 值，行尾空格无法用行式裁决表表达；本批不改，记入 LEFTOVERS 由清理批次处理。
+R9M-CAT:Odf64f9c93d5b342e2ba5	R9M	C	format	SC021a968dd3397402	CAT:Odf64f9c93d5b342e2ba5	apply	传说称，|如今名为|"艾斯卡姆尔"的|矿井，|曾是巨大|可怖野兽的|家园。它们的|火焰吐息|把地下|变成了|熔岩与硫磺。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O58e511e31dd487ac79e2	R9M	C	format	SC34e9b3eac8d1a51a	CAT:O58e511e31dd487ac79e2	apply	一种瘦小狡黠的|啮齿种族，|会偷没有防备的|特工的东西。|单独时|威胁不大，|但速度和|攻击性|可能给|新特工|带来麻烦。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:Od10556ef3579f09619cf	R9M	C	format	SC34e9b3eac8d1a51a	CAT:Od10556ef3579f09619cf	apply	尽管尺寸|很小，|吱吱怪的阴茎|也不该被|低估。该种族|射精后|没有|不应期，|并能继续|无尽地|交媾，|一连|数小时！	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O82a56ce805b52535c797	R9M	C	format	SCbf533bd5bafe4ae9	CAT:O82a56ce805b52535c797	apply	Traeh曾是|Fenfen议会的|长老，|被封在|水晶监狱|多年之后，|她的力量|只剩痕迹。|但是，即便|剩下的力量|已经很少……	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:Of88eb855995c79b48222	R9M	C	format	SCbf533bd5bafe4ae9	CAT:Of88eb855995c79b48222	apply	……她仍然|对整个图托恩|及其人民|构成威胁。|只要一个|好奇的闯入者|碰她一下，|就够她|再次把|黑暗计划|付诸行动，|并再次|建立起|一支军队。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:Oaf2dc898dc09544cf751	R9M	C	format	SCd1604a5e213330b8	CAT:Oaf2dc898dc09544cf751	apply	挥爪的阴茎|长满朝前的|肉刺，|据说很受|不少特工欢迎。|这些肉刺|柔软可弯，|能给特工带来|令人兴奋的|刺激；|它粗壮的双腿|则能支撑|猛烈的抽插，|让人倍感|畅快。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O731ba8e10998a4e85c22	R9M	C	format	SCff66aeccebc5f999	CAT:O731ba8e10998a4e85c22	apply	再老练的母狗|也经不起一再撩拨……	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。

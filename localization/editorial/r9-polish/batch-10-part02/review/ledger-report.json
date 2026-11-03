@@ -1,0 +1,25 @@
+{
+ "batch": "batch-10-part02",
+ "decisions": 8,
+ "applied": 8,
+ "operations": 8,
+ "targets": 2,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datav/1",
+   "before_resource_sha256": "2f2ca34e54811a823a8395788dd185a9493d3e82da957ebf41c781fe4da767ea",
+   "after_resource_sha256": "4eb9daa824a50b131095e2dca95e36d9bdc0d52ed04aa283e643a066e742131b",
+   "targets_changed": 2
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datav/1",
+   "before_resource_sha256": "62f9a5bd461405b13c3f77c143217abd980dc1fe2a69db9ad926125e193d7393",
+   "after_resource_sha256": "338b7e2ffb7e4e8d9bf6d5f6532aa1e87daa089ce097955c9da70911701b39b9",
+   "targets_changed": 6
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-10-part02-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate36"
+}

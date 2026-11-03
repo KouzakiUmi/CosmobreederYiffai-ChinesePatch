@@ -17,6 +17,8 @@ LOC = ROOT / 'localization'
 sys.path.insert(0, str(LOC / 'tools'))
 from codec import decrypt_file
 from editorial_repairs import apply_entries
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import r9_targets as targets  # noqa: E402
 
 SNAPSHOT_BASE = {
     'snapshot-02': 'r8-puzzle-candidate12',
@@ -30,6 +32,20 @@ COLUMNS = ('finding_id', 'route', 'severity', 'category', 'scene_id', 'row_id',
 
 def file_sha(path):
     return sha256(path.read_bytes()).hexdigest()
+
+
+def effective_final(text, current):
+    """Restore the row's own trailing newline into a decision text.
+
+    Interface rows live as one JSON string, so a value can end with a newline.
+    A TSV cell cannot carry it, so the trailing-space passes record the text
+    without it and the row's own newline is put back here. Dialogue rows are
+    unaffected: their text never ends with a newline.
+    """
+    newline = chr(10)
+    if isinstance(current, str) and current.endswith(newline) and not text.endswith(newline):
+        return text + newline
+    return text
 
 
 def load_decisions(path):
@@ -58,6 +74,7 @@ def main():
     base = R9 / a.batch
     order = json.loads((base / 'orders' / (a.batch + '.json')).read_text('utf8'))
     rows = {r['row_id']: (s['mode'], s['scene_id'], r) for s in order['scenes'] for r in s['rows']}
+    roots = {r['row_id']: s['root'] for s in order['scenes'] for r in s['rows']}
     decisions_path = base / 'review' / 'decisions.tsv'
     decisions = load_decisions(decisions_path)
     applies = [d for d in decisions if d['decision'] == 'apply']
@@ -77,13 +94,16 @@ def main():
             problems.append('apply finding without ledger op: ' + d['finding_id'])
             continue
         mode, scene_id, row = rows[d['row_id']]
-        expect = (MODE_ARCHIVE[mode], row['archive_entry'], row['line'])
-        matched = [op for op in ops if (op['archive'], op['archive_entry'], op['line']) == expect]
+        archive, entry, kind, loc_name, locator = targets.target_of(
+            row, mode, candidate, roots[d['row_id']])
+        matched = [op for op in ops
+                   if op['archive'] == archive and op['archive_entry'] == entry
+                   and op['kind'] == kind and op.get(loc_name) == locator]
         if not matched:
             problems.append('no op for row ' + d['row_id'])
             continue
         op = matched[0]
-        if op['new'] != d['final_zh']:
+        if op['new'] != effective_final(d['final_zh'], row['current']):
             problems.append('ledger text differs from decision: ' + d['finding_id'])
         if op['old'] != row['current']:
             problems.append('ledger old differs from order current: ' + d['finding_id'])

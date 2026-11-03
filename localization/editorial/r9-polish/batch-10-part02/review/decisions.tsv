@@ -1,0 +1,9 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P10-0201	ds	A	meaning	SCaf4e5e3ce9f7c029	SFW34dabc0fd413477861b590dd	apply	揍了小狼崽一顿之后，|和它交上了朋友！	后半句「回忆涌上心头，又迟疑起来」在原文里没有对应词，上一句漏译了 WALLOP（痛打一顿）；按原文两段重写，段数不变。
+ds:P10-0202	ds	B	term	SCe2f129278ebb8d11	CAT:O762ef5ade8ef054e58b2	apply	退出兽类图鉴菜单	本批 ui.item 把 BESTIALIARY 定为「兽类图鉴」，同屏入口仍是简称「兽鉴」，统一。
+ds:P10-0203	ds	C	term	SC4bfe5f2b9bef4fd7	CAT:O14ad4f96eec3eca7e5f6	apply	东部通道	同 root 的 EAST 一律作「东部」（DEPOT B EAST／SCEAFYA EAST）；本行是 patch.pak 侧，jar 侧同句在 batch-10-part03，两侧在下一候选合拢。
+ds:P10-0204	ds	C	idiom	SC05a8518f0254a8b3	SFW8d2f94b81b446474f78fcdf7	apply	你一来他就精神起来。|和你相处，|他似乎更放松了。	「你来他就来精神」两个「来」挤在一句里读着打结；改后保留原意与三段结构。
+R9M-CAT:O5aad05b99f5851139777	R9M	C	format	SCfbcddc38d5b13035	CAT:O5aad05b99f5851139777	apply	被称为|猪哥布林的|古代黑暗实体，|曾统治|统一的|欧米茄哥布林|帝国。被一位|早已被遗忘的|传说英雄封印后，|追随者很快|野化了。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O41ef0db5166c62d3b241	R9M	C	format	SC660624de16d1c41f	CAT:O41ef0db5166c62d3b241	apply	一名|超能力者与|典型Fenfen的|后代。狼崽|对变形能力|有着天然|亲和。这|帮助它在|动荡时期|避开了|捕捉。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O04381e49222535e1362a	R9M	C	format	SCdf0452e192b190ae	CAT:O04381e49222535e1362a	apply	滑溜、细长，|而且部分|可以缠卷。|双足飞龙的阴茎|构造得|便于轻易|插入许多|种族。就它们|看来，|宇宙育种者|也不例外！|所以|小心|！！	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
+R9M-CAT:O9195cfbd85338af0f1b0	R9M	C	format	SCdf0452e192b190ae	CAT:O9195cfbd85338af0f1b0	apply	一种飞行爬行动物，|等待着|完美的时机|俯冲捕食。|若在俯冲|途中被攻击，|它就会|迷失方向，|并且|变得|脆弱。	中文行尾（JSON 值末的换行之前）多出空格，英文原文行尾没有；只删空格，不动换行。
