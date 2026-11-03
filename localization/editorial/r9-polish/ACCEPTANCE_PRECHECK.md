@@ -1,36 +1,36 @@
-# candidate43 封签材料清单（未封签）
+# candidate46 封签材料清单（未封签）
 
-本文件只回答一个问题：**要给 candidate43 生成 `acceptance.json`，得先有什么、绑什么、验什么**。这里是清单与现状，不是封签结果，也没有生成 `acceptance.json`。
+本文件只回答一个问题：**要给 candidate46 生成 `acceptance.json`，得先有什么、绑什么、验什么**。这里是清单与现状，不是封签结果，也没有生成 `acceptance.json`。
 
-当前状态一句话：candidate43 的**语义与结构证据齐了**，缺的是**封签脚本本身**（R3 那套脚本把 R3 的计数写死了，不能直接套用）和**实机层证据**（安装、启动、存档、真实 GPU／CRT／输入），后者本轮不做。
+当前状态一句话：candidate46 的**语义与结构证据齐了**，缺的是**封签脚本本身**（R3 那套脚本把 R3 的计数写死了，不能直接套用）和**实机层证据**（安装、启动、存档、真实 GPU／CRT／输入），后者本轮不做。
 
 ## 一、要绑进 acceptance.json 的产物
 
 | 项 | 路径 | 现状 |
 | --- | --- | --- |
-| 候选归档（两个） | `localization/builds/r9-polish-candidate43/cosmobreeder-multi.jar` `…/patch.pak` | jar `e7245c85…`（45,841,980 B，114 个条目改动）· pak `5a3db829…`（13,588,075 B，84 个条目改动） |
-| 构建清单 | `…/candidate43/build-manifest.json` | sha `3e7b9cdc…`；`status=integrated_candidate_not_real_clip_CRT_input_acceptance`、`full_component_set=true`、`installed=false`、`real_clip_CRT_input_verified=false` |
+| 候选归档（两个） | `localization/builds/r9-polish-candidate46/cosmobreeder-multi.jar` `…/patch.pak` | jar `fdc626a5…`（45,841,961 B，114 个条目改动）· pak `47e32c37…`（13,588,071 B，84 个条目改动） |
+| 构建清单 | `…/candidate46/build-manifest.json` | sha `8cae72ad…`；`status=integrated_candidate_not_real_clip_CRT_input_acceptance`、`full_component_set=true`、`installed=false`、`real_clip_CRT_input_verified=false` |
 | 字体清单 | `…/candidate43/font-manifest.json` | 10 项；字体是多轮重打过 pin 的，必须与本次归档一同封 |
-| CPU 回归结果 | `localization/optimization/r28/integration/tests/candidate43/results.json` | sha `0d11f450…`；`status=passed_cpu_only_not_real_clip_CRT_input`、17 步全 exit 0、`test_sources_unchanged_after_run=true`、`candidate_sha256` 与 jar 归档一致、`game_started=false`、`user_save_accessed=false` |
-| 组件清单 | `localization/optimization/r28/r9polish/component.json` | sha `ccd8b6d0…`；30 批，台账／gate／decisions 30×3 个文件全部存在 |
-| 逐批 gate | `localization/editorial/r9-polish/batch-*/review/build-gate.json` | 30 份，`status=verified_for_application`；每份绑 `ledger_sha256`、`decisions_sha256`、`verifier.sha256` |
-| 逐批台账 | `localization/translations/editorial-r9-*-repairs.jsonl` | 30 份，合计 706 个操作 |
-| 逐批裁决表 | `localization/editorial/r9-polish/batch-*/review/decisions.tsv` | 30 份，合计 1,086 条决定（采纳 706／驳回 344／留置 36） |
+| CPU 回归结果 | `localization/optimization/r28/integration/tests/candidate46/results.json` | sha `1a8592dc…`；`status=passed_cpu_only_not_real_clip_CRT_input`、17 步全 exit 0、`test_sources_unchanged_after_run=true`、`candidate_sha256` 与 jar 归档一致、`game_started=false`、`user_save_accessed=false` |
+| 组件清单 | `localization/optimization/r28/r9polish/component.json` | sha `51e6d0b6…`；33 批，台账／gate／decisions 33×3 个文件全部存在 |
+| 逐批 gate | `localization/editorial/r9-polish/batch-*/review/build-gate.json` | 33 份，`status=verified_for_application`；每份绑 `ledger_sha256`、`decisions_sha256`、`verifier.sha256` |
+| 逐批台账 | `localization/translations/editorial-r9-*-repairs.jsonl` | 33 份，合计 745 个操作 |
+| 逐批裁决表 | `localization/editorial/r9-polish/batch-*/review/decisions.tsv` | 33 份，合计 1,197 条决定 |
 | 测试源 pin | `results.json:test_source_sha256` | 16 项；封签时需与工作树逐一对齐 |
 | 构建源 pin | `build-manifest.json:source_sha256` | 需与工作树逐一对齐（构建脚本、组件、字体表） |
 
 ## 二、封签脚本必须做的校验（当前**没有**这样一个脚本）
 
-R3 的 `localization/editorial/r3-names/tools/seal_candidate.py` 不能直接复用：它把 R3 的计数写死了（`operation_count==839`、`non_name_preserved==778`、`Tomcat.nickname_occurrences==3`），还引用 `r28-editorial-repairs-candidate6` 作为父候选，对 R9 链不成立。要封 candidate43，需要一个 R9 版脚本，至少覆盖：
+R3 的 `localization/editorial/r3-names/tools/seal_candidate.py` 不能直接复用：它把 R3 的计数写死了（`operation_count==839`、`non_name_preserved==778`、`Tomcat.nickname_occurrences==3`），还引用 `r28-editorial-repairs-candidate6` 作为父候选，对 R9 链不成立。要封 candidate46，需要一个 R9 版脚本，至少覆盖：
 
 1. **归档身份**：`acceptance.archives` 与候选目录里两个归档的实际 sha256／bytes 一致。
 2. **构建清单身份**：`build-manifest.json` 的 sha 与记录一致，且 `full_component_set=true`、`status` 是 `integrated_candidate_not_real_clip_CRT_input_acceptance`。
 3. **回归身份**：`results.json` 的 `candidate_sha256` 等于 jar 的 sha；17 步全 0；`test_sources_unchanged_after_run=true`。
 4. **源 pin 不漂移**：`test_source_sha256`（16 项）与 `source_sha256` 逐项等于工作树当前文件。
-5. **组件完整性**：`component.json` 的 30 批顺序与 gate 的 `base_candidate` 链一致（batch-12 三个 part → candidate40／41／42，batch-13 → candidate43），且每个 gate 的 `verifier.sha256` 等于当前 `verify_round.py`。
+5. **组件完整性**：`component.json` 的 33 批顺序与 gate 的 `base_candidate` 链一致（batch-12 三 part → 40／41／42，batch-13 → 43，batch-15 → 44，batch-14 → 45，batch-16 → 46），且每个 gate 的 `verifier.sha256` 等于当前 `verify_round.py`。
 6. **台账身份**：每份 gate 的 `ledger_sha256`／`decisions_sha256` 等于台账／裁决表的实际 sha。
-7. **明文读回**：`tools/verify_readback.py r9-polish-candidate43` 返回 0，且 `operations_checked=706`（本轮已跑过，0 问题；封签时应重跑存档）。
-8. **解码一致性**：`datav/1`、`datay/1`、`datadf/1`、`datadm/1` 解密后的内容与 `tests/candidate43/` 里的输入副本一致（回归用到的输入必须来自同一份归档）。
+7. **明文读回**：`tools/verify_readback.py r9-polish-candidate46` 返回 0，且 `operations_checked=745`、`operations_superseded=2`（同一位置被后续批次再次编辑，按最后一次比对；封签时应重跑存档）。
+8. **解码一致性**：`datav/1`、`datay/1`、`datadf/1`、`datadm/1` 解密后的内容与 `tests/candidate46/` 里的输入副本一致（回归用到的输入必须来自同一份归档）。
 9. **字体 pin**：`font-manifest.json` 的 10 项与候选里实际字体文件一致；字体若变，前面所有视觉结论都不再适用。
 10. **不得写入的字段**：`installed`、`real_clip_CRT_input_verified`、`game_started`、`user_save_accessed` 必须保持 `false`，封签也不得把它们改成 true。
 
@@ -49,5 +49,5 @@ R3 的 `localization/editorial/r3-names/tools/seal_candidate.py` 不能直接复
 ## 四、下一步（按顺序）
 
 1. 写 `localization/editorial/r9-polish/tools/seal_candidate.py`（R9 版），参数化：`--candidate`、`--tests`、`--component`，把第二节的 10 项做成硬校验，全部通过才写 `acceptance.json`。
-2. 用 candidate43 跑一次 dry-run，确认它能拒绝"错误归档"（例如把 candidate42 的 results.json 配到 candidate43 上）——封签脚本必须先能挡住错配。
+2. 用 candidate46 跑一次 dry-run，确认它能拒绝"错误归档"（例如把 candidate45 的 results.json 配到 candidate46 上）——封签脚本必须先能挡住错配。
 3. 用户确认实机层安排后，再决定是否把 `installed`／`real_clip_CRT_input_verified` 从 false 更新；在那之前 `acceptance.json` 即使生成，也只能是 `cpu_only` 级别的封签。
