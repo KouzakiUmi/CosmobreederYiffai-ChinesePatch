@@ -94,11 +94,13 @@ R9 三十五批已全部落地（candidate13～48）。本文件记录三类事�
 
 `PixelLayout` 的类注释写明 CR/LF 与 U+2028 是显式换行，所以在断点前插换行就能修，且实测行数不变。落地需要两件事：台账放行「文本行新增换行」（目前 `_safe_string` 对 line 类型只允许 `	`），以及逐处验证插入后行数不变、不引入新断点、续行不再以标点开头。属独立一轮，不在文本精校范围内混做。
 
-### 6. `Fenfen` 与「芬芬」（未处理，337 处）
+### 6. `Fenfen` 与「芬芬」（未处理，152 处）
 
-`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,proposed`，batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **337 处驼峰 `Fenfen`**（`ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」等）。
+`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,proposed`，batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **152 处驼峰 `Fenfen`**，分布在 148 个位置（`datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77）。典型是 `ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」、剧情里的「听懂Fenfen语」。
 
-其中 **39 处落在说话人槽位**（`Fenfen: [...]`），那是引擎按名查找的 actor，改了就找不到角色，必须逐行区分正文与槽位。扫描结果在 `out/layout/probe/fenfen-hits.json`，未落地。
+**说话人槽位 0 处**：早前记的「39 处落在 `Fenfen: [...]`」是错的，用 `ACTOR` 形状（`Name: [`）逐行匹配后为 0，`tools/probe_fenfen.py` 可复算。所以这批不涉及 actor，但仍需逐处判断引号/上下文（例如 `Fenfen故事` 要写成「芬芬故事」还是「芬芬的故事」），不是无脑替换。
+
+扫描结果在 `out/layout/probe/fenfen-hits.json`（含每处的 side/entry/line/key 与是否 actor 槽位），未落地。
 
 ## 四、仍需裁决
 
