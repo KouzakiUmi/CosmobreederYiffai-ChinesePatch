@@ -422,6 +422,17 @@
     "../../../editorial/r9-polish/batch-22/review/build-gate.json",
     "../../../editorial/r9-polish/batch-22/review/decisions.tsv"
    ]
+  },
+  {
+   "batch": "batch-23",
+   "ledger": "localization/translations/editorial-r9-batch-23-repairs.jsonl",
+   "gate": "localization/editorial/r9-polish/batch-23/review/build-gate.json",
+   "decisions": "localization/editorial/r9-polish/batch-23/review/decisions.tsv",
+   "required_data": [
+    "../../../translations/editorial-r9-batch-23-repairs.jsonl",
+    "../../../editorial/r9-polish/batch-23/review/build-gate.json",
+    "../../../editorial/r9-polish/batch-23/review/decisions.tsv"
+   ]
   }
  ],
  "required_chars": []
