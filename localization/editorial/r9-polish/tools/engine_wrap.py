@@ -10,8 +10,10 @@ Two engines matter, and both refuse to open a line with punctuation:
 * **story box** — `DialogueWrap.storyPages` → `DialogueGrid.formatCapped` →
   `PixelLayout.layout`, 12px story12 metrics, width 240, 3 rows per page.
   Boundary rules from `PixelLayout.legalBoundary` / `preferredBoundary`.
-* **radio** — `ItemFont8.wrap`, `bbc2` metrics, width 150, 2 visible rows plus a
-  page counter. Boundary rules from `noStart` / `noEnd` / word preference.
+* **radio** — `DialogueWrap.pages` → `DialogueGrid.format` → `PixelLayout`, the
+  same 12px metrics, width 150 (80 for the NY caller), 3 rows per page. It uses
+  the **same** boundary rules as the story box. `ItemFont8` is the item-name
+  field, not the radio body — do not use its `noStart` / `noEnd` here.
 
 Both wrap the same way in spirit: fit as much as possible, then prefer a break
 at a *legal* boundary, then a *preferred* one, and only fall back to a forced
@@ -27,7 +29,7 @@ ROWS_RADIO = 2
 # line may not start with any of these.
 LEGAL_LEFT_FORBIDDEN = '（［｛〈《「『【〔〖〘〚‘“([{'
 LEGAL_RIGHT_FORBIDDEN = '、。，．：；？！‼⁇⁈⁉）］｝〉》」』】〕〗〙〛’”)]},.!?:;%‰…⋯'
-# `ItemFont8.noStart` / `noEnd` (radio) — same intent, slightly different sets
+# `ItemFont8.noStart` / `noEnd` — item-name field only, NOT the radio body.
 NO_START = '，。！？；：、）》】〕〉」』”’…,.!?;:%)]}'
 NO_END = '（《【〔〈「『“‘([{$'
 
@@ -91,7 +93,7 @@ def wrap(text, width_of, budget):
 
 
 def radio_rows(text, width_of):
-    """Radio pages: 2 visible rows, the third line is the page counter."""
+    """Radio pages: same PixelLayout rule as the story box, width 150."""
     return wrap(text, width_of, BUDGET_RADIO)
 
 

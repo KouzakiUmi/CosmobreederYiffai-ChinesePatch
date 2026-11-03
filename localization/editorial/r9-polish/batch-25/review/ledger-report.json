@@ -9,28 +9,28 @@
    "archive": "cosmobreeder-multi.jar",
    "archive_entry": "datadf/1",
    "before_resource_sha256": "e6b86c377dba7b0cb777531f395c8db5ea551ac0663e8753be4c613261db2925",
-   "after_resource_sha256": "f5f2dced5d9ab91bd2c4bdda328107e1c0f82ad3918ad6d1d0df20dd74771788",
+   "after_resource_sha256": "cdcbcf1b89715005af172c6bef2ae5c0b6daa9da7e1333e9eb5c5a35323c8294",
    "targets_changed": 26
   },
   {
    "archive": "cosmobreeder-multi.jar",
    "archive_entry": "datadm/1",
    "before_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
-   "after_resource_sha256": "581d41774c6f6c9d99aa0125fff5b811ed787b70b1aa9cf290d580a0817b2315",
+   "after_resource_sha256": "b7dac2a119dd67f09474b8483963cd4044f3c94376fd9475e4b5c52f2cfb8336",
    "targets_changed": 20
   },
   {
    "archive": "patch.pak",
    "archive_entry": "datadf/1",
    "before_resource_sha256": "36d57bad5d33b6d44cf769b255340878528c84d0cc02c381557a2289c1ab68d7",
-   "after_resource_sha256": "f50e3de8a40a1b9363b840a7c52ce78fc73eebe29f722f379b704903cf54dcdd",
+   "after_resource_sha256": "0c89a5916c0073f8a9b09d2cf3aa82567c4c8f7be818657c088ad7a71c0d3134",
    "targets_changed": 30
   },
   {
    "archive": "patch.pak",
    "archive_entry": "datadm/1",
    "before_resource_sha256": "789452855f93ee484c9554e515fc1b2f57ed3646ed9e7e589c6d036b176dacc3",
-   "after_resource_sha256": "5c2e4661c3689584a70d0d1613157a53c5cacf62604d8cd41a339d7647432db6",
+   "after_resource_sha256": "36bc41b905598deeb5f3914535618745868341f90c65da702c2079550e86cc97",
    "targets_changed": 20
   }
  ],

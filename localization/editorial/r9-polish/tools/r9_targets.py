@@ -108,7 +108,10 @@ def target_of(row, mode, candidate, root):
     """
     archive = MODE_ARCHIVE[mode]
     if row.get('line') is not None:
-        return archive, row['archive_entry'], 'line', 'line', row['line']
+        #  marks a row whose wording itself changes, which the engine
+        # must treat differently from a break-only edit.
+        kind = 'line_rewrite' if row.get('rewrite') else 'line'
+        return archive, row['archive_entry'], kind, 'line', row['line']
     if row.get('pointer'):
         # Scanned dictionary rows know their key; two keys can hold the same text,
         # so searching by value would be ambiguous.

@@ -142,6 +142,9 @@ def apply_entry(archive: str, entry: str, data: bytes, operations: list[dict]):
     except UnicodeDecodeError as exc: raise EditorialRepairError('not UTF-8 text') from exc
     family = entry.split('/')[0]
     expected_kind = 'json' if family in ('datav', 'datay') else 'line'
+    # `line_rewrite` is accepted on text families alongside `line`; the caller
+    # decides which one a batch is allowed to use.
+    text_kinds = ('line', 'line_rewrite')
     ids, targets, edits, applied = set(), {}, [], []
     lines = re.findall(r'[^\r\n]*(?:\r\n|\r|\n|\Z)', text)
     if lines and lines[-1] == '': lines.pop()
@@ -165,8 +168,9 @@ def apply_entry(archive: str, entry: str, data: bytes, operations: list[dict]):
     for op in operations:
         if not isinstance(op, dict) or not FIELDS <= op.keys(): _fail('missing operation fields')
         kind = op['kind']
-        if kind != expected_kind: _fail('kind/resource mismatch')
-        locator = 'line' if kind == 'line' else 'pointer'
+        if kind not in ((expected_kind,) + text_kinds if expected_kind == 'line' else (expected_kind,)):
+            _fail('kind/resource mismatch')
+        locator = 'line' if kind in ('line', 'line_rewrite') else 'pointer'
         if set(op) != FIELDS | {locator}: _fail('unexpected operation fields')
         if not isinstance(op['op_id'], str) or not op['op_id'] or op['op_id'] in ids: _fail('invalid/duplicate op_id')
         ids.add(op['op_id'])
@@ -176,22 +180,25 @@ def apply_entry(archive: str, entry: str, data: bytes, operations: list[dict]):
             if not isinstance(op[field], list) or not op[field] or any(not isinstance(x, str) or not x for x in op[field]):
                 _fail('missing provenance: ' + field)
         old, new = op['old'], op['new']
-        _safe_string(old, json_value=kind == 'json', line_row=kind == 'line')
-        _safe_string(new, json_value=kind == 'json', line_row=kind == 'line')
+        line_row = kind in ('line', 'line_rewrite')
+        _safe_string(old, json_value=kind == 'json', line_row=line_row)
+        _safe_string(new, json_value=kind == 'json', line_row=line_row)
         if kind == 'json' and any(old.count(c) != new.count(c) for c in '\r\n'):
             _fail('JSON newline count drift')
-        if kind == 'line' and new.count(LINE_BREAK) > old.count(LINE_BREAK):
+        if kind == 'line' and new.count(LINE_BREAK) != old.count(LINE_BREAK):
             # A row may *gain* explicit breaks so a continuation line stops opening
             # on punctuation. When it does, the breaks must be the only structural
             # change: removing them has to give back the old text verbatim.
             #
-            # A plain rewrite (same break count) is the ordinary case — every
-            # proofreading ledger since R1 is one — and must not be held to this
-            # test, or rewording a line would be rejected as "altering the text".
+            # This applies to `line` only. `line_rewrite` is the explicit
+            # "the wording itself changed" kind, used by batches that polish
+            # sentences; it may add *or remove* breaks because the text around
+            # them is new. Keeping the two apart is what stops a plain `line`
+            # operation from silently dropping a break while editing text.
             if new.replace(LINE_BREAK, '') != old.replace(LINE_BREAK, ''):
                 _fail('line break insertion must not alter the text')
         if old == new: _fail('no-op operation')
-        if kind == 'line':
+        if kind in ('line', 'line_rewrite'):
             n = op['line']
             if type(n) is not int or not 1 <= n <= len(lines): _fail('line out of range')
             if bodies[n-1] != old: _fail('old physical line mismatch')

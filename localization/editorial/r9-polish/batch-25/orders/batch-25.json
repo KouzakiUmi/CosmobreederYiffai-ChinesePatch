@@ -30,6 +30,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
      "target": "  * ……不过，你们宇宙育种者一直待我不错啊，所以从我赚的那些钱里拿一小份吧，怎么样？这是你应得的！"
@@ -41,6 +42,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
      "target": "  Yiffany: [是啊，我已完全撤离，震动似乎仍在持续。而且一些建筑结构进一步受损。]"
@@ -52,6 +54,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Yiffany: [我会用双方同意的接触和自愿给出的实物与本地生物建立联结，之后它们就会提供重要数据，这才配得上宇宙大使。]",
      "target": "  Yiffany: [我会用双方同意的接触和自愿给出的实物，与本地生物联结。之后它们会提供重要数据，这才配得上宇宙大使。]"
@@ -63,6 +66,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]"
@@ -74,6 +78,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器，它们几乎从不坏，你也看到了！]"
@@ -85,6 +90,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]"
@@ -96,6 +102,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
      "target": "  Bossu: [它们原本是来自图托恩的普通青蛙。但似乎有某种能量注入体内，给了它们特别的韧性和攻击性……]"
@@ -107,6 +114,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
      "target": "  Tomcat: [行了行了，真好笑。姑娘我知道你在那儿。为这通恶作剧电话笑得尾巴都要掉了。]"
@@ -118,6 +126,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [嗯，它的基因对不上我们数据库里的任何东西。但那何曾拦得住你往嘴里放东西？]",
      "target": "  Tomcat: [嗯，它的基因跟我们数据库里的任何东西都对不上。但那何曾拦得住你往嘴里放东西？]"
@@ -129,9 +138,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [在空中按 DOWN+JUMP 就能俯冲。如果你撞到什么东西，就会弹起来。甚至还能连续弹跳！]",
-     "target": "  Tomcat: [空中按 DOWN+JUMP 就能俯冲。撞到东西会弹起，甚至还能连续弹跳！]"
+     "target": "  Tomcat: [按 DOWN+JUMP 就能俯冲。如果撞到东西会弹起，甚至还能连续弹跳！]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4474",
@@ -140,6 +150,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
      "target": "  Tomcat: [报告说，战斗中能用“SELECT”选能力，特工再同时按“UP”+“ATTACK”使出。]"
@@ -151,6 +162,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": " Tomcat: [当初我们开始收到特工们关于所谓的“精神力异能”的报告时，还请了精神科医生！]",
      "target": " Tomcat: [当初我们开始收到特工关于所谓的“精神力异能”的报告时，还请了精神科医生！]"
@@ -162,6 +174,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
      "target": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己来定夺，特工！]"
@@ -173,6 +186,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -184,6 +198,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -195,6 +210,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -206,6 +222,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -217,6 +234,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -228,6 +246,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -239,6 +258,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -250,6 +270,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -261,6 +282,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -272,6 +294,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -283,6 +306,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -294,6 +318,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型装备不是我的专长。不过，我们在旧机库雇了本地机械师，能进一步给你建议。]"
@@ -305,6 +330,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型装备不是我的专长。不过，我们在旧机库雇了本地机械师，能进一步给你建议。]"
@@ -316,9 +342,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4730",
@@ -327,9 +354,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4959",
@@ -338,6 +366,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你黑开门！显然，这是双赢！"
@@ -349,6 +378,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
@@ -370,6 +400,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
      "target": "  * ……不过啊，你们宇宙育种者一直待我不错，所以就从我赚到的钱里拿一小份吧，怎么样？这是你应得的！"
@@ -381,6 +412,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Yiffai: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]",
      "target": "  Yiffai: [淘、淘气？这个我不太懂。不过这、这些，听起来像很有用的研究途径。伊吠完毕！]"
@@ -392,6 +424,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
      "target": "    Mauser: [若见到其他仍在活动的特工，我会通知你，不过眼下，这片区域也许还有些被俘的特工，你能帮上他们的忙。]"
@@ -403,6 +436,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
      "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
@@ -414,6 +448,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
      "target": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动，你们就会后悔欺负那只小狗崽了！]"
@@ -425,6 +460,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
      "target": "  Bossu: [信不信由你，那些全都是近期新造出来的，出自你们遇到的蜥蜴太空海盗。]"
@@ -436,6 +472,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
      "target": "  Bossu: [信不信由你，那些全都是最近新造出来的，出自你们遇到的蜥蜴太空海盗。]"
@@ -447,6 +484,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
      "target": "  Tomcat: [但往好处想，它已经煮了那么久啦，所以，那漆黑的液体里不管有什么，多半弄不死你！也许吧！]"
@@ -458,6 +496,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
      "target": "  Tomcat: [他在下面擅离职守，倒也算是件好事。毕竟我们原本要对他做深入研究，以防他说的全是真话……]"
@@ -469,6 +508,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -480,6 +520,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -491,6 +532,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -502,6 +544,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -513,6 +556,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -524,6 +568,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -535,9 +580,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型设备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4728",
@@ -546,9 +592,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型设备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4735",
@@ -557,6 +604,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型装备并非我的专长。但是，我们已在旧机库请好了一位当地的机械师了。他可以给你进一步的建议。]"
@@ -568,9 +616,10 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
-     "target": "  * 很简单：把你外头找到的那些花哨芯片给我，我就替你破解门锁！这不是双赢嘛！"
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:5191",
@@ -579,6 +628,7 @@
      "variant": "nsfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
@@ -600,6 +650,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
      "target": "  * ……不过你们这些宇宙育种者一直待我不错。所以，就从我赚的钱里拿一小份吧，怎么样？这是你应得的！"
@@ -611,6 +662,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Yiffany: [是啊，我已经完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]",
      "target": "  Yiffany: [是啊，我已完全撤离出来了。震动似乎还在持续，而且一些建筑结构进一步受损。]"
@@ -622,6 +674,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器。它们几乎从来不会坏，你也看到了！]"
@@ -633,6 +686,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器，它们几乎从不坏，你也看到了！]"
@@ -644,6 +698,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]",
      "target": "  Bossu: [其实没人真的接手更换那些老旧自卫武器。它们几乎从来不会坏，你也看到了！]"
@@ -655,6 +710,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
      "target": "  Bossu: [信不信由你，那是你们遇到的蜥蜴太空海盗最近造的。]"
@@ -666,6 +722,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
      "target": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给它们一种特别的韧性和攻击性……]"
@@ -677,6 +734,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [行了行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]",
      "target": "  Tomcat: [行了，真好笑。姑娘，我知道你就在那儿，为这通恶作剧电话笑得尾巴都要掉了。]"
@@ -688,6 +746,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己定夺，特工！]",
      "target": "  Mauser: [影响生物的加密币严——重违法！但这既是绝密的欧米茄协议任务，就由你自己来定夺，特工！]"
@@ -699,6 +758,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -710,6 +770,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -721,6 +782,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -732,6 +794,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -743,6 +806,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -754,6 +818,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -765,6 +830,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -776,6 +842,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -787,6 +854,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -798,6 +866,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -809,6 +878,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -820,9 +890,10 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4534",
@@ -831,9 +902,10 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4541",
@@ -842,9 +914,10 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4548",
@@ -853,9 +926,10 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库里，有个本地机械师能给你进一步建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4777",
@@ -864,6 +938,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你黑开门！显然，这是双赢！"
@@ -875,6 +950,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadf/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"
@@ -896,6 +972,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * ……不过，你们这些宇宙育种者一直待我不错，所以从我赚的钱里拿一小份吧，怎么样？这是你应得的！",
      "target": "  * ……不过，你们宇宙育种者一直待我不错啊，所以从我赚的那些钱里拿一小份吧，怎么样？这是你应得的！"
@@ -907,6 +984,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
      "target": "    Mauser: [我们若看到其他活动的特工，我会通知你。不过眼下，这片区域可能还有些被俘的特工，你能帮上忙。]"
@@ -918,6 +996,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
      "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
@@ -929,6 +1008,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又弱，但等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]",
      "target": "  Bossu: [那小子或许没怎么反抗，毕竟他那么娇小，身子又那么弱，但是等PPP倾巢出动的时候，你们就会后悔欺负那只小狗崽了！]"
@@ -940,6 +1020,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
      "target": "  Bossu: [信不信由你，那些全都是近期才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
@@ -951,6 +1032,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
      "target": "  Bossu: [信不信由你，那些全都是最近才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
@@ -962,6 +1044,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
      "target": "  Tomcat: [但往好处想，它实在是已经煮了那么久了，那漆黑液体里面不管是什么，多半弄不死你！也许吧！]"
@@ -973,6 +1056,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [他在下面擅离职守，倒也算是件好事，毕竟我们原本安排了对他进行深入研究，以防他说的都是真的……]",
      "target": "  Tomcat: [他在下面擅离职守，这倒也算是一件好事，毕竟我们原本就安排了对他进行深入的研究，以防他说的都是真的……]"
@@ -984,6 +1068,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -995,6 +1080,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -1006,6 +1092,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -1017,6 +1104,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -1028,6 +1116,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -1039,6 +1128,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
      "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
@@ -1050,6 +1140,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
@@ -1061,6 +1152,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
@@ -1072,6 +1164,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
@@ -1083,6 +1176,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
      "target": "  Tomcat: [我看到了！重型设备本来就不是我的专长，但是我们在旧机库里请了一位当地的机械师，他可以给你进一步的建议。]"
@@ -1094,9 +1188,10 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
-     "target": "  * 很简单：把你外头找到的那些花哨芯片给我，我就替你破解门锁！这不是双赢嘛！"
+     "target": "  * 很简单：你把在外头找到的花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:5043",
@@ -1105,6 +1200,7 @@
      "variant": "sfw",
      "current_kind": "physical_line",
      "archive_entry": "datadm/1",
+     "rewrite": true,
      "source": "",
      "current": "  * 很简单：你把在外头找到的那些花哨芯片带给我，",
      "target": "  * 很简单：你把在外头找到的花哨芯片带给我，"

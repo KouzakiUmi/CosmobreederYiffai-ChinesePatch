@@ -58,10 +58,23 @@ batch-23 用插 U+2028 的办法修了 1,163 行的切词，剩下的 197 处修
 
 | 容器 | 字体 | 宽 | 行数 | 规则来源 |
 | --- | --- | --- | --- | --- |
-| 故事框 | story12 | 240px | 3 | `PixelLayout.legalBoundary` / `preferredBoundary` |
-| 无线电 | classic | 150px | 2 + 页码 | `ItemFont8.noStart` / `noEnd` |
+| 故事框 | story12（汉字 12px） | 240px | 3 | `PixelLayout.legalBoundary` / `preferredBoundary` |
+| 无线电 | bbc2（汉字 10px） | 150px | 3 | 同一套 `PixelLayout` 规则（`DialogueWrap.pages` 也走 `DialogueGrid.format`） |
+
+无线电**不是** `ItemFont8`——那是物品名字段。我第一版把无线电写成 `ItemFont8.noStart/noEnd` + `classic` 8px，两处都错，核验方指出后改正。
 
 `assemble_rewrites.py` 改用这个模块。按引擎规则重算后，又暴露出 14 行新问题，逐行调断点修到 0。
+
+## 两个容器都量过
+
+| 容器 | candidate52（改前） | candidate54（改后） | 变化 |
+| --- | ---: | ---: | ---: |
+| 故事框 240px / story12 | 950 处 / 934 行 | 867 处 / 851 行 | **−83** |
+| 无线电 150px / bbc2 | 1,918 处 / 1,811 行 | 1,871 处 / 1,800 行 | **−47** |
+
+两个容器都是改善。中间我用错字模（classic 8px）算过一次，得出「无线电变差 39 处」的结论，那是错的——`classic.fnt` 汉字 8px，`bbc2.fnt` 汉字 10px，只有后者是无线电真正用的字模。
+
+**未验证的边界**：这些行走哪个容器，我只能从代码路径推断（`DialogueWrap.story` 按 `StoryFont12.uses12` 分流，96 行全含汉字故走故事框；无线电是另一条入口，由调用方决定）。要证实需要运行游戏或打点，本会话不做。
 
 ## 判据的局限（必须说明）
 
