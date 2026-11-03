@@ -44,37 +44,63 @@ batch-23 用插 U+2028 的办法修了 1,163 行的切词，剩下的 197 处修
 
 改写时统一成一种，分叉一并消失。
 
-## 一个根本性错误：折行规则一直算错了
+## 两个根本性错误：折行规则一直算错了
 
-第一版用**纯贪心**验算（累加到 240px 就换行）。引擎不是这样：
+### 第一次错：用纯贪心
 
-`PixelLayout.wrap` 先填满，然后**优先断在合法边界**（`legalBoundary`：行尾不能是开括号，行首不能是标点），再优先断在「好边界」（`preferredBoundary`：两边都是拉丁字母时不在单词中间断），只有都找不到才强制断。
+第一版用纯贪心（累加到 240px 就换行）。引擎不是这样——当时我以为它走 `DialogueWrap.storyPages` → `PixelLayout`，于是第二次改成「优先断在合法边界，行首不能是标点」。
 
-这个差别是致命的：地图句按贪心是 `…的地图 / ，有时还带标注。`（看着干净），按引擎是 `…的地 / 图，有时…`——因为 `，` 不能出现在行首，引擎把断点往前挪，切开了「地图」。
+### 第二次错：`DialogueWrap` 根本没接进游戏
 
-所以第一版有 **35 行根本没修好**。核验方发现了这一点。
+反编译原版归档后才确认：`PRG/DialogueWrap` 是本项目新增的**测试用参考实现**。`CorePatch.java` 里只注入了它的一个方法：
 
-修法：新增 `tools/engine_wrap.py`，把两套真实规则实现成共享模块——
+```java
+m.instructions.set(found, new MethodInsnNode(INVOKESTATIC,
+    "PRG/DialogueWrap", "terminalText", ...));
+```
 
-| 容器 | 字体 | 宽 | 行数 | 规则来源 |
-| --- | --- | --- | --- | --- |
-| 故事框 | story12（汉字 12px） | 240px | 3 | `PixelLayout.legalBoundary` / `preferredBoundary` |
-| 无线电 | bbc2（汉字 10px） | 150px | 3 | 同一套 `PixelLayout` 规则（`DialogueWrap.pages` 也走 `DialogueGrid.format`） |
+`story` / `radio` / `storyPages` / `pages` 四个方法只被回归测试调用，游戏仍在跑原版混淆类 `PRG/amw`。所以前两版测的都是参考实现。
 
-无线电**不是** `ItemFont8`——那是物品名字段。我第一版把无线电写成 `ItemFont8.noStart/noEnd` + `classic` 8px，两处都错，核验方指出后改正。
+### 真实规则：固定字符数硬切
 
-`assemble_rewrites.py` 改用这个模块。按引擎规则重算后，又暴露出 14 行新问题，逐行调断点修到 0。
+用仓库自带的 JDK 17 `javap` 逐层反编译 `PRG/amw`：
 
-## 两个容器都量过
+```
+PRG.amw.a(String, amq)            // 切成行
+  -> PRG.amr$e.a(String, String)     // 按 "<p>" 分段
+  -> PRG.aDJ.e(String, int)          // 返回 aCj 迭代器
+  -> PRG.aDI$a.p()                   // substring(c, c + cols)
+  -> PRG.aDJ.a(String, int, int)     // 就是 String.substring
+```
 
-| 容器 | candidate52（改前） | candidate54（改后） | 变化 |
-| --- | ---: | ---: | ---: |
-| 故事框 240px / story12 | 950 处 / 934 行 | 867 处 / 851 行 | **−83** |
-| 无线电 150px / bbc2 | 1,918 处 / 1,811 行 | 1,871 处 / 1,800 行 | **−47** |
+**没有像素测量，没有标点避让，没有词边界。** 每行固定若干个 UTF-16 字符，切在哪就是哪。
 
-两个容器都是改善。中间我用错字模（classic 8px）算过一次，得出「无线电变差 39 处」的结论，那是错的——`classic.fnt` 汉字 8px，`bbc2.fnt` 汉字 10px，只有后者是无线电真正用的字模。
+列数常量从各常量类的 `<clinit>` 读出：
 
-**未验证的边界**：这些行走哪个容器，我只能从代码路径推断（`DialogueWrap.story` 按 `StoryFont12.uses12` 分流，96 行全含汉字故走故事框；无线电是另一条入口，由调用方决定）。要证实需要运行游戏或打点，本会话不做。
+| 常量 | 含义 | 值 |
+| --- | --- | ---: |
+| `PRG.Ol` | 故事框列数 | **28** |
+| `PRG.Ob` | 无线电列数 | 20 |
+| `PRG.NY` | 结局面板列数 | 12 |
+| `PRG.Om` | 每页行数 | 3 |
+
+`PRG.amw.b(char)` 只判断 ASCII 空格（`c == 32`），`PRG.amw.a(char)` 无条件返回空格——混淆层对「断点」的唯一概念是空格，而中文没有空格。
+
+完整取证见 `wrap-rule-evidence.md`。
+
+### 这解释了 batch-24 为什么必然失败
+
+固定字数硬切下，只要句子长度不是列数整数倍，就**必然在某处被切开**，切点纯由字数决定。「把一处切词挪到别处」是这条路的固有性质，不是实现失误。
+
+改文案仍有用，但作用方式不同：**不能消除切点，只能把切点移到标点后或虚词后**。
+
+`tools/engine_wrap.py` 现在直接实现真实规则：
+
+```python
+COLS_STORY = 28
+def hard_rows(text, cols):
+    return [text[i:i + cols] for i in range(0, len(text), cols)]
+```
 
 ## 判据的局限（必须说明）
 

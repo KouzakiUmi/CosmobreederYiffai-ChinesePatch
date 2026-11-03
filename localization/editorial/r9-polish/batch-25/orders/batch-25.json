@@ -153,7 +153,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [报告说，战斗中特工能用“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]",
-     "target": "  Tomcat: [报告说，战斗中能用“SELECT”选能力，特工再同时按“UP”+“ATTACK”使出。]"
+     "target": "  Tomcat: [报告说，战斗时按“SELECT”选能力，再同时按“UP”+“ATTACK”使出。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4508",
@@ -189,7 +189,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4621",
@@ -201,7 +201,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4628",
@@ -213,7 +213,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4635",
@@ -225,7 +225,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4642",
@@ -237,7 +237,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4649",
@@ -249,7 +249,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4656",
@@ -261,7 +261,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4663",
@@ -273,7 +273,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4670",
@@ -285,7 +285,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4677",
@@ -297,7 +297,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4684",
@@ -309,7 +309,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4709",
@@ -345,7 +345,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4730",
@@ -357,7 +357,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadf/1:4959",
@@ -427,7 +427,7 @@
      "rewrite": true,
      "source": "",
      "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
-     "target": "    Mauser: [若见到其他仍在活动的特工，我会通知你，不过眼下，这片区域也许还有些被俘的特工，你能帮上他们的忙。]"
+     "target": "    Mauser: [看到其他活动的特工，我会通知你。不过区域里还有些被俘的特工，你能帮忙。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:2265",
@@ -439,7 +439,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
-     "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
+     "target": "  Tomcat: [无线电呼叫不通，你生命体征又乱了，我只收到一阵发毛！]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:2722",
@@ -487,7 +487,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
-     "target": "  Tomcat: [但往好处想，它已经煮了那么久啦，所以，那漆黑的液体里不管有什么，多半弄不死你！也许吧！]"
+     "target": "  Tomcat: [但往好处想，它煮了那么久，那漆黑液体里不管是什么，多半害不死你！]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4525",
@@ -511,7 +511,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4637",
@@ -523,7 +523,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4651",
@@ -535,7 +535,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4665",
@@ -547,7 +547,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4679",
@@ -559,7 +559,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4693",
@@ -571,7 +571,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4721",
@@ -583,7 +583,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型设备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4728",
@@ -595,7 +595,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型设备不是我的专长，但是我们在旧机库请了一位当地机械师，他可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型设备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型设备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:patch.pak:datadm/1:4735",
@@ -725,7 +725,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给了它们一种特别的韧性和攻击性……]",
-     "target": "  Bossu: [它们原本是来自图托恩的普通青蛙，但似乎有某种能量注入它们体内，给它们一种特别的韧性和攻击性……]"
+     "target": "  Bossu: [它们本是图托恩的普通青蛙。但体内似乎被注入了某种能量，让它们格外有韧性……]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:3685",
@@ -761,7 +761,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4448",
@@ -773,7 +773,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4455",
@@ -785,7 +785,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4462",
@@ -797,7 +797,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4469",
@@ -809,7 +809,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4476",
@@ -821,7 +821,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4483",
@@ -833,7 +833,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4490",
@@ -845,7 +845,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4497",
@@ -857,7 +857,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4504",
@@ -869,7 +869,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在这片区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4511",
@@ -881,7 +881,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工绘制了你当前所在区域各部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4527",
@@ -893,7 +893,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4534",
@@ -905,7 +905,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4541",
@@ -917,7 +917,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4548",
@@ -929,7 +929,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-     "target": "  Tomcat: [我看到了！重型装备非我专长。不过我们雇了个本地机械师守着旧机库，能给你建议。]"
+     "target": "  Tomcat: [我看到了！重型装备非我专长。旧机库那边有我们雇的机械师，能给你建议。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadf/1:4777",
@@ -987,7 +987,7 @@
      "rewrite": true,
      "source": "",
      "current": "    Mauser: [如果我们看到其他仍在活动的特工，我会通知你，不过眼下，这片区域可能还有一些你能帮上忙的被俘特工。]",
-     "target": "    Mauser: [我们若看到其他活动的特工，我会通知你。不过眼下，这片区域可能还有些被俘的特工，你能帮上忙。]"
+     "target": "    Mauser: [看到其他活动的特工，我会通知你。不过区域里还有些被俘的特工，你能帮忙。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2244",
@@ -999,7 +999,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]",
-     "target": "  Tomcat: [无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！]"
+     "target": "  Tomcat: [无线电呼叫不通，你生命体征又乱了，我只收到一阵发毛！]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2686",
@@ -1023,7 +1023,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗近期造出来的。]",
-     "target": "  Bossu: [信不信由你，那些全都是近期才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
+     "target": "  Bossu: [信不信由你，那些全是近期才造出来的，出自你们遇到的蜥蜴太空海盗。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:2845",
@@ -1035,7 +1035,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Bossu: [信不信由你，那些是你们遇到的那些蜥蜴太空海盗最近造出来的。]",
-     "target": "  Bossu: [信不信由你，那些全都是最近才造出来的，出自你们遇到的那些蜥蜴太空海盗。]"
+     "target": "  Bossu: [信不信由你，那些全是最近才造出来的，出自你们遇到的蜥蜴太空海盗。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:3944",
@@ -1047,7 +1047,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [但往好处想，它已经煮了那么久，那漆黑液体里不管是些什么东西，多半不会弄死你！也许吧！]",
-     "target": "  Tomcat: [但往好处想，它实在是已经煮了那么久了，那漆黑液体里面不管是什么，多半弄不死你！也许吧！]"
+     "target": "  Tomcat: [但往好处想，它煮了那么久，那漆黑液体里不管是什么，多半害不死你！]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4400",
@@ -1071,7 +1071,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4501",
@@ -1083,7 +1083,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4515",
@@ -1095,7 +1095,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4529",
@@ -1107,7 +1107,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4543",
@@ -1119,7 +1119,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4557",
@@ -1131,7 +1131,7 @@
      "rewrite": true,
      "source": "",
      "current": "  Tomcat: [其他特工已经绘制出你目前所处区域各个部分的地图，有时还带标注。]",
-     "target": "  Tomcat: [其他特工已经画出你所在区域各处的地图，有的带标注。]"
+     "target": "  Tomcat: [其他特工已经画出你所在区域的地图，有的带标注。]"
     },
     {
      "row_id": "P25:cosmobreeder-multi.jar:datadm/1:4574",

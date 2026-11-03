@@ -1,106 +1,71 @@
-"""The engine's real wrap rule, shared by every verifier.
+"""The game's *actual* wrap rule, established by disassembling the original classes.
 
-The earlier tools used plain greedy wrapping (accumulate until 240px). That is
-**not** what the engine does, and the difference produced real mistakes: rows
-that looked clean at 240px greedy actually split a word once the engine applied
-its boundary rules.
+Everything before this file modelled `PRG/DialogueWrap`, which turns out to be a
+**test-only reference implementation**: `CorePatch` injects exactly one call to
+it (`terminalText`), and `story` / `radio` / `storyPages` / `pages` are never
+patched into the game. The game still runs the original obfuscated `PRG/amw`.
 
-Two engines matter, and both refuse to open a line with punctuation:
+So the earlier measurements — plain greedy, then `PixelLayout`'s punctuation
+rules — were both measuring the wrong thing. What the game really does:
 
-* **story box** — `DialogueWrap.storyPages` → `DialogueGrid.formatCapped` →
-  `PixelLayout.layout`, 12px story12 metrics, width 240, 3 rows per page.
-  Boundary rules from `PixelLayout.legalBoundary` / `preferredBoundary`.
-* **radio** — `DialogueWrap.pages` → `DialogueGrid.format` → `PixelLayout`, the
-  same 12px metrics, width 150 (80 for the NY caller), 3 rows per page. It uses
-  the **same** boundary rules as the story box. `ItemFont8` is the item-name
-  field, not the radio body — do not use its `noStart` / `noEnd` here.
+    PRG.amw.a(String, amq)                      // split into lines
+      -> PRG.amr$e.a(String, String)            // split on "<p>"
+      -> PRG.aDJ.e(String, int)                 // -> aCj iterator
+      -> PRG.aDI$a.p()                          // substring(c, c + cols)
+      -> PRG.aDJ.a(String, int, int)            // plain String.substring
 
-Both wrap the same way in spirit: fit as much as possible, then prefer a break
-at a *legal* boundary, then a *preferred* one, and only fall back to a forced
-break when neither exists. This module implements that once, so a verifier
-cannot accidentally measure the wrong thing again.
+`PRG.aDI$a.p()` takes the cursor `c` and returns `substring(c, c + b)` where `b`
+is the column count handed in at construction. There is **no width measurement,
+no punctuation avoidance, and no word awareness**: every line is a fixed number
+of characters, cut wherever the count falls.
+
+The column constants, read from their classes:
+
+| constant | meaning | value |
+| --- | --- | --- |
+| `PRG.Ol` | story-box columns | **28** |
+| `PRG.Ob` | radio columns | **20** |
+| `PRG.NY` | ending panel columns | 12 |
+| `PRG.Om` | rows per page | 3 |
+
+`PRG.amw.b(char)` only tests for a space (0x20) and `PRG.amw.a(char)` returns a
+space unconditionally — the obfuscated wrapper's only notion of a break is the
+ASCII space, which Chinese text does not contain.
+
+Consequence: with hard cutting, *any* line whose length is not a multiple of the
+column count gets cut somewhere, and the cut position is decided purely by the
+character count. Rewording can only move the cut; it cannot remove it. That is
+exactly why batch-24 kept trading one split for another. What rewording *can*
+do is move the cut onto punctuation or a function word instead of through a
+content word.
 """
-BUDGET_STORY = 240
-BUDGET_RADIO = 150
-ROWS_STORY = 3
-ROWS_RADIO = 2
 
-# `PixelLayout.legalBoundary`: a line may not end on an opening bracket, and a
-# line may not start with any of these.
-LEGAL_LEFT_FORBIDDEN = '（［｛〈《「『【〔〖〘〚‘“([{'
-LEGAL_RIGHT_FORBIDDEN = '、。，．：；？！‼⁇⁈⁉）］｝〉》」』】〕〗〙〛’”)]},.!?:;%‰…⋯'
-# `ItemFont8.noStart` / `noEnd` — item-name field only, NOT the radio body.
-NO_START = '，。！？；：、）》】〕〉」』”’…,.!?;:%)]}'
-NO_END = '（《【〔〈「『“‘([{$'
+COLS_STORY = 28
+COLS_RADIO = 20
+COLS_ENDING = 12
+ROWS = 3
 
 
-def _is_word(ch):
-    return ch < '\x80' and (ch.isalnum() or ch in "'-")
+def hard_rows(text, cols):
+    """Exactly what `PRG.aDI$a.p()` produces: fixed-size character slices."""
+    if not text:
+        return ['']
+    return [text[i:i + cols] for i in range(0, len(text), cols)]
 
 
-def legal_boundary(left, right):
-    """May a line break between these two characters? (engine `legalBoundary`)"""
-    if not left or not right:
-        return True
-    if left in LEGAL_LEFT_FORBIDDEN or right in LEGAL_RIGHT_FORBIDDEN:
-        return False
-    return True
+def story_rows(text):
+    return hard_rows(text, COLS_STORY)
 
 
-def preferred_boundary(left, right):
-    """Is the break a *good* one? (engine `preferredBoundary`)"""
-    if not left or not right:
-        return True
-    return not (_is_word(left) and _is_word(right))
+def radio_rows(text):
+    return hard_rows(text, COLS_RADIO)
 
 
-def wrap(text, width_of, budget):
-    """Wrap like the engine: fill, then prefer a legal+preferred boundary.
-
-    `width_of` maps a character to its advance in pixels. Returns the drawn rows.
-    """
-    chars = list(text)
-    rows = []
-    at = 0
-    total = len(chars)
-    while at < total:
-        used = 0
-        fit = at
-        preferred = -1
-        legal = -1
-        while fit < total:
-            advance = width_of(chars[fit])
-            if used + advance > budget and fit > at:
-                break
-            used += advance
-            fit += 1
-            if fit == total or legal_boundary(chars[fit - 1], chars[fit]):
-                legal = fit
-                if fit == total or preferred_boundary(chars[fit - 1], chars[fit]):
-                    preferred = fit
-            if used + advance > budget and fit > at:
-                break
-        stop = fit
-        if fit < total:
-            if preferred > at:
-                stop = preferred
-            elif legal > at:
-                stop = legal
-            # else: forced break — the engine records an issue and breaks at `fit`
-        rows.append(''.join(chars[at:stop]))
-        at = stop
-    return rows or ['']
-
-
-def radio_rows(text, width_of):
-    """Radio pages: same PixelLayout rule as the story box, width 150."""
-    return wrap(text, width_of, BUDGET_RADIO)
-
-
-def story_rows(text, width_of):
-    return wrap(text, width_of, BUDGET_STORY)
+def ending_rows(text):
+    return hard_rows(text, COLS_ENDING)
 
 
 def boundaries(rows):
+    """The character pairs that straddle a line break."""
     return [rows[i][-1] + rows[i + 1][0] for i in range(len(rows) - 1)
             if rows[i] and rows[i + 1]]
