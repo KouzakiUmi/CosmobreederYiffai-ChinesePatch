@@ -91,3 +91,31 @@
 ## 未覆盖
 
 未跑 17 步回归，未启动游戏，未用游戏解析器实跑一条 DS 行。B2 的显示行数是按目录前缀切开后、用 story12 `xadvance` 贪心折正文得到的，不是实机分页。
+
+## 二次复核
+
+两处已确认
+
+复核提交 `b34cd4b76bcd81c90e2084739161508270fe9e99`。只核 B1、B2。未跑回归，未启动游戏。正文行数用 candidate50 的 `story12.fnt` `xadvance`、240px 贪心独立重算，前缀用 `editorial_repairs._line_role`，不调用 `scan_batch22.attempt()`。
+
+### B2
+
+`editorial-r9-batch-22-repairs.jsonl` 现为 57 个 op、71 个 U+2028（文件内裸 U+2028 为 0，`\u2028` 转义 71）。`decisions.tsv` 是 1 行表头 + 57 行 `apply`。四个资源的 `before_resource_sha256` 与 candidate50 明文一致，`bodies[line-1] == old`，57/57。
+
+57 行的正文显示行数全部相等：前缀不变，去掉 U+2028 后正文逐字相同，`wrap(body(old))` 与 `wrap(body(new))` 行数无失配。
+
+上次那条没有漏进来。jar 与 pak 的 `datadf/1` 第 71 行仍是 `  * 不知道这是什么，某种破旧的太空制服？`，正文 216px、1 行；按旧插入点在「制／服」之间加 U+2028 后正文变成 2 行。新台账里没有这句。筛选把这种「正文 1 行、插入后 2 行」挡在 57 行之外。
+
+### B1
+
+`editorial_repairs.py:50-59` 按类型分表：`json_value` 禁 U+2028/U+2029/U+0085；`line_row` 只从禁表拿掉 U+2028；其余仍禁这三个。`:179-180` 只按 `kind` 传参，json 与 line 互斥。即便两个标志同时为真，json 分支在前，U+2028 仍被拒（直接探针）。
+
+| 探针 | 结果 |
+| --- | --- |
+| json：`hello` → `hello` + U+2028 + `X` | 拒绝，`string/control/newline violation` |
+| json：只插入 U+2028 | 拒绝，同上 |
+| line：只插入 U+2028 | 通过 |
+| line：U+2029 / U+0085 / LF | 拒绝 |
+| line：`old` 与 `new` 都有 U+2028，且计数不等并改字 | 拒绝，`line break insertion must not alter the text` |
+
+计数相同的改字仍走普通替换（源行必须等于 `old`），不是插入例外的新口子。没有发现 json 借 `line_row=True` 混进来的路径。
