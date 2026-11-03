@@ -37,9 +37,10 @@ def _escape(text):
 
 
 def render(candidate, cases):
-    """Render `cases` [(key, archive, entry, line, body)] with the real engine.
+    """Render `cases` [(key, container, archive, entry, line, body)] with the engine.
 
-    Returns {key: {'ok': bool, 'pages': [...]}}.
+    `container` is `story` (Nb -> storyPages, story12 240px) or `radio`
+    (JR -> pages, bbc2 150px). Returns {key: {'ok', 'container', 'pages'}}.
     """
     candidate = Path(candidate).resolve()
     jar = candidate / 'cosmobreeder-multi.jar'
@@ -49,8 +50,8 @@ def render(candidate, cases):
                         '-cp', str(jar), '-d', str(tmp), str(TOOL)], check=True)
         tsv = tmp / 'in.tsv'
         tsv.write_text('\n'.join(
-            '%s\t%s\t%s\t%d\t%s' % (k, a, e, n, _escape(b))
-            for k, a, e, n, b in cases) + '\n', encoding='utf8')
+            '%s\t%s\t%s\t%s\t%d\t%s' % (k, c, a, e, n, _escape(b))
+            for k, c, a, e, n, b in cases) + '\n', encoding='utf8')
         out = tmp / 'out.json'
         subprocess.run([str(JDK / 'java.exe'), '-Dfile.encoding=UTF-8',
                         '-cp', '%s%s%s' % (jar, ';' if __import__('os').name == 'nt' else ':',

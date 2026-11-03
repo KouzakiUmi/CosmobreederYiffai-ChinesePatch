@@ -1,37 +1,37 @@
 {
  "batch": "batch-25",
- "decisions": 96,
- "applied": 96,
- "operations": 96,
+ "decisions": 23,
+ "applied": 23,
+ "operations": 23,
  "targets": 4,
  "per_resource": [
   {
    "archive": "cosmobreeder-multi.jar",
    "archive_entry": "datadf/1",
    "before_resource_sha256": "e6b86c377dba7b0cb777531f395c8db5ea551ac0663e8753be4c613261db2925",
-   "after_resource_sha256": "a3df2c79241fdb038d2d7088953de42dd16506e4bf1e15b1676c0b4c691810dc",
-   "targets_changed": 26
+   "after_resource_sha256": "5da8447c31a76d51f3bf3baef37de2b641381162c9e1a90ab9f909767733d93a",
+   "targets_changed": 6
   },
   {
    "archive": "cosmobreeder-multi.jar",
    "archive_entry": "datadm/1",
    "before_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
-   "after_resource_sha256": "56fb6bb597d4b88ece4c1193140ba071cb112bb5e0cb035addc7601efa44fef3",
-   "targets_changed": 20
+   "after_resource_sha256": "1f36528281d6da05f1b59f13fb0d0a6ca2d334c9c47b6a08dd31b1c3d18757f1",
+   "targets_changed": 4
   },
   {
    "archive": "patch.pak",
    "archive_entry": "datadf/1",
    "before_resource_sha256": "36d57bad5d33b6d44cf769b255340878528c84d0cc02c381557a2289c1ab68d7",
-   "after_resource_sha256": "19f2b34fe91e024576ffc3f5cc5a0ac0074cc6addd60824621affd0fb887f149",
-   "targets_changed": 30
+   "after_resource_sha256": "456cd0daa0e09bfe347a75c3b4affdba70efa32025ada276f0b415f37907c46f",
+   "targets_changed": 9
   },
   {
    "archive": "patch.pak",
    "archive_entry": "datadm/1",
    "before_resource_sha256": "789452855f93ee484c9554e515fc1b2f57ed3646ed9e7e589c6d036b176dacc3",
-   "after_resource_sha256": "edb8bf944fd58c9db5a7cb2ea0854426ceebb3aded2beb7600007cdcd235ef38",
-   "targets_changed": 20
+   "after_resource_sha256": "d4e26f9dec70fe7b162a3889e9cef8f5adbb343396c25fd93328fa95227b3588",
+   "targets_changed": 4
   }
  ],
  "ledger": "localization/translations/editorial-r9-batch-25-repairs.jsonl",

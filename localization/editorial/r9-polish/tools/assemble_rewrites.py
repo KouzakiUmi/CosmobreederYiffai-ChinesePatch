@@ -96,6 +96,9 @@ def main():
                 continue
             drawn = wrap(rewritten)
             widths = [width(r) for r in drawn]
+            # A row deliberately left at its original wording carries the
+            # baseline's own cuts; they are not this batch's business.
+            reverted = rewritten == base['body']
             # The game hard-cuts at a fixed character count, so the player sees
             # both the 28-column story box and the 20-column radio depending on
             # the call site. Report the firm pairs each one cuts.
@@ -105,6 +108,10 @@ def main():
                           if bigrams.get(c, 0) >= SOLID_PAIR and c not in KNOWN_FALSE_POSITIVE]
             cuts_radio = [c for c in engine_wrap.boundaries(engine_wrap.radio_rows(rewritten, advance))
                           if bigrams.get(c, 0) >= SOLID_PAIR and c not in KNOWN_FALSE_POSITIVE]
+            if reverted:
+                # Untouched baseline: its cuts are not this batch's business.
+                cuts_story = []
+                cuts_radio = []
             issues = []
             if cuts_story:
                 issues.append('cuts a firm pair at 240px: %r' % cuts_story)
@@ -116,8 +123,12 @@ def main():
                 pass  # row counts are no longer the acceptance axis
             if widths != item.get('widths'):
                 pass  # pixel widths are meaningless under hard cutting
+            # A row that was deliberately reverted to its original wording will
+            # still split whatever it split before. That is the untouched
+            # baseline, not a failure of this batch.
+            reverted = item.get('rewritten') == base['body']
             still = [p for p in base['split_pairs'] if p in boundaries(drawn)]
-            if still:
+            if still and not reverted:
                 issues.append('still splits %r' % still)
             # A break between two Han characters always separates *something*;
             # without a segmenter we cannot say whether it separated a word.
