@@ -6,7 +6,8 @@
 
 - **目的**：在原版 Java/libGDX 二进制上做源依赖差分补丁；发行物不携带完整替换归档。
 - **验收分层**：语义正确（读得懂、作答对得上）／结构保留（actor、控制、动态占位符、行前缀）／视觉可读（字宽、分页、资料卡）／实机（安装、启动、存档）。四层分别留证，不用一层替代其余。
-- **现状**：alpha0.1 预发行；本地已有 R1 粗校、R2 修复、R3 人名、R4 留置裁决、R5 创译、R6 纠错、R7 渲染判定、R8 谜题提示。R4 并入 candidate9、R5 并入 candidate10、R6 并入 candidate11、R8 并入 candidate12；R9 全正文精校三十四批依次并入 candidate13～47，均通过 17 步 CPU 回归。**2,698 场／12,552 行已精校（90.3% 场、93.0% 行）**；剩余 291 场为 287 场不面向玩家的脚本串与 4 场位图资源（后者属图像本地化工艺线）。硬切容器的容量已用真实字模复核（角色卡 96、成就 60、数据书 200 个值，0 超限），合句留下的 1,709 个空尾行中 1,701 个由 240px 自动折行填满两行，排版层无必修项。**文本精校与数据层排版复核已完成，实机验收未做。**
+- **现状**：alpha0.2 测试版已构建（基于 candidate47，安装器协议仍为 alpha0.1）；本地已有 R1 粗校、R2 修复、R3 人名、R4 留置裁决、R5 创译、R6 纠错、R7 渲染判定、R8 谜题提示。R4 并入 candidate9、R5 并入 candidate10、R6 并入 candidate11、R8 并入 candidate12；R9 全正文精校三十四批依次并入 candidate13～47，排版批 batch-19（中文引号）并入 candidate48，均通过 17 步 CPU 回归。**2,698 场／12,552 行已精校（90.3% 场、93.0% 行）**；剩余 291 场为 287 场不面向玩家的脚本串与 4 场位图资源（后者属图像本地化工艺线）。硬切容器的容量已用真实字模复核（角色卡 96、成就 60、数据书 200 个值，0 超限），合句留下的 1,709 个空尾行中 1,701 个由 240px 自动折行填满两行。
+- **排版层剩余两项**（见 `localization/editorial/r9-polish/LEFTOVERS.md` 第五、六节）：对话贪心折行会把词切开（全库 3,185 处／3,087 行，`PixelLayout` 支持显式换行可修，需先让台账放行文本行的换行）；玩家可见文本还有 337 处驼峰 `Fenfen`（其中 39 处是说话人槽位不能改）。两者都未落地。**文本精校与数据层排版复核已完成，实机验收未做。**
 
 ## 关键事实与取舍
 
@@ -26,7 +27,7 @@
 
 ## 索引
 
-- 发行与构建：[README.md](README.md) · [docs/RELEASE-alpha0.1.md](docs/RELEASE-alpha0.1.md) · [docs/SOURCE_BUILD.md](docs/SOURCE_BUILD.md)
+- 发行与构建：[README.md](README.md) · [docs/RELEASE-alpha0.2.md](docs/RELEASE-alpha0.2.md) · [docs/RELEASE-alpha0.1.md](docs/RELEASE-alpha0.1.md) · [docs/SOURCE_BUILD.md](docs/SOURCE_BUILD.md)
 - 编辑审校：[R1 方案](localization/editorial/r1/TRANSLATION_PLAN.md) · [R2 修复](localization/editorial/r2/README.md) · [R3 人名](localization/editorial/r3-names/README.md) · [R4 留置裁决](localization/editorial/r4-pending/README.md) · [R5 创译](localization/editorial/r5-creative/README.md) · [R6 纠错](localization/editorial/r6-consistency/README.md) · [R7 渲染判定](localization/editorial/r7-render/README.md) · [R8 谜题提示](localization/editorial/r8-puzzle/README.md) · [R9 全正文精校](localization/editorial/r9-polish/README.md)
 - 交接与恢复：[localization/editorial/HANDOFF.md](localization/editorial/HANDOFF.md)（当前状态、遗留项、精校批次进度与恢复步骤）
 - 技术研究：[docs/](docs/) 下的排版、字体渲染、差分与 PAK 交付方案
