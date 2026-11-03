@@ -60,7 +60,7 @@ def wrap(text):
     that looked clean at 240px greedy.
     """
     import engine_wrap  # noqa: E402
-    return engine_wrap.story_rows(text)
+    return engine_wrap.story_rows(text, lambda ch: GLYPHS.get(ord(ch), {'xadvance': 0})['xadvance'])
 
 
 def boundaries(rows):
@@ -99,13 +99,15 @@ def main():
             # The game hard-cuts at a fixed character count, so the player sees
             # both the 28-column story box and the 20-column radio depending on
             # the call site. Report the firm pairs each one cuts.
-            cuts_story = [c for c in engine_wrap.boundaries(engine_wrap.story_rows(rewritten))
+            def advance(ch):
+                return GLYPHS.get(ord(ch), {'xadvance': 0})['xadvance']
+            cuts_story = [c for c in engine_wrap.boundaries(engine_wrap.story_rows(rewritten, advance))
                           if bigrams.get(c, 0) >= SOLID_PAIR and c not in KNOWN_FALSE_POSITIVE]
-            cuts_radio = [c for c in engine_wrap.boundaries(engine_wrap.radio_rows(rewritten))
+            cuts_radio = [c for c in engine_wrap.boundaries(engine_wrap.radio_rows(rewritten, advance))
                           if bigrams.get(c, 0) >= SOLID_PAIR and c not in KNOWN_FALSE_POSITIVE]
             issues = []
             if cuts_story:
-                issues.append('cuts a firm pair at 28 cols: %r' % cuts_story)
+                issues.append('cuts a firm pair at 240px: %r' % cuts_story)
             # 20 columns is the radio channel; these rows are dialogue and go
             # through the 28-column story box, so radio cuts are recorded but
             # not treated as failures.

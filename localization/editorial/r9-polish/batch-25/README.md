@@ -50,20 +50,23 @@ batch-23 用插 U+2028 的办法修了 1,163 行的切词，剩下的 197 处修
 
 第一版用纯贪心（累加到 240px 就换行）。引擎不是这样——当时我以为它走 `DialogueWrap.storyPages` → `PixelLayout`，于是第二次改成「优先断在合法边界，行首不能是标点」。
 
-### 第二次错：`DialogueWrap` 根本没接进游戏
+### 第二次错：误判「`DialogueWrap` 没接进游戏」
 
-反编译原版归档后才确认：`PRG/DialogueWrap` 是本项目新增的**测试用参考实现**。`CorePatch.java` 里只注入了它的一个方法：
+我只看了 `CorePatch.java`（那里只有一处 `terminalText` 注入），就推断 `DialogueWrap` 是纯测试用。核验方指出该看**候选产物**：
 
-```java
-m.instructions.set(found, new MethodInsnNode(INVOKESTATIC,
-    "PRG/DialogueWrap", "terminalText", ...));
+```
+$ javap -v -classpath backup/cosmobreeder-multi.jar PRG.Nb | grep -c DialogueWrap
+0
+$ javap -v -classpath builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
+#249 = Methodref  PRG/DialogueWrap.story:(LPRG/aEO;)LPRG/aEO;
+ 198: invokestatic  #249  // Method PRG/DialogueWrap.story
 ```
 
-`story` / `radio` / `storyPages` / `pages` 四个方法只被回归测试调用，游戏仍在跑原版混淆类 `PRG/amw`。所以前两版测的都是参考实现。
+`PRG.JR` 同理调 `DialogueWrap.radio`。**中文对话在发行产物里走 `DialogueWrap`，不走原版 `amw`。**
 
-### 真实规则：固定字符数硬切
+所以验收基准回到 `DialogueWrap` → `PixelLayout`：故事框 240px/story12，无线电 150px/bbc2。
 
-用仓库自带的 JDK 17 `javap` 逐层反编译 `PRG/amw`：
+### 原版是固定字符数硬切（记录，但不是基准）用仓库自带的 JDK 17 `javap` 逐层反编译 `PRG/amw`：
 
 ```
 PRG.amw.a(String, amq)            // 切成行
@@ -94,13 +97,7 @@ PRG.amw.a(String, amq)            // 切成行
 
 改文案仍有用，但作用方式不同：**不能消除切点，只能把切点移到标点后或虚词后**。
 
-`tools/engine_wrap.py` 现在直接实现真实规则：
-
-```python
-COLS_STORY = 28
-def hard_rows(text, cols):
-    return [text[i:i + cols] for i in range(0, len(text), cols)]
-```
+`tools/engine_wrap.py` 现在实现 `PixelLayout` 的边界规则（`legalBoundary` / `preferredBoundary`），故事框 240px/story12、无线电 150px/bbc2。
 
 ## 判据的局限（必须说明）
 
@@ -134,7 +131,7 @@ def hard_rows(text, cols):
 
 ## 复核修正
 
-四路改写返回后，主代理逐条核对 96 条，共修回 40 处语义损失，典型几类：
+四路改写返回后逐条核对，多轮修回语义损失，典型几类：
 
 - `很简单：你把外头找到的…` → 补回「在」：`很简单：你把在外头找到的花哨芯片带给我，`
 - `无线电怎么也呼叫不通，偏偏你生命体征，又乱了套` → 标点错位，改为 `无线电呼叫怎么也接不通，你的生命体征又乱了套，我唯一收到的只有一阵发毛！`

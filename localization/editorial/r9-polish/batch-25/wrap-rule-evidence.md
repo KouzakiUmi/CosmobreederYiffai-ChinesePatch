@@ -14,20 +14,28 @@ localization/toolchains/microsoft-jdk17/jdk-17.0.20.1+1/bin/javap.exe
 
 反编译原版归档里的混淆类（`backup/cosmobreeder-multi.jar`，SHA 与 `localization/sources/archives.json` 一致）。
 
-## 关键发现一：`DialogueWrap` 没接进游戏
+## 关键发现一：`DialogueWrap` **已**接进游戏（我最初判断错了）
 
-`PRG/DialogueWrap` 是本项目新增的类，它的 `story` / `radio` / `storyPages` / `pages` 四个方法**只被回归测试调用**。
+先只看了 `CorePatch.java`，那里确实只有一处 `terminalText` 注入，于是我错误地推断「`DialogueWrap` 只是测试用」。
 
-`CorePatch.java` 里对它只有一处注入：
+核验方指出要看**候选产物**而不是补丁源码。用 `javap` 对比两个 jar：
 
-```java
-m.instructions.set(found, new MethodInsnNode(INVOKESTATIC,
-    "PRG/DialogueWrap", "terminalText", ...));
+```
+$ javap -v -classpath backup/cosmobreeder-multi.jar PRG.Nb | grep -c DialogueWrap
+0
+$ javap -v -classpath builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
+#244 = Utf8  PRG/DialogueWrap
+#249 = Methodref  PRG/DialogueWrap.story:(LPRG/aEO;)LPRG/aEO;
+ 198: invokestatic  #249  // Method PRG/DialogueWrap.story
 ```
 
-即只替换了 `terminalText`。对话折行没有走 `DialogueWrap`，游戏仍在跑原版混淆类 `PRG/amw`。
+`PRG.JR` 同理，调 `DialogueWrap.radio`。所以**中文对话在发行产物里走 `DialogueWrap`，不走原版 `amw`。**
 
-所以 `engine_wrap.py` 前两版（纯贪心、以及 `PixelLayout` 的标点禁折规则）测的都是参考实现，不是游戏行为。
+原版硬切（28 列）是**未打补丁**时的行为。拿它验收，验的是玩家看不到的东西。
+
+## 原版硬切仍然值得记录
+
+`amw` 的固定字数硬切是真实存在的原版行为，记录它有两个用处：解释 batch-24 为什么必然失败，以及说明补丁为什么必须接管折行。但它不是验收基准。
 
 ## 关键发现二：原版按固定字符数硬切
 
@@ -83,20 +91,12 @@ if (c == 32) return true; else return false;
 
 ## 对验收的影响
 
-`engine_wrap.py` 现在直接实现这条真实规则：
+验收基准是**发行产物实际走的路径**：`DialogueWrap` → `PixelLayout`。
 
-```python
-COLS_STORY = 28
-COLS_RADIO = 20
-
-def hard_rows(text, cols):
-    return [text[i:i + cols] for i in range(0, len(text), cols)]
-```
-
-`assemble_rewrites.py` 按 28 列（对话走故事框）判合格，20 列的切点作为观察记录但不作失败条件——本批 96 行都是 `datadf`/`datadm` 的对话，走 28 列。
+`engine_wrap.py` 实现 `PixelLayout` 的边界规则（`legalBoundary` / `preferredBoundary`），故事框 240px/story12、无线电 150px/bbc2。`assemble_rewrites.py` 按故事框 240px 判合格——本批 96 行都是 `datadf`/`datadm` 对话，含汉字故走故事框。
 
 ## 未验证
 
-- 没有跑游戏验证实际显示。上面的调用链是静态反编译结果，`amw` 的注入点未逐个核对（`amw` 本身没被替换，这点已确认）。
+- 没有跑游戏验证实际显示。上面的结论是静态反编译 + 候选产物字节码核对的结果。
 - 28 个汉字在 12px 字模下是 336px，比 240px 的框宽。游戏如何呈现这个宽度（裁剪、缩小还是原本框就更宽）未验证。这是既有问题，不是本批引入。
 - 结局面板 12 列的含义未在实机核对。

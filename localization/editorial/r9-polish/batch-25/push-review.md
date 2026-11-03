@@ -184,3 +184,49 @@ batch-22/23 的插入约束没有被削弱。batch-22 共 57 个 line op，全�
 两套宽度都走同一套 `legalBoundary` / `preferredBoundary`，和 `PixelLayout` 的字符表一致。把对应字模的 advance 传进去，这 96 行和忠实实现没有差异。连字符被当成词字符、第二道超宽判断重复加了一次 advance、没有 UTF-16 上限、不先拆 U+2028，这 96 行都没踩中。
 
 两处文档还是错的，不影响这次 96 行的数字：`ROWS_RADIO = 2`，`DialogueWrap.pages` 写死的是 3 行；模块说明仍写无线电用同一套 12px 字模，实际是 bbc2 的 10px。`radio_rows` 自己不载字模，调用方传错 advance 就会再量错。仓库里没有别的文件调用 `radio_rows`。全库 1,871 这个数我没有重跑。
+
+## 四次复核
+
+仍有 3 处
+
+快照 `dea58ccc7ea31d82bab6d4bebc48f0d2e782c1ec`。`javap` 用的是仓库里的 JDK 17。原版类来自 `backup/cosmobreeder-multi.jar`，补丁类来自 `localization/builds/r9-polish-candidate54/cosmobreeder-multi.jar`。
+
+### 反编译：原版硬切属实，补丁游戏不走这条路
+
+原版这几条对：
+
+- `PRG.Ol` 的 `<clinit>` 是 `bipush 28`，`PRG.Ob` 是 `bipush 20`，`PRG.NY` 是 `bipush 12`，`PRG.Om` 是 `iconst_3`。
+- `PRG.aDJ.e(String,int)` 构造 `PRG.aDI$a`。`aDI$a.p()` 用游标 `c` 和列数 `b` 调用 `aDJ.a(string, c, c+b)`。`aDJ.a(String,int,int)` 只有 `Math.max`、`Math.min` 和 `String.substring`。
+- `PRG.amw.b(char)` 只比较 32；`amw.a(char)` 无条件返回 32。
+
+调用链有一处写松了：`amw.a(String, amq)` 调用的是 `amr$e.a(String, String)`，常量池 `#6` 指向空的 Utf8 `#316`，不是 `#8` 的 `"<p>"`。硬切本身在 `aDJ.e` → `aDI$a.p()`，这层没有标点避让。
+
+「游戏仍在跑 `amw`」不成立。`CorePatch.java` 确实只注入了 `DialogueWrap.terminalText`。但 `DialoguePatch.java` 会改 `PRG/JR` 和 `PRG/Nb`，`FullTextBuild` 会调用它。candidate54 的字节码里已经有：
+
+- `PRG.JR`：`invokestatic PRG/DialogueWrap.radio`
+- `PRG.Nb`：`invokestatic PRG/DialogueWrap.story`
+
+原版 jar 没有 `DialogueWrap.class`。补丁后的中文台词，故事框走 `story`（含汉字则 `storyPages` → `PixelLayout`，240px / story12），无线电走 `radio`（含汉字则 `pages` → `PixelLayout`，150px / bbc2）。ASCII 才回落到 `amw`。这 96 行都是中文。用 28 列硬切验收它们，测的是没打补丁的原版，不是这份补丁发出去的游戏。
+
+### 即便按 28 列，也没有 96/96 干净
+
+`hard_rows` 对正文重算，28 列仍切开实词：
+
+| 词 | op | 切点 |
+| --- | --- | --- |
+| 从来 | `R9-0050` 等 2 行 | `几乎从 / 来不会坏` |
+| 体内 | `R9-0053` | `注入体 / 内` |
+| 蜥蜴 | `R9-0082` 等 2 行 | `的蜥 / 蜴太空海盗` |
+
+20 列另有 `R9-0028` 切开「区域」（`不过区 / 域里`）。按他们自己的规定这只作观察。
+
+`的特` / `的是` / `的带` / `的朋` / `了什` 认可。断点在「的」「了」之后，后一词整段落在下一行，不是词内切分。`了什` 是 `了 / 什么`，`什么` 仍在下一行。
+
+### 语义
+
+这轮不止 3 处措辞。地图句删「各处」、`R9-0028` / `R9-0079` 删「如果/我们」、`R9-0029` 收短，都还能读出原意。两处不行：
+
+- `R9-0007`：英文是 resilience and aggression。新文 `让它们格外有韧性……` 把「攻击性」删了。同英文的 `R9-0053` 还留着「韧性和攻击性」。
+- `R9-0033` / `R9-0084`：英文结尾是 `MAYBE!`。新文停在 `多半害不死你！`，「也许吧」没了。
+
+`R9-0057` 删了「特工」，按键名还在，算观察。
