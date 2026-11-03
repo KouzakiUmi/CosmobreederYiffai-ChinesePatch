@@ -43,8 +43,20 @@ def _safe_string(text, *, json_value=False, line_row=False):
     # row numbering — and every ledger that references a row number — stays
     # intact. LF stays banned for exactly that reason: inserting one renumbers
     # every following row and invalidates the ledgers.
-    allowed = '\r\n' if json_value else ('\t' + LINE_BREAK if line_row else '\t')
-    if not isinstance(text, str) or any(ord(c) < 32 and c not in allowed or c in '\x85\u2029' for c in text):
+    #
+    # U+2028 is admitted *only* for line rows. It must not leak into JSON values:
+    # there the newline rule compares counts, so a value could gain a break while
+    # also having its text edited. `json` keeps the global ban.
+    if json_value:
+        banned = '\x85\u2028\u2029'
+        allowed = '\r\n'
+    elif line_row:
+        banned = '\x85\u2029'
+        allowed = '\t' + LINE_BREAK
+    else:
+        banned = '\x85\u2028\u2029'
+        allowed = '\t'
+    if not isinstance(text, str) or any(ord(c) < 32 and c not in allowed or c in banned for c in text):
         _fail('string/control/newline violation')
 
 

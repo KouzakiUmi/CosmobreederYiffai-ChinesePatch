@@ -37,6 +37,9 @@ BUDGET = 240
 HAN = re.compile('[\u4e00-\u9fff]')
 BAD_HEAD = '，。、；：？！）》」』”’·…—'
 BREAK = '\u2028'
+# the same prefix shape `editorial_repairs._line_role` recognises; the prefix is
+# not part of the drawn text, so row counts must be measured on the body
+ACTOR = re.compile('^(\\s*\\*\\s?|\\s*[^<>{}#*\\s][^:]{0,40}:\\s?)(.*)$')
 ARCHIVES = (('cosmobreeder-multi.jar', 'sfw'), ('patch.pak', 'nsfw'))
 TEXT_ENTRIES = ('datadf/1', 'datadm/1')
 
@@ -57,6 +60,12 @@ def player(text):
     return HAN.search(body) is not None
 
 
+def body_of(line):
+    """The drawn part of a row: the speaker/`* ` prefix is not laid out."""
+    match = ACTOR.match(line)
+    return match.group(2) if match else line
+
+
 def wrap(text):
     rows = []
     for segment in text.split(BREAK):
@@ -73,8 +82,8 @@ def wrap(text):
 
 
 def attempt(text):
-    """(new_text, marks_fixed) or None when the row count would change."""
-    rows = wrap(text)
+    """(new_text, marks_fixed) or None when the *display* row count would change."""
+    rows = wrap(body_of(text))
     if len(rows) < 2 or not any(row and row[0] in BAD_HEAD for row in rows[1:]):
         return None
     segments = list(rows)
@@ -96,10 +105,12 @@ def attempt(text):
     if not fixed or any(row and row[0] in BAD_HEAD for row in segments[1:]):
         return None
     new_text = BREAK.join(segments)
-    if len(wrap(new_text)) != len(rows):
+    if len(wrap(body_of(new_text))) != len(rows):
         return None
     if any(width(row) > BUDGET for row in segments):
         return None
+    prefix = text[:len(text) - len(body_of(text))]
+    new_text = prefix + new_text
     if new_text.replace(BREAK, '') != text:
         return None
     return new_text, fixed

@@ -49,7 +49,7 @@
 | batch-19 | 中文引号：直引号换全角 | —（排版批） | 27 | — | 引号内含汉字才换；纯拉丁保留，并入 candidate48，**完成** |
 | batch-20 | 专名统一：Fenfen → 芬芬 | —（清理批） | 148 | — | 152 次出现／148 个位置；多行卡面走哨兵通道，并入 candidate49，**完成** |
 | batch-21 | 中文引号（续）：多行卡面值 | —（排版批） | 3 | — | 多行值通道就绪后补上，并入 candidate50，**完成** |
-| batch-22 | 排版：续行不以标点开头 | —（排版批） | 950 | — | 插 U+2028 显式断行，行号与文本均不变；181 行因行数会变而未做，并入 candidate51，**完成** |
+| batch-22 | 排版：续行不以标点开头 | —（排版批） | 57 | — | 插 U+2028 显式断行；按**显示正文**核算后只有 57 行总行数不变，其余 1,074 行会改变分页，未做。并入 candidate51，**完成** |
 
 批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10`／`batch-12` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。`batch-12` 还有第四种形状：条目第二元素写 `None`，改用 `logical_path` 选资源、再用 `exclude_covered` 扣掉别的批次已占的场次——它的文本散在词典与任务日志里，没有共同的 root 可列。
 
@@ -229,7 +229,7 @@ candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16
 | candidate48 | 同上 | 再加 batch-19（中文引号），共 785 个操作（35 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate49 | 同上 | 再加 batch-20（Fenfen），共 933 个操作（36 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate50 | 同上 | 再加 batch-21（多行卡面引号），共 936 个操作（37 批） | 四步 exit 0，55 类 | 全部 exit 0 |
-| candidate51 | 同上 | 再加 batch-22（行首标点），共 1,886 个操作（38 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate51 | 同上 | 再加 batch-22（行首标点 57 行），共 993 个操作（38 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 

@@ -1,5710 +1,352 @@
 {
  "SC22-sfw-datadf_1": [
   [
-   "P22:cosmobreeder-multi.jar:datadf/1:71",
+   "P22:cosmobreeder-multi.jar:datadf/1:1197",
    1,
-   "  * 不知道这是什么，某种破旧的太空制服？",
-   "  * 不知道这是什么，某种破旧的太空制 服？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:245",
-   1,
-   "  * 哦！见到你真是太高兴了，伊、伊吠妮！",
-   "  * 哦！见到你真是太高兴了，伊、伊吠 妮！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:284",
-   1,
-   "  * 门已经开了，伊吠妮！不过还是谢谢你！",
-   "  * 门已经开了，伊吠妮！不过还是谢谢 你！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:414",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:417",
-   1,
-   "  * 这是我的独家配方！这个星球上最美味、最冰凉的饮料！",
-   "  * 这是我的独家配方！这个星球上最美 味、最冰凉的饮料！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:420",
-   1,
-   "  * 这玩意儿能解渴，还能恢复一些精神力，不过说实话……",
-   "  * 这玩意儿能解渴，还能恢复一些精神 力，不过说实话……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:488",
-   1,
-   "  * 当然，还得有一艘飞船和一群亡命之徒！",
-   "  * 当然，还得有一艘飞船和一群亡命之 徒！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:492",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:493",
-   1,
-   "  * 事实上，它烫得几乎没法上手……哎哟！",
-   "  * 事实上，它烫得几乎没法上手……哎 哟！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:635",
-   1,
-   "  * 好啦好啦……别因为这点事就到处得意。",
-   "  * 好啦好啦……别因为这点事就到处得 意。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:674",
-   1,
-   "  * 科博德还给我送吃的，什么都照顾到了。",
-   "  * 科博德还给我送吃的，什么都照顾到 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:677",
-   1,
-   "  * 看样子总部让你催我回去干活了，是吧？",
-   "  * 看样子总部让你催我回去干活了，是 吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:678",
-   1,
-   "  * 好——啦，我会把报告交上去什么的啦……",
-   "  * 好——啦，我会把报告交上去什么的 啦……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:732",
-   1,
-   "  * 哎呀，这玩意儿配道服正合适，不是吗？",
-   "  * 哎呀，这玩意儿配道服正合适，不是 吗？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:815",
-   1,
-   "  * 你怎么不干脆把能拿到的东西全拿走啊？嗯？",
-   "  * 你怎么不干脆把能拿到的东西全拿走 啊？嗯？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:869",
-   1,
-   "    * 那家伙一直念叨着“下、中、中、上……”，谁知道是什么意思！",
-   "    * 那家伙一直念叨着“下、中、中、 上……”，谁知道是什么意思！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:915",
-   1,
-   "  * 哦，你好呀！我好几周没见别的特工了！",
-   "  * 哦，你好呀！我好几周没见别的特工 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1001",
-   1,
-   "  * 所以我大概会先慢慢回机库，休息一下。",
-   "  * 所以我大概会先慢慢回机库，休息一 下。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1018",
-   1,
-   "    * 记住，概不退款！还要什么？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要什么？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1031",
-   1,
-   "  * 这儿不是给你白看的，混蛋！掏LECT，不然滚！",
-   "  * 这儿不是给你白看的，混蛋！掏LEC T，不然滚！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1052",
-   1,
-   "  * 还是顶级的高端型号呢……只可惜坏了。",
-   "  * 还是顶级的高端型号呢……只可惜坏 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1187",
-   1,
-   "  * ……其实我什么都看不见！这里太黑了！",
-   "  * ……其实我什么都看不见！这里太黑 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1204",
-   1,
-   "  * ……当然，那些裙子我可一点都不了解！",
-   "  * ……当然，那些裙子我可一点都不了 解！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1207",
-   1,
-   "  * 这颗小药丸能让你精神抖擞、毛发浓密、腰板挺直……",
-   "  * 这颗小药丸能让你精神抖擞、毛发浓 密、腰板挺直……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1219",
-   1,
-   "    * ……总觉得好像有什么大事要发生了！",
-   "    * ……总觉得好像有什么大事要发生 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1224",
-   1,
-   "    * 话说回来，你以前穿过精灵连衣裙吗？你看着就像会穿的！",
-   "    * 话说回来，你以前穿过精灵连衣裙 吗？你看着就像会穿的！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1302",
-   1,
-   "  * ……可我们都有更要紧的事要做，对吧？",
-   "  * ……可我们都有更要紧的事要做，对 吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1413",
-   1,
-   "    * 记住，概不退款！还要什么？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要什么？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1423",
-   1,
-   "    * 你就拿着你的破烂玩去吧，别来烦我，行吗？！",
-   "    * 你就拿着你的破烂玩去吧，别来烦 我，行吗？！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1429",
-   1,
-   "  * 这儿不是给你白看的，混蛋！掏LECT，不然滚！",
-   "  * 这儿不是给你白看的，混蛋！掏LEC T，不然滚！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1437",
-   1,
-   "  * 我这儿的吃食是七片沼泽这一带最好的，你却想要那种垃圾？",
-   "  * 我这儿的吃食是七片沼泽这一带最好 的，你却想要那种垃圾？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1462",
-   1,
-   "    * 老实说：这些精神力的东西让我发毛。",
-   "    * 老实说：这些精神力的东西让我发 毛。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1466",
-   1,
-   "    * 随便一根棍子、一截绳子就够我用了……直接动手，懂吧？",
-   "    * 随便一根棍子、一截绳子就够我用 了……直接动手，懂吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1485",
-   1,
-   "    * 不穿宇宙服就往外跑，你胆子可真大！ ",
-   "    * 不穿宇宙服就往外跑，你胆子可真 大！ "
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1628",
-   1,
-   "  * 听说超能力者得到一颗，就能提升灵能容量，可我只是条普通的狗，这东西对我没用。送你吧！",
-   "  * 听说超能力者得到一颗，就能提升灵能 容量，可我只是条普通的狗，这东西对我没 用。送你吧！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1633",
-   1,
-   "  * 我忙着跑遍各家店，确保 lect 流转，不过偶尔我也得靠这个提提神！",
-   "  * 我忙着跑遍各家店，确保 lect 流 转，不过偶尔我也得靠这个提提神！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1643",
-   1,
-   "  * 你听说过近来有些人搞到的那些念力吗？",
-   "  * 你听说过近来有些人搞到的那些念力 吗？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1655",
-   1,
-   "  * ……抱歉，刚才笑得有点吓人。习惯了。",
-   "  * ……抱歉，刚才笑得有点吓人。习惯 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1764",
-   1,
-   "  * ……不，不是那种店！这是汽车修理店！",
-   "  * ……不，不是那种店！这是汽车修理 店！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1773",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1779",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1784",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1790",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1807",
-   1,
-   "    * ……我已经在你的导航地图上标好了！去看看吧！",
-   "    * ……我已经在你的导航地图上标好 了！去看看吧！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1866",
-   1,
-   "  * ……不过嘿！这次我可是很拼的，对吧？",
-   "  * ……不过嘿！这次我可是很拼的，对 吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1888",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1933",
-   1,
-   "  * 相当厉害吧……你猜怎么着？这块岩石里埋着的什么东西似乎也在猛耗电力……不过，我还未能确定它的位置。",
-   "  * 相当厉害吧……你猜怎么着？这块岩石 里埋着的什么东西似乎也在猛耗电力……不 过，我还未能确定它的位置。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1961",
-   1,
-   "  Yiffany: [就几个偷了我装备的小矮子。]",
-   "  Yiffany: [就几个偷了我装备的小矮 子。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1970",
-   1,
-   "  Tomcat: [嘿，丫头！雄猫来看看你啦！]",
-   "  Tomcat: [嘿，丫头！雄猫来看看你 啦！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1978",
-   1,
-   "  Yiffany: [那就是说，我捡到新装备时，你能给我相关信息，对吧？]",
-   "  Yiffany: [那就是说，我捡到新装备 时，你能给我相关信息，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:1995",
-   1,
-   "  Mauser: [你记得怎么使用那些东西吗？]",
-   "  Mauser: [你记得怎么使用那些东西 吗？]"
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很乐意卖给你，但我每次一动，好像都会踩到什——嗷呜！",
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很 乐意卖给你，但我每次一动，好像都会踩到 什——嗷呜！"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:1996",
    1,
    "  Yiffany: [那些东西能先保存我的数据，以防万一出事，对吧？]",
-   "  Yiffany: [那些东西能先保存我的数 据，以防万一出事，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2005",
-   1,
-   "  Yiffany: [谢谢，波苏，可惜他逃走了。]",
-   "  Yiffany: [谢谢，波苏，可惜他逃走 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2017",
-   1,
-   "  Yiffany: [是啊，可那大块头又溜掉了。]",
-   "  Yiffany: [是啊，可那大块头又溜掉 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2019",
-   1,
-   "  Yiffany: [这颗星球上到底发生了什么。]",
-   "  Yiffany: [这颗星球上到底发生了什 么。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2042",
-   1,
-   "  Yiffany: [不过看起来还算没什么大碍。]",
-   "  Yiffany: [不过看起来还算没什么大 碍。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2049",
-   1,
-   "  Mauser: [伊吠妮，你遇到传送门了吗？]",
-   "  Mauser: [伊吠妮，你遇到传送门了 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2051",
-   1,
-   "  Yiffany: [我走之后我的飞船怎么样了？]",
-   "  Yiffany: [我走之后我的飞船怎么样 了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2059",
-   1,
-   "  Tomcat: [不准开着枪冲去找那帮混蛋，丫头。] ",
-   "  Tomcat: [不准开着枪冲去找那帮混 蛋，丫头。] "
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2066",
-   1,
-   "  Mauser: [你该去那边看看有没有人在！]",
-   "  Mauser: [你该去那边看看有没有人 在！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2088",
-   1,
-   "  Tomcat: [太好了！打开你的 P.A.W.，进到宇宙卡菜单]",
-   "  Tomcat: [太好了！打开你的 P.A.W .，进到宇宙卡菜单]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2092",
-   2,
-   "  Yiffany: [那还用说，小吱吱。你知道，雄猫也超喜欢宇宙卡。你们俩何不聊聊这个？]",
-   "  Yiffany: [那还用说，小吱吱。你知 道，雄猫也超喜欢宇宙卡。你们俩何不聊聊这 个？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2107",
-   1,
-   "  Yiffany: [什么！？ 真的？ 他在哪？]",
-   "  Yiffany: [什么！？ 真的？ 他在 哪？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2115",
-   1,
-   "  Tomcat: [可又不是靠鼻子追踪的猎犬。没找着也不奇怪。]",
-   "  Tomcat: [可又不是靠鼻子追踪的猎 犬。没找着也不奇怪。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2116",
-   1,
-   "  Bossu: [雄猫说得对，伊吠妮。但既然你现在知道你弟弟在哪，我想你知道该怎么做。]",
-   "  Bossu: [雄猫说得对，伊吠妮。但既然 你现在知道你弟弟在哪，我想你知道该怎么 做。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2119",
-   1,
-   "  Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]",
-   "  Mauser: [哦！而且导航地图坐标已经 发出，所以你应该能轻松到达那里。祝你好 运！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2125",
-   1,
-   "  Yiffany: [该死，弟弟，给我清醒过来！]",
-   "  Yiffany: [该死，弟弟，给我清醒过 来！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2145",
-   1,
-   "  Yiffany: [我在这个奇怪的黑暗区域里，对吧？]",
-   "  Yiffany: [我在这个奇怪的黑暗区域 里，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2146",
-   1,
-   "  Yiffany: [而我四周看到的全是显示器……]",
-   "  Yiffany: [而我四周看到的全是显示 器……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2147",
-   1,
-   "  Mauser: [……显示器？显示的是什么？]",
-   "  Mauser: [……显示器？显示的是什 么？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2156",
-   1,
-   "  Tomcat: [呃，好吧，行！行吧小姑娘！]",
-   "  Tomcat: [呃，好吧，行！行吧小姑 娘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2164",
-   1,
-   "  Yiffany: [是啊，这地方真是快散架了。]",
-   "  Yiffany: [是啊，这地方真是快散架 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2167",
-   1,
-   "  Yiffany: [嘿，别担心，我可是专业的，对吧？]",
-   "  Yiffany: [嘿，别担心，我可是专业 的，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2185",
-   1,
-   "  Yiffany: [你那边断断续续的太严重了，等我先出去，]",
-   "  Yiffany: [你那边断断续续的太严重 了，等我先出去，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2194",
-   1,
-   "    Mauser: [你可算出现了！你还好吗，伊吠妮？]",
-   "    Mauser: [你可算出现了！你还好 吗，伊吠妮？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2206",
-   1,
-   "    Tomcat: [你还记得那东西怎么用吗？]",
-   "    Tomcat: [你还记得那东西怎么用 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2219",
-   1,
-   "    Tomcat: [连只小狗都会了，真是的！]",
-   "    Tomcat: [连只小狗都会了，真是 的！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2236",
-   1,
-   "  Tomcat: [对，下次跳起来的时候试试。]",
-   "  Tomcat: [对，下次跳起来的时候试 试。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2240",
-   1,
-   "  Yiffany: [好，这种信息才像我的路子！]",
-   "  Yiffany: [好，这种信息才像我的路 子！]"
+   "  Yiffany: [那些东西能先保存我的数据，以防万一出 事，对吧？]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2254",
    1,
    "  Yiffany: [不-不是，没那种事。只是……听起来像是……]",
-   "  Yiffany: [不-不是，没那种事。只 是……听起来像是……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2258",
-   1,
-   "  Yiffany: [不管那都是什么意思……呃……]",
-   "  Yiffany: [不管那都是什么意思…… 呃……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2261",
-   1,
-   "  Yiffany: [我会没事的，继续执行任务。]",
-   "  Yiffany: [我会没事的，继续执行任 务。]"
+   "  Yiffany: [不-不是，没那种事。只是……听起来像 是……]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2267",
    1,
    "  Starkill: [……咔咔滋……做好准备……特工……滋咔……]",
-   "  Starkill: [……咔咔滋……做好准 备……特工……滋咔……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2276",
-   1,
-   "  Yiffany: [啊，是个仓库里的仓霸来着？]",
-   "  Yiffany: [啊，是个仓库里的仓霸来 着？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2296",
-   1,
-   "  Mauser: [嗯，只要你大体上没事就行，伊吠妮。]",
-   "  Mauser: [嗯，只要你大体上没事就 行，伊吠妮。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2315",
-   1,
-   "  Yiffany: [几乎就像能听懂我在说什么！]",
-   "  Yiffany: [几乎就像能听懂我在说什 么！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2323",
-   1,
-   "  Yiffany: [哎、哎哟……毛鼠，请回话。]",
-   "  Yiffany: [哎、哎哟……毛鼠，请回 话。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2326",
-   1,
-   "  Yiffany: [我只是想分析一下最后那只生物的数据，这样我就能看出它是怎么让我变——成那样的。]",
-   "  Yiffany: [我只是想分析一下最后那只 生物的数据，这样我就能看出它是怎么让我 变——成那样的。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2332",
-   1,
-   "  Mauser: [我们这边什么数据都没收到。]",
-   "  Mauser: [我们这边什么数据都没收 到。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2347",
-   1,
-   "  Yiffany: [……你能就此打住吗，拜托？]",
-   "  Yiffany: [……你能就此打住吗，拜 托？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2353",
-   2,
-   "  Yiffany: [指挥部，这里是特工伊吠妮。我又遇到了另一座传送门。我获准出击了吗？]",
-   "  Yiffany: [指挥部，这里是特工伊吠 妮。我又遇到了另一座传送门。我获准出击了 吗？]"
+   "  Starkill: [……咔咔滋……做好准备……特工……滋 咔……]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2357",
    1,
    "  Bossu: [另外，你已目视确认这座传送门的地面坐标，往后应该就能随时回到这里了。]",
-   "  Bossu: [另外，你已目视确认这座传送 门的地面坐标，往后应该就能随时回到这里 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2386",
-   1,
-   "  Bossu: [斯凯菲亚里那棵看上去像巨树的物体，其实是来自很久很久以前的旧星际港。]",
-   "  Bossu: [斯凯菲亚里那棵看上去像巨树 的物体，其实是来自很久很久以前的旧星际 港。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2396",
-   1,
-   "  Mauser: [特工伊吠妮·伊吠，请回话。]",
-   "  Mauser: [特工伊吠妮·伊吠，请回 话。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2411",
-   1,
-   "  Tomcat: [……起……来……醒……醒……！]",
-   "  Tomcat: [……起……来……醒…… 醒……！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2416",
-   1,
-   "  Static: [咔滋滋！特……嘶嘶……失……误……]",
-   "  Static: [咔滋滋！特……嘶嘶…… 失……误……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2420",
-   1,
-   "  Static: [咔滋滋！特……嘶嘶……失……误……]",
-   "  Static: [咔滋滋！特……嘶嘶…… 失……误……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2426",
-   1,
-   "  Yiffany: [别管我，我们有更要紧的事，比如我弟弟他到底怎么了？]",
-   "  Yiffany: [别管我，我们有更要紧的 事，比如我弟弟他到底怎么了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2436",
-   1,
-   "  Tomcat: [没有人比你更了解你的手足。]",
-   "  Tomcat: [没有人比你更了解你的手 足。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2444",
-   1,
-   "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-   "  Yiffany: [当然！只要我没选中什么花 哨能力，就可以按 UP+ATTACK 射出钩 子，然后在天花板上荡过去！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2461",
-   1,
-   "  Yiffany: [是、是啊，我想我会这么做……]",
-   "  Yiffany: [是、是啊，我想我会这么 做……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2471",
-   1,
-   "  Mauser: [我、我、我不是说你不该穿！裙子穿在你身上会很——]",
-   "  Mauser: [我、我、我不是说你不该 穿！裙子穿在你身上会很——]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2482",
-   1,
-   "  Mauser: [透、透、透、透、透、透气！！？]",
-   "  Mauser: [透、透、透、透、透、透 气！！？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2524",
-   1,
-   "  Bossu: [那会很困难，但只要小心一点，你应该能毫发无伤地出来。]",
-   "  Bossu: [那会很困难，但只要小心一 点，你应该能毫发无伤地出来。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2530",
-   1,
-   "  Bossu: [你现在待的地方空气更稀薄了。]",
-   "  Bossu: [你现在待的地方空气更稀薄 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2544",
-   1,
-   "  Yiffany: [看起来我在某个金库里面，但根本没有锁，只有一些画着奇怪符号的屏幕……]",
-   "  Yiffany: [看起来我在某个金库里面， 但根本没有锁，只有一些画着奇怪符号的屏 幕……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2555",
-   1,
-   "  Yiffany: [我会继续设法破解这套密码。伊吠妮通话完毕。]",
-   "  Yiffany: [我会继续设法破解这套密 码。伊吠妮通话完毕。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2565",
-   1,
-   "  Bossu: [我们给你飞船的自动驾驶做好了设定：你不亲自驾驶的时候，它会返回这里。]",
-   "  Bossu: [我们给你飞船的自动驾驶做好 了设定：你不亲自驾驶的时候，它会返回这 里。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2588",
-   1,
-   "  Yiffany: [哦？倒是难得有陌生人打来。]",
-   "  Yiffany: [哦？倒是难得有陌生人打 来。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2593",
-   1,
-   "  Yiffany: [哦，是吗？你是怎么进来的，小家伙？]",
-   "  Yiffany: [哦，是吗？你是怎么进来 的，小家伙？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2594",
-   1,
-   "  The0: [话说，你们明明在重复使用密码表片段，还真能把它叫成「一次性密码本」吗……]",
-   "  The0: [话说，你们明明在重复使用密码 表片段，还真能把它叫成「一次性密码本」 吗……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2609",
-   1,
-   "  Yiffany: [不！完全不是那样！他送了……]",
-   "  Yiffany: [不！完全不是那样！他送 了……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2708",
-   1,
-   "  Bossu: [抓到一些当地生物了，干得好，伊吠妮！]",
-   "  Bossu: [抓到一些当地生物了，干得 好，伊吠妮！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2715",
-   1,
-   "  Yiffany: [别担心，伙计们，这套我熟。]",
-   "  Yiffany: [别担心，伙计们，这套我 熟。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2734",
-   1,
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]",
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉 色。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2735",
-   1,
-   "  Bossu: [这些大块头以强劲的利爪闻名。]",
-   "  Bossu: [这些大块头以强劲的利爪闻 名。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2737",
-   1,
-   "  Bossu: [不然你可就要挨它们的爪子了！]",
-   "  Bossu: [不然你可就要挨它们的爪子 了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2753",
-   1,
-   "  Yiffany: [长官，我已经解决掉一台了！]",
-   "  Yiffany: [长官，我已经解决掉一台 了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2761",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
+   "  Bossu: [另外，你已目视确认这座传送门的地面坐 标，往后应该就能随时回到这里了。]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2764",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的工作。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2772",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2775",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的活儿。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的活儿。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2783",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:2786",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的工作。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2831",
-   1,
-   "  Bossu: [它是一种会从废墟中现身的奇异异常体，而且看来对大多数物理攻击都免疫。]",
-   "  Bossu: [它是一种会从废墟中现身的奇 异异常体，而且看来对大多数物理攻击都免 疫。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2909",
-   1,
-   "  Bossu: [跟它们打交道小心点，伊吠妮。]",
-   "  Bossu: [跟它们打交道小心点，伊吠 妮。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2920",
-   1,
-   "  Bossu: [哦。不过这跟眼下的事没什么——]",
-   "  Bossu: [哦。不过这跟眼下的事没什 么——]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2933",
-   1,
-   "  Bossu: [哦。不过这跟眼下的事没什么——]",
-   "  Bossu: [哦。不过这跟眼下的事没什 么——]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2941",
-   1,
-   "  Bossu: [“喷火兽”属于龙形科的一员。]",
-   "  Bossu: [“喷火兽”属于龙形科的一 员。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:2979",
-   1,
-   "  Yiffany: [那我猜我就只能开一个口子，然后跑掉！]",
-   "  Yiffany: [那我猜我就只能开一个口 子，然后跑掉！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3030",
-   2,
-   "  Bossu: [如果这颗星球上还有有血有肉、长着皮毛的芬芬，目前也还没有特工遇到过。]",
-   "  Bossu: [如果这颗星球上还有有血有 肉、长着皮毛的芬芬，目前也还没有特工遇到 过。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3076",
-   1,
-   "  Bossu: [可这「光球」只会让你有点疼。]",
-   "  Bossu: [可这「光球」只会让你有点 疼。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3081",
-   1,
-   "  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]",
-   "  Yiffany: [我说啊，波苏，我不是人 鱼，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3093",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，但她们并不全是不朽的。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:3135",
    1,
    "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffany: [波苏，是这些加农炮变强 了，还是我变弱了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3149",
-   1,
-   "  Bossu: [斯凯菲亚的精灵虽然全是雌性，却并非个个都能长生不老。]",
-   "  Bossu: [斯凯菲亚的精灵虽然全是雌 性，却并非个个都能长生不老。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3158",
-   1,
-   "  Bossu: [先别顾着惊叹。你得保持警惕，才能击退那些年轻精灵的攻击。]",
-   "  Bossu: [先别顾着惊叹。你得保持警 惕，才能击退那些年轻精灵的攻击。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3226",
-   1,
-   "  Bossu: [没错。这种动物最好别去研究。]",
-   "  Bossu: [没错。这种动物最好别去研 究。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3230",
-   1,
-   "  Bossu: [它好像不知怎么黏在地形上了，而且只朝一个方向循环移动？]",
-   "  Bossu: [它好像不知怎么黏在地形上 了，而且只朝一个方向循环移动？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3236",
-   1,
-   "  Bossu: [那些从地里冒出来的幽灵头颅……]",
-   "  Bossu: [那些从地里冒出来的幽灵头 颅……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3328",
-   1,
-   "  Mauser: [找个信号好点的地方再呼我！]",
-   "  Mauser: [找个信号好点的地方再呼 我！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3332",
-   1,
-   "  Mauser: [不过目前没有什么可报告的。]",
-   "  Mauser: [不过目前没有什么可报告 的。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3340",
-   1,
-   "  Mauser: [你得找回你的装备，伊吠妮！]",
-   "  Mauser: [你得找回你的装备，伊吠 妮！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3385",
-   1,
-   "      Mauser: [你把宇宙服重新拼好了！]",
-   "      Mauser: [你把宇宙服重新拼好 了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3407",
-   1,
-   "      Yiffany: [那我就扩大搜索范围。完毕。]",
-   "      Yiffany: [那我就扩大搜索范 围。完毕。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3443",
-   1,
-   "        Yiffany: [见过那头公牛之后，我不知道该去哪找了……]",
-   "        Yiffany: [见过那头公牛之 后，我不知道该去哪找了……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3459",
-   1,
-   "      Mauser: [我标好了去地表的路线，是矿井最西北的一条出入竖井。]",
-   "      Mauser: [我标好了去地表的路 线，是矿井最西北的一条出入竖井。]"
+   "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:3500",
    1,
    "      Mauser: [真要是有办法挖开泥土，也许就能往西走了！]",
-   "      Mauser: [真要是有办法挖开泥 土，也许就能往西走了！]"
+   "      Mauser: [真要是有办法挖开泥土，也许就能往西走 了！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:3546",
    1,
    "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……结果它转眼就弄丢了。]",
-   "        Mauser: [我们这儿有条备忘 录，说有个特工把一支手电筒卖给了一只小 狗……结果它转眼就弄丢了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3554",
-   1,
-   "        Mauser: [这个扇区越往上走，出现的精灵就越多！]",
-   "        Mauser: [这个扇区越往上 走，出现的精灵就越多！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3556",
-   1,
-   "        Mauser: [去搞清楚那是什么！]",
-   "        Mauser: [去搞清楚那是什 么！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3582",
-   1,
-   "  Mauser: [就在那颗卫星的东北部深处。]",
-   "  Mauser: [就在那颗卫星的东北部深 处。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3583",
-   1,
-   "  Mauser: [你该试着找条路进那些洞窟。]",
-   "  Mauser: [你该试着找条路进那些洞 窟。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3598",
-   1,
-   "    Mauser: [进去之前，务必做好准备。]",
-   "    Mauser: [进去之前，务必做好准 备。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3601",
-   1,
-   "  Mauser: [看起来你在机库里，伊吠妮。]",
-   "  Mauser: [看起来你在机库里，伊吠 妮。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3680",
-   1,
-   "  Tomcat: [捡到东西就打给我。回头见！]",
-   "  Tomcat: [捡到东西就打给我。回头 见！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3683",
-   1,
-   "  Tomcat: [什么情况？这是在开玩笑吗？]",
-   "  Tomcat: [什么情况？这是在开玩笑 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3695",
-   1,
-   "  Tomcat: [不是吧——姑娘，你认真的？]",
-   "  Tomcat: [不是吧——姑娘，你认真 的？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3716",
-   1,
-   "  Tomcat: [不是吧——姑娘，你认真的？]",
-   "  Tomcat: [不是吧——姑娘，你认真 的？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3760",
-   1,
-   "  Tomcat: [嘿，有什么零食就吃什么吧！]",
-   "  Tomcat: [嘿，有什么零食就吃什么 吧！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3769",
-   1,
-   "  Tomcat: [至少它能恢复活力！请慢用！]",
-   "  Tomcat: [至少它能恢复活力！请慢 用！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3786",
-   1,
-   "  Yiffany: [哎呀，看这可爱的小果汁盒！]",
-   "  Yiffany: [哎呀，看这可爱的小果汁 盒！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3817",
-   1,
-   "  Tomcat: [你那块饼干看起来可真奇怪！]",
-   "  Tomcat: [你那块饼干看起来可真奇 怪！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3819",
-   1,
-   "  Tomcat: [吃下去肯定会带来好运，嘿！]",
-   "  Tomcat: [吃下去肯定会带来好运， 嘿！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3825",
-   1,
-   "  Tomcat: [说不定还会让你变得更强呢！]",
-   "  Tomcat: [说不定还会让你变得更强 呢！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3828",
-   1,
-   "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，那可得花一大笔LECT才能买到！]",
-   "  Tomcat: [吃这种随机掉落的奶酪也许 有点奇怪，但信我，哪个店要是有卖这玩意 儿，那可得花一大笔LECT才能买到！]"
+   "        Mauser: [我们这儿有条备忘录，说有个特工把一支手 电筒卖给了一只小狗……结果它转眼就弄丢 了。]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:3854",
    1,
    "  Tomcat: [至于矮人为什么会有这东西，我也不太清楚……]",
-   "  Tomcat: [至于矮人为什么会有这东 西，我也不太清楚……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3898",
-   1,
-   "  Mauser: [我以前在奶牛场工作，那绝——不是奶。]",
-   "  Mauser: [我以前在奶牛场工作，那 绝——不是奶。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3899",
-   1,
-   "  Yiffany: [有点晃。也许正在变成奶酪？]",
-   "  Yiffany: [有点晃。也许正在变成奶 酪？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3900",
-   1,
-   "  Tomcat: [反正看起来不是直接的毒药，所以也许对你真有好处！]",
-   "  Tomcat: [反正看起来不是直接的毒 药，所以也许对你真有好处！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3902",
-   1,
-   "  Yiffany: [哦，这个你会喜欢的，雄猫！]",
-   "  Yiffany: [哦，这个你会喜欢的，雄 猫！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3904",
-   1,
-   "  Yiffany: [对，闻起来像鱼！你喜欢鱼！]",
-   "  Yiffany: [对，闻起来像鱼！你喜欢 鱼！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3939",
-   1,
-   "  Yiffany: [快告诉我，他们不是认真的！居然说我不——]",
-   "  Yiffany: [快告诉我，他们不是认真 的！居然说我不——]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3941",
-   1,
-   "  Tomcat: [报告你看过，你知道为什么！]",
-   "  Tomcat: [报告你看过，你知道为什 么！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3960",
-   1,
-   "  Yiffany: [是啊，真想赶紧知道是谁的，哈哈！]",
-   "  Yiffany: [是啊，真想赶紧知道是谁 的，哈哈！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3992",
-   1,
-   "  Tomcat: [哦，不算差，我自己对亮红色不太拿得准，而且上面连可爱的铃铛都没有……]",
-   "  Tomcat: [哦，不算差，我自己对亮红 色不太拿得准，而且上面连可爱的铃铛都没 有……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:3995",
-   1,
-   "  Tomcat: [好好好，那它就挺——酷的。]",
-   "  Tomcat: [好好好，那它就挺——酷 的。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4002",
-   1,
-   "  Tomcat: [你捡到的是战斗级光电击枪！]",
-   "  Tomcat: [你捡到的是战斗级光电击 枪！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4011",
-   1,
-   "  Tomcat: [这次任务可不许你大耍功夫！]",
-   "  Tomcat: [这次任务可不许你大耍功 夫！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4016",
-   1,
-   "  Yiffany: [以前我穿着自己那套柔道服，随随便便在学院里走动，]",
-   "  Yiffany: [以前我穿着自己那套柔道 服，随随便便在学院里走动，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4031",
-   1,
-   "  Tomcat: [斧头扔出去一般不会飞回来，对吧……]",
-   "  Tomcat: [斧头扔出去一般不会飞回 来，对吧……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4039",
-   1,
-   "  Yiffany: [能查查我弄到的这个头饰吗？]",
-   "  Yiffany: [能查查我弄到的这个头饰 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4060",
-   1,
-   "  Yiffany: [快看这把海盗电击枪，雄猫！]",
-   "  Yiffany: [快看这把海盗电击枪，雄 猫！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4070",
-   1,
-   "  Yiffany: [好吧，你比我还入戏，算了……]",
-   "  Yiffany: [好吧，你比我还入戏，算 了……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4083",
-   1,
-   "  Tomcat: [那些肯定是装扮用的，不过，]",
-   "  Tomcat: [那些肯定是装扮用的，不 过，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4116",
-   1,
-   "  Tomcat: [哇，指挥部肯定想研究一下！]",
-   "  Tomcat: [哇，指挥部肯定想研究一 下！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4123",
-   1,
-   "  Yiffany: [把这东西脱下来就是这风险……]",
-   "  Yiffany: [把这东西脱下来就是这风 险……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4158",
-   1,
-   "  Tomcat: [你刚拿到的是更高级的门卡！]",
-   "  Tomcat: [你刚拿到的是更高级的门 卡！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4179",
-   1,
-   "  Tomcat: [哦哇，你的体温刚飙上去了，姑娘！]",
-   "  Tomcat: [哦哇，你的体温刚飙上去 了，姑娘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4195",
-   1,
-   "  Tomcat: [那是宇宙育种者制服的标配，能让你随意冲刺！]",
-   "  Tomcat: [那是宇宙育种者制服的标 配，能让你随意冲刺！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4199",
-   1,
-   "  Tomcat: [哦哇，你的体温刚飙上去了，姑娘！]",
-   "  Tomcat: [哦哇，你的体温刚飙上去 了，姑娘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4232",
-   1,
-   "  Yiffany: [这附近没法好好进城玩一夜，不过至少我能用这些点对点传送台了。]",
-   "  Yiffany: [这附近没法好好进城玩一 夜，不过至少我能用这些点对点传送台了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4242",
-   1,
-   "  Tomcat: [可是真的很好玩啊。弹啊弹，喵！！]",
-   "  Tomcat: [可是真的很好玩啊。弹啊 弹，喵！！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4250",
-   1,
-   "  Tomcat: [能量这么高……光是拿着它，你就应该会浑身冒火。]",
-   "  Tomcat: [能量这么高……光是拿着 它，你就应该会浑身冒火。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4272",
-   1,
-   "  Tomcat: [听起来你已经掌握得不错了！]",
-   "  Tomcat: [听起来你已经掌握得不错 了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4273",
-   1,
-   "  Yiffany: [我也这么觉得。伊吠妮完毕。]",
-   "  Yiffany: [我也这么觉得。伊吠妮完 毕。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4284",
-   1,
-   "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-   "  Yiffany: [当然！只要我没选中什么花 哨能力，就可以按 UP+ATTACK 射出钩 子，然后在天花板上荡过去！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4290",
-   1,
-   "  Yiffany: [反正，只要钩子勾得牢就行。]",
-   "  Yiffany: [反正，只要钩子勾得牢就 行。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4296",
-   1,
-   "  Yiffany: [用它不需要特别操作，对吧？]",
-   "  Yiffany: [用它不需要特别操作，对 吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4304",
-   1,
-   "  Yiffany: [是啊。应该能帮我完成任务。]",
-   "  Yiffany: [是啊。应该能帮我完成任 务。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4326",
-   1,
-   "  Yiffany: [所以……说起那些“超能力”……]",
-   "  Yiffany: [所以……说起那些“超能 力”……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4339",
-   1,
-   "  Tomcat: [我——嘶嘶咔——看见了，你——滋咔——这么做让——咔嘶——这通话——滋滋咔沙——断了。]",
-   "  Tomcat: [我——嘶嘶咔——看见了， 你——滋咔——这么做让——咔嘶——这通 话——滋滋咔沙——断了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4350",
-   1,
-   "  Yiffany: [在近场数据里完全看不到的……]",
-   "  Yiffany: [在近场数据里完全看不到 的……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4351",
-   1,
-   "  Yiffany: [我该做好发生什么事的准备？]",
-   "  Yiffany: [我该做好发生什么事的准 备？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4353",
-   1,
-   "  Tomcat: [当初特工们开始向我们报告，]",
-   "  Tomcat: [当初特工们开始向我们报 告，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4362",
-   1,
-   "  Tomcat: [他那个故事怎么可能是真的！]",
-   "  Tomcat: [他那个故事怎么可能是真 的！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4413",
-   1,
-   "  Yiffany: [好吧，这次又是什么鬼东西……]",
-   "  Yiffany: [好吧，这次又是什么鬼东 西……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4423",
-   1,
-   "  Tomcat: [所以基本什么设备都能运行，比如你的P.A.W.。]",
-   "  Tomcat: [所以基本什么设备都能运 行，比如你的P.A.W.。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4521",
-   1,
-   "  Tomcat: [它们能让你更了解这些生物，]",
-   "  Tomcat: [它们能让你更了解这些生 物，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4527",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4534",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4541",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4548",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4588",
-   1,
-   "  Mauser: 有时候你能在探索时找到装备。",
-   "  Mauser: 有时候你能在探索时找到装 备。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4595",
-   1,
-   "  Bossu: 关键是务必避免撞上那只大壮兽。它伤人比那里其他任何东西都更狠。 ",
-   "  Bossu: 关键是务必避免撞上那只大壮 兽。它伤人比那里其他任何东西都更狠。 "
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4616",
-   1,
-   "  Mauser: 我看到那龙的双眼一闪，然后……！",
-   "  Mauser: 我看到那龙的双眼一闪，然 后……！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4622",
-   1,
-   "  Mauser: 哎呀！那可是个难对付的敌人！",
-   "  Mauser: 哎呀！那可是个难对付的敌 人！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4635",
-   1,
-   "  Tomcat: 你不会让这混蛋把你打倒的吧？",
-   "  Tomcat: 你不会让这混蛋把你打倒的 吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4643",
-   1,
-   "  Tomcat: 得蹲下才能打到他，挺棘手的，对吧？",
-   "  Tomcat: 得蹲下才能打到他，挺棘手 的，对吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4777",
-   1,
-   "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
-   "  * 很简单：你把在外头找到的那些花哨芯 片带给我，我就替你黑开门！显然，这是双 赢！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4784",
-   1,
-   "  * 拜拜，特工！再给我多带些那种芯片来！",
-   "  * 拜拜，特工！再给我多带些那种芯片 来！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4794",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4886",
-   1,
-   "  Anon/Fox: 你能让你的主人过来帮我吗？",
-   "  Anon/Fox: 你能让你的主人过来帮我 吗？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4988",
-   1,
-   "  * 能见到另一位宇宙育种者，我太高兴了，哪怕我只是个占位角色！",
-   "  * 能见到另一位宇宙育种者，我太高兴 了，哪怕我只是个占位角色！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:4996",
-   1,
-   "  * 而且我会给你的装备强化！显然是双赢！",
-   "  * 而且我会给你的装备强化！显然是双 赢！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:5012",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
+   "  Tomcat: [至于矮人为什么会有这东西，我也不太清 楚……]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadf/1:5057",
    1,
    "  * [你、你是只好狗狗，对吧？不会咬我，或者……什么的……]",
-   "  * [你、你是只好狗狗，对吧？不会咬 我，或者……什么的……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadf/1:5090",
-   1,
-   "  * [要是你没出现，我真不知道该怎么办！]",
-   "  * [要是你没出现，我真不知道该怎么 办！]"
+   "  * [你、你是只好狗狗，对吧？不会咬我，或 者……什么的……]"
   ]
  ],
  "SC22-sfw-datadm_1": [
   [
-   "P22:cosmobreeder-multi.jar:datadm/1:63",
+   "P22:cosmobreeder-multi.jar:datadm/1:1198",
    1,
-   "  * 不知道这是什么，某种破旧的太空制服？",
-   "  * 不知道这是什么，某种破旧的太空制 服？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:284",
-   1,
-   "  * 我已经得救了，伊吠！不过还是谢谢你！",
-   "  * 我已经得救了，伊吠！不过还是谢谢 你！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:394",
-   1,
-   "  * 欢迎光临！热腾腾的肉，透心凉的冷饮！最适合艾斯卡姆尔了！",
-   "  * 欢迎光临！热腾腾的肉，透心凉的冷 饮！最适合艾斯卡姆尔了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:414",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:472",
-   1,
-   "  * 当然，还得有一艘飞船和一群亡命之徒！",
-   "  * 当然，还得有一艘飞船和一群亡命之 徒！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:476",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:477",
-   1,
-   "  * 事实上，它烫得几乎没法上手……哎哟！",
-   "  * 事实上，它烫得几乎没法上手……哎 哟！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:548",
-   1,
-   "  * 我好像给自己惹了那么一——点小麻烦…… ",
-   "  * 我好像给自己惹了那么一——点小麻 烦…… "
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:576",
-   1,
-   "  * 我正要逃走，不过嘛，你要是肯帮一把……",
-   "  * 我正要逃走，不过嘛，你要是肯帮一 把……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:608",
-   1,
-   "  * 谁是乖孩子？是我！不过，你想帮忙吗……？",
-   "  * 谁是乖孩子？是我！不过，你想帮忙 吗……？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:637",
-   1,
-   "  * 哦、哦，你好。能见到别的特工真高兴！",
-   "  * 哦、哦，你好。能见到别的特工真高 兴！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:734",
-   1,
-   "  * 哎呀，这玩意儿配道服正合适，不是吗？",
-   "  * 哎呀，这玩意儿配道服正合适，不是 吗？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:818",
-   1,
-   "  * 你怎么不干脆把能拿到的东西全拿走啊？嗯？",
-   "  * 你怎么不干脆把能拿到的东西全拿走 啊？嗯？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:872",
-   1,
-   "    * 那家伙一直念叨着“下、中、中、上……”，谁知道是什么意思！",
-   "    * 那家伙一直念叨着“下、中、中、 上……”，谁知道是什么意思！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:959",
-   1,
-   "  * 听好了，新兵！现在需要你立刻来支援。",
-   "  * 听好了，新兵！现在需要你立刻来支 援。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1013",
-   1,
-   "    * 出去小心点。如今的图托恩可不太平。",
-   "    * 出去小心点。如今的图托恩可不太 平。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1018",
-   1,
-   "    * 记住，概不退款！还要点啥？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要点啥？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1052",
-   1,
-   "  * 还是顶级的高端型号呢……只可惜坏了。",
-   "  * 还是顶级的高端型号呢……只可惜坏 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1188",
-   1,
-   "  * ……其实我什么都看不见！这里太黑了！",
-   "  * ……其实我什么都看不见！这里太黑 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1208",
-   1,
-   "  * 这颗小药丸能让你精神抖擞、毛发浓密、腰板挺直……",
-   "  * 这颗小药丸能让你精神抖擞、毛发浓 密、腰板挺直……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1220",
-   1,
-   "    * ……总觉得好像有什么大事要发生了！",
-   "    * ……总觉得好像有什么大事要发生 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1225",
-   1,
-   "    * 话说回来，你以前穿过精灵连衣裙吗？你看着就像会穿的！",
-   "    * 话说回来，你以前穿过精灵连衣裙 吗？你看着就像会穿的！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1269",
-   1,
-   "  * 你、你好啊，朋友！我倒想热情招呼你，可我被关在这儿，实在施展不开！",
-   "  * 你、你好啊，朋友！我倒想热情招呼 你，可我被关在这儿，实在施展不开！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1290",
-   1,
-   "  * 拜、拜托！我都这么客客气气地求你了！",
-   "  * 拜、拜托！我都这么客客气气地求你 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1334",
-   1,
-   "  * 好吧，谢谢。这样征服精灵就更容易了！",
-   "  * 好吧，谢谢。这样征服精灵就更容易 了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1344",
-   1,
-   "  * 要压过这些斯凯菲亚精灵，还真挺费劲！",
-   "  * 要压过这些斯凯菲亚精灵，还真挺费 劲！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1347",
-   1,
-   "  * 哦，嗨、嗨，我一直在等别的特工过来。",
-   "  * 哦，嗨、嗨，我一直在等别的特工过 来。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1406",
-   1,
-   "    * 出去小心点。如今的图托恩可不太平。",
-   "    * 出去小心点。如今的图托恩可不太 平。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1411",
-   1,
-   "    * 记住，概不退款！还要点啥？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要点啥？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1421",
-   1,
-   "    * 你就拿着你的破烂玩去吧，别来烦我，行吗？！",
-   "    * 你就拿着你的破烂玩去吧，别来烦 我，行吗？！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1435",
-   1,
-   "  * 我这儿的吃食是七片沼泽这一带最好的，你却想要那种垃圾？",
-   "  * 我这儿的吃食是七片沼泽这一带最好 的，你却想要那种垃圾？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1460",
-   1,
-   "    * 老实说：这些精神力的东西让我发毛。",
-   "    * 老实说：这些精神力的东西让我发 毛。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1463",
-   1,
-   "    * 大多数科博德并不真搞这些心理把戏。你要是没兴趣，我理解。",
-   "    * 大多数科博德并不真搞这些心理把 戏。你要是没兴趣，我理解。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1483",
-   1,
-   "    * 不穿宇宙服就往外跑，你胆子可真大！ ",
-   "    * 不穿宇宙服就往外跑，你胆子可真 大！ "
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1573",
-   1,
-   "    * 可你知道，要是这机库里多些人休整，我倒也许该多运些补给进来……",
-   "    * 可你知道，要是这机库里多些人休 整，我倒也许该多运些补给进来……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1576",
-   1,
-   "    * 我好久没在这儿见到你们这种特工了，连存货都没顾上补！",
-   "    * 我好久没在这儿见到你们这种特工 了，连存货都没顾上补！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1626",
-   1,
-   "  * 听说超能力者得到一颗，就能提升灵能容量，可我只是条普通的狗，这东西对我没用。送你吧！",
-   "  * 听说超能力者得到一颗，就能提升灵能 容量，可我只是条普通的狗，这东西对我没 用。送你吧！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1631",
-   1,
-   "  * 我忙着跑遍各家店，确保 lect 流转，不过偶尔我也得靠这个提提神！",
-   "  * 我忙着跑遍各家店，确保 lect 流 转，不过偶尔我也得靠这个提提神！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1642",
-   1,
-   "  * 听说三角能力能增强防御，不过攻击会稍微降低，而十字之力则刚好相反！挨打更疼，打人也更疼！",
-   "  * 听说三角能力能增强防御，不过攻击会 稍微降低，而十字之力则刚好相反！挨打更 疼，打人也更疼！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1653",
-   1,
-   "  * ……抱歉，刚才笑得有点吓人。习惯了。",
-   "  * ……抱歉，刚才笑得有点吓人。习惯 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1762",
-   1,
-   "  * ……不，不是那种店！这是汽车修理店！",
-   "  * ……不，不是那种店！这是汽车修理 店！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1771",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1777",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1782",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1788",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1805",
-   1,
-   "    * ……我已经在你的导航地图上标好了！去看看吧！",
-   "    * ……我已经在你的导航地图上标好 了！去看看吧！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1932",
-   1,
-   "  * 相当厉害吧……你猜怎么着？这块岩石里埋着的什么东西似乎也在猛耗电力……不过，我还未能确定它的位置。",
-   "  * 相当厉害吧……你猜怎么着？这块岩石 里埋着的什么东西似乎也在猛耗电力……不 过，我还未能确定它的位置。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1953",
-   1,
-   "  Mauser: [……呼叫特工伊吠！请回答！]",
-   "  Mauser: [……呼叫特工伊吠！请回 答！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1954",
-   1,
-   "  Yiffai: [这里是特工伊吠！信号清晰！]",
-   "  Yiffai: [这里是特工伊吠！信号清 晰！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:1997",
-   1,
-   "  Yiffai: [谢谢，波苏，可惜他逃走了。]",
-   "  Yiffai: [谢谢，波苏，可惜他逃走 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2010",
-   1,
-   "  Yiffai: [是啊，可那大块头又溜掉了。]",
-   "  Yiffai: [是啊，可那大块头又溜掉 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2012",
-   1,
-   "  Yiffai: [这颗星球上到底发生了什么。]",
-   "  Yiffai: [这颗星球上到底发生了什 么。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2026",
-   1,
-   "  Yiffai: [好，我这就往地表那边走，并试着找到离开这片区域的路。伊吠通话完毕！]",
-   "  Yiffai: [好，我这就往地表那边走， 并试着找到离开这片区域的路。伊吠通话完 毕！]"
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很乐意卖给你，但我每次一动，好像都会踩到什——嗷呜！",
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很 乐意卖给你，但我每次一动，好像都会踩到 什——嗷呜！"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:2046",
    1,
    "  Bossu: [我们不能冒险让你再次被击落……或者更糟。]",
-   "  Bossu: [我们不能冒险让你再次被击 落……或者更糟。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2054",
-   1,
-   "  Mauser: [你该去那边看看有没有人在！]",
-   "  Mauser: [你该去那边看看有没有人 在！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2104",
-   1,
-   "  Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]",
-   "  Mauser: [哦！而且导航地图坐标已经 发出，所以你应该能轻松到达那里。祝你好 运！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2127",
-   1,
-   "  Yiffai: [……哦抱歉，我是特工伊吠，现在报到。]",
-   "  Yiffai: [……哦抱歉，我是特工伊 吠，现在报到。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2131",
-   1,
-   "  Yiffai: [我在这个奇怪的黑暗区域里，对吧？]",
-   "  Yiffai: [我在这个奇怪的黑暗区域 里，对吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2132",
-   1,
-   "  Yiffai: [而我四周看到的全是显示器……]",
-   "  Yiffai: [而我四周看到的全是显示 器……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2133",
-   1,
-   "  Mauser: [……显示器？显示的是什么？]",
-   "  Mauser: [……显示器？显示的是什 么？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2140",
-   1,
-   "  Yiffai: [……我打赌如果我也是野狗，跑跳肯定会更棒……]",
-   "  Yiffai: [……我打赌如果我也是野 狗，跑跳肯定会更棒……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2152",
-   1,
-   "  Yiffai: [是啊，这地方真是快散架了。]",
-   "  Yiffai: [是啊，这地方真是快散架 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2165",
-   1,
-   "  Tomcat: [……全都任你拿！为了任务！]",
-   "  Tomcat: [……全都任你拿！为了任 务！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2174",
-   1,
-   "  Yiffai: [你那边断断续续的太严重了，等我先出去，]",
-   "  Yiffai: [你那边断断续续的太严重 了，等我先出去，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2184",
-   1,
-   "    Mauser: [你可算出现了！你还好吗，伊吠？]",
-   "    Mauser: [你可算出现了！你还好 吗，伊吠？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2200",
-   1,
-   "    Tomcat: [你还记得那东西怎么用吗？]",
-   "    Tomcat: [你还记得那东西怎么用 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2214",
-   1,
-   "    Tomcat: [连只小狗都会了，真是的！]",
-   "    Tomcat: [连只小狗都会了，真是 的！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2219",
-   1,
-   "  Yiffai: [啊？什么？你打电话来干什——]",
-   "  Yiffai: [啊？什么？你打电话来干 什——]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2237",
-   1,
-   "  Mauser: [对，只要记住：只有身处半空时，按 DOWN + JUMP 才会做出俯冲踢！]",
-   "  Mauser: [对，只要记住：只有身处半 空时，按 DOWN + JUMP 才会做出俯冲 踢！]"
+   "  Bossu: [我们不能冒险让你再次被击落……或者更 糟。]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:2244",
    1,
    "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体征又乱了套，我唯一接收到的，只有一阵发毛！]",
-   "  Tomcat: [无线电呼叫怎么也接不通， 偏偏你的生命体征又乱了套，我唯一接收到 的，只有一阵发毛！]"
+   "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]"
   ],
   [
-   "P22:cosmobreeder-multi.jar:datadm/1:2254",
+   "P22:cosmobreeder-multi.jar:datadm/1:2250",
    1,
-   "  Yiffai: [不管那都是什么意思……呃……]",
-   "  Yiffai: [不管那都是什么意思…… 呃……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2257",
-   1,
-   "  Yiffai: [我会没事的，继续执行任务。]",
-   "  Yiffai: [我会没事的，继续执行任 务。]"
+   "  Yiffai: [不-不是，没那种事。只是……听起来像是……]",
+   "  Yiffai: [不-不是，没那种事。只是……听起来像 是……]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:2263",
    1,
    "  Starkill: [……咔咔滋……做好准备……特工……滋咔……]",
-   "  Starkill: [……咔咔滋……做好准 备……特工……滋咔……]"
+   "  Starkill: [……咔咔滋……做好准备……特工……滋 咔……]"
   ],
   [
-   "P22:cosmobreeder-multi.jar:datadm/1:2279",
+   "P22:cosmobreeder-multi.jar:datadm/1:2372",
    1,
-   "  Tomcat: [你的生命体征刚才突然飙升，小子。发生什么事了？]",
-   "  Tomcat: [你的生命体征刚才突然飙 升，小子。发生什么事了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2285",
-   1,
-   "  Yiffai: [这感觉像是有了新的*力量*……]",
-   "  Yiffai: [这感觉像是有了新的*力量 *……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2292",
-   1,
-   "  Mauser: [嗯，只要你大体上没事就行，特工。]",
-   "  Mauser: [嗯，只要你大体上没事就 行，特工。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2311",
-   1,
-   "  Yiffai: [几乎就像能听懂我在说什么！]",
-   "  Yiffai: [几乎就像能听懂我在说什 么！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2319",
-   1,
-   "  Yiffai: [哎、哎哟……毛鼠，请回话。]",
-   "  Yiffai: [哎、哎哟……毛鼠，请回 话。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2327",
-   1,
-   "  Mauser: [我们这边完全没有数据进来。]",
-   "  Mauser: [我们这边完全没有数据进 来。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2330",
-   1,
-   "  Yiffai: [算了，就当我什么都没说过。]",
-   "  Yiffai: [算了，就当我什么都没说 过。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2383",
-   1,
-   "  Bossu: [如今那些精灵更可能把你赶走，而不是跟你做生意，所以你可得留神。]",
-   "  Bossu: [如今那些精灵更可能把你赶 走，而不是跟你做生意，所以你可得留神。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2387",
-   1,
-   "  Bossu: [请把行动笔记再仔细通读一遍。]",
-   "  Bossu: [请把行动笔记再仔细通读一 遍。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2407",
-   1,
-   "  Tomcat: [……起……来……醒……醒……！]",
-   "  Tomcat: [……起……来……醒…… 醒……！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2412",
-   1,
-   "  Static: [咔滋滋！特……嘶嘶……失……误……]",
-   "  Static: [咔滋滋！特……嘶嘶…… 失……误……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2416",
-   1,
-   "  Static: [咔滋滋！特……嘶嘶……失……误……]",
-   "  Static: [咔滋滋！特……嘶嘶…… 失……误……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2434",
-   1,
-   "  Tomcat: [下次你最好别再手下留情了，不然她真可能彻底干掉你，懂吗？]",
-   "  Tomcat: [下次你最好别再手下留情 了，不然她真可能彻底干掉你，懂吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2441",
-   1,
-   "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-   "  Yiffai: [当然！只要没选什么花哨的 能力，我就可以按 UP+ATTACK 射出钩 子，挂在天花板上荡来荡去！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2462",
-   1,
-   "  Mauser: [伊吠特工，请回答。有急事。]",
-   "  Mauser: [伊吠特工，请回答。有急 事。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2477",
-   1,
-   "  Mauser: [你也——许该试着穿上看看。]",
-   "  Mauser: [你也——许该试着穿上看 看。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2492",
-   1,
-   "  Yiffai: [又是你……你到底想干什么？]",
-   "  Yiffai: [又是你……你到底想干什 么？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2527",
-   1,
-   "  Bossu: [那会很困难，但只要小心一点，你应该能毫发无伤地出来。]",
-   "  Bossu: [那会很困难，但只要小心一 点，你应该能毫发无伤地出来。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2540",
-   1,
-   "  Yiffai: [呃、对！没错！当然！懂了！！！]",
-   "  Yiffai: [呃、对！没错！当然！懂 了！！！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2545",
-   1,
-   "  Yiffai: [看起来我在某个金库里面，但根本没有锁，只有一些画着奇怪符号的屏幕……]",
-   "  Yiffai: [看起来我在某个金库里面， 但根本没有锁，只有一些画着奇怪符号的屏 幕……]"
+   "  Mauser: [各式各样的哥布林与精灵，就在每一丛灌木、每一棵树后面埋伏着等你——]",
+   "  Mauser: [各式各样的哥布林与精灵，就在每一丛灌 木、每一棵树后面埋伏着等你——]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:2556",
    1,
    "  Yiffai: [我会继续设法破解这套密码。伊吠通话完毕。]",
-   "  Yiffai: [我会继续设法破解这套密 码。伊吠通话完毕。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2566",
-   1,
-   "  Bossu: [我们就是把你飞船的自动驾驶设定为：你不亲自驾驶的时候，它会返回这里。]",
-   "  Bossu: [我们就是把你飞船的自动驾驶 设定为：你不亲自驾驶的时候，它会返回这 里。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2570",
-   1,
-   "  Yiffai: [哪怕是在这么偏僻的星球上，也有人站在我们这边，真是太好了！]",
-   "  Yiffai: [哪怕是在这么偏僻的星球 上，也有人站在我们这边，真是太好了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2618",
-   1,
-   "  Bossu: [他们可能会对这次任务很重要。]",
-   "  Bossu: [他们可能会对这次任务很重 要。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2650",
-   1,
-   "  Bossu: [特工伊吠·伊吠？收到请回答。]",
-   "  Bossu: [特工伊吠·伊吠？收到请回 答。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2671",
-   1,
-   "  Bossu: [特工伊吠·伊吠？收到请回答。]",
-   "  Bossu: [特工伊吠·伊吠？收到请回 答。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2702",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2706",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2722",
-   1,
-   "  Mauser: [它们的自信就会提升得越多！]",
-   "  Mauser: [它们的自信就会提升得越 多！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2724",
-   1,
-   "  Yiffai: [各位别担心，我想我能应付！]",
-   "  Yiffai: [各位别担心，我想我能应 付！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2734",
-   1,
-   "  Bossu: [要是你遇见近视的棕毛小动物，那些小家伙叫作「吱吱怪」]",
-   "  Bossu: [要是你遇见近视的棕毛小动 物，那些小家伙叫作「吱吱怪」]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2743",
-   1,
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]",
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉 色。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2746",
-   1,
-   "  Bossu: [不然你可就要挨它们的爪子了！]",
-   "  Bossu: [不然你可就要挨它们的爪子 了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2753",
-   1,
-   "  Yiffai: [什么？我不能把它们毁掉吗？]",
-   "  Yiffai: [什么？我不能把它们毁掉 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2763",
-   1,
-   "  Yiffai: [什么？我不能把它们毁掉吗？]",
-   "  Yiffai: [什么？我不能把它们毁掉 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2783",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2795",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2807",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2854",
-   1,
-   "  Bossu: [它是一种会从废墟中现身的奇异异常体，而且看来对大多数物理攻击都免疫。]",
-   "  Bossu: [它是一种会从废墟中现身的奇 异异常体，而且看来对大多数物理攻击都免 疫。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2859",
-   1,
-   "  Bossu: [我们当时觉得这些报告不可靠，没有采信，不过……]",
-   "  Bossu: [我们当时觉得这些报告不可 靠，没有采信，不过……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2888",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2903",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2918",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2930",
-   1,
-   "  Bossu: [你说「这家伙」，可看那只大壮兽的力量，那一定是这个物种里不同的个体。]",
-   "  Bossu: [你说「这家伙」，可看那只大 壮兽的力量，那一定是这个物种里不同的个 体。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2943",
-   1,
-   "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]",
-   "  Yiffai: [哇，波苏，那家伙一身肌 肉！而且……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2946",
-   1,
-   "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]",
-   "  Yiffai: [他们怎么能又大又高，却 又……那么矮？！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2952",
-   1,
-   "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]",
-   "  Yiffai: [哇，波苏，那家伙一身肌 肉！而且……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2955",
-   1,
-   "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]",
-   "  Yiffai: [他们怎么能又大又高，却 又……那么矮？！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2962",
-   1,
-   "  Bossu: [“喷火兽”属于龙兽科的一员。]",
-   "  Bossu: [“喷火兽”属于龙兽科的一 员。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:2966",
-   1,
-   "  Yiffai: [哦……还好我不用担心我的制服被烧坏！……只、只是我的毛而已，哈哈！]",
-   "  Yiffai: [哦……还好我不用担心我的 制服被烧坏！……只、只是我的毛而已，哈 哈！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3001",
-   1,
-   "  Yiffai: [哦！所以它们才会一直回来？]",
-   "  Yiffai: [哦！所以它们才会一直回 来？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3005",
-   1,
-   "  Bossu: [一旦过了采矿区，你就安全了。]",
-   "  Bossu: [一旦过了采矿区，你就安全 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3014",
-   1,
-   "  Mauser: [波苏是说，那些老矿工在自家的矿井里埋了地雷，意思是：“这是我的矿，谁也别碰！”]",
-   "  Mauser: [波苏是说，那些老矿工在自 家的矿井里埋了地雷，意思是：“这是我的 矿，谁也别碰！”]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3053",
-   1,
-   "  Yiffai: [这些大蜥蜴家伙就是科博德？]",
-   "  Yiffai: [这些大蜥蜴家伙就是科博 德？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3054",
-   1,
-   "  Bossu: [没错。你最好习惯跟他们缠斗。]",
-   "  Bossu: [没错。你最好习惯跟他们缠 斗。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3121",
-   1,
-   "  Bossu: [可这「光球」只会让你有点疼。]",
-   "  Bossu: [可这「光球」只会让你有点 疼。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3140",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非个个都能长生不老。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，却并非个个都能长生不老。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3142",
-   1,
-   "  Bossu: [她们身上凡人的特征越来越多，]",
-   "  Bossu: [她们身上凡人的特征越来越 多，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3145",
-   1,
-   "  Bossu: [据我们掌握的情况，确实如此。]",
-   "  Bossu: [据我们掌握的情况，确实如 此。]"
+   "  Yiffai: [我会继续设法破解这套密码。伊吠通话完 毕。]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:3182",
    1,
    "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffai: [波苏，是这些加农炮变强 了，还是我变弱了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3196",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，但她们并不全是不朽的。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3201",
-   1,
-   "  Bossu: [据我们掌握的情况，确实如此。]",
-   "  Bossu: [据我们掌握的情况，确实如 此。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3211",
-   1,
-   "  Bossu: [暂且就把它们叫“跳跳兽”吧。]",
-   "  Bossu: [暂且就把它们叫“跳跳兽” 吧。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3240",
-   1,
-   "  Bossu: [哪怕它们的制造者早已退隐多年，它们的纳米蛛网仍把整个环境维系在一起。]",
-   "  Bossu: [哪怕它们的制造者早已退隐多 年，它们的纳米蛛网仍把整个环境维系在一 起。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3277",
-   1,
-   "  Bossu: [它好像不知怎么黏在地形上了，而且只朝一个方向循环移动？]",
-   "  Bossu: [它好像不知怎么黏在地形上 了，而且只朝一个方向循环移动？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3283",
-   1,
-   "  Bossu: [那些从地里冒出来的幽灵头颅……]",
-   "  Bossu: [那些从地里冒出来的幽灵头 颅……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3366",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3370",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3374",
-   1,
-   "  Mauser: [找个信号好点的地方再呼我！]",
-   "  Mauser: [找个信号好点的地方再呼 我！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3421",
-   1,
-   "      Mauser: [……不过可别下手太重！]",
-   "      Mauser: [……不过可别下手太 重！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3434",
-   1,
-   "  Yiffai: [你知道去哪里找那些特工吗？]",
-   "  Yiffai: [你知道去哪里找那些特工 吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3466",
-   1,
-   "  Mauser: [不过那可能和你的任务有关。]",
-   "  Mauser: [不过那可能和你的任务有 关。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3485",
-   1,
-   "        Yiffai: [见过那头公牛之后，我不知道该去哪找了……]",
-   "        Yiffai: [见过那头公牛之 后，我不知道该去哪找了……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3499",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3527",
-   1,
-   "    Mauser: [你确定自己没事吗，伊吠？]",
-   "    Mauser: [你确定自己没事吗，伊 吠？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3540",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3542",
-   1,
-   "      Mauser: [要是你有办法挖穿泥土，说不定就能一路往西去了！]",
-   "      Mauser: [要是你有办法挖穿泥 土，说不定就能一路往西去了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3587",
-   1,
-   "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……它转眼就弄丢了。]",
-   "        Mauser: [我们这儿有条备忘 录，说有个特工把一支手电筒卖给了一只小 狗……它转眼就弄丢了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3608",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3624",
-   1,
-   "  Mauser: [你该试着找条路进那些洞窟。]",
-   "  Mauser: [你该试着找条路进那些洞 窟。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3642",
-   1,
-   "  Mauser: [看样子你到机库里了，伊吠。]",
-   "  Mauser: [看样子你到机库里了，伊 吠。]"
+   "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:3678",
    1,
    "  The0: [那是——算了，晚点再打给我吧！好，再见！]",
-   "  The0: [那是——算了，晚点再打给我 吧！好，再见！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3683",
-   1,
-   "  The0: [小狗会刨坑吧？总之，让我看看。扫描中……]",
-   "  The0: [小狗会刨坑吧？总之，让我看 看。扫描中……]"
+   "  The0: [那是——算了，晚点再打给我吧！好，再 见！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:3736",
    1,
    "  Tomcat: [嘿，听我说，好小子，行吗？能乖乖听话吗？]",
-   "  Tomcat: [嘿，听我说，好小子，行 吗？能乖乖听话吗？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3749",
-   1,
-   "  Tomcat: [现在无线电又被史莱姆抢了？]",
-   "  Tomcat: [现在无线电又被史莱姆抢 了？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3779",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3783",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
+   "  Tomcat: [嘿，听我说，好小子，行吗？能乖乖听话 吗？]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:3786",
    1,
    "  Tomcat: [喂，小狗屁股，要是你想多了解捡到的装备，别忘了打 28.880 找我！]",
-   "  Tomcat: [喂，小狗屁股，要是你想多 了解捡到的装备，别忘了打 28.880 找 我！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3812",
-   1,
-   "  Tomcat: [组织分析显示，其中含有抗菌成分，所以尽管啃吧，小狗崽，再脏也不怕！]",
-   "  Tomcat: [组织分析显示，其中含有抗 菌成分，所以尽管啃吧，小狗崽，再脏也不 怕！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3819",
-   1,
-   "  Tomcat: [看来下面有个家伙变可爱了。]",
-   "  Tomcat: [看来下面有个家伙变可爱 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3850",
-   1,
-   "  Tomcat: [你那块饼干看起来可真奇怪！]",
-   "  Tomcat: [你那块饼干看起来可真奇 怪！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3852",
-   1,
-   "  Tomcat: [吃下去肯定会带来好运，嘿！]",
-   "  Tomcat: [吃下去肯定会带来好运， 嘿！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3858",
-   1,
-   "  Tomcat: [说不定还会让你变得更强呢！]",
-   "  Tomcat: [说不定还会让你变得更强 呢！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3861",
-   1,
-   "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，肯定能卖一大笔LECT！]",
-   "  Tomcat: [吃这种随机掉落的奶酪也许 有点奇怪，但信我，哪个店要是有卖这玩意 儿，肯定能卖一大笔LECT！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3868",
-   1,
-   "  Tomcat: [简直是在求你把它们破开嘛！]",
-   "  Tomcat: [简直是在求你把它们破开 嘛！]"
+   "  Tomcat: [喂，小狗屁股，要是你想多了解捡到的装 备，别忘了打 28.880 找我！]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:3887",
    1,
    "  Tomcat: [至于矮人为什么会有这东西，我也不太清楚……]",
-   "  Tomcat: [至于矮人为什么会有这东 西，我也不太清楚……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3903",
-   1,
-   "  Tomcat: [不太——清楚那扭来扭去的小幽灵是什么，不过，也许拿来当小零食不错……？]",
-   "  Tomcat: [不太——清楚那扭来扭去的 小幽灵是什么，不过，也许拿来当小零食不 错……？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3952",
-   1,
-   "  Tomcat: [那就是块石头。你问我干嘛？]",
-   "  Tomcat: [那就是块石头。你问我干 嘛？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3956",
-   1,
-   "  Tomcat: [它特别脆，也特别锋利，所以只能扎一次就不行了。我觉得扔出去更合适。]",
-   "  Tomcat: [它特别脆，也特别锋利，所 以只能扎一次就不行了。我觉得扔出去更合 适。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3966",
-   1,
-   "  Yiffai: [只要扔得够用力、够高就行……]",
-   "  Yiffai: [只要扔得够用力、够高就 行……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3980",
-   1,
-   "  Tomcat: [……那就祝你好运！！拜拜！！]",
-   "  Tomcat: [……那就祝你好运！！拜 拜！！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:3998",
-   1,
-   "  Yiffai: [这能把怪物送回机库，是吧？]",
-   "  Yiffai: [这能把怪物送回机库，是 吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4005",
-   1,
-   "  Tomcat: [你这项圈还真时髦。够结实！]",
-   "  Tomcat: [你这项圈还真时髦。够结 实！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4012",
-   1,
-   "  Yiffai: [……只是穿着舒服，就这样！]",
-   "  Yiffai: [……只是穿着舒服，就这 样！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4019",
-   1,
-   "  Tomcat: [你捡到的是战斗级光电击枪！]",
-   "  Tomcat: [你捡到的是战斗级光电击 枪！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4029",
-   1,
-   "  Tomcat: [对，除了学院训练时，平时很少见。不过它能帮你在徒手搏斗时集中精神！]",
-   "  Tomcat: [对，除了学院训练时，平时 很少见。不过它能帮你在徒手搏斗时集中精 神！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4037",
-   1,
-   "  Tomcat: [没错！徒手格斗基础课必备！]",
-   "  Tomcat: [没错！徒手格斗基础课必 备！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4038",
-   1,
-   "  Tomcat: [也许之前下去的某个特工决定亲自出手解决问题，还穿上这个给自己壮胆！]",
-   "  Tomcat: [也许之前下去的某个特工决 定亲自出手解决问题，还穿上这个给自己壮 胆！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4048",
-   1,
-   "  Tomcat: [看起来像古老的飞斧，不过……]",
-   "  Tomcat: [看起来像古老的飞斧，不 过……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4050",
-   1,
-   "  Tomcat: [斧头扔出去一般不会飞回来，对吧……]",
-   "  Tomcat: [斧头扔出去一般不会飞回 来，对吧……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4055",
-   1,
-   "  Yiffai: [好，我会留意的。伊吠完毕！]",
-   "  Yiffai: [好，我会留意的。伊吠完 毕！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4085",
-   1,
-   "  Yiffai: [那我可以拿它应个急，对吧？]",
-   "  Yiffai: [那我可以拿它应个急，对 吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4117",
-   1,
-   "  Tomcat: [够锋利，必要时能当武器用。]",
-   "  Tomcat: [够锋利，必要时能当武器 用。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4156",
-   1,
-   "  Yiffai: [把这东西脱下来就是这风险……]",
-   "  Yiffai: [把这东西脱下来就是这风 险……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4157",
-   1,
-   "  Tomcat: [再把这套衣服配上宇宙头盔，你就能在任何大气环境里呼吸了！]",
-   "  Tomcat: [再把这套衣服配上宇宙头 盔，你就能在任何大气环境里呼吸了！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4217",
-   1,
-   "  Tomcat: [对，之前的特工留下的线索表明，这颗星球很久以前住着有超能力的生物。]",
-   "  Tomcat: [对，之前的特工留下的线索 表明，这颗星球很久以前住着有超能力的生 物。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4236",
-   1,
-   "  Tomcat: [对，之前的特工留下的线索表明，这颗星球很久以前住着有超能力的生物。]",
-   "  Tomcat: [对，之前的特工留下的线索 表明，这颗星球很久以前住着有超能力的生 物。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4250",
-   1,
-   "  Tomcat: [反重力脚环会用了没，Y特工？]",
-   "  Tomcat: [反重力脚环会用了没，Y特 工？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4253",
-   1,
-   "  Tomcat: [哦？你说她还在学院的时候？]",
-   "  Tomcat: [哦？你说她还在学院的时 候？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4260",
-   1,
-   "  Tomcat: [没、没有，小狗崽。没什么。]",
-   "  Tomcat: [没、没有，小狗崽。没什 么。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4294",
-   1,
-   "  Yiffai: [她说等我第一次正式出任务，就让我拿着。]",
-   "  Yiffai: [她说等我第一次正式出任 务，就让我拿着。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4317",
-   1,
-   "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-   "  Yiffai: [当然！只要没选什么花哨的 能力，我就可以按 UP+ATTACK 射出钩 子，挂在天花板上荡来荡去！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4323",
-   1,
-   "  Yiffai: [只要能牢牢钩住就行，对吧？]",
-   "  Yiffai: [只要能牢牢钩住就行，对 吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4329",
-   1,
-   "  Yiffai: [用它不需要特别操作，对吧？]",
-   "  Yiffai: [用它不需要特别操作，对 吧？]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4337",
-   1,
-   "  Yiffai: [那个月犬店主也是这么说的！]",
-   "  Yiffai: [那个月犬店主也是这么说 的！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4352",
-   1,
-   "  Tomcat: [收到的报告说，在战斗中，特工能按“SELECT”选择能力，然后同时按“UP”+“ATTACK”，就能使出对应的能力。]",
-   "  Tomcat: [收到的报告说，在战斗中， 特工能按“SELECT”选择能力，然后同时按 “UP”+“ATTACK”，就能使出对应的能 力。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4363",
-   1,
-   "  Tomcat: [除了你已经汇报的那些？嗯……]",
-   "  Tomcat: [除了你已经汇报的那些？ 嗯……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4386",
-   1,
-   "  Tomcat: [好吧，小伙伴，只要你没发疯就好，不然我可能又得把精神科医生叫来了。]",
-   "  Tomcat: [好吧，小伙伴，只要你没发 疯就好，不然我可能又得把精神科医生叫来 了。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4438",
-   1,
-   "  Tomcat: [星球上的居民说，它们能增强发现者潜在的灵能，不过我们没法测出真假。]",
-   "  Tomcat: [星球上的居民说，它们能增 强发现者潜在的灵能，不过我们没法测出真 假。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4467",
-   1,
-   "  Tomcat: [对，没错，就像小吱吱说的。]",
-   "  Tomcat: [对，没错，就像小吱吱说 的。]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4468",
-   1,
-   "  Yiffai: [那我就能出门偷东西，悬浮摩托想停哪儿停哪儿，甚至干点真正下流的事……]",
-   "  Yiffai: [那我就能出门偷东西，悬浮 摩托想停哪儿停哪儿，甚至干点真正下流的 事……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4486",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4493",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4500",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4507",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4514",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4521",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4528",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4535",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4542",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4549",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4556",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4567",
-   1,
-   "  Tomcat: [可不是普通卡，那是宇宙卡，小狗！]",
-   "  Tomcat: [可不是普通卡，那是宇宙 卡，小狗！]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4568",
-   1,
-   "  Tomcat: [它们能让你更了解这些生物，]",
-   "  Tomcat: [它们能让你更了解这些生 物，]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4573",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4580",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4587",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4594",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4635",
-   1,
-   "  Mauser: 有时候你能在探索时找到装备。",
-   "  Mauser: 有时候你能在探索时找到装 备。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4663",
-   1,
-   "  Mauser: 我看到那龙的双眼一闪，然后……！",
-   "  Mauser: 我看到那龙的双眼一闪，然 后……！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4669",
-   1,
-   "  Mauser: 哎呀！那可是个难对付的敌人！",
-   "  Mauser: 哎呀！那可是个难对付的敌 人！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4682",
-   1,
-   "  Tomcat: 你不会让这混蛋把你打倒的吧？",
-   "  Tomcat: 你不会让这混蛋把你打倒的 吧？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4717",
-   1,
-   "  Tomcat: 糟了，你的生命值刚掉下去了。",
-   "  Tomcat: 糟了，你的生命值刚掉下去 了。"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4825",
-   1,
-   "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
-   "  * 很简单：把你在外头找到的那些花哨芯 片带给我，我就替你破解门锁！这不是双赢 嘛！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4832",
-   1,
-   "  * 拜拜，特工！再给我多带些那种芯片来！",
-   "  * 拜拜，特工！再给我多带些那种芯片 来！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4897",
-   1,
-   "  * 嘿，等一下……你不就是想白拿石头吗？！",
-   "  * 嘿，等一下……你不就是想白拿石头 吗？！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4934",
-   1,
-   "  Anon/Fox: 你能让你的主人过来帮我吗？",
-   "  Anon/Fox: 你能让你的主人过来帮我 吗？"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:4940",
-   1,
-   "  Anon/Fox: 嘿，帮这个占位角色一把吧！",
-   "  Anon/Fox: 嘿，帮这个占位角色一把 吧！"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:5036",
-   1,
-   "  * 能见到另一位宇宙育种者，我太高兴了，哪怕我只是个占位角色！",
-   "  * 能见到另一位宇宙育种者，我太高兴 了，哪怕我只是个占位角色！"
+   "  Tomcat: [至于矮人为什么会有这东西，我也不太清 楚……]"
   ],
   [
    "P22:cosmobreeder-multi.jar:datadm/1:5105",
    1,
    "  * [你、你是只好狗狗，对吧？不会咬我，或者……什么的……]",
-   "  * [你、你是只好狗狗，对吧？不会咬 我，或者……什么的……]"
-  ],
-  [
-   "P22:cosmobreeder-multi.jar:datadm/1:5138",
-   1,
-   "  * [要是你没出现，我真不知道该怎么办！]",
-   "  * [要是你没出现，我真不知道该怎么 办！]"
+   "  * [你、你是只好狗狗，对吧？不会咬我，或 者……什么的……]"
   ]
  ],
  "SC22-nsfw-datadf_1": [
   [
-   "P22:patch.pak:datadf/1:71",
-   1,
-   "  * 不知道这是什么，某种破旧的太空制服？",
-   "  * 不知道这是什么，某种破旧的太空制 服？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:245",
-   1,
-   "  * 哦！见到你真是太高兴了，伊、伊吠妮！",
-   "  * 哦！见到你真是太高兴了，伊、伊吠 妮！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:414",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:417",
-   1,
-   "  * 这是我的独家配方！这个星球上最美味、最冰凉的饮料！",
-   "  * 这是我的独家配方！这个星球上最美 味、最冰凉的饮料！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:420",
-   1,
-   "  * 这玩意儿能解渴，还能恢复一些精神力，不过说实话……",
-   "  * 这玩意儿能解渴，还能恢复一些精神 力，不过说实话……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:488",
-   1,
-   "  * 当然，还得有一艘飞船和一群亡命之徒！",
-   "  * 当然，还得有一艘飞船和一群亡命之 徒！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:492",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:493",
-   1,
-   "  * 事实上，它烫得几乎没法上手……哎哟！",
-   "  * 事实上，它烫得几乎没法上手……哎 哟！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:589",
-   1,
-   "  * 你、你们特工是怎么受得了这种折磨的？我只是个侦察兵啊！",
-   "  * 你、你们特工是怎么受得了这种折磨 的？我只是个侦察兵啊！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:601",
-   1,
-   "  * 看到那种壮实的矮人，就叫他们来找我！",
-   "  * 看到那种壮实的矮人，就叫他们来找 我！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:677",
-   1,
-   "  * 看样子总部让你催我回去干活了，是吧？",
-   "  * 看样子总部让你催我回去干活了，是 吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:678",
-   1,
-   "  * 好——啦，我会把报告交上去什么的啦……",
-   "  * 好——啦，我会把报告交上去什么的 啦……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:732",
-   1,
-   "  * 哎呀，这玩意儿配道服正合适，不是吗？",
-   "  * 哎呀，这玩意儿配道服正合适，不是 吗？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:815",
-   1,
-   "  * 你怎么不干脆把能拿到的东西全拿走啊？嗯？",
-   "  * 你怎么不干脆把能拿到的东西全拿走 啊？嗯？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:867",
-   1,
-   "    * 之前还来过一个跟你一样的太空伙计，嘴里嘀咕着说把武器落在这儿正北边了！",
-   "    * 之前还来过一个跟你一样的太空伙 计，嘴里嘀咕着说把武器落在这儿正北边了！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:869",
-   1,
-   "    * 那家伙一直念叨着“下、中、中、上……”，谁知道是什么意思！",
-   "    * 那家伙一直念叨着“下、中、中、 上……”，谁知道是什么意思！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:915",
-   1,
-   "  * 哦，你好呀！我好几周没见别的特工了！",
-   "  * 哦，你好呀！我好几周没见别的特工 了！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:936",
-   1,
-   "  * 好主意！那我就继续干这份野外工作啦！",
-   "  * 好主意！那我就继续干这份野外工作 啦！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:939",
-   1,
-   "  * 啊，救、救我？既然你*非得*这样的话，那好吧。",
-   "  * 啊，救、救我？既然你*非得*这样的 话，那好吧。"
-  ],
-  [
    "P22:patch.pak:datadf/1:954",
    1,
    "  * 哦……哦哦！看见你真是让我眼前一亮！哈啊！",
-   "  * 哦……哦哦！看见你真是让我眼前一 亮！哈啊！"
+   "  * 哦……哦哦！看见你真是让我眼前一亮！哈 啊！"
   ],
   [
-   "P22:patch.pak:datadf/1:960",
+   "P22:patch.pak:datadf/1:1196",
    1,
-   "  * 快、快点，你*必须*把我从这里弄出去！",
-   "  * 快、快点，你*必须*把我从这里弄出 去！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:983",
-   1,
-   "  * 机、机器人上有个小锁孔……这是唯一……唔嗯……",
-   "  * 机、机器人上有个小锁孔……这是唯 一……唔嗯……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:987",
-   1,
-   "  * 哈——啊……啊啊……呼……谢、谢谢……",
-   "  * 哈——啊……啊啊……呼……谢、谢 谢……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:997",
-   1,
-   "  * 我早就超过……啊嗯……极限了！求你，救救我！",
-   "  * 我早就超过……啊嗯……极限了！求 你，救救我！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1017",
-   1,
-   "    * 记住，概不退款！还要什么？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要什么？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1030",
-   1,
-   "  * 这儿不是给你白看的，混蛋！掏LECT，不然滚！",
-   "  * 这儿不是给你白看的，混蛋！掏LEC T，不然滚！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1186",
-   1,
-   "  * ……其实我什么都看不见！这里太黑了！",
-   "  * ……其实我什么都看不见！这里太黑 了！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1203",
-   1,
-   "  * ……当然，那些裙子我可一点都不了解！",
-   "  * ……当然，那些裙子我可一点都不了 解！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1206",
-   1,
-   "  * 这颗小药丸能让你精神抖擞、毛发浓密、腰板挺直……",
-   "  * 这颗小药丸能让你精神抖擞、毛发浓 密、腰板挺直……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1218",
-   1,
-   "    * ……总觉得好像有什么大事要发生了！",
-   "    * ……总觉得好像有什么大事要发生 了！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1223",
-   1,
-   "    * 话说回来，你以前穿过精灵连衣裙吗？你看着就像会穿的！",
-   "    * 话说回来，你以前穿过精灵连衣裙 吗？你看着就像会穿的！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1301",
-   1,
-   "  * ……可我们都有更要紧的事要做，对吧？",
-   "  * ……可我们都有更要紧的事要做，对 吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1310",
-   1,
-   "  * 我猜我得回机库去，开始写我的报告了……",
-   "  * 我猜我得回机库去，开始写我的报告 了……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1345",
-   1,
-   "  * 这些爱乱抓的图托恩触手最棒了！诶嘿！",
-   "  * 这些爱乱抓的图托恩触手最棒了！诶 嘿！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1411",
-   1,
-   "    * 记住，概不退款！还要什么？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要什么？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1421",
-   1,
-   "    * 你就拿着你的破烂玩去吧，别来烦我，行吗？！",
-   "    * 你就拿着你的破烂玩去吧，别来烦 我，行吗？！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1427",
-   1,
-   "  * 这儿不是给你白看的，混蛋！掏LECT，不然滚！",
-   "  * 这儿不是给你白看的，混蛋！掏LEC T，不然滚！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1435",
-   1,
-   "  * 我这儿的吃食是七片沼泽这一带最好的，你却想要那种垃圾？",
-   "  * 我这儿的吃食是七片沼泽这一带最好 的，你却想要那种垃圾？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1460",
-   1,
-   "    * 老实说：这些精神力的东西让我发毛。",
-   "    * 老实说：这些精神力的东西让我发 毛。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1464",
-   1,
-   "    * 随便一根棍子、一截绳子就够我用了……直接动手，懂吧？",
-   "    * 随便一根棍子、一截绳子就够我用 了……直接动手，懂吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1483",
-   1,
-   "    * 不穿宇宙服就往外跑，你胆子可真大！",
-   "    * 不穿宇宙服就往外跑，你胆子可真 大！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1626",
-   1,
-   "  * 听说超能力者得到一颗，就能提升灵能容量，可我只是条普通的狗，这东西对我没用。送你吧！",
-   "  * 听说超能力者得到一颗，就能提升灵能 容量，可我只是条普通的狗，这东西对我没 用。送你吧！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1631",
-   1,
-   "  * 我忙着跑遍各家店，确保 lect 流转，不过偶尔我也得靠这个提提神！",
-   "  * 我忙着跑遍各家店，确保 lect 流 转，不过偶尔我也得靠这个提提神！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1653",
-   1,
-   "  * ……抱歉，刚才笑得有点吓人。习惯了。",
-   "  * ……抱歉，刚才笑得有点吓人。习惯 了。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1716",
-   1,
-   "    * 把任意一只宠物的亲密度提升到最高，再回来领特别奖励。",
-   "    * 把任意一只宠物的亲密度提升到最 高，再回来领特别奖励。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1762",
-   1,
-   "  * ……不，不是那种店！这是汽车修理店！",
-   "  * ……不，不是那种店！这是汽车修理 店！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1771",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1772",
-   1,
-   "      * 仓库B的南部有一门不错的飞船炮！",
-   "      * 仓库B的南部有一门不错的飞船 炮！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1777",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1782",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1788",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1805",
-   1,
-   "    * ……我已经在你的导航地图上标好了！去看看吧！",
-   "    * ……我已经在你的导航地图上标好 了！去看看吧！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1864",
-   1,
-   "  * ……不过嘿！这次我可是很拼的，对吧？",
-   "  * ……不过嘿！这次我可是很拼的，对 吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1886",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1931",
-   1,
-   "  * 相当厉害吧……你猜怎么着？这块岩石里埋着的什么东西似乎也在猛耗电力……不过，我还未能确定它的位置。",
-   "  * 相当厉害吧……你猜怎么着？这块岩石 里埋着的什么东西似乎也在猛耗电力……不 过，我还未能确定它的位置。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1959",
-   1,
-   "  Yiffany: [就几个偷了我装备的小矮子。]",
-   "  Yiffany: [就几个偷了我装备的小矮 子。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1968",
-   1,
-   "  Tomcat: [嘿，丫头！雄猫来看看你啦！]",
-   "  Tomcat: [嘿，丫头！雄猫来看看你 啦！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1976",
-   1,
-   "  Yiffany: [那就是说，我捡到新装备时，你能给我相关信息，对吧？]",
-   "  Yiffany: [那就是说，我捡到新装备 时，你能给我相关信息，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:1995",
-   1,
-   "  Mauser: [你记得怎么使用那些东西吗？]",
-   "  Mauser: [你记得怎么使用那些东西 吗？]"
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很乐意卖给你，但我每次一动，好像都会踩到什——嗷呜！",
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很 乐意卖给你，但我每次一动，好像都会踩到 什——嗷呜！"
   ],
   [
    "P22:patch.pak:datadf/1:1996",
    1,
    "  Yiffany: [那些东西能先保存我的数据，以防万一出事，对吧？]",
-   "  Yiffany: [那些东西能先保存我的数 据，以防万一出事，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2053",
-   1,
-   "  Mauser: [伊吠妮，你遇到传送门了吗？]",
-   "  Mauser: [伊吠妮，你遇到传送门了 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2055",
-   1,
-   "  Yiffany: [我走之后我的飞船怎么样了？]",
-   "  Yiffany: [我走之后我的飞船怎么样 了？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2056",
-   1,
-   "  Tomcat: [我们用卫星 R18 把它设成了跟随模式，所以你应该能传送进你的飞船了，亲爱的。]",
-   "  Tomcat: [我们用卫星 R18 把它设成 了跟随模式，所以你应该能传送进你的飞船 了，亲爱的。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2063",
-   1,
-   "  Tomcat: [不准开着枪冲去找那帮混蛋，丫头。] ",
-   "  Tomcat: [不准开着枪冲去找那帮混 蛋，丫头。] "
-  ],
-  [
-   "P22:patch.pak:datadf/1:2070",
-   1,
-   "  Mauser: [你该去那边看看有没有人在！]",
-   "  Mauser: [你该去那边看看有没有人 在！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2092",
-   2,
-   "  Tomcat: [太好了！打开你的 P.A.W.，进到宇宙卡菜单，你应该就能把卡片翻过来，这样就能提前知道你会怎么被干-]",
-   "  Tomcat: [太好了！打开你的 P.A.W .，进到宇宙卡菜单，你应该就能把卡片翻过 来，这样就能提前知道你会怎么被干-]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2098",
-   2,
-   "  Yiffany: [那还用说，小吱吱。你知道，雄猫也超喜欢宇宙卡。你们俩何不聊聊这个？]",
-   "  Yiffany: [那还用说，小吱吱。你知 道，雄猫也超喜欢宇宙卡。你们俩何不聊聊这 个？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2113",
-   1,
-   "  Yiffany: [什么！？ 真的？ 他在哪？]",
-   "  Yiffany: [什么！？ 真的？ 他在 哪？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2122",
-   1,
-   "  Bossu: [雄猫说得对，伊吠妮。但既然你现在知道你弟弟在哪，我想你知道该怎么做。]",
-   "  Bossu: [雄猫说得对，伊吠妮。但既然 你现在知道你弟弟在哪，我想你知道该怎么 做。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2125",
-   1,
-   "  Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]",
-   "  Mauser: [哦！而且导航地图坐标已经 发出，所以你应该能轻松到达那里。祝你好 运！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2131",
-   1,
-   "  Yiffany: [该死，弟弟，给我清醒过来！]",
-   "  Yiffany: [该死，弟弟，给我清醒过 来！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2151",
-   1,
-   "  Yiffany: [我在这个奇怪的黑暗区域里，对吧？]",
-   "  Yiffany: [我在这个奇怪的黑暗区域 里，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2152",
-   1,
-   "  Yiffany: [而我四周看到的全是显示器……]",
-   "  Yiffany: [而我四周看到的全是显示 器……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2153",
-   1,
-   "  Mauser: [……显示器？显示的是什么？]",
-   "  Mauser: [……显示器？显示的是什 么？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2162",
-   1,
-   "  Tomcat: [呃，好吧，行！行吧小姑娘！]",
-   "  Tomcat: [呃，好吧，行！行吧小姑 娘！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2170",
-   1,
-   "  Yiffany: [是啊，这地方真是快散架了。]",
-   "  Yiffany: [是啊，这地方真是快散架 了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2173",
-   1,
-   "  Yiffany: [嘿，别担心，我可是专业的，对吧？]",
-   "  Yiffany: [嘿，别担心，我可是专业 的，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2200",
-   1,
-   "    Mauser: [你可算出现了！你还好吗，伊吠妮？]",
-   "    Mauser: [你可算出现了！你还好 吗，伊吠妮？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2212",
-   1,
-   "    Tomcat: [你还记得那东西怎么用吗？]",
-   "    Tomcat: [你还记得那东西怎么用 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2225",
-   1,
-   "    Tomcat: [连只小狗都会了，真是的！]",
-   "    Tomcat: [连只小狗都会了，真是 的！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2237",
-   1,
-   "  Yiffany: [大概是没有鞋子性癖的那种？]",
-   "  Yiffany: [大概是没有鞋子性癖的那 种？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2242",
-   1,
-   "  Tomcat: [对，下次跳起来的时候试试。]",
-   "  Tomcat: [对，下次跳起来的时候试 试。]"
+   "  Yiffany: [那些东西能先保存我的数据，以防万一出 事，对吧？]"
   ],
   [
    "P22:patch.pak:datadf/1:2260",
    1,
    "  Yiffany: [不-不是，没那种事。只是……听起来像是……]",
-   "  Yiffany: [不-不是，没那种事。只 是……听起来像是……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2264",
-   1,
-   "  Yiffany: [不管那都是什么意思……呃……]",
-   "  Yiffany: [不管那都是什么意思…… 呃……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2267",
-   1,
-   "  Yiffany: [我会没事的，继续执行任务。]",
-   "  Yiffany: [我会没事的，继续执行任 务。]"
+   "  Yiffany: [不-不是，没那种事。只是……听起来像 是……]"
   ],
   [
    "P22:patch.pak:datadf/1:2273",
    1,
    "  Starkill: [……咔咔滋……做好准备……特工……滋咔……]",
-   "  Starkill: [……咔咔滋……做好准 备……特工……滋咔……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2282",
-   1,
-   "  Yiffany: [啊，是个仓库里的仓霸来着？]",
-   "  Yiffany: [啊，是个仓库里的仓霸来 着？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2302",
-   1,
-   "  Mauser: [嗯，只要你大体上没事就行，伊吠妮。]",
-   "  Mauser: [嗯，只要你大体上没事就 行，伊吠妮。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2323",
-   1,
-   "  Yiffany: [几乎就像能听懂我在说什么！]",
-   "  Yiffany: [几乎就像能听懂我在说什 么！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2335",
-   1,
-   "  Yiffany: [哎、哎哟……毛鼠，请回话。]",
-   "  Yiffany: [哎、哎哟……毛鼠，请回 话。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2338",
-   1,
-   "  Yiffany: [我只是想分析一下最后那只生物的数据，这样我就能看出它是怎么让我变——成那样的。]",
-   "  Yiffany: [我只是想分析一下最后那只 生物的数据，这样我就能看出它是怎么让我 变——成那样的。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2344",
-   1,
-   "  Mauser: [我们这边什么数据都没收到。]",
-   "  Mauser: [我们这边什么数据都没收 到。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2359",
-   1,
-   "  Yiffany: [……你能就此打住吗，拜托？]",
-   "  Yiffany: [……你能就此打住吗，拜 托？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2365",
-   2,
-   "  Yiffany: [指挥部，这里是特工伊吠妮。我又遇到了另一座传送门。我获准出击了吗？]",
-   "  Yiffany: [指挥部，这里是特工伊吠 妮。我又遇到了另一座传送门。我获准出击了 吗？]"
+   "  Starkill: [……咔咔滋……做好准备……特工……滋 咔……]"
   ],
   [
    "P22:patch.pak:datadf/1:2369",
    1,
    "  Bossu: [另外，你已目视确认这座传送门的地面坐标，往后应该就能随时回到这里了。]",
-   "  Bossu: [另外，你已目视确认这座传送 门的地面坐标，往后应该就能随时回到这里 了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2393",
-   1,
-   "  Mauser: [什、什么？可我的研究写着……]",
-   "  Mauser: [什、什么？可我的研究写 着……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2398",
-   1,
-   "  Bossu: [斯凯菲亚里那棵看上去像巨树的物体，其实是来自很久很久以前的旧星际港。]",
-   "  Bossu: [斯凯菲亚里那棵看上去像巨树 的物体，其实是来自很久很久以前的旧星际 港。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2408",
-   1,
-   "  Mauser: [特工伊吠妮·伊吠，请回话。]",
-   "  Mauser: [特工伊吠妮·伊吠，请回 话。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2438",
-   1,
-   "  Yiffany: [别管我，我们有更要紧的事，比如我弟弟他到底怎么了？]",
-   "  Yiffany: [别管我，我们有更要紧的 事，比如我弟弟他到底怎么了？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2448",
-   1,
-   "  Tomcat: [没有人比你更了解你的手足。]",
-   "  Tomcat: [没有人比你更了解你的手 足。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2456",
-   1,
-   "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-   "  Yiffany: [当然！只要我没选中什么花 哨能力，就可以按 UP+ATTACK 射出钩 子，然后在天花板上荡过去！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2473",
-   1,
-   "  Yiffany: [是、是啊，我想我会这么做……]",
-   "  Yiffany: [是、是啊，我想我会这么 做……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2483",
-   1,
-   "  Mauser: [我、我、我不是说你不该穿！裙子穿在你身上会很——]",
-   "  Mauser: [我、我、我不是说你不该 穿！裙子穿在你身上会很——]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2494",
-   1,
-   "  Mauser: [透、透、透、透、透、透气！！？]",
-   "  Mauser: [透、透、透、透、透、透 气！！？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2536",
-   1,
-   "  Bossu: [那会很困难，但只要小心一点，你应该能毫发无伤地出来。]",
-   "  Bossu: [那会很困难，但只要小心一 点，你应该能毫发无伤地出来。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2542",
-   1,
-   "  Bossu: [你现在待的地方空气更稀薄了。]",
-   "  Bossu: [你现在待的地方空气更稀薄 了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2555",
-   1,
-   "  Mauser: [什、什么？你这话什么意思……？]",
-   "  Mauser: [什、什么？你这话什么意 思……？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2556",
-   1,
-   "  Yiffany: [看起来我在某个金库里面，但根本没有锁，只有一些画着奇怪符号的屏幕……]",
-   "  Yiffany: [看起来我在某个金库里面， 但根本没有锁，只有一些画着奇怪符号的屏 幕……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2567",
-   1,
-   "  Yiffany: [我会继续设法破解这套密码。伊吠妮通话完毕。]",
-   "  Yiffany: [我会继续设法破解这套密 码。伊吠妮通话完毕。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2577",
-   1,
-   "  Bossu: [我们给你飞船的自动驾驶做好了设定：你不亲自驾驶的时候，它会返回这里。]",
-   "  Bossu: [我们给你飞船的自动驾驶做好 了设定：你不亲自驾驶的时候，它会返回这 里。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2591",
-   1,
-   "  Tomcat: [哦，嘿！准备好亲热一番了？就跟本地那些操——]",
-   "  Tomcat: [哦，嘿！准备好亲热一番 了？就跟本地那些操——]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2597",
-   1,
-   "  Tomcat: [姑娘，你知道吧，你念手册上那套废话的时候，我看得到你心率在往上飙，对吧？]",
-   "  Tomcat: [姑娘，你知道吧，你念手册 上那套废话的时候，我看得到你心率在往上 飙，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2615",
-   1,
-   "  Yiffany: [哦，是吗？你是怎么进来的，小家伙？]",
-   "  Yiffany: [哦，是吗？你是怎么进来 的，小家伙？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2616",
-   1,
-   "  The0: [话说，你们明明在重复使用密码表片段，还真能把它叫成「一次性密码本」吗……]",
-   "  The0: [话说，你们明明在重复使用密码 表片段，还真能把它叫成「一次性密码本」 吗……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2631",
-   1,
-   "  Yiffany: [不！完全不是那样！他送了……]",
-   "  Yiffany: [不！完全不是那样！他送 了……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2710",
-   1,
-   "  Bossu: [……我还以为只有雄猫好这口……]",
-   "  Bossu: [……我还以为只有雄猫好这 口……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2734",
-   1,
-   "  Mauser: [是啊，你和本地动物越亲近，我们收到的数据就越有用！]",
-   "  Mauser: [是啊，你和本地动物越亲 近，我们收到的数据就越有用！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2736",
-   1,
-   "  Yiffany: [别担心，伙计们，这套我熟。]",
-   "  Yiffany: [别担心，伙计们，这套我 熟。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2757",
-   1,
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]",
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉 色。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2777",
-   1,
-   "  Yiffany: [长官，我已经解决掉一台了！]",
-   "  Yiffany: [长官，我已经解决掉一台 了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2785",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
+   "  Bossu: [另外，你已目视确认这座传送门的地面坐 标，往后应该就能随时回到这里了。]"
   ],
   [
    "P22:patch.pak:datadf/1:2788",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的工作。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2796",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:patch.pak:datadf/1:2799",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的活儿。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的活儿。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2807",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的活儿。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:patch.pak:datadf/1:2810",
    1,
    "  Bossu: [其实并没有人真的接下更换那些老旧自卫武器的工作。它们几乎从来不会坏，你也看到了！]",
-   "  Bossu: [其实并没有人真的接下更换那 些老旧自卫武器的工作。它们几乎从来不会 坏，你也看到了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2855",
-   1,
-   "  Bossu: [它是一种会从废墟中现身的奇异异常体，而且看来对大多数物理攻击都免疫。]",
-   "  Bossu: [它是一种会从废墟中现身的奇 异异常体，而且看来对大多数物理攻击都免 疫。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2860",
-   1,
-   "  Bossu: [我们当时觉得这些报告不可靠，没有采信，但是……]",
-   "  Bossu: [我们当时觉得这些报告不可 靠，没有采信，但是……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2865",
-   1,
-   "  Bossu: [啊，那似乎是阻挡者的缩小版。]",
-   "  Bossu: [啊，那似乎是阻挡者的缩小 版。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2866",
-   1,
-   "  Bossu: [它应该也一样对物理伤害免疫。]",
-   "  Bossu: [它应该也一样对物理伤害免 疫。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2934",
-   1,
-   "  Bossu: [跟它们打交道小心点，伊吠妮。]",
-   "  Bossu: [跟它们打交道小心点，伊吠 妮。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2945",
-   1,
-   "  Bossu: [哦。不过这跟眼下的事没什么——]",
-   "  Bossu: [哦。不过这跟眼下的事没什 么——]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:2958",
-   1,
-   "  Bossu: [哦。不过这跟眼下的事没什么——]",
-   "  Bossu: [哦。不过这跟眼下的事没什 么——]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3009",
-   1,
-   "  Yiffany: [那我猜我就只能开一个口子，然后跑掉！]",
-   "  Yiffany: [那我猜我就只能开一个口 子，然后跑掉！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3045",
-   1,
-   "  Yiffany: [得了吧！你真要开这种玩笑？]",
-   "  Yiffany: [得了吧！你真要开这种玩 笑？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3072",
-   2,
-   "  Bossu: [如果这颗星球上还有有血有肉、长着皮毛的芬芬，目前也还没有特工遇到过。]",
-   "  Bossu: [如果这颗星球上还有有血有 肉、长着皮毛的芬芬，目前也还没有特工遇到 过。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3082",
-   1,
-   "  Yiffany: [纳——米——机……什么鸡？]",
-   "  Yiffany: [纳——米——机……什么 鸡？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3116",
-   1,
-   "  Bossu: [一颗滚来滚去的反重力触手球，乍看可能会让你爽上一回……]",
-   "  Bossu: [一颗滚来滚去的反重力触手 球，乍看可能会让你爽上一回……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3118",
-   1,
-   "  Bossu: [可这「光球」只会让你有点疼。]",
-   "  Bossu: [可这「光球」只会让你有点 疼。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3126",
-   1,
-   "  Yiffany: [我说啊，波苏，我不是人鱼，对吧？]",
-   "  Yiffany: [我说啊，波苏，我不是人 鱼，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3138",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非全都长生不死。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，却并非全都长生不死。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3157",
-   1,
-   "  Bossu: [有报道称，吸足灵能的「跳跃者」会变成「牛蛙」，能从远处朝目标喷泡泡，也能用长舌头伤人。]",
-   "  Bossu: [有报道称，吸足灵能的「跳跃 者」会变成「牛蛙」，能从远处朝目标喷泡 泡，也能用长舌头伤人。]"
+   "  Bossu: [其实并没有人真的接下更换那些老旧自卫武 器的工作。它们几乎从来不会坏，你也看到 了！]"
   ],
   [
    "P22:patch.pak:datadf/1:3173",
    1,
    "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffany: [波苏，是这些加农炮变强 了，还是我变弱了？]"
+   "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:patch.pak:datadf/1:3180",
    1,
    "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffany: [波苏，是这些加农炮变强 了，还是我变弱了？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3194",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，却并非个个都能长生不死。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，却并非个个都能长生不死。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3275",
-   1,
-   "  Bossu: [没错。这种动物最好别去研究。]",
-   "  Bossu: [没错。这种动物最好别去研 究。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3279",
-   1,
-   "  Bossu: [它好像不知怎么黏在地形上了，而且只朝一个方向循环移动？]",
-   "  Bossu: [它好像不知怎么黏在地形上 了，而且只朝一个方向循环移动？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3285",
-   1,
-   "  Bossu: [那些从地里冒出来的幽灵头颅……]",
-   "  Bossu: [那些从地里冒出来的幽灵头 颅……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3377",
-   1,
-   "  Mauser: [找个信号好点的地方再呼我！]",
-   "  Mauser: [找个信号好点的地方再呼 我！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3381",
-   1,
-   "  Mauser: [不过目前没有什么可报告的。]",
-   "  Mauser: [不过目前没有什么可报告 的。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3389",
-   1,
-   "  Mauser: [你得找回你的装备，伊吠妮！]",
-   "  Mauser: [你得找回你的装备，伊吠 妮！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3434",
-   1,
-   "      Mauser: [你把宇宙服重新拼好了！]",
-   "      Mauser: [你把宇宙服重新拼好 了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3456",
-   1,
-   "      Yiffany: [那我就扩大搜索范围。完毕。]",
-   "      Yiffany: [那我就扩大搜索范 围。完毕。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3492",
-   1,
-   "        Yiffany: [见过那头公牛之后，我不知道该去哪找了……]",
-   "        Yiffany: [见过那头公牛之 后，我不知道该去哪找了……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3508",
-   1,
-   "      Mauser: [我标好了去地表的路线，是矿井最西北的一条出入竖井。]",
-   "      Mauser: [我标好了去地表的路 线，是矿井最西北的一条出入竖井。]"
+   "  Yiffany: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:patch.pak:datadf/1:3549",
    1,
    "      Mauser: [真要是有办法挖开泥土，也许就能往西走了！]",
-   "      Mauser: [真要是有办法挖开泥 土，也许就能往西走了！]"
+   "      Mauser: [真要是有办法挖开泥土，也许就能往西走 了！]"
   ],
   [
    "P22:patch.pak:datadf/1:3595",
    1,
    "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……结果它转眼就弄丢了。]",
-   "        Mauser: [我们这儿有条备忘 录，说有个特工把一支手电筒卖给了一只小 狗……结果它转眼就弄丢了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3603",
-   1,
-   "        Mauser: [这个扇区越往上走，出现的精灵就越多！]",
-   "        Mauser: [这个扇区越往上 走，出现的精灵就越多！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3605",
-   1,
-   "        Mauser: [去搞清楚那是什么！]",
-   "        Mauser: [去搞清楚那是什 么！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3632",
-   1,
-   "  Mauser: [你该试着找条路进那些洞窟。]",
-   "  Mauser: [你该试着找条路进那些洞 窟。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3647",
-   1,
-   "    Mauser: [进去之前，务必做好准备。]",
-   "    Mauser: [进去之前，务必做好准 备。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3650",
-   1,
-   "  Mauser: [看起来你在机库里，伊吠妮。]",
-   "  Mauser: [看起来你在机库里，伊吠 妮。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3728",
-   1,
-   "  Tomcat: [捡到东西就打给我。回头见！]",
-   "  Tomcat: [捡到东西就打给我。回头 见！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3731",
-   1,
-   "  Tomcat: [什么情况？这是在开玩笑吗？]",
-   "  Tomcat: [什么情况？这是在开玩笑 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3743",
-   1,
-   "  Tomcat: [不是吧——姑娘，你来真的？]",
-   "  Tomcat: [不是吧——姑娘，你来真 的？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3764",
-   1,
-   "  Tomcat: [不是吧——姑娘，你来真的？]",
-   "  Tomcat: [不是吧——姑娘，你来真 的？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3822",
-   1,
-   "  Tomcat: [至少它能恢复活力！请慢用！]",
-   "  Tomcat: [至少它能恢复活力！请慢 用！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3846",
-   1,
-   "  Yiffany: [哎呀，看这可爱的小果汁盒！]",
-   "  Yiffany: [哎呀，看这可爱的小果汁 盒！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3853",
-   1,
-   "  Yiffany: [当然！只可惜我忙着操同学，没怎么去成店里，哈哈！]",
-   "  Yiffany: [当然！只可惜我忙着操同 学，没怎么去成店里，哈哈！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3875",
-   1,
-   "  Tomcat: [至少先认真一会儿，听我说，那些坚果能增强你的防御能力。]",
-   "  Tomcat: [至少先认真一会儿，听我 说，那些坚果能增强你的防御能力。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3877",
-   1,
-   "  Yiffany: [哈哈！没抢先讲出这个笑话，不爽了吧。]",
-   "  Yiffany: [哈哈！没抢先讲出这个笑 话，不爽了吧。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3898",
-   1,
-   "  Tomcat: [就这么往嘴里塞，真不害臊。]",
-   "  Tomcat: [就这么往嘴里塞，真不害 臊。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3917",
-   1,
-   "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，肯定能卖出最高的LECT价！]",
-   "  Tomcat: [吃这种随机掉落的奶酪也许 有点奇怪，但信我，哪个店要是有卖这玩意 儿，肯定能卖出最高的LECT价！]"
+   "        Mauser: [我们这儿有条备忘录，说有个特工把一支手 电筒卖给了一只小狗……结果它转眼就弄丢 了。]"
   ],
   [
    "P22:patch.pak:datadf/1:3943",
    1,
    "  Tomcat: [至于矮人为什么会有这东西，我也不太清楚……]",
-   "  Tomcat: [至于矮人为什么会有这东 西，我也不太清楚……]"
+   "  Tomcat: [至于矮人为什么会有这东西，我也不太清 楚……]"
   ],
   [
-   "P22:patch.pak:datadf/1:3995",
+   "P22:patch.pak:datadf/1:4228",
    1,
-   "  Mauser: [我以前在奶牛场工作，那绝——不是奶。]",
-   "  Mauser: [我以前在奶牛场工作，那 绝——不是奶。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3996",
-   1,
-   "  Yiffany: [有点晃。也许正在变成奶酪？]",
-   "  Yiffany: [有点晃。也许正在变成奶 酪？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3997",
-   1,
-   "  Tomcat: [反正看起来不是直接的毒药，所以也许对你真有好处！]",
-   "  Tomcat: [反正看起来不是直接的毒 药，所以也许对你真有好处！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:3999",
-   1,
-   "  Yiffany: [哦，这个你会喜欢的，雄猫！]",
-   "  Yiffany: [哦，这个你会喜欢的，雄 猫！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4001",
-   1,
-   "  Yiffany: [对，闻起来像鱼！你喜欢鱼！]",
-   "  Yiffany: [对，闻起来像鱼！你喜欢 鱼！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4031",
-   1,
-   "  Yiffany: [正好练习把你这醉鬼扔出去。]",
-   "  Yiffany: [正好练习把你这醉鬼扔出 去。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4038",
-   1,
-   "  Yiffany: [快告诉我，他们不是认真的！居然说我不——]",
-   "  Yiffany: [快告诉我，他们不是认真 的！居然说我不——]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4040",
-   1,
-   "  Tomcat: [报告你看过，你知道为什么！]",
-   "  Tomcat: [报告你看过，你知道为什 么！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4056",
-   1,
-   "  Tomcat: [好了别对着我翻白眼！再见！]",
-   "  Tomcat: [好了别对着我翻白眼！再 见！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4061",
-   1,
-   "  Yiffany: [是啊，真想赶紧知道是谁的，哈哈！]",
-   "  Yiffany: [是啊，真想赶紧知道是谁 的，哈哈！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4094",
-   1,
-   "  Tomcat: [哦，不算差，我自己对亮红色不太拿得准，而且上面连可爱的铃铛都没有……]",
-   "  Tomcat: [哦，不算差，我自己对亮红 色不太拿得准，而且上面连可爱的铃铛都没 有……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4097",
-   1,
-   "  Tomcat: [好好好，那它就挺——酷的。]",
-   "  Tomcat: [好好好，那它就挺——酷 的。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4104",
-   1,
-   "  Tomcat: [你捡到的是战斗级光电击枪！]",
-   "  Tomcat: [你捡到的是战斗级光电击 枪！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4129",
-   1,
-   "  Tomcat: [就算它又让你觉得自己很猛！]",
-   "  Tomcat: [就算它又让你觉得自己很 猛！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4139",
-   1,
-   "  Tomcat: [斧头扔出去一般不会飞回来，对吧……]",
-   "  Tomcat: [斧头扔出去一般不会飞回 来，对吧……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4147",
-   1,
-   "  Yiffany: [能查查我弄到的这个头饰吗？]",
-   "  Yiffany: [能查查我弄到的这个头饰 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4168",
-   1,
-   "  Yiffany: [快看这把海盗电击枪，雄猫！]",
-   "  Yiffany: [快看这把海盗电击枪，雄 猫！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4171",
-   1,
-   "  Yiffany: [光是握着它，我就能想象它原主：高大强壮的海盗，清楚要什么也肯去夺，必要时还来粗的……呵……]",
-   "  Yiffany: [光是握着它，我就能想象它 原主：高大强壮的海盗，清楚要什么也肯去 夺，必要时还来粗的……呵……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4177",
-   1,
-   "  Tomcat: [嘿！姑娘，心思放在任务上！]",
-   "  Tomcat: [嘿！姑娘，心思放在任务 上！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4199",
-   1,
-   "  Yiffany: [了解自己的装备有什么不对！]",
-   "  Yiffany: [了解自己的装备有什么不 对！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4209",
-   1,
-   "  Tomcat: [是啦是啦，我以前穿过兽装。怎么了？！]",
-   "  Tomcat: [是啦是啦，我以前穿过兽 装。怎么了？！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4214",
-   1,
-   "  Tomcat: [锋利得必要时完全能当武器。]",
-   "  Tomcat: [锋利得必要时完全能当武 器。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4230",
-   1,
-   "  Tomcat: [你非得在上班时间提这个吗？]",
-   "  Tomcat: [你非得在上班时间提这个 吗？]"
+   "  Yiffany: [看！是那种鳞片套装的衣身！跟学院那会儿，你参加的那个性社团用的一样！]",
+   "  Yiffany: [看！是那种鳞片套装的衣身！跟学院那会 儿，你参加的那个性社团用的一样！]"
   ],
   [
    "P22:patch.pak:datadf/1:4232",
    1,
    "  Tomcat: [也——许我穿着一套胡闹过，当然，随便吧。]",
-   "  Tomcat: [也——许我穿着一套胡闹 过，当然，随便吧。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4256",
-   1,
-   "  Tomcat: [哇，指挥部肯定想研究一下！]",
-   "  Tomcat: [哇，指挥部肯定想研究一 下！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4263",
-   1,
-   "  Yiffany: [把这东西脱下来就是这风险……]",
-   "  Yiffany: [把这东西脱下来就是这风 险……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4299",
-   1,
-   "  Tomcat: [你刚拿到的是更高级的门卡！]",
-   "  Tomcat: [你刚拿到的是更高级的门 卡！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4319",
-   1,
-   "  Tomcat: [哦哇，你的体温刚飙上去了，姑娘！]",
-   "  Tomcat: [哦哇，你的体温刚飙上去 了，姑娘！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4325",
-   1,
-   "  Tomcat: [对，你之前的一些特工提到过，有超感官能力的存在曾经住在那颗星球上。]",
-   "  Tomcat: [对，你之前的一些特工提到 过，有超感官能力的存在曾经住在那颗星球 上。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4335",
-   1,
-   "  Tomcat: [那是宇宙育种者制服的标配，能让你随意冲刺！]",
-   "  Tomcat: [那是宇宙育种者制服的标 配，能让你随意冲刺！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4342",
-   1,
-   "  Tomcat: [哦哇，你的体温刚飙上去了，姑娘！]",
-   "  Tomcat: [哦哇，你的体温刚飙上去 了，姑娘！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4348",
-   1,
-   "  Tomcat: [对，你之前的一些特工提到过，有超感官能力的存在曾经住在那颗星球上。]",
-   "  Tomcat: [对，你之前的一些特工提到 过，有超感官能力的存在曾经住在那颗星球 上。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4375",
-   1,
-   "  Yiffany: [这附近没法好好进城玩一夜，不过至少我能用这些点对点传送台了。]",
-   "  Yiffany: [这附近没法好好进城玩一 夜，不过至少我能用这些点对点传送台了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4394",
-   1,
-   "  Tomcat: [可是真的很好玩啊。弹啊弹，喵！！]",
-   "  Tomcat: [可是真的很好玩啊。弹啊 弹，喵！！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4402",
-   1,
-   "  Tomcat: [能量这么高……光是拿着它，你就应该会浑身冒火。]",
-   "  Tomcat: [能量这么高……光是拿着 它，你就应该会浑身冒火。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4424",
-   1,
-   "  Tomcat: [听起来你已经掌握得不错了！]",
-   "  Tomcat: [听起来你已经掌握得不错 了！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4425",
-   1,
-   "  Yiffany: [我也这么觉得。伊吠妮完毕。]",
-   "  Yiffany: [我也这么觉得。伊吠妮完 毕。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4436",
-   1,
-   "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-   "  Yiffany: [当然！只要我没选中什么花 哨能力，就可以按 UP+ATTACK 射出钩 子，然后在天花板上荡过去！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4442",
-   1,
-   "  Yiffany: [反正，只要钩子勾得牢就行。]",
-   "  Yiffany: [反正，只要钩子勾得牢就 行。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4450",
-   1,
-   "  Yiffany: [我记得，雄猫。伊吠妮完毕。]",
-   "  Yiffany: [我记得，雄猫。伊吠妮完 毕。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4457",
-   1,
-   "  Yiffany: [是啊。应该能帮我完成任务。]",
-   "  Yiffany: [是啊。应该能帮我完成任 务。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4466",
-   1,
-   "  Yiffany: [唔，要是想有很多能力可选，看来我该对所有生物都甜一点……]",
-   "  Yiffany: [唔，要是想有很多能力可 选，看来我该对所有生物都甜一点……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4481",
-   1,
-   "  Yiffany: [所以……说起那些“超能力”……]",
-   "  Yiffany: [所以……说起那些“超能 力”……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4494",
-   1,
-   "  Tomcat: [我——嘶嘶咔——看见了，你——滋咔——这么做让——咔嘶——这通话——滋滋咔沙——断了。]",
-   "  Tomcat: [我——嘶嘶咔——看见了， 你——滋咔——这么做让——咔嘶——这通 话——滋滋咔沙——断了。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4506",
-   1,
-   " Yiffany: [我该做好发生什么事的准备？]",
-   " Yiffany: [我该做好发生什么事的准 备？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4516",
-   1,
-   " Tomcat: [就算其他特工的故事都是真的，他的说法也绝不可能是真的！]",
-   " Tomcat: [就算其他特工的故事都是真 的，他的说法也绝不可能是真的！]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4543",
-   1,
-   "  Tomcat: [伊吠妮！我在！出什么事了？？]",
-   "  Tomcat: [伊吠妮！我在！出什么事 了？？]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4584",
-   1,
-   "  Yiffany: [好吧，这次又是什么鬼东西……]",
-   "  Yiffany: [好吧，这次又是什么鬼东 西……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4592",
-   1,
-   "  Yiffany: [我这双爪子，只擅长一种活，而且用不着电脑。相信我。]",
-   "  Yiffany: [我这双爪子，只擅长一种 活，而且用不着电脑。相信我。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4596",
-   1,
-   "  Tomcat: [所以基本什么设备都能运行，比如你的P.A.W.。]",
-   "  Tomcat: [所以基本什么设备都能运 行，比如你的P.A.W.。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4697",
-   1,
-   "  Tomcat: [……还有敌人属性和掉落物，你知道的。]",
-   "  Tomcat: [……还有敌人属性和掉落 物，你知道的。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4709",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4716",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4723",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4730",
-   1,
-   "  Tomcat: [我看到了！重型装备不是我的专长，不过我们在旧机库雇了个本地机械师，可以给你进一步的建议。]",
-   "  Tomcat: [我看到了！重型装备不是我 的专长，不过我们在旧机库雇了个本地机械 师，可以给你进一步的建议。]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4770",
-   1,
-   "  Mauser: 有时候你能在探索时找到装备。",
-   "  Mauser: 有时候你能在探索时找到装 备。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4777",
-   1,
-   "  Bossu: 关键是务必避免撞上那只大壮兽。它伤人比那里其他任何东西都更狠。",
-   "  Bossu: 关键是务必避免撞上那只大壮 兽。它伤人比那里其他任何东西都更狠。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4798",
-   1,
-   "  Mauser: 我看到那龙的双眼一闪，然后……！",
-   "  Mauser: 我看到那龙的双眼一闪，然 后……！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4804",
-   1,
-   "  Mauser: 哎呀！那可是个难对付的敌人！",
-   "  Mauser: 哎呀！那可是个难对付的敌 人！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4817",
-   1,
-   "  Tomcat: 你不会让这混蛋把你打倒的吧？",
-   "  Tomcat: 你不会让这混蛋把你打倒的 吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4825",
-   1,
-   "  Tomcat: 得蹲下才能打到他，挺棘手的，对吧？",
-   "  Tomcat: 得蹲下才能打到他，挺棘手 的，对吧？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4959",
-   1,
-   "  * 很简单：你把在外头找到的那些花哨芯片带给我，我就替你黑开门！显然，这是双赢！",
-   "  * 很简单：你把在外头找到的那些花哨芯 片带给我，我就替你黑开门！显然，这是双 赢！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4966",
-   1,
-   "  * 拜拜，特工！再给我多带些那种芯片来！",
-   "  * 拜拜，特工！再给我多带些那种芯片 来！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:4976",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
-  ],
-  [
-   "P22:patch.pak:datadf/1:5069",
-   1,
-   "  Anon/Fox: 你能让你的主人过来帮我吗？",
-   "  Anon/Fox: 你能让你的主人过来帮我 吗？"
-  ],
-  [
-   "P22:patch.pak:datadf/1:5171",
-   1,
-   "  * 能见到另一位宇宙育种者，我太高兴了，哪怕我只是个占位角色！",
-   "  * 能见到另一位宇宙育种者，我太高兴 了，哪怕我只是个占位角色！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:5179",
-   1,
-   "  * 而且我会给你的装备强化！显然是双赢！",
-   "  * 而且我会给你的装备强化！显然是双 赢！"
-  ],
-  [
-   "P22:patch.pak:datadf/1:5195",
-   1,
-   "  * 你是来送每周补给的？我还剩着一些呢。",
-   "  * 你是来送每周补给的？我还剩着一些 呢。"
+   "  Tomcat: [也——许我穿着一套胡闹过，当然，随便 吧。]"
   ],
   [
    "P22:patch.pak:datadf/1:5240",
    1,
    "  * [你、你是只好狗狗，对吧？不会咬我，或者……什么的……]",
-   "  * [你、你是只好狗狗，对吧？不会咬 我，或者……什么的……]"
-  ],
-  [
-   "P22:patch.pak:datadf/1:5273",
-   1,
-   "  * [要是你没出现，我真不知道该怎么办！]",
-   "  * [要是你没出现，我真不知道该怎么 办！]"
+   "  * [你、你是只好狗狗，对吧？不会咬我，或 者……什么的……]"
   ]
  ],
  "SC22-nsfw-datadm_1": [
   [
-   "P22:patch.pak:datadm/1:63",
+   "P22:patch.pak:datadm/1:1202",
    1,
-   "  * 不知道这是什么，某种破旧的太空制服？",
-   "  * 不知道这是什么，某种破旧的太空制 服？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:393",
-   1,
-   "  * 欢迎光临！热腾腾的肉，透心凉的冷饮！最适合艾斯卡姆尔了！",
-   "  * 欢迎光临！热腾腾的肉，透心凉的冷 饮！最适合艾斯卡姆尔了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:413",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:471",
-   1,
-   "  * 当然，还得有一艘飞船和一群亡命之徒！",
-   "  * 当然，还得有一艘飞船和一群亡命之 徒！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:475",
-   1,
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤成！恢复活力！",
-   "  * 取自凶猛野兽的肉，在熔岩上慢火烤 成！恢复活力！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:476",
-   1,
-   "  * 事实上，它烫得几乎没法上手……哎哟！",
-   "  * 事实上，它烫得几乎没法上手……哎 哟！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:575",
-   1,
-   "  * 我正要逃走，不过嘛，你要是肯帮一把……",
-   "  * 我正要逃走，不过嘛，你要是肯帮一 把……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:607",
-   1,
-   "  * 谁是乖孩子？是我呀！不过你是想帮我……做点什么吗？",
-   "  * 谁是乖孩子？是我呀！不过你是想帮 我……做点什么吗？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:616",
-   1,
-   "  * 唔嗯……这样逗我……只会让我更热啊！",
-   "  * 唔嗯……这样逗我……只会让我更热 啊！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:630",
-   1,
-   "  * 接下来，试试我能把你吞多深，怎么样！",
-   "  * 接下来，试试我能把你吞多深，怎么 样！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:637",
-   1,
-   "  * 哦、哦，你好。能见到别的特工真高兴！",
-   "  * 哦、哦，你好。能见到别的特工真高 兴！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:737",
-   1,
-   "  * 哎呀，这玩意儿配道服正合适，不是吗？",
-   "  * 哎呀，这玩意儿配道服正合适，不是 吗？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:813",
-   1,
-   "  * 接下来是不是该你走人了，啊，小混混？",
-   "  * 接下来是不是该你走人了，啊，小混 混？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:821",
-   1,
-   "  * 你怎么不干脆把能拿到的东西全拿走啊？嗯？",
-   "  * 你怎么不干脆把能拿到的东西全拿走 啊？嗯？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:873",
-   1,
-   "    * 之前还来过一个跟你一样的太空伙计，嘴里嘀咕着说把武器落在这儿正北边了！",
-   "    * 之前还来过一个跟你一样的太空伙 计，嘴里嘀咕着说把武器落在这儿正北边了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:875",
-   1,
-   "    * 那家伙一直念叨着“下、中、中、上……”，谁知道是什么意思！",
-   "    * 那家伙一直念叨着“下、中、中、 上……”，谁知道是什么意思！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:946",
-   1,
-   "  * 我刚刚——唔……就快把局面控制住了！",
-   "  * 我刚刚——唔……就快把局面控制住 了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:960",
-   1,
-   "  * 唔……只是……得歇一会儿。谢、谢谢。",
-   "  * 唔……只是……得歇一会儿。谢、谢 谢。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:962",
-   1,
-   "  * 听好了，新兵！现在需要你立刻来支援。",
-   "  * 听好了，新兵！现在需要你立刻来支 援。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1017",
-   1,
-   "    * 出去小心点。如今的图托恩可不太平。",
-   "    * 出去小心点。如今的图托恩可不太 平。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1022",
-   1,
-   "    * 记住，概不退款！还要点啥？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要点啥？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1192",
-   1,
-   "  * ……其实我什么都看不见！这里太黑了！",
-   "  * ……其实我什么都看不见！这里太黑 了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1212",
-   1,
-   "  * 这颗小药丸能让你精神抖擞、毛发浓密、腰板挺直……",
-   "  * 这颗小药丸能让你精神抖擞、毛发浓 密、腰板挺直……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1224",
-   1,
-   "    * ……总觉得好像有什么大事要发生了！",
-   "    * ……总觉得好像有什么大事要发生 了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1229",
-   1,
-   "    * 话说回来，你以前穿过精灵连衣裙吗？你看着就像会穿的！",
-   "    * 话说回来，你以前穿过精灵连衣裙 吗？你看着就像会穿的！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1352",
-   1,
-   "  * 哦，嗨、嗨，我一直在等别的特工过来。",
-   "  * 哦，嗨、嗨，我一直在等别的特工过 来。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1416",
-   1,
-   "    * 出去小心点。如今的图托恩可不太平。",
-   "    * 出去小心点。如今的图托恩可不太 平。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1421",
-   1,
-   "    * 记住，概不退款！还要点啥？嘿！嘿！嘿！",
-   "    * 记住，概不退款！还要点啥？嘿！ 嘿！嘿！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1431",
-   1,
-   "    * 你就拿着你的破烂玩去吧，别来烦我，行吗？！",
-   "    * 你就拿着你的破烂玩去吧，别来烦 我，行吗？！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1445",
-   1,
-   "  * 我这儿的吃食是七片沼泽这一带最好的，你却想要那种垃圾？",
-   "  * 我这儿的吃食是七片沼泽这一带最好 的，你却想要那种垃圾？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1470",
-   1,
-   "    * 老实说：这些精神力的东西让我发毛。",
-   "    * 老实说：这些精神力的东西让我发 毛。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1473",
-   1,
-   "    * 大多数科博德并不真搞这些心理把戏。你要是没兴趣，我理解。",
-   "    * 大多数科博德并不真搞这些心理把 戏。你要是没兴趣，我理解。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1493",
-   1,
-   "    * 不穿宇宙服就往外跑，你胆子可真大！",
-   "    * 不穿宇宙服就往外跑，你胆子可真 大！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1583",
-   1,
-   "    * 可你知道，要是这机库里多些人休整，我倒也许该多运些补给进来……",
-   "    * 可你知道，要是这机库里多些人休 整，我倒也许该多运些补给进来……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1586",
-   1,
-   "    * 我好久没在这儿见到你们这种特工了，连存货都没顾上补！",
-   "    * 我好久没在这儿见到你们这种特工 了，连存货都没顾上补！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1636",
-   1,
-   "  * 听说超能力者得到一颗，就能提升灵能容量，可我只是条普通的狗，这东西对我没用。送你吧！",
-   "  * 听说超能力者得到一颗，就能提升灵能 容量，可我只是条普通的狗，这东西对我没 用。送你吧！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1641",
-   1,
-   "  * 我忙着跑遍各家店，确保 lect 流转，不过偶尔我也得靠这个提提神！",
-   "  * 我忙着跑遍各家店，确保 lect 流 转，不过偶尔我也得靠这个提提神！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1652",
-   1,
-   "  * 听说三角能力能增强防御，不过攻击会稍微降低，而十字之力则刚好相反！挨打更疼，打人也更疼！",
-   "  * 听说三角能力能增强防御，不过攻击会 稍微降低，而十字之力则刚好相反！挨打更 疼，打人也更疼！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1663",
-   1,
-   "  * ……抱歉，刚才笑得有点吓人。习惯了。",
-   "  * ……抱歉，刚才笑得有点吓人。习惯 了。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1772",
-   1,
-   "  * ……不，不是那种店！这是汽车修理店！",
-   "  * ……不，不是那种店！这是汽车修理 店！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1781",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1782",
-   1,
-   "      * 仓库B的南部有一门不错的飞船炮！",
-   "      * 仓库B的南部有一门不错的飞船 炮！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1787",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1792",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1798",
-   1,
-   "      * 我打听了一圈，我的消息来源说……",
-   "      * 我打听了一圈，我的消息来源 说……"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1815",
-   1,
-   "    * ……我已经在你的导航地图上标好了！去看看吧！",
-   "    * ……我已经在你的导航地图上标好 了！去看看吧！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1942",
-   1,
-   "  * 相当厉害吧……你猜怎么着？这块岩石里埋着的什么东西似乎也在猛耗电力……不过，我还未能确定它的位置。",
-   "  * 相当厉害吧……你猜怎么着？这块岩石 里埋着的什么东西似乎也在猛耗电力……不 过，我还未能确定它的位置。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1963",
-   1,
-   "  Mauser: [……呼叫特工伊吠！请回答！]",
-   "  Mauser: [……呼叫特工伊吠！请回 答！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:1964",
-   1,
-   "  Yiffai: [这里是特工伊吠！信号清晰！]",
-   "  Yiffai: [这里是特工伊吠！信号清 晰！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2023",
-   1,
-   "  Yiffai: [嘿嘿！我说过我是班上第一！]",
-   "  Yiffai: [嘿嘿！我说过我是班上第 一！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2041",
-   1,
-   "  Yiffai: [好，我这就往地表那边走，并试着找到离开这片区域的路。伊吠通话完毕！]",
-   "  Yiffai: [好，我这就往地表那边走， 并试着找到离开这片区域的路。伊吠通话完 毕！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2063",
-   1,
-   "  Bossu: [我们不能冒险让你再次被击落……甚至遭遇更糟的事。]",
-   "  Bossu: [我们不能冒险让你再次被击 落……甚至遭遇更糟的事。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2073",
-   1,
-   "  Mauser: [你该去那边看看有没有人在！]",
-   "  Mauser: [你该去那边看看有没有人 在！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2105",
-   1,
-   "  Yiffai: [淘、淘气？这个倒不太懂，不过这、这些听起来倒是像很有用的研究途径。伊吠完毕！]",
-   "  Yiffai: [淘、淘气？这个倒不太懂， 不过这、这些听起来倒是像很有用的研究途 径。伊吠完毕！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2127",
-   1,
-   "  Mauser: [哦！而且导航地图坐标已经发出，所以你应该能轻松到达那里。祝你好运！]",
-   "  Mauser: [哦！而且导航地图坐标已经 发出，所以你应该能轻松到达那里。祝你好 运！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2150",
-   1,
-   "  Yiffai: [……哦抱歉，我是特工伊吠，现在报到。]",
-   "  Yiffai: [……哦抱歉，我是特工伊 吠，现在报到。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2154",
-   1,
-   "  Yiffai: [我在这个奇怪的黑暗区域里，对吧？]",
-   "  Yiffai: [我在这个奇怪的黑暗区域 里，对吧？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2155",
-   1,
-   "  Yiffai: [而我四周看到的全是显示器……]",
-   "  Yiffai: [而我四周看到的全是显示 器……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2156",
-   1,
-   "  Mauser: [……显示器？显示的是什么？]",
-   "  Mauser: [……显示器？显示的是什 么？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2163",
-   1,
-   "  Yiffai: [……我打赌如果我也是野狗，跑跳肯定会更棒……]",
-   "  Yiffai: [……我打赌如果我也是野 狗，跑跳肯定会更棒……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2175",
-   1,
-   "  Yiffai: [是啊，这地方真是快散架了。]",
-   "  Yiffai: [是啊，这地方真是快散架 了。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2188",
-   1,
-   "  Tomcat: [……全都任你拿！为了任务！]",
-   "  Tomcat: [……全都任你拿！为了任 务！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2205",
-   1,
-   "    Mauser: [你可算出现了！你还好吗，伊吠？]",
-   "    Mauser: [你可算出现了！你还好 吗，伊吠？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2221",
-   1,
-   "    Tomcat: [你还记得那东西怎么用吗？]",
-   "    Tomcat: [你还记得那东西怎么用 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2235",
-   1,
-   "    Tomcat: [连只小狗都会了，真是的！]",
-   "    Tomcat: [连只小狗都会了，真是 的！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2240",
-   1,
-   "  Yiffai: [啊？什么？你打电话来干什——]",
-   "  Yiffai: [啊？什么？你打电话来干 什——]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2258",
-   1,
-   "  Mauser: [对，只要记住：只有身处半空时，按 DOWN + JUMP 才会做出俯冲踢！]",
-   "  Mauser: [对，只要记住：只有身处半 空时，按 DOWN + JUMP 才会做出俯冲 踢！]"
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很乐意卖给你，但我每次一动，好像都会踩到什——嗷呜！",
+   "  * 听着，老兄，要是我能看清东西在哪儿，我很 乐意卖给你，但我每次一动，好像都会踩到 什——嗷呜！"
   ],
   [
    "P22:patch.pak:datadm/1:2265",
    1,
    "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体征又乱了套，我唯一接收到的，只有一阵发毛！]",
-   "  Tomcat: [无线电呼叫怎么也接不通， 偏偏你的生命体征又乱了套，我唯一接收到 的，只有一阵发毛！]"
+   "  Tomcat: [无线电呼叫怎么也接不通，偏偏你的生命体 征又乱了套，我唯一接收到的，只有一阵发 毛！]"
   ],
   [
-   "P22:patch.pak:datadm/1:2275",
+   "P22:patch.pak:datadm/1:2271",
    1,
-   "  Yiffai: [不管那都是什么意思……呃……]",
-   "  Yiffai: [不管那都是什么意思…… 呃……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2278",
-   1,
-   "  Yiffai: [我会没事的，继续执行任务。]",
-   "  Yiffai: [我会没事的，继续执行任 务。]"
+   "  Yiffai: [不-不是，没那种事。只是……听起来像是……]",
+   "  Yiffai: [不-不是，没那种事。只是……听起来像 是……]"
   ],
   [
    "P22:patch.pak:datadm/1:2284",
    1,
    "  Starkill: [……咔咔滋……做好准备……特工……滋咔……]",
-   "  Starkill: [……咔咔滋……做好准 备……特工……滋咔……]"
+   "  Starkill: [……咔咔滋……做好准备……特工……滋 咔……]"
   ],
   [
-   "P22:patch.pak:datadm/1:2300",
+   "P22:patch.pak:datadm/1:2398",
    1,
-   "  Tomcat: [你的生命体征刚才突然飙升，小子。发生什么事了？]",
-   "  Tomcat: [你的生命体征刚才突然飙 升，小子。发生什么事了？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2306",
-   1,
-   "  Yiffai: [这感觉像是有了新的*力量*……]",
-   "  Yiffai: [这感觉像是有了新的*力量 *……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2313",
-   1,
-   "  Mauser: [嗯，只要你大体上没事就行，特工。]",
-   "  Mauser: [嗯，只要你大体上没事就 行，特工。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2331",
-   1,
-   "  Yiffai: [——继续讲宇宙学院的故事，烦死他？]",
-   "  Yiffai: [——继续讲宇宙学院的故 事，烦死他？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2345",
-   1,
-   "  Yiffai: [哎、哎哟……毛鼠，请回话。]",
-   "  Yiffai: [哎、哎哟……毛鼠，请回 话。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2353",
-   1,
-   "  Mauser: [我们这边完全没有数据进来。]",
-   "  Mauser: [我们这边完全没有数据进 来。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2356",
-   1,
-   "  Yiffai: [算了，就当我什么都没说过。]",
-   "  Yiffai: [算了，就当我什么都没说 过。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2409",
-   1,
-   "  Bossu: [如今那些精灵更可能把你赶走，而不是跟你做生意，所以你可得留神。]",
-   "  Bossu: [如今那些精灵更可能把你赶 走，而不是跟你做生意，所以你可得留神。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2413",
-   1,
-   "  Bossu: [请把行动笔记再仔细通读一遍。]",
-   "  Bossu: [请把行动笔记再仔细通读一 遍。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2454",
-   1,
-   "  Tomcat: [打架之前先在人家面前脱光……]",
-   "  Tomcat: [打架之前先在人家面前脱 光……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2463",
-   1,
-   "  Tomcat: [下次你最好别再手下留情了，不然她真可能彻底干掉你，懂吗？]",
-   "  Tomcat: [下次你最好别再手下留情 了，不然她真可能彻底干掉你，懂吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2470",
-   1,
-   "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-   "  Yiffai: [当然！只要没选什么花哨的 能力，我就可以按 UP+ATTACK 射出钩 子，挂在天花板上荡来荡去！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2491",
-   1,
-   "  Mauser: [伊吠特工，请回答。有急事。]",
-   "  Mauser: [伊吠特工，请回答。有急 事。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2507",
-   1,
-   "  Yiffai: [别这样！毛鼠，你也来这套？]",
-   "  Yiffai: [别这样！毛鼠，你也来这 套？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2521",
-   1,
-   "  Yiffai: [又是你……你到底想干什么？]",
-   "  Yiffai: [又是你……你到底想干什 么？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2556",
-   1,
-   "  Bossu: [那会很困难，但只要小心一点，你应该能毫发无伤地出来。]",
-   "  Bossu: [那会很困难，但只要小心一 点，你应该能毫发无伤地出来。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2569",
-   1,
-   "  Yiffai: [呃、对！没错！当然！懂了！！！]",
-   "  Yiffai: [呃、对！没错！当然！懂 了！！！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2574",
-   1,
-   "  Yiffai: [看起来我在某个金库里面，但根本没有锁，只有一些画着奇怪符号的屏幕……]",
-   "  Yiffai: [看起来我在某个金库里面， 但根本没有锁，只有一些画着奇怪符号的屏 幕……]"
+   "  Mauser: [各式各样的哥布林与精灵，就在每一丛灌木、每一棵树后面埋伏着等你——]",
+   "  Mauser: [各式各样的哥布林与精灵，就在每一丛灌 木、每一棵树后面埋伏着等你——]"
   ],
   [
    "P22:patch.pak:datadm/1:2585",
    1,
    "  Yiffai: [我会继续设法破解这套密码。伊吠通话完毕。]",
-   "  Yiffai: [我会继续设法破解这套密 码。伊吠通话完毕。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2595",
-   1,
-   "  Bossu: [我们就是把你飞船的自动驾驶设定为：你不亲自驾驶的时候，它会返回这里。]",
-   "  Bossu: [我们就是把你飞船的自动驾驶 设定为：你不亲自驾驶的时候，它会返回这 里。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2599",
-   1,
-   "  Yiffai: [哪怕是在这么偏僻的星球上，也有人站在我们这边，真是太好了！]",
-   "  Yiffai: [哪怕是在这么偏僻的星球 上，也有人站在我们这边，真是太好了！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2625",
-   2,
-   "  Tomcat: [先缓一分钟，等你的“兴奋”消下去吧，小狗崽。可别吓着当地那些家伙。]",
-   "  Tomcat: [先缓一分钟，等你的“兴 奋”消下去吧，小狗崽。可别吓着当地那些家 伙。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2654",
-   1,
-   "  Bossu: [他们可能会对这次任务很重要。]",
-   "  Bossu: [他们可能会对这次任务很重 要。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2686",
-   1,
-   "  Bossu: [特工伊吠·伊吠？收到请回答。]",
-   "  Bossu: [特工伊吠·伊吠？收到请回 答。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2707",
-   1,
-   "  Bossu: [特工伊吠·伊吠？收到请回答。]",
-   "  Bossu: [特工伊吠·伊吠？收到请回 答。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2738",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，通话完毕！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，通话完毕！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2742",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，通话完毕！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，通话完毕！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2757",
-   1,
-   "  Mauser: [是啊，你越跟本地动物亲近，我们能收到的数据也越有用！]",
-   "  Mauser: [是啊，你越跟本地动物亲 近，我们能收到的数据也越有用！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2765",
-   1,
-   "  Yiffai: [对、对！我不会让你失望的！]",
-   "  Yiffai: [对、对！我不会让你失望 的！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2776",
-   1,
-   "  Bossu: [要是你遇见近视的棕毛小动物，那些小家伙叫作「吱吱怪」。]",
-   "  Bossu: [要是你遇见近视的棕毛小动 物，那些小家伙叫作「吱吱怪」。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2785",
-   1,
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉色。]",
-   "  Bossu: [巨型条纹猫科，毛色是鲜粉 色。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2796",
-   1,
-   "  Yiffai: [什么？我不能把它们毁掉吗？]",
-   "  Yiffai: [什么？我不能把它们毁掉 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2806",
-   1,
-   "  Yiffai: [什么？我不能把它们毁掉吗？]",
-   "  Yiffai: [什么？我不能把它们毁掉 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2826",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2838",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了两个世纪左右吧。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了两个世纪左右吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2850",
-   1,
-   "  Bossu: [那种型号的炮塔作为制式装备，已经用了大约两个世纪。]",
-   "  Bossu: [那种型号的炮塔作为制式装 备，已经用了大约两个世纪。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2897",
-   1,
-   "  Bossu: [它是一种会从废墟中现身的奇异异常体，而且看来对大多数物理攻击都免疫。]",
-   "  Bossu: [它是一种会从废墟中现身的奇 异异常体，而且看来对大多数物理攻击都免 疫。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2902",
-   1,
-   "  Bossu: [我们当时觉得这些报告不可靠，没有采信，不过……]",
-   "  Bossu: [我们当时觉得这些报告不可 靠，没有采信，不过……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2908",
-   1,
-   "  Bossu: [它应该也一样对物理伤害免疫。]",
-   "  Bossu: [它应该也一样对物理伤害免 疫。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2932",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2947",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2962",
-   1,
-   "  Bossu: [你可以靠近它们，让它们自爆，也可以打它们，让它们爆炸。你选吧。]",
-   "  Bossu: [你可以靠近它们，让它们自 爆，也可以打它们，让它们爆炸。你选吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2974",
-   1,
-   "  Bossu: [你说「这家伙」，可看那只大壮兽的力量，那一定是这个物种里不同的个体。]",
-   "  Bossu: [你说「这家伙」，可看那只大 壮兽的力量，那一定是这个物种里不同的个 体。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2987",
-   1,
-   "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]",
-   "  Yiffai: [哇，波苏，那家伙一身肌 肉！而且……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:2990",
-   1,
-   "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]",
-   "  Yiffai: [他们怎么能又大又高，却 又……那么矮？！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3000",
-   1,
-   "  Yiffai: [哇，波苏，那家伙一身肌肉！而且……]",
-   "  Yiffai: [哇，波苏，那家伙一身肌 肉！而且……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3003",
-   1,
-   "  Yiffai: [他们怎么能又大又高，却又……那么矮？！]",
-   "  Yiffai: [他们怎么能又大又高，却 又……那么矮？！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3017",
-   1,
-   "  Yiffai: [哦……还好我不用担心我的制服被烧坏！……只、只是我的毛而已，哈哈！]",
-   "  Yiffai: [哦……还好我不用担心我的 制服被烧坏！……只、只是我的毛而已，哈 哈！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3046",
-   1,
-   "  Bossu: [……对，你是在单独执行任务……]",
-   "  Bossu: [……对，你是在单独执行任 务……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3058",
-   1,
-   "  Yiffai: [哦！所以它们才会一直回来？]",
-   "  Yiffai: [哦！所以它们才会一直回 来？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3062",
-   1,
-   "  Bossu: [一旦过了采矿区，你就安全了。]",
-   "  Bossu: [一旦过了采矿区，你就安全 了。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3071",
-   1,
-   "  Mauser: [波苏是说，那些老矿工在自家的矿井里埋了地雷，意思是：“这是我的矿，谁也别碰！”]",
-   "  Mauser: [波苏是说，那些老矿工在自 家的矿井里埋了地雷，意思是：“这是我的 矿，谁也别碰！”]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3090",
-   1,
-   "  Yiffai: [对啊！那是在矿坑里，但是——]",
-   "  Yiffai: [对啊！那是在矿坑里，但 是——]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3111",
-   1,
-   "  Yiffai: [这些大蜥蜴家伙就是科博德？]",
-   "  Yiffai: [这些大蜥蜴家伙就是科博 德？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3112",
-   1,
-   "  Bossu: [没错。你最好习惯跟他们缠斗。]",
-   "  Bossu: [没错。你最好习惯跟他们缠 斗。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3121",
-   1,
-   "  Yiffai: [收到，我会留意任何商人的。]",
-   "  Yiffai: [收到，我会留意任何商人 的。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3146",
-   1,
-   "  Yiffai: [纳——米——机……什么鸡？]",
-   "  Yiffai: [纳——米——机……什么 鸡？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3160",
-   1,
-   "  Bossu: [那些装在天花板上的炮塔全都失控了，大概是电力系统损坏得太厉害的缘故。]",
-   "  Bossu: [那些装在天花板上的炮塔全都 失控了，大概是电力系统损坏得太厉害的缘 故。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3166",
-   1,
-   "  Yiffai: [当然，当然！伊吠通话完毕！]",
-   "  Yiffai: [当然，当然！伊吠通话完 毕！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3185",
-   1,
-   "  Bossu: [可这「光球」只会让你有点疼。]",
-   "  Bossu: [可这「光球」只会让你有点 疼。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3208",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，但她们并不全是不朽的。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，但她们并不全是不朽的。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3210",
-   1,
-   "  Bossu: [由于她们能与任何物种的任何雄性繁殖，她们便带上了越来越多的有朽特征。]",
-   "  Bossu: [由于她们能与任何物种的任何 雄性繁殖，她们便带上了越来越多的有朽特 征。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3227",
-   1,
-   "  Bossu: [有报道称，吸足灵能的「跳跃者」会变成「牛蛙」，能从远处朝目标喷泡泡，也能用长舌头伤人。]",
-   "  Bossu: [有报道称，吸足灵能的「跳跃 者」会变成「牛蛙」，能从远处朝目标喷泡 泡，也能用长舌头伤人。]"
+   "  Yiffai: [我会继续设法破解这套密码。伊吠通话完 毕。]"
   ],
   [
    "P22:patch.pak:datadm/1:3243",
    1,
    "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffai: [波苏，是这些加农炮变强 了，还是我变弱了？]"
+   "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:patch.pak:datadm/1:3250",
    1,
    "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱了？]",
-   "  Yiffai: [波苏，是这些加农炮变强 了，还是我变弱了？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3264",
-   1,
-   "  Bossu: [斯凯菲亚的精灵也许全是雌性，却并不个个长生不老。]",
-   "  Bossu: [斯凯菲亚的精灵也许全是雌 性，却并不个个长生不老。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3279",
-   1,
-   "  Bossu: [暂且就把它们叫“跳跃者”吧。]",
-   "  Bossu: [暂且就把它们叫“跳跃者” 吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3308",
-   1,
-   "  Bossu: [哪怕它们的制造者早已退隐多年，它们的纳米蛛网仍把整个环境维系在一起。]",
-   "  Bossu: [哪怕它们的制造者早已退隐多 年，它们的纳米蛛网仍把整个环境维系在一 起。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3346",
-   1,
-   "  Bossu: [它好像不知怎么黏在地形上了，而且只朝一个方向循环移动？]",
-   "  Bossu: [它好像不知怎么黏在地形上 了，而且只朝一个方向循环移动？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3352",
-   1,
-   "  Bossu: [那些从地里冒出来的幽灵头颅……]",
-   "  Bossu: [那些从地里冒出来的幽灵头 颅……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3436",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠……完毕！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠……完毕！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3440",
-   1,
-   "  Yiffai: 我……我很抱歉……伊、伊吠，先走了！",
-   "  Yiffai: 我……我很抱歉……伊、伊 吠，先走了！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3444",
-   1,
-   "  Mauser: [找个信号好点的地方再呼我！]",
-   "  Mauser: [找个信号好点的地方再呼 我！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3491",
-   1,
-   "      Mauser: [……不过可别下手太重！]",
-   "      Mauser: [……不过可别下手太 重！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3504",
-   1,
-   "  Yiffai: [你知道去哪里找那些特工吗？]",
-   "  Yiffai: [你知道去哪里找那些特工 吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3536",
-   1,
-   "  Mauser: [不过那可能和你的任务有关。]",
-   "  Mauser: [不过那可能和你的任务有 关。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3555",
-   1,
-   "        Yiffai: [见过那头公牛之后，我不知道该去哪找了……]",
-   "        Yiffai: [见过那头公牛之 后，我不知道该去哪找了……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3569",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3597",
-   1,
-   "    Mauser: [你确定自己没事吗，伊吠？]",
-   "    Mauser: [你确定自己没事吗，伊 吠？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3610",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3612",
-   1,
-   "      Mauser: [要是你有办法挖穿泥土，说不定就能一路往西去了！]",
-   "      Mauser: [要是你有办法挖穿泥 土，说不定就能一路往西去了！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3657",
-   1,
-   "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……它转眼就弄丢了。]",
-   "        Mauser: [我们这儿有条备忘 录，说有个特工把一支手电筒卖给了一只小 狗……它转眼就弄丢了。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3678",
-   1,
-   "      Yiffai: [我去找他们！交给我吧！]",
-   "      Yiffai: [我去找他们！交给我 吧！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3694",
-   1,
-   "  Mauser: [你该试着找条路进那些洞窟。]",
-   "  Mauser: [你该试着找条路进那些洞 窟。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3712",
-   1,
-   "  Mauser: [看样子你到机库里了，伊吠。]",
-   "  Mauser: [看样子你到机库里了，伊 吠。]"
+   "  Yiffai: [波苏，是这些加农炮变强了，还是我变弱 了？]"
   ],
   [
    "P22:patch.pak:datadm/1:3748",
    1,
    "  The0: [那是——算了，晚点再打给我吧！好，再见！]",
-   "  The0: [那是——算了，晚点再打给我 吧！好，再见！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3753",
-   1,
-   "  The0: [小狗会刨坑吧？总之，让我看看。扫描中……]",
-   "  The0: [小狗会刨坑吧？总之，让我看 看。扫描中……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3799",
-   1,
-   "  Tomcat: [真是的，那撅屁股的小家伙先丢了电击枪，现在无线电又被野生狗崽抢了？]",
-   "  Tomcat: [真是的，那撅屁股的小家伙 先丢了电击枪，现在无线电又被野生狗崽抢 了？]"
+   "  The0: [那是——算了，晚点再打给我吧！好，再 见！]"
   ],
   [
    "P22:patch.pak:datadm/1:3806",
    1,
    "  Tomcat: [嘿，听我说，好小子，行吗？能乖乖听话吗？]",
-   "  Tomcat: [嘿，听我说，好小子，行 吗？能乖乖听话吗？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3833",
-   1,
-   "  Yiffai: [嗯？为什么我现在不能呼你？]",
-   "  Yiffai: [嗯？为什么我现在不能呼 你？]"
+   "  Tomcat: [嘿，听我说，好小子，行吗？能乖乖听话 吗？]"
   ],
   [
    "P22:patch.pak:datadm/1:3856",
    1,
    "  Tomcat: [喂，小狗屁股，要是你想多了解捡到的装备，别忘了打 28.880 找我！]",
-   "  Tomcat: [喂，小狗屁股，要是你想多 了解捡到的装备，别忘了打 28.880 找 我！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3889",
-   1,
-   "  Tomcat: [组织分析显示，其中含有抗菌成分，所以尽管啃吧，小狗崽，再脏也不怕！]",
-   "  Tomcat: [组织分析显示，其中含有抗 菌成分，所以尽管啃吧，小狗崽，再脏也不 怕！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3896",
-   1,
-   "  Tomcat: [看来下面有个家伙变可爱了。]",
-   "  Tomcat: [看来下面有个家伙变可爱 了。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3918",
-   1,
-   "  Tomcat: [你好久没尝过那种滋味了吧，嗯？]",
-   "  Tomcat: [你好久没尝过那种滋味了 吧，嗯？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3921",
-   1,
-   "  Yiffai: [我不太懂你在说什么……你……等等……]",
-   "  Yiffai: [我不太懂你在说什么…… 你……等等……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3937",
-   1,
-   "  Yiffai: [什么意思？我知道这是吃的！不然还能是什么……]",
-   "  Yiffai: [什么意思？我知道这是吃 的！不然还能是什么……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3957",
-   1,
-   "  Tomcat: [吃这种随机掉落的奶酪也许有点奇怪，但信我，哪个店要是有卖这玩意儿，肯定能卖一大笔LECT！]",
-   "  Tomcat: [吃这种随机掉落的奶酪也许 有点奇怪，但信我，哪个店要是有卖这玩意 儿，肯定能卖一大笔LECT！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3964",
-   1,
-   "  Tomcat: [简直是在求你把它们破开嘛！]",
-   "  Tomcat: [简直是在求你把它们破开 嘛！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3969",
-   1,
-   "  Tomcat: [你捡到的那块瓜可真够大的。]",
-   "  Tomcat: [你捡到的那块瓜可真够大 的。]"
+   "  Tomcat: [喂，小狗屁股，要是你想多了解捡到的装 备，别忘了打 28.880 找我！]"
   ],
   [
    "P22:patch.pak:datadm/1:3983",
    1,
    "  Tomcat: [至于矮人为什么会有这东西，我也不太清楚……]",
-   "  Tomcat: [至于矮人为什么会有这东 西，我也不太清楚……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:3999",
-   1,
-   "  Tomcat: [不太——清楚那扭来扭去的小幽灵是什么，不过，也许拿来当小零食不错……？]",
-   "  Tomcat: [不太——清楚那扭来扭去的 小幽灵是什么，不过，也许拿来当小零食不 错……？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4049",
-   1,
-   "  Tomcat: [那就是块石头。你问我干嘛？]",
-   "  Tomcat: [那就是块石头。你问我干 嘛？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4053",
-   1,
-   "  Tomcat: [它特别脆，也特别锋利，所以只能扎一次就不行了。我觉得扔出去更合适。]",
-   "  Tomcat: [它特别脆，也特别锋利，所 以只能扎一次就不行了。我觉得扔出去更合 适。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4063",
-   1,
-   "  Yiffai: [只要扔得够用力、够高就行……]",
-   "  Yiffai: [只要扔得够用力、够高就 行……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4076",
-   1,
-   "  Tomcat: [……那就祝你好运！！拜拜！！]",
-   "  Tomcat: [……那就祝你好运！！拜 拜！！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4095",
-   1,
-   "  Yiffai: [这能把怪物送回机库，是吧？]",
-   "  Yiffai: [这能把怪物送回机库，是 吧？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4102",
-   1,
-   "  Tomcat: [你这项圈还真时髦。够结实！]",
-   "  Tomcat: [你这项圈还真时髦。够结 实！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4104",
-   1,
-   "  Yiffai: [我才不是喜欢这种东、东西……]",
-   "  Yiffai: [我才不是喜欢这种东、东 西……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4111",
-   1,
-   "  Yiffai: [……只是用着舒服，就这样！]",
-   "  Yiffai: [……只是用着舒服，就这 样！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4120",
-   1,
-   "  Tomcat: [你捡到的是战斗级光电击枪！]",
-   "  Tomcat: [你捡到的是战斗级光电击 枪！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4130",
-   1,
-   "  Tomcat: [对，除了学院训练时，平时很少见。不过它能帮你在徒手搏斗时集中精神！]",
-   "  Tomcat: [对，除了学院训练时，平时 很少见。不过它能帮你在徒手搏斗时集中精 神！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4140",
-   1,
-   "  Tomcat: [没错！徒手格斗基础课必备！]",
-   "  Tomcat: [没错！徒手格斗基础课必 备！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4141",
-   1,
-   "  Tomcat: [也许之前下去的某个特工决定亲自出手解决问题，还穿上这个给自己壮胆！]",
-   "  Tomcat: [也许之前下去的某个特工决 定亲自出手解决问题，还穿上这个给自己壮 胆！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4151",
-   1,
-   "  Tomcat: [看起来像古老的飞斧，不过……]",
-   "  Tomcat: [看起来像古老的飞斧，不 过……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4153",
-   1,
-   "  Tomcat: [斧头扔出去一般不会飞回来，对吧……]",
-   "  Tomcat: [斧头扔出去一般不会飞回 来，对吧……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4158",
-   1,
-   "  Yiffai: [好，我会留意的。伊吠完毕！]",
-   "  Yiffai: [好，我会留意的。伊吠完 毕！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4166",
-   1,
-   "  Tomcat: [哈哈，也是。反正你翘尾巴，从来不用人帮忙！]",
-   "  Tomcat: [哈哈，也是。反正你翘尾 巴，从来不用人帮忙！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4190",
-   1,
-   "  Yiffai: [那我可以拿它应个急，对吧？]",
-   "  Yiffai: [那我可以拿它应个急，对 吧？]"
+   "  Tomcat: [至于矮人为什么会有这东西，我也不太清 楚……]"
   ],
   [
    "P22:patch.pak:datadm/1:4202",
    1,
    "  Tomcat: [别介意，小狗崽，不过我看你入伙不到一天，多半就会成他们的船舱小厮……]",
-   "  Tomcat: [别介意，小狗崽，不过我看 你入伙不到一天，多半就会成他们的船舱小 厮……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4205",
-   1,
-   "  Tomcat: [是啊……绝对是个船舱小厮。]",
-   "  Tomcat: [是啊……绝对是个船舱小 厮。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4223",
-   1,
-   "  Tomcat: [够锋利，必要时能当武器用。]",
-   "  Tomcat: [够锋利，必要时能当武器 用。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4271",
-   1,
-   "  Yiffai: [把这东西脱下来就是这风险……]",
-   "  Yiffai: [把这东西脱下来就是这风 险……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4272",
-   1,
-   "  Tomcat: [再把这套衣服配上宇宙头盔，你就能在任何大气环境里呼吸了！]",
-   "  Tomcat: [再把这套衣服配上宇宙头 盔，你就能在任何大气环境里呼吸了！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4333",
-   1,
-   "  Tomcat: [对，之前的特工留下的线索表明，这颗星球很久以前住着有超能力的生物。]",
-   "  Tomcat: [对，之前的特工留下的线索 表明，这颗星球很久以前住着有超能力的生 物。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4354",
-   1,
-   "  Tomcat: [对，之前的特工留下的线索表明，这颗星球很久以前住着有超能力的生物。]",
-   "  Tomcat: [对，之前的特工留下的线索 表明，这颗星球很久以前住着有超能力的生 物。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4368",
-   1,
-   "  Tomcat: [反重力脚环会用了没，Y特工？]",
-   "  Tomcat: [反重力脚环会用了没，Y特 工？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4371",
-   1,
-   "  Tomcat: [哦？你说她还在学院的时候？]",
-   "  Tomcat: [哦？你说她还在学院的时 候？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4378",
-   1,
-   "  Tomcat: [没、没有，小狗崽。没什么。]",
-   "  Tomcat: [没、没有，小狗崽。没什 么。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4387",
-   1,
-   "  Yiffai: [我又不长得像个小孩，对吧？！]",
-   "  Yiffai: [我又不长得像个小孩，对 吧？！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4417",
-   1,
-   "  Yiffai: [她说等我第一次正式出任务，就让我拿着。]",
-   "  Yiffai: [她说等我第一次正式出任 务，就让我拿着。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4440",
-   1,
-   "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-   "  Yiffai: [当然！只要没选什么花哨的 能力，我就可以按 UP+ATTACK 射出钩 子，挂在天花板上荡来荡去！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4446",
-   1,
-   "  Yiffai: [只要能牢牢钩住就行，对吧？]",
-   "  Yiffai: [只要能牢牢钩住就行，对 吧？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4452",
-   1,
-   "  Yiffai: [用它不需要特别操作，对吧？]",
-   "  Yiffai: [用它不需要特别操作，对 吧？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4460",
-   1,
-   "  Yiffai: [那个月犬店主也是这么说的！]",
-   "  Yiffai: [那个月犬店主也是这么说 的！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4465",
-   1,
-   "  Tomcat: [严格说，是场衰减棱镜。有只生物很喜欢你的话，抚摸它就能给水晶充能！效果因生物而异！]",
-   "  Tomcat: [严格说，是场衰减棱镜。有 只生物很喜欢你的话，抚摸它就能给水晶充 能！效果因生物而异！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4488",
-   1,
-   "  Tomcat: [除了你已经汇报的那些？嗯……]",
-   "  Tomcat: [除了你已经汇报的那些？ 嗯……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4549",
-   1,
-   "  Yiffai: [我会尽量小心的。伊吠完毕。]",
-   "  Yiffai: [我会尽量小心的。伊吠完 毕。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4558",
-   1,
-   "  Tomcat: [小狗崽，要是你下面没胀大到让你成了“顶级攻”特工，你就谢天谢地吧。]",
-   "  Tomcat: [小狗崽，要是你下面没胀大 到让你成了“顶级攻”特工，你就谢天谢地 吧。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4560",
-   1,
-   "  Yiffai: [真、真的？？那我终于能比……还大了？]",
-   "  Yiffai: [真、真的？？那我终于能 比……还大了？]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4574",
-   1,
-   "  Tomcat: [星球上的居民说，它们能增强发现者潜在的灵能，不过我们没法测出真假。]",
-   "  Tomcat: [星球上的居民说，它们能增 强发现者潜在的灵能，不过我们没法测出真 假。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4603",
-   1,
-   "  Tomcat: [对，没错，就像小吱吱说的。]",
-   "  Tomcat: [对，没错，就像小吱吱说 的。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4604",
-   1,
-   "  Yiffai: [那我就能出门偷东西，悬浮摩托想停哪儿停哪儿，甚至干点真正下流的事……]",
-   "  Yiffai: [那我就能出门偷东西，悬浮 摩托想停哪儿停哪儿，甚至干点真正下流的 事……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4622",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4629",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4636",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4643",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4650",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4657",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4664",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4671",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4678",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4685",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4692",
-   1,
-   "  Tomcat: [那就是你刚捡到的地图磁盘！]",
-   "  Tomcat: [那就是你刚捡到的地图磁 盘！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4703",
-   1,
-   "  Tomcat: [可不是普通卡，那是宇宙卡，小狗！]",
-   "  Tomcat: [可不是普通卡，那是宇宙 卡，小狗！]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4720",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4727",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4734",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4741",
-   1,
-   "  Yiffai: [那么，我刚拿到了这个船件……]",
-   "  Yiffai: [那么，我刚拿到了这个船 件……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4742",
-   1,
-   "  Tomcat: [我看到了！重型设备不是我的专长，不过旧机库有当地机械师能给你建议。]",
-   "  Tomcat: [我看到了！重型设备不是我 的专长，不过旧机库有当地机械师能给你建 议。]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4782",
-   1,
-   "  Mauser: 有时候你能在探索时找到装备。",
-   "  Mauser: 有时候你能在探索时找到装 备。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4789",
-   1,
-   "  Bossu: 关键是务必避免撞上那只大壮兽。它造成的伤害比那里其他任何东西都大。",
-   "  Bossu: 关键是务必避免撞上那只大壮 兽。它造成的伤害比那里其他任何东西都大。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4810",
-   1,
-   "  Mauser: 我看到那龙的双眼一闪，然后……！",
-   "  Mauser: 我看到那龙的双眼一闪，然 后……！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4816",
-   1,
-   "  Mauser: 哎呀！那可是个难对付的敌人！",
-   "  Mauser: 哎呀！那可是个难对付的敌 人！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4829",
-   1,
-   "  Tomcat: 你不会让这混蛋把你打倒的吧？",
-   "  Tomcat: 你不会让这混蛋把你打倒的 吧？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4864",
-   1,
-   "  Tomcat: 糟了，你的生命值刚掉下去了。",
-   "  Tomcat: 糟了，你的生命值刚掉下去 了。"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4972",
-   1,
-   "  * 很简单：把你在外头找到的那些花哨芯片带给我，我就替你破解门锁！这不是双赢嘛！",
-   "  * 很简单：把你在外头找到的那些花哨芯 片带给我，我就替你破解门锁！这不是双赢 嘛！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:4979",
-   1,
-   "  * 拜拜，特工！再给我多带些那种芯片来！",
-   "  * 拜拜，特工！再给我多带些那种芯片 来！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:5045",
-   1,
-   "  * 嘿，等一下……你不就是想白拿石头吗？！",
-   "  * 嘿，等一下……你不就是想白拿石头 吗？！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:5082",
-   1,
-   "  Anon/Fox: 你能让你的主人过来帮我吗？",
-   "  Anon/Fox: 你能让你的主人过来帮我 吗？"
-  ],
-  [
-   "P22:patch.pak:datadm/1:5088",
-   1,
-   "  Anon/Fox: 嘿，帮这个占位角色一把吧！",
-   "  Anon/Fox: 嘿，帮这个占位角色一把 吧！"
-  ],
-  [
-   "P22:patch.pak:datadm/1:5184",
-   1,
-   "  * 能见到另一位宇宙育种者，我太高兴了，哪怕我只是个占位角色！",
-   "  * 能见到另一位宇宙育种者，我太高兴 了，哪怕我只是个占位角色！"
+   "  Tomcat: [别介意，小狗崽，不过我看你入伙不到一 天，多半就会成他们的船舱小厮……]"
   ],
   [
    "P22:patch.pak:datadm/1:5253",
    1,
    "  * [你、你是只好狗狗，对吧？不会咬我，或者……什么的……]",
-   "  * [你、你是只好狗狗，对吧？不会咬 我，或者……什么的……]"
-  ],
-  [
-   "P22:patch.pak:datadm/1:5286",
-   1,
-   "  * [要是你没出现，我真不知道该怎么办！]",
-   "  * [要是你没出现，我真不知道该怎么 办！]"
+   "  * [你、你是只好狗狗，对吧？不会咬我，或 者……什么的……]"
   ]
  ]
 }
