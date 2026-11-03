@@ -112,6 +112,22 @@ R9 三十九批已全部落地（candidate13～52）。本文件记录三类事�
 
 所以 batch-24 已整批回退，candidate53 与台账一并删除。结论：**在分页不变的约束下，U+2028 修不了切词**。真要修只能改文案，让句子在词边界自然折行——那是重写句子，不是调断行。
 
+### 两条已核实的边界（改 `vsn` 之前必读）
+
+**一、U+2028 不能进 `vsn` 源，但原因不是字幕容器不认它。** 准确的说法是脚本词法先拒绝了：
+
+- `research/research_patch.py:107` 的字符白名单明确排除 U+2028／U+2029；
+- `localization/runtime/CjkText.class` 的字符集含「中」但不含 U+2028；
+- 所以 `SubtitleLayoutTest.parse`（`SubtitleLayoutTest.java:115`）在 `pages()` 之前就报 `Parse Error`。
+
+`SubtitleLayout.pages` 本身**不拒** U+2028：`DialogueGrid.java:32` 只拒 CONTROL／FORMAT 类，U+2028 是 LINE_SEPARATOR；`PixelLayout.java:525` 还把它当硬断行。所以「字幕容器不支持 U+2028」是错的，是**上游词法**拦住了。
+
+batch-22（57 条）与 batch-23（1,163 条）都没有一条落在 `vsn`：前者 datadf 30 + datadm 27，后者 datadf 592 + datadm 571。它们没踩到这个限制纯属范围恰好不重叠。
+
+**二、只改对话框时「不在演出交接点」自动满足。** 四份对话框资源里 `cut`／`fadecut`／`snap`／`music`／`rewind`／`wait`／`queue`／`fade` 命中 **0**（jar `datadf/1` 5,190 行、`datadm/1` 5,238 行；pak `datadf/1` 5,373 行、`datadm/1` 5,386 行）。文件里有 `include`／`if`／`do` 与场景标签，但不属于这几类演出命令。
+
+**将来改 `vsn` 不能沿用这条**：`vsn` 里这些命令是有的，`rewind!` 之后常紧跟 `text:`，交接点判定会真正起作用。
+
 ### 6. `Fenfen` 与「芬芬」：已清零（batch-20）
 
 `glossary.csv` 的条目是 `Fenfen,种族名,芬芬,,proposed`（`芬芬` 与 `proposed` 之间是一个空列），batch-16 只改了 3 处全大写 `FENFEN`。batch-20 把玩家可见的 **152 次驼峰 `Fenfen`**（148 个位置）全部改成「芬芬」：按出现次数分 `datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77；按位置分 17、16、38、77。
