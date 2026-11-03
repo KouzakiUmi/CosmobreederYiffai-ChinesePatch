@@ -28,6 +28,7 @@
 ## 索引
 
 - 发行与构建：[README.md](README.md) · [docs/RELEASE-alpha0.2.md](docs/RELEASE-alpha0.2.md) · [docs/RELEASE-alpha0.1.md](docs/RELEASE-alpha0.1.md) · [docs/SOURCE_BUILD.md](docs/SOURCE_BUILD.md)
+- 工作流：[翻译与校对工作流](localization/docs/翻译与校对工作流.md)（从取证到发行物的九阶段全流程、台账守卫、回归步骤、常见陷阱）
 - 编辑审校：[R1 方案](localization/editorial/r1/TRANSLATION_PLAN.md) · [R2 修复](localization/editorial/r2/README.md) · [R3 人名](localization/editorial/r3-names/README.md) · [R4 留置裁决](localization/editorial/r4-pending/README.md) · [R5 创译](localization/editorial/r5-creative/README.md) · [R6 纠错](localization/editorial/r6-consistency/README.md) · [R7 渲染判定](localization/editorial/r7-render/README.md) · [R8 谜题提示](localization/editorial/r8-puzzle/README.md) · [R9 全正文精校](localization/editorial/r9-polish/README.md)
 - 交接与恢复：[localization/editorial/HANDOFF.md](localization/editorial/HANDOFF.md)（当前状态、遗留项、精校批次进度与恢复步骤）
 - 技术研究：[docs/](docs/) 下的排版、字体渲染、差分与 PAK 交付方案
