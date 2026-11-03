@@ -62,7 +62,7 @@
 
 统计（只算玩家可见文本，脚本标签与 `include` 行已排除；`tools/probe_fenfen.py` 可复算）：
 
-- **152 处** `Fenfen`，分布在 148 个位置：`datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77；
+- **152 次出现**，落在 **148 个位置**；按出现次数分 `datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77，按位置分则是 17、16、38、77；
 - 说话人槽位（`Fenfen: [...]`）**0 处**——早前写的「39 处」是错的，用 `Name: [` 形状逐行匹配后为 0；
 - 所以这 152 处全在正文里，理论上都可改，但仍要逐处看上下文。
 
@@ -108,7 +108,7 @@ A 路的「无溢出」是唯一来自子代理的独立视觉确认；B、C 两
 
 扫描口径：引号对内**含汉字**才换全角；引号内是纯拉丁的保留（`“SELECT”`、`“DOWN”+“JUMP”`、`“SPIKERS”` 这些地方 8px 才配得上拉丁字）。中文句中的 `,` `!` `?` `:` `;` 扫出来是 0 处——除了 `...`、`!!!!` 这类本身就是英文串的地方。
 
-结果 27 行：sfw 13、nsfw 14。3 处多行角色卡值（`CosmoCardDragon`、`CosmoCardRedbull` ×2）暂不改，因为多行值的换行装不进 TSV 决策表，需要先做一条多行值通道。
+结果 27 行：sfw 12、nsfw 15（jar 侧 datadf 3 + datadm 8 + datav 1，pak 侧 3 + 10 + 2）。3 处多行角色卡值（jar 仅 `CosmoCardRedbull.desc.Front`；pak 是 `CosmoCardDragon.desc.Front` 与 `CosmoCardRedbull.desc.Front`）暂不改，因为多行值的换行装不进 TSV 决策表，需要先做一条多行值通道。
 
 ## 八、行首标点：贪心折行不认禁则
 

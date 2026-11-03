@@ -96,7 +96,7 @@ R9 三十五批已全部落地（candidate13～48）。本文件记录三类事�
 
 ### 6. `Fenfen` 与「芬芬」（未处理，152 处）
 
-`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,,proposed`（`芬芬` 与 `proposed` 之间是一个空列），batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **152 处驼峰 `Fenfen`**，分布在 148 个位置（`datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77）。典型是 `ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」、剧情里的「听懂Fenfen语」。
+`glossary.csv` 的条目是 `Fenfen,种族名,芬芬,,proposed`（`芬芬` 与 `proposed` 之间是一个空列），batch-16 已按它改了 3 处全大写 `FENFEN`，但玩家可见文本里还有 **152 次驼峰 `Fenfen`**，落在 **148 个位置**（按出现次数分 `datadf/1` 19、`datadm/1` 18、`datav` 38、`vsn` 77；按位置分 17、16、38、77）。典型是 `ui.data.*.desc` 的「Fenfen故事第 N 部分」、卡面「典型Fenfen的后代」、剧情里的「听懂Fenfen语」。
 
 **说话人槽位 0 处**：早前记的「39 处落在 `Fenfen: [...]`」是错的，用 `ACTOR` 形状（`Name: [`）逐行匹配后为 0，`tools/probe_fenfen.py` 可复算。所以这批不涉及 actor，但仍需逐处判断引号/上下文（例如 `Fenfen故事` 要写成「芬芬故事」还是「芬芬的故事」），不是无脑替换。
 
