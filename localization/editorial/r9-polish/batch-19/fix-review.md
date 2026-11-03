@@ -70,3 +70,15 @@
 
 1. `out/layout/ROUNDUP.md:111` 仍写 sfw 13、nsfw 14。数据与 `batch-19/README.md:27` 都是 12／15。
 2. Fenfen 的 152／148 和槽位 0 是对的，但 `LEFTOVERS.md:99` 与 `ROUNDUP.md:65` 把出现次数分项（19／18／38／77，合计 152）写成了 148 个位置的分解。位置分项是 datadf 17、datadm 16、datav 38、vsn 77。
+
+## 二次复核
+
+三处已确认
+
+对照 `e890ccc`，只核上一节的三处，没有重开全量审查，也没有重解密。Fenfen 两组分项沿用上一轮对 candidate47 的独立重算。
+
+1. 分侧已对齐。`batch-19/README.md:29` 与 `out/layout/ROUNDUP.md:111` 都是 sfw 12、nsfw 15，并写出 jar 侧 datadf 3 + datadm 8 + datav 1、pak 侧 3 + 10 + 2。与工单、决策表、台账一致。ROUNDUP 其它章节、`LEFTOVERS.md`、`AGENTS.md` 里没有再把本批写成 sfw 13／nsfw 14。还出现这组旧数字的只有 `batch-19/push-review.md` 和本文件上文，都是核验记录在引用旧句，不是现状陈述。
+
+2. 两组数与重算一致，没有再混用。`LEFTOVERS.md:99` 与 `ROUNDUP.md:65` 分开写：152 次出现，分项 19／18／38／77；148 个位置，分项 17／16／38／77。19+18+38+77 = 152，17+16+38+77 = 148。`AGENTS.md:10`、`README.md:243`、`ROUNDUP.md:18` 与 `:142` 只写「152 处」，没有把 19／18／38／77 安到 148 个位置上。
+
+3. 启发式说明与第 5 节一致，没有说成本批可能误伤。`batch-19/README.md:26` 写明跳过表是前缀启发式、不是完整脚本解析器，并点了 `if(`、`include{`、行中标签、不以这些前缀开头的 `while`／`return`。接着写本批 27 行没有这类行，所以没有误伤；下次全库重扫不能只靠这份跳过表。
