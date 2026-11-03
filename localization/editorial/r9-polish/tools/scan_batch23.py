@@ -85,12 +85,16 @@ def breaks_of(rows):
 
 
 def repair(body, rows, splits, bigrams):
-    # A row may already carry breaks from batch-22. Those are not mine to remove:
-    # moving a break is fine, deleting one would undo the earlier fix and change
-    # the drawn row count. Only rows whose break count can stay >= the original
-    # are repaired.
+    """Pick the break move that removes the most splits and adds the fewest.
+
+    The first candidate that merely lowers the count is not good enough: it can
+    land inside a different word (`足` / `够`). So every candidate is scored,
+    preferring more splits removed and then fewer *new* split pairs introduced.
+    """
     flat = body.replace(BREAK, '')
     original_breaks = body.count(BREAK)
+    original_pairs = {pair for _, pair in splits}
+    best = None
     for idx, _pair in splits:
         head = ''.join(rows[:idx + 1])
         tail = ''.join(rows[idx + 1:])
@@ -104,11 +108,17 @@ def repair(body, rows, splits, bigrams):
             drawn = wrap(candidate)
             if len(drawn) != len(rows):
                 continue
-            remaining = [p for _, p in breaks_of(drawn) if bigrams.get(p, 0) >= MIN_PAIR]
-            if len(remaining) >= len(splits):
+            after = [p for _, p in breaks_of(drawn) if bigrams.get(p, 0) >= MIN_PAIR]
+            introduced = [p for p in after if p not in original_pairs]
+            removed = len(splits) - len(after)
+            if removed <= 0:
                 continue
-            return candidate, len(splits) - len(remaining)
-    return None
+            score = (removed, -len(introduced))
+            if best is None or score > best[0]:
+                best = (score, candidate, removed, introduced)
+    if best is None:
+        return None
+    return best[1], best[2]
 
 
 def main():

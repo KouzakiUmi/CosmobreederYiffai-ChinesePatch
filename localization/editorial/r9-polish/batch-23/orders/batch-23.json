@@ -571,7 +571,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "    * 如果你需要帮忙找更多芯片，这一带有一只奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！",
-     "target": "    * 如果你需要帮忙找更多芯片，这一带有一只 奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！"
+     "target": "    * 如果你需要帮忙找更多芯片，这一带 有一只奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:1957",
@@ -1033,7 +1033,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-     "target": "  Yiffany: [当然！只要我没选中什么花哨能力， 就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
+     "target": "  Yiffany: [当然！只要我没选中什么花哨能力 ，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:2447",
@@ -1187,7 +1187,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  The0: [哦、嘿！我可不是陌生人！就是你那友好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]",
-     "target": "  The0: [哦、嘿！我可不是陌生人！就是你那友 好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]"
+     "target": "  The0: [哦、嘿！我可不是陌生人！ 就是你那友好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:2594",
@@ -1561,7 +1561,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Bossu: [抓一只回去研究虽然很诱人，但你在这么深处遇到的，肯定比你之前追过的那只大壮兽还要强。]",
-     "target": "  Bossu: [抓一只回去研究虽然很诱人，但你在这么 深处遇到的，肯定比你之前追过的那只大壮兽还要强。]"
+     "target": "  Bossu: [抓一只回去研究虽然很诱 人，但你在这么深处遇到的，肯定比你之前追过的那只大壮兽还要强。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:2915",
@@ -1792,7 +1792,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]",
-     "target": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足 够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]"
+     "target": "  Bossu: [有报道称，一只「跳跃者」只要吸收了 足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:3117",
@@ -2529,7 +2529,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-     "target": "  Yiffany: [当然！只要我没选中什么花哨能力， 就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
+     "target": "  Yiffany: [当然！只要我没选中什么花哨能力 ，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadf/1:4287",
@@ -3716,7 +3716,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "    * 如果你需要帮忙找更多芯片，这一带有一只奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！",
-     "target": "    * 如果你需要帮忙找更多芯片，这一带有一只 奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！"
+     "target": "    * 如果你需要帮忙找更多芯片，这一带 有一只奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:1991",
@@ -3925,7 +3925,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Tomcat: [人在空中时按 DOWN + JUMP，就能使出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]",
-     "target": "  Tomcat: [人在空中时按 DOWN + JUMP，就能使 出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]"
+     "target": "  Tomcat: [人在空中时按 DOWN + JUMP， 就能使出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:2239",
@@ -4002,7 +4002,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [它在说“按 SELECT 选择你的超能力，然后同时按下 UP+ATTACK，激活你选定的能力！”]",
-     "target": "  Yiffai: [它在说“按 SELECT 选择你的超能力， 然后同时按下 UP+ATTACK，激活你选定的能力！”]"
+     "target": "  Yiffai: [它在说“按 SELECT 选择你的超能力 ，然后同时按下 UP+ATTACK，激活你选定的能力！”]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:2298",
@@ -4145,7 +4145,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-     "target": "  Yiffai: [当然！只要没选什么花哨的能力， 我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
+     "target": "  Yiffai: [当然！只要没选什么花哨的能力 ，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:2483",
@@ -4717,7 +4717,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]",
-     "target": "  Bossu: [有报道称，一只「跳跃者」只要吸收了足 够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]"
+     "target": "  Bossu: [有报道称，一只「跳跃者」只要吸收了 足够的灵能，就会变成「牛蛙」，能从远处朝目标喷吐泡泡，甚至还能用新长出来的修长舌头造成伤害。]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:3164",
@@ -5201,7 +5201,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足感……而且看它发光的样子，似乎还可能恢复那些奇异能力！]",
-     "target": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足感…… 而且看它发光的样子，似乎还可能恢复那些奇异能力！]"
+     "target": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足 感……而且看它发光的样子，似乎还可能恢复那些奇异能力！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:3935",
@@ -5476,7 +5476,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-     "target": "  Yiffai: [当然！只要没选什么花哨的能力， 我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
+     "target": "  Yiffai: [当然！只要没选什么花哨的能力 ，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
     },
     {
      "row_id": "P23:cosmobreeder-multi.jar:datadm/1:4360",
@@ -6795,7 +6795,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "    * 如果你需要帮忙找更多芯片，这一带有一只奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！",
-     "target": "    * 如果你需要帮忙找更多芯片，这一带有一只 奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！"
+     "target": "    * 如果你需要帮忙找更多芯片，这一带 有一只奇怪的老狗，卖着一件挺不错的装备，能帮你找到它们！"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:1955",
@@ -7301,7 +7301,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-     "target": "  Yiffany: [当然！只要我没选中什么花哨能力， 就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
+     "target": "  Yiffany: [当然！只要我没选中什么花哨能力 ，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:2459",
@@ -7477,7 +7477,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  The0: [哦、嘿！我可不是陌生人！就是你那友好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]",
-     "target": "  The0: [哦、嘿！我可不是陌生人！就是你那友 好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]"
+     "target": "  The0: [哦、嘿！我可不是陌生人！ 就是你那友好的小小黑客狗。只是想顺便插进你这条小小的一次性密码本加密频道！]"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:2616",
@@ -7895,7 +7895,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Bossu: [抓一只回去研究虽然很诱人，但你在这么深处遇到的，肯定比你之前追过的那只大壮兽还要强。]",
-     "target": "  Bossu: [抓一只回去研究虽然很诱人，但你在这么 深处遇到的，肯定比你之前追过的那只大壮兽还要强。]"
+     "target": "  Bossu: [抓一只回去研究虽然很诱 人，但你在这么深处遇到的，肯定比你之前追过的那只大壮兽还要强。]"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:2940",
@@ -8390,7 +8390,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "    Mauser: [你说你听见一个声音在讲「按 SELECT 循环切换超能力，再用 UP+ATTACK 使用该能力」时，我还以为你神志不清、出不了任务了！]",
-     "target": "    Mauser: [你说你听见一个声音在讲「按 SELECT  循环切换超能力，再用 UP+ATTACK 使用该能力」时，我还以为你神志不清、出不了任务了！]"
+     "target": "    Mauser: [你说你听见一个声音在讲「按 SE LECT 循环切换超能力，再用 UP+ATTACK 使用该能力」时，我还以为你神志不清、出不了任务了！]"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:3544",
@@ -9028,7 +9028,7 @@
      "archive_entry": "datadf/1",
      "source": "",
      "current": "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]",
-     "target": "  Yiffany: [当然！只要我没选中什么花哨能力， 就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
+     "target": "  Yiffany: [当然！只要我没选中什么花哨能力 ，就可以按 UP+ATTACK 射出钩子，然后在天花板上荡过去！]"
     },
     {
      "row_id": "P23:patch.pak:datadf/1:4439",
@@ -10325,7 +10325,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "    * 如果你需要帮忙找更多芯片，这一带有一只奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！",
-     "target": "    * 如果你需要帮忙找更多芯片，这一带有一只 奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！"
+     "target": "    * 如果你需要帮忙找更多芯片，这一带 有一只奇怪的老狗，他卖一件挺不错的装备，能帮你找到它们！"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:2002",
@@ -10567,7 +10567,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Tomcat: [人在空中时按 DOWN + JUMP，就能使出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]",
-     "target": "  Tomcat: [人在空中时按 DOWN + JUMP，就能使 出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]"
+     "target": "  Tomcat: [人在空中时按 DOWN + JUMP， 就能使出俯冲踢。踢中能受伤的东西，还能借力向上弹起。]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:2260",
@@ -10655,7 +10655,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [它在说“按 SELECT 选择你的超能力，然后同时按下 UP+ATTACK，激活你选定的能力！”]",
-     "target": "  Yiffai: [它在说“按 SELECT 选择你的超能力， 然后同时按下 UP+ATTACK，激活你选定的能力！”]"
+     "target": "  Yiffai: [它在说“按 SELECT 选择你的超能力 ，然后同时按下 UP+ATTACK，激活你选定的能力！”]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:2319",
@@ -10820,7 +10820,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-     "target": "  Yiffai: [当然！只要没选什么花哨的能力， 我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
+     "target": "  Yiffai: [当然！只要没选什么花哨的能力 ，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:2512",
@@ -12008,7 +12008,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足感……而且看它发光的样子，似乎还可能恢复那些奇异能力！]",
-     "target": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足感…… 而且看它发光的样子，似乎还可能恢复那些奇异能力！]"
+     "target": "  Tomcat: [蝌蚪出了名地滑溜，却很有满足 感……而且看它发光的样子，似乎还可能恢复那些奇异能力！]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:4031",
@@ -12360,7 +12360,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]",
-     "target": "  Yiffai: [当然！只要没选什么花哨的能力， 我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
+     "target": "  Yiffai: [当然！只要没选什么花哨的能力 ，我就可以按 UP+ATTACK 射出钩子，挂在天花板上荡来荡去！]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:4465",
@@ -12448,7 +12448,7 @@
      "archive_entry": "datadm/1",
      "source": "",
      "current": "  Tomcat: [他们现在都在待命，还不是因为特工交来的那些报告，里面净是些让人难以置信的事，你知道吗！]",
-     "target": "  Tomcat: [他们现在都在待命，还不是因为特工交来 的那些报告，里面净是些让人难以置信的事，你知道吗！]"
+     "target": "  Tomcat: [他们现在都在待命，还不是因为特工交 来的那些报告，里面净是些让人难以置信的事，你知道吗！]"
     },
     {
      "row_id": "P23:patch.pak:datadm/1:4520",
