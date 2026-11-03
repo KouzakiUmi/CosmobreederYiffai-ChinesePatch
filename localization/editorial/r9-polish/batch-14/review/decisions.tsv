@@ -1,0 +1,67 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+R9M-P14-0101-25ba1e	R9M	B	term	SCd22b4aba3c04b03e	SFWc8097660c6e2ca338e25ba1e	apply	  * 要是在外面找到无线电，记住：在物品菜单里按SELECT就能使用它！	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：同 root 同英文的男版行（datadm）在 batch-01 已落地为「要是在外面找到无线电，记住：在物品菜单里按SELECT就能使用它！」，女版 pak 行也经 R9-0007 由「收音机」改成「无线电／使用它」；本批 sfw 侧仍是那次修订之前复用的副本，一句里「收音机」出现两次，两个词都与落地稿不一致。「无线
+R9M-P14-0102-129580	R9M	C	format	SC673956fabaebcabf	SFW4468ec7b9c5dd0abce129580	apply	  * ……SXUXYGAX……	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：同一场里 L205 已经用全角省略号（「……不过你碰到的任何 bug 或崩溃……」），本行却把英文原行的半角三点「...」原样搬过来，一场里两种省略号并存；女版 pak 行本来就是「……SXUXYGAX……」，男版 pak 行由 R9-0016 统一成同一写法，只有本批 sfw 侧还留着旧写法。只动两对省略号，彩蛋代码
+R9M-P14-0103-c56ab4	R9M	B	voice	SC50f3fc86b5971d20	SFW7b7b39f5719b50ca1ec56ab4	apply	  * 乖狗狗！带上你的主人再回来吧！	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：同一句在同一 root 的男版落地行作「乖狗狗！带上你的主人再回来吧！」，本批 sfw 侧仍是旧稿「好小子」。「好小子」在中文里多是夸小男孩，指狗不如「乖狗狗」贴；女版落地行（GOOD GIRL）另作「好姑娘」，两版按性别分写，本条只把男版对齐到男版落地稿，不照抄女版。
+R9M-P14-0104-321758	R9M	B	term	SC402a64236fd17315	SFW8e7491b79aa637b28d321758	apply	  Mauser: [你进入了一片旧矿井的竖井网。小心点！]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文是 A NETWORK OF OLD MINE SHAFTS：OLD 是「旧矿井」不是「废弃」，NETWORK OF SHAFTS 是竖井网；现译「一片废弃矿道」把 SHAFTS 换成巷道、又添出「废弃」一层原文没有的信息。同 root 男版落地行已作「一片旧矿井的竖井网」（R9-0020），「竖井网」是 R9 已
+R9M-P14-0105-1abae9	R9M	B	term	SCf494c71cb718a40a	SFW4adaab1cbfaae329b81abae9	apply	  Mauser: [你进入了旧矿井的竖井网。小心！]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：SHAFTS 是竖井，巷道（tunnel／gallery）是另一种设施；现译「巷道网」把玩法里要钻的竖井换成了巷道。同 root 女版落地行经 R9-0008 已改为「你进入了旧矿井的竖井网。小心！」，「竖井网」为 R9 已落地项。只换这一个名词与结构助词「的」，进入警告的其余部分不动。
+R9M-P14-0106-210c6c	R9M	B	term	SC3bec6b0508352df0	SFWa14b5d8284347d15f2210c6c	apply	  Mauser: [地底那么深，很难扫描清楚。不过，我在矿井更深处探测到了几道安保门的信号。你的新门卡应该能让你通过。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：SECURITY DOORS 在本作落地稿里一律作「安保门」（R9 已落地项）。同 root 女版 pak 行经 R9-0010 由「安全门」改成「安保门」，男版落地行（SC3ffe8a737f97a917）本就是「安保门」，只有本批 sfw 侧还是「安全门」。指的还是同一扇门、同一张门卡，玩法条件（门卡→通过）没有变
+R9M-P14-0107-81e111	R9M	C	continuity	SC8e1f8d67102dc9c5	SFW57d4d69bbc6742ceee81e111	apply	      Mauser: [我已规划好通往地表的路线。那是矿坑最西北角的一条出入竖井。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：竖井本身就是垂直通道，现译「通道竖井」把 ACCESS 又译了一层，等于说「通道通道」，读起来叠义；同 root 男版落地行（R9-0023）作「一条出入竖井」，女版落地行作「矿井最西北的一条出入竖井」。只改这一个词，方向（最西北角）与「通往地表」的路线信息都不动。
+R9M-P14-0108-beb332	R9M	B	idiom	SCd2137b4704b85edf	SFWca93524423bd839593beb332	apply	      Mauser: [有了那只反重力踝环，你应该就能更轻松地穿越竖井，往矿井更深处探索了。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文只有一条链：TRAVERSE VERTICAL SHAFTS MORE EASILY → THAT SHOULD ALLOW YOU TO EXPLORE FURTHER；现译拆成两句，ALLOW 被译成第二个「应该能让你」，一句里连着两个「应该能」，是逐句直译。R9-0009 已把女版 pak 行合并成「穿越竖井
+R9M-P14-0109-0cefac	R9M	B	idiom	SCe1051360a3f731c1	SFW4b6d2e9c10f4575e410cefac	apply	      Mauser: [有了那只反重力踝环，你应该就能更轻松地穿越竖井，往矿井更深处探索了。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：与女版同样的问题：ALLOW 被译成第二个「应该能让你」，一句两个「应该能」；另外 MINES 在本 root 落地稿里作「矿井」（R9-0022 把 SalamandersHint 的「矿洞」也改成「矿井」），此处「矿洞」是旧口径。男版落地行（R9-0021）合并后作「穿越竖井，往矿井更深处探索了」。合并与换词都不改
+ds:P14-0110	ds	B	idiom	SCefb9230b1c9865f9	SFW2370857dfe1710d0705d19bb	reject		pak 侧同句就是当前写法（「那片区域那边怎么了」），本条提的是新措辞；本批的目标是让两侧一致，不是把一侧润色成第三种说法。记为可选润色，留 LEFTOVERS。
+R9M-P14-0111-92328e	R9M	B	idiom	SC2a0979a916ed9a55	SFW24455279127eb1272892328e	apply	  Mauser: [那些矿井里地震活动频繁，其中多数来自北面的几个区段。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：现译连着两个「很多」（「地震活动很多，其中很多来自」），是逐词贴英文 A LOT OF IT 的结果；SECTORS 在矿井语境作「扇区」也不自然。R9-0011 把女版 pak 行改成「地震活动频繁，其中多数来自北面的几个区段」。事实（活动多、多源自北面）与后面「该不该去看看」的问句关系不变。
+R9M-P14-0112-425415	R9M	B	term	SC7aaf585bc18c4796	SFWbf84d7def7891dd00b425415	apply	  Mauser: [就在刚才，我们开始记录到矿井东北区域出现的奇怪能量波动。]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：同一对孪生场里 MINES 用了两个词：女版落地行是「矿井东北区域」，本行是「矿洞东北区域」；R9-0022 已把男版 pak 行的「矿洞」改成「矿井」，把本 root 的用词统一到「矿井」。只换这一个名词，方位（东北）与内容（奇怪能量波动）都不动。
+R9M-P14-0113-48f627	R9M	C	voice	SC1dfdfb68d6582b3e	SFW71628a30666f3b6ede48f627	apply	  The0: [好吧，哇，还真蒙对了……]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：「真是运气好猜中了」把 LUCKY GUESS 逐词译出来，读着像 The0 在替玩家做总结；他这句是被人猜中后心虚的自嘲，R9-0024 的男版落地稿作「还真蒙对了……」更贴他嬉皮笑脸的口气，也更短。只换这一句的口气，不添梗、不改后两行的支吾（「可是我……正在……忙点事情！」）。
+R9M-P14-0114-f128a6	R9M	C	format	SCf39402b266335875	SFW5228e36d4de2b2753cf128a6	apply	  The0: [好吧，哇，这猜得也太准了……]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：「好吧哇」把 OKAY 和 WOW 两个感叹黏成一个词，中文读起来像生造词，也丢了原句一愣一叹的顿挫；女版 pak 行经 R9-0013 已加逗号作「好吧，哇，」。只补一个逗号，字数、语气与后两行都不变。
+R9M-P14-0115-f6867a	R9M	B	format	SC9cf42dcbe9063239	SFW7e606362a247bdb62af6867a	apply	  The0: [总之，祝黑客——我是说，狩猎愉快！]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文的笑点靠把 HACKING 咬断成 HACK- 再改口成 HUNTING；现译在「黑客」中间插半角连字号成了「祝黑-客快乐」，中文词被劈开，在 12px 剧情框里像错字，改口的机制也没表达出来。R9-0025／R9-0031／R9-0032 已把三处 pak 行统一为「祝黑客——我是说，狩猎愉快！」，用破折号表示说
+R9M-P14-0115-3cb8fc	R9M	B	format	SC9e8ae452c8c4c692	SFWaf565ae95ed0e28c813cb8fc	apply	  The0: [总之，祝黑客——我是说，狩猎愉快！]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文的笑点靠把 HACKING 咬断成 HACK- 再改口成 HUNTING；现译在「黑客」中间插半角连字号成了「祝黑-客快乐」，中文词被劈开，在 12px 剧情框里像错字，改口的机制也没表达出来。R9-0025／R9-0031／R9-0032 已把三处 pak 行统一为「祝黑客——我是说，狩猎愉快！」，用破折号表示说
+R9M-P14-0116-c6f82c	R9M	B	idiom	SCe12aad66924f42a7	SFW20e53fcf3f156d30cfc6f82c	apply	  The0: [小狗会刨坑吧？总之，让我看看。扫描中……]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：LET'S SEE 的主语是 The0 自己；现译「总之，看看」把主语掉了，而上一行正是他在对小狗说话，很容易被读成让小狗去看，施受读偏。R9-0028 的男版落地稿补成「总之，让我看看」。只补两个字的施事，扫描流程的描写不动。
+R9M-P14-0117-3bd985	R9M	C	voice	SCbe0f3505c6f329fd	SFW61976ffc51e11c84e73bd985	apply	  The0: [嗨呀科博！你有点吓人，不过你有芯片吗？]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：「可」单字作转折在现代口语里偏文，后面又省掉主语「你」，与 The0 那种油嘴滑舌、句子带点耍赖的口气不合；R9-0030 的男版落地稿作「不过你有芯片吗？」。只换这个转折词，招呼语「嗨呀科博」与「你有点吓人」不动。
+R9M-P14-0118-99c851	R9M	B	idiom	SC88cbd3ccce3483f7	SFW215da36f753b3399be99c851	apply	  The0: [哦嘿，黏黏！身上粘着芯片吗？]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：「身上有芯片粘着你吗」是 GOT ANY CHIPS STUCK TO YOU 的逐字搬，「有…粘着你」在中文里不成句，还多出一个「有你」的施受错位；R9-0029 的男版落地稿作「身上粘着芯片吗？」。指的还是芯片粘在史莱姆身上这件事，玩笑与称呼「黏黏」不变。
+R9M-P14-0119-2c08a1	R9M	C	format	SC469e68526d8285f1	SFW5edb695493e80313202c08a1	apply	  The0: [什、什么？不可能！我的扫描程序是——]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文用行尾连字符表示话被切断；中文行尾留半角「-」在 12px 剧情框里像一个残留符号，本批另一处同型句（TooManyChips 男版下一行）早已用「那是——」。R9-0014／R9-0026 把两处 pak 行统一成「是——」。只换断句符号，不补被切掉的内容。
+R9M-P14-0119-7c4e8e	R9M	C	format	SCb6e9ead58b5909c4	SFW5f20146db1eafff3f27c4e8e	apply	  The0: [什、什么？不可能！我的扫描程序是——]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：英文用行尾连字符表示话被切断；中文行尾留半角「-」在 12px 剧情框里像一个残留符号，本批另一处同型句（TooManyChips 男版下一行）早已用「那是——」。R9-0014／R9-0026 把两处 pak 行统一成「是——」。只换断句符号，不补被切掉的内容。
+R9M-P14-0120-ba157f	R9M	B	format	SCb6e9ead58b5909c4	SFW00c4fcbefa0cb7c55fba157f	apply	  The0: [那是——算了，晚点再打给我吧！好，再见！]	本行与 patch.pak 侧同句是同一句话的两份；pak 侧在 batch-01 已精校，sfw 侧是旧副本。改成 pak 落地文本，两份一致。 提案原文：被切断的是「那是」，现译只留「那」再加半角连字符和空格（「那- 算了」）：中文里「那」能单独成词，读者会当成另起一句，而不是一个被咬断的词。本批女版同一句早已作「那是——听着，晚点再打给我！」，R9-0027 的男版落地稿补成「那是——算了，…」。补回「是」并换破折号，挂断前的语气与语义都不变。
+grok:P14-X001	grok	B	term	SCd22b4aba3c04b03e	SFWc8097660c6e2ca338e25ba1e	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X002	grok	C	format	SC673956fabaebcabf	SFW4468ec7b9c5dd0abce129580	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X003	grok	B	relationship	SC50f3fc86b5971d20	SFW7b7b39f5719b50ca1ec56ab4	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X004	grok	B	term	SC402a64236fd17315	SFW8e7491b79aa637b28d321758	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X006	grok	B	term	SCf494c71cb718a40a	SFW4adaab1cbfaae329b81abae9	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X007	grok	B	term	SC3bec6b0508352df0	SFWa14b5d8284347d15f2210c6c	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X008	grok	B	term	SC8e1f8d67102dc9c5	SFW57d4d69bbc6742ceee81e111	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X009	grok	B	idiom	SCd2137b4704b85edf	SFWca93524423bd839593beb332	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X010	grok	B	idiom	SCe1051360a3f731c1	SFW4b6d2e9c10f4575e410cefac	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X012	grok	B	term	SC2a0979a916ed9a55	SFW24455279127eb1272892328e	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X013	grok	B	term	SC7aaf585bc18c4796	SFWbf84d7def7891dd00b425415	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X014	grok	B	idiom	SC1dfdfb68d6582b3e	SFW71628a30666f3b6ede48f627	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X016	grok	C	format	SCf39402b266335875	SFW5228e36d4de2b2753cf128a6	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X017	grok	B	idiom	SC9cf42dcbe9063239	SFW7e606362a247bdb62af6867a	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X018	grok	B	idiom	SC9e8ae452c8c4c692	SFWaf565ae95ed0e28c813cb8fc	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X019	grok	B	idiom	SCbe0f3505c6f329fd	SFWbcc2166df1f2fea676b68831	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X020	grok	B	idiom	SCe12aad66924f42a7	SFW20e53fcf3f156d30cfc6f82c	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X021	grok	C	voice	SCbe0f3505c6f329fd	SFW61976ffc51e11c84e73bd985	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X022	grok	B	meaning	SC88cbd3ccce3483f7	SFW215da36f753b3399be99c851	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X023	grok	B	format	SC469e68526d8285f1	SFW5edb695493e80313202c08a1	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X024	grok	B	format	SCb6e9ead58b5909c4	SFW5f20146db1eafff3f27c4e8e	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X025	grok	B	format	SCb6e9ead58b5909c4	SFW00c4fcbefa0cb7c55fba157f	reject		与 DS 路同一点、同一条 pak 落地文本，取一条落地。
+grok:P14-X005	grok	B	continuity	SC402a64236fd17315	SFW1f7e12f387ab52c62664cfd8	reject		pak 侧同句就是当前写法，本条提的是新措辞；本批目标是让两侧一致，不把一侧润色成第三种说法。记入 LEFTOVERS 作为可选润色。
+grok:P14-X011	grok	C	continuity	SCefb9230b1c9865f9	SFW2370857dfe1710d0705d19bb	reject		pak 侧同句就是当前写法，本条提的是新措辞；本批目标是让两侧一致，不把一侧润色成第三种说法。记入 LEFTOVERS 作为可选润色。
+grok:P14-X015	grok	B	idiom	SC1dfdfb68d6582b3e	SFWe1c70c17081b0b0c393724b3	reject		pak 侧同句就是当前写法，本条提的是新措辞；本批目标是让两侧一致，不把一侧润色成第三种说法。记入 LEFTOVERS 作为可选润色。
+ds:P14-0101	ds	B	term	SCd22b4aba3c04b03e	SFWc8097660c6e2ca338e25ba1e	reject		与 R9M-P14-0101-25ba1e 同一行同一处，取先落地的条目。
+ds:P14-0102	ds	C	format	SC673956fabaebcabf	SFW4468ec7b9c5dd0abce129580	reject		与 R9M-P14-0102-129580 同一行同一处，取先落地的条目。
+ds:P14-0103	ds	B	voice	SC50f3fc86b5971d20	SFW7b7b39f5719b50ca1ec56ab4	reject		与 R9M-P14-0103-c56ab4 同一行同一处，取先落地的条目。
+ds:P14-0104	ds	B	term	SC402a64236fd17315	SFW8e7491b79aa637b28d321758	reject		与 R9M-P14-0104-321758 同一行同一处，取先落地的条目。
+ds:P14-0105	ds	B	term	SCf494c71cb718a40a	SFW4adaab1cbfaae329b81abae9	reject		与 R9M-P14-0105-1abae9 同一行同一处，取先落地的条目。
+ds:P14-0106	ds	B	term	SC3bec6b0508352df0	SFWa14b5d8284347d15f2210c6c	reject		与 R9M-P14-0106-210c6c 同一行同一处，取先落地的条目。
+ds:P14-0107	ds	C	continuity	SC8e1f8d67102dc9c5	SFW57d4d69bbc6742ceee81e111	reject		与 R9M-P14-0107-81e111 同一行同一处，取先落地的条目。
+ds:P14-0108	ds	B	idiom	SCd2137b4704b85edf	SFWca93524423bd839593beb332	reject		与 R9M-P14-0108-beb332 同一行同一处，取先落地的条目。
+ds:P14-0109	ds	B	idiom	SCe1051360a3f731c1	SFW4b6d2e9c10f4575e410cefac	reject		与 R9M-P14-0109-0cefac 同一行同一处，取先落地的条目。
+ds:P14-0111	ds	B	idiom	SC2a0979a916ed9a55	SFW24455279127eb1272892328e	reject		与 R9M-P14-0111-92328e 同一行同一处，取先落地的条目。
+ds:P14-0112	ds	B	term	SC7aaf585bc18c4796	SFWbf84d7def7891dd00b425415	reject		与 R9M-P14-0112-425415 同一行同一处，取先落地的条目。
+ds:P14-0113	ds	C	voice	SC1dfdfb68d6582b3e	SFW71628a30666f3b6ede48f627	reject		与 R9M-P14-0113-48f627 同一行同一处，取先落地的条目。
+ds:P14-0114	ds	C	format	SCf39402b266335875	SFW5228e36d4de2b2753cf128a6	reject		与 R9M-P14-0114-f128a6 同一行同一处，取先落地的条目。
+ds:P14-0115	ds	B	format	SC9cf42dcbe9063239	SFW7e606362a247bdb62af6867a	reject		与 R9M-P14-0115-f6867a 同一行同一处，取先落地的条目。
+ds:P14-0116	ds	B	idiom	SCe12aad66924f42a7	SFW20e53fcf3f156d30cfc6f82c	reject		与 R9M-P14-0116-c6f82c 同一行同一处，取先落地的条目。
+ds:P14-0117	ds	C	voice	SCbe0f3505c6f329fd	SFW61976ffc51e11c84e73bd985	reject		与 R9M-P14-0117-3bd985 同一行同一处，取先落地的条目。
+ds:P14-0118	ds	B	idiom	SC88cbd3ccce3483f7	SFW215da36f753b3399be99c851	reject		与 R9M-P14-0118-99c851 同一行同一处，取先落地的条目。
+ds:P14-0119	ds	C	format	SC469e68526d8285f1	SFW5edb695493e80313202c08a1	reject		与 R9M-P14-0119-2c08a1 同一行同一处，取先落地的条目。
+ds:P14-0120	ds	B	format	SCb6e9ead58b5909c4	SFW00c4fcbefa0cb7c55fba157f	reject		与 R9M-P14-0120-ba157f 同一行同一处，取先落地的条目。

@@ -1,0 +1,61 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-14 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate44",
+ "decisions_total": 66,
+ "apply_findings": [
+  "R9M-P14-0101-25ba1e",
+  "R9M-P14-0102-129580",
+  "R9M-P14-0103-c56ab4",
+  "R9M-P14-0104-321758",
+  "R9M-P14-0105-1abae9",
+  "R9M-P14-0106-210c6c",
+  "R9M-P14-0107-81e111",
+  "R9M-P14-0108-beb332",
+  "R9M-P14-0109-0cefac",
+  "R9M-P14-0111-92328e",
+  "R9M-P14-0112-425415",
+  "R9M-P14-0113-48f627",
+  "R9M-P14-0114-f128a6",
+  "R9M-P14-0115-3cb8fc",
+  "R9M-P14-0115-f6867a",
+  "R9M-P14-0116-c6f82c",
+  "R9M-P14-0117-3bd985",
+  "R9M-P14-0118-99c851",
+  "R9M-P14-0119-2c08a1",
+  "R9M-P14-0119-7c4e8e",
+  "R9M-P14-0120-ba157f"
+ ],
+ "operations": 21,
+ "ledger": "localization/translations/editorial-r9-batch-14-repairs.jsonl",
+ "ledger_sha256": "4eae0d74a83bc010261756c86d4752bc3b7752bd0b3405fc933681b13cbee39e",
+ "decisions_sha256": "820e85b461a65b5676492aa1805077d42235365ebdf8d9722ce1cacf7f2c3658",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "acdc64a4d8f984a1ac462c164dde33249d7bc01f6d61b2dede318e9cbdf8f903"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 21,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "c8c598c241edc4a03ca74db6f8dab1c50715441c40ba8ca1e329098020df77c9",
+    "after_resource_sha256": "fbf478392c53703c3996ec7fdd4ca794c55ed9fc7f3e4de645c4514d53179dd3",
+    "targets_changed": 7
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "863fc6caef1c2b4ca2b57ba930edb3ae58d6dcb2ae9df44ae3d21d2c29f700ac",
+    "after_resource_sha256": "8318ffd4ca32b967d36e46ef261f5b91aded05f6f3a0dc9052a1092b97a20ce5",
+    "targets_changed": 14
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}

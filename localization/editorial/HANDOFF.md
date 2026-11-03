@@ -14,13 +14,13 @@
 | R6 | 层一致性与术语回改（Bumper→弹跳机等） | [r6-consistency](r6-consistency/README.md) |
 | R7 | 用运行代码＋渲染判定剩余条目 | [r7-render](r7-render/README.md) |
 | R8 | 谜题提示改“相邻”，补字形 | [r8-puzzle](r8-puzzle/README.md) |
-| R9 | 全正文精校三十批（双路：DS(OD) ＋ Gemini 3.8 Flash／Grok 4.7；batch-10／11／12-part01 只有 DS 一路），706 处采纳、706 个操作落地 | [r9-polish](r9-polish/README.md) |
+| R9 | 全正文精校三十三批（双路：DS(OD) ＋ Gemini 3.8 Flash／Grok 4.7；batch-10／11／12-part01 只有 DS 一路），745 个操作落地；含 batch-14 补漏与 batch-15／16 清理 | [r9-polish](r9-polish/README.md) |
 
 当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ 19（+05-part02）→ 20（+06-part02）→ 21（+06-part01）→ 23（+06-part04）→ 24（+06-part03）→ 25（+07-part01）→ 26（+07-part02）→ 27（+08-part01）→ 28（+08-part02）→ 29（+08-part03）→ 30（+08-part04）→ 31（+08-part05）→ 32（+09-part01）→ 33（+09-part02）→ 34（+09-part03）→ 35（+09-part04）→ 36（+10-part01）→ 37（+10-part02）→ 38（+10-part03）→ **39（+batch-11，最新）**。
 
-- candidate43：30 批 R9 台账共 706 个操作（含 40 个 JSON 指针操作：词典条目、任务日志字段、运行时 overlay），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。candidate39（26 批／649 操作）是它的前一跳。
-- 候选 13～43 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
-- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate43 上 706 个操作全部逐字节相等（candidate39／40／41／42 分别是 649／664／677／689）。
+- candidate46：33 批 R9 台账共 745 个操作（含 40 个 JSON 指针操作：词典条目、任务日志字段、运行时 overlay），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。candidate43（30 批／706 操作）是它的前一跳。
+- 候选 13～46 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate46 上 745 个操作全部逐字节相等（2 个位置被后续批次再次编辑，按最后一次比对）。
 - 各轮候选**均未生成 `acceptance.json`**：正式封签需绑定与本次归档 SHA 一致的上游资源／字体／方法复核，字体已多轮变化，旧复核记录无法套用。
 
 ## 二、遗留
@@ -28,7 +28,7 @@
 | 项 | 状态 |
 | --- | --- |
 | P01-035 `MAGs` | 唯一仍未决的留置项。已证：该句只在 NSFW 版存在（SFW 版整句不同）、全库无 MAG 物品、无弹药系统，现译“弹匣”无据；但“杂志”与“磁靴”两解均无法证实。batch-09-part01 又遇到一次同词，仍无新证据 |
-| 全正文系统精校 | **批次定义内的部分已完成**：R9 三十批全部落地（2,677 场／12,464 行，约 89.6% 场／92.4% 行）。剩余 312 场不在任何 `BATCHES` 定义里（287 场脚本串、4 场图像、21 场 batch-01 只定义未出单），要覆盖须新开批次并另行确认，见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md) |
+| 全正文系统精校 | **文本部分已完成**：R9 三十三批全部落地（2,698 场／12,552 行，90.3% 场／93.0% 行）。剩余 291 场不在任何 `BATCHES` 定义里（287 场脚本串不译、4 场图像属另一条工艺线），见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md)。遗留项已终裁，见 [r9-polish/LEFTOVERS.md](r9-polish/LEFTOVERS.md) |
 | 全库口径待终裁 | `LIGHTTAZER` 命名（光能电击刃／光电击枪／光电击器／轻型电击枪多种并存）、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关） |
 | `STARSUIT` 与 `Cosmosuit` 是否同一件 | 词典 `CosmoBody.name` 是 STARSUIT＝「星装」，而多处已落地作「宇宙服」；batch-09 两批均只记录未改 |
 | 批次定义覆盖边界 | 按 `BATCHES` 只能覆盖全库 2,175／2,989 场；剩 473 场词典条目、50 场 `MauserHints*`、287 场脚本串、4 场图像不在任何批次内，见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md)。要扩大范围须新开批次并另行确认 |
@@ -79,6 +79,9 @@
 | batch-12-part02 | 词典与任务日志（2／3） | 158／219 | 10 / 11 | 29（apply 13／reject 16） | 13 个操作，并入 candidate41 |
 | batch-12-part03 | 词典与任务日志（3／3） | 158／218 | 8 / 7 | 23（apply 12／reject 11） | 12 个操作，并入 candidate42 |
 | batch-13 | 毛鼠旁白提示 | 50／183 | 12 / 13 | 42（apply 17／reject 25） | 17 个操作，并入 candidate43 |
+| batch-15 | 术语与按键名残留清理 | — | 扫描 | 24（apply 15／reject 9，含 LIGHTTAZER／space suit 误报） | 15 个操作，并入 candidate44 |
+| batch-14 | 补漏 21 场 | 21／88 | 20 / 25 | 66（apply 21／reject 45） | 21 个操作，并入 candidate45 |
+| batch-16 | FENFEN 统一 | — | 扫描 | 3（apply 3） | 3 个操作，并入 candidate46 |
 
 **已无未出工单的批次**：batch-01～11 全部落地（batch-11 是 `DefeatHints` 72 场＋`Starkill` 21 场＋`Static` 16 场，`ORDER.md` 由 `tools/make_batch11_order.py` 派生）。下一步只能扩范围（新批次）或做清理批次，两者都要先确认。
 

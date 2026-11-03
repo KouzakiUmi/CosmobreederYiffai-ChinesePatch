@@ -334,6 +334,39 @@
     "../../../editorial/r9-polish/batch-13/review/build-gate.json",
     "../../../editorial/r9-polish/batch-13/review/decisions.tsv"
    ]
+  },
+  {
+   "batch": "batch-15",
+   "ledger": "localization/translations/editorial-r9-batch-15-repairs.jsonl",
+   "gate": "localization/editorial/r9-polish/batch-15/review/build-gate.json",
+   "decisions": "localization/editorial/r9-polish/batch-15/review/decisions.tsv",
+   "required_data": [
+    "../../../translations/editorial-r9-batch-15-repairs.jsonl",
+    "../../../editorial/r9-polish/batch-15/review/build-gate.json",
+    "../../../editorial/r9-polish/batch-15/review/decisions.tsv"
+   ]
+  },
+  {
+   "batch": "batch-14",
+   "ledger": "localization/translations/editorial-r9-batch-14-repairs.jsonl",
+   "gate": "localization/editorial/r9-polish/batch-14/review/build-gate.json",
+   "decisions": "localization/editorial/r9-polish/batch-14/review/decisions.tsv",
+   "required_data": [
+    "../../../translations/editorial-r9-batch-14-repairs.jsonl",
+    "../../../editorial/r9-polish/batch-14/review/build-gate.json",
+    "../../../editorial/r9-polish/batch-14/review/decisions.tsv"
+   ]
+  },
+  {
+   "batch": "batch-16",
+   "ledger": "localization/translations/editorial-r9-batch-16-repairs.jsonl",
+   "gate": "localization/editorial/r9-polish/batch-16/review/build-gate.json",
+   "decisions": "localization/editorial/r9-polish/batch-16/review/decisions.tsv",
+   "required_data": [
+    "../../../translations/editorial-r9-batch-16-repairs.jsonl",
+    "../../../editorial/r9-polish/batch-16/review/build-gate.json",
+    "../../../editorial/r9-polish/batch-16/review/decisions.tsv"
+   ]
   }
  ],
  "required_chars": []

@@ -1,0 +1,1373 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-14",
+ "batch_group": "batch-14",
+ "part": null,
+ "parts": null,
+ "title": "补漏：batch-01 只定义未出单的 21 场（AreaA 提示、The0、Area0 三处）",
+ "roots": [
+  "Area0_Macsen1",
+  "Area0_MacsenBar",
+  "Area0_Prison1",
+  "MauserHints_AreaA",
+  "The0"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SCd22b4aba3c04b03e",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "Area0_Macsen1.Talk.hornets",
+   "header_line": 54,
+   "controls": [
+    {
+     "line": 54,
+     "source": "<Area0_Macsen1.Talk.hornets>",
+     "current": "<Area0_Macsen1.Talk.hornets>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWc8097660c6e2ca338e25ba1e",
+     "line": 55,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "If you find a radio out there, remember:",
+     "current": "  * 要是在外面找到收音机，记住：在物品菜单里按SELECT就能使用收音机！"
+    },
+    {
+     "row_id": "SFW7cab1296c75f06f91abfa6fe",
+     "line": 56,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "Press SELECT in the item menu to use your radio!",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC673956fabaebcabf",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "Area0_MacsenBar.Talk.secretcode3",
+   "header_line": 202,
+   "controls": [
+    {
+     "line": 202,
+     "source": "<Area0_MacsenBar.Talk.secretcode3>",
+     "current": "<Area0_MacsenBar.Talk.secretcode3>"
+    },
+    {
+     "line": 207,
+     "source": "### shared ###",
+     "current": "### shared ###"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWada6993b02d9a8ac2c622035",
+     "line": 203,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "Fine, fine! I'll let you in on something that breaks this world real good...",
+     "current": "  * 好吧好吧！我就告诉你点能让这世界彻底崩掉的事……"
+    },
+    {
+     "row_id": "SFW4468ec7b9c5dd0abce129580",
+     "line": 204,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "...SXUXYGAX...",
+     "current": "  * ...SXUXYGAX..."
+    },
+    {
+     "row_id": "SFWe52c3ee5a06eab41c5450e40",
+     "line": 205,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "...but any bugs or crashes you find are on you, buddy! Don't say I didn't warn ya!",
+     "current": "  * ……不过你碰到的任何 bug 或崩溃都由你自己负责，伙计！别说我没提醒过你！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC50f3fc86b5971d20",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "Area0_Prison1.GoodbyeDog",
+   "header_line": 260,
+   "controls": [
+    {
+     "line": 260,
+     "source": "<Area0_Prison1.GoodbyeDog>",
+     "current": "<Area0_Prison1.GoodbyeDog>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW7b7b39f5719b50ca1ec56ab4",
+     "line": 261,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "GOOD BOY! COME BACK WITH YOUR MASTER!",
+     "current": "  * 好小子！带上你的主人再回来吧！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC402a64236fd17315",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaA.AfterEnteredAreaA",
+   "header_line": 3432,
+   "controls": [
+    {
+     "line": 3432,
+     "source": "<MauserHints_AreaA.AfterEnteredAreaA>",
+     "current": "<MauserHints_AreaA.AfterEnteredAreaA>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW8e7491b79aa637b28d321758",
+     "line": 3433,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'VE ENTERED A NETWORK OF OLD MINE SHAFTS. BE CAREFUL!]",
+     "current": "  Mauser: [你进入了一片废弃矿道。小心点！]"
+    },
+    {
+     "row_id": "SFW02ff38977b8d2afe8529044f",
+     "line": 3434,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DO YOU KNOW WHERE I COULD FIND THE AGENTS?]",
+     "current": "  Yiffai: [你知道去哪里找那些特工吗？]"
+    },
+    {
+     "row_id": "SFW1f7e12f387ab52c62664cfd8",
+     "line": 3435,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NO. BUT I'M DETECTING MINOR SEISMIC ACTIVITY IN]",
+     "current": "  Mauser: [不知道。不过我检测到了这片矿区东部的轻微地震活动。]"
+    },
+    {
+     "row_id": "SFW95d8212446c9a6609de05b4e",
+     "line": 3436,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE EASTERN SECTION OF THESE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW9133fb26eab2844638040623",
+     "line": 3437,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OKAY! I'LL TAKE A LOOK OVER THERE.]",
+     "current": "  Yiffai: [好！我去那边看看。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf494c71cb718a40a",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaA.AfterEnteredAreaA",
+   "header_line": 3390,
+   "controls": [
+    {
+     "line": 3390,
+     "source": "<MauserHints_AreaA.AfterEnteredAreaA>",
+     "current": "<MauserHints_AreaA.AfterEnteredAreaA>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW4adaab1cbfaae329b81abae9",
+     "line": 3391,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'VE ENTERED A NETWORK OF OLD MINE SHAFTS. BE CAREFUL!]",
+     "current": "  Mauser: [你进入了旧矿井巷道网。小心！]"
+    },
+    {
+     "row_id": "SFW25b68392588f2b24aaf2971d",
+     "line": 3392,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY LEADS ON WHERE THE AGENTS MIGHT BE?]",
+     "current": "  Yiffany: [特工们可能在哪儿，有线索吗？]"
+    },
+    {
+     "row_id": "SFW42c5b23c7457dc905ed1f36f",
+     "line": 3393,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NO. BUT I'M DETECTING MINOR SEISMIC ACTIVITY IN]",
+     "current": "  Mauser: [没有。不过我在这些矿井的东部区段探测到轻微的地震活动。]"
+    },
+    {
+     "row_id": "SFWd8fb23e282db75b2bf5c10e7",
+     "line": 3394,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE EASTERN SECTION OF THESE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW8623b250ad5ef3107303f6c7",
+     "line": 3395,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GUESS I MIGHT AS WELL START THERE... OVER.]",
+     "current": "  Yiffany: [那我就从那儿开始好了……完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3bec6b0508352df0",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaA.DragonHint noselect",
+   "header_line": 3412,
+   "controls": [
+    {
+     "line": 3412,
+     "source": "<MauserHints_AreaA.DragonHint noselect>",
+     "current": "<MauserHints_AreaA.DragonHint noselect>"
+    },
+    {
+     "line": 3419,
+     "source": "# salamanders dialogue - used in multiple scripts",
+     "current": "# salamanders dialogue - used in multiple scripts"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWa14b5d8284347d15f2210c6c",
+     "line": 3413,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT'S DIFFICULT TO GET CLEAN SCANS THAT DEEP IN THE PLANET]",
+     "current": "  Mauser: [地底那么深，很难扫描清楚。不过，我在矿井更深处探测到了几道安全门的信号。你的新门卡应该能让你通过。]"
+    },
+    {
+     "row_id": "SFW729af634405c8cad8181df1c",
+     "line": 3414,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT I'M DETECTING SEVERAL SIGNATURES FOR SECURITY DOORS]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW8be61162db956a1847895a41",
+     "line": 3415,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IN THE DEEPER PARTS OF THE MINES. YOUR NEW KEYCARD SHOULD]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWca4ce344dd7ba29d4a743db4",
+     "line": 3416,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GRANT YOU ACCESS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW13e399d9473d80ed72abf31e",
+     "line": 3417,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OKAY. I'LL CHECK THOSE OUT.]",
+     "current": "  Yiffany: [好。我去查看一下。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8e1f8d67102dc9c5",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaA.End",
+   "header_line": 3493,
+   "controls": [
+    {
+     "line": 3493,
+     "source": "<MauserHints_AreaA.End>",
+     "current": "<MauserHints_AreaA.End>"
+    },
+    {
+     "line": 3494,
+     "source": "  if { f(ClassicBossRedbull_defeated) && f(ClassicDragonV2_defeated) } {",
+     "current": "  if { f(ClassicBossRedbull_defeated) && f(ClassicDragonV2_defeated) } {"
+    },
+    {
+     "line": 3495,
+     "source": "    if { !hasItem(Agent*07) || !hasItem(Agent*03) || !hasItem(Agent*04) } {",
+     "current": "    if { !hasItem(Agent*07) || !hasItem(Agent*03) || !hasItem(Agent*04) } {"
+    },
+    {
+     "line": 3500,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3504,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3505,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW0d98fd9bc78055c9ea6e3c52",
+     "line": 3496,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OUR RECORD OF TRANSMISSIONS FOR THAT AREA SHOWS]",
+     "current": "      Mauser: [我方通讯记录显示，那处区域共有三名特工在附近。]"
+    },
+    {
+     "row_id": "SFW59b03ca14e9c0529fc1fadec",
+     "line": 3497,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE WERE A TOTAL OF THREE AGENTS IN THE VICINITY]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW1a1654ab32c648a05be89a2f",
+     "line": 3498,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I HOPE THAT THEY'RE OKAY!]",
+     "current": "      Mauser: [希望他们都没事！]"
+    },
+    {
+     "row_id": "SFW3f8aa9938cd54d4c1cf6882a",
+     "line": 3499,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'LL FIND THEM! YOU CAN COUNT ON ME!]",
+     "current": "      Yiffai: [我去找他们！交给我吧！]"
+    },
+    {
+     "row_id": "SFW57d4d69bbc6742ceee81e111",
+     "line": 3501,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'VE PLOTTED A ROUTE TO THE SURFACE. IT'S AN]",
+     "current": "      Mauser: [我已规划好通往地表的路线。那是矿坑最西北角的一条通道竖井。]"
+    },
+    {
+     "row_id": "SFW0dfdcd58948de4d740495ef7",
+     "line": 3502,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ACCESS SHAFT IN THE FAR NORTHWEST OF THE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWc3655e55d3392653f351eecc",
+     "line": 3503,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HEADING TO THE PLANET SURFACE THEN! OVER.]",
+     "current": "      Yiffai: [那我前往星球地表！通话完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd2137b4704b85edf",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaA.OpenMode",
+   "header_line": 3397,
+   "controls": [
+    {
+     "line": 3397,
+     "source": "<MauserHints_AreaA.OpenMode>",
+     "current": "<MauserHints_AreaA.OpenMode>"
+    },
+    {
+     "line": 3398,
+     "source": "  if { hasItem(SpecialAnklet) } {",
+     "current": "  if { hasItem(SpecialAnklet) } {"
+    },
+    {
+     "line": 3399,
+     "source": "    if { hasItem(SpecialKeycard2) } {",
+     "current": "    if { hasItem(SpecialKeycard2) } {"
+    },
+    {
+     "line": 3400,
+     "source": "      include { MauserHints_AreaA.DragonHint }",
+     "current": "      include { MauserHints_AreaA.DragonHint }"
+    },
+    {
+     "line": 3401,
+     "source": "    } else if { hasItem(SpecialCosmoID) } {",
+     "current": "    } else if { hasItem(SpecialCosmoID) } {"
+    },
+    {
+     "line": 3402,
+     "source": "      include { MauserHints_AreaA.SalamandersHint }",
+     "current": "      include { MauserHints_AreaA.SalamandersHint }"
+    },
+    {
+     "line": 3403,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3408,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3409,
+     "source": "  }",
+     "current": "  }"
+    },
+    {
+     "line": 3411,
+     "source": "# dragon dialogue - used in multiple scripts",
+     "current": "# dragon dialogue - used in multiple scripts"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWca93524423bd839593beb332",
+     "line": 3404,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITH THAT ANTI-GRAV ANKLET, YOU SHOULD BE ABLE TO TRAVERSE]",
+     "current": "      Mauser: [有了那只反重力踝环，你应该就能更轻松地穿越竖井。这样应该能让你往矿井更深处探索了。]"
+    },
+    {
+     "row_id": "SFW1ef88e6ba39fedc269ad22d0",
+     "line": 3405,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[VERTICAL SHAFTS MORE EASILY. THAT SHOULD ALLOW YOU TO]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW4aff89469b9150257dece57f",
+     "line": 3406,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[EXPLORE FURTHER INTO THE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW0076601ca720b7bc7e35e739",
+     "line": 3407,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'LL EXPAND MY SEARCH AREA, THEN. OVER.]",
+     "current": "      Yiffany: [那我就扩大搜索范围。完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe1051360a3f731c1",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaA.OpenMode",
+   "header_line": 3439,
+   "controls": [
+    {
+     "line": 3439,
+     "source": "<MauserHints_AreaA.OpenMode>",
+     "current": "<MauserHints_AreaA.OpenMode>"
+    },
+    {
+     "line": 3440,
+     "source": "  if { hasItem(SpecialAnklet) } {",
+     "current": "  if { hasItem(SpecialAnklet) } {"
+    },
+    {
+     "line": 3441,
+     "source": "    if { hasItem(SpecialKeycard2) } {",
+     "current": "    if { hasItem(SpecialKeycard2) } {"
+    },
+    {
+     "line": 3442,
+     "source": "      include { MauserHints_AreaA.DragonHint }",
+     "current": "      include { MauserHints_AreaA.DragonHint }"
+    },
+    {
+     "line": 3443,
+     "source": "    } else if { hasItem(SpecialCosmoID) } {",
+     "current": "    } else if { hasItem(SpecialCosmoID) } {"
+    },
+    {
+     "line": 3444,
+     "source": "      include { MauserHints_AreaA.SalamandersHint }",
+     "current": "      include { MauserHints_AreaA.SalamandersHint }"
+    },
+    {
+     "line": 3445,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3450,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3451,
+     "source": "  }",
+     "current": "  }"
+    },
+    {
+     "line": 3453,
+     "source": "# dragon dialogue - used in multiple scripts",
+     "current": "# dragon dialogue - used in multiple scripts"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW4b6d2e9c10f4575e410cefac",
+     "line": 3446,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WITH THAT ANTI-GRAV ANKLET, YOU SHOULD BE ABLE TO TRAVERSE]",
+     "current": "      Mauser: [有了那只反重力踝环，你应该就能更轻松地穿越竖井。这样应该能让你更深入地探索矿洞。]"
+    },
+    {
+     "row_id": "SFWd39095058a127cee289bd62d",
+     "line": 3447,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[VERTICAL SHAFTS MORE EASILY. THAT SHOULD ALLOW YOU TO]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWee19f79b5be13360a8d6c8ef",
+     "line": 3448,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[EXPLORE FURTHER INTO THE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFWe590907434ff9b23f60d92e5",
+     "line": 3449,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'LL TRY LOOKING AROUND MORE, THEN. OVER.]",
+     "current": "      Yiffai: [那我再多找找。完毕。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCefb9230b1c9865f9",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaA.ReturnFromAreaC",
+   "header_line": 3465,
+   "controls": [
+    {
+     "line": 3465,
+     "source": "<MauserHints_AreaA.ReturnFromAreaC>",
+     "current": "<MauserHints_AreaA.ReturnFromAreaC>"
+    },
+    {
+     "line": 3466,
+     "source": "  if { f(ctx_entered_area_AreaC) } {",
+     "current": "  if { f(ctx_entered_area_AreaC) } {"
+    },
+    {
+     "line": 3470,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW2370857dfe1710d0705d19bb",
+     "line": 3467,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GEE YIFFANY, WHAT'S GOING ON BACK IN THAT AREA?]",
+     "current": "    Mauser: [哎呀，伊吠妮，那片区域那边怎么了？]"
+    },
+    {
+     "row_id": "SFW677e8b744607be7d819ba9c4",
+     "line": 3468,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AREN'T THERE MORE INTERESTING PLACES THAT YOU COULD SEE]",
+     "current": "    Mauser: [通过传送门去别的区域探索，不是还能看到更有意思的地方吗？]"
+    },
+    {
+     "row_id": "SFW672705e1b30b32fc01dccc12",
+     "line": 3469,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU TAKE A TELE- PORTAL TO EXPLORE OTHER AREAS?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2a0979a916ed9a55",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaA.SalamandersHint noselect",
+   "header_line": 3420,
+   "controls": [
+    {
+     "line": 3420,
+     "source": "<MauserHints_AreaA.SalamandersHint noselect>",
+     "current": "<MauserHints_AreaA.SalamandersHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW24455279127eb1272892328e",
+     "line": 3421,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE'S BEEN A LOT OF SEISMIC ACTIVITY IN THOSE MINES]",
+     "current": "  Mauser: [那些矿井里的地震活动很多，其中很多来自北面的扇区。]"
+    },
+    {
+     "row_id": "SFWb99195f4d6f0d0b125f0b67b",
+     "line": 3422,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITH A LOT OF IT ORIGINATING FROM THE NORTHERN SECTORS.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW84d05b6fb6d6022420a69103",
+     "line": 3423,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IS IT SOMETHING I SHOULD CHECK OUT?]",
+     "current": "  Yiffany: [这事我该去看看吗？]"
+    },
+    {
+     "row_id": "SFWd3d295280d3a401b3a669808",
+     "line": 3424,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SINCE THERE WAS A DISTRESS BEACON LAUNCHED UP THERE]",
+     "current": "  Mauser: [既然那儿发出过遇险信标，你最好去看看有没有人需要救援！]"
+    },
+    {
+     "row_id": "SFWc475fb53ef331dcd09619c81",
+     "line": 3425,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU SHOULD PROBABLY SEE IF THERE'S ANYONE TO RESCUE!]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW012da733fea858fb1baf2ac5",
+     "line": 3426,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[UNDERSTOOD. I'LL SEE WHAT I CAN FIND.]",
+     "current": "  Yiffany: [明白。我看看能找到什么。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7aaf585bc18c4796",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaA.SalamandersHint noselect",
+   "header_line": 3462,
+   "controls": [
+    {
+     "line": 3462,
+     "source": "<MauserHints_AreaA.SalamandersHint noselect>",
+     "current": "<MauserHints_AreaA.SalamandersHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWbf84d7def7891dd00b425415",
+     "line": 3463,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[A FEW MOMENTS AGO, WE BEGAN RECORDING STRANGE]",
+     "current": "  Mauser: [就在刚才，我们开始记录到矿洞东北区域出现的奇怪能量波动。]"
+    },
+    {
+     "row_id": "SFWc68c94c069549a43b2303782",
+     "line": 3464,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ENERGY SURGES IN THE NORTHEAST AREA OF THE MINES.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW1be5fe4047282529c34ade03",
+     "line": 3465,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...SOUNDS A LITTLE SPOOKY...]",
+     "current": "  Yiffai: [……听起来有点吓人啊……]"
+    },
+    {
+     "row_id": "SFWbe49956bd372691b25792491",
+     "line": 3466,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT MAY BE PERTINENT TO YOUR MISSION, THOUGH.]",
+     "current": "  Mauser: [不过那可能和你的任务有关。]"
+    },
+    {
+     "row_id": "SFWa6caa50a8d5e98c3bf76d395",
+     "line": 3467,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DO BE CAREFUL, WE HAVE NO IDEA WHAT'S UP THERE.]",
+     "current": "  Mauser: [千万小心，我们完全不知道上面有什么。]"
+    },
+    {
+     "row_id": "SFW4bc88fcc2b7dc897994d1025",
+     "line": 3468,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OKAY! YIFFAI OUT.]",
+     "current": "  Yiffai: [好！伊吠通话结束。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1dfdfb68d6582b3e",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.BeforeMeeting noselect noamendfreq",
+   "header_line": 3662,
+   "controls": [
+    {
+     "line": 3662,
+     "source": "<The0.BeforeMeeting noselect noamendfreq>",
+     "current": "<The0.BeforeMeeting noselect noamendfreq>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW71628a30666f3b6ede48f627",
+     "line": 3663,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OKAY WOW THAT WAS A LUCKY GUESS...]",
+     "current": "  The0: [好吧，哇，真是运气好猜中了……]"
+    },
+    {
+     "row_id": "SFWe1c70c17081b0b0c393724b3",
+     "line": 3664,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT I'M... IN THE MIDDLE OF... SOMETHING!]",
+     "current": "  The0: [可是我……正在……忙点事情！]"
+    },
+    {
+     "row_id": "SFW532064e3ab6cf73cfd849108",
+     "line": 3665,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...BYE!]",
+     "current": "  The0: [……再见！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf39402b266335875",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "The0.BeforeMeeting noselect noamendfreq",
+   "header_line": 3621,
+   "controls": [
+    {
+     "line": 3621,
+     "source": "<The0.BeforeMeeting noselect noamendfreq>",
+     "current": "<The0.BeforeMeeting noselect noamendfreq>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW5228e36d4de2b2753cf128a6",
+     "line": 3622,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OKAY WOW THAT WAS A LUCKY GUESS...]",
+     "current": "  The0: [好吧哇，这猜得也太准了……]"
+    },
+    {
+     "row_id": "SFWbe0c167cc8c4baebbfcf3e6a",
+     "line": 3623,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT I'M... IN THE MIDDLE OF... SOMETHING!]",
+     "current": "  The0: [可我……正忙着……做点事！]"
+    },
+    {
+     "row_id": "SFW059e08c8e48508f6a7b0f515",
+     "line": 3624,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[...BYE!]",
+     "current": "  The0: [……拜拜！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9cf42dcbe9063239",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.ChipReport noselect",
+   "header_line": 3667,
+   "controls": [
+    {
+     "line": 3667,
+     "source": "<The0.ChipReport noselect>",
+     "current": "<The0.ChipReport noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW492061284632ce34a02d5500",
+     "line": 3668,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAVE YOU FOUND ANY NEW CHIPS? LET'S SEE. SCANNING...]",
+     "current": "  The0: [找到新芯片了吗？让我看看。扫描中……]"
+    },
+    {
+     "row_id": "SFWf330bc8e39b59b15633a423f",
+     "line": 3669,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFW7e606362a247bdb62af6867a",
+     "line": 3670,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANYWAY, HAPPY HACK- I MEAN, HUNTING!]",
+     "current": "  The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe12aad66924f42a7",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.Feral noselect",
+   "header_line": 3680,
+   "controls": [
+    {
+     "line": 3680,
+     "source": "<The0.Feral noselect>",
+     "current": "<The0.Feral noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWe6732a60f17d9535c9ac0cb1",
+     "line": 3681,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH HEY THERE PUPPY! WANNA FETCH CHIPS FOR ME? HUH BOY?]",
+     "current": "  The0: [嘿小狗！想帮我叼芯片吗？嗯，好孩子？]"
+    },
+    {
+     "row_id": "SFW113f29d0ea00b6a25f10fa21",
+     "line": 3682,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BARK?!]",
+     "current": "  Yiffai: [汪？！]"
+    },
+    {
+     "row_id": "SFW20e53fcf3f156d30cfc6f82c",
+     "line": 3683,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[PUPPIES CAN DIG, RIGHT? ANYWAY, LET'S SEE. SCANNING...]",
+     "current": "  The0: [小狗会刨坑吧？总之，看看。扫描中……]"
+    },
+    {
+     "row_id": "SFW3d9b5430bbeaa1be2c5a3ea1",
+     "line": 3684,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFW4e20760aef5a0d370378a2ba",
+     "line": 3685,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAKE SURE NOT TO BREAK ANY, AND BRING THEM BACK TO ME!]",
+     "current": "  The0: [可别弄坏了，然后把它们带回来给我！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9e8ae452c8c4c692",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.GenderSwapped noselect",
+   "header_line": 3708,
+   "controls": [
+    {
+     "line": 3708,
+     "source": "<The0.GenderSwapped noselect>",
+     "current": "<The0.GenderSwapped noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW2e96194b03438d93fb0461b8",
+     "line": 3709,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAVE YOU FOUND ANY NEW CHIPS? LET'S SEE. SCANNING...]",
+     "current": "  The0: [找到新芯片了吗？让我看看。扫描中……]"
+    },
+    {
+     "row_id": "SFWf0b848039ea099016cbeb6d1",
+     "line": 3710,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFWaf565ae95ed0e28c813cb8fc",
+     "line": 3711,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANYWAY, HAPPY HACK- I MEAN, HUNTING!]",
+     "current": "  The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbe0f3505c6f329fd",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.Kobo noselect noamendfreq",
+   "header_line": 3700,
+   "controls": [
+    {
+     "line": 3700,
+     "source": "<The0.Kobo noselect noamendfreq>",
+     "current": "<The0.Kobo noselect noamendfreq>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW61976ffc51e11c84e73bd985",
+     "line": 3701,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HIYA KOBO! YOU'RE KINDA SCARY, BUT DO YOU HAVE ANY CHIPS?]",
+     "current": "  The0: [嗨呀科博！你有点吓人，可有芯片吗？]"
+    },
+    {
+     "row_id": "SFW22b7f0a1f7ccf7740cac1294",
+     "line": 3702,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFWbcc2166df1f2fea676b68831",
+     "line": 3703,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANYWAY, HAPPY HACK- I MEAN, HUNTING!]",
+     "current": "  The0: [总之，祝你黑-客快乐，啊不，狩猎快乐！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC88cbd3ccce3483f7",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.Slime noselect",
+   "header_line": 3690,
+   "controls": [
+    {
+     "line": 3690,
+     "source": "<The0.Slime noselect>",
+     "current": "<The0.Slime noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW215da36f753b3399be99c851",
+     "line": 3691,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OH HEY THERE SLIMEY! GOT ANY CHIPS STUCK TO YOU?]",
+     "current": "  The0: [哦嘿，黏黏！身上有芯片粘着你吗？]"
+    },
+    {
+     "row_id": "SFW6a8606798bd415f3f6037ae0",
+     "line": 3692,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GLOOP?!]",
+     "current": "  Yiffai: [咕叽？！]"
+    },
+    {
+     "row_id": "SFWf8aa9e107b1ec2b605db3658",
+     "line": 3693,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I BET YOU CAN SQUEEZE INTO TIGHT SPACES! SCANNING...]",
+     "current": "  The0: [我打赌你能挤进窄小的地方！扫描中……]"
+    },
+    {
+     "row_id": "SFW2ff034812ca034da4c4091a2",
+     "line": 3694,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFWaef078526ac9ba10462a6561",
+     "line": 3695,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[JUST DON'T SLIME THEM UP, AND BRING THEM BACK TO ME!]",
+     "current": "  The0: [别把它们弄得黏糊糊的，再带回来给我！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC469e68526d8285f1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "The0.TooManyChips noselect",
+   "header_line": 3631,
+   "controls": [
+    {
+     "line": 3631,
+     "source": "<The0.TooManyChips noselect>",
+     "current": "<The0.TooManyChips noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW03e61a8fc69f628b43e1e5ed",
+     "line": 3632,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HAVE YOU FOUND ANY NEW CHIPS? LET'S SEE. SCANNING...]",
+     "current": "  The0: [找到新芯片了吗？让我看看。扫描中……]"
+    },
+    {
+     "row_id": "SFW4cc988cabe9e06f3967c5d96",
+     "line": 3633,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFW75e8e48b283e1380ff968905",
+     "line": 3634,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE YOU SURE THAT COUNT'S RIGHT? THINK I GOT A FEW MORE.]",
+     "current": "  Yiffany: [你确定数量对吗？我觉得我还多找到几个。]"
+    },
+    {
+     "row_id": "SFW5edb695493e80313202c08a1",
+     "line": 3635,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[W-WHAT? IMPOSSIBLE! MY SCANNING PROGRAM IS-]",
+     "current": "  The0: [什、什么？不可能！我的扫描程序是-]"
+    },
+    {
+     "row_id": "SFWe19deddf2b57ed8ebb38ed9e",
+     "line": 3636,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SOUNDS LIKE YOU MIGHT HAVE A FEW BUGS TO WORK OUT!]",
+     "current": "  Yiffany: [听起来你还有几个漏洞要修呢！]"
+    },
+    {
+     "row_id": "SFWf458aeeed97d47a6f863b9f5",
+     "line": 3637,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'S- LOOK, JUST CALL ME BACK LATER! OKAY GOODBYE!]",
+     "current": "  The0: [那是——听着，晚点再打给我！好了再见！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb6e9ead58b5909c4",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "The0.TooManyChips noselect",
+   "header_line": 3672,
+   "controls": [
+    {
+     "line": 3672,
+     "source": "<The0.TooManyChips noselect>",
+     "current": "<The0.TooManyChips noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFWd0d35acb0c077c622107284c",
+     "line": 3673,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HAVE YOU FOUND ANY NEW CHIPS? LET'S SEE. SCANNING...]",
+     "current": "  The0: [找到新芯片了吗？让我看看。扫描中……]"
+    },
+    {
+     "row_id": "SFWd5d3eb114466305b4e93c885",
+     "line": 3674,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[@DerekChipReport]",
+     "current": "  The0: [@DerekChipReport]"
+    },
+    {
+     "row_id": "SFWc82b4c29224fabba9f18edbb",
+     "line": 3675,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HUH? BUT I FOUND EVEN MORE THAN THAT...]",
+     "current": "  Yiffai: [咦？可我找到的比那还多……]"
+    },
+    {
+     "row_id": "SFW5f20146db1eafff3f27c4e8e",
+     "line": 3676,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[W-WHAT? IMPOSSIBLE! MY SCANNING PROGRAM IS-]",
+     "current": "  The0: [什、什么？不可能！我的扫描程序是-]"
+    },
+    {
+     "row_id": "SFW2a218d2d4598a21e0796a8f1",
+     "line": 3677,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAYBE YOU SHOULD JUST TRY SCANNING AGAIN?]",
+     "current": "  Yiffai: [也许你该再扫描一次？]"
+    },
+    {
+     "row_id": "SFW00c4fcbefa0cb7c55fba157f",
+     "line": 3678,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'S- LOOK, JUST CALL ME BACK LATER! OKAY GOODBYE!]",
+     "current": "  The0: [那- 算了，晚点再打给我吧！好，再见！]"
+    }
+   ]
+  }
+ ]
+}

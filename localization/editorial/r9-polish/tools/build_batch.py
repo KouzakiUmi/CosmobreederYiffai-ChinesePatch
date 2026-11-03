@@ -10,6 +10,7 @@ import argparse
 import json
 
 ROOT = Path(__file__).resolve().parents[4]
+HERE = Path(__file__).resolve().parents[1]
 SNAP_DEFAULT = ROOT / 'localization/editorial/r1/corpus/snapshot-03'
 SNAPSHOTS = {'snapshot-02': ROOT / 'localization/editorial/r1/corpus/snapshot-02',
              'snapshot-03': SNAP_DEFAULT}
@@ -241,6 +242,13 @@ BATCHES = {
                  None, ['ui'],
                  {'logical_path': ['datav/dictionary.json', 'datay/scripts_pack.json'],
                   'exclude_covered': True}),
+    # batch-01 defined 158 scenes but only ordered 137; these five roots hold the
+    # 21 it left out (same roots, different scenes), so select the roots again and
+    # subtract whatever batch-01 already owns.
+    'batch-14': ('补漏：batch-01 只定义未出单的 21 场（AreaA 提示、The0、Area0 三处）',
+                 ['MauserHints_AreaA', 'The0', 'Area0_Macsen1', 'Area0_MacsenBar', 'Area0_Prison1'],
+                 ['dialogue'],
+                 {'exclude_covered': True}),
     'batch-13': ('毛鼠旁白提示（MauserHints）',
                  ['MauserHints', 'MauserHints_Area0', 'MauserHints_AreaB',
                   'MauserHints_AreaC', 'MauserHints_AreaE', 'MauserHints_AreaH'],
@@ -288,7 +296,19 @@ def main():
         # batches grow.
         owned = set()
         for other, other_entry in BATCHES.items():
-            if other == a.batch or other_entry[1] is None:
+            if other == a.batch:
+                continue
+            # Read what the other batch actually ordered. Re-selecting by its
+            # roots would over-claim: a root list can define more scenes than the
+            # batch put in its order (batch-01 defines 158, ordered 137), and the
+            # leftovers are exactly what this kind of batch is meant to pick up.
+            ordered = []
+            for path in sorted(HERE.glob(other + '*/orders/' + other + '*.json')):
+                ordered.extend(s['scene_id'] for s in json.loads(path.read_text('utf8'))['scenes'])
+            if ordered:
+                owned |= set(ordered)
+                continue
+            if other_entry[1] is None:
                 continue
             other_kinds = set(other_entry[2]) if len(other_entry) > 2 else {'dialogue'}
             other_roots = set(other_entry[1])

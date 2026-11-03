@@ -1,0 +1,26 @@
+{
+ "SC15-sfw-datadf_1": [
+  [
+   "P15:cosmobreeder-multi.jar:datadf/1:3032",
+   [
+    "FENFEN"
+   ]
+  ]
+ ],
+ "SC15-sfw-datav_1": [
+  [
+   "P15:cosmobreeder-multi.jar:datav/1:SpecialNecklace.name",
+   [
+    "翻译项链"
+   ]
+  ]
+ ],
+ "SC15-nsfw-datav_1": [
+  [
+   "P15:patch.pak:datav/1:SpecialNecklace.name",
+   [
+    "翻译项链"
+   ]
+  ]
+ ]
+}

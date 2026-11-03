@@ -1,0 +1,4 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+R9M-P15:cosmobreeder-multi.jar:datadf/1:3032	R9M	B	term	SC15-sfw-datadf_1	P15:cosmobreeder-multi.jar:datadf/1:3032	apply	  Bossu: [我们只有那些关于 芬芬 服装散落各处的报告。]	FENFEN→芬芬：FENFEN 在库内已作「芬芬」3 处（词典 `ClassicFenfen`、Starkill 与 Dragon 卡面的「芬芬长老」）。同一句／同一个值在 jar 与 patch.pak 各有一份，两份都改。
+R9M-P15:cosmobreeder-multi.jar:datav/1:SpecialNecklace.name	R9M	B	term	SC15-sfw-datav_1	P15:cosmobreeder-multi.jar:datav/1:SpecialNecklace.name	apply	芬芬 T	翻译项链→芬芬 T：物品 `SpecialNecklace` 的英文是 `FENFEN T`；「翻译项链」把 FENFEN 读成了 translation。同一句／同一个值在 jar 与 patch.pak 各有一份，两份都改。
+R9M-P15:patch.pak:datav/1:SpecialNecklace.name	R9M	B	term	SC15-nsfw-datav_1	P15:patch.pak:datav/1:SpecialNecklace.name	apply	芬芬 T	翻译项链→芬芬 T：物品 `SpecialNecklace` 的英文是 `FENFEN T`；「翻译项链」把 FENFEN 读成了 translation。同一句／同一个值在 jar 与 patch.pak 各有一份，两份都改。

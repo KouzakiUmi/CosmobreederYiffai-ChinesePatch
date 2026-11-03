@@ -4,6 +4,11 @@
 candidate actually carries the text, which catches a batch that silently failed
 to merge, a component.json entry in the wrong order, or a later batch overwriting
 an earlier one. Read-only.
+
+A location may be edited more than once — a cleanup batch that reverts a wrong
+earlier wording is the normal case. The candidate only holds the last text, so a
+location is judged by its last operation; the earlier ones stay in the ledger as
+history and are not reported as failures.
 """
 from pathlib import Path
 import argparse
@@ -25,6 +30,7 @@ def main():
     component = json.loads((LOC / 'optimization/r28/r9polish/component.json').read_text('utf8'))
     state = {}
     problems, checked = [], 0
+    last = {}
     for batch in component['batches']:
         ledger = Path(batch['ledger'])
         if not ledger.is_absolute():
@@ -41,11 +47,16 @@ def main():
                 state[key] = targets.resource_state(candidate, key[0], key[1], op['kind'])
             value = targets.old_text(state[key][0], op['kind'], op.get('pointer') or op.get('line'), None)
             checked += 1
-            if value != op['new']:
-                problems.append('%s %s %s: candidate has %r, ledger expects %r'
-                                % (batch['batch'], op['op_id'], op.get('pointer') or op.get('line'),
-                                   value[:40], op['new'][:40]))
+            last[(op['archive'], op['archive_entry'], op.get('pointer') or op.get('line'))] = (
+                batch['batch'], op['op_id'], op['new'], value)
+    overridden = 0
+    for (archive, entry, locator), (batch_name, op_id, expected, actual) in last.items():
+        if actual != expected:
+            problems.append('%s %s %s: candidate has %r, ledger expects %r'
+                            % (batch_name, op_id, locator, actual[:40], expected[:40]))
+    overridden = checked - len(last)
     print(json.dumps({'candidate': a.candidate, 'operations_checked': checked,
+                      'locations': len(last), 'operations_superseded': overridden,
                       'batches': len(component['batches']), 'problems': problems[:20],
                       'problem_count': len(problems)}, ensure_ascii=False, indent=1))
     raise SystemExit(1 if problems else 0)

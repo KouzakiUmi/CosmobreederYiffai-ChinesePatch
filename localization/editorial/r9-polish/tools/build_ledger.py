@@ -42,14 +42,23 @@ def bodies(entry_archive, candidate):
     return [re.sub(r'(?:\r\n|\r|\n)\Z', '', p) for p in parts], sha256(raw).hexdigest()
 
 
-def effective_final(text, current):
-    """Restore the row's own trailing newline into a decision text.
+SYMBOL_FOR_NEWLINE = '␊'
 
-    Interface rows live as one JSON string, so a value can end with a newline.
-    A TSV cell cannot carry it, so the trailing-space passes record the text
-    without it and the row's own newline is put back here. Dialogue rows are
-    unaffected: their text never ends with a newline.
+
+def expand_newlines(text):
+    """`␊` in a decision cell stands for a real newline in the value."""
+    return text.replace(SYMBOL_FOR_NEWLINE, chr(10)) if isinstance(text, str) else text
+
+
+def effective_final(text, current):
+    """Expand the newline sentinel; keep the row's own trailing newline.
+
+    Decisions now carry real newlines as `␊`, so a value that legitimately spans
+    several lines (or ends with one) can be edited. Rows whose current text ends
+    with a newline but whose decision does not are still treated as "the trailing
+    newline is part of the value and was not the thing being changed".
     """
+    text = expand_newlines(text)
     newline = chr(10)
     if isinstance(current, str) and current.endswith(newline) and not text.endswith(newline):
         return text + newline

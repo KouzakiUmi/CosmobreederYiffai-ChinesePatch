@@ -1,0 +1,79 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-16",
+ "batch_group": "batch-16",
+ "part": 1,
+ "parts": 1,
+ "title": "专名统一：FENFEN（芬芬）与 FENFEN T",
+ "roots": [
+  "datadf",
+  "datav"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate45",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate45",
+ "current_zh_baseline": "r9-polish-candidate45",
+ "scenes": [
+  {
+   "scene_id": "SC15-sfw-datadf_1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:3032",
+     "line": 3032,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Bossu: [我们只有那些关于 FENFEN 服装散落各处的报告。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-datav_1",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datav/1:SpecialNecklace.name",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "翻译项链"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datav_1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datav/1:SpecialNecklace.name",
+     "line": null,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "翻译项链"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,351 @@
+{
+ "schema": "r9-batch-order/v1",
+ "batch": "batch-15",
+ "batch_group": "batch-15",
+ "part": 1,
+ "parts": 1,
+ "title": "术语与按键名残留清理（两个归档里的少数写法）",
+ "roots": [
+  "datadf",
+  "datadm",
+  "datav",
+  "vsn"
+ ],
+ "corpus_snapshot": "snapshot-03",
+ "current_zh_baseline_candidate": "r9-polish-candidate43",
+ "corpus_manifest_sha256": "",
+ "corpus_status": "r9-polish-candidate43",
+ "current_zh_baseline": "r9-polish-candidate43",
+ "scenes": [
+  {
+   "scene_id": "SC15-sfw-datadf_1",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:487",
+     "line": 487,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你需要的只是这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:1504",
+     "line": 1504,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 太空行走最糟的，就是得穿宇航服。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2292",
+     "line": 2292,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [它在说：“按 SELECT 选择你的超能力，然后同时按下 UP+攻击，激活你选定的能力！”]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2444",
+     "line": 2444,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Yiffany: [当然！只要我没选中什么花哨能力，就可以按 UP+攻击 射出钩子，然后在天花板上荡过去！]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:2447",
+     "line": 2447,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [就————是这样，只要没选中你那些古怪能力，按 UP+攻击，就能轻松荡过那段缺口。]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadf/1:4287",
+     "line": 4287,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  Tomcat: [就————是这样，只要没选中你那些古怪能力，再按 UP+攻击，你就能轻松荡过任何缺口。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-datadm_1",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:471",
+     "line": 471,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你只需要这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:621",
+     "line": 621,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 也许你用电击器打一下，就能扰乱它……？"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:1502",
+     "line": 1502,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 太空行走最糟的，就是得穿宇航服。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4317",
+     "line": 4317,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  Yiffai: [当然！只要没选什么花哨的能力，我就可以按 UP+攻击 射出钩子，挂在天花板上荡来荡去！]"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4823",
+     "line": 4823,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 你好，伊吠。你不认识我，不过我偷偷窥探了你的卫星通讯。"
+    },
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:datadm/1:4825",
+     "line": 4825,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：把你在外头找到的那些高级芯片带给我，我就替你破解门锁！这不是双赢嘛！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_167",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/167/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/167:6",
+     "line": 6,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/167",
+     "source": "",
+     "current": "text: 要是给我把好点的电击器，而不是这套弱得可怜的见习装备，我大概一击就能放倒你。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_47",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/47/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/47:17",
+     "line": 17,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/47",
+     "source": "",
+     "current": "text: 瞧瞧，这是什么……我的光刃电击器！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-sfw-vsn_53",
+   "mode": "sfw",
+   "logical_path": "vsn/vsn/53/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:cosmobreeder-multi.jar:vsn/53:7",
+     "line": 7,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/53",
+     "source": "",
+     "current": "text: 我能成为最精锐的特工之一，可不是靠乱挥电击器！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadf_1",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "datadf",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadf/1:487",
+     "line": 487,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你需要的只是这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:1483",
+     "line": 1483,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "    * 不穿宇航服就往外跑，你胆子可真大！"
+    },
+    {
+     "row_id": "P15:patch.pak:datadf/1:1502",
+     "line": 1502,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "",
+     "current": "  * 太空行走最糟的，就是得穿宇航服。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datadm_1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "datadm",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datadm/1:470",
+     "line": 470,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 想当太空海盗吗？你只需要这把官方海盗光电击器！"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:1342",
+     "line": 1342,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 用不着你的电击器了！接下来交给我！"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:4970",
+     "line": 4970,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 你好，伊吠。你不认识我，不过我偷偷窥探了你的卫星通讯。"
+    },
+    {
+     "row_id": "P15:patch.pak:datadm/1:4972",
+     "line": 4972,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "",
+     "current": "  * 很简单：把你在外头找到的那些高级芯片带给我，我就替你破解门锁！这不是双赢嘛！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-vsn_59",
+   "mode": "nsfw",
+   "logical_path": "vsn/vsn/59/script.vsn",
+   "root": "vsn",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:vsn/59:7",
+     "line": 7,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "physical_line",
+     "archive_entry": "vsn/59",
+     "source": "",
+     "current": "text: 我连宇航服都刚穿惯，就摊上这烂摊子。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC15-nsfw-datav_1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "datav",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "P15:patch.pak:datav/1:ui.data.m_AgentM02.desc",
+     "line": null,
+     "speaker": "",
+     "variant": "nsfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "",
+     "current": "强势的上位猫探员，|迎战来犯之敌！"
+    }
+   ]
+  }
+ ]
+}

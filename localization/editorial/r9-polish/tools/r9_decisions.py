@@ -67,6 +67,11 @@ def source_of(row):
     return src if src else None
 
 
+# Stands in for a real newline inside one TSV cell. U+240A (␊) never appears
+# in game text, and keeps the cell single-line so the table stays readable.
+SYMBOL_FOR_NEWLINE = '␊'
+
+
 class Batch:
     def __init__(self, batch):
         self.batch = batch
@@ -107,9 +112,10 @@ class Batch:
             raise SystemExit('%s: planned twice' % key)
         self.seen.add(key)
         scene_id, row = self.rows[row_id]
-        # A TSV cell holds one line. A JSON value's own trailing newline cannot
-        # travel here; the ledger builder puts it back from the row it edits.
-        final = final[:-1] if final.endswith(chr(10)) else final
+        # A TSV cell holds one line, but a JSON value may contain real newlines.
+        # Carry them as SYMBOL_FOR_NEWLINE and let the ledger builder expand it, so a
+        # multi-line value can be edited instead of being rejected.
+        final = final.replace(chr(10), SYMBOL_FOR_NEWLINE)
         if decision == 'apply':
             if not (row.get('current') or '').strip():
                 raise SystemExit('%s: blank joined-tail row' % key)

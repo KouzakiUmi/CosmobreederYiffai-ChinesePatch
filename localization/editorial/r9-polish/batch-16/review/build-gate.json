@@ -1,0 +1,50 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-16 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate45",
+ "decisions_total": 3,
+ "apply_findings": [
+  "R9M-P15:cosmobreeder-multi.jar:datadf/1:3032",
+  "R9M-P15:cosmobreeder-multi.jar:datav/1:SpecialNecklace.name",
+  "R9M-P15:patch.pak:datav/1:SpecialNecklace.name"
+ ],
+ "operations": 3,
+ "ledger": "localization/translations/editorial-r9-batch-16-repairs.jsonl",
+ "ledger_sha256": "24e548ed3345162b785f39dca6a8b9b59d2d21e11c434be7cce18ba5baaed32a",
+ "decisions_sha256": "813770dd0f7269b0a8d1682567c883e18363f415ade3b89933da21ada98b9330",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "acdc64a4d8f984a1ac462c164dde33249d7bc01f6d61b2dede318e9cbdf8f903"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 3,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "fbf478392c53703c3996ec7fdd4ca794c55ed9fc7f3e4de645c4514d53179dd3",
+    "after_resource_sha256": "dbb8aba09f4975524cbc521e3bef9baf9e4c24772306a41b4ba407bb175c6bd1",
+    "targets_changed": 1
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "051cc8a53685c1c5350b2407078dedf5ff38da06cbcd0595fe4855198eb64ddc",
+    "after_resource_sha256": "c8b42d342eb163c01123ad3a2a3738d8d5f907c37847aadd57c133da175305bb",
+    "targets_changed": 1
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "6ba4bbd3d1a93bcf5a4fa13cf17a67a06951931c155aea33a4d3c70a49199c0b",
+    "after_resource_sha256": "0a18ecf4d6812dba6e77f5a19dfae42d84ddf1fc695c36880cee1843eea246f2",
+    "targets_changed": 1
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}

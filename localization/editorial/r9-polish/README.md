@@ -42,6 +42,9 @@
 | batch-11 | 其余零散条目（战败提示与失真广播） | 109 | 505 | 24,187 | 1 个 part（`DefeatHints` 72 场、`Starkill` 21 场、`Static` 16 场），并入 candidate39，**完成** |
 | batch-12 | 界面与系统文本（未覆盖的词典与任务日志） | 473 | 650 | 19,581 | 拆 3 个 part（157／158／158 场），依次并入 candidate40／41／42，**3 个 part 全部完成** |
 | batch-13 | 毛鼠旁白提示（`MauserHints`） | 50 | 183 | 12,066 | 1 个 part（`Area0` 14、`AreaB` 12、`AreaC` 10、`AreaE` 8、`AreaH` 2、无后缀 4），并入 candidate43，**完成** |
+| batch-14 | 补漏：batch-01 只定义未出单的 21 场 | 21 | 88 | 3,362 | 1 个 part（AreaA 提示 9、The0 9、Area0 三处 3），并入 candidate45，**完成** |
+| batch-15 | 术语与按键名残留清理 | —（清理批，不新增覆盖） | 325 行工单／24 行待改 | — | 扫描两个归档定位，采纳 15／驳回 9，并入 candidate44，**完成** |
+| batch-16 | 专名统一：FENFEN | —（清理批） | 3 | — | 对白 1＋物品值 2，并入 candidate46，**完成** |
 
 批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10`／`batch-12` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。`batch-12` 还有第四种形状：条目第二元素写 `None`，改用 `logical_path` 选资源、再用 `exclude_covered` 扣掉别的批次已占的场次——它的文本散在词典与任务日志里，没有共同的 root 可列。
 
@@ -210,10 +213,13 @@ candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16
 | candidate41 | 同上 | 再加 batch-12-part02，共 677 个操作（28 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate42 | 同上 | 再加 batch-12-part03，共 689 个操作（29 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate43 | 同上 | 再加 batch-13（`MauserHints`），共 706 个操作（30 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate44 | 同上 | 再加 batch-15（残留清理），共 721 个操作（31 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate45 | 同上 | 再加 batch-14（补漏 21 场），共 742 个操作（32 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate46 | 同上 | 再加 batch-16（FENFEN 统一），共 745 个操作（33 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
-candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）；candidate44：jar `7aaf7df5…`（45,841,980 B）· pak `939f3731…`（13,588,075 B）；candidate45：jar `39dbdf11…`（45,841,965 B）· pak `806c608c…`（13,588,075 B）；candidate46：jar `fdc626a5…`（45,841,961 B）· pak `47e32c37…`（13,588,071 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 
@@ -221,7 +227,7 @@ candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（1
 
 ## 七、边界
 
-- 已落地 batch-01～13（2,677 场／12,464 行），约占全库 2,989 场的 89.6%（行 92.4%）。**但「第 1 轮」仍不因此视为完成**：剩下 312 场不在任何批次定义内（287 场脚本串、4 场图像、21 场 batch-01 只定义未出单，见 COVERAGE_AUDIT），要覆盖得新开批次并另行确认。
+- 已落地 batch-01～16（2,698 场／12,552 行），约占全库 2,989 场的 90.3%（行 93.0%）。**但「第 1 轮」仍不因此视为完成**：剩下 291 场不在任何批次定义内（287 场脚本串、4 场图像，见 COVERAGE_AUDIT），且视觉层与实机层未验。
 - 批次定义本身的覆盖边界见 [COVERAGE_AUDIT](COVERAGE_AUDIT.md)：batch-01～11 合起来覆盖 2,175／2,989 场，剩下的 473 场是词典条目、50 场是 `MauserHints*` 提示语、287 场是脚本串、4 场是图像。**按当前批次定义完成，不等于全库逐行精校完成**；扩大范围要新开批次并另行确认。
 - 已发现但不在任何批次内的术语分叉与反向改动记在 [LEFTOVERS](LEFTOVERS.md)（例：`Tomcat*`／`TomcatItems*` 的 pak 侧仍有 8 处「狗头人」；batch-09-part02 曾把「电击枪」改成少数写法「电击器」；batch-10 里卡面值尾多出的换行受引擎换行计数保护，改不了）。
 - 四项全库口径问题已留置待终裁：`LIGHTTAZER` 命名、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关，音译会丢掉 pup 那一层）。

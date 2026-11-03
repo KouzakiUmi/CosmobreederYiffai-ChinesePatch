@@ -1,0 +1,60 @@
+{
+ "batch": "batch-15",
+ "decisions": 24,
+ "applied": 15,
+ "operations": 15,
+ "targets": 7,
+ "per_resource": [
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "35540ecb4eadb8b318b6c6ae06c7e1d16d861b5dca66f97e91eed9e0d4980abc",
+   "after_resource_sha256": "c8c598c241edc4a03ca74db6f8dab1c50715441c40ba8ca1e329098020df77c9",
+   "targets_changed": 4
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "3e67daa53ff413c8554705844908d75e60630fc10976e5176c1069477e6a751f",
+   "after_resource_sha256": "863fc6caef1c2b4ca2b57ba930edb3ae58d6dcb2ae9df44ae3d21d2c29f700ac",
+   "targets_changed": 4
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/167",
+   "before_resource_sha256": "dcdc76ded6194df1d988418f65bfa8e19b15bc19732ec3c5400cbb05297f0996",
+   "after_resource_sha256": "05d800327c5f9534abde0aa0c727967c3bf07228c89802b73e8319afdf5e29e9",
+   "targets_changed": 1
+  },
+  {
+   "archive": "cosmobreeder-multi.jar",
+   "archive_entry": "vsn/53",
+   "before_resource_sha256": "2507cc0860ae9c3206fd2f3888e74e3acbc07aaf97195f3f1778d6a3b178f53e",
+   "after_resource_sha256": "7a57e4e39766913a54c0a97cee4054968692eaaccf269bf942457e7003b9ab35",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadf/1",
+   "before_resource_sha256": "ff3d15f123bb4443908a8c1981cbdcfd45112c04ea9665e442686c8cf7e314dd",
+   "after_resource_sha256": "23091a8498c31fda8660ee34f347b43ea192ea37e1c5a02aed34580cf30f59d5",
+   "targets_changed": 1
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datadm/1",
+   "before_resource_sha256": "5c4f13da0eb613c81efcb2211e19d09b220cf351907fcf93956fd7e8efebcdad",
+   "after_resource_sha256": "3ef9784a13d00124c029040626b952928c88f3268ee1728b85b3ddecc997fd1f",
+   "targets_changed": 3
+  },
+  {
+   "archive": "patch.pak",
+   "archive_entry": "datav/1",
+   "before_resource_sha256": "3ddd96215a7fe5afda05d7beb6833efd552e4998f0cc140e4d41eadda14e2ef7",
+   "after_resource_sha256": "6ba4bbd3d1a93bcf5a4fa13cf17a67a06951931c155aea33a4d3c70a49199c0b",
+   "targets_changed": 1
+  }
+ ],
+ "ledger": "localization/translations/editorial-r9-batch-15-repairs.jsonl",
+ "base_candidate": "localization/builds/r9-polish-candidate43"
+}
