@@ -104,8 +104,8 @@
  ],
  "operations": 96,
  "ledger": "localization/translations/editorial-r9-batch-25-repairs.jsonl",
- "ledger_sha256": "b1be4fa43c5ae4ee7377965c324da2517bff2ac9bb10167e7646356adc526f7d",
- "decisions_sha256": "8577c5863c86367590cb0c7dfd8200b0ef594e949ba382a83ce37c9d37cff437",
+ "ledger_sha256": "0eaaf3ce7d67cb702632fd7737c9355074f9fdb9004d0de01854a1d276bd7659",
+ "decisions_sha256": "4a9fa97c021eebd2f4f8f22db7ffcfd8a9881551b58d228b9c55d7bb7b33561f",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "0b76aa5a89fc871b39bfc3f014d7314e63b7b10a72b6e238409177ee170fc219"
@@ -118,28 +118,28 @@
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "e6b86c377dba7b0cb777531f395c8db5ea551ac0663e8753be4c613261db2925",
-    "after_resource_sha256": "23db687cd4a72a7f571d6ad918716b7f7332e52ecda8df7b9d9981b6d6a7b1d4",
+    "after_resource_sha256": "f5f2dced5d9ab91bd2c4bdda328107e1c0f82ad3918ad6d1d0df20dd74771788",
     "targets_changed": 26
    },
    {
     "archive": "cosmobreeder-multi.jar",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "674e148ed3cb7dd9c34e7cbd555e734e210be3a33d5ac34a564c39d435b1ff31",
-    "after_resource_sha256": "d3e80a67b55683ab2113262a530b6c6ab8b779c300123398ce0fd56c5334ded0",
+    "after_resource_sha256": "581d41774c6f6c9d99aa0125fff5b811ed787b70b1aa9cf290d580a0817b2315",
     "targets_changed": 20
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadf/1",
     "before_resource_sha256": "36d57bad5d33b6d44cf769b255340878528c84d0cc02c381557a2289c1ab68d7",
-    "after_resource_sha256": "fdfca786990d1487726a9d7f6ff3aab690411024e7c619fc676c827c4d51f972",
+    "after_resource_sha256": "f50e3de8a40a1b9363b840a7c52ce78fc73eebe29f722f379b704903cf54dcdd",
     "targets_changed": 30
    },
    {
     "archive": "patch.pak",
     "archive_entry": "datadm/1",
     "before_resource_sha256": "789452855f93ee484c9554e515fc1b2f57ed3646ed9e7e589c6d036b176dacc3",
-    "after_resource_sha256": "b6fc45f73b05b5c8c8403cef3e47e65d7d15f071b97632d65057fc0686926fca",
+    "after_resource_sha256": "5c2e4661c3689584a70d0d1613157a53c5cacf62604d8cd41a339d7647432db6",
     "targets_changed": 20
    }
   ]

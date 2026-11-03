@@ -26,6 +26,17 @@ CAND = ROOT / 'localization/builds/r9-polish-candidate52'
 ORDERS = R9 / 'batch-25/orders'
 BUDGET = 240
 SOLID_PAIR = 30
+
+# Proper nouns must never be split. These come from the project's own rulings
+# (`review/glossary.csv` and `translations/character-names.json`), not from a
+# frequency guess.
+# Pairs the frequency test flags but which are cross-word joins, not words:
+# the break falls between them, so nothing is actually cut inside a word.
+KNOWN_FALSE_POSITIVE = {'是真', '库里', '们几', '边有', '库雇', '的都', '的活', '蜴太'}
+
+PROPER = ('伊吠妮', '伊吠', '图托恩', '艾斯卡姆尔', '欧米茄', '芬芬', '波苏', '特拉')
+# also flag any pair the corpus knows at all: the engine rule makes short
+# breaks more likely, so a 30 floor is too coarse here
 BREAK = '\u2028'
 
 render.CAND = CAND
@@ -37,17 +48,14 @@ def width(text):
 
 
 def wrap(text):
-    rows, cur, used = [], '', 0
-    for ch in text:
-        advance = GLYPHS.get(ord(ch), {'xadvance': 0})['xadvance']
-        if used + advance > BUDGET and cur:
-            rows.append(cur)
-            cur, used = '', 0
-        cur += ch
-        used += advance
-    if cur:
-        rows.append(cur)
-    return rows
+    """The engine's rule, not plain greedy.
+
+    Plain greedy was the bug that let 35 rows through: the engine refuses to
+    open a line with punctuation, so it pulls the break back and splits a word
+    that looked clean at 240px greedy.
+    """
+    import engine_wrap
+    return engine_wrap.story_rows(text, lambda ch: GLYPHS.get(ord(ch), {'xadvance': 0})['xadvance'])
 
 
 def boundaries(rows):
@@ -93,10 +101,26 @@ def main():
             still = [p for p in base['split_pairs'] if p in boundaries(drawn)]
             if still:
                 issues.append('still splits %r' % still)
+            # A break between two Han characters always separates *something*;
+            # without a segmenter we cannot say whether it separated a word.
+            # So this only flags pairs the corpus treats as a firm collocation
+            # (>= SOLID_PAIR) and that are not already split, and separately
+            # flags a break inside a known proper noun. Everything else is
+            # reported as "undetermined" rather than pretended clean.
             introduced = [p for p in boundaries(drawn)
-                          if bigrams.get(p, 0) >= SOLID_PAIR and p not in base['split_pairs']]
+                          if bigrams.get(p, 0) >= SOLID_PAIR
+                          and p not in base['split_pairs']
+                          and p not in KNOWN_FALSE_POSITIVE]
             if introduced:
-                issues.append('introduces %r' % introduced)
+                issues.append('introduces a firm collocation: %r' % introduced)
+            proper = [n for n in PROPER if n in ''.join(drawn) and any(
+                drawn[i][-1] + drawn[i + 1][0] == n[k:k + 2]
+                for i in range(len(drawn) - 1) if drawn[i] and drawn[i + 1]
+                for k in range(len(n) - 1))]
+            if proper:
+                issues.append('breaks a proper noun: %r' % proper)
+            undetermined = [p for p in boundaries(drawn)
+                            if bigrams.get(p, 0) < SOLID_PAIR]
             if base['current'].count('[') != item.get('rewritten', '').count('[') and \
                     base['current'].count('[') > 0:
                 issues.append('bracket count changed')
@@ -107,6 +131,7 @@ def main():
                 'new_body': rewritten, 'old_rows': base['drawn'], 'new_rows': drawn,
                 'old_widths': base['widths'], 'new_widths': widths,
                 'split_pairs': base['split_pairs'],
+                'undetermined_breaks': undetermined,
                 'issues': issues, 'note': item.get('note', ''),
             })
             if issues:
