@@ -1,0 +1,95 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-19 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate47",
+ "decisions_total": 27,
+ "apply_findings": [
+  "R9M-P19:cosmobreeder-multi.jar:datadf/1:4259",
+  "R9M-P19:cosmobreeder-multi.jar:datadf/1:5158",
+  "R9M-P19:cosmobreeder-multi.jar:datadf/1:869",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:2572",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:3030",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:3034",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:3833",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:4408",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:4418",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:5206",
+  "R9M-P19:cosmobreeder-multi.jar:datadm/1:872",
+  "R9M-P19:cosmobreeder-multi.jar:datav/1:ui.breeding.Swiper.affinity.mid",
+  "R9M-P19:patch.pak:datadf/1:2120",
+  "R9M-P19:patch.pak:datadf/1:4411",
+  "R9M-P19:patch.pak:datadf/1:869",
+  "R9M-P19:patch.pak:datadm/1:2601",
+  "R9M-P19:patch.pak:datadm/1:2625",
+  "R9M-P19:patch.pak:datadm/1:3077",
+  "R9M-P19:patch.pak:datadm/1:3079",
+  "R9M-P19:patch.pak:datadm/1:3087",
+  "R9M-P19:patch.pak:datadm/1:3091",
+  "R9M-P19:patch.pak:datadm/1:4533",
+  "R9M-P19:patch.pak:datadm/1:4543",
+  "R9M-P19:patch.pak:datadm/1:5354",
+  "R9M-P19:patch.pak:datadm/1:875",
+  "R9M-P19:patch.pak:datav/1:ui.breeding.Swiper.affinity.mid",
+  "R9M-P19:patch.pak:datav/1:ui.data.f_GameOverArea0.desc"
+ ],
+ "operations": 27,
+ "ledger": "localization/translations/editorial-r9-batch-19-repairs.jsonl",
+ "ledger_sha256": "8f035cd6dc9f4408af461824b7a01896625d38eee61de6939cd1e8edde81bb7f",
+ "decisions_sha256": "8abdbb04b55de8dec15e3d648dae05d7799224f9572372add03da10617c4943a",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "d42ff0928a30122d7aaa06fb3b2235275ba67ce2e8ee5d7c41a6b7c65e07131e"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 27,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "23aa61eab875a0efa2d5fa09aa74688bf65095d35ad591e3e9e18b9f3ccf7695",
+    "after_resource_sha256": "c3a42291fa5e2f4d2e50a2f9c09bfb1b97ad29834598126a722b48eb227536f8",
+    "targets_changed": 3
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "8a29809a12fce054e2b673cced1d042b29f21e50c29af73a41326d032b6c9611",
+    "after_resource_sha256": "962a50b14ad77ac837e76b8187276ff18c92eb66d74c95d00308a07f5d67d9f5",
+    "targets_changed": 8
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "c8b42d342eb163c01123ad3a2a3738d8d5f907c37847aadd57c133da175305bb",
+    "after_resource_sha256": "69495beda1ff86ba6df60ae9189dfa40efa8b897ff3294e8ce93172e2c0c5f6f",
+    "targets_changed": 1
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "b91220981c7729742c76562d92faa0244001fa169ebe92c20ac82065a2fd2f89",
+    "after_resource_sha256": "9a307197521ed3a3438a469e3a1860ee9f2e359663cab6967d42a6dee4c2ab1c",
+    "targets_changed": 3
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "63f0d23ba38777991e18c1eeb931a5e3efe022f64a0ca52c17f7f01d43271c7d",
+    "after_resource_sha256": "aa205065207ded2c8fa09857b605cdf25f601c19c3113f67bc1bb7b8a7555427",
+    "targets_changed": 10
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "0a18ecf4d6812dba6e77f5a19dfae42d84ddf1fc695c36880cee1843eea246f2",
+    "after_resource_sha256": "bfd928c9d1110be7124d5c770f9ff538dd82119b644aab53a4e82dd16be09d72",
+    "targets_changed": 2
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}
