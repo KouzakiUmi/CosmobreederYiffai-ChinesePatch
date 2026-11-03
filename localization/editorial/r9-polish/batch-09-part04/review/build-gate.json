@@ -1,0 +1,71 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-09-part04 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate34",
+ "decisions_total": 32,
+ "apply_findings": [
+  "R9M-CAT:O0ff0249f2a71ff2e82c2",
+  "R9M-CAT:O16f16bde07cfd6748436",
+  "R9M-CAT:O5646682bc67cfdf29f8c",
+  "R9M-CAT:Oc80884aaafba7a880327",
+  "R9M-CAT:Ofeca87bcb892b8bd239e",
+  "ds:P09-0401",
+  "ds:P09-0402",
+  "ds:P09-0403",
+  "ds:P09-0404",
+  "ds:P09-0405",
+  "ds:P09-0406",
+  "ds:P09-0407",
+  "ds:P09-0408",
+  "ds:P09-0409",
+  "ds:P09-0410",
+  "ds:P09-0411",
+  "ds:P09-0413"
+ ],
+ "operations": 17,
+ "ledger": "localization/translations/editorial-r9-batch-09-part04-repairs.jsonl",
+ "ledger_sha256": "55a9c740560c747381a75e984b353b551eefecceb8436934b882d07a3e938e3b",
+ "decisions_sha256": "84509dc8a3ebf94d77cea81b463b77c44776d6e8e0200ea1645ffe9ec7ee6e37",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "f7306e3357a428b211cc5bd979e7a6bee3c0637257a972c5d6d6b4c9723cde2d"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 17,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "53414cdeada14c3085712ed26910d79105e083e086e6af7117391f4d83c1cb44",
+    "after_resource_sha256": "c0067132f7ebdbe3e0c374a72ae3abe9910d96bac089668908f14907545b8e1e",
+    "targets_changed": 1
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "7dfb62755ee86050f1407079da8b99f81e30473f44d6dfa3e36d2177f45c8351",
+    "after_resource_sha256": "3e67daa53ff413c8554705844908d75e60630fc10976e5176c1069477e6a751f",
+    "targets_changed": 4
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadf/1",
+    "before_resource_sha256": "b4b4e3231b2e8105cbf3fc9e9c014488ac83e9b1b9640382f6fa2023147fa340",
+    "after_resource_sha256": "86d4223d0eb65d8a2912e772ef85a51df93865744c07e248c252be699fa2fd28",
+    "targets_changed": 5
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datadm/1",
+    "before_resource_sha256": "c50904810aee0656dc15add6da71d60a6ecb0c53ee1d721b908531c182b3dae0",
+    "after_resource_sha256": "b6200bbebd2cdd0260072ccfd689e860f27b2f807054af0293ef646097f8aa09",
+    "targets_changed": 7
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}

@@ -1,0 +1,33 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P09-0402	ds	B	format	SC261c757407969621	CAT:Ofcab17e83e72e4fd03a4	apply	  * 你知道吗，野兽形态下按DOWN+ATTACK就能刨土！	按键名属受保护的玩法标记，R9 batch-01 已定「UP+ATTACK 原样保留」；英文源行本来就是 DOWN+ATTACK。两路同报。级别按 format 记，不改玩法语义。
+ds:P09-0401	ds	B	term	SCbb8a8179039049e8	SFWa31bf3af662d09cafa62732d	apply	  * 科博德还给我送吃的，什么都照顾到了。	kobold 的词典条目名是「科博德」（库内 99 处）；「狗头人」是另一套奇幻译名，读者会当成两种怪。两路同报。
+ds:P09-0407	ds	B	term	SCba0930245e8d717d	SFWdefa9e20df8302657abc8a22	apply	    * 先是有人偷了我的钩爪，害我只能靠这两条小短腿走路……	道具名按词典条目 SpecialHookshot 的中文名「钩爪」（库内 6 处）；「钩索」是早期草稿批注的写法，batch-09-part02 已按条目名改过 pak 侧同句。两路同报。
+ds:P09-0408	ds	B	term	SCcb0a76aad6da4b24	SFW1358957567e6edf09b099433	apply	    * 我好久没在这儿见到你们这种特工了，连存货都没顾上补！	agent＝特工是 R2 裁决；同句的 datadf 版已作「特工」，「探员」全库仅 3 处。两路同报。
+ds:P09-0403	ds	B	idiom	SCa6ca506a6d94efd7	CAT:O7e69ebcd6364fc4c7cc5	apply	  * 可没开发《宇宙育种者伊吠》那么苦，不过也挺累人！	「没开发《宇宙育种者伊吠》苦」缺谓语中心、不成句；本行沿用 batch-09-part02 对同一句已落地并复核过的措辞，让 jar／pak 两侧读起来一致。
+ds:P09-0404	ds	B	idiom	SCd0245ca0662e436c	CAT:O57ecac04932c459403fd	apply	  * 接下来是不是该你走人了，啊，小混混？	原句是赶人（Why don't you take off next）；现译把 next 硬挂成时间状语又接「你怎么不走人呢」，句子立不起来。datadf 版同句作「还不快滚」，可见意思本身清楚，只有这一版硬直译。
+ds:P09-0405	ds	B	meaning	SCbd8653da68db25c0	CAT:Od4e389d08af3756d5860	apply	  * 别像个刚出学院的新手似的傻站着，快把我放出去！	这名俘虏被锁在牢里（同段索要钥匙、说「把我关在这里」），free me 是「放我出去」；「放开我」指松开抓握，与场景不符。
+ds:P09-0406	ds	B	meaning	SCf8381ccaf779d65a	CAT:Oebf9af1541e044844e81	apply	  * 他们运气好——咳——*是*走运，趁我没防备。	上一行是「几个当地人卑鄙地偷袭」，指代对象是人，用「它们」把施事者错指成非人；同段 sfw 版即作「他们」。
+ds:P09-0409	ds	B	term	SC06b361bb8cfb2102	SFW73a801ed728a3334de09bad3	apply	  * 等我找回电击枪，那些精灵连自己怎么挨打的都不会知道！	tazer 在本作以「电击枪」为主（库内 92 处对「电击器」10 处），「驯兽／见习电击枪」系列也作此写法。
+ds:P09-0410	ds	B	meaning	SCe369de7bd5d76fd9	SFW0bd683c51db72b3c0b168edf	apply	  * 锁已经开了。不如去找找别的需要救的人……？	原意是门已开、劝主角去找别的待救者；现译「去找其他人救」最自然的读法是「找人来救我」，意思反了。
+ds:P09-0411	ds	C	idiom	SC3607806e90147971	CAT:O75b48db3a6f250e4503d	apply	    Gitgud: [许多敌人被光电击枪击中时会眩晕，这给了你跳开躲避的机会！]	「在……击中时」缺被动标记，主语变成光击枪自己；补一个「被」即可，不改 LIGHTTAZER 的命名（该名仍未终裁）。
+ds:P09-0413	ds	C	term	SC4740dd505f30d827	CAT:O702cab4a082ccdcb9e20	apply	  * 你好，伊吠。你不认识我，不过我偷偷查看过你的卫星链路。	「有点偷看了」把程度副词与完成态硬拼；四个平行变体里三处都作「卫星链路」，因此只改动词、不动名词。
+R9M-CAT:O0ff0249f2a71ff2e82c2	R9M	C	format	SCb810ac30e6045f70	CAT:O0ff0249f2a71ff2e82c2	apply	  * 是啊，这家伙不弄完是不会放开我的……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oc80884aaafba7a880327	R9M	C	format	SC937701d5b4d26497	CAT:Oc80884aaafba7a880327	apply	  * 哎呀，你好呀，小狗狗！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O16f16bde07cfd6748436	R9M	C	format	SCe1411891da18e1a5	CAT:O16f16bde07cfd6748436	apply	    * 不穿宇航服就往外跑，你胆子可真大！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O5646682bc67cfdf29f8c	R9M	C	format	SC58e6139ca98d3a1d	CAT:O5646682bc67cfdf29f8c	apply	  * 觉得自己是个探险家？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ofeca87bcb892b8bd239e	R9M	C	format	SC58e6139ca98d3a1d	CAT:Ofeca87bcb892b8bd239e	apply	  * 这小玩意儿能探测异常，还能在你的导航地图上标出重要的东西！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+gemini:P09-0401	gemini	C	format	SCb810ac30e6045f70	CAT:O0ff0249f2a71ff2e82c2	reject		与 R9M-CAT:O0ff0249f2a71ff2e82c2 同一行同一处，取先落地的条目。
+gemini:P09-0402	gemini	B	term	SCbb8a8179039049e8	SFWa31bf3af662d09cafa62732d	reject		与 ds:P09-0401 同一行同一处，取先落地的条目。
+gemini:P09-0403	gemini	A	gameplay	SC261c757407969621	CAT:Ofcab17e83e72e4fd03a4	reject		与 ds:P09-0402 同一行同一处，取先落地的条目。
+gemini:P09-0404	gemini	C	format	SC937701d5b4d26497	CAT:Oc80884aaafba7a880327	reject		与 R9M-CAT:Oc80884aaafba7a880327 同一行同一处，取先落地的条目。
+gemini:P09-0405	gemini	B	term	SCba0930245e8d717d	SFWdefa9e20df8302657abc8a22	reject		与 ds:P09-0407 同一行同一处，取先落地的条目。
+gemini:P09-0406	gemini	B	term	SCcb0a76aad6da4b24	SFW1358957567e6edf09b099433	reject		与 ds:P09-0408 同一行同一处，取先落地的条目。
+gemini:P09-0407	gemini	C	format	SCe1411891da18e1a5	CAT:O16f16bde07cfd6748436	reject		与 R9M-CAT:O16f16bde07cfd6748436 同一行同一处，取先落地的条目。
+gemini:P09-0408	gemini	C	format	SC58e6139ca98d3a1d	CAT:O5646682bc67cfdf29f8c	reject		与 R9M-CAT:O5646682bc67cfdf29f8c 同一行同一处，取先落地的条目。
+gemini:P09-0409	gemini	C	format	SC58e6139ca98d3a1d	CAT:Ofeca87bcb892b8bd239e	reject		与 R9M-CAT:Ofeca87bcb892b8bd239e 同一行同一处，取先落地的条目。
+ds:P09-0412	ds	C	meaning	SC4740dd505f30d827	CAT:O4bcf0750048f867986a2	reject		「fancy chips」在四个平行变体里三处作「花哨芯片」、一处作「高级芯片」；只改其中一处会让同一句的分叉变多，而「fancy＝花哨」本身是可辩护的直译。整句口径待全库终裁，本批不动。
+ds:P09-0414	ds	C	format	SCb810ac30e6045f70	CAT:O0ff0249f2a71ff2e82c2	reject		与 R9M-CAT:O0ff0249f2a71ff2e82c2 同一行同一处，取先落地的条目。
+ds:P09-0415	ds	C	format	SC937701d5b4d26497	CAT:Oc80884aaafba7a880327	reject		与 R9M-CAT:Oc80884aaafba7a880327 同一行同一处，取先落地的条目。
+ds:P09-0416	ds	C	format	SCe1411891da18e1a5	CAT:O16f16bde07cfd6748436	reject		与 R9M-CAT:O16f16bde07cfd6748436 同一行同一处，取先落地的条目。
+ds:P09-0417	ds	C	format	SC58e6139ca98d3a1d	CAT:O5646682bc67cfdf29f8c	reject		与 R9M-CAT:O5646682bc67cfdf29f8c 同一行同一处，取先落地的条目。
+ds:P09-0418	ds	C	format	SC58e6139ca98d3a1d	CAT:Ofeca87bcb892b8bd239e	reject		与 R9M-CAT:Ofeca87bcb892b8bd239e 同一行同一处，取先落地的条目。

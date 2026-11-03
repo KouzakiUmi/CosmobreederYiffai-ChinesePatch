@@ -1,0 +1,59 @@
+{
+ "batch": "batch-09-part03",
+ "routes": {
+  "gemini": {
+   "findings": 19,
+   "coverage": 229,
+   "problems": [],
+   "severity": {
+    "C": 15,
+    "B": 4
+   },
+   "categories": {
+    "format": 15,
+    "term": 4
+   },
+   "status": {
+    "proposal": 19
+   },
+   "rows_proposed": 19
+  },
+  "ds": {
+   "findings": 23,
+   "coverage": 229,
+   "problems": [],
+   "severity": {
+    "B": 6,
+    "C": 17
+   },
+   "categories": {
+    "term": 5,
+    "continuity": 1,
+    "idiom": 1,
+    "format": 15,
+    "voice": 1
+   },
+   "status": {
+    "proposal": 23
+   },
+   "rows_proposed": 23
+  }
+ },
+ "cross": {
+  "rows_with_proposal": 24,
+  "rows_both_routes": 18,
+  "rows_identical_text": 17,
+  "rows_conflicting_text": 1,
+  "only_gemini": 1,
+  "only_ds": 5,
+  "conflicts": [
+   {
+    "row_id": "CAT:Of439de065c0942c71621",
+    "scene_id": "SC549e89ef8f0305a6",
+    "current": "    * 不穿宇航服就往外跑，你胆子可真大！ ",
+    "gemini": "    * 不穿宇航服就往外跑，你胆子可真大！",
+    "ds": "    * 不穿宇宙服就往外跑，你胆子可真大！"
+   }
+  ]
+ }
+}

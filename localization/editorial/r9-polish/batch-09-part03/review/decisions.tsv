@@ -1,0 +1,57 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+gemini:P09-0306	gemini	B	term	SCac5b9f5097efca6e	CAT:O865697caa77a7b551eed	apply	  * 回见啦，姑娘！小心那些吠犬！	BARKER 的词典条目名是「吠犬」（库内 40 处）；「吠叫者」全库仅此 1 处。两路同报。
+gemini:P09-0307	gemini	B	term	SC86572c4386d4b135	SFWa831055d27dc24243cba3eb1	apply	  * 几个大块头科博德把我关在这里了。	kobold 的既有中文名是「科博德」（词典条目名、库内 99 处）；「狗头人」是旧译，属同一物种两种叫法。两路同报。
+gemini:P09-0315	gemini	B	term	SCf3cb45071658dd85	CAT:Oa77aae8b9823089a86a1	apply	    * 我好久没在这儿见到你们这种特工了，连存货都没顾上补！	agent＝特工是 R2 裁决；库内 471 处作「特工」，「探员」仅 3 处。两路同报。
+gemini:P09-0308	gemini	B	term	SC1d9a1c61cec5875e	SFW267f2fc596449b95d0209b5e	apply	    * 先是有人偷了我的钩爪，害我只能靠这两条小短腿走路……	hookshot 的词典条目名是「钩爪」；batch-09-part02 已按同一口径改过 pak 侧同句，本行是 jar 侧副本。
+ds:P09-0309	ds	C	voice	SCe46f9a3291d3b7f9	CAT:Ocf1f05f702633ad3fc0c	apply	  * 真穿上那身行头，谁还用得着电击枪！	上一行已用「哎呀」译 Gee，本行英文换了感叹词 Why，现译连着两行「哎呀」抹平了麦森的换气；「那身行头」把指代接回上一句的道服。
+ds:P09-0304	ds	B	continuity	SC8cf80b11c314c9d0	CAT:O9013c473af08f2b497d5	apply	  * 等你救出一大批之后再回到这儿，我就给你一点那个那个……嘿！嘿！嘿！	合句后「救了一大批他们」把代词挂在数量短语之后，中文不成句；上一行已点明救的是特工，删「他们」不丢信息。
+ds:P09-0305	ds	B	idiom	SC46a571677d256cf9	CAT:Od995bb695900f95c46f6	apply	  * 接下来，试试我能把你吞多深，怎么样！	「把……你吞多深」把「把」的宾语拆到省略号两侧，中文「把」字句不能这样断开；并回后成句，挑逗语气不变。
+ds:P09-0306	ds	B	term	SC549e89ef8f0305a6	CAT:Of439de065c0942c71621	apply	    * 不穿宇宙服就往外跑，你胆子可真大！	触发条件是 `!inCosmoSuit()`，指 Cosmosuit 这件装备，R9 已定「宇宙服」；同时删掉中文行尾多出的半角空格。
+ds:P09-0307	ds	C	term	SC1171e8673dc5346c	CAT:O7ecc70d544b872b90795	apply	    * 哦，你好！好久没见到你们这种太空伙计了！	同一俚称 cosmo fellas 库内 4 处作「太空伙计」，本行「宇宙来的家伙」是分叉写法，且易与宇宙服／宇宙头盔的物品名混读。
+ds:P09-0308	ds	C	format	SCe338b7546a4c96ff	CAT:Oab0ac4995f0674aabb5c	apply	    * 听说它们靠某种纳米机器，能防止脚下的方块崩塌	本行已把下一物理行并进来，而英文该行行尾没有省略号；现译补的「……」与下一行开头的「……」连读成双省略号。
+R9M-CAT:Ob80860e748600137cad2	R9M	C	format	SC27fcdb72e9abdeeb	CAT:Ob80860e748600137cad2	apply	  * ……可它没法像爽口的 ICECOLA 那样让你凉快下来！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O51b81bc8acf3b90c04b4	R9M	C	format	SC17d15dd3f9169339	CAT:O51b81bc8acf3b90c04b4	apply	  * 外头这么热，多当心！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ob186171113e84690efc6	R9M	C	format	SCc37272a31b3d2913	CAT:Ob186171113e84690efc6	apply	  * 外面那么热，你可当心！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oe5b571487f96c890570d	R9M	C	format	SC37a6c6282fcece99	CAT:Oe5b571487f96c890570d	apply	  * 我可能跟几只双足飞龙惹上了那么一丁点儿麻烦……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Off3ea5097f145c41c223	R9M	C	format	SC726a36b62298199d	CAT:Off3ea5097f145c41c223	apply	  * 我发誓，被关进来之前，我可是一直在当攻操人！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O6dcb047d84a99151a558	R9M	C	format	SC705996558cbc2481	CAT:O6dcb047d84a99151a558	apply	  * 哼！你已经做得够多了！那些可怜的小触手……	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O14c3b62414fba7fe5f79	R9M	C	format	SC4e2f928be3cecc89	CAT:O14c3b62414fba7fe5f79	apply	  * 我知道你是下位特工……但能不能……呼……！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O6ae060dcf8288b352e6c	R9M	C	format	SCcb5a13b1b4c21f25	CAT:O6ae060dcf8288b352e6c	apply	    * 森林里今晚夜色不错，是吧？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O29eb1359daf5d9a70643	R9M	C	format	SCa77905dd8a62d2c1	CAT:O29eb1359daf5d9a70643	apply	  * 觉得自己是个探险家？	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O9e034484640c50762e2d	R9M	C	format	SCa77905dd8a62d2c1	CAT:O9e034484640c50762e2d	apply	  * 这小玩意儿能探测异常，还能在你的导航地图上标出重要的东西！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O90db81a9c69d07126d68	R9M	C	format	SC5f726caaf3a153c4	CAT:O90db81a9c69d07126d68	apply	  * 这份小吃炸得恰到好处，吃了让你活力满满！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Oe4cb5b832c97bbb18648	R9M	C	format	SC72f69b25755789ac	CAT:Oe4cb5b832c97bbb18648	apply	  * 这份小吃炸得恰到好处，吃了让你活力满满！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:Ofcd23485194d3c83589c	R9M	C	format	SCecea8ac84823cd0b	CAT:Ofcd23485194d3c83589c	apply	    * 咦……什么都没发生？我确定我把所有东西都调试过了。	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+R9M-CAT:O27be5a939af12dc02160	R9M	C	format	SCecea8ac84823cd0b	CAT:O27be5a939af12dc02160	apply	    * 加上我亲自做的改动，说不定比原来更好用！	中文行尾多出半角空格，英文原文行尾没有（按 unit 原文核对）。只删空格。
+gemini:P09-0301	gemini	C	format	SC27fcdb72e9abdeeb	CAT:Ob80860e748600137cad2	reject		与 R9M-CAT:Ob80860e748600137cad2 同一行同一处，取先落地的条目。
+gemini:P09-0302	gemini	C	format	SC17d15dd3f9169339	CAT:O51b81bc8acf3b90c04b4	reject		与 R9M-CAT:O51b81bc8acf3b90c04b4 同一行同一处，取先落地的条目。
+gemini:P09-0303	gemini	C	format	SCc37272a31b3d2913	CAT:Ob186171113e84690efc6	reject		与 R9M-CAT:Ob186171113e84690efc6 同一行同一处，取先落地的条目。
+gemini:P09-0304	gemini	C	format	SC37a6c6282fcece99	CAT:Oe5b571487f96c890570d	reject		与 R9M-CAT:Oe5b571487f96c890570d 同一行同一处，取先落地的条目。
+gemini:P09-0305	gemini	C	format	SC726a36b62298199d	CAT:Off3ea5097f145c41c223	reject		与 R9M-CAT:Off3ea5097f145c41c223 同一行同一处，取先落地的条目。
+gemini:P09-0309	gemini	C	format	SC705996558cbc2481	CAT:O6dcb047d84a99151a558	reject		与 R9M-CAT:O6dcb047d84a99151a558 同一行同一处，取先落地的条目。
+gemini:P09-0310	gemini	C	format	SC4e2f928be3cecc89	CAT:O14c3b62414fba7fe5f79	reject		与 R9M-CAT:O14c3b62414fba7fe5f79 同一行同一处，取先落地的条目。
+gemini:P09-0311	gemini	C	format	SCcb5a13b1b4c21f25	CAT:O6ae060dcf8288b352e6c	reject		与 R9M-CAT:O6ae060dcf8288b352e6c 同一行同一处，取先落地的条目。
+gemini:P09-0312	gemini	C	format	SC549e89ef8f0305a6	CAT:Of439de065c0942c71621	reject		与 ds:P09-0306 同一行同一处，取先落地的条目。
+gemini:P09-0313	gemini	C	format	SCa77905dd8a62d2c1	CAT:O29eb1359daf5d9a70643	reject		与 R9M-CAT:O29eb1359daf5d9a70643 同一行同一处，取先落地的条目。
+gemini:P09-0314	gemini	C	format	SCa77905dd8a62d2c1	CAT:O9e034484640c50762e2d	reject		与 R9M-CAT:O9e034484640c50762e2d 同一行同一处，取先落地的条目。
+gemini:P09-0316	gemini	C	format	SC5f726caaf3a153c4	CAT:O90db81a9c69d07126d68	reject		与 R9M-CAT:O90db81a9c69d07126d68 同一行同一处，取先落地的条目。
+gemini:P09-0317	gemini	C	format	SC72f69b25755789ac	CAT:Oe4cb5b832c97bbb18648	reject		与 R9M-CAT:Oe4cb5b832c97bbb18648 同一行同一处，取先落地的条目。
+gemini:P09-0318	gemini	C	format	SCecea8ac84823cd0b	CAT:Ofcd23485194d3c83589c	reject		与 R9M-CAT:Ofcd23485194d3c83589c 同一行同一处，取先落地的条目。
+gemini:P09-0319	gemini	C	format	SCecea8ac84823cd0b	CAT:O27be5a939af12dc02160	reject		与 R9M-CAT:O27be5a939af12dc02160 同一行同一处，取先落地的条目。
+ds:P09-0301	ds	B	term	SCac5b9f5097efca6e	CAT:O865697caa77a7b551eed	reject		与 gemini:P09-0306 同一行同一处，取先落地的条目。
+ds:P09-0302	ds	B	term	SC86572c4386d4b135	SFWa831055d27dc24243cba3eb1	reject		与 gemini:P09-0307 同一行同一处，取先落地的条目。
+ds:P09-0303	ds	B	term	SCf3cb45071658dd85	CAT:Oa77aae8b9823089a86a1	reject		与 gemini:P09-0315 同一行同一处，取先落地的条目。
+ds:P09-0310	ds	C	format	SC27fcdb72e9abdeeb	CAT:Ob80860e748600137cad2	reject		与 R9M-CAT:Ob80860e748600137cad2 同一行同一处，取先落地的条目。
+ds:P09-0311	ds	C	format	SC17d15dd3f9169339	CAT:O51b81bc8acf3b90c04b4	reject		与 R9M-CAT:O51b81bc8acf3b90c04b4 同一行同一处，取先落地的条目。
+ds:P09-0312	ds	C	format	SCc37272a31b3d2913	CAT:Ob186171113e84690efc6	reject		与 R9M-CAT:Ob186171113e84690efc6 同一行同一处，取先落地的条目。
+ds:P09-0313	ds	C	format	SC37a6c6282fcece99	CAT:Oe5b571487f96c890570d	reject		与 R9M-CAT:Oe5b571487f96c890570d 同一行同一处，取先落地的条目。
+ds:P09-0314	ds	C	format	SC726a36b62298199d	CAT:Off3ea5097f145c41c223	reject		与 R9M-CAT:Off3ea5097f145c41c223 同一行同一处，取先落地的条目。
+ds:P09-0315	ds	C	format	SC705996558cbc2481	CAT:O6dcb047d84a99151a558	reject		与 R9M-CAT:O6dcb047d84a99151a558 同一行同一处，取先落地的条目。
+ds:P09-0316	ds	C	format	SC4e2f928be3cecc89	CAT:O14c3b62414fba7fe5f79	reject		与 R9M-CAT:O14c3b62414fba7fe5f79 同一行同一处，取先落地的条目。
+ds:P09-0317	ds	C	format	SCcb5a13b1b4c21f25	CAT:O6ae060dcf8288b352e6c	reject		与 R9M-CAT:O6ae060dcf8288b352e6c 同一行同一处，取先落地的条目。
+ds:P09-0318	ds	C	format	SCa77905dd8a62d2c1	CAT:O29eb1359daf5d9a70643	reject		与 R9M-CAT:O29eb1359daf5d9a70643 同一行同一处，取先落地的条目。
+ds:P09-0319	ds	C	format	SCa77905dd8a62d2c1	CAT:O9e034484640c50762e2d	reject		与 R9M-CAT:O9e034484640c50762e2d 同一行同一处，取先落地的条目。
+ds:P09-0320	ds	C	format	SC5f726caaf3a153c4	CAT:O90db81a9c69d07126d68	reject		与 R9M-CAT:O90db81a9c69d07126d68 同一行同一处，取先落地的条目。
+ds:P09-0321	ds	C	format	SC72f69b25755789ac	CAT:Oe4cb5b832c97bbb18648	reject		与 R9M-CAT:Oe4cb5b832c97bbb18648 同一行同一处，取先落地的条目。
+ds:P09-0322	ds	C	format	SCecea8ac84823cd0b	CAT:Ofcd23485194d3c83589c	reject		与 R9M-CAT:Ofcd23485194d3c83589c 同一行同一处，取先落地的条目。
+ds:P09-0323	ds	C	format	SCecea8ac84823cd0b	CAT:O27be5a939af12dc02160	reject		与 R9M-CAT:O27be5a939af12dc02160 同一行同一处，取先落地的条目。
