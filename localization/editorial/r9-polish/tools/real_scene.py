@@ -30,9 +30,18 @@ import scene_frame as SF  # noqa: E402
 import scene_render as SR  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[4]
-# Measured, not authored: see the module docstring.
-TEXT_BAND = 168
-LINE_STEP = 13
+# Derived from the bytecode, not guessed:
+#   jo computes the origin from It.a(2)=16 and It.b(6)=54, then the Chinese
+#   branch subtracts 8 from both axes -> drawX=8, drawY=54.
+#   In the 256x224 y-up target, a glyph's PNG top is
+#       224 - (drawY + 1) + yoffset
+#   with line step 16 (jo: bipush 16 / imul / isub), so line i sits at
+#       224 - (54 - 16*i + 1) = 169 + 16*i
+#   StoryFont12.draw then subtracts 8 on the Chinese path, giving 161.
+#   A real capture (research/intro-05.png) measured the band at y=161..173,
+#   which agrees. Keep the -8 here and the two stay consistent.
+TEXT_BAND = 161
+LINE_STEP = 16
 LEFT = 8
 
 

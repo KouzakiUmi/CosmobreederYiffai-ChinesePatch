@@ -23,7 +23,7 @@ localization/toolchains/microsoft-jdk17/jdk-17.0.20.1+1/bin/javap.exe
 ```
 $ javap -v -classpath backup/cosmobreeder-multi.jar PRG.Nb | grep -c DialogueWrap
 0
-$ javap -v -classpath builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
+$ javap -v -classpath localization/builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
 #244 = Utf8  PRG/DialogueWrap
 #249 = Methodref  PRG/DialogueWrap.story:(LPRG/aEO;)LPRG/aEO;
  198: invokestatic  #249  // Method PRG/DialogueWrap.story

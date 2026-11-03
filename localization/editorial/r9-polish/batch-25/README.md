@@ -57,7 +57,7 @@ batch-23 用插 U+2028 的办法修了 1,163 行的切词，剩下的 197 处修
 ```
 $ javap -v -classpath backup/cosmobreeder-multi.jar PRG.Nb | grep -c DialogueWrap
 0
-$ javap -v -classpath builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
+$ javap -v -classpath localization/builds/r9-polish-candidate54/cosmobreeder-multi.jar PRG.Nb | grep DialogueWrap
 #249 = Methodref  PRG/DialogueWrap.story:(LPRG/aEO;)LPRG/aEO;
  198: invokestatic  #249  // Method PRG/DialogueWrap.story
 ```
@@ -112,12 +112,33 @@ PRG.amw.a(String, amq)            // 切成行
 
 ## 实测结果（引擎输出）
 
+**这批最后只保留 22 行改动，73 行回退。** 原因是验收基准变了，见下。
+
 | 范围 | candidate52（改前） | candidate54（改后） | 变化 |
 | --- | ---: | ---: | ---: |
-| 本批 96 行 | 92 处 | 35 处 | **−57** |
-| 全库 17,890 行 | 349 处 | 292 处 | **−57** |
+| 本批 96 行 · 故事框 240px | 91 处 | 35 处 | −56 |
+| 本批 96 行 · 无线电 150px | 74 处 | 72 处 | −2 |
 
 数字与早先 Python 复现的「950→901」不同：那是按跨行两字组合全量统计、包含断在完整词之后的情况；这里统计引擎实际输出。
+
+### 为什么回退 73 行
+
+反编译发现这批 96 行里有 **72 行位于 `<TomcatItems.*>` / `<BossuDex.*>` 条目下**，
+它们走的是**无线电容器**（`PRG/JB → JM → JQ → JR → DialogueWrap.radio`，150px、
+bbc2 10px、每行 15 汉字），不是 240px 故事框。按故事框验收的改善对它们不成立。
+
+于是改按「两个容器都干净」重挑：
+
+| 项 | 数量 |
+| --- | ---: |
+| 改前改后两边都干净 | 22 |
+| 至少一边仍切词 | 73 |
+
+回退那 73 行的实测依据：**没有一行能在无线电下改善**，反而有 **35 行会让无线电变差**。
+所以保守取舍在两个容器下都是最优的。
+
+详见 [simulated-render-research.md](simulated-render-research.md) 与
+[real-scene-render.md](real-scene-render.md)。
 
 ## 判据的局限（必须说明）
 

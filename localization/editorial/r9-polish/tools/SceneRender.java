@@ -113,8 +113,11 @@ public final class SceneRender {
                 } else if (container.equals("radio")) {
                     emit(out, DialogueWrap.pages(body, 20, 150.0, radioMetrics), "radio", 150.0);
                 } else if (container.equals("subtitle")) {
-                    // VSN `text:` lines go through SubtitleLayout, width 240.
-                    emit(out, SubtitleLayout.pages(body, 240), "subtitle", 240.0);
+                    // VSN `text:` lines. The second argument of pages() is the
+                    // UTF-16 column ceiling (Ol = 28), NOT a pixel width; 240px
+                    // is a constant inside SubtitleLayout.pages. Passing 240
+                    // here silently used 240 columns.
+                    emit(out, SubtitleLayout.pages(body, 28), "subtitle", 240.0);
                 } else {
                     throw new IllegalArgumentException("unknown container " + container);
                 }
