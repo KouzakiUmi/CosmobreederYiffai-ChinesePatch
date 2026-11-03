@@ -233,6 +233,19 @@ BATCHES = {
              'VitBone', 'VitDrumstick', 'VitHam', 'VitMeat', 'VitSkull', 'Vitamin',
              'ZenerCircle', 'ZenerCross', 'ZenerSquare', 'ZenerStar',
              'ZenerTriangle', 'ZenerWaves', 'area']),
+    # Scope expansion (agreed with the user): everything player-visible that the
+    # earlier batches left out. batch-12 has no natural root set — the interface
+    # leftovers are spread over one dictionary plus the mission log — so it is
+    # selected by resource and skips anything another batch already owns.
+    'batch-12': ('界面与系统文本（未覆盖的词典与任务日志条目）',
+                 None, ['ui'],
+                 {'logical_path': ['datav/dictionary.json', 'datay/scripts_pack.json'],
+                  'exclude_covered': True}),
+    'batch-13': ('毛鼠旁白提示（MauserHints）',
+                 ['MauserHints', 'MauserHints_Area0', 'MauserHints_AreaB',
+                  'MauserHints_AreaC', 'MauserHints_AreaE', 'MauserHints_AreaH'],
+                 ['dialogue']),
+
 }
 
 
@@ -254,9 +267,35 @@ def main():
     # batches are stored under other kinds, and filtering them to dialogue
     # silently yields an empty batch.
     kinds = set(entry[2]) if len(entry) > 2 else {'dialogue'}
-    roots = set(root_list)
+    options = entry[3] if len(entry) > 3 else {}
+    roots = set(root_list or [])
     scenes = json.loads((SNAP / 'scenes.json').read_text('utf8'))
-    picked = [s for s in scenes if s['kind'] in kinds and s['root'].split('.')[0] in roots]
+
+    def matches(scene, roots_):
+        return scene['kind'] in kinds and scene['root'].split('.')[0] in roots_
+
+    if root_list is None:
+        # Resource-selected batch: the leftovers are scattered across roots, so
+        # pick by the resource that holds them instead of naming every entry.
+        wanted = set(options.get('logical_path') or [])
+        picked = [s for s in scenes if s['kind'] in kinds and s['logical_path'] in wanted]
+    else:
+        picked = [s for s in scenes if matches(s, roots)]
+
+    if options.get('exclude_covered'):
+        # Whatever another batch already owns stays out, so a resource-selected
+        # batch can be defined once and keep meaning "the leftovers" as earlier
+        # batches grow.
+        owned = set()
+        for other, other_entry in BATCHES.items():
+            if other == a.batch or other_entry[1] is None:
+                continue
+            other_kinds = set(other_entry[2]) if len(other_entry) > 2 else {'dialogue'}
+            other_roots = set(other_entry[1])
+            for s in scenes:
+                if s['kind'] in other_kinds and s['root'].split('.')[0] in other_roots:
+                    owned.add(s['scene_id'])
+        picked = [s for s in picked if s['scene_id'] not in owned]
     if not picked:
         raise ValueError('empty batch')
     if a.parts < 1 or not 1 <= a.part <= a.parts:
@@ -294,7 +333,7 @@ def main():
         'part': a.part if a.parts > 1 else None,
         'parts': a.parts if a.parts > 1 else None,
         'title': title if a.parts == 1 else '%s（第 %d／%d 部分）' % (title, a.part, a.parts),
-        'roots': sorted(roots),
+        'roots': sorted(roots) if root_list is not None else sorted({s['root'] for s in picked}),
         'corpus_snapshot': SNAP.relative_to(ROOT).as_posix(),
         'current_zh_baseline_candidate': 'localization/builds/' + ('r9-polish-candidate13' if a.snapshot == 'snapshot-03' else 'r8-puzzle-candidate12'),
         'corpus_manifest_sha256': hashed((SNAP / 'manifest.json').read_bytes()),

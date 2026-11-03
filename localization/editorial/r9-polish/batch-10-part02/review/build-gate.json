@@ -16,7 +16,7 @@
  ],
  "operations": 8,
  "ledger": "localization/translations/editorial-r9-batch-10-part02-repairs.jsonl",
- "ledger_sha256": "fea85ba432b8f08b7520d778123ee76ae0c155744a8f0dac7bf44daee14c3e16",
+ "ledger_sha256": "03e2c8eeff8104cfa21b4a11251b4338ea9dcaacbe68590115c6880af8f52a27",
  "decisions_sha256": "6dc60a9710919833d9bfe0e69f0836d6d48ad6c58229ea086c84607367411758",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
@@ -34,11 +34,18 @@
     "targets_changed": 2
    },
    {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datay/1",
+    "before_resource_sha256": "babd9de8a7a8080c2e5c90bb43a395b01d7ed8167e17ec6bb68d616c8d79b411",
+    "after_resource_sha256": "50c0ce3e45acd45e809cbd3c58c7f102296f31e1c539ab68c9751441ef7ce8b6",
+    "targets_changed": 1
+   },
+   {
     "archive": "patch.pak",
     "archive_entry": "datav/1",
     "before_resource_sha256": "62f9a5bd461405b13c3f77c143217abd980dc1fe2a69db9ad926125e193d7393",
-    "after_resource_sha256": "338b7e2ffb7e4e8d9bf6d5f6532aa1e87daa089ce097955c9da70911701b39b9",
-    "targets_changed": 6
+    "after_resource_sha256": "8afce7e3819e0c177eeed4dbdedbc1c1ac6da968e7844062228b91867df90aa5",
+    "targets_changed": 5
    }
   ]
  },

@@ -3,8 +3,9 @@
  "status": "verified_for_application",
  "scope": "batch-10-part03 applied Chinese rewrites; not a full proofread or real-machine acceptance",
  "base_candidate": "localization/builds/r9-polish-candidate37",
- "decisions_total": 17,
+ "decisions_total": 18,
  "apply_findings": [
+  "R9M-CAT:O1550a958e00d5a9b2210",
   "R9M-CAT:O58e511e31dd487ac79e2",
   "R9M-CAT:O731ba8e10998a4e85c22",
   "R9M-CAT:O82a56ce805b52535c797",
@@ -20,17 +21,17 @@
   "ds:P10-0306",
   "ds:P10-0309"
  ],
- "operations": 14,
+ "operations": 15,
  "ledger": "localization/translations/editorial-r9-batch-10-part03-repairs.jsonl",
- "ledger_sha256": "bf28bb873a2fbf663675631d37e4a05241fba5692d9990bbee3f6475e1533bc4",
- "decisions_sha256": "3d9decb9f4cc0b0c190651313788e9a73fe888983467bd5a57cc00541e51d798",
+ "ledger_sha256": "f73d93bd538436799739569daa3bda92d0c7ce1c1b44bf76afe0d873c7ce27b8",
+ "decisions_sha256": "d188b131245abfa6018613b61982a17401465c3b0849cda69081e23874e77755",
  "verifier": {
   "path": "localization/editorial/r9-polish/tools/verify_round.py",
   "sha256": "acdc64a4d8f984a1ac462c164dde33249d7bc01f6d61b2dede318e9cbdf8f903"
  },
  "dry_run": {
   "engine": "localization/tools/editorial_repairs.py:apply_entries",
-  "operations_applied": 14,
+  "operations_applied": 15,
   "resources": [
    {
     "archive": "cosmobreeder-multi.jar",
@@ -42,9 +43,9 @@
    {
     "archive": "patch.pak",
     "archive_entry": "datav/1",
-    "before_resource_sha256": "338b7e2ffb7e4e8d9bf6d5f6532aa1e87daa089ce097955c9da70911701b39b9",
+    "before_resource_sha256": "8afce7e3819e0c177eeed4dbdedbc1c1ac6da968e7844062228b91867df90aa5",
     "after_resource_sha256": "07af8db8360ff6e30f8c7ba0fe87b7dd99b6570c210c69ad5be0b96a130f0415",
-    "targets_changed": 10
+    "targets_changed": 11
    }
   ]
  },

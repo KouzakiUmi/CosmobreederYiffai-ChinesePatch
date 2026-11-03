@@ -1,0 +1,24 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P12-0305	ds	C	format	SC3b9ab6395459ff01	CAT:Od868522fb5c4889a3bf0	apply	欧米茄哥布林能力|+20 幸运	中文行尾多一个半角空格；同 root 的 sfw 侧英文自带尾空格，属镜像，不动。
+ds:P12-0306	ds	B	term	SC1c19db45fc018a66	CAT:Od942c14acaee9ec5fad4	apply	未开启精神能力时|按UP+ATK	按键名保留英文（batch-10／11 已裁决）；同 root 的 sfw 侧已作 `按UP+ATK`。
+ds:P12-0307	ds	C	idiom	SC7992b7ef2972040b	CAT:O7a6efda38c4058ad46a1	apply	又软又绵|吠犬最爱！	SOFT & CREAMY 是褒义的口感，译作「又软又腻」把褒义读成了负面。
+R9M-CAT:O51cb2f4e2b75ec5d5388	R9M	B	term	SC1b718f0362aa8756	CAT:O51cb2f4e2b75ec5d5388	apply	已获得异常体 阿尔法	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:O00f5e4dc3a462f81e30c	R9M	B	term	SCb7c31df74c6666d8	CAT:O00f5e4dc3a462f81e30c	apply	已获得异常体 贝塔	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:Oc6f3f1cbb00514abb7da	R9M	B	term	SCdc6d648bb69bd5ff	CAT:Oc6f3f1cbb00514abb7da	apply	已获得异常体 奥密克戎	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+ds:P12-0302	ds	B	term	SCb7c31df74c6666d8	CAT:O00f5e4dc3a462f81e30c	reject		整族由 R9M 条目统一处理（含本条所在三行）。
+ds:P12-0301	ds	C	format	SCd12e0f968d040684	CAT:Of876847eff4ebcb7e1b0	reject		与 R9M 行尾空格条目同一行同一点（另有 4 行在 note 里），取机械条目。
+ds:P12-0303	ds	B	term	SC481606e450f4f61c	SFWf499a7e847ee7b7d28fb3134	reject		STARSUIT 现作「星装」，与 COSMOSUIT「宇宙服」、KOBOSUIT「科博服」是同一命名系列；改成「星服」会与剧情里的「星际服」「星服降落伞」形成第三种写法，属跨面命名口径，进 LEFTOVERS。
+ds:P12-0304	ds	B	term	SC7798569b8a1fbb4a	CAT:O247377a0cecab145b15c	reject		男女两侧各一种写法、次数 1:1，没有多数可依；两种都通，不凭偏好改动。
+ds:P12-0308	ds	needs_evidence	source_uncertainty	SC635c7bb3776a92f5	CAT:Ob43a7364be8223b23d1c	reject		原文 `HARD KNOTTED|BRED` 本身可疑（BRED／BREAD），现译按育种解；没有新证据前不改，记 needs_evidence。
+R9M-P12-0307	R9M	B	meaning	SCa840aaa81c36e745	SFWf7a2de9d85d4e27997b5f8aa	apply	烤鱼|夹在薄饼里	原文只说 GRILLED FISH IN A TORTILLA，没有「墨西哥」；现译加了地名并把两段顺序颠倒，按原文分段改为「烤鱼|夹在薄饼里」。
+grok:P12-0301	grok	B	term	SC1b718f0362aa8756	CAT:O51cb2f4e2b75ec5d5388	reject		整族已由 R9M 条目统一为「已获得异常体 X」（含本条三行）。
+grok:P12-0302	grok	B	term	SCb7c31df74c6666d8	CAT:O00f5e4dc3a462f81e30c	reject		同上：等级名取中文写在同一条 R9M 决定里。
+grok:P12-0303	grok	B	term	SC7798569b8a1fbb4a	CAT:O247377a0cecab145b15c	reject		与 ds:P12-0304 同一行：两侧各一种写法、次数 1:1，第三路又提了第三种；没有多数可依，不改。
+grok:P12-0304	grok	B	gameplay	SC1c19db45fc018a66	CAT:Od942c14acaee9ec5fad4	reject		与 ds:P12-0306 同一处，已落地。
+grok:P12-0305	grok	B	meaning	SC537e81703211200d	CAT:Oc6746404d822070b9956	reject		FENFEN 写法未终裁；本条主张保留拉丁，与另一路的「Fenfen译」相反，两说都不能当定论，记入 LEFTOVERS。
+grok:P12-0306	grok	B	meaning	SC7992b7ef2972040b	CAT:O7a6efda38c4058ad46a1	reject		与 ds:P12-0307 同一处，已落地。
+R9M-CAT:Of876847eff4ebcb7e1b0	R9M	C	format	SCd12e0f968d040684	CAT:Of876847eff4ebcb7e1b0	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O4937eff6d3c89cd92b84	R9M	C	format	SCf1d0383630eb83e3	CAT:O4937eff6d3c89cd92b84	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Oc543a8e549b6d21d9362	R9M	C	format	SC550f6ea7174126a4	CAT:Oc543a8e549b6d21d9362	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O8d06bc16193599b941e6	R9M	C	format	SC9acd2d700b5ff737	CAT:O8d06bc16193599b941e6	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Od1a4e1d359a07e349888	R9M	C	format	SC9a62fc575e41ebde	CAT:Od1a4e1d359a07e349888	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。

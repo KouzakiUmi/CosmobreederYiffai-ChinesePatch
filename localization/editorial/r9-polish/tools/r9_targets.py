@@ -46,7 +46,10 @@ def pointer_of(json_key):
 def resolve(document, pointer):
     value = document
     for part in pointer.strip('/').split('/'):
-        value = value[part]
+        if isinstance(value, list):
+            value = value[int(part)]
+        else:
+            value = value[part]
     return value
 
 
@@ -81,14 +84,38 @@ def _pointer_by_value(candidate, archive, entry, root, value):
     return pointer_of(hits[0])
 
 
+OCC_ARCHIVE = {'jar': 'cosmobreeder-multi.jar', 'patch': 'patch.pak'}
+
+
+def _occurrence_pointer(occ):
+    """Pointer for an occurrence: `json_key` in a flat dictionary, otherwise the
+    fragment of `location` (`datay/scripts_pack.json#/missionLog/female/0/text`),
+    which is already a JSON pointer into a nested asset."""
+    if occ.get('json_key'):
+        return pointer_of(occ['json_key'])
+    location = occ.get('location') or ''
+    if '#' in location:
+        return location.split('#', 1)[1] or '/'
+    return None
+
+
 def target_of(row, mode, candidate, root):
-    """(archive, entry, kind, locator_name, locator) for one row."""
+    """(archive, entry, kind, locator_name, locator) for one row.
+
+    The archive follows the row's recorded occurrence when there is one: the
+    dictionary and the mission log live in different entries and, for `datay`,
+    only the jar carries them, so `mode` alone would point at the wrong file.
+    """
     archive = MODE_ARCHIVE[mode]
     if row.get('line') is not None:
         return archive, row['archive_entry'], 'line', 'line', row['line']
     occ = occurrences().get(row['row_id'].replace('CAT:', ''))
-    if occ and occ.get('json_key'):
-        return archive, occ['archive_entry'], 'json', 'pointer', pointer_of(occ['json_key'])
+    if occ:
+        archive = OCC_ARCHIVE.get(occ.get('archive'), archive)
+        entry = occ.get('archive_entry') or row.get('archive_entry') or 'datav/1'
+        pointer = _occurrence_pointer(occ)
+        if pointer:
+            return archive, entry, 'json', 'pointer', pointer
     entry = row.get('archive_entry') or 'datav/1'
     value = row.get('current')
     return archive, entry, 'json', 'pointer', _pointer_by_value(candidate, archive, entry, root, value)

@@ -1,0 +1,21 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P12-0105	ds	C	idiom	SCef6738c33d6c725d	CAT:Od29b37991b5e0d64a20c	apply	阴森	HAUNTING 在库内 4 处都作谓语「作祟」，这里它是修饰地点的形容词，读「阴森」才通。
+ds:P12-0106	ds	B	term	SC6d8e933bffbde47a	CAT:O57d75f632585c8738417	apply	尖刺机器人	SPIKE 在库内已落地为「尖刺」；「刺机器人」是逐词直译，且丢掉了「尖刺」这个既有写法。
+ds:P12-0107	ds	B	term	SCcf4bf207d21db5b1	CAT:O68dead41d2c6239e8c09	apply	按DOWN+JUMP|超级滑行！	按键名一律保留英文（batch-10／11 已裁决）；同 root 的 sfw 侧就写 `按DOWN+JUMP`。
+ds:P12-0108	ds	B	meaning	SC86e3980ef25f719b	CAT:O0b9052253e0b7a0ed16d	apply	精灵闲置时|回复精神力	「精灵加成」是原文没有的增译，且语序与本组另两条不一致；原文只说精灵闲置时回精神力。
+ds:P12-0111	ds	C	format	SC0832aa527c997ec2	CAT:O22225023fc081a3745ab	apply	给予精力|好再造更多！	中文行尾多一个半角空格，英文原文行尾没有；只删空格。
+R9M-CAT:O0115379ce41430c0f5a3	R9M	B	term	SC6ab7a1bef87c3bbb	CAT:O0115379ce41430c0f5a3	apply	已获得异常体 贝塔	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:O4a55f0d0855295ec691c	R9M	B	term	SC7543ac064091a8b3	CAT:O4a55f0d0855295ec691c	apply	已获得异常体 伽马	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:O224df3feba5259136068	R9M	B	term	SC0f2b2af1e51b3a48	CAT:O224df3feba5259136068	apply	已获得异常体 奥密克戎	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:O4d512d9660c464937935	R9M	B	term	SC63f17e63b26c32b5	CAT:O4d512d9660c464937935	apply	已获得异常体 伽马	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+ds:P12-0101	ds	B	term	SC63f17e63b26c32b5	CAT:O4d512d9660c464937935	reject		整族由 R9M 条目统一处理（含本条所在行），避免同一行两条决定。
+ds:P12-0103	ds	needs_evidence	term	SCb5031cad45d81976	CAT:Ofedd5676a424ddceca22	reject		等级名是否中文化属跨面命名口径：词典与卡面已作中文，任务日志 8 行留拉丁，两条路各自内部一致；本批已按「整族统一为中文」处理 header 行（见 R9M 条目），此处不再单独立案。
+ds:P12-0104	ds	needs_evidence	term	SCb2ae6c0080036be2	CAT:O9a98f33a81b7ec7806fe	reject		Zener 形状在词典作「三角／星星／圆圈」、任务日志整句作「三角形／星形／圆形」，两面各自成体系；改词条名会同时影响物品栏与图鉴，属跨面命名口径，进 LEFTOVERS 等终裁。
+ds:P12-0109	ds	B	term	SC9af133c46ac11e7b	SFWadb836290d16e8bbada6e1da	reject		本侧写法已正确（`按UP+ATK`），要改的是另一侧那两行，落在本批之外；本批不改本行。
+ds:P12-0110	ds	B	term	SC745982b9d2f432fa	SFW9c8e090c508293aaaf7d3076	reject		同 P12-0109：本侧已作 `按(SELECT)`，需改的是另一侧副本，本批不改本行。
+R9M-CAT:Ofdc980f5912cbca86cd7	R9M	C	format	SCf9948b5851f138f9	CAT:Ofdc980f5912cbca86cd7	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Oca8c672dd6fb3dceffb8	R9M	C	format	SCee2407b3832a3c23	CAT:Oca8c672dd6fb3dceffb8	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O5da9af4fc7ced38333fc	R9M	C	format	SC1c32fe8447dca2b4	CAT:O5da9af4fc7ced38333fc	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Oa8dd1400813dc11b5deb	R9M	C	format	SC9a95916986bf14b2	CAT:Oa8dd1400813dc11b5deb	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O5989a41af975c13dafb2	R9M	C	format	SC24421b5f97ffb084	CAT:O5989a41af975c13dafb2	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+ds:P12-0102	ds	C	format	SCf9948b5851f138f9	CAT:Ofdc980f5912cbca86cd7	reject		与 R9M-CAT:Ofdc980f5912cbca86cd7 同一行同一处，取先落地的条目。

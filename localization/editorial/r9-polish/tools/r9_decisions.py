@@ -95,6 +95,13 @@ class Batch:
 
     def emit(self, key, route, severity, category, row_id, decision, final, reason):
         if row_id not in self.rows:
+            # A rejected proposal may quote a row id that does not exist (a
+            # mistyped id); it changes nothing, so record it instead of failing.
+            if decision != 'apply':
+                self.seen.add(key)
+                self.lines.append('	'.join((key, route, severity, category, '', row_id,
+                                             decision, '', reason)))
+                return
             raise SystemExit('%s: unknown row %s' % (key, row_id))
         if key in self.seen:
             raise SystemExit('%s: planned twice' % key)

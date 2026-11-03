@@ -31,10 +31,13 @@ b.apply_finding('ds', 'P10-0306',
                 '揍了小狼崽一顿之后，|和它交上了朋友！')
 b.apply_finding('ds', 'P10-0309', '全角感叹号后面跟半角空格加半角「!」，卡面同一行混排两种标点；合并成全角。')
 
-# This batch's `/patchDictionary/navmap.AreaB` row is not a second copy of the
-# passage renamed in batch-10-part02: navmap keys exist only in patch.pak, and
-# `/patchDictionary/...` is the display namespace for the same keys, so that
-# entry is already fixed and this order row is stale. Left untouched on purpose.
+# The dictionary copy of the passage renamed in batch-10-part02. Part 2 fixed the
+# runtime overlay (`datay/scripts_pack.json#/patchDictionary/navmap.AreaB…`); this
+# row is the base entry the overlay mirrors, so both have to say the same thing.
+b.emit('R9M-CAT:O1550a958e00d5a9b2210', 'R9M', 'C', 'term', 'CAT:O1550a958e00d5a9b2210',
+       'apply', '东部通道',
+       '与 batch-10-part02 同一地名（EASTERN PASSAGE）：那一批改的是运行时 overlay（jar `datay`），'
+       '本行是它镜像的基础条目（patch.pak `datav`）；同 root 的 EAST 一律作「东部」，两份要一致。')
 
 b.reject('ds:P10-0307',
          'BadEnding 是把五行英文按特定显示行序拼成一句的排版块，而工单的行序是 row_id 排序；'

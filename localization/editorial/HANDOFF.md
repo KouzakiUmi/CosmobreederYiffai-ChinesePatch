@@ -14,13 +14,13 @@
 | R6 | 层一致性与术语回改（Bumper→弹跳机等） | [r6-consistency](r6-consistency/README.md) |
 | R7 | 用运行代码＋渲染判定剩余条目 | [r7-render](r7-render/README.md) |
 | R8 | 谜题提示改“相邻”，补字形 | [r8-puzzle](r8-puzzle/README.md) |
-| R9 | 全正文精校二十六批（双路：Gemini 3.8 Flash + DS(OD)；batch-10／11 只有 DS 一路），649 处采纳、649 个操作落地 | [r9-polish](r9-polish/README.md) |
+| R9 | 全正文精校三十批（双路：DS(OD) ＋ Gemini 3.8 Flash／Grok 4.7；batch-10／11／12-part01 只有 DS 一路），706 处采纳、706 个操作落地 | [r9-polish](r9-polish/README.md) |
 
 当前候选链：candidate8（R3）→ 9（R4）→ 10（R5）→ 11（R6）→ 12（R8）→ 13（R9 batch-01）→ 14（+batch-03）→ 15（+batch-02）→ 16（+batch-04）→ 17（+05-part01）→ 18（+05-part03）→ 19（+05-part02）→ 20（+06-part02）→ 21（+06-part01）→ 23（+06-part04）→ 24（+06-part03）→ 25（+07-part01）→ 26（+07-part02）→ 27（+08-part01）→ 28（+08-part02）→ 29（+08-part03）→ 30（+08-part04）→ 31（+08-part05）→ 32（+09-part01）→ 33（+09-part02）→ 34（+09-part03）→ 35（+09-part04）→ 36（+10-part01）→ 37（+10-part02）→ 38（+10-part03）→ **39（+batch-11，最新）**。
 
-- candidate39：26 批 R9 台账共 649 个操作（含 32 个 JSON 指针操作），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。
-- 候选 13～39 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；`candidate39/results.json` 记 `game_started: false`、`user_save_accessed: false`。
-- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate39 上 649 个操作全部逐字节相等。
+- candidate43：30 批 R9 台账共 706 个操作（含 40 个 JSON 指针操作：词典条目、任务日志字段、运行时 overlay），四步编译 exit 0，55 类，`status` 为 `integrated_candidate_not_real_clip_CRT_input_acceptance`；manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`。candidate39（26 批／649 操作）是它的前一跳。
+- 候选 13～43 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+- 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate43 上 706 个操作全部逐字节相等（candidate39／40／41／42 分别是 649／664／677／689）。
 - 各轮候选**均未生成 `acceptance.json`**：正式封签需绑定与本次归档 SHA 一致的上游资源／字体／方法复核，字体已多轮变化，旧复核记录无法套用。
 
 ## 二、遗留
@@ -28,13 +28,13 @@
 | 项 | 状态 |
 | --- | --- |
 | P01-035 `MAGs` | 唯一仍未决的留置项。已证：该句只在 NSFW 版存在（SFW 版整句不同）、全库无 MAG 物品、无弹药系统，现译“弹匣”无据；但“杂志”与“磁靴”两解均无法证实。batch-09-part01 又遇到一次同词，仍无新证据 |
-| 全正文系统精校 | **批次定义内的部分已完成**：R9 二十六批全部落地（2,154 场／11,631 行，约 72.1%）。剩余 835 场不在任何 `BATCHES` 定义里（473 场词典条目、287 场脚本串、50 场 `MauserHints*`、4 场图像），要覆盖须新开批次并另行确认，见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md) |
+| 全正文系统精校 | **批次定义内的部分已完成**：R9 三十批全部落地（2,677 场／12,464 行，约 89.6% 场／92.4% 行）。剩余 312 场不在任何 `BATCHES` 定义里（287 场脚本串、4 场图像、21 场 batch-01 只定义未出单），要覆盖须新开批次并另行确认，见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md) |
 | 全库口径待终裁 | `LIGHTTAZER` 命名（光能电击刃／光电击枪／光电击器／轻型电击枪多种并存）、失真字幕处理方式、`COMMAND CENTER`（总部／指挥中心）、`PUPLOCK`（pup＋Harlock 双关） |
 | `STARSUIT` 与 `Cosmosuit` 是否同一件 | 词典 `CosmoBody.name` 是 STARSUIT＝「星装」，而多处已落地作「宇宙服」；batch-09 两批均只记录未改 |
 | 批次定义覆盖边界 | 按 `BATCHES` 只能覆盖全库 2,175／2,989 场；剩 473 场词典条目、50 场 `MauserHints*`、287 场脚本串、4 场图像不在任何批次内，见 [r9-polish/COVERAGE_AUDIT.md](r9-polish/COVERAGE_AUDIT.md)。要扩大范围须新开批次并另行确认 |
 | 术语分叉／反向改动 | 已记入 [r9-polish/LEFTOVERS.md](r9-polish/LEFTOVERS.md)：`Tomcat*`／`TomcatItems*` 的 pak 侧 8 处「狗头人」、`UP+攻击`／`DOWN+攻击` 共 7 处按键名、`卫星链路`／`卫星通讯`、`花哨芯片`／`高级芯片`，以及 batch-09-part02 把「电击枪」改成少数写法「电击器」的那一处 |
 | 界面卡面值尾换行 | `ui.card.*.desc` 的中文值尾多一个换行符、英文源没有；`editorial_repairs` 对 JSON 值强制换行计数不变，台账层改不了，属引擎／构建层问题，已记 LEFTOVERS |
-| candidate39 封签 | 未做 |
+| candidate43 封签 | 未做；材料清单见 [r9-polish/ACCEPTANCE_PRECHECK.md](r9-polish/ACCEPTANCE_PRECHECK.md) |
 
 ## 三、进行中：全正文系统精校（双路，路由已定）
 
@@ -75,6 +75,10 @@
 | batch-10-part02 | 界面与系统文本（2／3） | 98／401 | 0 / 4 | 8（apply 8／reject 0，含 4 处 R9M 行尾空格） | 8 个操作，并入 candidate37 |
 | batch-10-part03 | 界面与系统文本（3／3） | 99／299 | 0 / 9 | 17（apply 14／reject 1／留置 2，含 7 处 R9M 行尾空格） | 14 个操作，并入 candidate38 |
 | batch-11 | 战败提示与失真广播 | 109／505 | 0 / 11 | 26（apply 25／reject 1，含 15 处 R9M 行尾空格） | 25 个操作，并入 candidate39 |
+| batch-12-part01 | 词典与任务日志（1／3） | 157／213 | 0 / 11 | 20（apply 14／reject 6） | 14 个操作，并入 candidate40 |
+| batch-12-part02 | 词典与任务日志（2／3） | 158／219 | 10 / 11 | 29（apply 13／reject 16） | 13 个操作，并入 candidate41 |
+| batch-12-part03 | 词典与任务日志（3／3） | 158／218 | 8 / 7 | 23（apply 12／reject 11） | 12 个操作，并入 candidate42 |
+| batch-13 | 毛鼠旁白提示 | 50／183 | 12 / 13 | 42（apply 17／reject 25） | 17 个操作，并入 candidate43 |
 
 **已无未出工单的批次**：batch-01～11 全部落地（batch-11 是 `DefeatHints` 72 场＋`Starkill` 21 场＋`Static` 16 场，`ORDER.md` 由 `tools/make_batch11_order.py` 派生）。下一步只能扩范围（新批次）或做清理批次，两者都要先确认。
 

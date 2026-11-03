@@ -1,0 +1,3253 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-13",
+ "batch_group": "batch-13",
+ "part": null,
+ "parts": null,
+ "title": "毛鼠旁白提示（MauserHints）",
+ "roots": [
+  "MauserHints",
+  "MauserHints_Area0",
+  "MauserHints_AreaB",
+  "MauserHints_AreaC",
+  "MauserHints_AreaE",
+  "MauserHints_AreaH"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC0bd9584e37e7ed33",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints.AreaC.PigobinHint noselect",
+   "header_line": 3582,
+   "controls": [
+    {
+     "line": 3582,
+     "source": "<MauserHints.AreaC.PigobinHint noselect>",
+     "current": "<MauserHints.AreaC.PigobinHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O57c1d51ff433c21c6c4a",
+     "line": 3583,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT SECTION OF SCEAFYA CAN GET PRETTY DARK]",
+     "current": "  Mauser: [斯凯菲亚那一段会变得挺黑的，都是因为这一带的树。]"
+    },
+    {
+     "row_id": "CAT:Oc54ca0b3d5d711080f03",
+     "line": 3584,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THANKS TO ALL THE TREES IN THE AREA.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3a0b3aa3acc3b24d2421",
+     "line": 3585,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU GRAB A FLASHLIGHT SOMEWHERE AROUND THERE]",
+     "current": "  Mauser: [你要是能在那一带弄到手电筒，那大概就能给这局面照点亮光！]"
+    },
+    {
+     "row_id": "CAT:O606d9d79d3acebcf857c",
+     "line": 3586,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT'D PROBABLY SHINE LIGHT ON THE SITUATION!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC928066794d1c49a1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints.AreaC.PigobinHint noselect",
+   "header_line": 3645,
+   "controls": [
+    {
+     "line": 3645,
+     "source": "<MauserHints.AreaC.PigobinHint noselect>",
+     "current": "<MauserHints.AreaC.PigobinHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ofe61bf2e2c59a9d742ce",
+     "line": 3646,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT SECTION OF SCEAFYA CAN GET PRETTY DARK]",
+     "current": "  Mauser: [斯凯菲亚那一段会变得挺黑的，都是因为这一带的树。]"
+    },
+    {
+     "row_id": "CAT:Oef08946e062fdb9c7fd2",
+     "line": 3647,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THANKS TO ALL THE TREES IN THE AREA.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O20344914793486543264",
+     "line": 3648,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IF YOU GRAB A FLASHLIGHT SOMEWHERE AROUND THERE]",
+     "current": "  Mauser: [你要是能在那一带弄到手电筒，那大概就能给这局面照点亮光！]"
+    },
+    {
+     "row_id": "CAT:O95d57ea8f3a59f4669c5",
+     "line": 3649,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT'D PROBABLY SHINE LIGHT ON THE SITUATION!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1db30291a8d893bd",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints.AreaC_OneBossDefeated",
+   "header_line": 3589,
+   "controls": [
+    {
+     "line": 3589,
+     "source": "<MauserHints.AreaC_OneBossDefeated>",
+     "current": "<MauserHints.AreaC_OneBossDefeated>"
+    },
+    {
+     "line": 3590,
+     "source": "  if { f(ClassicPigobinV3_defeated) || f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) || f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3591,
+     "source": "    if { f(ClassicEnelye_defeated) } {",
+     "current": "    if { f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3592,
+     "source": "      if { hasItem(SpecialTorch) } {",
+     "current": "      if { hasItem(SpecialTorch) } {"
+    },
+    {
+     "line": 3593,
+     "source": "        include { MauserHints_AreaC.PigobinHint }",
+     "current": "        include { MauserHints_AreaC.PigobinHint }"
+    },
+    {
+     "line": 3594,
+     "source": "      } else {",
+     "current": "      } else {"
+    },
+    {
+     "line": 3598,
+     "source": "      }",
+     "current": "      }"
+    },
+    {
+     "line": 3599,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3600,
+     "source": "      if { hasItem(SpecialKeycard3) } {",
+     "current": "      if { hasItem(SpecialKeycard3) } {"
+    },
+    {
+     "line": 3601,
+     "source": "        include { MauserHints_AreaC.EnelyeHint } ",
+     "current": "        include { MauserHints_AreaC.EnelyeHint } "
+    },
+    {
+     "line": 3602,
+     "source": "      } else {",
+     "current": "      } else {"
+    },
+    {
+     "line": 3606,
+     "source": "      }",
+     "current": "      }"
+    },
+    {
+     "line": 3607,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3608,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O89d403e553e56e5a2048",
+     "line": 3595,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE'VE GOT A MEMO HERE THAT ONE AGENT SOLD A FLASHLIGHT]",
+     "current": "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……结果它转眼就弄丢了。]"
+    },
+    {
+     "row_id": "CAT:O2e9cc161a32b47c8864c",
+     "line": 3596,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO A TINY DOG... WHO PROMPTLY LOST IT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8485c68de5472fc628f5",
+     "line": 3597,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT WAS SOMEWHERE IN THE SOUTHWEST OF THAT AREA!]",
+     "current": "        Mauser: [就在那片区域的西南部！]"
+    },
+    {
+     "row_id": "CAT:Ob49a6e864169d2dbfee9",
+     "line": 3603,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE HIGHER YOU GO IN THIS SECTOR THE MORE ELVES SHOW UP!]",
+     "current": "        Mauser: [这个扇区越往上走，出现的精灵就越多！]"
+    },
+    {
+     "row_id": "CAT:Oedb9281a0eaca1f0712f",
+     "line": 3604,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT MUST MEAN THAT THEY'RE PROTECTING SOMETHING!]",
+     "current": "        Mauser: [这肯定说明他们在守着什么！]"
+    },
+    {
+     "row_id": "CAT:Oa69c58bef5b895626083",
+     "line": 3605,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GO FIND OUT WHAT IT IS!]",
+     "current": "        Mauser: [去搞清楚那是什么！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCaa167d4a176e4ef5",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints.AreaC_OneBossDefeated",
+   "header_line": 3651,
+   "controls": [
+    {
+     "line": 3651,
+     "source": "<MauserHints.AreaC_OneBossDefeated>",
+     "current": "<MauserHints.AreaC_OneBossDefeated>"
+    },
+    {
+     "line": 3652,
+     "source": "  if { f(ClassicPigobinV3_defeated) || f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) || f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3653,
+     "source": "    if { f(ClassicEnelye_defeated) } {",
+     "current": "    if { f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3654,
+     "source": "      if { hasItem(SpecialTorch) } {",
+     "current": "      if { hasItem(SpecialTorch) } {"
+    },
+    {
+     "line": 3655,
+     "source": "        include { MauserHints_AreaC.PigobinHint }",
+     "current": "        include { MauserHints_AreaC.PigobinHint }"
+    },
+    {
+     "line": 3656,
+     "source": "      } else {",
+     "current": "      } else {"
+    },
+    {
+     "line": 3660,
+     "source": "      }",
+     "current": "      }"
+    },
+    {
+     "line": 3661,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3662,
+     "source": "      if { hasItem(SpecialKeycard3) } {",
+     "current": "      if { hasItem(SpecialKeycard3) } {"
+    },
+    {
+     "line": 3663,
+     "source": "        include { MauserHints_AreaC.EnelyeHint } ",
+     "current": "        include { MauserHints_AreaC.EnelyeHint } "
+    },
+    {
+     "line": 3664,
+     "source": "      } else {",
+     "current": "      } else {"
+    },
+    {
+     "line": 3668,
+     "source": "      }",
+     "current": "      }"
+    },
+    {
+     "line": 3669,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3670,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O88cba587a4d7b2de16ae",
+     "line": 3657,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE'VE GOT A MEMO HERE THAT ONE AGENT SOLD A FLASHLIGHT]",
+     "current": "        Mauser: [我们这儿有条备忘录，说有个特工把一支手电筒卖给了一只小狗……它转眼就弄丢了。]"
+    },
+    {
+     "row_id": "CAT:Oc28c47a01f956ee57e52",
+     "line": 3658,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO A TINY DOG... WHO PROMPTLY LOST IT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1b005670485e61715bba",
+     "line": 3659,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT WAS SOMEWHERE IN THE SOUTHWEST OF THAT AREA!]",
+     "current": "        Mauser: [那地方就在这片区域的西南方！]"
+    },
+    {
+     "row_id": "CAT:O17734621cdf275b8917a",
+     "line": 3665,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE HIGHER YOU GO IN THIS SECTOR THE MORE ELVES SHOW UP!]",
+     "current": "        Mauser: [这片区域越往高处走，精灵就越多！]"
+    },
+    {
+     "row_id": "CAT:Oaaaf2b3e77c777dfa068",
+     "line": 3666,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT MUST MEAN THAT THEY'RE PROTECTING SOMETHING!]",
+     "current": "        Mauser: [这肯定说明他们在守着什么！]"
+    },
+    {
+     "row_id": "CAT:Od0c6372b9ca88ce012fc",
+     "line": 3667,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GO FIND OUT WHAT IT IS!]",
+     "current": "        Mauser: [快去查查是什么！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC16650bbc771784c4",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.AfterBigbold1Killed",
+   "header_line": 3454,
+   "controls": [
+    {
+     "line": 3454,
+     "source": "<MauserHints_Area0.AfterBigbold1Killed>",
+     "current": "<MauserHints_Area0.AfterBigbold1Killed>"
+    },
+    {
+     "line": 3455,
+     "source": "  if { f(ClassicBigbold_defeated) } {",
+     "current": "  if { f(ClassicBigbold_defeated) } {"
+    },
+    {
+     "line": 3458,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Obee3e580d1304d7cb60c",
+     "line": 3456,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU HAVE TO TRACK DOWN THAT BIGBOLD!]",
+     "current": "    Mauser: [你得追踪到那只大壮兽！]"
+    },
+    {
+     "row_id": "CAT:Of50e704bcb4c3d441695",
+     "line": 3457,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[HE WENT FURTHER INTO THE FACILITY, FOLLOW HIM!]",
+     "current": "    Mauser: [他往设施更深处去了，追上去！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC57a88c132be4705d",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.AfterBigbold1Killed",
+   "header_line": 3392,
+   "controls": [
+    {
+     "line": 3392,
+     "source": "<MauserHints_Area0.AfterBigbold1Killed>",
+     "current": "<MauserHints_Area0.AfterBigbold1Killed>"
+    },
+    {
+     "line": 3393,
+     "source": "  if { f(ClassicBigbold_defeated) } {",
+     "current": "  if { f(ClassicBigbold_defeated) } {"
+    },
+    {
+     "line": 3396,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa3ca8a74a91025ed7325",
+     "line": 3394,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU HAVE TO TRACK DOWN THAT BIGBOLD!]",
+     "current": "    Mauser: [你得追踪到那只大壮兽！]"
+    },
+    {
+     "row_id": "CAT:Oe3399156cc2f89faf2fa",
+     "line": 3395,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[HE WENT FURTHER INTO THE FACILITY, FOLLOW HIM!]",
+     "current": "    Mauser: [他往设施更深处去了，跟上他！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1c96012cacee79f9",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.AfterBigboldV2KilledEscape",
+   "header_line": 3398,
+   "controls": [
+    {
+     "line": 3398,
+     "source": "<MauserHints_Area0.AfterBigboldV2KilledEscape>",
+     "current": "<MauserHints_Area0.AfterBigboldV2KilledEscape>"
+    },
+    {
+     "line": 3399,
+     "source": "  if { f(ClassicBigboldV2_defeated) } {",
+     "current": "  if { f(ClassicBigboldV2_defeated) } {"
+    },
+    {
+     "line": 3402,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O99991becac7bc48d8fbd",
+     "line": 3400,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT PLACE LOOKS LIKE IT'S GONNA COLLAPSE!]",
+     "current": "    Mauser: [那地方看着就要塌了！]"
+    },
+    {
+     "row_id": "CAT:O9382939c8f2116eafbfb",
+     "line": 3401,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GET OUT OF THERE!!!]",
+     "current": "    Mauser: [快从那儿出来！！！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc51db72a0adbcd7d",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.AfterBigboldV2KilledEscape",
+   "header_line": 3460,
+   "controls": [
+    {
+     "line": 3460,
+     "source": "<MauserHints_Area0.AfterBigboldV2KilledEscape>",
+     "current": "<MauserHints_Area0.AfterBigboldV2KilledEscape>"
+    },
+    {
+     "line": 3461,
+     "source": "  if { f(ClassicBigboldV2_defeated) } {",
+     "current": "  if { f(ClassicBigboldV2_defeated) } {"
+    },
+    {
+     "line": 3464,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Od384f200d9ea6d199868",
+     "line": 3462,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT PLACE LOOKS LIKE IT'S GONNA COLLAPSE!]",
+     "current": "    Mauser: [那地方看起来快要塌了！]"
+    },
+    {
+     "row_id": "CAT:Oe1633cdb2ccea912b68a",
+     "line": 3463,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GET OUT OF THERE!!!]",
+     "current": "    Mauser: [快离开那里！！！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3c709e08abecdd6b",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.AfterBigboldV2KilledSafe",
+   "header_line": 3404,
+   "controls": [
+    {
+     "line": 3404,
+     "source": "<MauserHints_Area0.AfterBigboldV2KilledSafe>",
+     "current": "<MauserHints_Area0.AfterBigboldV2KilledSafe>"
+    },
+    {
+     "line": 3405,
+     "source": "  if { f(story_escaped_ClassicBigboldV2) } {",
+     "current": "  if { f(story_escaped_ClassicBigboldV2) } {"
+    },
+    {
+     "line": 3409,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O6bc935e82401f1e26f12",
+     "line": 3406,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REPORTS INDICATE THAT THERE IS AN AGENT SOMEWHERE IN]",
+     "current": "    Mauser: [报告显示，有一名特工就在东部传输点附近。]"
+    },
+    {
+     "row_id": "CAT:Oe699925d01ef9730a9c8",
+     "line": 3407,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE VICINITY OF THE EASTERN TRANSMISSION POINT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O89ecdbd4fcec30d2f314",
+     "line": 3408,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[DO YOUR BEST TO RESCUE THEM!]",
+     "current": "    Mauser: [尽力把人救出来！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8b485ccdf0b6b9fc",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.AfterBigboldV2KilledSafe",
+   "header_line": 3466,
+   "controls": [
+    {
+     "line": 3466,
+     "source": "<MauserHints_Area0.AfterBigboldV2KilledSafe>",
+     "current": "<MauserHints_Area0.AfterBigboldV2KilledSafe>"
+    },
+    {
+     "line": 3467,
+     "source": "  if { f(story_escaped_ClassicBigboldV2) } {",
+     "current": "  if { f(story_escaped_ClassicBigboldV2) } {"
+    },
+    {
+     "line": 3471,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oec5baf9874c2a41f45b6",
+     "line": 3468,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REPORTS INDICATE THAT THERE IS AN AGENT SOMEWHERE IN]",
+     "current": "    Mauser: [报告显示，有一名特工就在东部传输点附近。]"
+    },
+    {
+     "row_id": "CAT:Oebd96ca254a41ea2e035",
+     "line": 3469,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE VICINITY OF THE EASTERN TRANSMISSION POINT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oda04f2a1eac952a4b1e3",
+     "line": 3470,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[DO YOUR BEST TO RESCUE THEM!]",
+     "current": "    Mauser: [尽力救出对方！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa4aeea4fcaaf7602",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.AfterFirstAgentRescued",
+   "header_line": 3411,
+   "controls": [
+    {
+     "line": 3411,
+     "source": "<MauserHints_Area0.AfterFirstAgentRescued>",
+     "current": "<MauserHints_Area0.AfterFirstAgentRescued>"
+    },
+    {
+     "line": 3412,
+     "source": "  if { hasItem(Agent*0B) || f(ctx_entered_area_AreaB) } {",
+     "current": "  if { hasItem(Agent*0B) || f(ctx_entered_area_AreaB) } {"
+    },
+    {
+     "line": 3415,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O44c85c169b59493dd7e9",
+     "line": 3413,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT BRACE THAT YOU FOUND SHOULD COME IN HANDY FOR]",
+     "current": "    Mauser: [你找到的那个护腕应该能派上用场，用来前往新区域！]"
+    },
+    {
+     "row_id": "CAT:O8af90f3574f5c3c6a51e",
+     "line": 3414,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[REACHING NEW AREAS!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCee65d81001fa7f60",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.AfterFirstAgentRescued",
+   "header_line": 3473,
+   "controls": [
+    {
+     "line": 3473,
+     "source": "<MauserHints_Area0.AfterFirstAgentRescued>",
+     "current": "<MauserHints_Area0.AfterFirstAgentRescued>"
+    },
+    {
+     "line": 3474,
+     "source": "  if { hasItem(Agent*0B) } {",
+     "current": "  if { hasItem(Agent*0B) } {"
+    },
+    {
+     "line": 3477,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O62d99d3f1e4af29c37ee",
+     "line": 3475,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT BRACE THAT YOU FOUND SHOULD COME IN HANDY FOR]",
+     "current": "    Mauser: [你找到的那个护腕应该能派上用场，用来前往新区域！]"
+    },
+    {
+     "row_id": "CAT:O65f249447314decf9720",
+     "line": 3476,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[REACHING NEW AREAS!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC096b5ffbba08d9e5",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.BeforeBigbold1Killed",
+   "header_line": 3450,
+   "controls": [
+    {
+     "line": 3450,
+     "source": "<MauserHints_Area0.BeforeBigbold1Killed>",
+     "current": "<MauserHints_Area0.BeforeBigbold1Killed>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O64d94cd387ae9861a245",
+     "line": 3451,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU NEED TO RECOVER YOUR EQUIPMENT, YIFFAI!]",
+     "current": "  Mauser: [伊吠，你得把装备找回来！]"
+    },
+    {
+     "row_id": "CAT:Oa7563bd2465f3f0e6647",
+     "line": 3452,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE THIEVES COULDN'T HAVE GONE TOO FAR.]",
+     "current": "  Mauser: [那些小偷跑不了多远的。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2870fbd3d222a195",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.BeforeBigbold1Killed",
+   "header_line": 3388,
+   "controls": [
+    {
+     "line": 3388,
+     "source": "<MauserHints_Area0.BeforeBigbold1Killed>",
+     "current": "<MauserHints_Area0.BeforeBigbold1Killed>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O1f51ec2ff69921ba8e2b",
+     "line": 3389,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU NEED TO RECOVER YOUR EQUIPMENT, YIFFANY!]",
+     "current": "  Mauser: [你得找回你的装备，伊吠妮！]"
+    },
+    {
+     "row_id": "CAT:Ob60ced94cd981c1e8550",
+     "line": 3390,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE THIEVES COULDN'T HAVE GONE TOO FAR.]",
+     "current": "  Mauser: [那些小偷不可能走太远。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3a12fdcd058b0e59",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.Endgame",
+   "header_line": 3424,
+   "controls": [
+    {
+     "line": 3424,
+     "source": "<MauserHints_Area0.Endgame>",
+     "current": "<MauserHints_Area0.Endgame>"
+    },
+    {
+     "line": 3425,
+     "source": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3426,
+     "source": "    if { !f(ClassicStarkillV3_defeated) } {",
+     "current": "    if { !f(ClassicStarkillV3_defeated) } {"
+    },
+    {
+     "line": 3429,
+     "source": "    } else if { !hasItem(CosmoBody) || !hasItem(CosmoHead) } {",
+     "current": "    } else if { !hasItem(CosmoBody) || !hasItem(CosmoHead) } {"
+    },
+    {
+     "line": 3433,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3437,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3438,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc0f91c324721a0de3d2b",
+     "line": 3427,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOUR NAVMAP SHOULD SHOW WHERE YOUR BROTHER IS!]",
+     "current": "      Mauser: [你的导航图应该能显示你弟弟在哪儿！]"
+    },
+    {
+     "row_id": "CAT:O780892b434d14bbc0106",
+     "line": 3428,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GO AND SLAP SOME SENSE INTO THEM!]",
+     "current": "      Mauser: [去把他打醒！]"
+    },
+    {
+     "row_id": "CAT:O2c8c7e60fb8931578f94",
+     "line": 3430,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE YOU REALLY GOING UP TO THE PRISON MOON?]",
+     "current": "      Mauser: [你真要上那颗监狱卫星吗？]"
+    },
+    {
+     "row_id": "CAT:O3c46cacd9182b0686efc",
+     "line": 3431,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'LL WANT TO GET YOUR COSMOSUIT BACK FIRST]",
+     "current": "      Mauser: [你最好先把宇宙服拿回来。]"
+    },
+    {
+     "row_id": "CAT:O168ef941c1d3cab5688f",
+     "line": 3432,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THOSE DWEEBY SQUEAKERS COULDN'T HAVE TAKEN IT FAR!]",
+     "current": "      Mauser: [那些窝囊的吱吱怪不可能把它带远！]"
+    },
+    {
+     "row_id": "CAT:Obc6a6b9a9c6ccf5dacd5",
+     "line": 3434,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'VE GOT YOUR COSMOSUIT BACK TOGETHER AGAIN!]",
+     "current": "      Mauser: [你把宇宙服重新拼好了！]"
+    },
+    {
+     "row_id": "CAT:O87f050fa52168dd7008a",
+     "line": 3435,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOTHING'S STOPPING YOU FROM HEADING UP]",
+     "current": "      Mauser: [没什么能拦着你前往那颗名叫“流放地”的监狱卫星！]"
+    },
+    {
+     "row_id": "CAT:Oc3c9abcbe95d540c20e3",
+     "line": 3436,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[TO THE PRISON MOON NAMED \"EXILE\"!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC567b9e156beb4379",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.Endgame",
+   "header_line": 3486,
+   "controls": [
+    {
+     "line": 3486,
+     "source": "<MauserHints_Area0.Endgame>",
+     "current": "<MauserHints_Area0.Endgame>"
+    },
+    {
+     "line": 3487,
+     "source": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3488,
+     "source": "    if { !f(ClassicStarkillV3_defeated) } {",
+     "current": "    if { !f(ClassicStarkillV3_defeated) } {"
+    },
+    {
+     "line": 3492,
+     "source": "    } else if { !hasItem(CosmoBody) || !hasItem(CosmoHead) } {",
+     "current": "    } else if { !hasItem(CosmoBody) || !hasItem(CosmoHead) } {"
+    },
+    {
+     "line": 3496,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3500,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3501,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O4bb1917176b03c96c3f0",
+     "line": 3489,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOUR NAVMAP SHOULD SHOW WHERE YOUR SISTER IS!]",
+     "current": "      Mauser: [你的导航图应该标着你姐姐的位置！]"
+    },
+    {
+     "row_id": "CAT:O201825a8a0a17f3f659f",
+     "line": 3490,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GO AND SLAP SOME SENSE INTO THEM!]",
+     "current": "      Mauser: [去把她揍醒吧！]"
+    },
+    {
+     "row_id": "CAT:Ocf0ed5914e20a248647a",
+     "line": 3491,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[...BUT NOT TOO HARD!]",
+     "current": "      Mauser: [……不过可别下手太重！]"
+    },
+    {
+     "row_id": "CAT:O493c14fdafa36c200802",
+     "line": 3493,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ARE YOU REALLY GOING UP TO THE PRISON MOON?]",
+     "current": "      Mauser: [你真的要去那座监狱月球吗？]"
+    },
+    {
+     "row_id": "CAT:O8af677897cd0d331b6e2",
+     "line": 3494,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'LL WANT TO GET YOUR COSMOSUIT BACK FIRST]",
+     "current": "      Mauser: [你最好先把自己的宇宙服找回来]"
+    },
+    {
+     "row_id": "CAT:O9948c8af8d258c2d5b50",
+     "line": 3495,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THOSE DWEEBY SQUEAKERS COULDN'T HAVE TAKEN IT FAR!]",
+     "current": "      Mauser: [那些窝囊的吱吱怪不可能把它带远！]"
+    },
+    {
+     "row_id": "CAT:O1e76c90271a952dcb597",
+     "line": 3497,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'VE GOT YOUR COSMOSUIT BACK TOGETHER AGAIN!]",
+     "current": "      Mauser: [你的宇宙服又凑齐了！]"
+    },
+    {
+     "row_id": "CAT:O8acb8d21dd835b5c8209",
+     "line": 3498,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOTHING'S STOPPING YOU FROM HEADING UP]",
+     "current": "      Mauser: [没有什么能拦着你前往那颗名叫“流放地”的监狱卫星！]"
+    },
+    {
+     "row_id": "CAT:Oe2a4f8c91004efcb1f06",
+     "line": 3499,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[TO THE PRISON MOON NAMED \"EXILE\"!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5b5bdf78b8b742d0",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_Area0.ReturnFromAreaB",
+   "header_line": 3479,
+   "controls": [
+    {
+     "line": 3479,
+     "source": "<MauserHints_Area0.ReturnFromAreaB>",
+     "current": "<MauserHints_Area0.ReturnFromAreaB>"
+    },
+    {
+     "line": 3480,
+     "source": "  if { f(ctx_entered_area_AreaB) } {",
+     "current": "  if { f(ctx_entered_area_AreaB) } {"
+    },
+    {
+     "line": 3484,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Occ991800e26909127da5",
+     "line": 3481,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GEE YIFFAI, WHATCHU YOU DOING BACK IN THAT OLD PLACE?]",
+     "current": "    Mauser: [哎呀伊吠，你跑回这老地方干嘛呀？]"
+    },
+    {
+     "row_id": "CAT:O8431c6d535c2fc46e1b5",
+     "line": 3482,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE'S OTHER THINGS TO DO IF YOU USE THE TELEPORTAL]",
+     "current": "    Mauser: [要是用传送门去探索别的区域，还有别的事情可做！]"
+    },
+    {
+     "row_id": "CAT:Oe60de5b1b99a00563b4d",
+     "line": 3483,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND EXPLORE OTHER AREAS!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCba47a5e8f5af9dac",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_Area0.ReturnFromAreaB",
+   "header_line": 3417,
+   "controls": [
+    {
+     "line": 3417,
+     "source": "<MauserHints_Area0.ReturnFromAreaB>",
+     "current": "<MauserHints_Area0.ReturnFromAreaB>"
+    },
+    {
+     "line": 3418,
+     "source": "  if { f(ctx_entered_area_AreaB) } {",
+     "current": "  if { f(ctx_entered_area_AreaB) } {"
+    },
+    {
+     "line": 3422,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O72465c1daa40ce3a9d61",
+     "line": 3419,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GEE YIFFANY, WHAT'S GOING ON BACK IN THAT AREA?]",
+     "current": "    Mauser: [哎呀，伊吠妮，那片区域那边怎么了？]"
+    },
+    {
+     "row_id": "CAT:O4ce88a97a0efcf0c2592",
+     "line": 3420,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AREN'T THERE MORE INTERESTING PLACES THAT YOU COULD SEE]",
+     "current": "    Mauser: [通过传送门去别的区域探索，不是还能看到更有意思的地方吗？]"
+    },
+    {
+     "row_id": "CAT:O74fc355e9727d6aa81e7",
+     "line": 3421,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU TAKE A TELE- PORTAL TO EXPLORE OTHER AREAS?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC27e73dec7f1dda6a",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.AfterEnteredAreaB",
+   "header_line": 3583,
+   "controls": [
+    {
+     "line": 3583,
+     "source": "<MauserHints_AreaB.AfterEnteredAreaB>",
+     "current": "<MauserHints_AreaB.AfterEnteredAreaB>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O97766d4122e94bd80ffa",
+     "line": 3584,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'RE CURRENTLY IN AN OLD ABANDONED DEPOT, YIFFAI.]",
+     "current": "  Mauser: [你现在在一座废弃的旧仓库里，伊吠。]"
+    },
+    {
+     "row_id": "CAT:O97d33dda0f23d930753a",
+     "line": 3585,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE LOST CONTACT WITH 2 AGENTS IN THAT SECTOR]",
+     "current": "  Mauser: [我们在那个片区和2名特工失去了联络，所以盯紧点，留意他们！]"
+    },
+    {
+     "row_id": "CAT:Ocb7d61bebd1616e34da7",
+     "line": 3586,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO KEEP YOUR EYES PEELED FOR THEM!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0523fc3129dab4afb160",
+     "line": 3587,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AFFIRMATIVE, WILL KEEP AN EYE OUT.]",
+     "current": "  Yiffai: [明白，我会留意。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2ed631bfbecca526",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.AfterEnteredAreaB",
+   "header_line": 3520,
+   "controls": [
+    {
+     "line": 3520,
+     "source": "<MauserHints_AreaB.AfterEnteredAreaB>",
+     "current": "<MauserHints_AreaB.AfterEnteredAreaB>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O7c244fe2894a16703765",
+     "line": 3521,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'RE CURRENTLY IN AN OLD ABANDONED DEPOT, YIFFANY.]",
+     "current": "  Mauser: [你现在在一座废弃的旧仓库里，伊吠妮。]"
+    },
+    {
+     "row_id": "CAT:O36def2d29748b84fc650",
+     "line": 3522,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE LOST CONTACT WITH 2 AGENTS IN THAT SECTOR]",
+     "current": "  Mauser: [我们和那个扇区的2名特工失去了联系，所以留神找他们！]"
+    },
+    {
+     "row_id": "CAT:O556f8e286b8c7b719690",
+     "line": 3523,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO KEEP YOUR EYES PEELED FOR THEM!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1c48328a8bc5d14d76d4",
+     "line": 3524,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ROGER, I'LL KEEP AN EYE OUT.]",
+     "current": "  Yiffany: [收到，我会留意的。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC370a1f4dea390913",
+   "mode": "sfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.AfterEnteredAreaB",
+   "header_line": 3513,
+   "controls": [
+    {
+     "line": 3513,
+     "source": "<MauserHints_AreaB.AfterEnteredAreaB>",
+     "current": "<MauserHints_AreaB.AfterEnteredAreaB>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW0efec171fbb13293f01f8f72",
+     "line": 3514,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU'RE CURRENTLY IN AN OLD ABANDONED DEPOT, YIFFAI.]",
+     "current": "  Mauser: [你现在在一座废弃的旧仓库里，伊吠。]"
+    },
+    {
+     "row_id": "SFWcc1c6a838e8d7dedb35d7c2c",
+     "line": 3515,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE LOST CONTACT WITH 2 AGENTS IN THAT SECTOR]",
+     "current": "  Mauser: [我们在那个片区和2名特工失去了联络，所以盯紧点，留意他们！]"
+    },
+    {
+     "row_id": "SFWefcd89cea0a176b4c7285fcd",
+     "line": 3516,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SO KEEP YOUR EYES PEELED FOR THEM!] ",
+     "current": ""
+    },
+    {
+     "row_id": "SFW9f31d4625b480d8ecf195c6f",
+     "line": 3517,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AFFIRMATIVE, WILL KEEP AN EYE OUT.]",
+     "current": "  Yiffai: [明白，我会留意。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe103949e27738048",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.AfterEnteredAreaB",
+   "header_line": 3471,
+   "controls": [
+    {
+     "line": 3471,
+     "source": "<MauserHints_AreaB.AfterEnteredAreaB>",
+     "current": "<MauserHints_AreaB.AfterEnteredAreaB>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW7cf0f95e206e902b428f4edb",
+     "line": 3472,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU'RE CURRENTLY IN AN OLD ABANDONED DEPOT, YIFFANY.]",
+     "current": "  Mauser: [你现在在一座废弃的旧仓库里，伊吠妮。]"
+    },
+    {
+     "row_id": "SFW4403840dbcb63809859c9242",
+     "line": 3473,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE LOST CONTACT WITH 2 AGENTS IN THAT SECTOR]",
+     "current": "  Mauser: [我们和那个扇区的2名特工失去了联系，所以留神找他们！]"
+    },
+    {
+     "row_id": "SFW4b339dfc63ada9959224d6b9",
+     "line": 3474,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SO KEEP YOUR EYES PEELED FOR THEM!] ",
+     "current": ""
+    },
+    {
+     "row_id": "SFWd8752572efb02f1a6c58ce8e",
+     "line": 3475,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ROGER, I'LL KEEP AN EYE OUT.]",
+     "current": "  Yiffany: [收到，我会留意的。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2c6addff352bfb13",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.AfterPsyStar",
+   "header_line": 3532,
+   "controls": [
+    {
+     "line": 3532,
+     "source": "<MauserHints_AreaB.AfterPsyStar>",
+     "current": "<MauserHints_AreaB.AfterPsyStar>"
+    },
+    {
+     "line": 3533,
+     "source": "  if { hasItem(ZenerStar) } {",
+     "current": "  if { hasItem(ZenerStar) } {"
+    },
+    {
+     "line": 3539,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc55b17629c9466a69030",
+     "line": 3534,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ARE YOU SURE YOU'RE OKAY, YIFFANY?]",
+     "current": "    Mauser: [你确定没事吗，伊吠妮？]"
+    },
+    {
+     "row_id": "CAT:Oce3606d9440e4057ffc5",
+     "line": 3535,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHEN YOU SAID YOU HEARD A VOICE THAT SAID]",
+     "current": "    Mauser: [你说你听见一个声音在讲「按 SELECT 循环切换超能力者能力，再用 UP+ATTACK 使用该能力」时，我还以为你这趟任务已经神志不清了！]"
+    },
+    {
+     "row_id": "CAT:O1b5fec6d933a38f50785",
+     "line": 3536,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[\"PRESS SELECT TO CYCLE THROUGH ESPER ABILITIES\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O527bf21de747b2fff2a4",
+     "line": 3537,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[\"AND THEN USE THE ABILITY WITH UP+ATTACK\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O3789ad543e5c5e5205b9",
+     "line": 3538,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I THOUGHT YOU MIGHT'VE BEEN OUT FOR THE MISSION!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC82f75109d82edca1",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.AfterPsyStar",
+   "header_line": 3595,
+   "controls": [
+    {
+     "line": 3595,
+     "source": "<MauserHints_AreaB.AfterPsyStar>",
+     "current": "<MauserHints_AreaB.AfterPsyStar>"
+    },
+    {
+     "line": 3596,
+     "source": "  if { hasItem(ZenerStar) } {",
+     "current": "  if { hasItem(ZenerStar) } {"
+    },
+    {
+     "line": 3602,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2245fcc383bc018b8176",
+     "line": 3597,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ARE YOU SURE YOU'RE OKAY, YIFFAI?]",
+     "current": "    Mauser: [你确定自己没事吗，伊吠？]"
+    },
+    {
+     "row_id": "CAT:O8b854625d85440b6e163",
+     "line": 3598,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHEN YOU SAID YOU HEARD A VOICE THAT SAID]",
+     "current": "    Mauser: [你说听见有声音叫你“按 SELECT 键循环切换超能力，再按 UP+ATTACK 发动能力”，我还以为你没法继续执行任务了！]"
+    },
+    {
+     "row_id": "CAT:O62c9591646e11da015c7",
+     "line": 3599,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[\"PRESS SELECT TO CYCLE THROUGH ESPER ABILITIES\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O7cbdd0b19da897f7abae",
+     "line": 3600,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[\"AND THEN USE THE ABILITY WITH UP+ATTACK\"]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O207b66afd101091acc52",
+     "line": 3601,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I THOUGHT YOU MIGHT'VE BEEN OUT FOR THE MISSION!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC83a94423b5d46770",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.AfterWerehundDefeat",
+   "header_line": 3541,
+   "controls": [
+    {
+     "line": 3541,
+     "source": "<MauserHints_AreaB.AfterWerehundDefeat>",
+     "current": "<MauserHints_AreaB.AfterWerehundDefeat>"
+    },
+    {
+     "line": 3542,
+     "source": "  if { f(ClassicWerehund_defeated) } {",
+     "current": "  if { f(ClassicWerehund_defeated) } {"
+    },
+    {
+     "line": 3543,
+     "source": "    if { !hasItem(Agent*01) || !hasItem(Agent*02) } {",
+     "current": "    if { !hasItem(Agent*01) || !hasItem(Agent*02) } {"
+    },
+    {
+     "line": 3548,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3551,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3552,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O51d8db668a2ed7854037",
+     "line": 3544,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OUR RECORD OF TRANSMISSIONS FOR THAT AREA SHOWS]",
+     "current": "      Mauser: [我方通讯记录显示，那处区域附近有两名特工。]"
+    },
+    {
+     "row_id": "CAT:O90abeddc722b00b8059c",
+     "line": 3545,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT THERE WERE TWO AGENTS IN THE VICINITY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O1fe928a9fdddc3034d90",
+     "line": 3546,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I HOPE THAT THEY'RE OKAY!]",
+     "current": "      Mauser: [希望他们平安！]"
+    },
+    {
+     "row_id": "CAT:O76c38d2a2f103b9f1989",
+     "line": 3547,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'LL FIND THEM! YOU CAN COUNT ON ME!]",
+     "current": "      Yiffany: [我会找到他们的！包在我身上！]"
+    },
+    {
+     "row_id": "CAT:O767c5e1bbf092a9eab70",
+     "line": 3549,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF ONLY YOU HAD SOME WAY TO DIG THROUGH DIRT]",
+     "current": "      Mauser: [真要是有办法挖开泥土，也许就能往西走了！]"
+    },
+    {
+     "row_id": "CAT:O03f0eecda640376ac6be",
+     "line": 3550,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU MIGHT BE ABLE TO MAKE YOUR WAY WESTWARD!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8fb6708eb73e3670",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.AfterWerehundDefeat",
+   "header_line": 3604,
+   "controls": [
+    {
+     "line": 3604,
+     "source": "<MauserHints_AreaB.AfterWerehundDefeat>",
+     "current": "<MauserHints_AreaB.AfterWerehundDefeat>"
+    },
+    {
+     "line": 3605,
+     "source": "  if { f(ClassicWerehund_defeated) } {",
+     "current": "  if { f(ClassicWerehund_defeated) } {"
+    },
+    {
+     "line": 3606,
+     "source": "    if { !hasItem(Agent*01) || !hasItem(Agent*02) } {",
+     "current": "    if { !hasItem(Agent*01) || !hasItem(Agent*02) } {"
+    },
+    {
+     "line": 3611,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3614,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3615,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O545a0eb5f8c861d80e15",
+     "line": 3607,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OUR RECORD OF TRANSMISSIONS FOR THAT AREA SHOWS]",
+     "current": "      Mauser: [我方对那处区域的通讯记录显示，共有两名特工在附近。]"
+    },
+    {
+     "row_id": "CAT:Of1cbd0e8771344d3f3b6",
+     "line": 3608,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT THERE WERE TWO AGENTS IN THE VICINITY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O38ca28bcff64afb37443",
+     "line": 3609,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I HOPE THAT THEY'RE OKAY!]",
+     "current": "      Mauser: [希望他们都没事！]"
+    },
+    {
+     "row_id": "CAT:O5f880587a33e89499e4a",
+     "line": 3610,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'LL FIND THEM! YOU CAN COUNT ON ME!]",
+     "current": "      Yiffai: [我去找他们！交给我吧！]"
+    },
+    {
+     "row_id": "CAT:Oe470f76cad7c19747818",
+     "line": 3612,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IF ONLY YOU HAD SOME WAY TO DIG THROUGH DIRT]",
+     "current": "      Mauser: [要是你有办法挖穿泥土，说不定就能一路往西去了！]"
+    },
+    {
+     "row_id": "CAT:O73e5959a79ba87226dc1",
+     "line": 3613,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU MIGHT BE ABLE TO MAKE YOUR WAY WESTWARD!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC65bfc7226dcf8d7d",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.AfterWerepupDefeat",
+   "header_line": 3589,
+   "controls": [
+    {
+     "line": 3589,
+     "source": "<MauserHints_AreaB.AfterWerepupDefeat>",
+     "current": "<MauserHints_AreaB.AfterWerepupDefeat>"
+    },
+    {
+     "line": 3590,
+     "source": "  if { f(ClassicWerepup_defeated) } {",
+     "current": "  if { f(ClassicWerepup_defeated) } {"
+    },
+    {
+     "line": 3593,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc95bd1e399dd8adc59e1",
+     "line": 3591,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[NOW THAT YOU HAVE A HIGHER LEVEL OF KEYCARD]",
+     "current": "    Mauser: [既然你现在有了更高级别的门卡，应该能往补给站更深处走了！]"
+    },
+    {
+     "row_id": "CAT:O3ff376a3bf87dd3a7003",
+     "line": 3592,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU SHOULD BE ABLE TO MOVE DEEPER INTO THE DEPOT!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd2a3cf4d18f14a7d",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.AfterWerepupDefeat",
+   "header_line": 3526,
+   "controls": [
+    {
+     "line": 3526,
+     "source": "<MauserHints_AreaB.AfterWerepupDefeat>",
+     "current": "<MauserHints_AreaB.AfterWerepupDefeat>"
+    },
+    {
+     "line": 3527,
+     "source": "  if { f(ClassicWerepup_defeated) } {",
+     "current": "  if { f(ClassicWerepup_defeated) } {"
+    },
+    {
+     "line": 3530,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O11899300ea2ff45f192a",
+     "line": 3528,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[NOW THAT YOU HAVE A HIGHER LEVEL OF KEYCARD]",
+     "current": "    Mauser: [既然你现在有了更高级的门卡，应该就能往仓库更深处走了！]"
+    },
+    {
+     "row_id": "CAT:O145475ee2fb9ca33fd5b",
+     "line": 3529,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU SHOULD BE ABLE TO MOVE DEEPER INTO THE DEPOT!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC68434f2afb7359a4",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaB.ReturnFromAreaA",
+   "header_line": 3617,
+   "controls": [
+    {
+     "line": 3617,
+     "source": "<MauserHints_AreaB.ReturnFromAreaA>",
+     "current": "<MauserHints_AreaB.ReturnFromAreaA>"
+    },
+    {
+     "line": 3618,
+     "source": "  if { f(ctx_entered_area_AreaA) } {",
+     "current": "  if { f(ctx_entered_area_AreaA) } {"
+    },
+    {
+     "line": 3622,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O3ce4049eff3982178a7e",
+     "line": 3619,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[STILL HANGING AROUND THAT OLD AREA, HUH?]",
+     "current": "    Mauser: [还在那片旧区域晃悠啊？]"
+    },
+    {
+     "row_id": "CAT:Od9e9751cf628c0f4bf21",
+     "line": 3620,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I THOUGHT YOU FIGURED OUT SOME WAY TO]",
+     "current": "    Mauser: [我还以为你已经想到办法离开那片地带了呢？]"
+    },
+    {
+     "row_id": "CAT:Oe52fd3f5520cbfa4593a",
+     "line": 3621,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MOVE ON FROM THAT ZONE?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC745aeb8f8f9dc42d",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaB.ReturnFromAreaA",
+   "header_line": 3554,
+   "controls": [
+    {
+     "line": 3554,
+     "source": "<MauserHints_AreaB.ReturnFromAreaA>",
+     "current": "<MauserHints_AreaB.ReturnFromAreaA>"
+    },
+    {
+     "line": 3555,
+     "source": "  if { f(ctx_entered_area_AreaA) } {",
+     "current": "  if { f(ctx_entered_area_AreaA) } {"
+    },
+    {
+     "line": 3559,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O35f05a1863f712b0f5ab",
+     "line": 3556,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[STILL HANGING AROUND THAT OLD AREA, HUH?]",
+     "current": "    Mauser: [还在那片旧区域晃悠啊？]"
+    },
+    {
+     "row_id": "CAT:Ofb45bfbe751df9c94593",
+     "line": 3557,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I THOUGHT YOU FIGURED OUT SOME WAY TO]",
+     "current": "    Mauser: [我还以为你已经想到办法离开那片地带了呢？]"
+    },
+    {
+     "row_id": "CAT:O148cea9aeb28dea56b6e",
+     "line": 3558,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MOVE ON FROM THAT ZONE?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb9b29c00401737b2",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaC.AfterFirstEnteredAreaC",
+   "header_line": 3560,
+   "controls": [
+    {
+     "line": 3560,
+     "source": "<MauserHints_AreaC.AfterFirstEnteredAreaC>",
+     "current": "<MauserHints_AreaC.AfterFirstEnteredAreaC>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Od185afa9258b4b6e6a77",
+     "line": 3561,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE ARE MULTIPLE EXITS FROM THAT SECTION OF SCEAFYA]",
+     "current": "  Mauser: [斯凯菲亚那一段有好几个出口，不过抱歉，得你自己去找！]"
+    },
+    {
+     "row_id": "CAT:Odafa959f7aaae7e0f5da",
+     "line": 3562,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BUT YOU'LL HAVE TO FIND THEM YOURSELF, SORRY!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfde47d76460411f7",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaC.AfterFirstEnteredAreaC",
+   "header_line": 3623,
+   "controls": [
+    {
+     "line": 3623,
+     "source": "<MauserHints_AreaC.AfterFirstEnteredAreaC>",
+     "current": "<MauserHints_AreaC.AfterFirstEnteredAreaC>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O8f37dbb3515b830bb6a5",
+     "line": 3624,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE ARE MULTIPLE EXITS FROM THAT SECTION OF SCEAFYA]",
+     "current": "  Mauser: [斯凯菲亚那一段有好几个出口，不过抱歉，得你自己去找！]"
+    },
+    {
+     "row_id": "CAT:Oeeceeb6f7813c0892e98",
+     "line": 3625,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BUT YOU'LL HAVE TO FIND THEM YOURSELF, SORRY!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1fdcff4e3d3e1844",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaC.End",
+   "header_line": 3672,
+   "controls": [
+    {
+     "line": 3672,
+     "source": "<MauserHints_AreaC.End>",
+     "current": "<MauserHints_AreaC.End>"
+    },
+    {
+     "line": 3673,
+     "source": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3674,
+     "source": "    if { !hasItem(Agent*05) || !hasItem(Agent*06) || !hasItem(Agent*08) } {",
+     "current": "    if { !hasItem(Agent*05) || !hasItem(Agent*06) || !hasItem(Agent*08) } {"
+    },
+    {
+     "line": 3679,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3682,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3683,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oce85611f4bca6a157ac2",
+     "line": 3675,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[OUR RECORD OF TRANSMISSIONS FOR THAT AREA SHOWS]",
+     "current": "      Mauser: [我方通讯记录显示，那处区域附近共有三名特工。]"
+    },
+    {
+     "row_id": "CAT:Oe1241f76fb5bbc90ee23",
+     "line": 3676,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE WERE A TOTAL OF THREE AGENTS IN THE VICINITY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O374247914a61d7399514",
+     "line": 3677,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I HOPE THAT THEY'RE OKAY!]",
+     "current": "      Mauser: [希望他们都没事！]"
+    },
+    {
+     "row_id": "CAT:Ob3c1f59c63a304df5c2d",
+     "line": 3678,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'LL FIND THEM! YOU CAN COUNT ON ME!]",
+     "current": "      Yiffai: [我去找他们！交给我吧！]"
+    },
+    {
+     "row_id": "CAT:O959da3455db34db01d3e",
+     "line": 3680,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GEE, I WONDER IF THERE'S ANYTHING NEW]",
+     "current": "      Mauser: [哎呀，不知道泽罗尼亚那边有没有新东西……]"
+    },
+    {
+     "row_id": "CAT:O5b435942c84ae3f15010",
+     "line": 3681,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BACK IN ZERONIA...]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3f9f071617094d38",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaC.End",
+   "header_line": 3610,
+   "controls": [
+    {
+     "line": 3610,
+     "source": "<MauserHints_AreaC.End>",
+     "current": "<MauserHints_AreaC.End>"
+    },
+    {
+     "line": 3611,
+     "source": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {",
+     "current": "  if { f(ClassicPigobinV3_defeated) && f(ClassicEnelye_defeated) } {"
+    },
+    {
+     "line": 3612,
+     "source": "    if { !hasItem(Agent*05) || !hasItem(Agent*06) || !hasItem(Agent*08) } {",
+     "current": "    if { !hasItem(Agent*05) || !hasItem(Agent*06) || !hasItem(Agent*08) } {"
+    },
+    {
+     "line": 3617,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3620,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3621,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Of648a95afaa0ac7d66fe",
+     "line": 3613,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[OUR RECORD OF TRANSMISSIONS FOR THAT AREA SHOWS]",
+     "current": "      Mauser: [我方通讯记录显示，那处区域附近一共有三名特工。]"
+    },
+    {
+     "row_id": "CAT:O5dbdf14f1cf075fdd3af",
+     "line": 3614,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE WERE A TOTAL OF THREE AGENTS IN THE VICINITY]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O42cea62a380c6d2c2bcc",
+     "line": 3615,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I HOPE THAT THEY'RE OKAY!]",
+     "current": "      Mauser: [希望他们平安！]"
+    },
+    {
+     "row_id": "CAT:Oeb79c3b8e9e8661b1d56",
+     "line": 3616,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'LL FIND THEM! YOU CAN COUNT ON ME!]",
+     "current": "      Yiffany: [我会找到他们的！包在我身上！]"
+    },
+    {
+     "row_id": "CAT:O79291bfc722e8596d278",
+     "line": 3618,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GEE, I WONDER IF THERE'S ANYTHING NEW]",
+     "current": "      Mauser: [哎呀，不知道泽罗尼亚那边有没有什么新东西……]"
+    },
+    {
+     "row_id": "CAT:Ocb032b7965142540aaf5",
+     "line": 3619,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BACK IN ZERONIA...]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2d557c5f86ef9923",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaC.EnelyeHint noselect",
+   "header_line": 3577,
+   "controls": [
+    {
+     "line": 3577,
+     "source": "<MauserHints_AreaC.EnelyeHint noselect>",
+     "current": "<MauserHints_AreaC.EnelyeHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa25783c6c24481283640",
+     "line": 3578,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THERE'S A LOT OF HIGH LEVEL DOORS AROUND THERE]",
+     "current": "  Mauser: [那附近有不少高等级门，肯定也有张高等级门卡藏在某处！]"
+    },
+    {
+     "row_id": "CAT:O04cab93fd9753c78b983",
+     "line": 3579,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WHICH MUST MEAN THERE'S A HIGH LEVEL KEYCARD SOMEWHERE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O526c59a28f5a2c36e766",
+     "line": 3580,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOUR BEST BET IS TO FIND THAT AND SEE WHERE IT'LL TAKE YA]",
+     "current": "  Mauser: [最好的办法就是先找到它，看看能通往哪些地方。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCae10fcc52e96b81c",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaC.EnelyeHint noselect",
+   "header_line": 3640,
+   "controls": [
+    {
+     "line": 3640,
+     "source": "<MauserHints_AreaC.EnelyeHint noselect>",
+     "current": "<MauserHints_AreaC.EnelyeHint noselect>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Ocab1b8cea53383771fb3",
+     "line": 3641,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE'S A LOT OF HIGH LEVEL DOORS AROUND THERE]",
+     "current": "  Mauser: [那附近有好多高等级的门，那肯定说明哪儿有一张高级门卡！]"
+    },
+    {
+     "row_id": "CAT:O6226dcf6a6483bc5e09d",
+     "line": 3642,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WHICH MUST MEAN THERE'S A HIGH LEVEL KEYCARD SOMEWHERE!]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O6b8e9edfa47ecb0913ab",
+     "line": 3643,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOUR BEST BET IS TO FIND THAT AND SEE WHERE IT'LL TAKE YA]",
+     "current": "  Mauser: [最靠谱就是找到它，看它能带你去哪儿]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0e0edfdfdc16fe62",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaC.OpenMode",
+   "header_line": 3564,
+   "controls": [
+    {
+     "line": 3564,
+     "source": "<MauserHints_AreaC.OpenMode>",
+     "current": "<MauserHints_AreaC.OpenMode>"
+    },
+    {
+     "line": 3565,
+     "source": "  if { hasItem(SpecialHookshot) } {",
+     "current": "  if { hasItem(SpecialHookshot) } {"
+    },
+    {
+     "line": 3566,
+     "source": "    if { hasItem(SpecialKeycard3) } {",
+     "current": "    if { hasItem(SpecialKeycard3) } {"
+    },
+    {
+     "line": 3567,
+     "source": "      include { MauserHints_AreaC.EnelyeHint }",
+     "current": "      include { MauserHints_AreaC.EnelyeHint }"
+    },
+    {
+     "line": 3568,
+     "source": "    } else if { hasItem(SpecialTorch) } {",
+     "current": "    } else if { hasItem(SpecialTorch) } {"
+    },
+    {
+     "line": 3569,
+     "source": "      include { MauserHints_AreaC.PigobinHint }",
+     "current": "      include { MauserHints_AreaC.PigobinHint }"
+    },
+    {
+     "line": 3570,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3574,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3575,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oaceac2454b8471ac7d93",
+     "line": 3571,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITH ALL THAT GEAR YOU HAVE NOW]",
+     "current": "      Mauser: [以你现在这些装备，基本上哪儿都能去了吧？]"
+    },
+    {
+     "row_id": "CAT:O2993ced0ab62c575e850",
+     "line": 3572,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU CAN GET BASICALLY ANYWHERE, HUH?]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O4d5fa3e6980ddf738b6f",
+     "line": 3573,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MAKE SURE TO CHECK YOUR NAVMAP FOR NEW PLACES TO GO!]",
+     "current": "      Mauser: [记得查看导航图，找找新的可去之处！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC87179380694e608e",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaC.OpenMode",
+   "header_line": 3627,
+   "controls": [
+    {
+     "line": 3627,
+     "source": "<MauserHints_AreaC.OpenMode>",
+     "current": "<MauserHints_AreaC.OpenMode>"
+    },
+    {
+     "line": 3628,
+     "source": "  if { hasItem(SpecialHookshot) } {",
+     "current": "  if { hasItem(SpecialHookshot) } {"
+    },
+    {
+     "line": 3629,
+     "source": "    if { hasItem(SpecialKeycard3) } {",
+     "current": "    if { hasItem(SpecialKeycard3) } {"
+    },
+    {
+     "line": 3630,
+     "source": "      include { MauserHints_AreaC.EnelyeHint }",
+     "current": "      include { MauserHints_AreaC.EnelyeHint }"
+    },
+    {
+     "line": 3631,
+     "source": "    } else if { hasItem(SpecialTorch) } {",
+     "current": "    } else if { hasItem(SpecialTorch) } {"
+    },
+    {
+     "line": 3632,
+     "source": "      include { MauserHints_AreaC.PigobinHint }",
+     "current": "      include { MauserHints_AreaC.PigobinHint }"
+    },
+    {
+     "line": 3633,
+     "source": "    } else {",
+     "current": "    } else {"
+    },
+    {
+     "line": 3637,
+     "source": "    }",
+     "current": "    }"
+    },
+    {
+     "line": 3638,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2c11e72d956a328bf8ad",
+     "line": 3634,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WITH ALL THAT GEAR YOU HAVE NOW]",
+     "current": "      Mauser: [有了你现在这些装备，基本哪儿都能去了吧？]"
+    },
+    {
+     "row_id": "CAT:O896ef7703a5740ad6c95",
+     "line": 3635,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU CAN GET BASICALLY ANYWHERE, HUH?]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O0c354543d06f72ef4507",
+     "line": 3636,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAKE SURE TO CHECK YOUR NAVMAP FOR NEW PLACES TO GO!]",
+     "current": "      Mauser: [记得查看导航地图，找找新去处！]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC747ef12f51e290c1",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaC.ReturnLater",
+   "header_line": 3623,
+   "controls": [
+    {
+     "line": 3623,
+     "source": "<MauserHints_AreaC.ReturnLater>",
+     "current": "<MauserHints_AreaC.ReturnLater>"
+    },
+    {
+     "line": 3624,
+     "source": "  if { hasItem(CosmoHead) || hasItem(CosmoBody) || f(ClassicStarkillV3_defeated) } {",
+     "current": "  if { hasItem(CosmoHead) || hasItem(CosmoBody) || f(ClassicStarkillV3_defeated) } {"
+    },
+    {
+     "line": 3628,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa49014b9f4a02a3d1003",
+     "line": 3625,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[GEE YIFFANY, WHAT'S GOING ON BACK IN THAT AREA?]",
+     "current": "    Mauser: [哎呀，伊吠妮，那片区域那边怎么了？]"
+    },
+    {
+     "row_id": "CAT:O64b847986647efd6df8f",
+     "line": 3626,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[AREN'T THERE MORE INTERESTING PLACES THAT YOU COULD SEE]",
+     "current": "    Mauser: [通过传送门去别的区域探索，不是还能看到更有意思的地方吗？]"
+    },
+    {
+     "row_id": "CAT:Oeb958bca312a681cc736",
+     "line": 3627,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IF YOU TAKE A TELE- PORTAL TO EXPLORE OTHER AREAS?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC867009a1a6bdb6ec",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaC.ReturnLater",
+   "header_line": 3685,
+   "controls": [
+    {
+     "line": 3685,
+     "source": "<MauserHints_AreaC.ReturnLater>",
+     "current": "<MauserHints_AreaC.ReturnLater>"
+    },
+    {
+     "line": 3686,
+     "source": "  if { hasItem(CosmoHead) || hasItem(CosmoBody) || f(ClassicStarkillV3_defeated) } {",
+     "current": "  if { hasItem(CosmoHead) || hasItem(CosmoBody) || f(ClassicStarkillV3_defeated) } {"
+    },
+    {
+     "line": 3690,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Odb581a9e222b75422fe8",
+     "line": 3687,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[GEE YIFFAI, WHATCHU YOU DOING BACK IN THAT OLD PLACE?]",
+     "current": "    Mauser: [哎呀伊吠，你跑回这老地方干嘛呀？]"
+    },
+    {
+     "row_id": "CAT:O203ac3bc328cdef135f8",
+     "line": 3688,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THERE'S OTHER THINGS TO DO IF YOU USE THE TELEPORTAL]",
+     "current": "    Mauser: [要是用传送门去探索别的区域，还有别的事情可做！]"
+    },
+    {
+     "row_id": "CAT:O03e93365e897d29cc912",
+     "line": 3689,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[AND EXPLORE OTHER AREAS!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC471820d1e214f97c",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaE.AfterFirstEnteredAreaE",
+   "header_line": 3691,
+   "controls": [
+    {
+     "line": 3691,
+     "source": "<MauserHints_AreaE.AfterFirstEnteredAreaE>",
+     "current": "<MauserHints_AreaE.AfterFirstEnteredAreaE>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O91949fb526d7540c7f68",
+     "line": 3692,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[I'M DETECTING STRONG ENERGY SIGNATURES DEEP IN]",
+     "current": "  Mauser: [我在那颗卫星东北部的深处探测到强烈能量特征，伊吠。]"
+    },
+    {
+     "row_id": "CAT:Oa38ae9e212424952cd57",
+     "line": 3693,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THE NORTHEAST OF THAT MOON, YIFFAI.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Oc6318d9ff0e2ee0653b5",
+     "line": 3694,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU SHOULD TRY TO FIND A WAY INTO THOSE CAVERNS.]",
+     "current": "  Mauser: [你该试着找条路进那些洞窟。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCedea7267588eb179",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaE.AfterFirstEnteredAreaE",
+   "header_line": 3629,
+   "controls": [
+    {
+     "line": 3629,
+     "source": "<MauserHints_AreaE.AfterFirstEnteredAreaE>",
+     "current": "<MauserHints_AreaE.AfterFirstEnteredAreaE>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oba807d87d2fe06bb2d62",
+     "line": 3630,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'M DETECTING STRONG ENERGY SIGNATURES DEEP IN]",
+     "current": "  Mauser: [伊吠，我探测到那颗卫星东北部深处有强烈能量特征。]"
+    },
+    {
+     "row_id": "CAT:O1eb7be28c9af1ea5a413",
+     "line": 3631,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE NORTHEAST OF THAT MOON, YIFFAI.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O08930ec8da72de4de1ca",
+     "line": 3632,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU SHOULD TRY TO FIND A WAY INTO THOSE CAVERNS.]",
+     "current": "  Mauser: [你该试着找条路进那些洞窟。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6fdb8418c5faf950",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaE.AfterFirstEnteredAreaE",
+   "header_line": 3580,
+   "controls": [
+    {
+     "line": 3580,
+     "source": "<MauserHints_AreaE.AfterFirstEnteredAreaE>",
+     "current": "<MauserHints_AreaE.AfterFirstEnteredAreaE>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW5fcadca254065f81d358d161",
+     "line": 3581,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[I'M DETECTING STRONG ENERGY SIGNATURES DEEP IN]",
+     "current": "  Mauser: [伊吠妮，我探测到了很强的能量信号。]"
+    },
+    {
+     "row_id": "SFWd40939bcf1fb5974ce06ba38",
+     "line": 3582,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THE NORTHEAST OF THAT MOON, YIFFANY.]",
+     "current": "  Mauser: [就在那颗卫星的东北部深处。]"
+    },
+    {
+     "row_id": "SFW744c27461afee6102905e239",
+     "line": 3583,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU SHOULD TRY TO FIND A WAY INTO THOSE CAVERNS.]",
+     "current": "  Mauser: [你该试着找条路进那些洞窟。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9c3ee111c4458d24",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaE.AfterOpenedLock",
+   "header_line": 3705,
+   "controls": [
+    {
+     "line": 3705,
+     "source": "<MauserHints_AreaE.AfterOpenedLock>",
+     "current": "<MauserHints_AreaE.AfterOpenedLock>"
+    },
+    {
+     "line": 3706,
+     "source": "  if { f(AreaE_map23_door_key) } {",
+     "current": "  if { f(AreaE_map23_door_key) } {"
+    },
+    {
+     "line": 3710,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O710a25afe652ec70566a",
+     "line": 3707,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WE'VE DETECTED POWERFUL SURGES OF DARK ENERGY DEEPER]",
+     "current": "    Mauser: [我们探测到，你打开的那个金库更深处有强烈的暗能量涌动。]"
+    },
+    {
+     "row_id": "CAT:O656c774b16cbd7aefb42",
+     "line": 3708,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[WITHIN THAT VAULT YOU UNLOCKED.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8121e2a94476733e4f99",
+     "line": 3709,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[BEFORE YOU GO IN THERE, MAKE SURE YOU'RE READY.]",
+     "current": "    Mauser: [进去之前，确保你已经准备好了。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb83c11a1adaf52ec",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaE.AfterOpenedLock",
+   "header_line": 3643,
+   "controls": [
+    {
+     "line": 3643,
+     "source": "<MauserHints_AreaE.AfterOpenedLock>",
+     "current": "<MauserHints_AreaE.AfterOpenedLock>"
+    },
+    {
+     "line": 3644,
+     "source": "  if { f(AreaE_map23_door_key) } {",
+     "current": "  if { f(AreaE_map23_door_key) } {"
+    },
+    {
+     "line": 3648,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oc430b6793288363249c2",
+     "line": 3645,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WE'VE DETECTED POWERFUL SURGES OF DARK ENERGY DEEPER]",
+     "current": "    Mauser: [我们在你打开的那座宝库更深处探测到强烈的暗能量涌动。]"
+    },
+    {
+     "row_id": "CAT:O3f964ac9eb0a49d62467",
+     "line": 3646,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[WITHIN THAT VAULT YOU UNLOCKED.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:Odf8998cd41f4dd388581",
+     "line": 3647,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[BEFORE YOU GO IN THERE, MAKE SURE YOU'RE READY.]",
+     "current": "    Mauser: [进去之前，务必做好准备。]"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC73e818ac21de50e7",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaE.AfterSeenLock",
+   "header_line": 3696,
+   "controls": [
+    {
+     "line": 3696,
+     "source": "<MauserHints_AreaE.AfterSeenLock>",
+     "current": "<MauserHints_AreaE.AfterSeenLock>"
+    },
+    {
+     "line": 3697,
+     "source": "  if { f(ctx_entered_room_AreaE_map23) } {",
+     "current": "  if { f(ctx_entered_room_AreaE_map23) } {"
+    },
+    {
+     "line": 3703,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O2b6a8d1ace2b71a5b10a",
+     "line": 3698,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[THAT VAULT YOU FOUND IN THE NORTHEAST OF EXILE]",
+     "current": "    Mauser: [你在流放地东北边发现的那个金库，看来真的很重要。]"
+    },
+    {
+     "row_id": "CAT:Oa215ecef27c4953b1a5c",
+     "line": 3699,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[SEEMS REALLY IMPORTANT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O8c32aa58ae8432cb6885",
+     "line": 3700,
+     "speaker": "Yiffai",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[ANY IDEA HOW I COULD OPEN IT?]",
+     "current": "    Yiffai: [有什么办法能打开它吗？]"
+    },
+    {
+     "row_id": "CAT:Odc1636b64ef44fd01bf2",
+     "line": 3701,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT SEEMS TO BE FENFEN TECH. SO IF YOU RUN INTO ANY]",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们中的任何一个，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "CAT:O9383481eabba4a410fe0",
+     "line": 3702,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[MAYBE YOU SHOULD PAY ATTENTION TO WHAT THEY TELL YOU?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa1e42fd2a89cb4a7",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaE.AfterSeenLock",
+   "header_line": 3634,
+   "controls": [
+    {
+     "line": 3634,
+     "source": "<MauserHints_AreaE.AfterSeenLock>",
+     "current": "<MauserHints_AreaE.AfterSeenLock>"
+    },
+    {
+     "line": 3635,
+     "source": "  if { f(ctx_entered_room_AreaE_map23) } {",
+     "current": "  if { f(ctx_entered_room_AreaE_map23) } {"
+    },
+    {
+     "line": 3641,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oda168f4d2a5a7f7785d1",
+     "line": 3636,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT VAULT YOU FOUND IN THE NORTHEAST OF EXILE]",
+     "current": "    Mauser: [你在流放东北发现的那座宝库，看起来确实很重要。]"
+    },
+    {
+     "row_id": "CAT:Ocdbdf9e283658ee3a4e2",
+     "line": 3637,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SEEMS REALLY IMPORTANT.]",
+     "current": ""
+    },
+    {
+     "row_id": "CAT:O2d115ca64d6b31fc781a",
+     "line": 3638,
+     "speaker": "Yiffany",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY IDEA HOW I COULD OPEN IT?]",
+     "current": "    Yiffany: [有什么办法能让我打开它吗？]"
+    },
+    {
+     "row_id": "CAT:O0b1cbd97cc7bf76b0568",
+     "line": 3639,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SEEMS TO BE FENFEN TECH. SO IF YOU RUN INTO ANY]",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "CAT:Of0c902fc1440402f7fc0",
+     "line": 3640,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MAYBE YOU SHOULD PAY ATTENTION TO WHAT THEY TELL YOU?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6fc409e41e2a9bb6",
+   "mode": "sfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaE.AfterSeenLock",
+   "header_line": 3585,
+   "controls": [
+    {
+     "line": 3585,
+     "source": "<MauserHints_AreaE.AfterSeenLock>",
+     "current": "<MauserHints_AreaE.AfterSeenLock>"
+    },
+    {
+     "line": 3586,
+     "source": "  if { f(ctx_entered_room_AreaE_map23) } {",
+     "current": "  if { f(ctx_entered_room_AreaE_map23) } {"
+    },
+    {
+     "line": 3592,
+     "source": "  }",
+     "current": "  }"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "SFW724b2e902a7a29aaef76970b",
+     "line": 3587,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[THAT VAULT YOU FOUND IN THE NORTHEAST OF EXILE]",
+     "current": "    Mauser: [你在流放地东北发现的那座宝库，看起来确实很重要。]"
+    },
+    {
+     "row_id": "SFW03ec05bbb13c782704fa8edf",
+     "line": 3588,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[SEEMS REALLY IMPORTANT.]",
+     "current": ""
+    },
+    {
+     "row_id": "SFW2f93c3e2b2d9dba9e86a65ef",
+     "line": 3589,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[ANY IDEA HOW I COULD OPEN IT?]",
+     "current": "    Yiffany: [有什么办法能让我打开它吗？]"
+    },
+    {
+     "row_id": "SFW9f1b0263bb7236695b225e44",
+     "line": 3590,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT SEEMS TO BE FENFEN TECH. SO IF YOU RUN INTO ANY]",
+     "current": "    Mauser: [看起来是Fenfen的技术。所以你要是碰上他们，也许该留意他们对你说的话？]"
+    },
+    {
+     "row_id": "SFWe5ac5e75cd9488f638847440",
+     "line": 3591,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[MAYBE YOU SHOULD PAY ATTENTION TO WHAT THEY TELL YOU?]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SC096ff031233354a6",
+   "mode": "nsfw",
+   "logical_path": "datadm/all.ds",
+   "root": "MauserHints_AreaH.Stub",
+   "header_line": 3711,
+   "controls": [
+    {
+     "line": 3711,
+     "source": "<MauserHints_AreaH.Stub>",
+     "current": "<MauserHints_AreaH.Stub>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:O00e8cfa7e0711016d8e3",
+     "line": 3712,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[IT LOOKS LIKE YOU'RE IN THE HANGAR, YIFFAI.]",
+     "current": "  Mauser: [看样子你到机库里了，伊吠。]"
+    },
+    {
+     "row_id": "CAT:O0680646e1e7533d8f43b",
+     "line": 3713,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOU CAN REST AND RECOVER THERE WHILE YOU PLAN]",
+     "current": "  Mauser: [你可以在那儿休息恢复，顺便规划你的下一步行动！]"
+    },
+    {
+     "row_id": "CAT:O31ce13876abc1ae46df7",
+     "line": 3714,
+     "speaker": "Mauser",
+     "variant": "male",
+     "current_kind": "physical_line",
+     "archive_entry": "datadm/1",
+     "source": "[YOUR NEXT MOVE!]",
+     "current": ""
+    }
+   ]
+  },
+  {
+   "scene_id": "SCff4ab55d36c06867",
+   "mode": "nsfw",
+   "logical_path": "datadf/all.ds",
+   "root": "MauserHints_AreaH.Stub",
+   "header_line": 3649,
+   "controls": [
+    {
+     "line": 3649,
+     "source": "<MauserHints_AreaH.Stub>",
+     "current": "<MauserHints_AreaH.Stub>"
+    }
+   ],
+   "rows": [
+    {
+     "row_id": "CAT:Oa9351a5fa29986e6d64e",
+     "line": 3650,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[IT LOOKS LIKE YOU'RE IN THE HANGAR, YIFFANY.]",
+     "current": "  Mauser: [看起来你在机库里，伊吠妮。]"
+    },
+    {
+     "row_id": "CAT:O0b28fcfdf84050eb24bd",
+     "line": 3651,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOU CAN REST AND RECOVER THERE WHILE YOU PLAN]",
+     "current": "  Mauser: [你可以在那儿休息恢复，一边计划下一步行动！]"
+    },
+    {
+     "row_id": "CAT:O073c7aafa7f224ba09d2",
+     "line": 3652,
+     "speaker": "Mauser",
+     "variant": "female",
+     "current_kind": "physical_line",
+     "archive_entry": "datadf/1",
+     "source": "[YOUR NEXT MOVE!]",
+     "current": ""
+    }
+   ]
+  }
+ ]
+}

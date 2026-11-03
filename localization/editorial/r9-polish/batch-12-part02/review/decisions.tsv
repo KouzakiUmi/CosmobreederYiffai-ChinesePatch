@@ -1,0 +1,30 @@
+finding_id	route	severity	category	scene_id	row_id	decision	final_zh	reason
+ds:P12-0205	ds	B	term	SC48112ce4d73a0f7e	CAT:Ob0ffde2b7cc35a20ba51	apply	按 (SELECT)|进行通讯	按键名保留英文（batch-10／11 已裁决）；「选择」是把 SELECT 译了两遍。
+ds:P12-0206	ds	B	term	SC892a34d02bd8c453	CAT:O90d8f279d41f9619c1f6	apply	空中按DOWN+JUMP|使出俯冲踢！	按键名保留英文；「空中下+跳跃」还把按键语序读错了，原文是空中按 DOWN+JUMP。
+ds:P12-0207	ds	B	idiom	SC80eb848385a75731	CAT:Oa171a24754b726d41dff	apply	每个精灵都有|一对好瓜！	MELON 在库内作「瓜」；「一对好货」把水果读成了货物。
+ds:P12-0208	ds	A	meaning	SCd05d4bff7f83a0fb	SFW4057efac959dd4cac45268f1	apply	扭结面包|新鲜出炉	整段误译：PRETZEL 是扭结面包，「硬结打卷｜育得正好」把面包读成了育种。
+ds:P12-0209	ds	A	meaning	SC41c028c4ae8b572c	CAT:Oda01761b7ab029ed8329	apply	细剑	RAPER 是 RAPIER 掉字的原文；同 root 描述行与另一侧都作「细剑」，现译把它读成了罪名。
+R9M-CAT:O8e693539f4176a2c26f8	R9M	B	term	SC79e2f7c67a16d76e	CAT:O8e693539f4176a2c26f8	apply	已获得异常体 阿尔法	任务日志八条同一模板统一为「已获得异常体 X」：等级名取中文（词典与卡面即中文），动词取「获得」（女线原「已获取」），并补回男线漏掉的中心词「体」。
+R9M-CAT:O4912436292a3f33f762d	R9M	A	meaning	SCa4cef581c82b0645	CAT:O4912436292a3f33f762d	apply	大壮兽王	KINGBOLD 是 BIGBOLD 的王者变体，BIGBOLD 在库内一律作「大壮兽」；「胆王」把它读成了胆量。（提案里的 row_id 少一位，已按工单里的真实 row_id 落地。）
+ds:P12-0203	ds	A	meaning		CAT:O491243629a3f33f762d	reject		提案的行 id 少一位（`…629a3f…` 与工单里的 `…6292a3f…`），本批已按真实 row_id 用 R9M 条目落地，原条目不重复落笔。
+ds:P12-0201	ds	B	term	SC79e2f7c67a16d76e	CAT:O8e693539f4176a2c26f8	reject		整族由 R9M 条目统一处理（含本条所在行）。
+ds:P12-0202	ds	C	format	SCb886fda3ea55a085	CAT:O275aca8c7829d6273049	reject		与 R9M 行尾空格条目同一行同一点，取机械条目。
+ds:P12-0204	ds	C	term	SCda0b74f118690c11	SFWb5b657b5499b27ce4e15ff79	reject		「通讯联络」与「探测秘密」两句在两侧只是措辞差异，看不出哪一侧更贴原文；不凭偏好改。
+ds:P12-0210	ds	B	term	SC8a0289153028c585	CAT:O6dab2711b737b0d5d952	reject		同 P12-0104：Zener 形状在词典与任务日志两面各自成体系，改词条名属跨面命名口径，进 LEFTOVERS。
+grok:P12-X201	grok	B	format	SCb886fda3ea55a085	CAT:O275aca8c7829d6273049	reject		与 R9M 行尾空格条目同一行同一点，取机械条目。
+grok:P12-X202	grok	B	format	SCf54b851830b09d0e	CAT:Od4cb3c7e0f2cd06dcad4	reject		同上。
+grok:P12-X203	grok	B	format	SC6859be2cbd7d04dc	CAT:O768bad96fbb2059ed768	reject		要删的是值末尾的换行：本批台账按行写，值里的换行无法表达（build_ledger 会拒绝），属既有限制，记入 LEFTOVERS。
+grok:P12-X204	grok	B	format	SCbf5176ebe827253a	CAT:O318e5bbe33f62b056c72	reject		同上：末尾换行，行式台账表达不了。
+grok:P12-X205	grok	B	format	SC830eb1f5ee0725d9	CAT:Oc0cc6e195ce90d6ab5fe	reject		这一段要重排分段并补「她的」，改动量超出「同一行内替换」，且现译尚未确认哪一段漏了；留给专门的一次分段校订，不在本批强行拼。
+grok:P12-X206	grok	B	term	SC79e2f7c67a16d76e	CAT:O8e693539f4176a2c26f8	reject		整族已由 R9M 条目统一为「已获得异常体 X」（含本条两行），等级名取中文。
+grok:P12-X207	grok	A	meaning	SCa4cef581c82b0645	CAT:O4912436292a3f33f762d	reject		与 ds:P12-0203 同一行，已由 R9M 条目落地。
+grok:P12-X208	grok	A	gameplay	SC48112ce4d73a0f7e	CAT:Ob0ffde2b7cc35a20ba51	reject		与 ds:P12-0205 同一处，已落地。
+grok:P12-X209	grok	A	gameplay	SC892a34d02bd8c453	CAT:O90d8f279d41f9619c1f6	reject		与 ds:P12-0206 同一处，已落地。
+grok:P12-X210	grok	A	meaning	SCd05d4bff7f83a0fb	SFW4057efac959dd4cac45268f1	reject		与 ds:P12-0208 同一处，已落地。
+grok:P12-X211	grok	A	meaning	SCef265bf76535cea6	SFW8e386526313445bc13993663	reject		FENFEN 的中文写法尚未终裁（词典另有「芬芬」候选）；两路提了两种互不相同的拉丁写法，都不能当定论，记入 LEFTOVERS。
+R9M-CAT:O275aca8c7829d6273049	R9M	C	format	SCb886fda3ea55a085	CAT:O275aca8c7829d6273049	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O576b7dc3d19d8f61fb3c	R9M	C	format	SCf939fcd2e6f4fadd	CAT:O576b7dc3d19d8f61fb3c	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Od4cb3c7e0f2cd06dcad4	R9M	C	format	SCf54b851830b09d0e	CAT:Od4cb3c7e0f2cd06dcad4	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Oe7334ce8593261871e84	R9M	C	format	SC09b867e648859ff3	CAT:Oe7334ce8593261871e84	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:Of0b83acf31d11fa005d6	R9M	C	format	SCc3ab65b767bbb2c4	CAT:Of0b83acf31d11fa005d6	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。
+R9M-CAT:O3fa666ad72db5708cb22	R9M	C	format	SC70f3e4f7cb1c7acb	CAT:O3fa666ad72db5708cb22	apply	示例占位文字|排版测试内容|此处为占位文-|字，仅供测试	中文行尾多出半角空格，英文原文行尾没有；只删空格，不动 `|` 与换行。

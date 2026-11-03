@@ -1,0 +1,3939 @@
+{
+ "schema": "cosmo-r9-polish-order/v1",
+ "batch": "batch-12-part02",
+ "batch_group": "batch-12",
+ "part": 2,
+ "parts": 3,
+ "title": "界面与系统文本（未覆盖的词典与任务日志条目）（第 2／3 部分）",
+ "roots": [
+  "/missionLog/female/1/header",
+  "/missionLog/female/1/subject",
+  "/missionLog/female/1/text",
+  "/missionLog/female/10/subject",
+  "/missionLog/female/11/header",
+  "/missionLog/female/11/locationName",
+  "/missionLog/female/11/text",
+  "/missionLog/female/13/subject",
+  "/missionLog/female/14/header",
+  "/missionLog/female/15/subject",
+  "/missionLog/female/16/header",
+  "/missionLog/female/16/locationName",
+  "/missionLog/female/17/locationName",
+  "/missionLog/female/19/header",
+  "/missionLog/female/19/subject",
+  "/missionLog/female/19/text",
+  "/missionLog/female/2/header",
+  "/missionLog/female/2/locationName",
+  "/missionLog/female/4/subject",
+  "/missionLog/female/4/text",
+  "/missionLog/female/6/header",
+  "/missionLog/female/6/locationName",
+  "/missionLog/female/7/locationName",
+  "/missionLog/female/7/subject",
+  "/missionLog/female/7/text",
+  "/missionLog/female/9/text",
+  "/missionLog/male/0/header",
+  "/missionLog/male/0/locationName",
+  "/missionLog/male/1/locationName",
+  "/missionLog/male/1/subject",
+  "/missionLog/male/1/text",
+  "/missionLog/male/10/header",
+  "/missionLog/male/10/locationName",
+  "/missionLog/male/11/locationName",
+  "/missionLog/male/11/subject",
+  "/missionLog/male/13/locationName",
+  "/missionLog/male/13/subject",
+  "/missionLog/male/13/text",
+  "/missionLog/male/14/locationName",
+  "/missionLog/male/16/header",
+  "/missionLog/male/16/subject",
+  "/missionLog/male/17/text",
+  "/missionLog/male/18/header",
+  "/missionLog/male/18/subject",
+  "/missionLog/male/19/header",
+  "/missionLog/male/19/locationName",
+  "/missionLog/male/2/locationName",
+  "/missionLog/male/2/text",
+  "/missionLog/male/4/header",
+  "/missionLog/male/4/subject",
+  "/missionLog/male/5/header",
+  "/missionLog/male/5/text",
+  "/missionLog/male/7/subject",
+  "/missionLog/male/8/text",
+  "AnomalyAlpha",
+  "AnomalyOmicron",
+  "AttackElixir",
+  "BarLectReward",
+  "Bomb",
+  "ClassicBarker",
+  "ClassicBossPigobinTriforce",
+  "ClassicBossRedbullSecond",
+  "ClassicBugFlier",
+  "ClassicBullfrog",
+  "ClassicBumper",
+  "ClassicCannonCeiling",
+  "ClassicCannonFloorC",
+  "ClassicCrawly",
+  "ClassicDragonV2HandPhase2",
+  "ClassicDragonV2Phase3",
+  "ClassicDwarfAdd",
+  "ClassicEnelyeBulb",
+  "ClassicEnelyeSpiritFire",
+  "ClassicFire",
+  "ClassicFlamer",
+  "ClassicGhoster",
+  "ClassicGoatbossHead",
+  "ClassicKingbold",
+  "ClassicMineCeiling",
+  "ClassicMineWallZero",
+  "ClassicOmegothrower",
+  "ClassicQueenShadow",
+  "ClassicSalamanderknight",
+  "ClassicSpikeball",
+  "ClassicSqueaker",
+  "ClassicStarkillV1",
+  "ClassicStarkillV2Male",
+  "ClassicStarkillV3Female",
+  "ClassicStarkillV3Fire",
+  "ClassicTentacle",
+  "ClassicWerepup",
+  "ClassicWyvern",
+  "ClassicXCannonCeiling",
+  "CosmoCardDragon",
+  "CosmoCardEnelye",
+  "CosmoCardPigobin",
+  "CosmoCardStarkill",
+  "CosmoCardWerepup",
+  "CosmoHead",
+  "DataDisk",
+  "DoggyHead",
+  "FakeDrumstick",
+  "FakeMeat",
+  "FakeMilk",
+  "FakeTea",
+  "JudoBody",
+  "JudoHead",
+  "KoboBody",
+  "KoboHead",
+  "Lect",
+  "LuckyHeadNotUpgraded",
+  "Pickaxe",
+  "PirateBody",
+  "PsyCrystalBig",
+  "PsySyrup",
+  "ShipRadar",
+  "SlimePotion",
+  "SpecialFap",
+  "SpecialFap.KoboldBuff",
+  "SpecialFap.OmegobinBuff",
+  "SpecialFap.WyvernBuff",
+  "SpecialGeiger",
+  "SpecialHighBoots",
+  "SpecialKeycard0",
+  "SpecialKeycard1",
+  "SpecialKeycard4",
+  "SpecialLabel",
+  "SpecialLotion",
+  "SpecialNecklace",
+  "SpecialRadio",
+  "SpecialRightmark",
+  "SpecialShoes",
+  "StatCheese",
+  "StatCherry",
+  "StatFishtaco",
+  "StatMelon",
+  "StatOctopus",
+  "StatPretzel",
+  "TazerCombat",
+  "TazerKobo",
+  "TazerRapier",
+  "TazerTomahawk",
+  "ThrowKnife",
+  "TribalBody",
+  "TribalHead",
+  "VitDrumstick",
+  "VitHam",
+  "VitMeat",
+  "VitSkull",
+  "ZenerStar",
+  "ZenerWaves",
+  "area"
+ ],
+ "corpus_snapshot": "localization/editorial/r1/corpus/snapshot-03",
+ "current_zh_baseline_candidate": "localization/builds/r9-polish-candidate13",
+ "corpus_manifest_sha256": "9a7c2c365b0bee4ed996854233c5de57e36e5fe259c80604a3a04b50e1080332",
+ "corpus_status": "prepared_not_semantically_reviewed",
+ "current_zh_baseline": "localization/builds/r8-puzzle-candidate12",
+ "scenes": [
+  {
+   "scene_id": "SC9aec8c7d7c7beb11",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/1/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O655f2440a4bf80536621",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ZENER TRIANGLE",
+     "current": "获得泽纳三角形"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC65e3faea4a8661e1",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/1/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O7fdcd1965aac6ccd1608",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6859be2cbd7d04dc",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/1/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O768bad96fbb2059ed768",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Line 1                      | Line 2                      | Line 3                      | Line 4                      | Line 5                      | Line 6                      | Line 7                      | Line 8                      | Line 9                      | Line 10                     | Line 11                     | Line 12                     | Line 13                     | Line 14                     | Line 15",
+     "current": "第1行|第2行|第3行|第4行|第5行|第6行|第7行|第8行|第9行|第10行|第11行|第12行|第13行|第14行|第15行\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc1aa83cf55763488",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/10/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Odc243a3d7c86866601bc",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "LIVEWARE",
+     "current": "活体样本"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf0d91606c1dea355",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/11/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O7433e48224479d4906be",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "TOMCAT",
+     "current": "雄猫"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCdecb7e35f93c9f66",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/11/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of63d137a409e38852df5",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HQ",
+     "current": "总部"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbf5176ebe827253a",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/11/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O318e5bbe33f62b056c72",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Stub: Tomcat bio",
+     "current": "待补：雄猫简介\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbc64ba252b0f370f",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/13/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O958afbe245b0e3aabdbe",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2ceb49aebd54dd06",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/14/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O58d78ff02bc1c1ac3c64",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ENTERED DEPOT B",
+     "current": "进入仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4a142e074d66a186",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/15/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oaf574682592b14991a71",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5492cb8387c4f0a9",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/16/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4f466d9a5948f8c075b3",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "RESCUED Cetartni",
+     "current": "解救塞塔特尼"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8f931138a1fb00e2",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/16/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ofc0cc5de83aa16daf22e",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC890a1998c1eda9c6",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/17/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4043ff0f2855f0b0d2f4",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7a75bd8c34988031",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/19/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oa67c9ce8ad8faae16d2d",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEFEATED WEREHUND",
+     "current": "击败狼犬"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2c0bf0f36a58c925",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/19/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O09c4b612dfb875d6d94e",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf80cc1474c1c6351",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/19/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of8969920bcb6f94a7b49",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore   |\n                            |\n           Lorem ipsum dolor|\n         sit amet consectetu|\n         adipiscing elit sed|\n                            |\n           Lorem ipsum dolor|\n         sit amet consectetu|\n         adipiscing elit sed|\n                            |\n           Lorem ipsum dolor|\n           Another line here",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试|\n|\n示例占位文字|\n排版测试内容|\n此处为占位文字|\n|\n示例占位文字|\n排版测试内容|\n此处为占位文字|\n|\n示例占位文字|\n这里还有一行"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC96a89c88351f6c03",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/2/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6c8c72674ecd9051df36",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ZENER WAVES",
+     "current": "获得泽纳波"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC29fcaa307cc1f2ec",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/2/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O9646c0b8b11340dd4422",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "AYSKAMMR",
+     "current": "艾斯卡姆尔"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC21ffe55b0b661b1e",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/4/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O22170fcf449401d2a4d5",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb886fda3ea55a085",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/4/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O275aca8c7829d6273049",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC79e2f7c67a16d76e",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/6/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O8e693539f4176a2c26f8",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ANOMALY ALPHA",
+     "current": "已获取异常体 ALPHA"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb94dc3318f8b61f3",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/6/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0aa11c9425ead13682ae",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC96c6c8b439082246",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/7/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1bcbe3362933ddb330bb",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa1eddb4839379927",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/7/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O443429d171d6b4695592",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf939fcd2e6f4fadd",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/7/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O576b7dc3d19d8f61fb3c",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf54b851830b09d0e",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/female/9/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od4cb3c7e0f2cd06dcad4",
+     "line": null,
+     "speaker": "",
+     "variant": "female",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   "
+    }
+   ]
+  },
+  {
+   "scene_id": "SCeec79a41947131de",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/0/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3b7a9cb0c1e4564a0470",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ZENER STAR",
+     "current": "获得泽纳星形"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa1dec58adba72770",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/0/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of509bc4d78edb561110c",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc81bf2c98f626d63",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/1/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6e9f91be677bc65fe247",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6ddc2b1a0ca52e84",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/1/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6cb517d19fc3dd93cb3b",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC88d0ddfb03d9390e",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/1/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4f102cf0dfb7eb9d29c2",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Line 1                      | Line 2                      | Line 3                      | Line 4                      | Line 5                      | Line 6                      | Line 7                      | Line 8                      | Line 9                      | Line 10                     | Line 11                     | Line 12                     | Line 13                     | Line 14                     | Line 15",
+     "current": "第1行|第2行|第3行|第4行|第5行|第6行|第7行|第8行|第9行|第10行|第11行|第12行|第13行|第14行|第15行\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6f0315bb7b2da7bd",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/10/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc9396545c3a88d84dc18",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MAUSER",
+     "current": "毛鼠"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe461ea41c1580e90",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/10/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O85354716ec3e30658963",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HQ",
+     "current": "总部"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf9dc8a23734df388",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/11/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc6fbfbbe8dc930aadc53",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "HQ",
+     "current": "总部"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC041101f98918a839",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/11/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5012651a269f1c240985",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "LIVEWARE",
+     "current": "活体样本"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCeabfb26fc64bcb5a",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/13/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob7e29862f6cf536c26da",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC978e791e6e7c4493",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/13/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1d504b3a61d628b2f939",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC830eb1f5ee0725d9",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/13/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc0cc6e195ce90d6ab5fe",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "With ger ship downed and a  | storm brewing outside, agent| Yiffany had no choice but to| chance a journey into the   | depths of an abandoned alien| facility for shelter.       |\n                            |\nHer first order of business | should be to reestablish    | communications with         | headquarters!",
+     "current": "飞船坠毁，|外面又风暴将至，|特工伊吠妮|别无选择，|只能冒险深入废弃的外星设施|寻找庇护。|\n                            |\n她的第一要务是|恢复|与总部的|通讯！\n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC08c2bfa7aa6fe294",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/14/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0062ce7e822fc5eb6c4d",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC844b6bbdcfb94b7e",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/16/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5321f9faded23c60bc73",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "RESCUED PANCOR",
+     "current": "解救潘科"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf58f1618963fc117",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/16/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O216b1a63c20a1161281b",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCac879496e9735326",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/17/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Odea259061f6c3b8dc5c7",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Test Werepup",
+     "current": "测试狼崽"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8e364b94666bdbfc",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/18/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc1bbe29e46456c43880f",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED COMBAT TAZER",
+     "current": "获得战斗电击枪"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0f48b4b09cc5daee",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/18/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O39574951e97ee88a0c9a",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb6eb602b7c1130c6",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/19/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oaa188644c2bb5a158315",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEFEATED WEREHUND",
+     "current": "击败狼犬"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd699f89f6fee93ec",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/19/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O32eb6aa881010be8ef01",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "DEPOT B",
+     "current": "仓库B"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6fa13c91de628826",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/2/locationName",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O9b0d7d066756c07202ed",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "AYSKAMMR",
+     "current": "艾斯卡姆尔"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC09b867e648859ff3",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/2/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oe7334ce8593261871e84",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC69cd4afb90a26ce3",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/4/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob025c6e57fed05abd5b2",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ZENER CROSS",
+     "current": "获得泽纳十字"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC87dc3ee25c5d6838",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/4/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O8ff01c85c07ef36375c5",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6c1952df1fceafd7",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/5/header",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of3d8b52bbdead9128fab",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "ACQUIRED ZENER SQUARE",
+     "current": "获得泽纳方形"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc3ab65b767bbb2c4",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/5/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of0b83acf31d11fa005d6",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf70e2ba45993d4d6",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/7/subject",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2bb481788ffeac3e62bf",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "MISSION",
+     "current": "任务"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC70f3e4f7cb1c7acb",
+   "mode": "nsfw",
+   "logical_path": "datay/scripts_pack.json",
+   "root": "/missionLog/male/8/text",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3fa666ad72db5708cb22",
+     "line": null,
+     "speaker": "",
+     "variant": "male",
+     "current_kind": "nested_json_value_runtime_usage_check",
+     "archive_entry": null,
+     "source": "Lorem ipsum dolor sit amet  | consectetur adipiscing elit | sed do eiusmod tempor incid-| idunt ut labore et dolore",
+     "current": "示例占位文字|排版测试内容|此处为占位文-|字，仅供测试   \n"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC22f874a376d265a6",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "AnomalyAlpha",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1e99aedc02d84951f0e2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ALPHA",
+     "current": "阿尔法"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe752a9a6f025c8ca",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "AnomalyOmicron",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ofaee06c89d7009228c44",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OMICRON",
+     "current": "奥密克戎"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd62829f1ea6b8e71",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "AttackElixir",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O79e63cb647ff646098b5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "ATK ELXR",
+     "current": "攻击灵药"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa9b4a46ecc0f0901",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "BarLectReward",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc6e1e9854e867b892b2f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "500 LECT",
+     "current": "500 LECT"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd99984138c5bf4c7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "Bomb",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O04709c8fe5c198a8ec9e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EXPLODES ON|CONTACT.",
+     "current": "接触即|爆炸。"
+    },
+    {
+     "row_id": "CAT:Oc5f597dc29addee74f59",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BOMB",
+     "current": "炸弹"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3aa3a0e984cc0a6d",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBarker",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oa6cab1421ef5366a1c71",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BARKER",
+     "current": "吠犬"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0680c7719aa1ecb9",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBossPigobinTriforce",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od85805762505c82184b4",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PIGOBIN",
+     "current": "猪哥布林"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC83811228204e6e03",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBossRedbullSecond",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Obcff62bac2c5d7188181",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "REDBULL",
+     "current": "红牛"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd6b7205425849b10",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBugFlier",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O7e4dca1b9ad4d5ef732d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FLIER",
+     "current": "飞虫"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9ddc52b4af70cf55",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBullfrog",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0f9c217de70c8dc22aec",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BULLFROG",
+     "current": "牛蛙"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC21a5cf47d43f5c03",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicBumper",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oce37959c0ab9cffb6b0a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BUMPER",
+     "current": "弹跳机"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3e2efa01bb1d99cb",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicCannonCeiling",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O00a49304ceaf6e9a7935",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CANNON",
+     "current": "加农炮"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6c534c28a4ecf577",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicCannonFloorC",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2a138572981979f9de9a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CANNON",
+     "current": "加农炮"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd2a6d878ba386fa5",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicCrawly",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc2653dd12b29fe8f5967",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CRAWLIE",
+     "current": "爬虫"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC41c73541f3752ba8",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicDragonV2HandPhase2",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oec788e03eb11c170856f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DRAGON",
+     "current": "龙"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC27f8b9ff1d3c0039",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicDragonV2Phase3",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O557f8e898f7745031c06",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DRAGON",
+     "current": "龙"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7b939842be5710b3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicDwarfAdd",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ofdcad417fc730f0368ae",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DWARF",
+     "current": "矮人"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc92cd3f756250972",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicEnelyeBulb",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O99c68a56aa9427d04181",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FLOWER",
+     "current": "花朵"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6418fbf275fb13a3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicEnelyeSpiritFire",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O10cf5b7916d2bdd85b85",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SOULFIRE",
+     "current": "魂火"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC702a53096f8e544a",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicFire",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oa801bb1b0ca0fa843f20",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FIRE",
+     "current": "火焰"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5bc7073e28529261",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicFlamer",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O222b4d4c83651b22239c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FLAMER",
+     "current": "喷火者"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC10322e9c4dea7dfd",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicGhoster",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW4e0299cf5d25d5f4c8f10a11",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "GHOST",
+     "current": "幽灵"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC700ab54411e20ea5",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicGoatbossHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6192f28b93759bf476bb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DEMON",
+     "current": "恶魔"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa4cef581c82b0645",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicKingbold",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4912436292a3f33f762d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KINGBOLD",
+     "current": "胆王"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC330b0d9b06129c83",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicMineCeiling",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oaa4c3bab48350094ec1a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MINE",
+     "current": "地雷"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa4b72382d9828bef",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicMineWallZero",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2781c933e8cecd29d4d2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MINE",
+     "current": "地雷"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6e39f730bd25d699",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicOmegothrower",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oea1948dd3b67abba3a42",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OMEGOBIN",
+     "current": "欧米茄哥布林"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe136446ecd626899",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicQueenShadow",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O428dc10a27b285b78c0e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHADOW",
+     "current": "暗影"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC33d845bb57d39584",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicSalamanderknight",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6f4dff7b1d27a9feb9c9",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KNIGHT",
+     "current": "骑士"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc82149618bbdbc18",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicSpikeball",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oad9606a0b35f7b341d7d",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SPIKE",
+     "current": "尖刺"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC46ed1848457a495a",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicSqueaker",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc64f187492743f42e0e6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SQUEAKER",
+     "current": "吱吱怪"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCff02826e48c0b6f1",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicStarkillV1",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6b567d19467a6e057153",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "STARKILL",
+     "current": "星杀"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd73e7d4861cb027d",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicStarkillV2Male",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3153cd985f9db173711a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "YIFFANY?",
+     "current": "伊吠妮？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4eb300fdf2400e1d",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicStarkillV3Female",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3bd9300e84e5cc73200f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "YIFFAI",
+     "current": "伊吠"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe83bcbb315594160",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicStarkillV3Fire",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od42dcd7704c84d516bb1",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FIRE",
+     "current": "火焰"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9f52b88629e63db8",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicTentacle",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O587d05af9f6589399fb0",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TENTACLE",
+     "current": "触手"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd6f9fb4c8c397018",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicWerepup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob6ef832aed8e3ba97e38",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WEREPUP",
+     "current": "狼崽"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7101999f5b56b114",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicWyvern",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O831436a7757475d97c7b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WYVERN",
+     "current": "双足飞龙"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC555cffd9c0147b9f",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ClassicXCannonCeiling",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob58f3338c4a41775eb12",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "X-CANNON",
+     "current": "X-加农炮"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb054cfebd21a9edf",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoCardDragon",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O83d8099280628a8338f6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CARD 11",
+     "current": "卡牌 11"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6688c72901d44fbc",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoCardEnelye",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ode2c1d5f5498b6e59a2c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CARD 14",
+     "current": "卡牌 14"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC7abba6cb356ab901",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoCardPigobin",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O7ffa38031fd89134fff2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CARD 15",
+     "current": "卡牌 15"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC065cf3e6f2d8025a",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoCardStarkill",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O779e2916999ea552d2c7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CARD 16",
+     "current": "卡牌 16"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9e616d67318d2d41",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoCardWerepup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Occ06454730e7f2cc3317",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CARD 06",
+     "current": "卡牌 06"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC9dff794087b1ab97",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "CosmoHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3928c3df4af4c4bda759",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "STARHELM",
+     "current": "星盔"
+    },
+    {
+     "row_id": "CAT:O83e5a0026bd38da12dbf",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SPACE-PROOF|COSMO HELMET.",
+     "current": "适用于太空的|宇宙头盔。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC5b829a04527aaf83",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "DataDisk",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3b2f9f5c680fecb68fa8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DATADISK",
+     "current": "数据盘"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC42fc517cc209f5a9",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "DoggyHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW06f380c142ca9c2345911614",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "COLLAR",
+     "current": "项圈"
+    },
+    {
+     "row_id": "SFWf4dd1c6cabca3e6aae1ca3ee",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LIKE YOU'D SEE|ON A PUPPY.",
+     "current": "就像幼犬身上|会看到的。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6b384ed0f7d113fc",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "FakeDrumstick",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWca98f8440c772eb0424006fa",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FRIED..?",
+     "current": "油炸..？"
+    },
+    {
+     "row_id": "SFWfd16d9e81ebd4d247c82f2a2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HOLD YOUR NOSE|AND IT'S OKAY!",
+     "current": "捏住鼻子|就行了！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb0a3883a140462e3",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "FakeMeat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O83408402407c277a11bb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MEAT?",
+     "current": "肉？"
+    },
+    {
+     "row_id": "CAT:O91ba365cc749da824f97",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LOOKS NICE BUT|SMELLS LIKE...",
+     "current": "看着不错，但|闻起来像……"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCbb7f0990368ac180",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "FakeMeat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW94a24a0ed0eccb4406ec61dc",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "LOOKS NICE BUT|SMELLS LIKE...",
+     "current": "看着不错，但|闻起来像……"
+    },
+    {
+     "row_id": "SFWc7755798dfb642715de9487e",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "MEAT?",
+     "current": "肉？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCaaa4403617323c74",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "FakeMilk",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O288dc8243021280c38eb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CREAMY, WHITE|AND TANGY...!",
+     "current": "奶油状、白色|还带酸味……！"
+    },
+    {
+     "row_id": "CAT:O5b29758149fba93900f5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "...MILK?",
+     "current": "……牛奶？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC687e2ba919db7741",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "FakeTea",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O3ccabd5b67fd4f96873c",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TEA. BUT",
+     "current": "茶。但"
+    },
+    {
+     "row_id": "CAT:O9f6dde6890fb8c3539f6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HOW OLD IS IT|ANYWAYS...?",
+     "current": "到底放了|多久……？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf1c781ff2a344ed4",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "JudoBody",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oe817d6caa70f30dead02",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "GI",
+     "current": "道服"
+    },
+    {
+     "row_id": "CAT:Oedce2833d606527862d5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BROKEN IN BUT|STILL WEARABLE",
+     "current": "已经穿软，|还能继续穿"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC6b99892905a98a17",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "JudoHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O02e8fba73a0cb3526068",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SMELLS LIKE A|FIGHTING GUSTO",
+     "current": "闻着就有|格斗的干劲"
+    },
+    {
+     "row_id": "CAT:Oe6c7d9995173f6c5b4a2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HEADBAND",
+     "current": "头带"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC359094a0c948088e",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "KoboBody",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O0b652c858866da1f5996",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A BIT WARM BUT|DISGUISES GOOD",
+     "current": "有点热，但|伪装得不错"
+    },
+    {
+     "row_id": "CAT:O147565bc9b632672dd8e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KOBOSUIT",
+     "current": "科博服"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd9ad491aca342e79",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "KoboHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O40964a652b758c2d2cbd",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KOBOHEAD",
+     "current": "科博头"
+    },
+    {
+     "row_id": "CAT:O6db42cffccfea7ec9001",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A GIANT LIZARD|HEAD DISGUISE!",
+     "current": "巨大的蜥蜴|头伪装！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1686a025cb9e8561",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "Lect",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oc5984a6125ca5614a553",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LECT",
+     "current": "LECT"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC82fb9b7b1926878a",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "LuckyHeadNotUpgraded",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1cbcd6683f0cd537e99f",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "COULD USE A|GOOD CLEANING!",
+     "current": "该好好|洗一洗了！"
+    },
+    {
+     "row_id": "CAT:O9352eabb0d4b0488d3b3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OLD RAG",
+     "current": "旧布"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCadf3d6f7585bd0c4",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "Pickaxe",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWcbb2c2cedefa412b2afc61d9",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "TOSS UPWARD. A|DWARF FAVORITE",
+     "current": "往上抛。|矮人的最爱"
+    },
+    {
+     "row_id": "SFWd9784c926853fb42f6908dda",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "PICKAXE",
+     "current": "镐"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCc86e744e9b0b793f",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "PirateBody",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O584ebd045a64fc7a2771",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "JACKET",
+     "current": "夹克"
+    },
+    {
+     "row_id": "CAT:Oe9c07706e8eb4a9426c6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DIRTY BUT HAS|A GOOD FIT",
+     "current": "虽脏，但|很合身"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2d9b7db4c03c105d",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "PirateBody",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW0df1ab72681abbd5cb080928",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DIRTY BUT HAS|A GOOD FIT",
+     "current": "虽脏，但|很合身"
+    },
+    {
+     "row_id": "SFW2456bbfb3af6064960c79cfe",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "JACKET",
+     "current": "夹克"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC90ce76fd0c502d47",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "PsyCrystalBig",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5cd669083597aa860721",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "BIGSHARD",
+     "current": "大碎片"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCa4d15c69df9b1044",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "PsySyrup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O5de025c980d41862b5dc",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SYRUP",
+     "current": "糖浆"
+    },
+    {
+     "row_id": "CAT:Odcf72ec02eccb5a7aed7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RECOVERS A|LITTLE PSY.",
+     "current": "回复少许|精神力。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4f05c90d3f229a86",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "PsySyrup",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW5b6aee1560f2fdfc4627f6d7",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RECOVERS A|LITTLE PSY.",
+     "current": "回复少许|精神力。"
+    },
+    {
+     "row_id": "SFWd75374f0ddd280f3b4ffcf49",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SYRUP",
+     "current": "糖浆"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC34251a6a1ee406a9",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ShipRadar",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O494100616cbbd9036ee2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RADAR",
+     "current": "雷达"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb442cc275a792f0c",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SlimePotion",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Oef6c1e98affdae1a5f36",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "S.POTION",
+     "current": "史莱姆药"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC3fb1fd94c3a01178",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialFap",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob7235cb4392ffb380fd7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CRYSTAL",
+     "current": "水晶"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCcfb809b0c5ce93b0",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialFap.KoboldBuff",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob3cef29ef87f71c6ddbf",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KOBOLD POWER|+12 LUK",
+     "current": "科博德能力|+12 幸运"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC363e702bfa5848bc",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialFap.OmegobinBuff",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW70e76c8d1366f1af7f414c77",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "OMEGOBIN POWER|+20 LUK ",
+     "current": "欧米茄哥布林能力|+20 幸运 "
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe8f41bfa660775d4",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialFap.WyvernBuff",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1e5edb51b1b122039e02",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WYVERN POWER|+3 DEF",
+     "current": "双足飞龙能力|+3 防御"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCda0b74f118690c11",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialGeiger",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW6dd4742c66156c90a993a67a",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "G+ RADIO",
+     "current": "G+无线电"
+    },
+    {
+     "row_id": "SFWb5b657b5499b27ce4e15ff79",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "COMMUNICATE AND|DETECT SECRETS!",
+     "current": "通讯联络|探测秘密！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC225b398a302cc0f8",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialHighBoots",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Of284c3a4634c605213cb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HIBOOTS",
+     "current": "高筒靴"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC0030ef0bc1e1ed6e",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialKeycard0",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW7038cbac5356ab5651728ad7",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "KEYCARD0",
+     "current": "门卡0"
+    },
+    {
+     "row_id": "SFWdd49cef4d6b2d2135c2f2bd0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "OPEN DOORS UP|TO LEVEL 0.",
+     "current": "可开启|至0级的门。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCea38425f1c35b7f6",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialKeycard1",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4e99d5cc424cba4963cc",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KEYCARD1",
+     "current": "门卡1"
+    },
+    {
+     "row_id": "CAT:Oc417992f7c38dfcdf1c0",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OPEN DOORS UP|TO LEVEL 1.",
+     "current": "可开启|至1级的门。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC493a9e86f7146ce5",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialKeycard4",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O224a0c52dd094dc492e3",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "OPEN DOORS UP|TO LEVEL 4.",
+     "current": "可开启|至4级的门。"
+    },
+    {
+     "row_id": "CAT:Od74aa222254b997fcbd5",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "KEYCARD4",
+     "current": "门卡4"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCe38c1181aa5fa0c7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialLabel",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O29f4a629dbe64cfcf4a7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LABEL",
+     "current": "标签"
+    },
+    {
+     "row_id": "CAT:Oc8f383b3588012db373a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FERAL-SIZED|SHIPPING LABEL.",
+     "current": "兽形尺寸的|货运标签。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf3c5c232cad733f5",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialLotion",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od325be4551657484040e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "LOTION",
+     "current": "乳液"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCef265bf76535cea6",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialNecklace",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW28fe88011131db0059a0d2bc",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "CAN TRANSLATE|FENFEN SPEECH.",
+     "current": "能翻译|Fenfen的话。"
+    },
+    {
+     "row_id": "SFW8e386526313445bc13993663",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FENFEN T",
+     "current": "翻译项链"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC48112ce4d73a0f7e",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialRadio",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O36e5265f5821cd3976af",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RADIO",
+     "current": "无线电"
+    },
+    {
+     "row_id": "CAT:Ob0ffde2b7cc35a20ba51",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "PRESS (SELECT)|TO COMMUNICATE",
+     "current": "按 (选择)|进行通讯"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCef94607c1b58cccf",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialRightmark",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O20ca3faa92746dc67cff",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "HOLD ATTACK TO|CHARGE SLASH!",
+     "current": "按住攻击|蓄力斩击！"
+    },
+    {
+     "row_id": "CAT:Obf6a90c1f2097e87e979",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RGT MARK",
+     "current": "右印记"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC892a34d02bd8c453",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialShoes",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O90d8f279d41f9619c1f6",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DOWN+JUMP MID-|AIR DIVEKICKS!",
+     "current": "空中下+跳跃|俯冲踢！"
+    },
+    {
+     "row_id": "CAT:Oeb90e0fbbdbd6713feed",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SHOES",
+     "current": "鞋子"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC64fd497243cc7198",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "SpecialShoes",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW083152e4179a990986277979",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DOWN+JUMP MID-|AIR DIVEKICKS!",
+     "current": "空中按DOWN+JUMP|使出俯冲踢！"
+    },
+    {
+     "row_id": "SFW654c0ff11f1d182528290c4f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SHOES",
+     "current": "鞋子"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf98cfc58614a3c9d",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatCheese",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW0d78f4105d89250e11e87686",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EAT TO BOOST|STATS: STR+1!",
+     "current": "吃下提升|属性：力量+1！"
+    },
+    {
+     "row_id": "SFW18ce06595c7b4c40c4abd7d6",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "PUNGENT BUT|IRRESISTIBLE",
+     "current": "刺鼻，但|无法抗拒"
+    },
+    {
+     "row_id": "SFWb16d30ccbe27c9ef480cf983",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "CHEESE",
+     "current": "奶酪"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCaafcb623670d6a2e",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatCherry",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O304a5c2905894e0b9aa7",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WYVERNS LOVE |TO POP THESE!",
+     "current": "双足飞龙爱|挤破这些！"
+    },
+    {
+     "row_id": "CAT:O424cc6fa4224675542ef",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "CHERRY",
+     "current": "樱桃"
+    },
+    {
+     "row_id": "CAT:O91b7b06b7478a20ce699",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EAT TO BOOST|STATS: LUK+1!",
+     "current": "吃下提升|属性：幸运+1！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC414cdd5310930c4a",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatCherry",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW1e669499911a67b1884d8c6f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EAT TO BOOST|STATS: LUK+1!",
+     "current": "吃下提升|属性：幸运+1！"
+    },
+    {
+     "row_id": "SFW67c30b3ed6adf409cb8bd000",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "JUICY & RIPE|STEMMED FRUIT",
+     "current": "多汁成熟的|带梗水果"
+    },
+    {
+     "row_id": "SFWd5a5b9983424bc91377fba90",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "CHERRY",
+     "current": "樱桃"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC21356b07720ceaa7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatFishtaco",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O241e93e6275cea4f4e7b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FISHTACO",
+     "current": "鱼塔可"
+    },
+    {
+     "row_id": "CAT:O440a17a13124e3ffe9eb",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EAT TO BOOST|STATS: LUK+1!",
+     "current": "吃下提升|属性：幸运+1！"
+    },
+    {
+     "row_id": "CAT:Ob8ee65e13e45e118dd54",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TASTES LIKE|GETTING LUCKY!",
+     "current": "尝起来像|走了桃花运！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC80eb848385a75731",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatMelon",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O02a25f733233ea17d132",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MELON",
+     "current": "瓜"
+    },
+    {
+     "row_id": "CAT:Oa171a24754b726d41dff",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EVERY ELF HAS|A GOOD PAIR!",
+     "current": "每个精灵都有|一对好货！"
+    },
+    {
+     "row_id": "CAT:Oe3f18ca97fb198cbb03b",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "EAT TO BOOST|STATS: CON+1!",
+     "current": "吃下提升|属性：体质+1！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb08f38c88330815b",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatOctopus",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW163e8a8b52b808b8040051ed",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "WIGGLING FRESH|SASHIMI...?",
+     "current": "扭动的新鲜|刺身……？"
+    },
+    {
+     "row_id": "SFWb5647835ea0b176aaecee1b0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EAT TO BOOST|STATS: INT+1!",
+     "current": "吃下提升|属性：智力+1！"
+    },
+    {
+     "row_id": "SFWf7428713ed9025793df4c1f6",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "OCTOPUS",
+     "current": "章鱼"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCd05d4bff7f83a0fb",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "StatPretzel",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW4057efac959dd4cac45268f1",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "TWISTED BREAD|BAKED FRESH",
+     "current": "硬结打卷|育得正好"
+    },
+    {
+     "row_id": "SFW5a1367ef5931de19fbe2c003",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "PRETZEL",
+     "current": "椒盐卷"
+    },
+    {
+     "row_id": "SFWaac02ca21517088b1204fa1d",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EAT TO BOOST|STATS: STR+1!",
+     "current": "吃下提升|属性：力量+1！"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb1782f25b1f3038e",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TazerCombat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O87307c72a839b076cf85",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "COMBAT",
+     "current": "战斗"
+    },
+    {
+     "row_id": "CAT:O90da441e73b430f6ee20",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A BATTLE WORN|WEAPON",
+     "current": "一把历战|武器"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC144f103b1d8a81a3",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TazerKobo",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWbef919b104dd7ca8ef6fd5e9",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "KOBOCLAW",
+     "current": "科博爪"
+    },
+    {
+     "row_id": "SFWc7828f5df90a5005e8333ffc",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "A FIERCE MULTI|BLADED SLASHER",
+     "current": "凶猛的多刃|砍杀器"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC41c028c4ae8b572c",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TazerRapier",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Od4f2e3716704c0912e6a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A NARROW AND|ELEGANT BLADE~",
+     "current": "窄而优雅的|细剑~"
+    },
+    {
+     "row_id": "CAT:Oda01761b7ab029ed8329",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RAPER",
+     "current": "强奸者"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC476f0b95e67c5da7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TazerTomahawk",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O19b568a3319f8fd41b18",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "A TRADITIONAL|FENFEN WEAPON.",
+     "current": "Fenfen的|传统武器。"
+    },
+    {
+     "row_id": "CAT:O94e5f06616f550a23c5e",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "TOMAHAWK",
+     "current": "战斧"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC1ef637b5d8cdd5e4",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ThrowKnife",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFWa28b4dbc12d195e7fefe93eb",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "THROW TO DEAL|HIGH DAMAGE.",
+     "current": "投出造成|高伤害。"
+    },
+    {
+     "row_id": "SFWd1031a381b50cc3a08864aa0",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "KNIFE",
+     "current": "小刀"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC407a11276bbbb1da",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TribalBody",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O2da7df16173eb4a3a0ee",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "VEST",
+     "current": "背心"
+    },
+    {
+     "row_id": "CAT:Odd792af26cfafe0248d8",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "FRINGED WITH|ORNATE BEADS",
+     "current": "边缘缀着|华丽珠子"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC2efe42caae811c43",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "TribalHead",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW6d386582d126a91285a276d7",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "FENFEN SACRED|FEATHERED HAT",
+     "current": "Fenfen神圣的|羽饰帽"
+    },
+    {
+     "row_id": "SFWbf3a77f86e4a3d209d8d5f51",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HEADRESS",
+     "current": "头饰"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC44139b0585205353",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "VitDrumstick",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob564575e62a4d3140205",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "DRUMSTIK",
+     "current": "鸡腿"
+    },
+    {
+     "row_id": "CAT:Od721d50d8ce6e65a9cca",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RECOVERS A|BIT OF HEALTH.",
+     "current": "回复一些|生命。"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC207a2e39ac87ca45",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "VitDrumstick",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW34efaf82d54a91b1b79eb11f",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RECOVERS A|BIT OF HEALTH.",
+     "current": "回复一些|生命。"
+    },
+    {
+     "row_id": "SFWcb59ea5b8f8fd4fa6b68fbab",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DRUMSTIK",
+     "current": "鸡腿"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC185ed59797b3aab4",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "VitHam",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW93b65a52b16dad957e808f90",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HAM",
+     "current": "火腿"
+    },
+    {
+     "row_id": "SFW9b7d16c532d9269a62cc6a05",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "RECOVERS A|LOAD OF HEALTH",
+     "current": "回复大量|生命"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC4a4f365645154fae",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "VitMeat",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O4a8f7cfeac14cb857061",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "RECOVERS A|LOT OF HEALTH.",
+     "current": "回复许多|生命。"
+    },
+    {
+     "row_id": "CAT:O82f14deb4edeb4ea0bac",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "MEAT",
+     "current": "肉"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCf594842b71c8d9a7",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "VitSkull",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O1ba17d9dd5c74a1c37a2",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "SKULL",
+     "current": "头骨"
+    },
+    {
+     "row_id": "CAT:Oa46df2b42c1131121d6a",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WHERE DID THIS|COME FROM?",
+     "current": "这东西|从哪来的？"
+    }
+   ]
+  },
+  {
+   "scene_id": "SC8a0289153028c585",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ZenerStar",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:O6dab2711b737b0d5d952",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "STAR",
+     "current": "星星"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCb91b4643d2dc0afc",
+   "mode": "nsfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "ZenerWaves",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "CAT:Ob303708cc17dd79a2dcc",
+     "line": null,
+     "speaker": "",
+     "variant": "",
+     "current_kind": "dictionary_value",
+     "archive_entry": null,
+     "source": "WAVES",
+     "current": "波浪"
+    }
+   ]
+  },
+  {
+   "scene_id": "SCfa9c997d6a5fd56f",
+   "mode": "sfw",
+   "logical_path": "datav/dictionary.json",
+   "root": "area",
+   "header_line": null,
+   "controls": [],
+   "rows": [
+    {
+     "row_id": "SFW289f90ec9fa38d327f88a656",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "TEST AREA",
+     "current": "测试区"
+    },
+    {
+     "row_id": "SFW47c9f55058d6b5ff26b095e4",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "AYSKAMMR",
+     "current": "艾斯卡姆尔"
+    },
+    {
+     "row_id": "SFW51d13c1f84504dab9d2938d7",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "SCEAFYA",
+     "current": "斯凯菲亚"
+    },
+    {
+     "row_id": "SFW81aa04c7e08462c8dc4436e6",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "UNKNOWN",
+     "current": "未知"
+    },
+    {
+     "row_id": "SFWb611e799f52a478838705c77",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "DEPOT B",
+     "current": "仓库B"
+    },
+    {
+     "row_id": "SFWc3d5d6d16d0ce3449b8dbce2",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "EXILE",
+     "current": "流放地"
+    },
+    {
+     "row_id": "SFWe7ed274ea611386a264a6068",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "ZERONIA",
+     "current": "泽罗尼亚"
+    },
+    {
+     "row_id": "SFWfb03e530e72e0cb4710f2fdf",
+     "line": null,
+     "speaker": "",
+     "variant": "sfw",
+     "current_kind": "dictionary_value",
+     "archive_entry": "datav/1",
+     "source": "HANGAR",
+     "current": "机库"
+    }
+   ]
+  }
+ ]
+}

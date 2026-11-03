@@ -40,8 +40,10 @@
 | batch-09 | 区域场景与条件分支（关卡救援与分支） | 913 | 1,597 | 115,212 | 分 4 个 part，依次并入 candidate32／33／34／35，**4 个 part 全部完成** |
 | batch-10 | 界面与系统文本（UI 与其他） | 295 | 1,159 | 50,366 | 拆 3 个 part（98／98／99 场），依次并入 candidate36／37／38，**3 个 part 全部完成** |
 | batch-11 | 其余零散条目（战败提示与失真广播） | 109 | 505 | 24,187 | 1 个 part（`DefeatHints` 72 场、`Starkill` 21 场、`Static` 16 场），并入 candidate39，**完成** |
+| batch-12 | 界面与系统文本（未覆盖的词典与任务日志） | 473 | 650 | 19,581 | 拆 3 个 part（157／158／158 场），依次并入 candidate40／41／42，**3 个 part 全部完成** |
+| batch-13 | 毛鼠旁白提示（`MauserHints`） | 50 | 183 | 12,066 | 1 个 part（`Area0` 14、`AreaB` 12、`AreaC` 10、`AreaE` 8、`AreaH` 2、无后缀 4），并入 candidate43，**完成** |
 
-批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。
+批次定义在 `tools/build_batch.py` 的 `BATCHES` 里，按 root 列出；`batch-07` 起按 R1 方案第八节的优先级 5（结局与平行版本）和 6（其他风格与文笔）排。`batch-07`／`batch-08` 的场景 `kind` 是 `vsn`、`batch-10`／`batch-12` 是 `ui`，所以 `BATCHES` 的条目可以带第三个元素指定 `kind`；不写时默认 `dialogue`。`batch-12` 还有第四种形状：条目第二元素写 `None`，改用 `logical_path` 选资源、再用 `exclude_covered` 扣掉别的批次已占的场次——它的文本散在词典与任务日志里，没有共同的 root 可列。
 
 batch-07 及以后尚未全部出工单：`ORDER.md` 与 `reference-excerpt.md` 需按批手写（模板见 `batch-07-part01/orders/`），`reader.md` 与 `.json` 由 `build_batch.py` 生成。
 
@@ -84,11 +86,13 @@ batch-04 里两路都要求把「反重力脚环」改成「反重力踝环」�
 4. 主代理逐条核验后写 `batch-NN/review/decisions.tsv`；`tools/build_ledger.py <batch>` 生成该批来源锁定台账并 dry-run，`tools/verify_round.py <batch>` 出 gate。
 5. 在 `localization/optimization/r28/r9polish/component.json` 的 `batches` 数组登记该批（台账／gate／decisions 三项），再构建候选与跑 17 步回归。
 
-## 五之二、二十六批合计
+## 五之二、逐批合计（batch-01～11，二十六批）
 
-裁决／采纳／驳回／留置／主代理补五行由各批 `review/decisions.tsv` 逐表重算（2026-11-03）。旧表把部分 `R9M-*` 行算进了「裁决」而没算进「采纳」，因此旧合计 812 与三列之和 800 对不上；重算后 649＋283＋39＝971，与「裁决」一致。历史批次的 `两路发现` 保留当时的记录值。
+裁决／采纳／驳回／留置／主代理补五行由各批 `review/decisions.tsv` 逐表重算（2026-11-03）。本表只统计 batch-01～11 这二十六批；batch-12／13 的裁决另见下一小节。旧表把部分 `R9M-*` 行算进了「裁决」而没算进「采纳」，因此旧合计 812 与三列之和 800 对不上；重算后 649＋283＋39＝971，与「裁决」一致。历史批次的 `两路发现` 保留当时的记录值。
 
 batch-10 三个 part 只有 DS 一路：Gemini 路在本批连续六次失败（读完整批却不落盘、也没有收尾消息），故 `两路发现` 记 `0＋N`，缺陷覆盖由 DS 一路加上主代理的机械扫描（行尾空格、`|` 段数、纯 ASCII 未译行）承担。
+
+batch-12-part01 同样是 DS 一路（Gemini 试水第八次失败）；part02／part03 与 batch-13 的第二路改用 Grok，三批都正常收尾，`两路发现` 记 `DS＋Grok`。合计栏按「每批裁决行数」加总，不是两路发现的加总。
 
 | 项 | -01 | -02 | -03 | -04 | 05-p01 | 05-p02 | 05-p03 | 06-p01 | 06-p02 | 06-p03 | 06-p04 | 07-p01 | 07-p02 | 08-p01 | 08-p02 | 08-p03 | 08-p04 | 08-p05 | 09-p01 | 09-p02 | 09-p03 | 09-p04 | 10-p01 | 10-p02 | 10-p03 | 11 | 合计 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -99,6 +103,19 @@ batch-10 三个 part 只有 DS 一路：Gemini 路在本批连续六次失败（
 | 驳回 | 2 | 11 | 5 | 14 | 11 | 27 | 18 | 8 | 11 | 19 | 14 | 4 | 7 | 26 | 2 | 0 | 3 | 23 | 23 | 6 | 32 | 15 | 1 | 0 | 1 | 1 | 283 |
 | 留置 | 1 | 3 | 2 | 7 | 4 | 2 | 2 | 2 | 2 | 2 | 1 | 2 | 0 | 3 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 | 39 |
 | 主代理补 | 3 | 2 | 16 | 1 | 6 | 4 | 1 | 3 | 2 | 1 | 1 | 0 | 0 | 0 | 0 | 17 | 26 | 0 | 0 | 3 | 14 | 5 | 0 | 0 | 0 | 0 | 152 |
+
+### batch-12／13 的裁决
+
+| 项 | 12-p01 | 12-p02 | 12-p03 | 13 | 小计 |
+| --- | --- | --- | --- | --- | --- |
+| 场次／行 | 157／213 | 158／219 | 158／218 | 50／183 | 523／833 |
+| 两路发现 | 0＋11 | 10＋11 | 8＋7 | 12＋13 | 72 |
+| 裁决 | 20 | 29 | 23 | 42 | 114 |
+| 采纳（含机械条目） | 14 | 13 | 12 | 17 | 56 |
+| 驳回 | 6 | 16 | 11 | 25 | 58 |
+| 留置 | 0 | 0 | 0 | 0 | 0 |
+
+batch-12／13 的驳回比例明显高于早期批次：两路（或一路＋机械扫描）常常指向同一行，只取一条落地，另一条记为重复——这类驳回不是判错，而是去重。跨面命名（Zener 形状词条名、STARSUIT、FENFEN）一律不提案、记入 [LEFTOVERS](LEFTOVERS.md)。
 
 驳回率从 batch-01 的 6% 升到 batch-02 的 29%、batch-04 的 35%，batch-06-part02 的 26%。驳回变多不等于审校变差：后期批次的驳回里有一大半是两路同报同一行、只取一路措辞，这类在早期批次里根本没被计数。真正判错的类型仍在变少。
 
@@ -138,6 +155,10 @@ batch-11 的战败提示又添两条，属于「同一句话里哪层含义该�
 
 1. **亲属称谓按两侧分别写，不做统一**。Starkill 的提示在 `datadm` 与 `datadf` 两侧是镜像的（姐／弟），女线作「弟弟」、男线作「姐姐」看着不一致，实际是刻意的；任何"统一称谓"的提案都会把其中一侧改错。
 2. **失真广播里的旧译名要认得出**。`Starkill` 的破损行里还留着「伊法」（Yiffai 的旧译），而这类行满是噪声体例（`KKZZT`、`SHHHZZZTER`），容易被当成演出装置放过。判据是 `character-names.json` 的 `old_forms`：只要命中旧名，就按错字处理，与噪声无关。
+
+batch-12 又添一条，属于「同一句话在几个地方各存一份」的问题：
+
+3. **界面条目可能有三份**：`datav/dictionary.json`（基础条目）、`datay/scripts_pack.json` 里 `/patchDictionary/...` 的运行时 overlay、以及任务日志自身的字段。batch-10-part02 按值反查把一条 navmap 地名改在了基础条目上，而该行真正的资源是 overlay；结果是基础条目变了、运行时读的那份没变。`r9_targets.py` 现在按 occurrence 记录的 `archive`／`archive_entry`／`location` 定位，只有查不到 occurrence 时才退回按值反查。这类「改了一处、另一处没跟上」的问题不会自己暴露——`verify_readback` 只证明台账里的操作落地了，不证明同一句话的其它副本一致。
 
 操作上的两条教训已经落实：并发写同一个 findings 文件的代理必须各自一个文件名（part01 丢过一条发现，编号在裁决过程中还移过位）；裁决表引用某一路的 `proposed_zh` 时，必须在建台账之前重读该文件，而不是之前。
 
@@ -183,14 +204,18 @@ candidate16 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate16
 | candidate37 | 同上 | 再加 batch-10-part02，共 610 个操作（24 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate38 | 同上 | 再加 batch-10-part03，共 624 个操作（25 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 | candidate39 | 同上 | 再加 batch-11，共 649 个操作（26 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate40 | 同上 | 再加 batch-12-part01（词典与任务日志），共 664 个操作（27 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate41 | 同上 | 再加 batch-12-part02，共 677 个操作（28 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate42 | 同上 | 再加 batch-12-part03，共 689 个操作（29 批） | 四步 exit 0，55 类 | 全部 exit 0 |
+| candidate43 | 同上 | 再加 batch-13（`MauserHints`），共 706 个操作（30 批） | 四步 exit 0，55 类 | 全部 exit 0 |
 
 candidate17 归档见 [`build-manifest.json`](../../builds/r9-polish-candidate17/build-manifest.json)。
 
-candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `194bafa7…`（45,842,003 B）· pak `b06af436…`（13,588,122 B）；candidate38：jar `1647f790…`（45,842,001 B）· pak `48c63a4e…`（13,588,116 B）；candidate39：jar `b847434d…`（45,841,995 B）· pak `e24e21c3…`（13,588,104 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate39` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
+candidate34 归档：jar `aa582d80…`（45,841,993 B）· pak `56c8c6f9…`（13,588,134 B）；candidate35：jar `8b61df31…`（45,842,005 B）· pak `b05376b4…`（13,588,153 B）；candidate36：jar `d9f84be5…`（45,842,006 B）· pak `265da4b1…`（13,588,138 B）；candidate37：jar `0cb6b1fe…`（45,842,003 B）· pak `0f30d392…`（13,588,122 B）；candidate38：jar `c5e17da5…`（45,842,001 B）· pak `131e8b2d…`（13,588,116 B）；candidate39：jar `01fd4aea…`（45,841,995 B）· pak `189763e2…`（13,588,104 B）；candidate40：jar `99240052…`（45,841,992 B）· pak `0396bf6a…`（13,588,099 B）；candidate41：jar `f5490c63…`（45,841,978 B）· pak `1876e323…`（13,588,110 B）；candidate42：jar `1dc1f5d4…`（45,841,980 B）· pak `c538fdc6…`（13,588,108 B）；candidate43：jar `e7245c85…`（45,841,980 B）· pak `5a3db829…`（13,588,075 B）。所有候选的 `status` 均为 `integrated_candidate_not_real_clip_CRT_input_acceptance`，manifest 记 `installed: false`、`real_clip_CRT_input_verified: false`；`tests/candidate34`～`tests/candidate43` 的 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
 
 构建入口仍是 [`build_candidate.py`](../../optimization/r28/integration/build_candidate.py) 与 [`test_candidate.py`](../../optimization/r28/integration/test_candidate.py)；未生成 `acceptance.json`（字体与资源复核未重新封签）。
 
-台账与候选的核对做法由 [`tools/verify_readback.py`](tools/verify_readback.py) 承担：构建后按 component.json 的批次顺序遍历全部台账，逐条读回候选归档的明文（行号或 JSON 指针）与台账 `new` 逐字节比较。candidate39 上 26 批 649 个操作全部相等，再确认 gate 的 `ledger_sha256`／`decisions_sha256` 与暂存区 blob 一致。
+台账与候选的核对做法由 [`tools/verify_readback.py`](tools/verify_readback.py) 承担：构建后按 component.json 的批次顺序遍历全部台账，逐条读回候选归档的明文（行号或 JSON 指针）与台账 `new` 逐字节比较。candidate43 上 30 批 706 个操作全部相等（candidate39 是 26 批 649 个，candidate40／41／42 分别为 664／677／689 个），再确认 gate 的 `ledger_sha256`／`decisions_sha256` 与暂存区 blob 一致。
 
 ## 七、边界
 

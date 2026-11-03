@@ -1,0 +1,60 @@
+{
+ "schema": "cosmo-editorial-r9-build-gate/v1",
+ "status": "verified_for_application",
+ "scope": "batch-12-part02 applied Chinese rewrites; not a full proofread or real-machine acceptance",
+ "base_candidate": "localization/builds/r9-polish-candidate40",
+ "decisions_total": 29,
+ "apply_findings": [
+  "R9M-CAT:O275aca8c7829d6273049",
+  "R9M-CAT:O3fa666ad72db5708cb22",
+  "R9M-CAT:O4912436292a3f33f762d",
+  "R9M-CAT:O576b7dc3d19d8f61fb3c",
+  "R9M-CAT:O8e693539f4176a2c26f8",
+  "R9M-CAT:Od4cb3c7e0f2cd06dcad4",
+  "R9M-CAT:Oe7334ce8593261871e84",
+  "R9M-CAT:Of0b83acf31d11fa005d6",
+  "ds:P12-0205",
+  "ds:P12-0206",
+  "ds:P12-0207",
+  "ds:P12-0208",
+  "ds:P12-0209"
+ ],
+ "operations": 13,
+ "ledger": "localization/translations/editorial-r9-batch-12-part02-repairs.jsonl",
+ "ledger_sha256": "1f7feeee992a4b6beccae57e14a9e043e08d27f67e00963db36262e3369e2dad",
+ "decisions_sha256": "b13bc27e40616a948d756a36a7c98612f6c13217604bbf6cf7bceaf96f2c0cea",
+ "verifier": {
+  "path": "localization/editorial/r9-polish/tools/verify_round.py",
+  "sha256": "acdc64a4d8f984a1ac462c164dde33249d7bc01f6d61b2dede318e9cbdf8f903"
+ },
+ "dry_run": {
+  "engine": "localization/tools/editorial_repairs.py:apply_entries",
+  "operations_applied": 13,
+  "resources": [
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "4c6d05b2970a8d418da4c175aed370dedb1a6a989d5dd2c42af8b12c667f9756",
+    "after_resource_sha256": "40de1efe7bf07a0ce2830cb41e70cfdfcbe4290bd68889812ac38f8dfee094dc",
+    "targets_changed": 1
+   },
+   {
+    "archive": "cosmobreeder-multi.jar",
+    "archive_entry": "datay/1",
+    "before_resource_sha256": "ac2c373d0c96058b91c728d95649cec14f71979846d37a11b730672c9fd737cf",
+    "after_resource_sha256": "001861b9f549bd3abca83ee2e5e3d4ecd664f1ee9455dfebf9c7088f198d1c44",
+    "targets_changed": 7
+   },
+   {
+    "archive": "patch.pak",
+    "archive_entry": "datav/1",
+    "before_resource_sha256": "a209bca9220ccaf8d6d3850c0a668f264b261aa03fb652e2915aa38a877d221a",
+    "after_resource_sha256": "fa7f10c224d677164fe1cb70f76bb91f9fc73a53224d07738e234eaaa672f532",
+    "targets_changed": 5
+   }
+  ]
+ },
+ "problems": [],
+ "not_installed": true,
+ "game_started": false
+}

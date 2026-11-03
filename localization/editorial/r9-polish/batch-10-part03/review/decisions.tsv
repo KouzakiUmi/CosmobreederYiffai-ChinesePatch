@@ -6,6 +6,7 @@ ds:P10-0304	ds	B	term	SC58ccd1b993ca1ca5	SFWb62610a60cd111d1800a1671	apply	科�
 ds:P10-0305	ds	B	term	SC2732d58d343c712f	CAT:O9b85a59761075e89f47e	apply	另一处又大|又唬人的，|是大壮兽|所拥有的|那根天赋异禀的|雄性器官。|能应付|这野兽尺寸的|特工，|据说会从|种马鸡巴上|密布的凸粒里|得到|极大快感。	nubs 在库内 9 处作「凸粒」、6 处作「肉突」；按多数统一，只换一处词、13 段与行尾换行都不动。
 ds:P10-0306	ds	A	meaning	SC8de58fd4e19fed0b	SFWf7946d01dbe6790d809b17da	apply	揍了小狼崽一顿之后，|和它交上了朋友！	后半句「回忆涌上心头，又迟疑起来」原文没有对应词，WALLOP 被漏译；与 batch-10-part02 的 P10-0201 是同一句的两侧，措辞取一致。
 ds:P10-0309	ds	C	format	SC38ada8951dd95c49	SFW0f8e6a714d7e70dbe750e389	apply	                     天生的高手！！	全角感叹号后面跟半角空格加半角「!」，卡面同一行混排两种标点；合并成全角。
+R9M-CAT:O1550a958e00d5a9b2210	R9M	C	term	SC0ba547b5aa16905f	CAT:O1550a958e00d5a9b2210	apply	东部通道	与 batch-10-part02 同一地名（EASTERN PASSAGE）：那一批改的是运行时 overlay（jar `datay`），本行是它镜像的基础条目（patch.pak `datav`）；同 root 的 EAST 一律作「东部」，两份要一致。
 ds:P10-0307	ds	needs_evidence	source_uncertainty	SC04b2b885330c22bc	CAT:O690bbbd2a7957dbd6baf	reject		BadEnding 是把五行英文按特定显示行序拼成一句的排版块，而工单的行序是 row_id 排序；在不知道实际行序的情况下改任一段都可能把句子拆错，留置待渲染证据。
 ds:P10-0308	ds	A	meaning	SC9cadfe018ff5e006	CAT:O671815346a2cc40e9c7b	reject		Tier1 是六级阶级名按固定网格拼出的复合块：原文把 BEGINNER 放在独立一行，提案把它并进上一行并删掉「对…来说」框架，其余分片无法验证，改动风险大于收益，留置。
 R9M-CAT:O48e0a6d2a2232acd10f7	R9M	C	format	SC021a968dd3397402	CAT:O48e0a6d2a2232acd10f7	reject		该行的中文是多行 JSON 值，行尾空格无法用行式裁决表表达；本批不改，记入 LEFTOVERS 由清理批次处理。
