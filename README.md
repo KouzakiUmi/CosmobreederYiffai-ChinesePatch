@@ -20,11 +20,22 @@
 | 基线校验 | `cosmobreeder-multi.jar` 的 sha256 `cd37e445...`；官方补丁档另校验 `patch.pak` `2f9da7d4...`，不匹配拒绝写入 |
 | 发行基线 | `r27-story12-shaderfix-test5` |
 | 载荷 | 2 个源依赖差分：`cosmobreeder-multi.jar`（44.8MB → 45.6MB）、可选 `patch.pak`（12.5MB → 13.3MB） |
-| 当前版本 | alpha0.2（测试版 · 未签名 · 实机未验） |
+| 当前版本 | alpha0.3（测试版 · 未签名 · 实机未验） |
 | 运行要求 | 独立 EXE 无需 Python；Python 运行版需要 Python 3.12 |
 | 翻译进度 | R9 三十四批已落地：2,698 场／12,552 行（90.3% 场、93.0% 行）；剩余 291 场为不面向玩家的脚本串与位图 |
 
 ---
+
+## alpha0.3 更新（2026-11-07）
+
+安装器协议、界面与 alpha0.1 相同，换的是内容：alpha0.2 之上并入排版与专名八批（batch-19～25，内容基线 `r9-polish-candidate55`，台账 2,179 个操作）。
+
+- 排版：中文引号（含多行卡面）、Fenfen→芬芬、续行不以标点开头（57 行）、插断行符修折行切词（1,163 行）、按真实容器改写 96 行文案后保留 22 行终版。
+- 容器归属按调用链反编译核实：物品说明走 150px 无线电容器而非 240px 故事框；验收改按真实容器取。
+- 发行态引擎实测（候选归档自己的布局类渲染，二字组 ≥30 口径）：全库故事框稳固切词 349→322 处；保留行两容器残留 0、故事框分页不变。
+- 封签与核验：17 步 CPU 回归 exit 0、读回 2,179 操作 0 问题、差分重建逐字节相等、EXE `--verify-payload`／`--licenses` 通过、推送前独立只读核验无阻断。
+- 下载：[Windows 独立安装器](<dist/alpha0.3/CosmobreederYiffai-alpha0.3-setup.exe>)、[Python ZIP](<dist/alpha0.3/CosmobreederYiffai-alpha0.3-python.zip>)。
+- 详见 [alpha0.3 发行说明](docs/RELEASE-alpha0.3.md)、[R9 README](localization/editorial/r9-polish/README.md)、[遗留项台账](localization/editorial/r9-polish/LEFTOVERS.md)。
 
 ## alpha0.2 更新（2026-11-03）
 

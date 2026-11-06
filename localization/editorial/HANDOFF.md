@@ -24,6 +24,7 @@
 - 候选 13～47 均跑完 **17 步 CPU 回归，全部 exit 0**（`passed_cpu_only_not_real_clip_CRT_input`）；各 `results.json` 记 `game_started: false`、`user_save_accessed: false`。
 - 台账回验：`tools/verify_readback.py` 按 component.json 顺序读回候选明文，candidate47 上 758 个操作全部逐字节相等（2 个位置被后续批次再次编辑，按最后一次比对）。
 - candidate48～55 已生成 `acceptance.json`（含 batch-19～25 的排版与专名批）。candidate47 及更早未生成：字体已多轮变化，旧复核记录无法套用。
+- **发行**：alpha0.3 测试版已构建（`dist/alpha0.3/`，内容基线 candidate55，`tools/build_alpha_release.py --exe --label alpha0.3`；差分重建逐字节相等、EXE `--verify-payload`／`--licenses` exit 0、`SHA256SUMS` 全 OK）。alpha0.2 基于 candidate47 保留在 `dist/alpha0.2/`。两者均未真实安装。
 
 ## 二、遗留
 
