@@ -114,10 +114,12 @@ PRG.amw.a(String, amq)            // 切成行
 
 **这批最后只保留 22 行改动，73 行回退。** 原因是验收基准变了，见下。
 
-| 范围 | candidate52（改前） | candidate54（改后） | 变化 |
+| 范围 | candidate52（改前） | candidate54（96 行初版） | candidate55（22 行终版，发行态） |
 | --- | ---: | ---: | ---: |
-| 本批 96 行 · 故事框 240px | 91 处 | 35 处 | −56 |
-| 本批 96 行 · 无线电 150px | 74 处 | 72 处 | −2 |
+| 本批 96 行 · 故事框 240px | 92 处 | 35 处 | 65 处 |
+| 本批 96 行 · 无线电 150px | 69 处 | 72 处 | 54 处 |
+
+三个数字列由同一条实测管线得出（保留行取改后文本、回退行取 candidate52 文本），先用 A 语料重算得 35／72、与初版记录吻合后才采用；改前无线电的初版记录是 74 处，与本次复现的 69 处差 5，属历史测量口径的细微差别，同列横向可比不受影响。保留的 22 行在**两个容器下残留断点均为 0**；故事框 96 行改前改后都是 1 页，无线电容器有 23 行从 2 页降到 1 页（改善方向）。
 
 数字与早先 Python 复现的「950→901」不同：那是按跨行两字组合全量统计、包含断在完整词之后的情况；这里统计引擎实际输出。
 
@@ -185,9 +187,10 @@ bbc2 10px、每行 15 汉字），不是 240px 故事框。按故事框验收的
 ## 验证
 
 - 逐条自查：96 个操作，原切词全部消失、零新切词、零超宽、零行数错报。
-- 17 步 CPU 回归：`tests/candidate54` 全部 exit 0。
-- 明文读回：2,252 个操作 / 0 问题。
-- 封签：`candidate54/acceptance.json`，40 批，status `passed_cpu_and_independent_review_not_real_clip_CRT_input`。
+- 17 步 CPU 回归：96 行初版 `tests/candidate54`、22 行终版 `tests/candidate55` 均全部 exit 0。
+- 明文读回：candidate54 上 2,252 个操作 / 0 问题；candidate55 上 2,179 个操作 / 0 问题（73 行回退后少了 73 个操作）。
+- 封签：96 行初版 `candidate54/acceptance.json`；22 行终版（发行态）`candidate55/acceptance.json`，40 批，status `passed_cpu_and_independent_review_not_real_clip_CRT_input`，jar `56fa7788…`、pak `26337d94…`。
+- candidate55 全库实测：由 `render-corpus.tsv` 生成 C55 语料（保留行取改后文本、其余取 candidate52 文本），`SceneRender` 渲染 8,945 例、零引擎错误，`tools/count_firm_breaks.py` 计数得 **322 处**；同管线对 A 语料（candidate54 文本）复算得 292，与初版记录逐一吻合后才采用。证据：`orders/render-corpus-c55.tsv/.json`、`orders/render-corpus-a54.tsv/.json`。
 
 ## 未做
 
