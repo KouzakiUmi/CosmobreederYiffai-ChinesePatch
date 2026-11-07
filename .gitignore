@@ -83,6 +83,7 @@ docs/*
 !docs/RELEASE-alpha0.1.md
 !docs/RELEASE-alpha0.2.md
 !docs/RELEASE-alpha0.3.md
+!docs/接续.md
 
 # Native game material, binaries, extracted text and credentials.
 *.jar

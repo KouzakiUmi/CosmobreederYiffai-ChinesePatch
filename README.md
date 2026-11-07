@@ -35,6 +35,8 @@
 - 发行态引擎实测（候选归档自己的布局类渲染，二字组 ≥30 口径）：全库故事框稳固切词 349→322 处；保留行两容器残留 0、故事框分页不变。
 - 封签与核验：17 步 CPU 回归 exit 0、读回 2,179 操作 0 问题、差分重建逐字节相等、EXE `--verify-payload`／`--licenses` 通过、推送前独立只读核验无阻断。
 - 下载：[Windows 独立安装器](<dist/alpha0.3/CosmobreederYiffai-alpha0.3-setup.exe>)、[Python ZIP](<dist/alpha0.3/CosmobreederYiffai-alpha0.3-python.zip>)。
+- **验收与验证**：17 步 CPU 回归 exit 0；读回 2,179 操作 0 问题；差分重建逐字节相等；EXE `--verify-payload`／`--licenses` 通过；推送前只读核验无阻断。**未做实机安装/启动/存档**。
+- **项目维护与交接**：完整交接文档见 [docs/接续.md](docs/接续.md)（背景、事实与取舍、候选链与核验流程、发行物构成、遗留项、恢复步骤）。
 - 详见 [alpha0.3 发行说明](docs/RELEASE-alpha0.3.md)、[R9 README](localization/editorial/r9-polish/README.md)、[遗留项台账](localization/editorial/r9-polish/LEFTOVERS.md)。
 
 ## alpha0.2 更新（2026-11-03）
