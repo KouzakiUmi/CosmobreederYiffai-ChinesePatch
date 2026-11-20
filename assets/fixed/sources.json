@@ -1,0 +1,502 @@
+{
+ "CardViewMenuBG__jar__3432_3896_256x192.png": {
+  "region": "CardViewMenuBG",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   3432,
+   3896
+  ],
+  "size": [
+   256,
+   192
+  ],
+  "rgba_sha256": "c2879cd2efb7fecc5a443387b195b642bb2dd27ae34a967cae236e9b1fc5e500",
+  "png_sha256": "4f1ad52524beb2ff61807c1275b3e9e24957946b89e81a1e157b870ddc870a32",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CardViewMenuBGTitle__jar__1056_3664_256x224.png": {
+  "region": "CardViewMenuBGTitle",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   1056,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "105b0bb74048e171551959e34bf80534c07e6c60f774e5858f313e0bdcbc9f4f",
+  "png_sha256": "0742bcb6035fef58e81fa08a207c1ea1acfb08c73a9a2820ed40456e2272d881",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicOptionsCheatFrame__jar__1320_3664_256x224.png": {
+  "region": "ClassicOptionsCheatFrame",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   1320,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "d1f265f030732b3d94eb585a0da08347f0d14c8ed18daa26028d8b42f22c14c3",
+  "png_sha256": "f5b58a9b3ad5d610da788ac45ce9b7eddb6418189e4e595f222b981f0a808d91",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicOptionsCheatWarning__jar__1584_3664_256x136.png": {
+  "region": "ClassicOptionsCheatWarning",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   1584,
+   3664
+  ],
+  "size": [
+   256,
+   136
+  ],
+  "rgba_sha256": "9749cb4fcd720c55264cda625b729900e6615a809441cea94c300b77ce79e4eb",
+  "png_sha256": "76ccaa839a4983165ecca3930cad96254b9f077229935a14fcdc668a8de9f30a",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicOptionsConfirmWarning__jar__1848_3784_256x104.png": {
+  "region": "ClassicOptionsConfirmWarning",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   1848,
+   3784
+  ],
+  "size": [
+   256,
+   104
+  ],
+  "rgba_sha256": "550498882a5fe009445254b7b9829439de7f2ffb6bcf6f0354f4e439aae1df12",
+  "png_sha256": "986c3cf8363f02e5e246adf56b5a1556775c9d13cd57c0d07cb91ba48e9ca924",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicPretitleFMOD__jar__1848_3552_256x224.png": {
+  "region": "ClassicPretitleFMOD",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   1848,
+   3552
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "69615777c2292e2beb98712c6d2788247482d4476f6a124c9c90087df41bd7ad",
+  "png_sha256": "dcc3a42c4e025dd1163021f43b0f88bf5fdbb30f3446b4ab42274b07a186a4dd",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicPretitleGamepad__jar__2112_3664_256x224.png": {
+  "region": "ClassicPretitleGamepad",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   2112,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "5c3a71b2eb8fb75baa92939b884862c28bcd9f300e8794da2d2f1f52826497e6",
+  "png_sha256": "b2d74dd9cf98df89d208177aa517c14e469476ef8d4bdcb4c84732b1d29ed361",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "ClassicPretitleLogo__jar__2376_3664_256x224.png": {
+  "region": "ClassicPretitleLogo",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   2376,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "23529503574469e3a1e72d6a99f5a1cb081e56b2b2440860941606bbb2f44447",
+  "png_sha256": "7063acdf20e33ce0b2975784ad283deaf6f9988349a5fd1e85f534aa0f6b5d03",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CosmoNameEntryMenuBG__jar__536_344_256x224.png": {
+  "region": "CosmoNameEntryMenuBG",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   536,
+   344
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "5ef36c9ca0dc1d960f6180a77725170e6d0d7f9f144e8a21d8408037a06f7229",
+  "png_sha256": "1703a27d1ada92bbf2ea8c5d89824257c10f36e8fdf69b606ddd8163e304ffc7",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CosmoSaveMenuBG__jar__536_112_256x224.png": {
+  "region": "CosmoSaveMenuBG",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   536,
+   112
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "6063586fd720049f37f92aeab3a7ee356ed825a3d635becb49da7af8e0bc9cdc",
+  "png_sha256": "548fe849152fa001ebd08734cfbfd843c206b8f7f4b0dd0e9147697290c00637",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CosmoSubData__jar__600_3176_256x192.png": {
+  "region": "CosmoSubData",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   600,
+   3176
+  ],
+  "size": [
+   256,
+   192
+  ],
+  "rgba_sha256": "ef94ee8545e59343afa975796af91280f503d4387811dde8afc4385330328e02",
+  "png_sha256": "689ac2073f7a7473eb8f49b8390f144bfe5227fc81c130f80845ae8ac950de44",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CosmoTitleData__jar__864_3144_256x224.png": {
+  "region": "CosmoTitleData",
+  "variant": "jar",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/cosmobreeder-multi.jar",
+  "xy": [
+   864,
+   3144
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "e2aab2ad9e5b00ca413f54ea7fb3ecf5efa0213e6651546155e936e9c617a69f",
+  "png_sha256": "b4d11403d1160871e153c8a3fe37de20882906227e12baaca77fd4f51e12592e",
+  "mode": "RGBA",
+  "atlas_regions_total": 6898
+ },
+ "CardViewMenuBG__pak__3432_3896_256x192.png": {
+  "region": "CardViewMenuBG",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   3432,
+   3896
+  ],
+  "size": [
+   256,
+   192
+  ],
+  "rgba_sha256": "3b8deea1a6915b070d18df45d77ce3fa42c83dbecfffc78d6e7f709031452493",
+  "png_sha256": "0b2604e43db1fe3dfafb887477128882ff8af8b2625e1fe0d4501bac7b4ffb4d",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "CardViewMenuBGTitle__pak__1056_3664_256x224.png": {
+  "region": "CardViewMenuBGTitle",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   1056,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "e435e0d0e0fedbc0b538645137ea2cd7dd6fb44b6d56efd9ea6e50b3ed98d701",
+  "png_sha256": "4513457291daa4f11d7e4e215a795e10fc1c58ca729b98205ef7c910a5a51ddd",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicOptionsCheatFrame__pak__1320_3664_256x224.png": {
+  "region": "ClassicOptionsCheatFrame",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   1320,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "d1f265f030732b3d94eb585a0da08347f0d14c8ed18daa26028d8b42f22c14c3",
+  "png_sha256": "f5b58a9b3ad5d610da788ac45ce9b7eddb6418189e4e595f222b981f0a808d91",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicOptionsCheatWarning__pak__1584_3664_256x136.png": {
+  "region": "ClassicOptionsCheatWarning",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   1584,
+   3664
+  ],
+  "size": [
+   256,
+   136
+  ],
+  "rgba_sha256": "9749cb4fcd720c55264cda625b729900e6615a809441cea94c300b77ce79e4eb",
+  "png_sha256": "76ccaa839a4983165ecca3930cad96254b9f077229935a14fcdc668a8de9f30a",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicOptionsConfirmWarning__pak__1848_3784_256x104.png": {
+  "region": "ClassicOptionsConfirmWarning",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   1848,
+   3784
+  ],
+  "size": [
+   256,
+   104
+  ],
+  "rgba_sha256": "550498882a5fe009445254b7b9829439de7f2ffb6bcf6f0354f4e439aae1df12",
+  "png_sha256": "986c3cf8363f02e5e246adf56b5a1556775c9d13cd57c0d07cb91ba48e9ca924",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicPretitleFMOD__pak__1848_3552_256x224.png": {
+  "region": "ClassicPretitleFMOD",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   1848,
+   3552
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "69615777c2292e2beb98712c6d2788247482d4476f6a124c9c90087df41bd7ad",
+  "png_sha256": "dcc3a42c4e025dd1163021f43b0f88bf5fdbb30f3446b4ab42274b07a186a4dd",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicPretitleGamepad__pak__2112_3664_256x224.png": {
+  "region": "ClassicPretitleGamepad",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   2112,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "113096809cd89a07ee8aa384ba3351d906c205b50eaf114a84957393a6f98d6f",
+  "png_sha256": "f203b24b112d4a8457b3b943d0df1e1b76219847586e20728f60d76f89d20aeb",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicPretitleGamepad__pak_2__2376_3664_256x224.png": {
+  "region": "ClassicPretitleGamepad",
+  "variant": "pak",
+  "occurrence": 2,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   2376,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "168ac2493bb89670d1aba1d7a48e0e2132f6acef174e87d427527120b633111e",
+  "png_sha256": "0d3df799355e76bd2c2e93c4272b51741a94799983d70662eb1b7335eabb07bc",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "ClassicPretitleLogo__pak__2640_3664_256x224.png": {
+  "region": "ClassicPretitleLogo",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   2640,
+   3664
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "23529503574469e3a1e72d6a99f5a1cb081e56b2b2440860941606bbb2f44447",
+  "png_sha256": "7063acdf20e33ce0b2975784ad283deaf6f9988349a5fd1e85f534aa0f6b5d03",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "CosmoNameEntryMenuBG__pak__3240_2968_256x224.png": {
+  "region": "CosmoNameEntryMenuBG",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   3240,
+   2968
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "df2b9703fe7cf84fc4411f1402c85d99273c49eae4255124db9a7e7630c6d4a8",
+  "png_sha256": "bff743e83a92b7ca8f3b7ac687b88fd505a7e37ee0a2c59d93e057c997edc7cd",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "CosmoSaveMenuBG__pak__3240_2736_256x224.png": {
+  "region": "CosmoSaveMenuBG",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   3240,
+   2736
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "021c72830dd9ad83f76e24368b96e82f7083435aa43fac22bd87c8b3908838c4",
+  "png_sha256": "03d1145e7dc17fa1ed64e690c1e4e3a96c0addf7c51aad0a0ae5c8010b441bd3",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "CosmoSubData__pak__2184_3000_256x192.png": {
+  "region": "CosmoSubData",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   2184,
+   3000
+  ],
+  "size": [
+   256,
+   192
+  ],
+  "rgba_sha256": "7a1a066d1a6ee6587b87cb0e388a39a33df361ee22e570179e86a6af89d58935",
+  "png_sha256": "c32c1469ea02af1a280a598e263c864b897778b39874abfe94dc3965f24d7238",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ },
+ "CosmoTitleData__pak__2448_3200_256x224.png": {
+  "region": "CosmoTitleData",
+  "variant": "pak",
+  "occurrence": 1,
+  "atlas_entry": "dataq/5",
+  "page_entry": "dataq/6",
+  "archive": "originals/patch.pak",
+  "xy": [
+   2448,
+   3200
+  ],
+  "size": [
+   256,
+   224
+  ],
+  "rgba_sha256": "168f5938c7532be20139efac90b7da1ed134f4515dc8d43a1a0bb8593682a3c1",
+  "png_sha256": "69a08cc691b3aecd58ea6bf8fe186b24a74eaf202a49d48de47755636862afa7",
+  "mode": "RGBA",
+  "atlas_regions_total": 7142
+ }
+}

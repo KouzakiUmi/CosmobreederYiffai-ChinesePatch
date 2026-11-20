@@ -36,13 +36,13 @@ PYTHONPATH=src python -m cosmobreeder_patch --payload dist/alpha0.1/payload --ga
 不传操作参数打开 Tk GUI，选择目录后检测、安装或还原。EXE 内嵌相同差分负载；支持相同参数。Python 发布 zip 解压后在其目录运行 `python -m cosmobreeder_patch`。CLI 的 `--verify-payload` 只读发布负载，不发现或访问游戏目录。
 
 ```sh
-python tools/build_alpha_release.py --exe
+python tools/release_tool.py --source originals --target payload --output dist/local-check --label local-check --exe
 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 CB_REAL_DELTA_TEST=1 CB_EXE_DELTA_TEST=1 CB_GUI_DELTA_TEST=1 python -m unittest discover -s tests/release -v
 ```
 
-构建输出目录必须尚不存在；已有输出不可覆盖，可用 `--output` 指定新的发布目录。构建需要自备原版 backup 两文件及已有 r27 本地构建结果，EXE 另需预装 PyInstaller（本次使用 6.19.0，不自动安装）。源码仓库不承诺能从空目录生成原游戏。构建器会短暂生成精确目标验证文件，校验成功后立即删除；该文件不进入发布压缩包。
+构建输出目录必须尚不存在。打包以本地原版和完成验收的补丁归档为输入；EXE 额外需要本机 PyInstaller。构建器验证差分能逐字节重建目标；完整目标归档不进入发布压缩包。当前构建输入见[源码构建说明](SOURCE_BUILD.md)。
 
 发行包同时附带根 [LICENSE](<../LICENSE>)、[NOTICE](<../NOTICE>)、[THIRD_PARTY_NOTICES.md](<../THIRD_PARTY_NOTICES.md>) 与完整 [licenses/](<../licenses/>) 文本目录（字体及 Python/PyInstaller/Tk 运行时许可证）；EXE/运行 zip 内也嵌入相同文本并保持目录层级。通过 `--licenses` 或 GUI“第三方许可与声明”递归查看。src-layout 源码运行时使用项目根，zip 使用包目录，EXE 使用内嵌资源根；许可查看器不跟随任何符号链接。根声明与 licenses 子路径保持同级，完整保留相对路径引用。构建器要求这些许可文件已经存在，否则拒绝构建；不依赖未公开的 localization/runtime 目录许可证。
 

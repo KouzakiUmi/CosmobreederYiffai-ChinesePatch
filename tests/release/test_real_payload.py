@@ -14,7 +14,7 @@ from cosmobreeder_patch.delta import sha
 @unittest.skipUnless(os.environ.get('CB_REAL_DELTA_TEST') == '1', 'opt in with CB_REAL_DELTA_TEST=1')
 class RealPayloadTests(unittest.TestCase):
     def test_real_both_variants(self):
-        payload = ROOT / 'dist/alpha0.1/payload'
+        payload = ROOT / 'dist/alpha0.3/payload'
         m = i.verify(payload)
         base = ROOT / '.local/release-audit/delta-release'
         base.mkdir(parents=True, exist_ok=True)
@@ -22,7 +22,7 @@ class RealPayloadTests(unittest.TestCase):
             with self.subTest(nsfw=nsfw), tempfile.TemporaryDirectory(dir=base) as tmp:
                 game = Path(tmp)
                 names = i.NAMES if nsfw else i.NAMES[:1]
-                for n in names: shutil.copyfile(ROOT / 'backup' / n, game / n)
+                for n in names: shutil.copyfile(ROOT / 'originals' / n, game / n)
                 (game / 'save-sentinel').write_bytes(b'NOT ACCESSED BY INSTALLER')
                 with patch.object(i, 'running_guard'):
                     i.install(game, payload)
@@ -36,10 +36,10 @@ class RealPayloadTests(unittest.TestCase):
 class FrozenInstallerTests(unittest.TestCase):
     def test_frozen_both_variants(self):
         import subprocess
-        exe = ROOT / 'dist/alpha0.1/CosmobreederYiffai-alpha0.1-setup.exe'
+        exe = ROOT / 'dist/alpha0.3/CosmobreederYiffai-alpha0.3-setup.exe'
         base = ROOT / '.local/release-audit/delta-release'
         base.mkdir(parents=True, exist_ok=True)
-        m = i.verify(ROOT / 'dist/alpha0.1/payload')
+        m = i.verify(ROOT / 'dist/alpha0.3/payload')
         def run(*args):
             result = subprocess.run([str(exe), *map(str, args)], capture_output=True)
             self.assertEqual(result.returncode, 0, repr(result.stderr))
@@ -52,7 +52,7 @@ class FrozenInstallerTests(unittest.TestCase):
             with self.subTest(nsfw=nsfw), tempfile.TemporaryDirectory(dir=base) as tmp:
                 game = Path(tmp)
                 names = i.NAMES if nsfw else i.NAMES[:1]
-                for n in names: shutil.copyfile(ROOT / 'backup' / n, game / n)
+                for n in names: shutil.copyfile(ROOT / 'originals' / n, game / n)
                 (game / 'save-sentinel').write_bytes(b'UNCHANGED')
                 self.assertIn(b'nsfw' if nsfw else b'vanilla', run('--game-dir', game, '--check'))
                 run('--game-dir', game, '--install')
@@ -80,7 +80,7 @@ class GuiSmokeTests(unittest.TestCase):
                 self.assertIn('SIL OPEN FONT LICENSE', text)
             finally:
                 root.destroy()
-        with patch.object(sys, 'argv', ['installer']), patch.object(sys, '_MEIPASS', str(ROOT / 'dist/alpha0.1'), create=True), patch.object(tk.Tk, 'mainloop', smoke):
+        with patch.object(sys, 'argv', ['installer']), patch.object(sys, '_MEIPASS', str(ROOT / 'dist/alpha0.3'), create=True), patch.object(tk.Tk, 'mainloop', smoke):
             main()
 
 if __name__ == '__main__': unittest.main()

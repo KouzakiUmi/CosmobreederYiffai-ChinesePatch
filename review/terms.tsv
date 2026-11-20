@@ -1,0 +1,37 @@
+# Cosmobreeder Yiffai 术语统一规则表（7 列 Tab 分隔，对齐 WoC review/terms.tsv）
+# en <TAB> cn <TAB> variants(其他译法|分隔) <TAB> protect(保护片段|分隔) <TAB> mode(word|phrase) <TAB> exclude_en(源文含此词则跳过) <TAB> note
+#
+# 注意：本表只收已终裁条目；未决项（MAGs、COMMAND CENTER、PUPLOCK）不入自动规则，见 review/worklist.md。
+Yiffai	伊吠	伊法伊|伊法|YIFFAI		word	YIFFAI.COM	R3终裁：男主角名兼家族姓（游戏英文品牌不改）
+Yiffany	伊吠妮	伊法妮		word		R3终裁：女主角名，共享伊吠词根
+Yifany	伊吠妮	伊法妮		word		R3终裁：无线电别名拼写
+Tomcat	雄猫	汤姆猫		word	TOM	R3终裁：配角名（仅3处特定昵称TOM作阿雄）
+Mauser	毛鼠	毛瑟		word		R3终裁：配角名
+Bossu	波苏			word		R3终裁：配角名
+Starkill	星杀			word		R3终裁：Boss名，保代号及揭示时点
+Gitgud	季高			word		R3终裁：配角名，谐「技高」
+Pigobin	猪哥布林			word		R3终裁：怪物名，不推广到Gobin/Omegobin
+Werepup	狼崽			word		R3终裁：父子个体称谓
+Werehund	狼犬			word		R3终裁：父子个体称谓
+Fenfen	芬芬	翻译项链		word		batch-16/20终裁：种族/角色名统一为芬芬
+FENFEN	芬芬	翻译项链		word		batch-16终裁：全大写同译芬芬
+Traeh	Traeh			word		R3终裁：保留TRAEH反写HEART双关
+The0	The0	西奥		word		R3终裁：黑客代号保留数字0
+Bumper	弹跳机	弹板|撞击兽		word	Shoulder|Left|Right	R6终裁：机器敌人统一弹跳机；手柄肩键除外
+lighttazer	光击枪	光电击器|光刃电击器|光电击枪|轻型电击枪		word		batch-17终裁：LIGHTTAZER统一为光击枪
+tazer	电击枪	电击器	光击枪	word	lighttazer	batch-15终裁：普通TAZER统一为电击枪（保护光击枪）
+CosmoSuit	宇宙服	宇航服		word		batch-15终裁：专名装备统一宇宙服（普通space suit不强改）
+kobold	科博德	狗头人		word		batch-15清零：统一科博德
+agent	特工	探员|干员		word		batch-15/17清零：统一特工
+satlink	卫星链路	卫星通讯		word		batch-15清零：统一卫星链路
+fancy chips	花哨芯片	高级芯片		phrase		batch-15清零：统一花哨芯片
+Exile	流放地			word		R4终裁：小行星监狱卫星地名
+Zener	泽纳			word		R4终裁：泽纳能量/泽纳波（Zener图形名见LEFTOVERS不统一）
+Pretzel	椒盐卷			word		R4终裁：保留成人双关语境
+Vault	金库	宝库		word		batch-13终裁：MauserHints_AreaE等VAULT统一金库
+Transmission Point	传输点	通讯点		phrase		R9终裁：地名保留传输点
+Squeaker	吱吱怪	吱吱兽		word		词典定名：吱吱怪
+Spiker	刺虫	刺甲机		word		词典定名：刺虫
+Driller	钻探者	钻掘机		word		词典定名：钻探者
+Flamer	喷火者			word		词典定名：喷火者
+anti-grav anklet	反重力脚环	反重力踝环		phrase		batch-04核实：UI道具名与正文统一为反重力脚环

@@ -1,8 +1,9 @@
 """Original build entry regressions, synthetic inputs only; no EXE/game/install."""
 from pathlib import Path
 import importlib.util,json,tempfile,unittest,zipfile
+from unittest.mock import patch
 ROOT=Path(__file__).resolve().parents[2]
-spec=importlib.util.spec_from_file_location('alpha_builder',ROOT/'tools/build_alpha_release.py')
+spec=importlib.util.spec_from_file_location('alpha_builder',ROOT/'tools/release_tool.py')
 b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
 
 class OriginalBuilderTests(unittest.TestCase):
@@ -11,13 +12,20 @@ class OriginalBuilderTests(unittest.TestCase):
   for n in b.NAMES:(self.target/n).write_bytes(('synthetic:'+n).encode())
   self.info={'version':'r28-full-opt-candidate','status':'integrated_candidate_not_real_clip_CRT_input_acceptance','full_component_set':True,'archives':{n:{'sha256':b.sha(self.target/n)} for n in b.NAMES}}
   self.manifest=self.target/'build-manifest.json';self.manifest.write_text(json.dumps(self.info),encoding='utf8')
-  self.accept={'status':'passed_cpu_and_independent_review_not_real_clip_CRT_input','archives':{n:b.sha(self.target/n) for n in b.NAMES},'build_manifest_sha256':b.sha(self.manifest)}
+  from acceptance_checks import ACCEPTANCE_STATUS,CPU_STATUS,CPU_STEPS
+  self.results=self.target/'test-results/results.json';self.results.parent.mkdir()
+  self.results.write_text(json.dumps({'status':CPU_STATUS,'candidate_sha256':b.sha(self.target/b.NAMES[0]),'test_sources_unchanged_after_run':True,'steps':[{'name':name,'exit_code':0} for name in CPU_STEPS]}),encoding='utf8')
+  self.accept={'status':ACCEPTANCE_STATUS,'archives':{n:b.sha(self.target/n) for n in b.NAMES},'build_manifest_sha256':b.sha(self.manifest),'cpu_regression':{'results_sha256':b.sha(self.results)}}
   self.acceptance=self.target/'acceptance.json';self.save()
  def save(self):self.acceptance.write_text(json.dumps(self.accept),encoding='utf8')
  def tearDown(self):self.tmp.cleanup()
  def test_legacy_baseline_remains_legacy(self):
-  legacy=self.base/'r27-story12-shaderfix-test5';legacy.mkdir()
-  self.assertEqual(b.target_identity(legacy),({'baseline':legacy.name},None))
+  legacy=self.base/'payload';legacy.mkdir()
+  for n in b.NAMES:(legacy/n).write_bytes(('legacy:'+n).encode())
+  with self.assertRaisesRegex(ValueError,'验收'):
+   b.target_identity(legacy)
+  with patch.object(b,'LEGACY_TARGET_PINS',{n:b.sha(legacy/n) for n in b.NAMES}):
+   self.assertEqual(b.target_identity(legacy),({'baseline':b.LEGACY_BASELINE},None))
  def test_accepted_r28_uses_actual_target_name(self):
   identity,record=b.target_identity(self.target)
   self.assertEqual(identity['baseline'],'r28-test');self.assertTrue(identity['candidate']);self.assertEqual(record,self.acceptance)
@@ -33,6 +41,16 @@ class OriginalBuilderTests(unittest.TestCase):
  def test_modified_build_manifest_rejected(self):
   self.manifest.write_text(json.dumps(self.info)+' ',encoding='utf8')
   with self.assertRaisesRegex(ValueError,'验收'):b.target_identity(self.target)
+ def test_packaging_rejects_input_drift(self):
+  file=self.target/b.NAMES[0]; pins={file:b.sha(file)}
+  b.require_unchanged(pins)
+  file.write_bytes(b'changed')
+  with self.assertRaisesRegex(ValueError,'发生变化'):b.require_unchanged(pins)
+ def test_bad_cpu_result_refuses_to_package(self):
+  self.results.write_text('{}',encoding='utf8')
+  with self.assertRaisesRegex(ValueError,'CPU 回归指纹'):b.target_identity(self.target)
+  self.accept['cpu_regression']['results_sha256']=b.sha(self.results);self.save()
+  with self.assertRaisesRegex(ValueError,'必需步骤'):b.target_identity(self.target)
  def test_native8_complete_text_only(self):
   with zipfile.ZipFile(self.target/b.NAMES[0],'w') as z:
    for n in ['OFL8.txt','NOTICE.txt','LICENSES8/boutique-bitmap-7x7/OFL.txt','LICENSES8/galmuri/LICENSE.txt','LICENSES8/misaki/misaki.txt','LICENSES8/miseki-bitmap/LICENSE.txt']:z.writestr('r28-font/'+n,'许可・\n'+n)

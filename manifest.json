@@ -1,0 +1,22 @@
+{
+  "project": "CosmobreederYiffai-ChinesePatch",
+  "version": "alpha0.4-scene-audit",
+  "installer_protocol": "alpha0.1",
+  "game_version": "1.0.5_full",
+  "payload_dir": "payload",
+  "archives": {
+    "cosmobreeder-multi.jar": {
+      "sha256": "bab89bf072fc7a9fa00eaccf0818aa91f496800d4ce36eb86743a535443a5bf3",
+      "bytes": 45867087
+    },
+    "patch.pak": {
+      "sha256": "8276ea8a6a5811bae220ce276ec82b20fb354f84a45e4c6a51a5d40ddec08028",
+      "bytes": 13619699
+    }
+  },
+  "acceptance_status": "passed_cpu_and_independent_review_not_real_clip_CRT_input",
+  "cpu_regression_steps": 19,
+  "notes": [
+    "九份可编辑译文按场景、角色路线和分支对读，共核对 16545 条，修订 13417 条；113 个资源条目明文读回无差异。"
+  ]
+}

@@ -1,36 +1,46 @@
 # 项目维护入口
 
-《Cosmobreeder Yiffai》简体中文补丁（本地仓库）。目标是让 Steam 版游戏的剧情、无线电、UI、道具与结局能连续读成通顺中文，同时不改动玩法条件、施受关系、信息揭示顺序与保护字段。
+《Cosmobreeder Yiffai》简体中文补丁（本地仓库，结构对齐 `WoC-ChinesePatch`）。目标是让 Steam 版游戏的剧情、无线电、UI、道具与结局能连续读成通顺中文，同时不改动玩法条件、施受关系、信息揭示顺序与保护字段。
 
-## 目的与验收
+## 目录结构（WoC 对齐版）
 
-- **目的**：在原版 Java/libGDX 二进制上做源依赖差分补丁；发行物不携带完整替换归档。
-- **验收分层**：语义正确（读得懂、作答对得上）／结构保留（actor、控制、动态占位符、行前缀）／视觉可读（字宽、分页、资料卡）／实机（安装、启动、存档）。四层分别留证，不用一层替代其余。
-- **现状**：alpha0.3 测试版已构建（内容基线 candidate55，安装器协议仍为 alpha0.1；alpha0.2 基于 candidate47）；本地已有 R1 粗校、R2 修复、R3 人名、R4 留置裁决、R5 创译、R6 纠错、R7 渲染判定、R8 谜题提示。R4 并入 candidate9、R5 并入 candidate10、R6 并入 candidate11、R8 并入 candidate12；R9 全正文精校三十四批依次并入 candidate13～47；排版与专名批 batch-19（中文引号）、batch-20（Fenfen→芬芬）、batch-21（多行卡面引号）、batch-22（续行不以标点开头）、batch-23（折行不切词）、batch-25（改文案让折行不切词，96 行中保留 22 行）96 行初版并入 candidate54，按无线电容器复核回退 73 行后 22 行终版并入 candidate55，均通过 17 步 CPU 回归。**2,698 场／12,552 行已精校（90.3% 场、93.0% 行）**；剩余 291 场为 287 场不面向玩家的脚本串与 4 场位图资源（后者属图像本地化工艺线）。硬切容器的容量已用真实字模复核（角色卡 96、成就 60、数据书 200 个值，0 超限），合句留下的 1,709 个空尾行中 1,701 个由 240px 自动折行填满两行。
-- **排版层剩余两项**（见 `localization/editorial/r9-polish/LEFTOVERS.md` 第五、七节）：折行切词已由 batch-23 修 1,163 行、再由 batch-25 改写 96 行文案（按无线电容器复核后保留 22 行；全库引擎实测 349→322 处，candidate55 发行态）；行首标点由 batch-22 修 57 行，剩 1,074 行会改变分页。两项都卡在同一条线上：**再动就要接受显示行数改变**，会连带改分页与动画节奏。
-- **容器归属已按调用链核实**：`<TomcatItems.*>` 这类物品说明走**无线电**（`PRG/JB → JM → JQ → JR → DialogueWrap.radio`，150px／每行 15 汉字），不是 240px 故事框；`SubtitleLayout.pages` 的第二参数是 UTF-16 列数（28），不是像素宽。验收基准须按真实容器取，见 `localization/editorial/r9-polish/batch-25/simulated-render-research.md`。
-- **折行规则已反编译证实**（`localization/editorial/r9-polish/batch-25/wrap-rule-evidence.md`）：原版 `PRG/amw` 按固定字符数硬切（故事框 28、无线电 20、结局 12），而补丁产物 `PRG/JR`、`PRG/Nb` 已改调 `DialogueWrap.radio`、`DialogueWrap.story`，中文实际走 `PixelLayout`（240px/story12、150px/bbc2）。验算必须按后者，按原版硬切验的是未打补丁的行为。**文本精校与数据层排版复核已完成，实机验收未做。**
+| 目录/文件 | 角色 | Git |
+| --- | --- | --- |
+| `originals/` | 原版游戏文件（`cosmobreeder-multi.jar`、`patch.pak`、`archives.json`） | 忽略 |
+| `deps/` | 外部依赖与冻结底座（`jdk17/`、`jre/`、`r27-base/`、`fonts/`） | 忽略 |
+| `payload/` | 构建产物与 19 步回归结果（`cosmobreeder-multi.jar`、`patch.pak`、`acceptance.json`） | 忽略 |
+| `dist/` | 差分安装器发行包（`alpha0.3/` 等） | 忽略 |
+| `src/` | 安装器包（`cosmobreeder_patch/`）与 Java 运行时/字节码补丁源码（`java/`） | 追踪 |
+| `assets/` | 79 组图集覆盖片与白名单掩码；原版参考切片仅本地保存 | 覆盖片、遮罩和清单追踪 |
+| `tools/` | 统一命令行工具：`tl_tool.py`、`review_tool.py`、`patch_tool.py`、`release_tool.py` 及 `lib/` | 追踪 |
+| `tl_work/` | `chain_build.py` 构建入口；`chunks/` 与 `template/` 为本地导出，历史双语台账保留在本地及旧提交 | 构建入口追踪 |
+| `review/` | 术语、人物、覆盖范围和不含原文列的公开校对索引 | 规则、清单和公开索引追踪；扫描与历史双语材料忽略 |
+| `tests/` | 发布单测 `tests/release/` 与 19 步 JVM 回归 `tests/run_cpu_regression.py` | 追踪 |
+| `docs/` | 工作流 `workflows/`、技术参考 `reference/`、发版说明 `release-notes/`、交接 `接续.md` | 追踪 |
+| `manifest.json` | 当前构建身份与校验清单 | 追踪 |
 
-## 关键事实与取舍
+## 核心工作流（4 条命令复现）
 
-- **基线**：原版归档 SHA 以 `localization/sources/archives.json` 为准；`backup/` 保存原版副本。**打补丁后的游戏目录不是英文源**——`datav/1` 解密即中文，取证前必须核对 SHA。
-- **归档格式**：`cosmobreeder-multi.jar` 与 `patch.pak` 内资源为无扩展名编号条目，用 `localization/tools/codec.py`（Salsa20）解密。`patch.pak` 覆盖 jar 同键值；`datay` 仅存在于 jar。
-- **无语音对白**：FMOD 事件库全为 Music/SFX，失真广播是文本风格装置，不存在可等的原音。
-- **术语与人名**：正式裁决以 `localization/translations/character-names.json` 与 `localization/review/glossary.csv` 为准；`glossary.csv` 只作构建清单哈希输入，不参与自动替换。
-- **修订落地**：改文一律写成来源锁定台账（`localization/translations/*-repairs.jsonl`），绑定归档、entry、整资源 SHA、精确旧值与定位器，由 `localization/tools/editorial_repairs.py` 校验应用；任何漂移整批拒绝。
+```cmd
+python tools\tl_tool.py export --target payload           :: 1) 首次准备本地译文分块与模板
+python tools\review_tool.py scan                         :: 2) 规则预筛 -> review/findings.md（另支持 stats/terms/dedupe/export/apply）
+python tl_work\chain_build.py --apply                    :: 3) 构建 + 19 步 CPU 回归 + 明文读回 + 封签
+python tools\release_tool.py --label alpha0.4-scene-audit --output dist\alpha0.4-scene-audit-local --exe
+```
 
-## 维护约定
+## 维护约定与安全边界
 
-- 不覆盖历史证据：R1／R2／R3 的报告与台账保留原样，新结论写在新轮目录并引用旧记录。
-- `localization/editorial/` 按轮次分目录；当前轮的 README 说明范围、结论分布与未做验证。
-- 构建与回归入口：`localization/optimization/r28/integration/build_candidate.py`、`test_candidate.py`；不擅自安装、不启动游戏、不访问存档。
-- 变更后同步本文件与相关轮次 README；未验证项明确写“未执行”。
-- 合同语文本可能有三份（词典基础条目、`datay` 运行时 overlay、任务日志字段）：改一处要确认另外两处是否需要同步，`tools/r9_targets.py` 按 occurrence 记录定位，不按值反查。
+- **只改 TSV，不直改归档**：文本修改在 `tl_work/chunks/*.tsv` 或 `review/sheet_*.tsv` 完成，由 `tl_work/chain_build.py --apply` 重建并验证 `payload/`。
+- **不擅自安装或启动游戏**：脚本与构建严格隔离，不写入 Steam 真实游戏目录、不启动游戏、不访问用户存档；实机验证由用户执行。
+- **本机 Python 入口**：构建、回归与打包一律使用系统 Python 3.12（避免 DSH 沙箱内捆绑 Python 写盘权限受限）。
+- **依赖方向**：全链入口编排 `tools/` 和测试；工具调用 `tools/lib/` 与安装器，底层不反向依赖 CLI。Java 运行时适配器与字节码 patcher 分开，唯一组件清单为 `src/java/config/components.json`。
+- **容器与规则关键事实**：
+  - 故事框走 `StoryFont12`（240px / 12px 字，每页 3 行；非宽字符 `yoffset` 已相对原版下移 `+4` 对齐汉字基线）；无线电与 `<TomcatItems.*>` / `<BossuDex.*>` 物品说明走 `DialogueWrap.radio`（150px / `bbc2` 10px 字，每行 15 汉字）。
+  - `vsn/` 演出脚本词法不接受 `U+2028`（`⏎`），软断行只允许用于 `dialogue/`。
+  - 全量校对与工作区验收见[场景审查台账](review/scene-context-audit.md)；剩余实机检查见[待办清单](review/worklist.md)。
 
 ## 索引
 
-- 发行与构建：[README.md](README.md) · [docs/RELEASE-alpha0.3.md](docs/RELEASE-alpha0.3.md) · [docs/RELEASE-alpha0.2.md](docs/RELEASE-alpha0.2.md) · [docs/RELEASE-alpha0.1.md](docs/RELEASE-alpha0.1.md) · [docs/SOURCE_BUILD.md](docs/SOURCE_BUILD.md)
-- 工作流：[翻译与校对工作流](localization/docs/翻译与校对工作流.md)（从取证到发行物的九阶段全流程、台账守卫、回归步骤、常见陷阱）
-- 编辑审校：[R1 方案](localization/editorial/r1/TRANSLATION_PLAN.md) · [R2 修复](localization/editorial/r2/README.md) · [R3 人名](localization/editorial/r3-names/README.md) · [R4 留置裁决](localization/editorial/r4-pending/README.md) · [R5 创译](localization/editorial/r5-creative/README.md) · [R6 纠错](localization/editorial/r6-consistency/README.md) · [R7 渲染判定](localization/editorial/r7-render/README.md) · [R8 谜题提示](localization/editorial/r8-puzzle/README.md) · [R9 全正文精校](localization/editorial/r9-polish/README.md)
-- 交接与恢复：[localization/editorial/HANDOFF.md](localization/editorial/HANDOFF.md)（当前状态、遗留项、精校批次进度与恢复步骤）
-- 技术研究：[docs/](docs/) 下的排版、字体渲染、差分与 PAK 交付方案
+- 工作流总览：[docs/workflows/README.md](docs/workflows/README.md)（[翻译](docs/workflows/translation.md) · [校对](docs/workflows/review.md) · [图像](docs/workflows/images.md) · [构建发布](docs/workflows/build-release.md)）
+- 交接与状态：[docs/接续.md](docs/接续.md) · [review/worklist.md](review/worklist.md)
+- 发行说明：[alpha0.3](docs/release-notes/alpha0.3.md) · [alpha0.2](docs/release-notes/alpha0.2.md) · [alpha0.1](docs/release-notes/alpha0.1.md)

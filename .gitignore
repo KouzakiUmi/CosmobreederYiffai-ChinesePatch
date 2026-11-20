@@ -1,91 +1,34 @@
-# Research tree: reviewed code plus the textual audit trail is eligible; local data
-# and native game material stay ignored. Binaries remain excluded by the rules below.
-localization/**
-!localization/**/
-!localization/**/*.py
-!localization/**/*.java
-!localization/**/*.md
-!localization/**/*.tsv
-!localization/**/*.csv
-!localization/**/*.json
-!localization/**/*.jsonl
-!localization/**/*.txt
-!localization/requirements.txt
+# 原版游戏文件与外部依赖（JDK/JRE/r27底座/字体包）：不入库
+originals/
+deps/
 
-# The audit trail is text only: work orders, decisions, repair ledgers and reports.
-# Bulky per-round evidence, generated corpora and build outputs stay local.
-localization/editorial/r1/corpus/
-localization/editorial/r1/reports/
-localization/editorial/r2/packets/
-localization/editorial/r2/compiled/
-localization/editorial/r2/input/
-localization/editorial/r2/corrections/
-localization/editorial/r3-names/compiled/
-localization/editorial/r3-names/engineering/
-localization/editorial/*/reports/
-localization/translations/zh-CN.jsonl
-localization/translations/dialogue-*.json
-localization/translations/jar-variant.jsonl
-localization/translations/layout-short-overrides.jsonl
-
-# Optimization keeps its sources and component descriptors; generated jars,
-# recordings, fixtures and candidate builds stay local.
-localization/optimization/r28/*/builds/
-localization/optimization/r28/*/run-*/
-localization/optimization/r28/*/pattern-*/
-localization/optimization/r28/*/baseline-evidence/
-localization/optimization/r28/core/
-localization/optimization/r28/integration/builds/
-localization/optimization/r28/integration/tests/
-localization/optimization/r28/*/cpu-recording*.json
-
-# Local workspace and original-game inputs: never publish.
-.local/
-backup/
-extract/
-research/
-work/
-build/
+# 构建产物与发行安装包：由 tools/tl_tool.py 与 release_tool.py 本地生成
+payload/
 dist/
-testgame*/
-tg_*/
-t/
-translation/
+build/
+.local/
 
-# Research outputs / machine-local material.
-localization/assets/
-localization/batches/
-localization/builds/
-localization/catalog/
-localization/docs/
-localization/drafts/
-localization/reference/
-localization/reports/
-localization/review/
-localization/runtime/
-localization/sources/
-localization/toolchains/
-# Source-locked repair ledgers and name rulings are the auditable record of what
-# changed; the full translation tables they derive from stay local. Exclude the
-# directory's files rather than the directory itself so the allowlist can apply.
-localization/translations/*
-!localization/translations/character-names.json
-!localization/translations/character-name-repairs.jsonl
-!localization/translations/editorial-*-repairs.jsonl
-localization/work/
-docs/font-evidence/
-docs/full-layout-study-*/
-docs/legacy*/
-# Only curated public documentation; old research snapshots stay local.
-docs/*
-!docs/SOURCE_BUILD.md
-!docs/DELTA_FORMAT.md
-!docs/RELEASE-alpha0.1.md
-!docs/RELEASE-alpha0.2.md
-!docs/RELEASE-alpha0.3.md
-!docs/接续.md
+# 译文工作区：chunks 与 template 含游戏原文，由 tl_tool.py export 本地生成
+tl_work/chunks/
+tl_work/template/
 
-# Native game material, binaries, extracted text and credentials.
+# 原版图集的参考切片；资源路径及范围记录仍可维护
+assets/fixed/*.png
+
+# 含原文列的本地校对中间产物
+review/sheet_*.tsv
+review/candidates.tsv
+review/backup_chunks_*/
+review/context-mapping.json
+review/defeat-context.json
+review/defeat-scenes.txt
+review/findings.md
+review/leftover-proposals.md
+# 历史双语裁决表及逐句审校输入在旧提交中保留，不随新公开树迁移
+review/archive/
+tl_work/archive/ledgers/
+
+# 二进制与临时文件
 *.jar
 *.pak
 *.class
@@ -100,25 +43,11 @@ docs/*
 *.ttf
 *.otf
 *.bdf
-*.png
-*.jpg
-*.jpeg
-*.webp
 *.sav
 *.save
 *.log
-*.jsonl.tmp
-.lastpid
-all_strings.txt
-.credentials.yaml
-**/.credentials.yaml
-.env
-.env.*
-!.env.example
-*.pem
-*.key
-
-# Generated Python / build output.
+*.tmp
+*.bak
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -128,5 +57,13 @@ venv/
 .coverage
 htmlcov/
 *.spec
-# Authored historical configuration (not a generated build output).
-!localization/packaging/CosmobreederYiffaiCN.spec
+Thumbs.db
+
+# 凭据与本地环境
+.credentials.yaml
+**/.credentials.yaml
+.env
+.env.*
+!.env.example
+*.pem
+*.key

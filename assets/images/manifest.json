@@ -1,0 +1,1666 @@
+{
+  "schema": 2,
+  "scope": "sparse-overlay",
+  "base": "r27-story12-shaderfix-test5",
+  "replacements": [
+    {
+      "workorder_id": "IMG-001",
+      "logical_name": "CardViewMenuBG",
+      "index": 1,
+      "ordinal": 95,
+      "variant": "jar",
+      "source_xy": [
+        3432,
+        3896
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "c2879cd2efb7fecc5a443387b195b642bb2dd27ae34a967cae236e9b1fc5e500",
+      "newPNG": "assets/images/png/jar__CardViewMenuBG__1__95.png",
+      "new_rawRGBA_sha256": "937bd532472b3c26f25ebedca2d63ba9f2267c5220ba05520ed1186997a3f346",
+      "approved_mask": "assets/images/masks/jar__CardViewMenuBG__1__95.png",
+      "newPNG_sha256": "91fe83f3a8f9cca9299eb1bb4f070f39f92b2791e421c39a8c45c3a622351fb5",
+      "approved_mask_png_sha256": "3ef347d216077f056f5a77e9fc9c7bf2c1771a61bc315f8374f675059bd928a5"
+    },
+    {
+      "workorder_id": "IMG-001",
+      "logical_name": "CardViewMenuBG",
+      "index": 1,
+      "ordinal": 95,
+      "variant": "patch",
+      "source_xy": [
+        3432,
+        3896
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "3b8deea1a6915b070d18df45d77ce3fa42c83dbecfffc78d6e7f709031452493",
+      "newPNG": "assets/images/png/patch__CardViewMenuBG__1__95.png",
+      "new_rawRGBA_sha256": "6cda9327d5c4e97d928e067057c5edf59b143483d31b282f30b0ae520b415950",
+      "approved_mask": "assets/images/masks/patch__CardViewMenuBG__1__95.png",
+      "newPNG_sha256": "63b0e48defd6ea58a293cbd2a3fba0e57d4a2eb8d63cca7acfcafc964c8578c6",
+      "approved_mask_png_sha256": "bd8f32efbefcbfa8e8920fc11a2c73b38245cd7263b1218c0d1c3d7384b25e2b"
+    },
+    {
+      "workorder_id": "IMG-002",
+      "logical_name": "CardViewMenuBGTitle",
+      "index": 1,
+      "ordinal": 96,
+      "variant": "jar",
+      "source_xy": [
+        1056,
+        3664
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "105b0bb74048e171551959e34bf80534c07e6c60f774e5858f313e0bdcbc9f4f",
+      "newPNG": "assets/images/png/jar__CardViewMenuBGTitle__1__96.png",
+      "new_rawRGBA_sha256": "98a161a28b930cf998c936af1fd7bf0235c3b939fe41a5bae5c8c54df7b63cf7",
+      "approved_mask": "assets/images/masks/jar__CardViewMenuBGTitle__1__96.png",
+      "newPNG_sha256": "1c425cbbb4eb517d634dd0ff3eb68cbd367455d3c79297d983f841cb2839a58e",
+      "approved_mask_png_sha256": "33851303ddffd9867f4eab6251d2cb94ae9f576439ade6c88c2e516a93b2b622"
+    },
+    {
+      "workorder_id": "IMG-003",
+      "logical_name": "ClassicHUDBreedMenu",
+      "index": 1,
+      "ordinal": 2505,
+      "variant": "jar",
+      "source_xy": [
+        792,
+        3696
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "26186aedd9d0d818d82eda73eac2b70ee813bd398d1548ccccd12e03990c4188",
+      "newPNG": "assets/images/png/jar__ClassicHUDBreedMenu__1__2505.png",
+      "new_rawRGBA_sha256": "e0be369aa9fe674df44cb83d551db46fe9e2ec2ae4fbf0143733eb581eaaca34",
+      "approved_mask": "assets/images/masks/jar__ClassicHUDBreedMenu__1__2505.png",
+      "newPNG_sha256": "cacccb22662ec2002298038b013f90f309f20e0e9a2d9edcf5d5dec11f834c81",
+      "approved_mask_png_sha256": "6b739151557e78705ce07d6b58df978a16f7f54a6cf4b67fe3f9e477cdb41da8"
+    },
+    {
+      "workorder_id": "IMG-003",
+      "logical_name": "ClassicHUDBreedMenu",
+      "index": 1,
+      "ordinal": 2505,
+      "variant": "patch",
+      "source_xy": [
+        792,
+        3696
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "1193916dc0361be3604fbee17897517a082c74b117adf5b1de758a6de55305b4",
+      "newPNG": "assets/images/png/patch__ClassicHUDBreedMenu__1__2505.png",
+      "new_rawRGBA_sha256": "3e8715dfda7359c0d70057c12bd8269400c0fa9afa2707457555cd6f7fa9579e",
+      "approved_mask": "assets/images/masks/patch__ClassicHUDBreedMenu__1__2505.png",
+      "newPNG_sha256": "536a7a6454ef4806633e55a3c6b6b7ed530d6f1bede99792b9d6681359853f1a",
+      "approved_mask_png_sha256": "e28ad6976c1c8ea963a9c91c71e11c18e36818f3485ac6fc6b81ee8c6a40fe3a"
+    },
+    {
+      "workorder_id": "IMG-004",
+      "logical_name": "ClassicHUDSubBreed",
+      "index": 1,
+      "ordinal": 2506,
+      "variant": "jar",
+      "source_xy": [
+        8,
+        1456
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "175d29b30b3c77e1c73a71bd4d9302cd38ed6611a85094d56d95d1e149e837b1",
+      "newPNG": "assets/images/png/jar__ClassicHUDSubBreed__1__2506.png",
+      "new_rawRGBA_sha256": "e2668cca3846b6d3731bc998e40be2db0f0aa14193efb269d02f75a1a22d0cb5",
+      "approved_mask": "assets/images/masks/jar__ClassicHUDSubBreed__1__2506.png",
+      "newPNG_sha256": "0c95155aede28719c6b45cbb732da3d715c26faba18e62a54040697d9ff0a052",
+      "approved_mask_png_sha256": "394d741c713dc46d01f549a364bcb5aad4a48fc0d4a2ca4ba0f1596d36f6a565"
+    },
+    {
+      "workorder_id": "IMG-004",
+      "logical_name": "ClassicHUDSubBreed",
+      "index": 1,
+      "ordinal": 2506,
+      "variant": "patch",
+      "source_xy": [
+        8,
+        1456
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "a6dc705647d5e0b18997124079bb5391684736a8ac0dd273ae64d3b316e2eaea",
+      "newPNG": "assets/images/png/patch__ClassicHUDSubBreed__1__2506.png",
+      "new_rawRGBA_sha256": "e345ab172525e491024fbf669b62f0450511e9c89c2921c326f9e85e5f9d528f",
+      "approved_mask": "assets/images/masks/patch__ClassicHUDSubBreed__1__2506.png",
+      "newPNG_sha256": "944a91a4ac8e0ba66586c562edca1d69d126415e1d09d2ea45af3b9be07ec7e5",
+      "approved_mask_png_sha256": "af449712e3d0d031863c4cbb3f2e9d0527b15bd30f7018fb5f9fb3704d4c40a1"
+    },
+    {
+      "workorder_id": "IMG-005",
+      "logical_name": "CosmoCodecMenuBG",
+      "index": 1,
+      "ordinal": 6108,
+      "variant": "jar",
+      "source_xy": [
+        1656,
+        3120
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "2c863dc720787d178dca90db1ff16926c2862a5494d30067900bc9e7df304687",
+      "newPNG": "assets/images/png/jar__CosmoCodecMenuBG__1__6108.png",
+      "new_rawRGBA_sha256": "495653ca8d7064c87da3ef65b8c900d2f189fdbf3ebd4a1d060c440a97834778",
+      "approved_mask": "assets/images/masks/jar__CosmoCodecMenuBG__1__6108.png",
+      "newPNG_sha256": "7d27bfcc36f03fb750fec59c7a2a6a69954963e7f27fcc18a1b58ce08f8bf810",
+      "approved_mask_png_sha256": "c6237c6fa2d1fc14e0800286ddcbf4cc12210f12d6ef6bb69808e6e9032997ed"
+    },
+    {
+      "workorder_id": "IMG-005",
+      "logical_name": "CosmoCodecMenuBG",
+      "index": 1,
+      "ordinal": 6352,
+      "variant": "patch",
+      "source_xy": [
+        1392,
+        3000
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "c81134d4797d3513dd7e702ac00fd478bce1c7f22d5f611120d8a1c120392467",
+      "newPNG": "assets/images/png/patch__CosmoCodecMenuBG__1__6352.png",
+      "new_rawRGBA_sha256": "3db7501b5a71aa57c78bc5603b1bb4dceb2001aa6936e750c8a468c0c073def4",
+      "approved_mask": "assets/images/masks/patch__CosmoCodecMenuBG__1__6352.png",
+      "newPNG_sha256": "4b49eb84eab7679ca24127c8e575ad6c61608bec9a46c913b2ef9e5c6a3be868",
+      "approved_mask_png_sha256": "ff1adde4a1be2ba31afd3ce5b5e853c21c4e962d280cbd1f9b8733f15c70effb"
+    },
+    {
+      "workorder_id": "IMG-006",
+      "logical_name": "CosmoItemMenuBG",
+      "index": 1,
+      "ordinal": 6270,
+      "variant": "jar",
+      "source_xy": [
+        3432,
+        3232
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "11b6531979099c1e7b7e45cf2cc4ff93784fef5a4843c5da12e53639a4779c2a",
+      "newPNG": "assets/images/png/jar__CosmoItemMenuBG__1__6270.png",
+      "new_rawRGBA_sha256": "0c0f46a889101fe7aff45d8b721a03abcc6c03a63b7df2cada01813d16533c0f",
+      "approved_mask": "assets/images/masks/jar__CosmoItemMenuBG__1__6270.png",
+      "newPNG_sha256": "c34fa92cdcb1fb125f79433aea6ba4af58ba143bd110c0da8bddd2192c2cbb96",
+      "approved_mask_png_sha256": "e225c34e2516fc5951ac2d8f86aa7c11e94021a7affaa26c62cbf2bbc2e464f3"
+    },
+    {
+      "workorder_id": "IMG-006",
+      "logical_name": "CosmoItemMenuBG",
+      "index": 1,
+      "ordinal": 6514,
+      "variant": "patch",
+      "source_xy": [
+        1920,
+        3000
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "11b6531979099c1e7b7e45cf2cc4ff93784fef5a4843c5da12e53639a4779c2a",
+      "newPNG": "assets/images/png/patch__CosmoItemMenuBG__1__6514.png",
+      "new_rawRGBA_sha256": "0c0f46a889101fe7aff45d8b721a03abcc6c03a63b7df2cada01813d16533c0f",
+      "approved_mask": "assets/images/masks/patch__CosmoItemMenuBG__1__6514.png",
+      "newPNG_sha256": "c34fa92cdcb1fb125f79433aea6ba4af58ba143bd110c0da8bddd2192c2cbb96",
+      "approved_mask_png_sha256": "e225c34e2516fc5951ac2d8f86aa7c11e94021a7affaa26c62cbf2bbc2e464f3"
+    },
+    {
+      "workorder_id": "IMG-007",
+      "logical_name": "CosmoMissionLogMenuBG",
+      "index": 1,
+      "ordinal": 6277,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        576
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "4e5f01b551209e83ddb04eef9b755a60839b46ef5a99738b519557af1be81a3b",
+      "newPNG": "assets/images/png/jar__CosmoMissionLogMenuBG__1__6277.png",
+      "new_rawRGBA_sha256": "4060d49c903421a2cdf5ef1989af879f53028dfc8bb65c97ec69a0d86bfe969a",
+      "approved_mask": "assets/images/masks/jar__CosmoMissionLogMenuBG__1__6277.png",
+      "newPNG_sha256": "4f8afb3ba5e141f2b83a204b29c03eb1548c633b1e34e50c8ffbf2681934e866",
+      "approved_mask_png_sha256": "0f83fb88dc54b684f7bb89b84b69052b24403735b02be441054f9afa456f2295"
+    },
+    {
+      "workorder_id": "IMG-007",
+      "logical_name": "CosmoMissionLogMenuBG",
+      "index": 1,
+      "ordinal": 6521,
+      "variant": "patch",
+      "source_xy": [
+        3240,
+        3200
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "4e5f01b551209e83ddb04eef9b755a60839b46ef5a99738b519557af1be81a3b",
+      "newPNG": "assets/images/png/patch__CosmoMissionLogMenuBG__1__6521.png",
+      "new_rawRGBA_sha256": "4060d49c903421a2cdf5ef1989af879f53028dfc8bb65c97ec69a0d86bfe969a",
+      "approved_mask": "assets/images/masks/patch__CosmoMissionLogMenuBG__1__6521.png",
+      "newPNG_sha256": "4f8afb3ba5e141f2b83a204b29c03eb1548c633b1e34e50c8ffbf2681934e866",
+      "approved_mask_png_sha256": "0f83fb88dc54b684f7bb89b84b69052b24403735b02be441054f9afa456f2295"
+    },
+    {
+      "workorder_id": "IMG-008",
+      "logical_name": "CosmoSaveMenuBG",
+      "index": 1,
+      "ordinal": 6279,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        112
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "6063586fd720049f37f92aeab3a7ee356ed825a3d635becb49da7af8e0bc9cdc",
+      "newPNG": "assets/images/png/jar__CosmoSaveMenuBG__1__6279.png",
+      "new_rawRGBA_sha256": "74da9e91e0950234334ad3a6a98a4836cf202cd1bf98ac7df6035d11bc5e2e4c",
+      "approved_mask": "assets/images/masks/jar__CosmoSaveMenuBG__1__6279.png",
+      "newPNG_sha256": "e1ea929db3547ae1f0742ccaa28b67a97050af95351c4e366a9c14fd7f698675",
+      "approved_mask_png_sha256": "1a780cd8c9fbbb779ad5c4c39516fa31e4573b153cddc4a7a85f491062bec187"
+    },
+    {
+      "workorder_id": "IMG-008",
+      "logical_name": "CosmoSaveMenuBG",
+      "index": 1,
+      "ordinal": 6523,
+      "variant": "patch",
+      "source_xy": [
+        3240,
+        2736
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "021c72830dd9ad83f76e24368b96e82f7083435aa43fac22bd87c8b3908838c4",
+      "newPNG": "assets/images/png/patch__CosmoSaveMenuBG__1__6523.png",
+      "new_rawRGBA_sha256": "c09c76fca377c783e79c8b3517bf18e74d4fbff51077ca2e7e7841c6b81d1870",
+      "approved_mask": "assets/images/masks/patch__CosmoSaveMenuBG__1__6523.png",
+      "newPNG_sha256": "1bacbdf4dadd4b864d805ea87ad899c5c6519cd6ffaeed869513311dd6fa5a50",
+      "approved_mask_png_sha256": "0ff79114a49350254eff052a32974f4eadb86c09bf69153b6c781322345b4e04"
+    },
+    {
+      "workorder_id": "IMG-009",
+      "logical_name": "CosmoNameEntryMenuBG",
+      "index": 1,
+      "ordinal": 6278,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        344
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "5ef36c9ca0dc1d960f6180a77725170e6d0d7f9f144e8a21d8408037a06f7229",
+      "newPNG": "assets/images/png/jar__CosmoNameEntryMenuBG__1__6278.png",
+      "new_rawRGBA_sha256": "b355b7b0b321c154764e59aeda52042d3e8820bdf47fe6c8ba47a848716948c2",
+      "approved_mask": "assets/images/masks/jar__CosmoNameEntryMenuBG__1__6278.png",
+      "newPNG_sha256": "758ad3bd2d532b2baa8df134def1cbeb30f3579fb75354ee2fe3f3843cd68ef3",
+      "approved_mask_png_sha256": "bd628f0f9f525877bab3bedca2fc50a2a09f6b87a5126a16a0f1e98f9cada979"
+    },
+    {
+      "workorder_id": "IMG-009",
+      "logical_name": "CosmoNameEntryMenuBG",
+      "index": 1,
+      "ordinal": 6522,
+      "variant": "patch",
+      "source_xy": [
+        3240,
+        2968
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "df2b9703fe7cf84fc4411f1402c85d99273c49eae4255124db9a7e7630c6d4a8",
+      "newPNG": "assets/images/png/patch__CosmoNameEntryMenuBG__1__6522.png",
+      "new_rawRGBA_sha256": "4e7125834f2ca7e40a485946094b5673eb7bc7ecead01d597f1b75ca290bec89",
+      "approved_mask": "assets/images/masks/patch__CosmoNameEntryMenuBG__1__6522.png",
+      "newPNG_sha256": "c67362acbecc19804de3f97368af1c120bdc67a41efde5b11246e54d3fdd564b",
+      "approved_mask_png_sha256": "24ee74fdb38a7ee6492ca6bf35656c7503a5b8ec508f4756988adb4492cb2549"
+    },
+    {
+      "workorder_id": "IMG-010",
+      "logical_name": "CosmoSubData",
+      "index": 1,
+      "ordinal": 6281,
+      "variant": "jar",
+      "source_xy": [
+        600,
+        3176
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "ef94ee8545e59343afa975796af91280f503d4387811dde8afc4385330328e02",
+      "newPNG": "assets/images/png/jar__CosmoSubData__1__6281.png",
+      "new_rawRGBA_sha256": "c8ce2e7c91da50dc751c31ac7bfc42fb46094e4f82919a9b1eb1bef8b47b9635",
+      "approved_mask": "assets/images/masks/jar__CosmoSubData__1__6281.png",
+      "newPNG_sha256": "3a4e0857e0e2bb3401d5155393afbec4ebeb9044e0c2f48e7497f4c86e3ded16",
+      "approved_mask_png_sha256": "808ef5676ffde164b95ddfd67dbc159a6ec4c901bfc847480e5b1f1288fcb979"
+    },
+    {
+      "workorder_id": "IMG-010",
+      "logical_name": "CosmoSubData",
+      "index": 1,
+      "ordinal": 6525,
+      "variant": "patch",
+      "source_xy": [
+        2184,
+        3000
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "7a1a066d1a6ee6587b87cb0e388a39a33df361ee22e570179e86a6af89d58935",
+      "newPNG": "assets/images/png/patch__CosmoSubData__1__6525.png",
+      "new_rawRGBA_sha256": "bc5d5246fea57837bfc705a2882de4a460da8c892f4d5c6cf24f33d121dc274d",
+      "approved_mask": "assets/images/masks/patch__CosmoSubData__1__6525.png",
+      "newPNG_sha256": "f9d520ff5024aaa44af64f29013aaea17c004be6da38f07806bbc941ed03510e",
+      "approved_mask_png_sha256": "d92ce0d9edeec03da3adec2665716273646efeacf594aead3834a67374cb81b5"
+    },
+    {
+      "workorder_id": "IMG-011",
+      "logical_name": "CosmoSubMapBG",
+      "index": 1,
+      "ordinal": 6282,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        2040
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "6f10258c300eb7a354fae3c367d635fea721a9bc116e960d126b93167bf92f4d",
+      "newPNG": "assets/images/png/jar__CosmoSubMapBG__1__6282.png",
+      "new_rawRGBA_sha256": "b62bd5673d37adf7c14acc8d2bae9d663dee2f6006e4b20d7a47c72f4c0bb2b8",
+      "approved_mask": "assets/images/masks/jar__CosmoSubMapBG__1__6282.png",
+      "newPNG_sha256": "4bce560f132fc151035523a4b68669ad7895c0bfe0f5b0b1b35fef34bfbd7529",
+      "approved_mask_png_sha256": "c457ebb593388cb23da19963a97330e72f6d18acac42c1d32f05419a3cc73b77"
+    },
+    {
+      "workorder_id": "IMG-011",
+      "logical_name": "CosmoSubMapBG",
+      "index": 1,
+      "ordinal": 6526,
+      "variant": "patch",
+      "source_xy": [
+        2712,
+        2800
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "6f10258c300eb7a354fae3c367d635fea721a9bc116e960d126b93167bf92f4d",
+      "newPNG": "assets/images/png/patch__CosmoSubMapBG__1__6526.png",
+      "new_rawRGBA_sha256": "b62bd5673d37adf7c14acc8d2bae9d663dee2f6006e4b20d7a47c72f4c0bb2b8",
+      "approved_mask": "assets/images/masks/patch__CosmoSubMapBG__1__6526.png",
+      "newPNG_sha256": "4bce560f132fc151035523a4b68669ad7895c0bfe0f5b0b1b35fef34bfbd7529",
+      "approved_mask_png_sha256": "c457ebb593388cb23da19963a97330e72f6d18acac42c1d32f05419a3cc73b77"
+    },
+    {
+      "workorder_id": "IMG-012",
+      "logical_name": "CosmoSubMapV2BG",
+      "index": 1,
+      "ordinal": 6283,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        1840
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "76bfa77bd35fb72a2f34d1a4ffd2a8fc11bc7058a8d4c7e08095888a7a245d78",
+      "newPNG": "assets/images/png/jar__CosmoSubMapV2BG__1__6283.png",
+      "new_rawRGBA_sha256": "49d9b8409902cfebe21dd4a9ad2847afa721c1812d46c729e29f5a36a0366e6e",
+      "approved_mask": "assets/images/masks/jar__CosmoSubMapV2BG__1__6283.png",
+      "newPNG_sha256": "359012d8627386ca0b39698056447bdb063bb416b0168386ecc60e6ffc706dec",
+      "approved_mask_png_sha256": "4141934288d05911b66be8d5116b6f876baca6f212d47dcd7c910a3fafda98b5"
+    },
+    {
+      "workorder_id": "IMG-012",
+      "logical_name": "CosmoSubMapV2BG",
+      "index": 1,
+      "ordinal": 6527,
+      "variant": "patch",
+      "source_xy": [
+        2448,
+        2712
+      ],
+      "size": [
+        256,
+        192
+      ],
+      "expected_rawRGBA_sha256": "76bfa77bd35fb72a2f34d1a4ffd2a8fc11bc7058a8d4c7e08095888a7a245d78",
+      "newPNG": "assets/images/png/patch__CosmoSubMapV2BG__1__6527.png",
+      "new_rawRGBA_sha256": "49d9b8409902cfebe21dd4a9ad2847afa721c1812d46c729e29f5a36a0366e6e",
+      "approved_mask": "assets/images/masks/patch__CosmoSubMapV2BG__1__6527.png",
+      "newPNG_sha256": "359012d8627386ca0b39698056447bdb063bb416b0168386ecc60e6ffc706dec",
+      "approved_mask_png_sha256": "4141934288d05911b66be8d5116b6f876baca6f212d47dcd7c910a3fafda98b5"
+    },
+    {
+      "workorder_id": "IMG-013",
+      "logical_name": "CosmoTitleData",
+      "index": 1,
+      "ordinal": 6284,
+      "variant": "jar",
+      "source_xy": [
+        864,
+        3144
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e2aab2ad9e5b00ca413f54ea7fb3ecf5efa0213e6651546155e936e9c617a69f",
+      "newPNG": "assets/images/png/jar__CosmoTitleData__1__6284.png",
+      "new_rawRGBA_sha256": "5d9bd82f433fec856bad9d5f1dd2eb984b26864f3f3c5cd007dd06e2e4d3d134",
+      "approved_mask": "assets/images/masks/jar__CosmoTitleData__1__6284.png",
+      "newPNG_sha256": "fb877fe17de5f10112cec75347a3a3d17856ff3000dec177b630beb60ae07fde",
+      "approved_mask_png_sha256": "f44ef8bc83c6af18c61f4831f14369fb16d71e2a4b4b8013eb67d2656d257c49"
+    },
+    {
+      "workorder_id": "IMG-014",
+      "logical_name": "ClassicPretitleGamepad",
+      "index": 1,
+      "ordinal": 3207,
+      "variant": "jar",
+      "source_xy": [
+        2112,
+        3664
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "5c3a71b2eb8fb75baa92939b884862c28bcd9f300e8794da2d2f1f52826497e6",
+      "newPNG": "assets/images/png/jar__ClassicPretitleGamepad__1__3207.png",
+      "new_rawRGBA_sha256": "322ff36b6f560922cda0ae4489082678dc58e6c10b96ee8de860e1f24c2daace",
+      "approved_mask": "assets/images/masks/jar__ClassicPretitleGamepad__1__3207.png",
+      "newPNG_sha256": "59ca58153de75470d39017116ec179158db67c4436ea1bc0f0e2bf55bff7fb09",
+      "approved_mask_png_sha256": "c51ca2bc08a45a2888b19550c106509410c6cd644f065b72761fdd3b5cde2c48"
+    },
+    {
+      "workorder_id": "IMG-015",
+      "logical_name": "CosmoGalleryBG",
+      "index": 1,
+      "ordinal": 6109,
+      "variant": "jar",
+      "source_xy": [
+        1392,
+        2968
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e16f4b7c1d343d99edb499df8a671f49f122e144179a0077509fc4b9cfdbc506",
+      "newPNG": "assets/images/png/jar__CosmoGalleryBG__1__6109.png",
+      "new_rawRGBA_sha256": "1c9a4b47e3bc4afac9b5fac65d29f5847a0cc0e16141e95af7aa7144f5f51ab1",
+      "approved_mask": "assets/images/masks/jar__CosmoGalleryBG__1__6109.png",
+      "newPNG_sha256": "e61828ee89477baa97a303fe0bb101c878e79162fb5c7c11367ec48feb0e2f0f",
+      "approved_mask_png_sha256": "b90cd652b7bfb7c78d86351669dd4480d3118cae7aa6135c07e8db67132e3b0c"
+    },
+    {
+      "workorder_id": "IMG-015",
+      "logical_name": "CosmoGalleryBG",
+      "index": 1,
+      "ordinal": 6353,
+      "variant": "patch",
+      "source_xy": [
+        1656,
+        2856
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e16f4b7c1d343d99edb499df8a671f49f122e144179a0077509fc4b9cfdbc506",
+      "newPNG": "assets/images/png/patch__CosmoGalleryBG__1__6353.png",
+      "new_rawRGBA_sha256": "1c9a4b47e3bc4afac9b5fac65d29f5847a0cc0e16141e95af7aa7144f5f51ab1",
+      "approved_mask": "assets/images/masks/patch__CosmoGalleryBG__1__6353.png",
+      "newPNG_sha256": "e61828ee89477baa97a303fe0bb101c878e79162fb5c7c11367ec48feb0e2f0f",
+      "approved_mask_png_sha256": "b90cd652b7bfb7c78d86351669dd4480d3118cae7aa6135c07e8db67132e3b0c"
+    },
+    {
+      "workorder_id": "IMG-016",
+      "logical_name": "CosmoGalleryViewerBG",
+      "index": 1,
+      "ordinal": 6110,
+      "variant": "jar",
+      "source_xy": [
+        1656,
+        2888
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "a28e5ff63c421eb6f5ac1decc793483c59b2755d5c1fe6a3285f9ac13341178f",
+      "newPNG": "assets/images/png/jar__CosmoGalleryViewerBG__1__6110.png",
+      "new_rawRGBA_sha256": "a1caa8806688864f590848c0e432a49d00b4a3ed98c32b665939af2c79efd8a3",
+      "approved_mask": "assets/images/masks/jar__CosmoGalleryViewerBG__1__6110.png",
+      "newPNG_sha256": "e61828ee89477baa97a303fe0bb101c878e79162fb5c7c11367ec48feb0e2f0f",
+      "approved_mask_png_sha256": "b90cd652b7bfb7c78d86351669dd4480d3118cae7aa6135c07e8db67132e3b0c"
+    },
+    {
+      "workorder_id": "IMG-016",
+      "logical_name": "CosmoGalleryViewerBG",
+      "index": 1,
+      "ordinal": 6354,
+      "variant": "patch",
+      "source_xy": [
+        1920,
+        3200
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "a28e5ff63c421eb6f5ac1decc793483c59b2755d5c1fe6a3285f9ac13341178f",
+      "newPNG": "assets/images/png/patch__CosmoGalleryViewerBG__1__6354.png",
+      "new_rawRGBA_sha256": "a1caa8806688864f590848c0e432a49d00b4a3ed98c32b665939af2c79efd8a3",
+      "approved_mask": "assets/images/masks/patch__CosmoGalleryViewerBG__1__6354.png",
+      "newPNG_sha256": "e61828ee89477baa97a303fe0bb101c878e79162fb5c7c11367ec48feb0e2f0f",
+      "approved_mask_png_sha256": "b90cd652b7bfb7c78d86351669dd4480d3118cae7aa6135c07e8db67132e3b0c"
+    },
+    {
+      "workorder_id": "IMG-017",
+      "logical_name": "CosmoShopBG",
+      "index": 1,
+      "ordinal": 6280,
+      "variant": "jar",
+      "source_xy": [
+        3696,
+        3224
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2da49481a87607b0f913c94ae435a15dcc5196ec620fa0a79f5a88f371374f77",
+      "newPNG": "assets/images/png/jar__CosmoShopBG__1__6280.png",
+      "new_rawRGBA_sha256": "73e657ac924c108bc6b77706082111c331a12569115fcde928506fc76eadd755",
+      "approved_mask": "assets/images/masks/jar__CosmoShopBG__1__6280.png",
+      "newPNG_sha256": "0e30e1b3a332c0b063a0ba608d5c1a19a43e1fae3d3c696b24f4b808e87d873b",
+      "approved_mask_png_sha256": "b3b9638221a543976a4888568a6a76451b44bf76b1eb944a03555e5262dae561"
+    },
+    {
+      "workorder_id": "IMG-017",
+      "logical_name": "CosmoShopBG",
+      "index": 1,
+      "ordinal": 6524,
+      "variant": "patch",
+      "source_xy": [
+        2184,
+        3200
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2da49481a87607b0f913c94ae435a15dcc5196ec620fa0a79f5a88f371374f77",
+      "newPNG": "assets/images/png/patch__CosmoShopBG__1__6524.png",
+      "new_rawRGBA_sha256": "73e657ac924c108bc6b77706082111c331a12569115fcde928506fc76eadd755",
+      "approved_mask": "assets/images/masks/patch__CosmoShopBG__1__6524.png",
+      "newPNG_sha256": "0e30e1b3a332c0b063a0ba608d5c1a19a43e1fae3d3c696b24f4b808e87d873b",
+      "approved_mask_png_sha256": "b3b9638221a543976a4888568a6a76451b44bf76b1eb944a03555e5262dae561"
+    },
+    {
+      "workorder_id": "IMG-018",
+      "logical_name": "CosmoGameOverBG",
+      "index": 1,
+      "ordinal": 6111,
+      "variant": "jar",
+      "source_xy": [
+        1128,
+        3088
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "expected_rawRGBA_sha256": "522c8e66857ea668ebbdbeb453e6312ac42dc78d407131f8cfb5b89cf089ddce",
+      "newPNG": "assets/images/png/jar__CosmoGameOverBG__1__6111.png",
+      "new_rawRGBA_sha256": "3303813848e2d46fc513588a5c319ce4793121a139e43d72ce56494a325f9145",
+      "approved_mask": "assets/images/masks/jar__CosmoGameOverBG__1__6111.png",
+      "newPNG_sha256": "96d2d477aeaa7a9d0bc16f67db5b2530be9a6f8891c934c1937184bf113a5997",
+      "approved_mask_png_sha256": "3cdd7414fb4086cfbd15f866cc7e20f0c554d2f740d1a46151de0e796bfb1427"
+    },
+    {
+      "workorder_id": "IMG-018",
+      "logical_name": "CosmoGameOverBG",
+      "index": 1,
+      "ordinal": 6355,
+      "variant": "patch",
+      "source_xy": [
+        272,
+        24
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "expected_rawRGBA_sha256": "522c8e66857ea668ebbdbeb453e6312ac42dc78d407131f8cfb5b89cf089ddce",
+      "newPNG": "assets/images/png/patch__CosmoGameOverBG__1__6355.png",
+      "new_rawRGBA_sha256": "3303813848e2d46fc513588a5c319ce4793121a139e43d72ce56494a325f9145",
+      "approved_mask": "assets/images/masks/patch__CosmoGameOverBG__1__6355.png",
+      "newPNG_sha256": "96d2d477aeaa7a9d0bc16f67db5b2530be9a6f8891c934c1937184bf113a5997",
+      "approved_mask_png_sha256": "3cdd7414fb4086cfbd15f866cc7e20f0c554d2f740d1a46151de0e796bfb1427"
+    },
+    {
+      "workorder_id": "IMG-019",
+      "logical_name": "CosmoGameOverLiteBG",
+      "index": 1,
+      "ordinal": 6252,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        2456
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "expected_rawRGBA_sha256": "81e1ef287a4bc441ccc213a1df252b95b3fee157821413280f8e396b9b520914",
+      "newPNG": "assets/images/png/jar__CosmoGameOverLiteBG__1__6252.png",
+      "new_rawRGBA_sha256": "f0bc7b8e2068919c74aa953db28981b8a158406f86c3c41e47fc23ce586356b9",
+      "approved_mask": "assets/images/masks/jar__CosmoGameOverLiteBG__1__6252.png",
+      "newPNG_sha256": "96d2d477aeaa7a9d0bc16f67db5b2530be9a6f8891c934c1937184bf113a5997",
+      "approved_mask_png_sha256": "3cdd7414fb4086cfbd15f866cc7e20f0c554d2f740d1a46151de0e796bfb1427"
+    },
+    {
+      "workorder_id": "IMG-019",
+      "logical_name": "CosmoGameOverLiteBG",
+      "index": 1,
+      "ordinal": 6496,
+      "variant": "patch",
+      "source_xy": [
+        2448,
+        2912
+      ],
+      "size": [
+        256,
+        64
+      ],
+      "expected_rawRGBA_sha256": "81e1ef287a4bc441ccc213a1df252b95b3fee157821413280f8e396b9b520914",
+      "newPNG": "assets/images/png/patch__CosmoGameOverLiteBG__1__6496.png",
+      "new_rawRGBA_sha256": "f0bc7b8e2068919c74aa953db28981b8a158406f86c3c41e47fc23ce586356b9",
+      "approved_mask": "assets/images/masks/patch__CosmoGameOverLiteBG__1__6496.png",
+      "newPNG_sha256": "96d2d477aeaa7a9d0bc16f67db5b2530be9a6f8891c934c1937184bf113a5997",
+      "approved_mask_png_sha256": "3cdd7414fb4086cfbd15f866cc7e20f0c554d2f740d1a46151de0e796bfb1427"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "Observe",
+      "index": 1,
+      "ordinal": 6551,
+      "variant": "jar",
+      "source_xy": [
+        8,
+        1224
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "db7463f6ff674b7341a8b46066549bf1816f6cdda31825c5d5a4a8db7f215e7c",
+      "newPNG": "assets/images/png/jar__Observe__1__6551.png",
+      "new_rawRGBA_sha256": "e21c3287baa9b492eb220e6ece5ca8b35aa45578500ac1837f0e327042f78856",
+      "approved_mask": "assets/images/masks/jar__Observe__1__6551.png",
+      "newPNG_sha256": "93d74bd5258f4aded74a8d36a1b4a33c08e14677acbac7e555209c92349a6814",
+      "approved_mask_png_sha256": "c2058697e3017b8c7df3cbbf42f4bf5ac6bffb6679d134484b0da3c270bf7b3e"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "Observe",
+      "index": 1,
+      "ordinal": 6795,
+      "variant": "patch",
+      "source_xy": [
+        8,
+        1224
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "db7463f6ff674b7341a8b46066549bf1816f6cdda31825c5d5a4a8db7f215e7c",
+      "newPNG": "assets/images/png/patch__Observe__1__6795.png",
+      "new_rawRGBA_sha256": "e21c3287baa9b492eb220e6ece5ca8b35aa45578500ac1837f0e327042f78856",
+      "approved_mask": "assets/images/masks/patch__Observe__1__6795.png",
+      "newPNG_sha256": "93d74bd5258f4aded74a8d36a1b4a33c08e14677acbac7e555209c92349a6814",
+      "approved_mask_png_sha256": "c2058697e3017b8c7df3cbbf42f4bf5ac6bffb6679d134484b0da3c270bf7b3e"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "ObserveClose",
+      "index": 1,
+      "ordinal": 6552,
+      "variant": "jar",
+      "source_xy": [
+        8,
+        992
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "3a5df41a4b2cf54e2d2db8b3a261c7b229574cca5ae636d19c5c37b132eaf3d2",
+      "newPNG": "assets/images/png/jar__ObserveClose__1__6552.png",
+      "new_rawRGBA_sha256": "99394eda487c3a89cfc01848a51b0b65a24da8fde3b057dc659cfc77f872d120",
+      "approved_mask": "assets/images/masks/jar__ObserveClose__1__6552.png",
+      "newPNG_sha256": "cdaa8456da3c7a3e6aa8c2be8711e36cb5aa813384eedac40bb50886e0885a7a",
+      "approved_mask_png_sha256": "641d7b2a5b6f083322b5a774245b98dee678f36c0c6e90471ebf365d3ec90d22"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "ObserveClose",
+      "index": 1,
+      "ordinal": 6796,
+      "variant": "patch",
+      "source_xy": [
+        8,
+        992
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "3a5df41a4b2cf54e2d2db8b3a261c7b229574cca5ae636d19c5c37b132eaf3d2",
+      "newPNG": "assets/images/png/patch__ObserveClose__1__6796.png",
+      "new_rawRGBA_sha256": "99394eda487c3a89cfc01848a51b0b65a24da8fde3b057dc659cfc77f872d120",
+      "approved_mask": "assets/images/masks/patch__ObserveClose__1__6796.png",
+      "newPNG_sha256": "cdaa8456da3c7a3e6aa8c2be8711e36cb5aa813384eedac40bb50886e0885a7a",
+      "approved_mask_png_sha256": "641d7b2a5b6f083322b5a774245b98dee678f36c0c6e90471ebf365d3ec90d22"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "ObserveOpen",
+      "index": 4,
+      "ordinal": 6553,
+      "variant": "jar",
+      "source_xy": [
+        8,
+        992
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "3a5df41a4b2cf54e2d2db8b3a261c7b229574cca5ae636d19c5c37b132eaf3d2",
+      "newPNG": "assets/images/png/jar__ObserveOpen__4__6553.png",
+      "new_rawRGBA_sha256": "99394eda487c3a89cfc01848a51b0b65a24da8fde3b057dc659cfc77f872d120",
+      "approved_mask": "assets/images/masks/jar__ObserveOpen__4__6553.png",
+      "newPNG_sha256": "cdaa8456da3c7a3e6aa8c2be8711e36cb5aa813384eedac40bb50886e0885a7a",
+      "approved_mask_png_sha256": "641d7b2a5b6f083322b5a774245b98dee678f36c0c6e90471ebf365d3ec90d22"
+    },
+    {
+      "workorder_id": "IMG-020",
+      "logical_name": "ObserveOpen",
+      "index": 4,
+      "ordinal": 6797,
+      "variant": "patch",
+      "source_xy": [
+        8,
+        992
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "3a5df41a4b2cf54e2d2db8b3a261c7b229574cca5ae636d19c5c37b132eaf3d2",
+      "newPNG": "assets/images/png/patch__ObserveOpen__4__6797.png",
+      "new_rawRGBA_sha256": "99394eda487c3a89cfc01848a51b0b65a24da8fde3b057dc659cfc77f872d120",
+      "approved_mask": "assets/images/masks/patch__ObserveOpen__4__6797.png",
+      "newPNG_sha256": "cdaa8456da3c7a3e6aa8c2be8711e36cb5aa813384eedac40bb50886e0885a7a",
+      "approved_mask_png_sha256": "641d7b2a5b6f083322b5a774245b98dee678f36c0c6e90471ebf365d3ec90d22"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItem",
+      "index": 1,
+      "ordinal": 6797,
+      "variant": "jar",
+      "source_xy": [
+        8,
+        64
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2bd7787f5620199ea55a9038bacf1a1144f822439d1beb3476bf61746fb948b9",
+      "newPNG": "assets/images/png/jar__SelectItem__1__6797.png",
+      "new_rawRGBA_sha256": "7c40bb2f8ceed00e841d7f1dd4f4d7895e7d859496e9d078847351286c623320",
+      "approved_mask": "assets/images/masks/jar__SelectItem__1__6797.png",
+      "newPNG_sha256": "a5ffda1df07fa6b4511c03c67e9e65e1305ed9ab2304272b87520a14f104ef98",
+      "approved_mask_png_sha256": "34883ee4580c0987c34528dc0ed45b1c1aced9d70c2af2cf06f61fc517e886f6"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItem",
+      "index": 1,
+      "ordinal": 7041,
+      "variant": "patch",
+      "source_xy": [
+        8,
+        64
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2bd7787f5620199ea55a9038bacf1a1144f822439d1beb3476bf61746fb948b9",
+      "newPNG": "assets/images/png/patch__SelectItem__1__7041.png",
+      "new_rawRGBA_sha256": "7c40bb2f8ceed00e841d7f1dd4f4d7895e7d859496e9d078847351286c623320",
+      "approved_mask": "assets/images/masks/patch__SelectItem__1__7041.png",
+      "newPNG_sha256": "a5ffda1df07fa6b4511c03c67e9e65e1305ed9ab2304272b87520a14f104ef98",
+      "approved_mask_png_sha256": "34883ee4580c0987c34528dc0ed45b1c1aced9d70c2af2cf06f61fc517e886f6"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItemClose",
+      "index": 1,
+      "ordinal": 6798,
+      "variant": "jar",
+      "source_xy": [
+        3168,
+        3864
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "dc10951d856f720a7184c828cc21dae557e428ae896c32e4056cd336cc91f276",
+      "newPNG": "assets/images/png/jar__SelectItemClose__1__6798.png",
+      "new_rawRGBA_sha256": "85d0fe0bee3a4bdec92e0f413e95a35bb9dac07ef481183007752b827756eea6",
+      "approved_mask": "assets/images/masks/jar__SelectItemClose__1__6798.png",
+      "newPNG_sha256": "4a89053909b5a6df9db96db6b64617fe0511131d634e650448ff5769e930a605",
+      "approved_mask_png_sha256": "d737205e64f94aa4a3642018046311cf9fda9793a33e1727d0084f048123585c"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItemClose",
+      "index": 1,
+      "ordinal": 7042,
+      "variant": "patch",
+      "source_xy": [
+        3168,
+        3864
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "dc10951d856f720a7184c828cc21dae557e428ae896c32e4056cd336cc91f276",
+      "newPNG": "assets/images/png/patch__SelectItemClose__1__7042.png",
+      "new_rawRGBA_sha256": "85d0fe0bee3a4bdec92e0f413e95a35bb9dac07ef481183007752b827756eea6",
+      "approved_mask": "assets/images/masks/patch__SelectItemClose__1__7042.png",
+      "newPNG_sha256": "4a89053909b5a6df9db96db6b64617fe0511131d634e650448ff5769e930a605",
+      "approved_mask_png_sha256": "d737205e64f94aa4a3642018046311cf9fda9793a33e1727d0084f048123585c"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItemOpen",
+      "index": 4,
+      "ordinal": 6799,
+      "variant": "jar",
+      "source_xy": [
+        3168,
+        3864
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "dc10951d856f720a7184c828cc21dae557e428ae896c32e4056cd336cc91f276",
+      "newPNG": "assets/images/png/jar__SelectItemOpen__4__6799.png",
+      "new_rawRGBA_sha256": "85d0fe0bee3a4bdec92e0f413e95a35bb9dac07ef481183007752b827756eea6",
+      "approved_mask": "assets/images/masks/jar__SelectItemOpen__4__6799.png",
+      "newPNG_sha256": "4a89053909b5a6df9db96db6b64617fe0511131d634e650448ff5769e930a605",
+      "approved_mask_png_sha256": "d737205e64f94aa4a3642018046311cf9fda9793a33e1727d0084f048123585c"
+    },
+    {
+      "workorder_id": "IMG-021",
+      "logical_name": "SelectItemOpen",
+      "index": 4,
+      "ordinal": 7043,
+      "variant": "patch",
+      "source_xy": [
+        3168,
+        3864
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "dc10951d856f720a7184c828cc21dae557e428ae896c32e4056cd336cc91f276",
+      "newPNG": "assets/images/png/patch__SelectItemOpen__4__7043.png",
+      "new_rawRGBA_sha256": "85d0fe0bee3a4bdec92e0f413e95a35bb9dac07ef481183007752b827756eea6",
+      "approved_mask": "assets/images/masks/patch__SelectItemOpen__4__7043.png",
+      "newPNG_sha256": "4a89053909b5a6df9db96db6b64617fe0511131d634e650448ff5769e930a605",
+      "approved_mask_png_sha256": "d737205e64f94aa4a3642018046311cf9fda9793a33e1727d0084f048123585c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgram",
+      "index": 1,
+      "ordinal": 6804,
+      "variant": "jar",
+      "source_xy": [
+        800,
+        2680
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "ba1cfb89374840406fecedfb90f27d5aee1b7a1ab8b82d80973062e49478eb8c",
+      "newPNG": "assets/images/png/jar__SelectProgram__1__6804.png",
+      "new_rawRGBA_sha256": "74dc22b4d82975d2137e0182fd181103cafbc4704a7db5be4d6529719fa52b84",
+      "approved_mask": "assets/images/masks/jar__SelectProgram__1__6804.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgram",
+      "index": 1,
+      "ordinal": 7048,
+      "variant": "patch",
+      "source_xy": [
+        3504,
+        3200
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "ba1cfb89374840406fecedfb90f27d5aee1b7a1ab8b82d80973062e49478eb8c",
+      "newPNG": "assets/images/png/patch__SelectProgram__1__7048.png",
+      "new_rawRGBA_sha256": "74dc22b4d82975d2137e0182fd181103cafbc4704a7db5be4d6529719fa52b84",
+      "approved_mask": "assets/images/masks/patch__SelectProgram__1__7048.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgramClose",
+      "index": 1,
+      "ordinal": 6805,
+      "variant": "jar",
+      "source_xy": [
+        800,
+        2448
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2d9244cdd1a8619c828f4a0a833dac7c21bc45ccf902c9f9eb0d2d2d2c959418",
+      "newPNG": "assets/images/png/jar__SelectProgramClose__1__6805.png",
+      "new_rawRGBA_sha256": "8e28a2f9e437e2a2f6e38960c1b91b9942c09873c3b8815da58d3e863e7c2a5f",
+      "approved_mask": "assets/images/masks/jar__SelectProgramClose__1__6805.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgramClose",
+      "index": 1,
+      "ordinal": 7049,
+      "variant": "patch",
+      "source_xy": [
+        3504,
+        2968
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2d9244cdd1a8619c828f4a0a833dac7c21bc45ccf902c9f9eb0d2d2d2c959418",
+      "newPNG": "assets/images/png/patch__SelectProgramClose__1__7049.png",
+      "new_rawRGBA_sha256": "8e28a2f9e437e2a2f6e38960c1b91b9942c09873c3b8815da58d3e863e7c2a5f",
+      "approved_mask": "assets/images/masks/patch__SelectProgramClose__1__7049.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgramOpen",
+      "index": 4,
+      "ordinal": 6806,
+      "variant": "jar",
+      "source_xy": [
+        800,
+        2448
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2d9244cdd1a8619c828f4a0a833dac7c21bc45ccf902c9f9eb0d2d2d2c959418",
+      "newPNG": "assets/images/png/jar__SelectProgramOpen__4__6806.png",
+      "new_rawRGBA_sha256": "8e28a2f9e437e2a2f6e38960c1b91b9942c09873c3b8815da58d3e863e7c2a5f",
+      "approved_mask": "assets/images/masks/jar__SelectProgramOpen__4__6806.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-022",
+      "logical_name": "SelectProgramOpen",
+      "index": 4,
+      "ordinal": 7050,
+      "variant": "patch",
+      "source_xy": [
+        3504,
+        2968
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "2d9244cdd1a8619c828f4a0a833dac7c21bc45ccf902c9f9eb0d2d2d2c959418",
+      "newPNG": "assets/images/png/patch__SelectProgramOpen__4__7050.png",
+      "new_rawRGBA_sha256": "8e28a2f9e437e2a2f6e38960c1b91b9942c09873c3b8815da58d3e863e7c2a5f",
+      "approved_mask": "assets/images/masks/patch__SelectProgramOpen__4__7050.png",
+      "newPNG_sha256": "15d6ec2c3980af63fff455f750b5d08cb537a2a92f4733ff57b5c866e492999d",
+      "approved_mask_png_sha256": "f5321d8c2be6a7ae55087f12ca7fd81daabe2ac0b0c5c39cdcfe42e0503d650c"
+    },
+    {
+      "workorder_id": "IMG-023",
+      "logical_name": "CosmoHUDUpdatedFlagDefault",
+      "index": 1,
+      "ordinal": 6268,
+      "variant": "jar",
+      "source_xy": [
+        2008,
+        288
+      ],
+      "size": [
+        32,
+        8
+      ],
+      "expected_rawRGBA_sha256": "99ed0edfbe9afb08a9c798ed30d451dc8c207489bcd1039708d064e7a6dfa3f8",
+      "newPNG": "assets/images/png/jar__CosmoHUDUpdatedFlagDefault__1__6268.png",
+      "new_rawRGBA_sha256": "c928ce68798221578d5d3a879a224572ce31fde732256aa8d88cc16ffb02f915",
+      "approved_mask": "assets/images/masks/jar__CosmoHUDUpdatedFlagDefault__1__6268.png",
+      "newPNG_sha256": "1ea3d01f66c0e773c13357720224e1bd3d2a81660b98769ee25a2f3d20990cdc",
+      "approved_mask_png_sha256": "772f0491f0a66a3cdca6e4a0f3e98bf8e18cd835bb011f89a24852fad875f305"
+    },
+    {
+      "workorder_id": "IMG-023",
+      "logical_name": "CosmoHUDUpdatedFlagDefault",
+      "index": 1,
+      "ordinal": 6512,
+      "variant": "patch",
+      "source_xy": [
+        536,
+        3304
+      ],
+      "size": [
+        32,
+        8
+      ],
+      "expected_rawRGBA_sha256": "99ed0edfbe9afb08a9c798ed30d451dc8c207489bcd1039708d064e7a6dfa3f8",
+      "newPNG": "assets/images/png/patch__CosmoHUDUpdatedFlagDefault__1__6512.png",
+      "new_rawRGBA_sha256": "c928ce68798221578d5d3a879a224572ce31fde732256aa8d88cc16ffb02f915",
+      "approved_mask": "assets/images/masks/patch__CosmoHUDUpdatedFlagDefault__1__6512.png",
+      "newPNG_sha256": "1ea3d01f66c0e773c13357720224e1bd3d2a81660b98769ee25a2f3d20990cdc",
+      "approved_mask_png_sha256": "772f0491f0a66a3cdca6e4a0f3e98bf8e18cd835bb011f89a24852fad875f305"
+    },
+    {
+      "workorder_id": "IMG-024",
+      "logical_name": "ClassicNameEntryBoxOKActive",
+      "index": 1,
+      "ordinal": 2908,
+      "variant": "jar",
+      "source_xy": [
+        2408,
+        1260
+      ],
+      "size": [
+        16,
+        8
+      ],
+      "expected_rawRGBA_sha256": "a66234b3120a7b014a457495a5e6a6aedca76d4807fb56aea18d5aa7c39e9844",
+      "newPNG": "assets/images/png/jar__ClassicNameEntryBoxOKActive__1__2908.png",
+      "new_rawRGBA_sha256": "0e9a34cf5321df6d6f07018f583a0c6b0942d78c4e56fa0465f50311e115b2f1",
+      "approved_mask": "assets/images/masks/jar__ClassicNameEntryBoxOKActive__1__2908.png",
+      "newPNG_sha256": "d0d6b7bbb6550bc14a1e718680577ac0a0242fa08bbccc5785d4ad4862beeac6",
+      "approved_mask_png_sha256": "c13a89ec79bff1fc03d14f102ff817609cb076229ae30d9063090f3604622d70"
+    },
+    {
+      "workorder_id": "IMG-024",
+      "logical_name": "ClassicNameEntryBoxOKActive",
+      "index": 1,
+      "ordinal": 2908,
+      "variant": "patch",
+      "source_xy": [
+        1104,
+        3160
+      ],
+      "size": [
+        16,
+        8
+      ],
+      "expected_rawRGBA_sha256": "a66234b3120a7b014a457495a5e6a6aedca76d4807fb56aea18d5aa7c39e9844",
+      "newPNG": "assets/images/png/patch__ClassicNameEntryBoxOKActive__1__2908.png",
+      "new_rawRGBA_sha256": "0e9a34cf5321df6d6f07018f583a0c6b0942d78c4e56fa0465f50311e115b2f1",
+      "approved_mask": "assets/images/masks/patch__ClassicNameEntryBoxOKActive__1__2908.png",
+      "newPNG_sha256": "d0d6b7bbb6550bc14a1e718680577ac0a0242fa08bbccc5785d4ad4862beeac6",
+      "approved_mask_png_sha256": "c13a89ec79bff1fc03d14f102ff817609cb076229ae30d9063090f3604622d70"
+    },
+    {
+      "workorder_id": "IMG-025",
+      "logical_name": "ClassicNameEntryBoxOKInactive",
+      "index": 1,
+      "ordinal": 2909,
+      "variant": "jar",
+      "source_xy": [
+        3382,
+        2864
+      ],
+      "size": [
+        16,
+        8
+      ],
+      "expected_rawRGBA_sha256": "a8ed69acf211854700a7ebfad526dace279c1d9fd36acc17d5827733a23c8335",
+      "newPNG": "assets/images/png/jar__ClassicNameEntryBoxOKInactive__1__2909.png",
+      "new_rawRGBA_sha256": "0e9a34cf5321df6d6f07018f583a0c6b0942d78c4e56fa0465f50311e115b2f1",
+      "approved_mask": "assets/images/masks/jar__ClassicNameEntryBoxOKInactive__1__2909.png",
+      "newPNG_sha256": "8944d24323315ce94f43a8d0a66a896b02b8c3988ab7730f3f65484fc4c94598",
+      "approved_mask_png_sha256": "a9597dada8babd8bddac76ebd67e5f74c54570d84464858745fb06ab01ba7fff"
+    },
+    {
+      "workorder_id": "IMG-025",
+      "logical_name": "ClassicNameEntryBoxOKInactive",
+      "index": 1,
+      "ordinal": 2909,
+      "variant": "patch",
+      "source_xy": [
+        3194,
+        2064
+      ],
+      "size": [
+        16,
+        8
+      ],
+      "expected_rawRGBA_sha256": "a8ed69acf211854700a7ebfad526dace279c1d9fd36acc17d5827733a23c8335",
+      "newPNG": "assets/images/png/patch__ClassicNameEntryBoxOKInactive__1__2909.png",
+      "new_rawRGBA_sha256": "0e9a34cf5321df6d6f07018f583a0c6b0942d78c4e56fa0465f50311e115b2f1",
+      "approved_mask": "assets/images/masks/patch__ClassicNameEntryBoxOKInactive__1__2909.png",
+      "newPNG_sha256": "8944d24323315ce94f43a8d0a66a896b02b8c3988ab7730f3f65484fc4c94598",
+      "approved_mask_png_sha256": "a9597dada8babd8bddac76ebd67e5f74c54570d84464858745fb06ab01ba7fff"
+    },
+    {
+      "workorder_id": "IMG-026",
+      "logical_name": "SelectAgentClose",
+      "index": 1,
+      "ordinal": 6795,
+      "variant": "jar",
+      "source_xy": [
+        800,
+        2912
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "06f79656d64baeca94020ee1c2a2c546c31664d4cf14991c992347c694265a8d",
+      "newPNG": "assets/images/png/jar__SelectAgentClose__1__6795.png",
+      "new_rawRGBA_sha256": "d6b8d69d0edb6a6ea677dec800152485a240e03c98bd32cf075f74357933c01f",
+      "approved_mask": "assets/images/masks/jar__SelectAgentClose__1__6795.png",
+      "newPNG_sha256": "4e4f1fbd0cfef7ddfc362f698848af45c764732a70f28c1785a843c2ae8f5d66",
+      "approved_mask_png_sha256": "767ca39171854d6ba32f912de368efdbe2dd0708119826e823ffbd59a8e3f8db"
+    },
+    {
+      "workorder_id": "IMG-026",
+      "logical_name": "SelectAgentClose",
+      "index": 1,
+      "ordinal": 7039,
+      "variant": "patch",
+      "source_xy": [
+        3240,
+        2504
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "06f79656d64baeca94020ee1c2a2c546c31664d4cf14991c992347c694265a8d",
+      "newPNG": "assets/images/png/patch__SelectAgentClose__1__7039.png",
+      "new_rawRGBA_sha256": "d6b8d69d0edb6a6ea677dec800152485a240e03c98bd32cf075f74357933c01f",
+      "approved_mask": "assets/images/masks/patch__SelectAgentClose__1__7039.png",
+      "newPNG_sha256": "4e4f1fbd0cfef7ddfc362f698848af45c764732a70f28c1785a843c2ae8f5d66",
+      "approved_mask_png_sha256": "767ca39171854d6ba32f912de368efdbe2dd0708119826e823ffbd59a8e3f8db"
+    },
+    {
+      "workorder_id": "IMG-026",
+      "logical_name": "SelectAgentOpen",
+      "index": 4,
+      "ordinal": 6796,
+      "variant": "jar",
+      "source_xy": [
+        800,
+        2912
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "06f79656d64baeca94020ee1c2a2c546c31664d4cf14991c992347c694265a8d",
+      "newPNG": "assets/images/png/jar__SelectAgentOpen__4__6796.png",
+      "new_rawRGBA_sha256": "d6b8d69d0edb6a6ea677dec800152485a240e03c98bd32cf075f74357933c01f",
+      "approved_mask": "assets/images/masks/jar__SelectAgentOpen__4__6796.png",
+      "newPNG_sha256": "4e4f1fbd0cfef7ddfc362f698848af45c764732a70f28c1785a843c2ae8f5d66",
+      "approved_mask_png_sha256": "767ca39171854d6ba32f912de368efdbe2dd0708119826e823ffbd59a8e3f8db"
+    },
+    {
+      "workorder_id": "IMG-026",
+      "logical_name": "SelectAgentOpen",
+      "index": 4,
+      "ordinal": 7040,
+      "variant": "patch",
+      "source_xy": [
+        3240,
+        2504
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "06f79656d64baeca94020ee1c2a2c546c31664d4cf14991c992347c694265a8d",
+      "newPNG": "assets/images/png/patch__SelectAgentOpen__4__7040.png",
+      "new_rawRGBA_sha256": "d6b8d69d0edb6a6ea677dec800152485a240e03c98bd32cf075f74357933c01f",
+      "approved_mask": "assets/images/masks/patch__SelectAgentOpen__4__7040.png",
+      "newPNG_sha256": "4e4f1fbd0cfef7ddfc362f698848af45c764732a70f28c1785a843c2ae8f5d66",
+      "approved_mask_png_sha256": "767ca39171854d6ba32f912de368efdbe2dd0708119826e823ffbd59a8e3f8db"
+    },
+    {
+      "workorder_id": "IMG-027",
+      "logical_name": "SelectMapClose",
+      "index": 1,
+      "ordinal": 6800,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        1608
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e39814a986af263f8070ce0a01a729b091dd2744204fe55e4d4dd9516c311ade",
+      "newPNG": "assets/images/png/jar__SelectMapClose__1__6800.png",
+      "new_rawRGBA_sha256": "895bf670ed146ac7cb821c55bd05ef1440ddddb347af27225295f11ecaee8bf0",
+      "approved_mask": "assets/images/masks/jar__SelectMapClose__1__6800.png",
+      "newPNG_sha256": "86baf231d15260bbf10dccce58eff2d9241906c41ec938637287d2fb7ba4f064",
+      "approved_mask_png_sha256": "6ae0fc90557b46f6b13ee272a965923c9b4e0c05ff6e013454de051b31c54893"
+    },
+    {
+      "workorder_id": "IMG-027",
+      "logical_name": "SelectMapClose",
+      "index": 1,
+      "ordinal": 7044,
+      "variant": "patch",
+      "source_xy": [
+        2712,
+        2568
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e39814a986af263f8070ce0a01a729b091dd2744204fe55e4d4dd9516c311ade",
+      "newPNG": "assets/images/png/patch__SelectMapClose__1__7044.png",
+      "new_rawRGBA_sha256": "895bf670ed146ac7cb821c55bd05ef1440ddddb347af27225295f11ecaee8bf0",
+      "approved_mask": "assets/images/masks/patch__SelectMapClose__1__7044.png",
+      "newPNG_sha256": "86baf231d15260bbf10dccce58eff2d9241906c41ec938637287d2fb7ba4f064",
+      "approved_mask_png_sha256": "6ae0fc90557b46f6b13ee272a965923c9b4e0c05ff6e013454de051b31c54893"
+    },
+    {
+      "workorder_id": "IMG-027",
+      "logical_name": "SelectMapOpen",
+      "index": 4,
+      "ordinal": 6801,
+      "variant": "jar",
+      "source_xy": [
+        536,
+        1608
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e39814a986af263f8070ce0a01a729b091dd2744204fe55e4d4dd9516c311ade",
+      "newPNG": "assets/images/png/jar__SelectMapOpen__4__6801.png",
+      "new_rawRGBA_sha256": "895bf670ed146ac7cb821c55bd05ef1440ddddb347af27225295f11ecaee8bf0",
+      "approved_mask": "assets/images/masks/jar__SelectMapOpen__4__6801.png",
+      "newPNG_sha256": "86baf231d15260bbf10dccce58eff2d9241906c41ec938637287d2fb7ba4f064",
+      "approved_mask_png_sha256": "6ae0fc90557b46f6b13ee272a965923c9b4e0c05ff6e013454de051b31c54893"
+    },
+    {
+      "workorder_id": "IMG-027",
+      "logical_name": "SelectMapOpen",
+      "index": 4,
+      "ordinal": 7045,
+      "variant": "patch",
+      "source_xy": [
+        2712,
+        2568
+      ],
+      "size": [
+        256,
+        224
+      ],
+      "expected_rawRGBA_sha256": "e39814a986af263f8070ce0a01a729b091dd2744204fe55e4d4dd9516c311ade",
+      "newPNG": "assets/images/png/patch__SelectMapOpen__4__7045.png",
+      "new_rawRGBA_sha256": "895bf670ed146ac7cb821c55bd05ef1440ddddb347af27225295f11ecaee8bf0",
+      "approved_mask": "assets/images/masks/patch__SelectMapOpen__4__7045.png",
+      "newPNG_sha256": "86baf231d15260bbf10dccce58eff2d9241906c41ec938637287d2fb7ba4f064",
+      "approved_mask_png_sha256": "6ae0fc90557b46f6b13ee272a965923c9b4e0c05ff6e013454de051b31c54893"
+    },
+    {
+      "workorder_id": "IMG-030",
+      "logical_name": "ClassicTileset0",
+      "index": -1,
+      "ordinal": 4268,
+      "variant": "jar",
+      "source_xy": [
+        1464,
+        2712
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "54bb5971a5e46a880b79ad41d405e9e16aacb973b173f8c42242c9f15b683f25",
+      "newPNG": "assets/images/png/jar__ClassicTileset0__-1__4268.png",
+      "new_rawRGBA_sha256": "dd63baff0cc2efba49e9ca2ec2cdad35ad0ff74a779c4100fc0f585d9ac96caf",
+      "approved_mask": "assets/images/masks/jar__ClassicTileset0__-1__4268.png",
+      "newPNG_sha256": "ca03f8235e780396d17ec5d23baa30f79df2b031cb8a45f2d55ce0da53eec60b",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-030",
+      "logical_name": "ClassicTileset0",
+      "index": -1,
+      "ordinal": 4512,
+      "variant": "patch",
+      "source_xy": [
+        768,
+        520
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "54bb5971a5e46a880b79ad41d405e9e16aacb973b173f8c42242c9f15b683f25",
+      "newPNG": "assets/images/png/patch__ClassicTileset0__-1__4512.png",
+      "new_rawRGBA_sha256": "dd63baff0cc2efba49e9ca2ec2cdad35ad0ff74a779c4100fc0f585d9ac96caf",
+      "approved_mask": "assets/images/masks/patch__ClassicTileset0__-1__4512.png",
+      "newPNG_sha256": "ca03f8235e780396d17ec5d23baa30f79df2b031cb8a45f2d55ce0da53eec60b",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-031",
+      "logical_name": "ClassicTileset0A",
+      "index": -1,
+      "ordinal": 4269,
+      "variant": "jar",
+      "source_xy": [
+        1328,
+        2520
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "expected_rawRGBA_sha256": "d1c436fd52079e178acefca0fd2516bf9cc5a81d632f676bce0ae8525e76ea69",
+      "newPNG": "assets/images/png/jar__ClassicTileset0A__-1__4269.png",
+      "new_rawRGBA_sha256": "11532247ae9f8edaf0ace6e0959c09ec75b954838ed77b8058e9571e3ee013d3",
+      "approved_mask": "assets/images/masks/jar__ClassicTileset0A__-1__4269.png",
+      "newPNG_sha256": "66ec7a85a2c1ef84a3edc2563c478f54a3cb3dd3d47734fb1f90932f1a44209c",
+      "approved_mask_png_sha256": "e3b9dabba8731b072db76bb7f6435bc4b33d154f090be03e59072b1a8affaa95"
+    },
+    {
+      "workorder_id": "IMG-031",
+      "logical_name": "ClassicTileset0A",
+      "index": -1,
+      "ordinal": 4513,
+      "variant": "patch",
+      "source_xy": [
+        1232,
+        2376
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "expected_rawRGBA_sha256": "d1c436fd52079e178acefca0fd2516bf9cc5a81d632f676bce0ae8525e76ea69",
+      "newPNG": "assets/images/png/patch__ClassicTileset0A__-1__4513.png",
+      "new_rawRGBA_sha256": "11532247ae9f8edaf0ace6e0959c09ec75b954838ed77b8058e9571e3ee013d3",
+      "approved_mask": "assets/images/masks/patch__ClassicTileset0A__-1__4513.png",
+      "newPNG_sha256": "66ec7a85a2c1ef84a3edc2563c478f54a3cb3dd3d47734fb1f90932f1a44209c",
+      "approved_mask_png_sha256": "e3b9dabba8731b072db76bb7f6435bc4b33d154f090be03e59072b1a8affaa95"
+    },
+    {
+      "workorder_id": "IMG-032",
+      "logical_name": "ClassicTileset0B",
+      "index": -1,
+      "ordinal": 4270,
+      "variant": "jar",
+      "source_xy": [
+        1464,
+        2576
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "expected_rawRGBA_sha256": "da2dcc59f1bd98f0f84247a7c1cd1b554aa765ff1abb099a1d905bbb631e35bf",
+      "newPNG": "assets/images/png/jar__ClassicTileset0B__-1__4270.png",
+      "new_rawRGBA_sha256": "632818f395b3cdf41feaf1377ae36e585842e34966aa6fc518872ae66104d7ed",
+      "approved_mask": "assets/images/masks/jar__ClassicTileset0B__-1__4270.png",
+      "newPNG_sha256": "ba434f91e1639aaef761461fa665562cd3dfbf3ad9030c16defe7bcd1e1e90c7",
+      "approved_mask_png_sha256": "e3b9dabba8731b072db76bb7f6435bc4b33d154f090be03e59072b1a8affaa95"
+    },
+    {
+      "workorder_id": "IMG-032",
+      "logical_name": "ClassicTileset0B",
+      "index": -1,
+      "ordinal": 4514,
+      "variant": "patch",
+      "source_xy": [
+        1232,
+        2240
+      ],
+      "size": [
+        128,
+        128
+      ],
+      "expected_rawRGBA_sha256": "da2dcc59f1bd98f0f84247a7c1cd1b554aa765ff1abb099a1d905bbb631e35bf",
+      "newPNG": "assets/images/png/patch__ClassicTileset0B__-1__4514.png",
+      "new_rawRGBA_sha256": "632818f395b3cdf41feaf1377ae36e585842e34966aa6fc518872ae66104d7ed",
+      "approved_mask": "assets/images/masks/patch__ClassicTileset0B__-1__4514.png",
+      "newPNG_sha256": "ba434f91e1639aaef761461fa665562cd3dfbf3ad9030c16defe7bcd1e1e90c7",
+      "approved_mask_png_sha256": "e3b9dabba8731b072db76bb7f6435bc4b33d154f090be03e59072b1a8affaa95"
+    },
+    {
+      "workorder_id": "IMG-033",
+      "logical_name": "ClassicTileset0C",
+      "index": -1,
+      "ordinal": 4271,
+      "variant": "jar",
+      "source_xy": [
+        1328,
+        2352
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "0d3bf58fbd2be6417d5f93aaa5286ab4f79ee21603fe43b7fd1b6851860571f4",
+      "newPNG": "assets/images/png/jar__ClassicTileset0C__-1__4271.png",
+      "new_rawRGBA_sha256": "eda9af7f20976d3ff19a0922afc2a3307e0514aa69b7cef49e8328166a83cf68",
+      "approved_mask": "assets/images/masks/jar__ClassicTileset0C__-1__4271.png",
+      "newPNG_sha256": "918ea0109247f6b5bb1e9d943228b34ec1b79c351a172795caa8edb58cc30d5a",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-033",
+      "logical_name": "ClassicTileset0C",
+      "index": -1,
+      "ordinal": 4515,
+      "variant": "patch",
+      "source_xy": [
+        1232,
+        2072
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "0d3bf58fbd2be6417d5f93aaa5286ab4f79ee21603fe43b7fd1b6851860571f4",
+      "newPNG": "assets/images/png/patch__ClassicTileset0C__-1__4515.png",
+      "new_rawRGBA_sha256": "eda9af7f20976d3ff19a0922afc2a3307e0514aa69b7cef49e8328166a83cf68",
+      "approved_mask": "assets/images/masks/patch__ClassicTileset0C__-1__4515.png",
+      "newPNG_sha256": "918ea0109247f6b5bb1e9d943228b34ec1b79c351a172795caa8edb58cc30d5a",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-034",
+      "logical_name": "ClassicTileset0F",
+      "index": -1,
+      "ordinal": 4272,
+      "variant": "jar",
+      "source_xy": [
+        1464,
+        2408
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "9ea1e33d94e47bbddfcc29fee68a4666bf4027dbcf8f03d9c1c98f084b35c1af",
+      "newPNG": "assets/images/png/jar__ClassicTileset0F__-1__4272.png",
+      "new_rawRGBA_sha256": "1f1814d619585e35a8701fc17839ad844d48853d53e39e909cacf7fa2569f6d2",
+      "approved_mask": "assets/images/masks/jar__ClassicTileset0F__-1__4272.png",
+      "newPNG_sha256": "d38f6db1771516869539512136b0e017dc8be42d549f41808c6015c58d5a2871",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-034",
+      "logical_name": "ClassicTileset0F",
+      "index": -1,
+      "ordinal": 4516,
+      "variant": "patch",
+      "source_xy": [
+        1232,
+        1904
+      ],
+      "size": [
+        128,
+        160
+      ],
+      "expected_rawRGBA_sha256": "9ea1e33d94e47bbddfcc29fee68a4666bf4027dbcf8f03d9c1c98f084b35c1af",
+      "newPNG": "assets/images/png/patch__ClassicTileset0F__-1__4516.png",
+      "new_rawRGBA_sha256": "1f1814d619585e35a8701fc17839ad844d48853d53e39e909cacf7fa2569f6d2",
+      "approved_mask": "assets/images/masks/patch__ClassicTileset0F__-1__4516.png",
+      "newPNG_sha256": "d38f6db1771516869539512136b0e017dc8be42d549f41808c6015c58d5a2871",
+      "approved_mask_png_sha256": "d23e8fba56cdfe061558cebbb25ac7123004220d73d74207a493f6e349a00945"
+    },
+    {
+      "workorder_id": "IMG-038",
+      "logical_name": "CosmoCasino2",
+      "index": 1,
+      "ordinal": 6101,
+      "variant": "jar",
+      "source_xy": [
+        2096,
+        2560
+      ],
+      "size": [
+        112,
+        168
+      ],
+      "expected_rawRGBA_sha256": "30e8f45c7c1708b37ded3d38ccd19eca348832ff57a681328815bce64279e6ae",
+      "newPNG": "assets/images/png/jar__CosmoCasino2__1__6101.png",
+      "new_rawRGBA_sha256": "28c1787382305a8753db1ee7bdeeff43428b98dd49661490161b1bdb8576a45d",
+      "approved_mask": "assets/images/masks/jar__CosmoCasino2__1__6101.png",
+      "newPNG_sha256": "05506f8cc2026205f980e95d62f6e3e72aa819c134a36da55af72f7defff52d2",
+      "approved_mask_png_sha256": "cae771fe9b7759323a9681118687dab9d9cb7b911a1117c000391f81e1842ce7"
+    },
+    {
+      "workorder_id": "IMG-038",
+      "logical_name": "CosmoCasino2",
+      "index": 1,
+      "ordinal": 6345,
+      "variant": "patch",
+      "source_xy": [
+        1312,
+        1392
+      ],
+      "size": [
+        112,
+        168
+      ],
+      "expected_rawRGBA_sha256": "30e8f45c7c1708b37ded3d38ccd19eca348832ff57a681328815bce64279e6ae",
+      "newPNG": "assets/images/png/patch__CosmoCasino2__1__6345.png",
+      "new_rawRGBA_sha256": "28c1787382305a8753db1ee7bdeeff43428b98dd49661490161b1bdb8576a45d",
+      "approved_mask": "assets/images/masks/patch__CosmoCasino2__1__6345.png",
+      "newPNG_sha256": "05506f8cc2026205f980e95d62f6e3e72aa819c134a36da55af72f7defff52d2",
+      "approved_mask_png_sha256": "cae771fe9b7759323a9681118687dab9d9cb7b911a1117c000391f81e1842ce7"
+    }
+  ]
+}
